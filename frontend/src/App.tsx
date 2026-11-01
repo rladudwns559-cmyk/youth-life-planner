@@ -111,7 +111,7 @@ export default function App() {
         <PortalFooter/>
       </div>}
       {(visited.has('programs')||visited.has('catalog'))&&<div data-portal-page={route==='catalog'?'catalog':'programs'} hidden={route!=='programs'&&route!=='catalog'} className="portal-page">
-        {route==='catalog'?<PageHeading page="catalog" backTo="programs" eyebrow="정부 · 지자체 공식 공고" title="청년지원사업 보기" description="분야별 공고와 신청 일정을 살펴보고, 관심 있는 사업의 공식 신청 페이지를 확인하세요."/>:<PageHeading page="programs" eyebrow="정부 · 지자체 공식 지원정보" title="나에게 필요한 청년 지원" description="지역·나이·취업·월세 조건으로 전국과 내 지역의 지원사업을 함께 찾아보세요."/>}
+        {route==='catalog'?<PageHeading page="catalog" backTo="programs" eyebrow="정부·지자체·공익기관 공고" title="청년지원사업 보기" description="분야별 공고와 신청 일정을 살펴보고, 관심 있는 사업의 공식 신청 페이지를 확인하세요."/>:<PageHeading page="programs" eyebrow="정부·지자체·공익기관 지원정보" title="나에게 필요한 청년 지원" description="지역·나이·취업·월세 조건으로 전국과 내 지역의 지원사업을 함께 찾아보세요."/>}
         <RegionalPrograms browse={route==='catalog'} listPage={route==='catalog'}/>
         {!publicBackendPending&&<details className="portal-archive"><summary>기존 자산형성 10개 기초 추천 검증 자료</summary><AssetPrograms baseline={result} after={scenarioComparison?.after} goalMonths={periodMonths}/></details>}
         <PortalFooter/>

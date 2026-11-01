@@ -29,3 +29,7 @@ local-runtime 모델·실행파일, node_modules, .venv, tmp, output, SQLite 및
 
 현재 정책 데이터·상품의 한계와 실제 지원금 0원·실제 상품 만기 계산 0개는 README에 명시했습니다.
 공개 저장소 생성과 소스 업로드는 사용자 요청으로 진행했으며 기존 Sites 자동배포 저장소와 분리했습니다. 이 저장소에 push해도 기존 공개 웹사이트가 자동으로 배포되지는 않습니다.
+
+## 2026-11-02 추천 및 공식 정보 확대
+
+공개v21의 추천 기능과 40개 금융상품/20개 지원카드를 원본에서 선택 복사했다. 최신 원본 전체 검증은 Backend12780 passed/1 skipped/1 warning,Frontend386 passed이며 공개5입력의 추천 ID를 Python과 대조했다. 상세 결과는 PRODUCT_RECOMMENDATIONS_AND_EXPANSION.md에 기록한다. 이 전체 수치는 원본의 실행 결과이고 공개 복사본 전체 회귀 재실행 실적이 아니다. 원본 은행 HTML·모델·비밀키·사용자 경제 입력은 추가하지 않았다.

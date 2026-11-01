@@ -5,17 +5,17 @@ import {beforeEach,afterEach,describe,it,expect,vi} from 'vitest';
 import ProductExplorer,{readPreparedDecision} from './ProductExplorer';
 import prepared from './public-data/product-expanded.json';
 
-beforeEach(()=>{vi.useFakeTimers({toFake:['Date']});vi.setSystemTime(new Date('2026-11-01T03:00:00Z'));localStorage.clear();vi.stubGlobal('fetch',vi.fn(()=>{throw new Error('No network allowed for discovery');}));});
+beforeEach(()=>{vi.useFakeTimers({toFake:['Date']});vi.setSystemTime(new Date('2026-11-02T03:00:00Z'));localStorage.clear();vi.stubGlobal('fetch',vi.fn(()=>{throw new Error('No network allowed for discovery');}));});
 afterEach(()=>vi.useRealTimers());
 function renderExplorer(view:ReactElement,all=false){const result=render(view);if(all)fireEvent.change(screen.getByLabelText('표시 개수'),{target:{value:'0'}});return result;}
 // Keep per-product assertions on the actual search path instead of rendering74hidden-detail cards for every input edit.
 const card=(id:string)=>{let found=document.querySelector(`[data-product-id="${id}"]`);if(!found){const product=prepared.catalog.products.find(p=>p.product_id===id)!;fireEvent.change(screen.getByLabelText('상품·조건 검색'),{target:{value:product.product_name}});found=document.querySelector(`[data-product-id="${id}"]`);}return found! as HTMLElement;};
 const edit=(id:string,value:string)=>fireEvent.change(screen.getByLabelText(id),{target:{value}});
-async function apply(monthly='300000',months='12',lump=''){edit('매월 저축할 금액',monthly);edit('목표 기간',months);edit(/예금에 넣을 목돈/ as unknown as string,lump);await userEvent.click(within(screen.getByLabelText('매월 저축할 금액').closest('form')!).getByRole('button',{name:'내 조건으로 비교'}));}
+async function apply(monthly='300000',months='12',lump=''){edit('매월 저축할 금액',monthly);edit('목표 기간',months);edit(/예금에 넣을 목돈/ as unknown as string,lump);await userEvent.click(within(screen.getByLabelText('매월 저축할 금액').closest('form')!).getByRole('button',{name:'추천 상품 보기'}));}
 
 describe('free public product discovery',()=>{
   it('shows the expanded catalog before any profile or server request',()=>{
-    renderExplorer(<ProductExplorer/>,true);expect(screen.getAllByTestId('discovery-card')).toHaveLength(prepared.catalog.products.length);expect(screen.getByText('22개 은행 · 113개 상품')).toBeVisible();
+    renderExplorer(<ProductExplorer/>,true);expect(screen.getAllByTestId('discovery-card')).toHaveLength(prepared.catalog.products.length);expect(screen.getByText('28개 은행 · 153개 상품')).toBeVisible();
     expect(screen.getByText(/국내 모든 은행·저축은행·특판을 전수 수집한 목록이 아닙/)).toBeVisible();expect(fetch).not.toHaveBeenCalled();
     expect(screen.getByLabelText('매월 저축할 금액')).toHaveValue('');expect(within(card('KAKAO-FREE-SAVINGS')).queryByText('금액·기간 비교 가능')).not.toBeInTheDocument();
   });
@@ -86,6 +86,6 @@ describe('free public product discovery',()=>{
   });
   it('reads the prepared table at the exact cap boundary rather than deriving a new formula',()=>{
     const p=prepared.catalog.products.find(p=>p.product_id==='KB-CLEAR-SKY')!;
-    expect(readPreparedDecision(p,1000000,12,'2026-11-01')).toBe('FIT');expect(readPreparedDecision(p,1000001,12,'2026-11-01')).toBe('PARTIAL');expect(readPreparedDecision(p,10000,13,'2026-11-01')).toBe('TERM');
+    expect(readPreparedDecision(p,1000000,12,'2026-11-02')).toBe('FIT');expect(readPreparedDecision(p,1000001,12,'2026-11-02')).toBe('PARTIAL');expect(readPreparedDecision(p,10000,13,'2026-11-02')).toBe('TERM');
   });
 });

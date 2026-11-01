@@ -1,0 +1,397 @@
+[
+  {
+    "monthly": 300000,
+    "months": 12,
+    "lump": null,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": "4.05",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.kakaobank.com/products/savings",
+                "title": "카카오뱅크 자유적금 공식 상품 페이지",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.11.02 계약기간별 기본금리와 자동이체 우대0.20%p. 12개월3.85%. 쿠폰은 미반영."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV2-WOORI-TOGETHER2",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": "9.00",
+            "evidence_locator": "공식 금리안내의 세전 연 기본금리, 우대는 조건 충족 시에만 적용",
+            "sources": [
+              {
+                "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010002603&PRD_YN=Y&cc=c021299%3Ac009166&withyou=PORMG0044",
+                "title": "우리은행 우리금융 다함께 적금 2 공식 상품 안내",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-10-01",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "가입대상·기간·금액·납입 방식·기본금리와 우대금리를 구분해 확인"
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "KN-BETTER-SAVING",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 게시 약정금리 [만기지급식] 기본금리 열;이외 우대 미반영",
+            "sources": [
+              {
+                "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000020178&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+                "title": "BNK경남은행 BNK더조은자유적금 공식 상품 자료",
+                "reviewed_on": "2026-11-02",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 현재 게시 약정금리의 만기지급식 기본금리 표. 금리 기준일은 본문에 명시되지 않아 null로 유지;조회2026-11-02. 우대조건·우대상한은 추천점수에 합산하지 않음."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": []
+    }
+  },
+  {
+    "monthly": 300000,
+    "months": 12,
+    "lump": 10000000,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": "4.05",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.kakaobank.com/products/savings",
+                "title": "카카오뱅크 자유적금 공식 상품 페이지",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.11.02 계약기간별 기본금리와 자동이체 우대0.20%p. 12개월3.85%. 쿠폰은 미반영."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV2-WOORI-TOGETHER2",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": "9.00",
+            "evidence_locator": "공식 금리안내의 세전 연 기본금리, 우대는 조건 충족 시에만 적용",
+            "sources": [
+              {
+                "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010002603&PRD_YN=Y&cc=c021299%3Ac009166&withyou=PORMG0044",
+                "title": "우리은행 우리금융 다함께 적금 2 공식 상품 안내",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-10-01",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "가입대상·기간·금액·납입 방식·기본금리와 우대금리를 구분해 확인"
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "KN-BETTER-SAVING",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 게시 약정금리 [만기지급식] 기본금리 열;이외 우대 미반영",
+            "sources": [
+              {
+                "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000020178&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+                "title": "BNK경남은행 BNK더조은자유적금 공식 상품 자료",
+                "reviewed_on": "2026-11-02",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 현재 게시 약정금리의 만기지급식 기본금리 표. 금리 기준일은 본문에 명시되지 않아 null로 유지;조회2026-11-02. 우대조건·우대상한은 추천점수에 합산하지 않음."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": [
+        {
+          "product_id": "PEPPER-TERM-DEPOSIT",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.95",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+                "title": "페퍼저축은행 정기예금 공식 상세",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-10-30",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.10.30 공식 단리 연이율 열. 12~18개월미만3.95%. 복리수익률4.02%와 구분."
+              }
+            ]
+          },
+          "allocation": 10000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "PEPPERS-TERM-DEPOSIT",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.95",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+                "title": "페퍼저축은행 페퍼스 정기예금 공식 상세",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-10-30",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.10.30 공식 단리 연이율 열. 12~18개월미만3.95%. 복리수익률4.02%와 구분."
+              }
+            ]
+          },
+          "allocation": 10000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV2-SH-HEY-DEPOSIT",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.91",
+            "max_total_rate_percent": "3.91",
+            "evidence_locator": "공식 금리안내의 세전 연 기본금리, 우대는 조건 충족 시에만 적용",
+            "sources": [
+              {
+                "url": "https://www.suhyup-bank.com/ib20/mnu/FPD00124?ib20_wc=WID05027%3AWID04702&productCode=D00175",
+                "title": "Sh수협은행 헤이(Hey)정기예금 공식 상품 안내",
+                "reviewed_on": "2026-11-02",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 금융상품몰 상품목록의 공개 상세보기 POST productCode=D00175 응답의 가입대상·가입금액·계약기간·금리·우대 표.원문HTML별도보존"
+              }
+            ]
+          },
+          "allocation": 10000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ]
+    }
+  },
+  {
+    "monthly": 3000000,
+    "months": 12,
+    "lump": null,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": "4.05",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.kakaobank.com/products/savings",
+                "title": "카카오뱅크 자유적금 공식 상품 페이지",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.11.02 계약기간별 기본금리와 자동이체 우대0.20%p. 12개월3.85%. 쿠폰은 미반영."
+              }
+            ]
+          },
+          "allocation": 3000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "KN-BETTER-SAVING",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 게시 약정금리 [만기지급식] 기본금리 열;이외 우대 미반영",
+            "sources": [
+              {
+                "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000020178&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+                "title": "BNK경남은행 BNK더조은자유적금 공식 상품 자료",
+                "reviewed_on": "2026-11-02",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 현재 게시 약정금리의 만기지급식 기본금리 표. 금리 기준일은 본문에 명시되지 않아 null로 유지;조회2026-11-02. 우대조건·우대상한은 추천점수에 합산하지 않음."
+              }
+            ]
+          },
+          "allocation": 3000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV2-KN-HAPPYDREAM",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": "3.90",
+            "evidence_locator": "공식 금리안내의 세전 연 기본금리, 우대는 조건 충족 시에만 적용",
+            "sources": [
+              {
+                "url": "https://m.knbank.co.kr/ib20/mnu/MBWSFM030103000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017123&ib20_wc=MBWSFM010LSTV01M%3AMBWSFM024JNGV02M",
+                "title": "BNK경남은행 행복Dream적금 공식 상품 안내",
+                "reviewed_on": "2026-11-02",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "가입대상·기간·금액·납입 방식·기본금리와 우대금리를 구분해 확인"
+              }
+            ]
+          },
+          "allocation": 3000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": []
+    }
+  },
+  {
+    "monthly": 300000,
+    "months": 36,
+    "lump": null,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": "3.40",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.kakaobank.com/products/savings",
+                "title": "카카오뱅크 자유적금 공식 상품 페이지",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.11.02 계약기간별 기본금리와 자동이체 우대0.20%p. 12개월3.85%. 쿠폰은 미반영."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "KB-CLEAR-SKY",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.05",
+            "max_total_rate_percent": null,
+            "evidence_locator": "최종이율 표의 1/2/3년제 최저 연이율. 조회일 기준 표기; 미션·쿠폰 우대 미합산.",
+            "sources": [
+              {
+                "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP000942",
+                "title": "KB맑은하늘적금 상품 안내",
+                "reviewed_on": "2026-11-02",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "최종이율 표의 1/2/3년제 최저 연이율. 조회일 기준 표기; 미션·쿠폰 우대 미합산."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "KB-PREMIUM-FIXED",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.05",
+            "max_total_rate_percent": null,
+            "evidence_locator": "2026.11.02 기본이율 계약기간별 정액적립식 기본이율. 우대 미합산.",
+            "sources": [
+              {
+                "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000428",
+                "title": "KB국민은행 KB국민프리미엄적금 · 정액적립식 공식 상품 자료",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.11.02 기본이율 계약기간별 정액적립식 기본이율. 우대 미합산."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": []
+    }
+  },
+  {
+    "monthly": 0,
+    "months": 12,
+    "lump": null,
+    "recommended": {
+      "SAVINGS": [],
+      "DEPOSIT": []
+    }
+  }
+]

@@ -164,7 +164,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   <div className="support-summary"><div><strong>{prepared.programs.length}</strong><span>지원사업·모집 안내</span></div><div><strong>{regionalProvinces.size}</strong><span>자료 검색 권역</span></div><div><strong>{province?scoped.length:'—'}</strong><span>전국·선택지역 검토 목록</span></div></div>
   <p className="support-context" role="status">{province?`${province}${city&&city!=='__OTHER__'?' '+city:''} 기준으로 전국 사업과 해당 지역 사업을 함께 찾고 있어요.`:'지역을 고르면 전국·광역지역·시군구 지원을 함께 좁힐 수 있어요.'} 지역 일치는 신청·수급 가능 확정이 아닙니다.</p>
   {hasProfile&&<p className="support-profile-summary" role="status">공식 접수중이고 입력 조건과 충돌이 없는 내 시·군·구 공고를 먼저 보여드려요. 같은 지역·모집 상태 안에서는 일치하는 조건이 많은 순서예요. 나이·취업·월세 중 명확히 다른 후보는 기본적으로 숨기며, 아래에서 다시 볼 수 있어요. 모든 후보의 최종 지원자격은 추가 확인입니다.</p>}
-  <p className="support-update">공식 접수 상태를 확인한 사업부터 표시합니다. 모집기간·접수중 표시가 있어도 잔여예산·여석·최종 자격은 공식 기관에서 확인하세요. 자료 확인 {prepared.built_on} · 화면 기준 {asOf}</p>
+  <p className="support-update">공식 접수 상태를 확인한 사업부터 표시합니다. 모집기간·접수중 표시가 있어도 잔여예산·여석·최종 자격은 공식 기관에서 확인하세요. 자료 확인 {prepared.updated_on??prepared.built_on} · 화면 기준 {asOf}</p>
   <div className="support-list-tools"><label><input type="checkbox" checked={savedOnly} onChange={e=>{setSavedOnly(e.target.checked);setVisible(12);}}/>관심사업만 ({planner.favorites.length})</label><label><input type="checkbox" checked={different} onChange={e=>{setDifferent(e.target.checked);setVisible(12);}}/>현재 조건과 다른 사업도 보기</label><label><input type="checkbox" checked={otherRegions} onChange={e=>{setOtherRegions(e.target.checked);setVisible(12);}}/>다른 지역 사업도 함께 보기</label><button type="button" onClick={reset}>조건 초기화</button><p>{rows.length}개 검색됨 · 현재 {Math.min(rows.length,visible)}개 표시</p></div>
   {localNotice&&<LocalNotice {...localNotice}/>}{!finder&&scopeTools}
   <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<button type="button" onClick={planner.clear} disabled={!planner.favorites.length&&!planner.checks.length}>내 기기의 관심·확인 기록 지우기</button></div>
@@ -173,9 +173,10 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   {finder ? <FinderDialog
     initialView={finder} localNotice={localNotice} scopeTools={scopeTools}
     context={[displayProvince(province)||'전국',city==='__OTHER__'?'기타 지역':city,age&&('만 '+age+'세'),({employed:'근로 중',unemployed:'현재 일하지 않음',self_employed:'자영업·프리랜서'} as Record<string,string>)[employment],rent==='yes'?'월세 거주':rent==='no'?'월세 외 거주':'',browse&&category!=='ALL'?categories[category]:'',query&&('검색어 '+query)].filter(Boolean).join(' · ')}
-    items={rows.map(p=>{
+    items={rows.map((p,index)=>{
       const conditions=readPersonalDecision(p.program_id,regionKey,profile,asOf);
       return {id:p.program_id,title:p.title,location:locationText(p),benefit:p.benefit_summary,
+        recommendationLabel:index<3&&conditions.region!=='FAIL'&&conditions.summary.matched_count>0&&conditions.summary.candidate_status!=='DIFFERENT'&&readRegionalDecision(p.program_id,regionKey,asOf).intake==='VERIFIED_OPEN'?'우선 검토 추천 '+String(index+1).padStart(2,'0'):undefined,
         status:labels[readRegionalDecision(p.program_id,regionKey,asOf).intake],
         match:conditions.summary.candidate_status==='DIFFERENT'?'현재 입력과 다른 조건 있음':`입력 조건 ${conditions.summary.matched_count}개 일치`,
         reasons:([['region','지역'],['age','나이'],['employment','취업'],['rent','월세']] as const).map(([key,label])=>label+' '+matchWords[conditions[key]]),

@@ -1,0 +1,96 @@
+[
+  {
+    "monthly": "300000",
+    "months": "12",
+    "lump": "",
+    "actual": [
+      {
+        "id": "KAKAO-FREE-SAVINGS",
+        "rate": "기본 연 3.85%"
+      },
+      {
+        "id": "NOV2-WOORI-TOGETHER2",
+        "rate": "기본 연 3.50%"
+      },
+      {
+        "id": "KN-BETTER-SAVING",
+        "rate": "기본 연 3.20%"
+      }
+    ]
+  },
+  {
+    "monthly": "300000",
+    "months": "12",
+    "lump": "10000000",
+    "actual": [
+      {
+        "id": "KAKAO-FREE-SAVINGS",
+        "rate": "기본 연 3.85%"
+      },
+      {
+        "id": "NOV2-WOORI-TOGETHER2",
+        "rate": "기본 연 3.50%"
+      },
+      {
+        "id": "KN-BETTER-SAVING",
+        "rate": "기본 연 3.20%"
+      },
+      {
+        "id": "PEPPER-TERM-DEPOSIT",
+        "rate": "기본 연 3.95%"
+      },
+      {
+        "id": "PEPPERS-TERM-DEPOSIT",
+        "rate": "기본 연 3.95%"
+      },
+      {
+        "id": "NOV2-SH-HEY-DEPOSIT",
+        "rate": "기본 연 3.91%"
+      }
+    ]
+  },
+  {
+    "monthly": "3000000",
+    "months": "12",
+    "lump": "",
+    "actual": [
+      {
+        "id": "KAKAO-FREE-SAVINGS",
+        "rate": "기본 연 3.85%"
+      },
+      {
+        "id": "KN-BETTER-SAVING",
+        "rate": "기본 연 3.20%"
+      },
+      {
+        "id": "NOV2-KN-HAPPYDREAM",
+        "rate": "기본 연 2.90%"
+      }
+    ]
+  },
+  {
+    "monthly": "300000",
+    "months": "36",
+    "lump": "",
+    "actual": [
+      {
+        "id": "KAKAO-FREE-SAVINGS",
+        "rate": "기본 연 3.20%"
+      },
+      {
+        "id": "KB-CLEAR-SKY",
+        "rate": "기본 연 3.05%"
+      },
+      {
+        "id": "KB-PREMIUM-FIXED",
+        "rate": "기본 연 3.05%"
+      }
+    ]
+  },
+  {
+    "monthly": "0",
+    "months": "12",
+    "lump": "",
+    "actual": []
+  }
+]

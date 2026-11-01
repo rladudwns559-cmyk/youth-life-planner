@@ -15,3 +15,5 @@
 .finder-dialog .local-notice { margin:0 24px 12px; flex:none }
 @media(max-width:600px){.finder-dialog .local-notice{margin:0 14px 10px}.local-notice{padding:10px 12px;gap:8px}}
 @media(max-height:540px){.finder-dialog[open]{overflow-y:auto}.finder-dialog .finder-body{overflow:visible;flex:none}}
+
+.finder-recommended{border-color:#75a4d7;box-shadow:0 4px 0 #d6e4f3}.finder-recommendation-badge{display:inline-block;margin:0 0 15px;padding:8px 12px;background:#e8f2ff;color:#24598f;border-radius:7px;font-size:13px;font-weight:700}

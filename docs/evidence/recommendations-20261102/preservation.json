@@ -1,0 +1,619 @@
+{
+  "protected": [
+    {
+      "path": "tests/test_benefit_snapshot_fingerprint.py",
+      "expected": "e41b35c656edd56ebe75574d6a0bb528e43def1083d851479e6afe02c455c55c",
+      "actual": "e41b35c656edd56ebe75574d6a0bb528e43def1083d851479e6afe02c455c55c",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_inventory_fingerprint.py",
+      "expected": "71a640547372994693db577ae5f17e31c664447e4dd0b5bc6cb77f7730d70dc3",
+      "actual": "71a640547372994693db577ae5f17e31c664447e4dd0b5bc6cb77f7730d70dc3",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_policy_tree_fingerprint.py",
+      "expected": "3b3f1ff1c1c3f5fa17af7f80daed4ba62992123af3a15a1ce77caacec942756d",
+      "actual": "3b3f1ff1c1c3f5fa17af7f80daed4ba62992123af3a15a1ce77caacec942756d",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_rule_subtree_fingerprint.py",
+      "expected": "f7320a844ad1c29d24945c35b9fdfee294912d496b2af9c41b590b654f0fa5be",
+      "actual": "f7320a844ad1c29d24945c35b9fdfee294912d496b2af9c41b590b654f0fa5be",
+      "unchanged": true
+    },
+    {
+      "path": "backend/cashflow/calculator.py",
+      "expected": "fa23d8679ac2379c6a336abaedc47fbbbfdcede40e1461f2284f1913b36dbb61",
+      "actual": "fa23d8679ac2379c6a336abaedc47fbbbfdcede40e1461f2284f1913b36dbb61",
+      "unchanged": true
+    },
+    {
+      "path": "backend/cashflow/errors.py",
+      "expected": "718e974fcbeca9f7d8eb576d6f18d53df67c9673fb1d5eeb9674436165c1938a",
+      "actual": "718e974fcbeca9f7d8eb576d6f18d53df67c9673fb1d5eeb9674436165c1938a",
+      "unchanged": true
+    },
+    {
+      "path": "backend/cashflow/models.py",
+      "expected": "6e044768a38eab44c0d91bfad5830fdd1beb3018bc676985eb8eb08df2686918",
+      "actual": "6e044768a38eab44c0d91bfad5830fdd1beb3018bc676985eb8eb08df2686918",
+      "unchanged": true
+    },
+    {
+      "path": "backend/cashflow/__init__.py",
+      "expected": "9b49214ea2a310911b285e1378282918f29a27ccd55b03428f143d2ea6b337c7",
+      "actual": "9b49214ea2a310911b285e1378282918f29a27ccd55b03428f143d2ea6b337c7",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/birth_evaluator.py",
+      "expected": "d72eea1f6e4be7e7b4b03c89b06d1bfc800c3a73bcd2d5fb6488375a644436e7",
+      "actual": "d72eea1f6e4be7e7b4b03c89b06d1bfc800c3a73bcd2d5fb6488375a644436e7",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/errors.py",
+      "expected": "0b1f22313fff5331fae9102574c903aa13bd8e0b74902e2a0349027fd12e9eaf",
+      "actual": "0b1f22313fff5331fae9102574c903aa13bd8e0b74902e2a0349027fd12e9eaf",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/evaluation_inputs.py",
+      "expected": "ace3d49ff5813bed0df842ec7241f16986e986cd3b38a50895507dcbf24a0294",
+      "actual": "ace3d49ff5813bed0df842ec7241f16986e986cd3b38a50895507dcbf24a0294",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/evaluator.py",
+      "expected": "b13b5f3949547191c4999e88511f925a59b00f765acd0fd9112f178f5fba47df",
+      "actual": "b13b5f3949547191c4999e88511f925a59b00f765acd0fd9112f178f5fba47df",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/loader.py",
+      "expected": "f6b3182aa87de8a74bc55206440ab59371d6334ec1ed6754507d4a6f37513cf9",
+      "actual": "f6b3182aa87de8a74bc55206440ab59371d6334ec1ed6754507d4a6f37513cf9",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/models.py",
+      "expected": "fdb3a5fd69512cfc1a7d430d35be70083283889d4a2160a705f81ae0b8980fed",
+      "actual": "fdb3a5fd69512cfc1a7d430d35be70083283889d4a2160a705f81ae0b8980fed",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/result_types.py",
+      "expected": "36b1ef51a1ab785794b2daadb3651e381dc22d22ea4060d6fb362af54b3b6173",
+      "actual": "36b1ef51a1ab785794b2daadb3651e381dc22d22ea4060d6fb362af54b3b6173",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/routing.py",
+      "expected": "c53b5de9f205fad8a1e128638f1490a73b5a1a76c5cb65f86c78958ae4de7125",
+      "actual": "c53b5de9f205fad8a1e128638f1490a73b5a1a76c5cb65f86c78958ae4de7125",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/__init__.py",
+      "expected": "dc7d28d4afe6f18b437ec006164514d4cc2371ca0fef43d96d046536d9fde3be",
+      "actual": "dc7d28d4afe6f18b437ec006164514d4cc2371ca0fef43d96d046536d9fde3be",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/__main__.py",
+      "expected": "dc8e4cc7fc8f279493744f80d2fde433a79fe32fce0818dcd4341bce72bfd703",
+      "actual": "dc8e4cc7fc8f279493744f80d2fde433a79fe32fce0818dcd4341bce72bfd703",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/adapters/resident_registration.py",
+      "expected": "fbc972181b014af4a551dc704bebe493c5848db9e431677fccd30fa65c0e64cd",
+      "actual": "fbc972181b014af4a551dc704bebe493c5848db9e431677fccd30fa65c0e64cd",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/adapters/__init__.py",
+      "expected": "65949c7841e44748a19abc0bafd044a8e7babde60045c8a6759ffc9751d9c0e8",
+      "actual": "65949c7841e44748a19abc0bafd044a8e7babde60045c8a6759ffc9751d9c0e8",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/facts/birth.py",
+      "expected": "6df04ca3f6510a3372fe4974ca4f0277a1ec1de6493c18e1ab4b4acbba0e366b",
+      "actual": "6df04ca3f6510a3372fe4974ca4f0277a1ec1de6493c18e1ab4b4acbba0e366b",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/facts/resident_registration.py",
+      "expected": "77d10eacf96a2b0de9397df4db5c8001e2c40b631a9ef030b2b3ee9df353dd6a",
+      "actual": "77d10eacf96a2b0de9397df4db5c8001e2c40b631a9ef030b2b3ee9df353dd6a",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/facts/__init__.py",
+      "expected": "abc964140c5c2125298c1b55e8dce289be25b60aa6e2d39b0c9b28090ee162c0",
+      "actual": "abc964140c5c2125298c1b55e8dce289be25b60aa6e2d39b0c9b28090ee162c0",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/benefit_acceptance.py",
+      "expected": "bc30e019ca5addeb6a6a5137ab55b005255e15272ccc684994f733b81e587dee",
+      "actual": "bc30e019ca5addeb6a6a5137ab55b005255e15272ccc684994f733b81e587dee",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/benefit_acceptance_context.py",
+      "expected": "923668a6a622b6f764207c28b2ed8f1aa9743fd658c1c73888979dee2a04f8ac",
+      "actual": "923668a6a622b6f764207c28b2ed8f1aa9743fd658c1c73888979dee2a04f8ac",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/benefit_acceptance_evaluation_result.py",
+      "expected": "39be9a6da64ce1b6974fd2f25a3278c3e30619f2fae558749b3106a2d8fd6542",
+      "actual": "39be9a6da64ce1b6974fd2f25a3278c3e30619f2fae558749b3106a2d8fd6542",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/benefit_acceptance_resolution.py",
+      "expected": "ef393ed0c1a95e2b913f6d2080124f7f3b55ece5dc2da3142c3eece3b3f2a75d",
+      "actual": "ef393ed0c1a95e2b913f6d2080124f7f3b55ece5dc2da3142c3eece3b3f2a75d",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/benefit_acceptance_review_artifact.py",
+      "expected": "b7a39fb0fb88c7125fcc3888e7c6a245277ecf502247082794b31b88499344b2",
+      "actual": "b7a39fb0fb88c7125fcc3888e7c6a245277ecf502247082794b31b88499344b2",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/benefit_acceptance_review_artifact_loader.py",
+      "expected": "3cb50f778780735633cc51f6d677aae6941dcf641caac62ceacaef0844bbd7dc",
+      "actual": "3cb50f778780735633cc51f6d677aae6941dcf641caac62ceacaef0844bbd7dc",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/benefit_fingerprint.py",
+      "expected": "2fa8b637495b5244db5b33235ad39c1bd54c1bedfd9a87f94d47b936f22392ae",
+      "actual": "2fa8b637495b5244db5b33235ad39c1bd54c1bedfd9a87f94d47b936f22392ae",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/benefit_snapshot.py",
+      "expected": "cf148680231d62d3f22a52269a3e3e99f927b5c826de80aa5fc81840ecdfc6e0",
+      "actual": "cf148680231d62d3f22a52269a3e3e99f927b5c826de80aa5fc81840ecdfc6e0",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/condition_binding.py",
+      "expected": "2e3eb730771da4de8ac72028ce9603eaccaa701071caca5bb30d6fe11476a06f",
+      "actual": "2e3eb730771da4de8ac72028ce9603eaccaa701071caca5bb30d6fe11476a06f",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/condition_inventory.py",
+      "expected": "6115553cfd64296e8ec5071208543d6a6af440dbc701710f8161674434897b95",
+      "actual": "6115553cfd64296e8ec5071208543d6a6af440dbc701710f8161674434897b95",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage.py",
+      "expected": "d882964716f481a0ab4debda2082903138d5cabe492a7bd23de61bae7a199c9b",
+      "actual": "d882964716f481a0ab4debda2082903138d5cabe492a7bd23de61bae7a199c9b",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_composition.py",
+      "expected": "4889e79d0afe28b0dabca470c915ffed38d2a58513701120d456193dd6a05e0c",
+      "actual": "4889e79d0afe28b0dabca470c915ffed38d2a58513701120d456193dd6a05e0c",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_fingerprint.py",
+      "expected": "07f7b309d4fe12f2cb98d24e056b226fe2fcebb2005e25568d4384fa5e45bd1a",
+      "actual": "07f7b309d4fe12f2cb98d24e056b226fe2fcebb2005e25568d4384fa5e45bd1a",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_integration.py",
+      "expected": "8f3d74271416beece528f49acbedf0903ba7e2c3bdc142b9c3a9f849c9a2ef5e",
+      "actual": "8f3d74271416beece528f49acbedf0903ba7e2c3bdc142b9c3a9f849c9a2ef5e",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_integration_findings.py",
+      "expected": "8afeb4f2f074cd0447f4ce37821c1c86f5e7698524ed79305a677bfd4bc75d80",
+      "actual": "8afeb4f2f074cd0447f4ce37821c1c86f5e7698524ed79305a677bfd4bc75d80",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_ownership.py",
+      "expected": "ab92f7a0c7e0b9c6f198d0cb22c7c90603efbab0e4961eb9c8225cac80029c6c",
+      "actual": "ab92f7a0c7e0b9c6f198d0cb22c7c90603efbab0e4961eb9c8225cac80029c6c",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_review.py",
+      "expected": "f7979972ceb4ce63b4147541af2dd28911c515c9b78280f1ef96906b0d38892f",
+      "actual": "f7979972ceb4ce63b4147541af2dd28911c515c9b78280f1ef96906b0d38892f",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_review_context.py",
+      "expected": "77353157774068dc7411e7e65512b567e5143a6d9cfa5f4a82dcc1b8da533d35",
+      "actual": "77353157774068dc7411e7e65512b567e5143a6d9cfa5f4a82dcc1b8da533d35",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_review_match.py",
+      "expected": "d2527e9a851eab24df3d913044481c31a5729f3041f2b610796d5bc7ee147219",
+      "actual": "d2527e9a851eab24df3d913044481c31a5729f3041f2b610796d5bc7ee147219",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_review_matching.py",
+      "expected": "2271fde305f47abd5e8309031ea5bc4891dcbcd96cc1bbd7f4df0439713c07c7",
+      "actual": "2271fde305f47abd5e8309031ea5bc4891dcbcd96cc1bbd7f4df0439713c07c7",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_review_resolution.py",
+      "expected": "bb2ab12c32238b9da1fab9b774a6a5613dcf3cdc09017b7bfc48560e213dfe12",
+      "actual": "bb2ab12c32238b9da1fab9b774a6a5613dcf3cdc09017b7bfc48560e213dfe12",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_structure.py",
+      "expected": "58fa3e94237980a025a46aa99c956b6ae559605fae446d82cc12616a9f268cce",
+      "actual": "58fa3e94237980a025a46aa99c956b6ae559605fae446d82cc12616a9f268cce",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/coverage_unmapped.py",
+      "expected": "30587d0b24fac6d2bce360a4f3b7d015bb37c6576a16ddb151019d1c994ba99b",
+      "actual": "30587d0b24fac6d2bce360a4f3b7d015bb37c6576a16ddb151019d1c994ba99b",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/eligibility_coverage.py",
+      "expected": "54593e7475ca6ddb3ddc11ba6951206162b18cf850fe3efcd1c8780c993b9b8c",
+      "actual": "54593e7475ca6ddb3ddc11ba6951206162b18cf850fe3efcd1c8780c993b9b8c",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/eligibility_coverage_evaluator.py",
+      "expected": "da15125b68e25484bc8e4f93bd57c1998e0431ab47f8720dbd2edeb8a609a209",
+      "actual": "da15125b68e25484bc8e4f93bd57c1998e0431ab47f8720dbd2edeb8a609a209",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/eligibility_coverage_result.py",
+      "expected": "365e3370e2b38d94a9fe01809697c1d8261a4e8a9eef4ab12946d91274ae985c",
+      "actual": "365e3370e2b38d94a9fe01809697c1d8261a4e8a9eef4ab12946d91274ae985c",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/envelope.py",
+      "expected": "6f877cf986c13bd660cb5fa0af4f223a3ab7eb31b6ae535eb5226fafc05c113a",
+      "actual": "6f877cf986c13bd660cb5fa0af4f223a3ab7eb31b6ae535eb5226fafc05c113a",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_artifact_orchestration.py",
+      "expected": "17b37fb68b5e864e89cea8b62930bcdf8127caf88efd77e165f4fe9103d4bb3d",
+      "actual": "17b37fb68b5e864e89cea8b62930bcdf8127caf88efd77e165f4fe9103d4bb3d",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_benefit_snapshot_loader.py",
+      "expected": "1456550533cf86fd41bf6cb8898278c83e7bca1b23b784dee90e914b56583a72",
+      "actual": "1456550533cf86fd41bf6cb8898278c83e7bca1b23b784dee90e914b56583a72",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_coverage_review_context_loader.py",
+      "expected": "0ba04edad57afdf90a854356539f3c072f3ed1295443d3271c3053eb58144b0c",
+      "actual": "0ba04edad57afdf90a854356539f3c072f3ed1295443d3271c3053eb58144b0c",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_cross_artifact_validator.py",
+      "expected": "605ce5291c7b117a11371e64ad4a02170b513d180f0888905eb5762bb597e719",
+      "actual": "605ce5291c7b117a11371e64ad4a02170b513d180f0888905eb5762bb597e719",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_dataset_manifest_loader.py",
+      "expected": "c8b811a656ba8f0bc2a2d0850fa16120384588bc7cd45f79f8f3f50f22e9698b",
+      "actual": "c8b811a656ba8f0bc2a2d0850fa16120384588bc7cd45f79f8f3f50f22e9698b",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_eligibility_coverage_loader.py",
+      "expected": "95aad07ef4ab2bd2096ee798fbd740d12602a3a1b72ed4d7d173faad76730559",
+      "actual": "95aad07ef4ab2bd2096ee798fbd740d12602a3a1b72ed4d7d173faad76730559",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_policy_envelope_loader.py",
+      "expected": "84a18bf6d4a589667f4c220572d44622740beb8c9ba0a4a0e09f3f1c8e777081",
+      "actual": "84a18bf6d4a589667f4c220572d44622740beb8c9ba0a4a0e09f3f1c8e777081",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_raw_bytes_preparation.py",
+      "expected": "6dc7e905ef02aa47fc141989a91e5cd3ddfbd826ea40b75494f6fb863dbe7e3f",
+      "actual": "6dc7e905ef02aa47fc141989a91e5cd3ddfbd826ea40b75494f6fb863dbe7e3f",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_source_registry_loader.py",
+      "expected": "be4825eac9f9b1a1b522429ec86a80f867f25604d36d405c0daf742d71d80985",
+      "actual": "be4825eac9f9b1a1b522429ec86a80f867f25604d36d405c0daf742d71d80985",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/historical_windows_file_io.py",
+      "expected": "13080cfb8033101330eb5edcfa6f3bfab5cc67e4f631b8dfd82b8adb8af346a5",
+      "actual": "13080cfb8033101330eb5edcfa6f3bfab5cc67e4f631b8dfd82b8adb8af346a5",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/implementation_review.py",
+      "expected": "2fdcf074317499eee91f663808a87daa0a89fe572c02f8b4daf9693c17971a6f",
+      "actual": "2fdcf074317499eee91f663808a87daa0a89fe572c02f8b4daf9693c17971a6f",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/loader.py",
+      "expected": "0f4382373ab02f992c06f1af908e26e190727db396c872bb3d511573a4748072",
+      "actual": "0f4382373ab02f992c06f1af908e26e190727db396c872bb3d511573a4748072",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/manifest.py",
+      "expected": "d7731284e5f45b085cd1fd0a8f885e6ee3276a59c24384ef638abc6077e921d5",
+      "actual": "d7731284e5f45b085cd1fd0a8f885e6ee3276a59c24384ef638abc6077e921d5",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/required_condition.py",
+      "expected": "ec3304285f6e3cd7fa3f3287f3100b38126e6ca2d089d990caef3af6fdfc63ae",
+      "actual": "ec3304285f6e3cd7fa3f3287f3100b38126e6ca2d089d990caef3af6fdfc63ae",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/rule_root_resolution.py",
+      "expected": "a75365622cbd5f81751062e42b88c747f97504a5ba0333f6bb09cf2963b275b7",
+      "actual": "a75365622cbd5f81751062e42b88c747f97504a5ba0333f6bb09cf2963b275b7",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/validation.py",
+      "expected": "873628c13a8200c9886b2ce730cd71e5afbe9988866bde7c0ad5a9871d63e8c4",
+      "actual": "873628c13a8200c9886b2ce730cd71e5afbe9988866bde7c0ad5a9871d63e8c4",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/policy_data/__init__.py",
+      "expected": "c99acad1ad194641c9b55a2d280d413c0852491d3e06d9c3f0dd2ab2b020be31",
+      "actual": "c99acad1ad194641c9b55a2d280d413c0852491d3e06d9c3f0dd2ab2b020be31",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/resolvers/resident_registration.py",
+      "expected": "594b1610b49f59e7cc96a05c3417589f0e1510df8574662ed8529465a0b0c7ee",
+      "actual": "594b1610b49f59e7cc96a05c3417589f0e1510df8574662ed8529465a0b0c7ee",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/resolvers/__init__.py",
+      "expected": "0f4808faf505050bf39ba5d39fe8e85cd0667f6adafcc5dd606bc358118f187b",
+      "actual": "0f4808faf505050bf39ba5d39fe8e85cd0667f6adafcc5dd606bc358118f187b",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/sources/loader.py",
+      "expected": "15f8af9f0d95cb89d9eb5a49d660efcbdceff57c5a1a1821e4a532832faf9007",
+      "actual": "15f8af9f0d95cb89d9eb5a49d660efcbdceff57c5a1a1821e4a532832faf9007",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/sources/models.py",
+      "expected": "ef2bbd09e5fa1a2fdeb4b69484f9af380d9c45d6140f96bb11925a5324a3ce9a",
+      "actual": "ef2bbd09e5fa1a2fdeb4b69484f9af380d9c45d6140f96bb11925a5324a3ce9a",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/sources/registry.py",
+      "expected": "010d55ab4aa2be0058c685380b3b1d2aa50e24665bb1e62efa524517e103c45c",
+      "actual": "010d55ab4aa2be0058c685380b3b1d2aa50e24665bb1e62efa524517e103c45c",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/sources/__init__.py",
+      "expected": "aa9a9ba7495bbc945d78f64f4b74ed24d55df66702cce00ea8936aecd7630d14",
+      "actual": "aa9a9ba7495bbc945d78f64f4b74ed24d55df66702cce00ea8936aecd7630d14",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/specialized_rules/birth_date.py",
+      "expected": "469e18f1a378caa3abff19d056d7fb379b992d844e3a1c6eee2c39ee9082a5aa",
+      "actual": "469e18f1a378caa3abff19d056d7fb379b992d844e3a1c6eee2c39ee9082a5aa",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/specialized_rules/resident_registration.py",
+      "expected": "78c3918851e0ce85707b4b2afb003a5f56a6c97e3ac0adb4970c8fb628ec004a",
+      "actual": "78c3918851e0ce85707b4b2afb003a5f56a6c97e3ac0adb4970c8fb628ec004a",
+      "unchanged": true
+    },
+    {
+      "path": "backend/policy_engine/specialized_rules/__init__.py",
+      "expected": "26e06f34dd2c64c9627f48a5069811b721745651e1d17122b92b30805d42a1e8",
+      "actual": "26e06f34dd2c64c9627f48a5069811b721745651e1d17122b92b30805d42a1e8",
+      "unchanged": true
+    },
+    {
+      "path": "data/releases/ansan-youth-2026-10-20-001/README.md",
+      "expected": "4183c73c37d3cb7ec76bad21656b50a2c41b064e1298c2d4934db0d4e536a09f",
+      "actual": "4183c73c37d3cb7ec76bad21656b50a2c41b064e1298c2d4934db0d4e536a09f",
+      "unchanged": true
+    },
+    {
+      "path": "data/releases/ansan-youth-2026-10-20-001/sources.json",
+      "expected": "a47e53da0b298c93c1ad04480e8c7fed96f2e45144ad4d58991c9ec86aaa9e3b",
+      "actual": "a47e53da0b298c93c1ad04480e8c7fed96f2e45144ad4d58991c9ec86aaa9e3b",
+      "unchanged": true
+    },
+    {
+      "path": "data/releases/ansan-youth-2026-10-20-002/README.md",
+      "expected": "8955e554cd484240f0d8dddffec5494d342c2b5732e789666b45eb261b58ca99",
+      "actual": "8955e554cd484240f0d8dddffec5494d342c2b5732e789666b45eb261b58ca99",
+      "unchanged": true
+    },
+    {
+      "path": "data/releases/ansan-youth-2026-10-20-002/sources.json",
+      "expected": "711f1e3bbb8ddb4bcbaaddd189b6f35f7c9a6ef8b4a81f0208e4dd818629e620",
+      "actual": "711f1e3bbb8ddb4bcbaaddd189b6f35f7c9a6ef8b4a81f0208e4dd818629e620",
+      "unchanged": true
+    },
+    {
+      "path": "data/releases/ansan-youth-2026-10-20-001/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json",
+      "expected": "9c6e22ddc1c936e365ecb9b3be355a73f8cfbdc6f02f99d66e2fb843e0187025",
+      "actual": "9c6e22ddc1c936e365ecb9b3be355a73f8cfbdc6f02f99d66e2fb843e0187025",
+      "unchanged": true
+    },
+    {
+      "path": "data/releases/ansan-youth-2026-10-20-002/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json",
+      "expected": "d4aaa62f1a1c46392af213c05c6e24ff59e44f17333f3b3785bde2d4b3161e92",
+      "actual": "d4aaa62f1a1c46392af213c05c6e24ff59e44f17333f3b3785bde2d4b3161e92",
+      "unchanged": true
+    }
+  ],
+  "release_file_count": 6,
+  "changed_from_public_baseline": [
+    ".gitignore",
+    "README.md",
+    "docs/ASSET_ALERTS_OPERATIONS.md",
+    "docs/BENEFIT_ACCEPTANCE_CONTEXT_SPEC.md",
+    "docs/BENEFIT_ACCEPTANCE_EVALUATION_RESULT_SPEC.md",
+    "docs/BENEFIT_ACCEPTANCE_EVALUATOR_SPEC.md",
+    "docs/BENEFIT_ACCEPTANCE_RECORD_SPEC.md",
+    "docs/BENEFIT_ACCEPTANCE_REVIEW_ARTIFACT_LOADER_SPEC.md",
+    "docs/BENEFIT_ACCEPTANCE_REVIEW_ARTIFACT_SPEC.md",
+    "docs/BENEFIT_SNAPSHOT_SPEC.md",
+    "docs/CASHFLOW_BENEFIT_BRIDGE_SPEC.md",
+    "docs/CASHFLOW_ENGINE_SPEC.md",
+    "docs/CLOUD_DEPLOYMENT_RUNBOOK.md",
+    "docs/COVERAGE_FINGERPRINT_SPEC.md",
+    "docs/COVERAGE_INTEGRATION_GATE_SPEC.md",
+    "docs/COVERAGE_OWNERSHIP_SPEC.md",
+    "docs/COVERAGE_REVIEW_CONTEXT_SPEC.md",
+    "docs/COVERAGE_REVIEW_MATCHING_SPEC.md",
+    "docs/COVERAGE_RULE_ROOT_LOOKUP_SPEC.md",
+    "docs/COVERAGE_STRUCTURE_ORCHESTRATION_SPEC.md",
+    "docs/COVERAGE_TO_BENEFIT_ACCEPTANCE_SPEC.md",
+    "docs/COVERAGE_UNMAPPED_RULE_SPEC.md",
+    "docs/DISCLOSURE_PROMOTION_VERIFICATION.md",
+    "docs/ELIGIBILITY_COVERAGE_CORE_FREEZE.md",
+    "docs/ELIGIBILITY_COVERAGE_RESULT_SPEC.md",
+    "docs/ELIGIBILITY_COVERAGE_VALIDATION_SPEC.md",
+    "docs/FREE_PRODUCT_DISCOVERY_AND_CLEANUP.md",
+    "docs/HISTORICAL_BENEFIT_SNAPSHOT_ARTIFACT_PREPARATION_SPEC.md",
+    "docs/HISTORICAL_COVERAGE_REVIEW_CONTEXT_ARTIFACT_PREPARATION_SPEC.md",
+    "docs/HISTORICAL_CROSS_ARTIFACT_VALIDATOR_CONTRACT.md",
+    "docs/HISTORICAL_DATASET_MANIFEST_ARTIFACT_PREPARATION_SPEC.md",
+    "docs/HISTORICAL_ELIGIBILITY_COVERAGE_ARTIFACT_PREPARATION_SPEC.md",
+    "docs/HISTORICAL_POLICY_ENVELOPE_ARTIFACT_PREPARATION_SPEC.md",
+    "docs/HISTORICAL_RAW_BYTES_PREPARATION_CONTRACT.md",
+    "docs/HISTORICAL_SAME_CALL_ORCHESTRATION_CONTRACT.md",
+    "docs/HISTORICAL_SIX_ARTIFACT_INTEGRATION_REPORT.md",
+    "docs/HISTORICAL_SOURCE_REGISTRY_ARTIFACT_PREPARATION_SPEC.md",
+    "docs/M3_0_SYNTHETIC_WEB.md",
+    "docs/M3_2_SYNTHETIC_SAVINGS.md",
+    "docs/M3_3_OFFICIAL_PRODUCT_COMPARISON.md",
+    "docs/M3_4_OFFICIAL_FIXED_SAVINGS_VERIFICATION.md",
+    "docs/M3_5_FU_IBK_INQUIRY_PREPARATION.md",
+    "docs/M3_5_IBK_INQUIRY_DRAFT.md",
+    "docs/M3_5_OFFICIAL_DATED_SAVINGS_VERIFICATION.md",
+    "docs/M3_6_AI_EXPLANATION_SERVICE.md",
+    "docs/M3_7_LOCAL_LLM_INSTALL_PLAN.md",
+    "docs/M3_7_LOCAL_LLM_VERIFICATION.md",
+    "docs/M3_8A_LIGHTWEIGHT_LLM_CORE.md",
+    "docs/M3_8B_LOCAL_NARRATIVE_INTEGRATION.md",
+    "docs/M3_8E_LOCAL_CANDIDATE_LLM_VERIFICATION.md",
+    "docs/M3_8F_EXPLANATION_HUMAN_EVALUATION.md",
+    "docs/M3_8F_R1_T08_TIMEOUT_ANALYSIS.md",
+    "docs/M3_8F_R2_MATCHED_PRELOAD_RETEST.md",
+    "docs/M3_8F_R3_HUMAN_EVALUATION.md",
+    "docs/MUNICIPAL_COVERAGE_RELEASE.md",
+    "docs/OBSIDIAN_WORKFLOW.md",
+    "docs/OFFICIAL_SAVINGS_AUTO_MATCHING.md",
+    "docs/OPEN_MUNICIPAL_COVERAGE_RELEASE.md",
+    "docs/PERSONAL_SUPPORT_DISCOVERY.md",
+    "docs/POLICY_BENEFIT_ACCEPTANCE_SPEC.md",
+    "docs/POLICY_COVERAGE_SPEC.md",
+    "docs/POLICY_DATA_ENVELOPE_SPEC.md",
+    "docs/POLICY_RULE_SPEC.md",
+    "docs/PORTAL_REDESIGN_AND_DEPLOYMENT.md",
+    "docs/PRODUCT_DISCOVERY_EXPANSION.md",
+    "docs/PRODUCT_DISCOVERY_SOURCES.md",
+    "docs/PROJECT_PLAN.md",
+    "docs/REAL_POLICY_001_ANALYSIS.md",
+    "docs/REAL_POLICY_001_BIRTH_LOADER_SPEC.md",
+    "docs/REAL_POLICY_001_BIRTH_RESULT_CONTRACT.md",
+    "docs/REAL_POLICY_001_BIRTH_ROUTING_SPEC.md",
+    "docs/REAL_POLICY_001_BIRTH_SLICE_SPEC.md",
+    "docs/REAL_POLICY_001_IMPLEMENTATION.md",
+    "docs/REAL_POLICY_001_Q3_BIRTH_IMPLEMENTATION.md",
+    "docs/REAL_POLICY_001_Q3_BIRTH_INTEGRATION_SPEC.md",
+    "docs/REAL_POLICY_001_RESIDENCE_DURATION_EVIDENCE.md",
+    "docs/REAL_POLICY_001_RESIDENCE_HISTORY_SPEC.md",
+    "docs/REAL_POLICY_001_RESIDENT_SLICE.md",
+    "docs/REGIONAL_SUPPORT_DISCOVERY.md",
+    "docs/RELEASE_ARTIFACT_EXECUTION_BINDING_SPEC.md",
+    "docs/RESIDENT_REGISTRATION_FACT_SPEC.md",
+    "docs/RESOLVER_RULE_ADAPTER_SPEC.md",
+    "docs/RULE_ROUTING_SPEC.md",
+    "tests/test_current_discovery.py",
+    "backend/finance/discovery.py",
+    "backend/opportunities/current_discovery.py",
+    "docs/experiments/m3_8f/PROTOCOL.md",
+    "docs/experiments/m3_8f_r1/MINIMAL_FIX_AND_RETEST_PLAN.md",
+    "docs/experiments/m3_8f_r3/FACILITATOR.md",
+    "docs/experiments/m3_8f_r3/FREEZE_AND_ANALYSIS.md",
+    "docs/experiments/m3_8f_r3/PARTICIPANT_INFO_AND_CONSENT.md",
+    "docs/experiments/m3_8f_r3/RESULT_REPORT_TEMPLATE.md",
+    "docs/experiments/m3_8f_r2/study_v2/PROTOCOL.md",
+    "frontend/src/App.tsx",
+    "frontend/src/AreaScopeFallback.test.tsx",
+    "frontend/src/AssetAlerts.test.tsx",
+    "frontend/src/DisclosureDirectory.tsx",
+    "frontend/src/DisclosurePromotion.test.tsx",
+    "frontend/src/ExplanationPanel.test.tsx",
+    "frontend/src/finder-dialog.css",
+    "frontend/src/FinderDialog.test.tsx",
+    "frontend/src/FinderDialog.tsx",
+    "frontend/src/GroupedInput.test.tsx",
+    "frontend/src/LocalRelease.test.tsx",
+    "frontend/src/NovRegionalRanking.test.tsx",
+    "frontend/src/product-explorer.css",
+    "frontend/src/ProductExplorer.test.tsx",
+    "frontend/src/ProductExplorer.tsx",
+    "frontend/src/ProductExplorerExpansion.test.tsx",
+    "frontend/src/PublicAssetPrograms.test.tsx",
+    "frontend/src/PublicPortal.test.tsx",
+    "frontend/src/RegionalGap95Conditions.test.tsx",
+    "frontend/src/RegionalPrograms.tsx",
+    "frontend/src/SupportCatalogNavigation.test.tsx",
+    "frontend/src/SupportPlanner.test.tsx",
+    "frontend/src/SupportSearchAndPrompt.test.tsx",
+    "frontend/src/public-data/current-support-web.json",
+    "frontend/src/public-data/current-support.json",
+    "frontend/src/public-data/product-expanded.json",
+    "frontend/src/public-data/release-summary.json"
+  ]
+}

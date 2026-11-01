@@ -1,0 +1,34 @@
+{
+  "version": {
+    "id": "appgprj_6ae4993139c08191975b01a22068da5c~appgver_4f57f87839388191861887c35b780751",
+    "project_id": "appgprj_6ae4993139c08191975b01a22068da5c",
+    "version_number": 21,
+    "source": {
+      "commit_sha": "3af9cc3528189f51fe12c966493947fbabfe3ea9"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000016f4820998125f04c7d573bf",
+      "content_hash": "sha256:b67eea3373a8c4ddc4054eb9c83bca418ca4ee25dd09b43f0ee316d32d4679b4",
+      "size_bytes": 2764800,
+      "file_count": 10
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ae7793f27f481918c51f9ff612b430e",
+    "project_id": "appgprj_6ae4993139c08191975b01a22068da5c",
+    "title": "청년 경제생활 · 나의 가능성을 계산하다",
+    "version_id": "appgprj_6ae4993139c08191975b01a22068da5c~appgver_4f57f87839388191861887c35b780751",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://youth-life-planner.rladudwns559.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae4993139c08191975b01a22068da5c",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-01T17:39:24.660373+00:00"
+  }
+}

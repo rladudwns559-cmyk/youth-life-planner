@@ -1,0 +1,1502 @@
+{
+  "programs": [
+    {
+      "program_id": "RECOMMEND-SEOUL-SEONGDONG-SUPPLIES-NOV-2026",
+      "title": "성동구 전입 1인가구 청년 생필품 구매비 · 11월",
+      "authority": "서울특별시 성동구 아동청년과",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [
+        "서울"
+      ],
+      "city": "성동구",
+      "benefit_summary": "전입 1인가구 청년에게 식료품·주방·욕실·주거용품·소가구 구매 실비를 생애 한 번 최대 20만 원 지원합니다. 선구매 후지원이며 구매품목이 확인되는 영수증이 필요합니다.",
+      "age_note": "공고에 19~39세 및 1987.1.1.~2007.12.31. 출생 범위가 명시되어 있습니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "2024.1.1. 이후 다른 시군구에서 성동구 전입 후 신청일 3개월 이상 계속 주민등록",
+        "1인가구 독립세대·본인 무주택·본인 명의 임대차·중위소득120% 이하 증빙",
+        "외국인·재외국민·단순 세대분리·부모 소유 주택·중복수혜 등 제외조건",
+        "2026년 생필품 구매 영수증·공식 인정 품목 및 신청자 본인/동일세대 대리 신청 자격"
+      ],
+      "schedule_note": "공식 11월 신청 창은 11/1 00시~11/10 00시입니다. 날짜 단위 표시에서는 11/9까지로 보수적으로 관리합니다. 목록은 접수중이며 상세에 신청하기가 있습니다. 본문 일부에 과거5월 일정이 남아 있어 이번 차수의 명시 접수 창을 우선합니다.",
+      "starts_on": "2026-11-01",
+      "ends_on": "2026-11-09",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://sd.go.kr/booking/viewTnOnlineRceptU1.do?progrmNo=815&sc3=202611&key=4871",
+          "title": "성동구 전입 1인가구 청년 생필품 구매비 · 11월 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "성동구 공식 목록 815에서 11월 제목·2026.11.01 00시~11.10 00시·접수중 확인, 같은번호 상세에서 신청하기·200,000원실비·거주/가구/소득조건 확인. 목록의 신청인원/정원은 잔여예산 보장 아님."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-SEOUL-SEONGDONG-HAIR-NOV-2026",
+      "title": "성동구 청년 등 탈모 치료비 · 11월",
+      "authority": "서울특별시 성동구 아동청년과",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [
+        "서울"
+      ],
+      "city": "성동구",
+      "benefit_summary": "진단·처방에 따른 경구용 탈모 약제의 본인 구매금액 80%를 1인 연간 20만 원 한도로 지원합니다. 치료 조언이나 약 추천은 제공하지 않습니다.",
+      "age_note": "39세 이하(1987.1.1. 이후 출생) 성동구민 대상입니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "신청일 성동구 3개월 이상 계속 주민등록·대한민국 국적 등 공식 자격",
+        "2025.11.15. 이후부터2026.11.15.까지의 처방·진단코드·약제명·구매 영수증",
+        "경구용 약제에 한정·기지급 누계·본인 또는 같은세대 대리신청 자격",
+        "건강·진료 자료는 우리 서비스에 입력하지 않고 공식 접수처에만 제출"
+      ],
+      "schedule_note": "11/1 09시~11/15 23시 공식 접수중입니다. 11/16 이후 처방내역은 2027년도 신청 대상입니다. 회원가입 후 공식 신청 페이지에서 접수합니다.",
+      "starts_on": "2026-11-01",
+      "ends_on": "2026-11-15",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://sd.go.kr/booking/viewTnOnlineRceptU1.do?progrmNo=813&sc3=202611&key=4871",
+          "title": "성동구 청년 등 탈모 치료비 · 11월 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "성동구 공식 목록813에서 11월·접수중·11/1 09시~11/15 23시 확인, 상세에서 신청하기·80%/연20만원·명시 출생일·거주기간·증빙 범위 확인."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-NATIONAL-DOOSAN-UNIVERSITY-2027",
+      "title": "두산연강 대학 장학생 · 2027년도 모집",
+      "authority": "두산연강재단(민간 공익재단)",
+      "edition": "2027년도 모집(2026년 접수)",
+      "category": "EDUCATION",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "선발된 대학생에게 재단의 계속 지원 기준 충족 시 졸업까지 학기당 생활비성 학업장려금 400만 원을 지원합니다. 정부 지원사업이 아닌 민간 공익재단 장학금입니다.",
+      "age_note": "연령 제한으로 판정하지 않습니다. 2027년3월 2학년1학기 진학 예정 학부생 등 학적 조건 확인이 필요합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "대한민국 국적·국내4년제학과 학부생·2027년2학년1학기 진학 및 두학기재학 가능",
+        "전체학기 평균3.0/4.5 이상 및 2026-2 한국장학재단 지원구간6구간이하(대체서류 예외)",
+        "지도교수/학과장 추천·공고일이후 발급서류·면접/사전테스트/수여식 참석",
+        "타 장학금 중복제한과 국가/교내장학 예외·계속지원조건"
+      ],
+      "schedule_note": "10/14 09시~11/13 18시 한국시간 기준 홈페이지 접수입니다. 공식 지원 안내 목록의 applying 표기 및 해당 상세의 지원하기 버튼을 확인했습니다. 개인별 서류 제출·선발은 별도입니다.",
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-11-13",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.yonkang.org/kr/support/information/?id=109",
+          "title": "두산연강 대학 장학생 · 2027년도 모집 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "재단 공식 모집id109에2026-10-14 09시~11-13 18시 접수, applying/지원하기, 학기당400만원·학적/성적/지원구간·선발/중복제한 명시."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-SEOUL-SEODAEMUN-EXAM-H2-2026",
+      "title": "서대문구 미취업 청년 어학·자격증 응시료 · 하반기",
+      "authority": "서울특별시 서대문구 청년정책과",
+      "edition": "2026년",
+      "category": "EDUCATION",
+      "provinces": [
+        "서울"
+      ],
+      "city": "서대문구",
+      "benefit_summary": "어학·자격증 시험 응시료를 생애 한 번 최대 10만 원 한도로 실비 지원합니다. 실제 시험 응시·본인 결제 및 공고의 인정 시험을 확인해야 합니다.",
+      "age_note": "신청일 만19~39세입니다. 1986년생은 생일 전날까지,2007년생은 생일 당일부터 등 공식 경계 기준을 확인합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "신청일 서대문구 주민등록 및 신청일 만19~39세",
+        "미취업·미창업 여부 및 인정 가능한 단기근로 등 공고의 예외",
+        "실제 응시·본인부담 지출·인정 시험·생애1회 및 중복 지원 여부",
+        "신청서·개인정보 동의·부정수급 확약·각종 증빙을 공식 접수처에 제출"
+      ],
+      "schedule_note": "구청 제2026-1446호는10/12~12/10 추가 모집 및 공식 담당자 이메일 신청을 명시합니다. 예산 소진 시 조기 종료합니다. 이메일은 공고에서 직접 확인하고 제출하세요.",
+      "starts_on": "2026-10-12",
+      "ends_on": "2026-12-10",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=315797",
+          "title": "서대문구 미취업 청년 어학·자격증 응시료 · 하반기 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "구청 공식 공고 제2026-1446호 본문에2026.10.12~12.10 신청기간·최대10만원생애1회·신청일만19~39세·이메일신청(sdmyouth@sdm.go.kr)과 신청서 첨부를 직접 확인. 이메일 전송은 수행하지 않음."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-SEOUL-SEONGDONG-HOME-SAFETY3-2026",
+      "title": "성동구 주거안전 취약계층 안심장비 · 3차",
+      "authority": "서울특별시 성동구 복지정책과",
+      "edition": "2026년",
+      "category": "HOUSING",
+      "provinces": [
+        "서울"
+      ],
+      "city": "성동구",
+      "benefit_summary": "주거안전 취약가구30가구에 문열림감지장치·창문잠금장치를 지원합니다. 청년도 조건에 따라 검토할 수 있으며 청년 전용사업은 아닙니다. 직접 설치해야 하며 설치·인터넷·유지보수 비용은 지원하지 않습니다.",
+      "age_note": "별도 청년 나이 제한이 없는 주거안전 사업입니다. 거주 주택과 가구별 요건을 확인합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "성동구 내 아파트 외 주택 거주 및 전월세환산보증금/주택가액3억원이하",
+        "스마트폰·가정내Wi-Fi 보유·장비자가설치 가능",
+        "최근2년 성동구 안심장비 지원 수혜 여부",
+        "범죄피해·낮은주택가액·취약주택·사회안전약자 가구 우선순위와 임대인 설치동의 등 권리관계"
+      ],
+      "schedule_note": "구청 공고 제2026-1474호:11/2~11/30 접수. 성동구 홈페이지 행사/지원사업 온라인 또는 구청9층 복지정책과1인가구지원팀 방문 접수(09~18시 점심시간제외). 선정 후12월 개별통지입니다.",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://sd.go.kr/main/selectBbsNttView.do?bbsNo=183&key=1472&nttNo=362582&nttShowPd=36&pageIndex=1&pageUnit=10",
+          "title": "성동구 주거안전 취약계층 안심장비 · 3차 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "구청 공식 10/29 제2026-1474호 PDF 1쪽에11/2~11/30 모집·30가구·구청9층방문접수/온라인안내·신청서 첨부 명시,2쪽에스마트폰/Wi-Fi필수·최근2년중복제외 명시. 공식 신청서 PDF도 제공되며 실제 접수는 수행하지 않음."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-CULTURE-NURI-2026",
+      "title": "문화누리카드 · 2026 신규·재충전",
+      "authority": "문화체육관광부·한국문화예술위원회",
+      "edition": "2026년",
+      "category": "CULTURE",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "기초생활수급자·차상위계층이 문화예술·국내여행·체육 가맹점에서 이용하는 연15만 원 문화이용권입니다. 현금이나 적금 이자로 합산하지 않습니다.",
+      "age_note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "6세이상 기초생활수급자 또는 법정차상위 자격",
+        "주소지 시군구 배정예산·기존 자동재충전/중복 발급 여부",
+        "본인인증·국민행복카드와 다른 문화누리카드 발급 및 수령등록",
+        "사용처 제한·사용기한과 발급 후 변경/취소 제한"
+      ],
+      "schedule_note": "신규·재충전 신청은2026.2.2~11.30 18시, 사용은12.31까지입니다. 공식 카드발급1단계(약관·본인인증·신청정보·제출)를 직접 확인했으며 동의·신청은 하지 않았습니다.",
+      "starts_on": "2026-02-02",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://m.mnuri.kr/card/cardMain/cardIssue_step00.do",
+          "title": "문화누리카드 · 2026 신규·재충전 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 발급창에2026년11월30일18시 종료·지역예산소진조기마감 및 실제 신청1단계/신청하기 확인. 공식 카드설명에서6세이상수급/차상위·연15만원 확인."
+        },
+        {
+          "url": "https://m.mnuri.kr/munhwa/introduceNuri.do",
+          "title": "문화누리카드 공식 지원대상·금액",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "2026년6세이상수급/차상위 연15만원 및 생애주기 추가지원 별도 안내"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-CARE-LEAVER-ALLOWANCE",
+      "title": "자립준비청년 보호종료 자립수당",
+      "authority": "보건복지부",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "공식 보호종료·보호기간 등의 요건을 충족하는 자립준비청년에게 월50만 원 자립수당을 지원합니다. 현재 입력만으로 수급을 확정하지 않습니다.",
+      "age_note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "아동복지시설·가정위탁 보호종료일 및 과거2년연속보호 증빙",
+        "만기/연장종료 후5년 또는 조기종료 시만18세기준5년 등 유형별 기한",
+        "원가정복귀·다른법령 자립수당 중복 수급 제외",
+        "재무교육 이수·본인신청/대리신청·공식 신분/계좌 증빙"
+      ],
+      "schedule_note": "상시 신청 안내가 있으며 보호종료예정자는 종료전30일 사전신청 등 개인별 시점을 확인합니다. 복지로 온라인 또는 주소지 행정복지센터 신청입니다. 로그인·제출은 실행하지 않았습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.gov.kr/portal/service/serviceInfo/508000000565",
+          "title": "자립준비청년 보호종료 자립수당 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "정부24 최종수정2026.9.15 자립수당월50만원·보호이력/5년요건·복지로온라인신청, 인천광역시 현행안내의상시신청가능·복지급여신청경로 직접확인."
+        },
+        {
+          "url": "https://www.incheon.go.kr/welfare/WE020441",
+          "title": "자립수당 공식 상시 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "상시신청가능·보호종료전30일사전신청·복지로온라인신청 경로 명시"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-MATERNITY-UNINSURED",
+      "title": "고용보험 미적용자 출산급여",
+      "authority": "고용노동부",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "소득활동을 했지만 고용보험 출산전후휴가급여를 받지 못하는 출산여성에게 통상 총150만 원을 지원합니다. 유산·사산은 임신기간별로 다릅니다.",
+      "age_note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "출산일 및 출산일로부터1년 이내 신청",
+        "출산일당시 근로/1인사업/프리랜서 등 해당유형과 소득활동·세금신고 증빙",
+        "고용보험 출산휴가급여·예술인/노무제공자 급여의 대상 여부 및 중복 제한",
+        "2026년2월변경된 국세청신고소득 증빙·동거친족 등 유형별 제외조건"
+      ],
+      "schedule_note": "일괄 모집기간 없이 출산일로부터1년 이내 신청하는 급여입니다. 고용24의 해당급여신청 메뉴 및 고용센터방문·우편 경로를 확인했습니다. 직접 GET은405여서 로그인 이후 신청화면/접수완료는 확인하지 않았습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.gov.kr/portal/service/serviceInfo/149200000153",
+          "title": "고용보험 미적용자 출산급여 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "정부24 현행안내의1년기한·온라인고용24신청·2026.2월증빙변경, 고용24 공개전체메뉴의 고용보험미적용자출산급여신청과 실제onclick경로 확인."
+        },
+        {
+          "url": "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=10&systId=SI00000390&systClId=SC00000250",
+          "title": "고용24 미적용자 출산급여 공식 계약",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원150만원·개인별기한·온라인/고용센터절차 명시"
+        },
+        {
+          "url": "https://www.work24.go.kr/cm/main.do",
+          "title": "고용24 공식 신청 메뉴",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "메뉴onclick: /ei/b/d/1100/retrieveCs0100InfoPost.do. 직접GET405,로그인/신청미실행"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-WELFARE-FEE-REDUCTION",
+      "title": "전기·가스·난방·TV 요금감면 일괄신청",
+      "authority": "행정안전부·각 에너지/방송 공급기관",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "기초생활수급·차상위·장애·다자녀 등 해당 자격에 따라 전기·도시가스·지역난방·TV수신료 감면을 한 번에 신청합니다. 유형·계약별 감면액이 달라 개인별 절약액은 계산하지 않습니다.",
+      "age_note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "공식 감면자격과 대상 가구 구성·주민등록 확인",
+        "전기/가스/난방 등 개별 계약의 명의·고객번호와 공급기관",
+        "감면유형별 적용한도·중복·자격변경/전입시 재신청",
+        "본인인증·행정정보공동이용 동의는 공식정부24에서 직접 진행"
+      ],
+      "schedule_note": "공식 정부24 서비스에 신청하기와 인터넷 민원찾기 경로가 있습니다. 연결은 인증 로그인으로 넘어가는 단계까지 확인했으며 인증·개인정보 입력·접수는 하지 않았습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.gov.kr/portal/service/serviceInfo/174100000049",
+          "title": "전기·가스·난방·TV 요금감면 일괄신청 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "정부24 최종수정2026.4.30 현행대상·신청하기 및 capp_biz_cd=PG4CADM4001 신청링크 확인. 로그인리다이렉트후 도구안전검증으로중단되어 실제제출미확인."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-EITC-LATE-2025",
+      "title": "근로·자녀장려금 · 2025년 귀속 기한 후 신청",
+      "authority": "국세청",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "2025년 귀속 소득·가구·재산 요건을 충족하지만 정기신청을 놓친 가구의 근로·자녀장려금 기한후 신청입니다. 기한후에는 산정액의95%를 지급하며 현재 월소득으로 장려금을 추정하지 않습니다.",
+      "age_note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "2025년 근로·사업·종교인 소득과 부부합산총소득",
+        "2025.6.1. 가구합산재산·가구유형·부양자녀 등 공식기준",
+        "이미 정기/반기신청·지급했는지 및 국적/전문직/부양가족 제외조건",
+        "기한후5%감액·재산구간추가감액 등 실제 국세청 심사"
+      ],
+      "schedule_note": "국세청2026.8.27공식안내에서12/1까지 홈택스·ARS1544-9944 등의 기한후 신청을 명시합니다. 공식2026년일정은6/2~12/1이며 안내문이 없어도 홈택스 직접신청 경로가 있습니다.",
+      "starts_on": "2026-06-02",
+      "ends_on": "2026-12-01",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://j.nts.go.kr/nts/na/ntt/selectNttInfo.do?bbsId=1028&mi=2201&nttSn=1354474",
+          "title": "근로·자녀장려금 · 2025년 귀속 기한 후 신청 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "국세청 공식보도자료 본문12/1까지 홈택스/ARS기한후신청·95%지급, 공식3월질의의2026.6.2~12.1기한을 교차확인. 홈택스로그인·세무정보수집·신청미실행."
+        },
+        {
+          "url": "https://webtv.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=2201&nttSn=1349357",
+          "title": "국세청2026 기한후 신청 일정",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식문8에2026.6.2~12.1기한후신청·산정액95%명시"
+        },
+        {
+          "url": "https://www.gov.kr/portal/service/serviceInfo/105100000001",
+          "title": "정부24 근로·자녀장려금 자격 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "소득·재산·가구별요건과홈택스공식연결. 일반정기일정이아닌국세청2026기한후창적용"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-MODU-KPASS-2026",
+      "title": "모두의카드(K-패스) 대중교통비 환급",
+      "authority": "국토교통부 대도시권광역교통위원회·한국교통안전공단",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "등록한 교통카드의 대중교통 이용실적에 따라 기본형·모두의카드 방식 중 유리한 환급을 적용합니다. 청년·저소득·다자녀·지역 추가혜택은 각각 공식 인증 조건이 있어 일률적인 환급액을 계산하지 않습니다.",
+      "age_note": "일반참여는만19세이상입니다. 청년환급구간은19~34세이지만35세이상도일반형/지역혜택을검토할수있습니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "만19세이상·참여지자체주민 및 주소검증",
+        "지원대중교통·이용횟수/금액·인정승차시간·카드등록 및 사용실적",
+        "청년19~34세·저소득·다자녀 등 유형별 공식인증과 지자체 추가혜택",
+        "교통카드발급·본인인증·홈페이지회원가입/등록,신용카드발급이나가입대행은하지않음"
+      ],
+      "schedule_note": "공식 홈페이지 가입조건·회원가입 화면이 현재 열려 있습니다. K-패스/알뜰교통카드도 등록 가능하며 카드발급→회원가입→대중교통이용→익월환급 순서입니다. 실제 가입·카드신청은 하지 않았습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.korea-pass.kr/info/intro.do",
+          "title": "모두의카드(K-패스) 대중교통비 환급 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 korea-pass.kr 현행명칭모두의카드·지원기준, use_join.do의만19세이상/지자체주민, join/join.do 실제카드번호/약관/본인인증 단계응답200 확인."
+        },
+        {
+          "url": "https://www.korea-pass.kr/info/use_join.do",
+          "title": "모두의카드 공식 가입조건",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "만19세이상·참여지자체주민·외국인가능·카드/회원가입 필요"
+        },
+        {
+          "url": "https://www.korea-pass.kr/join/join.do",
+          "title": "모두의카드 공식 가입 시작",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공개가입시작화면200·본인인증/약관/카드번호 확인. 아무정보도입력하지않음"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-HOUSING-BENEFIT-2026",
+      "title": "주거급여 · 임차료·집수리·청년 분리지급 확인",
+      "authority": "국토교통부·지방자치단체·한국토지주택공사",
+      "edition": "2026년",
+      "category": "HOUSING",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "저소득 가구의 실제 임차료 또는 자가주택 수선을 지원하는 주거급여입니다. 수급가구에서 부모와 따로 거주하는 미혼청년은 분리지급도 확인할 수 있습니다. 현재 월세나 월소득만으로 지급액을 산출하지 않습니다.",
+      "age_note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "가구 소득평가액과 재산소득환산액을 합한 소득인정액·중위소득48%기준",
+        "실제임대차·월차임/보증금·가구원수·급지·주택조사 및 사용대차 제외",
+        "청년분리지급은부모수급가구·19세이상30세미만미혼·별도거주 등 별도조건",
+        "복지로온라인본인인증·가구원동의·주소지주민센터 및 공식조사"
+      ],
+      "schedule_note": "LH현행2026주거급여안내에서 복지로 인터넷신청·주소지주민센터신청과2026기준을 확인했습니다. 별도지정모집창의접수중배지나로그인이후화면은 확인하지 않아 현재모집확정으로표시하지 않습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.lh.or.kr/menu.es?mid=a10401050100",
+          "title": "주거급여 · 임차료·집수리·청년 분리지급 확인 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "LH직접안내에서2026기준·복지로인터넷신청·신청서/동의/소득재산/임대차증빙 확인. 청년분리지급도공식LH2026안내서연결. 특정온라인접수창실행은미확인."
+        },
+        {
+          "url": "https://www.lh.or.kr/boardDownload.es?bid=0033&list_no=731834&seq=1",
+          "title": "LH2026 청년 주거지원 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "청년주거급여분리의부모주소지주민센터/복지로온라인신청안내"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-SANITARY-VOUCHER-2026",
+      "title": "저소득 여성청소년 생리용품 바우처",
+      "authority": "성평등가족부·지방자치단체",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "기초생활수급·차상위·한부모가족 지원대상인9~24세 여성청소년의 생리용품 구매를 돕는 연16만8천 원 바우처입니다. 국민행복카드로 사용하며 현금지원은 아닙니다.",
+      "age_note": "공식대상9~24세여성청소년입니다. 개인입력에서성별·가구자격·정확한연령산정기준을확정하지않아전체자격UNKNOWN을유지합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "공식9~24세여성청소년대상및연령산정일",
+        "기초생활수급·법정차상위·한부모가족지원대상 공식자격",
+        "기존수혜·자격변경·국민행복카드와이용가맹점",
+        "본인/양육자등신청권한·기관별올해최종신청기한"
+      ],
+      "schedule_note": "전국제도에 대한정부민원110의2026안내와인천광역시2026.9.8현재안내에서 복지로신청하기 링크를 확인했습니다. 복지로로그인이후접수창·전국동일마감은확인하지않아 모집확정으로표시하지않습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.incheon.go.kr/welfare/WE020405",
+          "title": "저소득 여성청소년 생리용품 바우처 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "정부1102026안내의연16만8천원전액/복지로온라인신청,지자체현행안내의신청하기 WLF00000781 링크확인. 개인정보/성별/건강정보입력·신청미실행."
+        },
+        {
+          "url": "https://www.110.go.kr/data/counselView.do?curPage=2&num=A01_720889&scCate1=&scCate2=&scIntt=&scText=&scType=",
+          "title": "정부민원110 2026년 사업변경 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "연168,000원·국민행복카드동시신청·복지로온라인신청 명시"
+        },
+        {
+          "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000781&wlfareInfoReldBztpCd=01",
+          "title": "복지로 생리용품 공식 신청 안내 연결",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지자체공식신청하기에서직접연결된서비스ID.로그인후신청화면은미확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-ENERGY-VOUCHER-2026",
+      "title": "에너지바우처 · 2026 냉난방비 지원",
+      "authority": "기후에너지환경부·한국에너지공단",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "기초생활수급자 중 세대원 특성요건에 맞는 가구에 전기·도시가스·지역난방 등 에너지 구입비를 지원합니다. 세대원수별 연간총액이며 매월 지급액으로 환산하지 않습니다.",
+      "age_note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "기초생활수급자격과노인/영유아/장애/임신/중증질환/한부모/다자녀등세대특성동시충족",
+        "전원시설수급가구제외·동절기연료비/연탄등중복지원제한",
+        "세대원수·에너지고객번호·요금차감또는실물카드선택",
+        "기존자동신청·이사/세대변경재신청·전국시스템일시중지일"
+      ],
+      "schedule_note": "공식2026신청기간6/15~12/31,복지로온라인/주소지주민센터신청입니다.12월말중2~3일시스템정지는별도확인해야합니다.2027.5.31까지의사용기간과신청마감을구분합니다.",
+      "starts_on": "2026-06-15",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.energyv.or.kr/info/apl_info.do",
+          "title": "에너지바우처 · 2026 냉난방비 지원 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식신청안내6/15~12/31·온라인복지로신청,지원안내2026금액/대상·시스템오픈/중지일을직접확인.로그인/신청미실행."
+        },
+        {
+          "url": "https://www.energyv.or.kr/info/support_info.do",
+          "title": "에너지바우처2026 지원기준·금액",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "소득+세대특성·지원제외·세대별연간금액·신청/사용기간구분"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-KR-WORK-SMART-COUNSEL",
+      "title": "취업똑똑 온라인 취업상담",
+      "authority": "고용노동부·한국고용정보원·고용복지플러스센터",
+      "edition": "2026년",
+      "category": "EMPLOYMENT",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "취업상담에 필요한 상황을 확인한 뒤 고용복지플러스센터의 온라인 취업상담으로 연결하는 공공서비스입니다. 구직수당이나 취업확정이 아니라 상담지원입니다.",
+      "age_note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "구직상황·상담희망내용 및이용가능서비스",
+        "배정센터·상담연락방식·상담일정과 개인정보동의",
+        "다른취업지원제도참여와수급여부는별도기관심사"
+      ],
+      "schedule_note": "고용24공식메뉴의취업똑똑링크에서현행상담안내첫화면과다음버튼을확인했습니다. 설문응답·연락처제출·상담접수는하지않았습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.workplus.go.kr/survey.do",
+          "title": "취업똑똑 온라인 취업상담 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식고용24메뉴에서workplus.go.kr/survey.do 직접연결;동일정부서비스화면온라인취업상담안내·취업상담위한사항확인·다음버튼응답200확인."
+        },
+        {
+          "url": "https://www.work24.go.kr/cm/main.do",
+          "title": "고용24 공식 취업똑똑 서비스 메뉴",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "취업가이드및자주찾는서비스의외부공식상담링크확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-GN-472-GUARANTEE-2026",
+      "title": "거제시 전세보증금 반환보증 보증료 지원",
+      "authority": "거제시·경상남도",
+      "edition": "2026년",
+      "category": "HOUSING",
+      "provinces": [
+        "경남"
+      ],
+      "city": "거제시",
+      "benefit_summary": "이미 납부한 전세보증금 반환보증 보증료의 전부 또는 일부를 최대 40만 원 한도로 지원합니다. 가입·보증 시작 시점이 2025년 3월 31일 이전이면 최대 30만 원 등 세부 조건이 다릅니다.",
+      "age_note": "청년 구간은 19~39세입니다. 청년 외·신혼부부도 별도 소득조건으로 대상이므로 나이만으로 사업 전체를 제외하지 않습니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "신청일 주민등록·무주택·본인 명의 임대차 및 임차보증금 3억 원 이하",
+        "HUG·HF·SGI의 신청일 유효한 반환보증과 실제 보증료 납부 증빙",
+        "공식 연소득 청년 5천만 원·청년 외 6천만 원·신혼부부 7천5백만 원 이하 및 배우자 합산 등 산정 방식",
+        "등록임대사업자 주택·법인 임차인·중복 지원 등 제외사유와 예산 잔여량"
+      ],
+      "schedule_note": "경남바로서비스가 접수중으로 표시합니다. 2026-02-23부터 2026-12-04 23:59까지이며 예산 소진 시 조기 종료합니다.",
+      "starts_on": "2026-02-23",
+      "ends_on": "2026-12-04",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://baro.gyeongnam.go.kr/baro/serviceView.es?service_no=472&mid=a10202000000",
+          "title": "거제시 전세보증금 반환보증 보증료 지원 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 상세 접수중 표기, 2026-02-23 ~ 2026-12-04 23:59 접수일정과 신청(goApply) 버튼을 2026-11-02 직접 확인. 모집인원은 남은 인원으로 해석하지 않음."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-GN-494-GUARANTEE-2026",
+      "title": "거창군 전세보증금 반환보증 보증료 지원",
+      "authority": "거창군·경상남도",
+      "edition": "2026년",
+      "category": "HOUSING",
+      "provinces": [
+        "경남"
+      ],
+      "city": "거창군",
+      "benefit_summary": "이미 납부한 전세보증금 반환보증 보증료의 전부 또는 일부를 최대 40만 원 한도로 지원합니다. 가입·보증 시작 시점이 2025년 3월 31일 이전이면 최대 30만 원 등 세부 조건이 다릅니다.",
+      "age_note": "청년 구간은 19~45세입니다. 청년 외·신혼부부도 별도 소득조건으로 대상이므로 나이만으로 사업 전체를 제외하지 않습니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "신청일 주민등록·무주택·본인 명의 임대차 및 임차보증금 3억 원 이하",
+        "HUG·HF·SGI의 신청일 유효한 반환보증과 실제 보증료 납부 증빙",
+        "공식 연소득 청년 5천만 원·청년 외 6천만 원·신혼부부 7천5백만 원 이하 및 배우자 합산 등 산정 방식",
+        "등록임대사업자 주택·법인 임차인·중복 지원 등 제외사유와 예산 잔여량"
+      ],
+      "schedule_note": "경남바로서비스가 접수중으로 표시합니다. 2026-03-01부터 2026-12-04 23:59까지이며 예산 소진 시 조기 종료합니다.",
+      "starts_on": "2026-03-01",
+      "ends_on": "2026-12-04",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://baro.gyeongnam.go.kr/baro/serviceView.es?service_no=494&mid=a10202000000",
+          "title": "거창군 전세보증금 반환보증 보증료 지원 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 상세 접수중 표기, 2026-03-01 ~ 2026-12-04 23:59 접수일정과 신청(goApply) 버튼을 2026-11-02 직접 확인. 모집인원은 남은 인원으로 해석하지 않음."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-GN-444-GUARANTEE-2026",
+      "title": "진주시 전세보증금 반환보증 보증료 지원",
+      "authority": "진주시·경상남도",
+      "edition": "2026년",
+      "category": "HOUSING",
+      "provinces": [
+        "경남"
+      ],
+      "city": "진주시",
+      "benefit_summary": "이미 납부한 전세보증금 반환보증 보증료의 전부 또는 일부를 최대 40만 원 한도로 지원합니다. 가입·보증 시작 시점이 2025년 3월 31일 이전이면 최대 30만 원 등 세부 조건이 다릅니다.",
+      "age_note": "공식 본문에 청년 18~39세와 19~39세가 병기되어 경계 연령은 기관 확인이 필요합니다. 청년 외·신혼부부도 대상입니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "신청일 주민등록·무주택·본인 명의 임대차 및 임차보증금 3억 원 이하",
+        "HUG·HF·SGI의 신청일 유효한 반환보증과 실제 보증료 납부 증빙",
+        "공식 연소득 청년 5천만 원·청년 외 6천만 원·신혼부부 7천5백만 원 이하 및 배우자 합산 등 산정 방식",
+        "등록임대사업자 주택·법인 임차인·중복 지원 등 제외사유와 예산 잔여량"
+      ],
+      "schedule_note": "경남바로서비스가 접수중으로 표시합니다. 2026-02-02부터 2026-12-11 23:59까지이며 예산 소진 시 조기 종료합니다.",
+      "starts_on": "2026-02-02",
+      "ends_on": "2026-12-11",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://baro.gyeongnam.go.kr/baro/serviceView.es?service_no=444&mid=a10202000000",
+          "title": "진주시 전세보증금 반환보증 보증료 지원 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 상세 접수중 표기, 2026-02-02 ~ 2026-12-11 23:59 접수일정과 신청(goApply) 버튼을 2026-11-02 직접 확인. 모집인원은 남은 인원으로 해석하지 않음."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-JB-IKSAN-FINANCE-CLASS-2026",
+      "title": "익산 청년 익테크 무료 금융교육",
+      "authority": "익산시 익산청년시청",
+      "edition": "2026년",
+      "category": "EDUCATION",
+      "provinces": [
+        "전북"
+      ],
+      "city": "익산시",
+      "benefit_summary": "청년의 경제생활·금융 역량을 위한 금융교육을 수강료·재료비 없이 제공합니다. 정원 50명이며 초과 신청 시 추첨합니다.",
+      "age_note": "익산 거주 18~39세 청년 및 관내 재학생 대상입니다. 관내 재학 예외와 연령 적용은 기관 확인이 필요합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "익산 거주 또는 익산 소재 대학 재학 증빙",
+        "대리 신청 불가·연락 수신 및 추첨 선정·전체 일정 참석 여부",
+        "신청 마지막 시각은 공식 상세의 11/6 00:00 표기를 우선 확인"
+      ],
+      "schedule_note": "공식 신청 창은 11/2 00:00~11/6 00:00입니다. 날짜 단위 표시에서는 안전하게 11/5까지 접수로 취급합니다. 교육은 11/11~12/4 19~21시, 익산청년시청 6층입니다.",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-05",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youthforest.iksan.go.kr/index.iksan?menuCd=DOM_000000101002002001&educationSid=UNIQ_00591",
+          "title": "익산 청년 익테크 무료 금융교육 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 educationSid=UNIQ_00591 상세 HTML 접수시작 2026-11-02 00:00:00·종료 2026-11-06 00:00:00 및 신청하기 링크, 수강비·재료비 무료와 정원50명 확인. 신청 페이지 menuCd=DOM_000000101002001002 응답200이며 실제 신청은 로그인·선정 등 확인 필요."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "RECOMMEND-NATIONAL-KOSAF-BLUE-LIGHT-SECOND-2026",
+      "title": "푸른등대 기부장학금 2차 · 일상회복·지역 1차산업",
+      "authority": "한국장학재단",
+      "edition": "2026년",
+      "category": "EDUCATION",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "대학교 재학생 중 일상회복 프로그램 수료 또는 지역 1차산업 전공 등 해당 유형 요건에 맞는 학생에게 2026년 2학기 생활비 장학금 200만 원을 지원합니다. 일상회복 10명·지역 1차산업 25명 선발이며 하나의 2차 공고로 관리합니다.",
+      "age_note": "연령만으로 확인하지 않습니다. 대한민국 국적·대학 재학·유형별 학적과 이수 조건을 확인해야 합니다.",
+      "income_note": "월소득을 연소득·가구소득·학자금 지원구간으로 환산해 통과시키지 않습니다. 공식 소득·재산 증빙을 별도 확인해야 합니다.",
+      "required_checks": [
+        "대한민국 국적·지원 가능 대학 및 2026년 2학기 재학 여부",
+        "일상회복 유형: 2023년 이후 고립·은둔 지원 프로그램 수료 증빙",
+        "지역 1차산업 유형: 지역 대학 재학 및 농림축산수산 계열 전공 등 세부 요건",
+        "학자금 지원구간·성적·유형별 선발점수 및 기부장학금 중복 수혜 제한",
+        "재단 이용자 등록·로그인·전자 동의 및 서류 제출"
+      ],
+      "schedule_note": "학생 신청·서류 제출은 10/22 09:00~11/12 18:00입니다. 주말·공휴일 포함 24시간 신청 가능하나 마감일은 18시에 끝납니다. 선발·지급은 11월 말 예정입니다.",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-11-12",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_26_01",
+          "title": "푸른등대 기부장학금 2차 · 일상회복·지역 1차산업 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 재단 신청자격·지원내용에서 2026-10-22 09:00~11-12 18:00 학생신청·서류제출 일정과 두 기부처 유형·장학금·로그인 필요를 직접 확인. 기존 재단 메뉴의 푸른등대 기부장학금(2차) 신청하기 제공."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    }
+  ],
+  "rules": [
+    {
+      "program_id": "RECOMMEND-SEOUL-SEONGDONG-SUPPLIES-NOV-2026",
+      "sources": [
+        {
+          "url": "https://sd.go.kr/booking/viewTnOnlineRceptU1.do?progrmNo=815&sc3=202611&key=4871",
+          "title": "성동구 전입 1인가구 청년 생필품 구매비 · 11월 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "성동구 공식 목록 815에서 11월 제목·2026.11.01 00시~11.10 00시·접수중 확인, 같은번호 상세에서 신청하기·200,000원실비·거주/가구/소득조건 확인. 목록의 신청인원/정원은 잔여예산 보장 아님."
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1987-01-01",
+        "birth_end": "2007-12-31",
+        "note": "공식 11월 신청 상세 명시 출생범위를 적용하며 경계나이 병기 차이는 기관 확인합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-SEOUL-SEONGDONG-HAIR-NOV-2026",
+      "sources": [
+        {
+          "url": "https://sd.go.kr/booking/viewTnOnlineRceptU1.do?progrmNo=813&sc3=202611&key=4871",
+          "title": "성동구 청년 등 탈모 치료비 · 11월 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "성동구 공식 목록813에서 11월·접수중·11/1 09시~11/15 23시 확인, 상세에서 신청하기·80%/연20만원·명시 출생일·거주기간·증빙 범위 확인."
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1987-01-01",
+        "birth_end": "2026-11-02",
+        "note": "공식 명시1987.1.1.이후 출생, 출생상한은 확인일로 제한합니다. 39세이하 문구와 달리 하한나이는 지정되지 않았습니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-NATIONAL-DOOSAN-UNIVERSITY-2027",
+      "sources": [
+        {
+          "url": "https://www.yonkang.org/kr/support/information/?id=109",
+          "title": "두산연강 대학 장학생 · 2027년도 모집 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "재단 공식 모집id109에2026-10-14 09시~11-13 18시 접수, applying/지원하기, 학기당400만원·학적/성적/지원구간·선발/중복제한 명시."
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "연령 제한으로 판정하지 않습니다. 2027년3월 2학년1학기 진학 예정 학부생 등 학적 조건 확인이 필요합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-SEOUL-SEODAEMUN-EXAM-H2-2026",
+      "sources": [
+        {
+          "url": "https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=315797",
+          "title": "서대문구 미취업 청년 어학·자격증 응시료 · 하반기 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "구청 공식 공고 제2026-1446호 본문에2026.10.12~12.10 신청기간·최대10만원생애1회·신청일만19~39세·이메일신청(sdmyouth@sdm.go.kr)과 신청서 첨부를 직접 확인. 이메일 전송은 수행하지 않음."
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "minimum": 19,
+        "maximum": 39,
+        "note": "신청일 기준 만19~39세와1986/2007년생 생일 경계를 공식 공고에서 확인했습니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-SEOUL-SEONGDONG-HOME-SAFETY3-2026",
+      "sources": [
+        {
+          "url": "https://sd.go.kr/main/selectBbsNttView.do?bbsNo=183&key=1472&nttNo=362582&nttShowPd=36&pageIndex=1&pageUnit=10",
+          "title": "성동구 주거안전 취약계층 안심장비 · 3차 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "구청 공식 10/29 제2026-1474호 PDF 1쪽에11/2~11/30 모집·30가구·구청9층방문접수/온라인안내·신청서 첨부 명시,2쪽에스마트폰/Wi-Fi필수·최근2년중복제외 명시. 공식 신청서 PDF도 제공되며 실제 접수는 수행하지 않음."
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "별도 청년 나이 제한이 없는 주거안전 사업입니다. 거주 주택과 가구별 요건을 확인합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-CULTURE-NURI-2026",
+      "sources": [
+        {
+          "url": "https://m.mnuri.kr/card/cardMain/cardIssue_step00.do",
+          "title": "문화누리카드 · 2026 신규·재충전 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 발급창에2026년11월30일18시 종료·지역예산소진조기마감 및 실제 신청1단계/신청하기 확인. 공식 카드설명에서6세이상수급/차상위·연15만원 확인."
+        },
+        {
+          "url": "https://m.mnuri.kr/munhwa/introduceNuri.do",
+          "title": "문화누리카드 공식 지원대상·금액",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "2026년6세이상수급/차상위 연15만원 및 생애주기 추가지원 별도 안내"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-CARE-LEAVER-ALLOWANCE",
+      "sources": [
+        {
+          "url": "https://www.gov.kr/portal/service/serviceInfo/508000000565",
+          "title": "자립준비청년 보호종료 자립수당 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "정부24 최종수정2026.9.15 자립수당월50만원·보호이력/5년요건·복지로온라인신청, 인천광역시 현행안내의상시신청가능·복지급여신청경로 직접확인."
+        },
+        {
+          "url": "https://www.incheon.go.kr/welfare/WE020441",
+          "title": "자립수당 공식 상시 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "상시신청가능·보호종료전30일사전신청·복지로온라인신청 경로 명시"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-MATERNITY-UNINSURED",
+      "sources": [
+        {
+          "url": "https://www.gov.kr/portal/service/serviceInfo/149200000153",
+          "title": "고용보험 미적용자 출산급여 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "정부24 현행안내의1년기한·온라인고용24신청·2026.2월증빙변경, 고용24 공개전체메뉴의 고용보험미적용자출산급여신청과 실제onclick경로 확인."
+        },
+        {
+          "url": "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=10&systId=SI00000390&systClId=SC00000250",
+          "title": "고용24 미적용자 출산급여 공식 계약",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원150만원·개인별기한·온라인/고용센터절차 명시"
+        },
+        {
+          "url": "https://www.work24.go.kr/cm/main.do",
+          "title": "고용24 공식 신청 메뉴",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "메뉴onclick: /ei/b/d/1100/retrieveCs0100InfoPost.do. 직접GET405,로그인/신청미실행"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-WELFARE-FEE-REDUCTION",
+      "sources": [
+        {
+          "url": "https://www.gov.kr/portal/service/serviceInfo/174100000049",
+          "title": "전기·가스·난방·TV 요금감면 일괄신청 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "정부24 최종수정2026.4.30 현행대상·신청하기 및 capp_biz_cd=PG4CADM4001 신청링크 확인. 로그인리다이렉트후 도구안전검증으로중단되어 실제제출미확인."
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-EITC-LATE-2025",
+      "sources": [
+        {
+          "url": "https://j.nts.go.kr/nts/na/ntt/selectNttInfo.do?bbsId=1028&mi=2201&nttSn=1354474",
+          "title": "근로·자녀장려금 · 2025년 귀속 기한 후 신청 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "국세청 공식보도자료 본문12/1까지 홈택스/ARS기한후신청·95%지급, 공식3월질의의2026.6.2~12.1기한을 교차확인. 홈택스로그인·세무정보수집·신청미실행."
+        },
+        {
+          "url": "https://webtv.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=2201&nttSn=1349357",
+          "title": "국세청2026 기한후 신청 일정",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식문8에2026.6.2~12.1기한후신청·산정액95%명시"
+        },
+        {
+          "url": "https://www.gov.kr/portal/service/serviceInfo/105100000001",
+          "title": "정부24 근로·자녀장려금 자격 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "소득·재산·가구별요건과홈택스공식연결. 일반정기일정이아닌국세청2026기한후창적용"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-MODU-KPASS-2026",
+      "sources": [
+        {
+          "url": "https://www.korea-pass.kr/info/intro.do",
+          "title": "모두의카드(K-패스) 대중교통비 환급 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 korea-pass.kr 현행명칭모두의카드·지원기준, use_join.do의만19세이상/지자체주민, join/join.do 실제카드번호/약관/본인인증 단계응답200 확인."
+        },
+        {
+          "url": "https://www.korea-pass.kr/info/use_join.do",
+          "title": "모두의카드 공식 가입조건",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "만19세이상·참여지자체주민·외국인가능·카드/회원가입 필요"
+        },
+        {
+          "url": "https://www.korea-pass.kr/join/join.do",
+          "title": "모두의카드 공식 가입 시작",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공개가입시작화면200·본인인증/약관/카드번호 확인. 아무정보도입력하지않음"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "minimum": 19,
+        "maximum": 120,
+        "note": "공식 일반가입19세이상.청년우대34세상한으로사업전체를제외하지않음."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-HOUSING-BENEFIT-2026",
+      "sources": [
+        {
+          "url": "https://www.lh.or.kr/menu.es?mid=a10401050100",
+          "title": "주거급여 · 임차료·집수리·청년 분리지급 확인 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "LH직접안내에서2026기준·복지로인터넷신청·신청서/동의/소득재산/임대차증빙 확인. 청년분리지급도공식LH2026안내서연결. 특정온라인접수창실행은미확인."
+        },
+        {
+          "url": "https://www.lh.or.kr/boardDownload.es?bid=0033&list_no=731834&seq=1",
+          "title": "LH2026 청년 주거지원 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "청년주거급여분리의부모주소지주민센터/복지로온라인신청안내"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-SANITARY-VOUCHER-2026",
+      "sources": [
+        {
+          "url": "https://www.incheon.go.kr/welfare/WE020405",
+          "title": "저소득 여성청소년 생리용품 바우처 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "정부1102026안내의연16만8천원전액/복지로온라인신청,지자체현행안내의신청하기 WLF00000781 링크확인. 개인정보/성별/건강정보입력·신청미실행."
+        },
+        {
+          "url": "https://www.110.go.kr/data/counselView.do?curPage=2&num=A01_720889&scCate1=&scCate2=&scIntt=&scText=&scType=",
+          "title": "정부민원110 2026년 사업변경 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "연168,000원·국민행복카드동시신청·복지로온라인신청 명시"
+        },
+        {
+          "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000781&wlfareInfoReldBztpCd=01",
+          "title": "복지로 생리용품 공식 신청 안내 연결",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지자체공식신청하기에서직접연결된서비스ID.로그인후신청화면은미확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "공식대상9~24세여성청소년입니다. 개인입력에서성별·가구자격·정확한연령산정기준을확정하지않아전체자격UNKNOWN을유지합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-ENERGY-VOUCHER-2026",
+      "sources": [
+        {
+          "url": "https://www.energyv.or.kr/info/apl_info.do",
+          "title": "에너지바우처 · 2026 냉난방비 지원 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식신청안내6/15~12/31·온라인복지로신청,지원안내2026금액/대상·시스템오픈/중지일을직접확인.로그인/신청미실행."
+        },
+        {
+          "url": "https://www.energyv.or.kr/info/support_info.do",
+          "title": "에너지바우처2026 지원기준·금액",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "소득+세대특성·지원제외·세대별연간금액·신청/사용기간구분"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-KR-WORK-SMART-COUNSEL",
+      "sources": [
+        {
+          "url": "https://www.workplus.go.kr/survey.do",
+          "title": "취업똑똑 온라인 취업상담 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식고용24메뉴에서workplus.go.kr/survey.do 직접연결;동일정부서비스화면온라인취업상담안내·취업상담위한사항확인·다음버튼응답200확인."
+        },
+        {
+          "url": "https://www.work24.go.kr/cm/main.do",
+          "title": "고용24 공식 취업똑똑 서비스 메뉴",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "취업가이드및자주찾는서비스의외부공식상담링크확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 전용 연령 제한으로 판정하지 않습니다. 개인별 대상 요건을 공식 증빙으로 확인해야 합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-GN-472-GUARANTEE-2026",
+      "sources": [
+        {
+          "url": "https://baro.gyeongnam.go.kr/baro/serviceView.es?service_no=472&mid=a10202000000",
+          "title": "거제시 전세보증금 반환보증 보증료 지원 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 상세 접수중 표기, 2026-02-23 ~ 2026-12-04 23:59 접수일정과 신청(goApply) 버튼을 2026-11-02 직접 확인. 모집인원은 남은 인원으로 해석하지 않음."
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 구간은 19~39세입니다. 청년 외·신혼부부도 별도 소득조건으로 대상이므로 나이만으로 사업 전체를 제외하지 않습니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-GN-494-GUARANTEE-2026",
+      "sources": [
+        {
+          "url": "https://baro.gyeongnam.go.kr/baro/serviceView.es?service_no=494&mid=a10202000000",
+          "title": "거창군 전세보증금 반환보증 보증료 지원 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 상세 접수중 표기, 2026-03-01 ~ 2026-12-04 23:59 접수일정과 신청(goApply) 버튼을 2026-11-02 직접 확인. 모집인원은 남은 인원으로 해석하지 않음."
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "청년 구간은 19~45세입니다. 청년 외·신혼부부도 별도 소득조건으로 대상이므로 나이만으로 사업 전체를 제외하지 않습니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-GN-444-GUARANTEE-2026",
+      "sources": [
+        {
+          "url": "https://baro.gyeongnam.go.kr/baro/serviceView.es?service_no=444&mid=a10202000000",
+          "title": "진주시 전세보증금 반환보증 보증료 지원 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 상세 접수중 표기, 2026-02-02 ~ 2026-12-11 23:59 접수일정과 신청(goApply) 버튼을 2026-11-02 직접 확인. 모집인원은 남은 인원으로 해석하지 않음."
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "공식 본문에 청년 18~39세와 19~39세가 병기되어 경계 연령은 기관 확인이 필요합니다. 청년 외·신혼부부도 대상입니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-JB-IKSAN-FINANCE-CLASS-2026",
+      "sources": [
+        {
+          "url": "https://youthforest.iksan.go.kr/index.iksan?menuCd=DOM_000000101002002001&educationSid=UNIQ_00591",
+          "title": "익산 청년 익테크 무료 금융교육 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 educationSid=UNIQ_00591 상세 HTML 접수시작 2026-11-02 00:00:00·종료 2026-11-06 00:00:00 및 신청하기 링크, 수강비·재료비 무료와 정원50명 확인. 신청 페이지 menuCd=DOM_000000101002001002 응답200이며 실제 신청은 로그인·선정 등 확인 필요."
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "익산 거주 18~39세 청년 및 관내 재학생 대상입니다. 관내 재학 예외와 연령 적용은 기관 확인이 필요합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    },
+    {
+      "program_id": "RECOMMEND-NATIONAL-KOSAF-BLUE-LIGHT-SECOND-2026",
+      "sources": [
+        {
+          "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_26_01",
+          "title": "푸른등대 기부장학금 2차 · 일상회복·지역 1차산업 공식 안내·신청",
+          "basis_date": null,
+          "verified_on": "2026-11-02",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 재단 신청자격·지원내용에서 2026-10-22 09:00~11-12 18:00 학생신청·서류제출 일정과 두 기부처 유형·장학금·로그인 필요를 직접 확인. 기존 재단 메뉴의 푸른등대 기부장학금(2차) 신청하기 제공."
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "note": "연령만으로 확인하지 않습니다. 대한민국 국적·대학 재학·유형별 학적과 이수 조건을 확인해야 합니다."
+      },
+      "employment_note": "공식 증빙·과거 이력·학생 신분 등 추가 조건은 현재 취업 상태만으로 확정하지 않습니다.",
+      "rent_note": "전세와 월세 구분만으로 보험 가입·무주택·실제 임대차 조건을 확정하지 않습니다."
+    }
+  ],
+  "intake_verification": {
+    "RECOMMEND-SEOUL-SEONGDONG-SUPPLIES-NOV-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://sd.go.kr/booking/viewTnOnlineRceptU1.do?progrmNo=815&sc3=202611&key=4871",
+      "evidence_excerpt": "성동구 공식 목록 815에서 11월 제목·2026.11.01 00시~11.10 00시·접수중 확인, 같은번호 상세에서 신청하기·200,000원실비·거주/가구/소득조건 확인. 목록의 신청인원/정원은 잔여예산 보장 아님.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    },
+    "RECOMMEND-SEOUL-SEONGDONG-HAIR-NOV-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://sd.go.kr/booking/viewTnOnlineRceptU1.do?progrmNo=813&sc3=202611&key=4871",
+      "evidence_excerpt": "성동구 공식 목록813에서 11월·접수중·11/1 09시~11/15 23시 확인, 상세에서 신청하기·80%/연20만원·명시 출생일·거주기간·증빙 범위 확인.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    },
+    "RECOMMEND-NATIONAL-DOOSAN-UNIVERSITY-2027": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://www.yonkang.org/kr/support/information/?id=109",
+      "evidence_excerpt": "재단 공식 모집id109에2026-10-14 09시~11-13 18시 접수, applying/지원하기, 학기당400만원·학적/성적/지원구간·선발/중복제한 명시.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    },
+    "RECOMMEND-SEOUL-SEODAEMUN-EXAM-H2-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=315797",
+      "evidence_excerpt": "구청 공식 공고 제2026-1446호 본문에2026.10.12~12.10 신청기간·최대10만원생애1회·신청일만19~39세·이메일신청(sdmyouth@sdm.go.kr)과 신청서 첨부를 직접 확인. 이메일 전송은 수행하지 않음.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    },
+    "RECOMMEND-SEOUL-SEONGDONG-HOME-SAFETY3-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://sd.go.kr/main/selectBbsNttView.do?bbsNo=183&key=1472&nttNo=362582&nttShowPd=36&pageIndex=1&pageUnit=10",
+      "evidence_excerpt": "구청 공식 10/29 제2026-1474호 PDF 1쪽에11/2~11/30 모집·30가구·구청9층방문접수/온라인안내·신청서 첨부 명시,2쪽에스마트폰/Wi-Fi필수·최근2년중복제외 명시. 공식 신청서 PDF도 제공되며 실제 접수는 수행하지 않음.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    },
+    "RECOMMEND-KR-CULTURE-NURI-2026": {
+      "explicit_status": "OPEN_OFFICIAL_APPLICATION_GUIDANCE",
+      "verified_on": "2026-11-02",
+      "url": "https://m.mnuri.kr/card/cardMain/cardIssue_step00.do",
+      "evidence_excerpt": "공식 발급창에2026년11월30일18시 종료·지역예산소진조기마감 및 실제 신청1단계/신청하기 확인. 공식 카드설명에서6세이상수급/차상위·연15만원 확인.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-KR-CARE-LEAVER-ALLOWANCE": {
+      "explicit_status": "OPEN_OFFICIAL_APPLICATION_GUIDANCE",
+      "verified_on": "2026-11-02",
+      "url": "https://www.gov.kr/portal/service/serviceInfo/508000000565",
+      "evidence_excerpt": "정부24 최종수정2026.9.15 자립수당월50만원·보호이력/5년요건·복지로온라인신청, 인천광역시 현행안내의상시신청가능·복지급여신청경로 직접확인.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-KR-MATERNITY-UNINSURED": {
+      "explicit_status": "OPEN_OFFICIAL_APPLICATION_GUIDANCE",
+      "verified_on": "2026-11-02",
+      "url": "https://www.gov.kr/portal/service/serviceInfo/149200000153",
+      "evidence_excerpt": "정부24 현행안내의1년기한·온라인고용24신청·2026.2월증빙변경, 고용24 공개전체메뉴의 고용보험미적용자출산급여신청과 실제onclick경로 확인.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-KR-WELFARE-FEE-REDUCTION": {
+      "explicit_status": "OPEN_OFFICIAL_APPLICATION_GUIDANCE",
+      "verified_on": "2026-11-02",
+      "url": "https://www.gov.kr/portal/service/serviceInfo/174100000049",
+      "evidence_excerpt": "정부24 최종수정2026.4.30 현행대상·신청하기 및 capp_biz_cd=PG4CADM4001 신청링크 확인. 로그인리다이렉트후 도구안전검증으로중단되어 실제제출미확인.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-KR-EITC-LATE-2025": {
+      "explicit_status": "OPEN_OFFICIAL_APPLICATION_GUIDANCE",
+      "verified_on": "2026-11-02",
+      "url": "https://j.nts.go.kr/nts/na/ntt/selectNttInfo.do?bbsId=1028&mi=2201&nttSn=1354474",
+      "evidence_excerpt": "국세청 공식보도자료 본문12/1까지 홈택스/ARS기한후신청·95%지급, 공식3월질의의2026.6.2~12.1기한을 교차확인. 홈택스로그인·세무정보수집·신청미실행.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-KR-MODU-KPASS-2026": {
+      "explicit_status": "OPEN_OFFICIAL_APPLICATION_GUIDANCE",
+      "verified_on": "2026-11-02",
+      "url": "https://www.korea-pass.kr/info/intro.do",
+      "evidence_excerpt": "공식 korea-pass.kr 현행명칭모두의카드·지원기준, use_join.do의만19세이상/지자체주민, join/join.do 실제카드번호/약관/본인인증 단계응답200 확인.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-KR-HOUSING-BENEFIT-2026": {
+      "explicit_status": "APPLICATION_GUIDANCE_VERIFIED",
+      "verified_on": "2026-11-02",
+      "url": "https://www.lh.or.kr/menu.es?mid=a10401050100",
+      "evidence_excerpt": "LH직접안내에서2026기준·복지로인터넷신청·신청서/동의/소득재산/임대차증빙 확인. 청년분리지급도공식LH2026안내서연결. 특정온라인접수창실행은미확인.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-KR-SANITARY-VOUCHER-2026": {
+      "explicit_status": "APPLICATION_GUIDANCE_VERIFIED",
+      "verified_on": "2026-11-02",
+      "url": "https://www.incheon.go.kr/welfare/WE020405",
+      "evidence_excerpt": "정부1102026안내의연16만8천원전액/복지로온라인신청,지자체현행안내의신청하기 WLF00000781 링크확인. 개인정보/성별/건강정보입력·신청미실행.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-KR-ENERGY-VOUCHER-2026": {
+      "explicit_status": "OPEN_OFFICIAL_APPLICATION_GUIDANCE",
+      "verified_on": "2026-11-02",
+      "url": "https://www.energyv.or.kr/info/apl_info.do",
+      "evidence_excerpt": "공식신청안내6/15~12/31·온라인복지로신청,지원안내2026금액/대상·시스템오픈/중지일을직접확인.로그인/신청미실행.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-KR-WORK-SMART-COUNSEL": {
+      "explicit_status": "OPEN_OFFICIAL_APPLICATION_GUIDANCE",
+      "verified_on": "2026-11-02",
+      "url": "https://www.workplus.go.kr/survey.do",
+      "evidence_excerpt": "공식고용24메뉴에서workplus.go.kr/survey.do 직접연결;동일정부서비스화면온라인취업상담안내·취업상담위한사항확인·다음버튼응답200확인.",
+      "budget_uncertainty": "공식 안내·공개 신청/가입 진입만 확인했습니다. 로그인·본인인증·개인별 기한·잔여예산·실제 접수 및 수급 승인은 별도 확인입니다."
+    },
+    "RECOMMEND-GN-472-GUARANTEE-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://baro.gyeongnam.go.kr/baro/serviceView.es?service_no=472&mid=a10202000000",
+      "evidence_excerpt": "공식 상세 접수중 표기, 2026-02-23 ~ 2026-12-04 23:59 접수일정과 신청(goApply) 버튼을 2026-11-02 직접 확인. 모집인원은 남은 인원으로 해석하지 않음.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    },
+    "RECOMMEND-GN-494-GUARANTEE-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://baro.gyeongnam.go.kr/baro/serviceView.es?service_no=494&mid=a10202000000",
+      "evidence_excerpt": "공식 상세 접수중 표기, 2026-03-01 ~ 2026-12-04 23:59 접수일정과 신청(goApply) 버튼을 2026-11-02 직접 확인. 모집인원은 남은 인원으로 해석하지 않음.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    },
+    "RECOMMEND-GN-444-GUARANTEE-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://baro.gyeongnam.go.kr/baro/serviceView.es?service_no=444&mid=a10202000000",
+      "evidence_excerpt": "공식 상세 접수중 표기, 2026-02-02 ~ 2026-12-11 23:59 접수일정과 신청(goApply) 버튼을 2026-11-02 직접 확인. 모집인원은 남은 인원으로 해석하지 않음.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    },
+    "RECOMMEND-JB-IKSAN-FINANCE-CLASS-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://youthforest.iksan.go.kr/index.iksan?menuCd=DOM_000000101002002001&educationSid=UNIQ_00591",
+      "evidence_excerpt": "공식 educationSid=UNIQ_00591 상세 HTML 접수시작 2026-11-02 00:00:00·종료 2026-11-06 00:00:00 및 신청하기 링크, 수강비·재료비 무료와 정원50명 확인. 신청 페이지 menuCd=DOM_000000101002001002 응답200이며 실제 신청은 로그인·선정 등 확인 필요.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    },
+    "RECOMMEND-NATIONAL-KOSAF-BLUE-LIGHT-SECOND-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-02",
+      "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_26_01",
+      "evidence_excerpt": "공식 재단 신청자격·지원내용에서 2026-10-22 09:00~11-12 18:00 학생신청·서류제출 일정과 두 기부처 유형·장학금·로그인 필요를 직접 확인. 기존 재단 메뉴의 푸른등대 기부장학금(2차) 신청하기 제공.",
+      "budget_uncertainty": "공식 신청 안내·기간을 확인했으며 남은 예산·선발·개별 자격 및 로그인 이후 실제 제출 성공은 보장하지 않습니다."
+    }
+  },
+  "alternative_region_ids": [
+    "RECOMMEND-JB-IKSAN-FINANCE-CLASS-2026"
+  ]
+}

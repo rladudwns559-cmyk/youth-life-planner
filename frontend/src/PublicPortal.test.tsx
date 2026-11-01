@@ -5,7 +5,7 @@ vi.hoisted(()=>vi.stubEnv('VITE_PUBLIC_BACKEND_PENDING','true'));
 vi.mock('./RegionalPrograms',()=>({default:()=> <h2>공식 청년 지원사업</h2>}));
 import App from './App';
 
-beforeEach(()=>{window.history.replaceState(null,'','/#/');vi.useFakeTimers({toFake:['Date']});vi.setSystemTime(new Date('2026-11-01T03:00:00Z'));vi.stubGlobal('fetch',vi.fn(()=>{throw new Error('Public product inputs must stay local');}));});
+beforeEach(()=>{window.history.replaceState(null,'','/#/');vi.useFakeTimers({toFake:['Date']});vi.setSystemTime(new Date('2026-11-02T03:00:00Z'));vi.stubGlobal('fetch',vi.fn(()=>{throw new Error('Public product inputs must stay local');}));});
 afterEach(()=>vi.useRealTimers());
 describe('coherent free public site',()=>{
   it('links the home to usable condition search without dead budget or alert menus',async()=>{
@@ -15,7 +15,7 @@ describe('coherent free public site',()=>{
     const action=screen.getByRole('link',{name:'내 조건에 맞는 지원 찾기'});expect(document.querySelector('.home-copy')!.lastElementChild).toBe(action);
     await userEvent.click(action);expect(await screen.findByRole('heading',{name:'공식 청년 지원사업'})).toBeVisible();
     await userEvent.click(nav.getByRole('link',{name:'상품 찾기'}));expect(screen.getAllByTestId('discovery-card')).toHaveLength(12);
-    fireEvent.change(screen.getByLabelText('매월 저축할 금액'),{target:{value:'500000'}});await userEvent.click(screen.getByRole('button',{name:'내 조건으로 비교'}));
+    fireEvent.change(screen.getByLabelText('매월 저축할 금액'),{target:{value:'500000'}});await userEvent.click(screen.getByRole('button',{name:'추천 상품 보기'}));
     expect(document.querySelectorAll('.code-fit,.code-partial').length).toBeGreaterThan(4);expect(fetch).not.toHaveBeenCalled();
     expect(screen.queryByText('기존 계산 검증 자료 · 일반 상품 추천 아님')).not.toBeInTheDocument();
   });

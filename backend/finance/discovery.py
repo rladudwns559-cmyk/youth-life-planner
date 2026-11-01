@@ -13,7 +13,7 @@ from pydantic import BaseModel,ConfigDict,Field,model_validator
 ROOT=Path(__file__).resolve().parents[2]
 CATALOG_PATH=ROOT/'data/financial-products/discovery-promoted-20261101.json'
 MAX_AMOUNT=1_000_000_000_000
-HOSTS={'www.hanwhasbank.com','www.osb.co.kr','www.jt-bank.co.kr','kbthink.com','www.hanasavings.com','www.kakaobank.com','og.kakaobank.io','www.kbanknow.com','www.tossbank.com','api.tossbank.com','obank.kbstar.com','img2.kbstar.com','www.kebhana.com','banking.kebhana.com','m.kebhana.com','image.kebhana.com','mybank.ibk.co.kr','blog.ibk.co.kr','img.shinhan.com','www.kjbank.com','www.knbank.co.kr','m.knbank.co.kr','m.jbbank.co.kr','www.ibksb.co.kr','img.nonghyup.com','smartmarket.nonghyup.com','www.standardchartered.co.kr','m.kbsavings.com','www.pepperbank.kr','www.welcomebank.co.kr','www.busanbank.co.kr','www.imbank.co.kr'}
+HOSTS={'www.suhyup-bank.com','www.oksavingsbank.com','www.daolsb.com','nsl.yegaramsb.co.kr','m.daolsb.com','ssmt.wooribank.com','spot.wooribank.com','www.woorisavingsbank.com','www.hanwhasbank.com','www.osb.co.kr','www.jt-bank.co.kr','kbthink.com','www.hanasavings.com','www.kakaobank.com','og.kakaobank.io','www.kbanknow.com','www.tossbank.com','api.tossbank.com','obank.kbstar.com','img2.kbstar.com','www.kebhana.com','banking.kebhana.com','m.kebhana.com','image.kebhana.com','mybank.ibk.co.kr','blog.ibk.co.kr','img.shinhan.com','www.kjbank.com','www.knbank.co.kr','m.knbank.co.kr','m.jbbank.co.kr','www.ibksb.co.kr','img.nonghyup.com','smartmarket.nonghyup.com','www.standardchartered.co.kr','m.kbsavings.com','www.pepperbank.kr','www.welcomebank.co.kr','www.busanbank.co.kr','www.imbank.co.kr'}
 
 class Strict(BaseModel):
     model_config=ConfigDict(extra='forbid',strict=True,frozen=True)

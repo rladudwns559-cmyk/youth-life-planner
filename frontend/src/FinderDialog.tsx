@@ -8,7 +8,7 @@ import LocalNotice, {type LocalCounts} from './LocalNotice';
 type View = 'programs' | 'products' | 'compare';
 export type FinderItem = {
   id:string; title:string; location:string; benefit:string; status:string;
-  match:string; checks:string[]; reasons:string[]; url:string;
+  match:string; checks:string[]; reasons:string[]; url:string; recommendationLabel?:string;
 };
 type Props = {
   initialView:View; context:string; localNotice:LocalCounts|null; scopeTools?:ReactNode; items:FinderItem[]; selected:string[];
@@ -65,7 +65,7 @@ export default function FinderDialog({initialView,context,localNotice,scopeTools
     <div className="finder-body">
       {view==='programs'&&<>{scopeTools}{!scopeTools&&<p>공식 모집 상태와 입력 조건을 함께 확인하세요. 비교할 사업은 최대 3개까지 고를 수 있어요.</p>}
         {!items.length&&<div className="finder-empty"><h3>현재 필터에 맞는 안내가 없어요.</h3><p>조건을 수정하거나 분야와 모집 상태의 범위를 넓혀보세요.</p></div>}
-        {items.slice(0,limit).map(item=><article key={item.id} className="finder-row"><div className="finder-meta"><small>{item.status}</small><span>{item.location}</span></div><h3>{item.title}</h3><p>{item.benefit}</p><strong>{item.match}</strong><p>{item.reasons.join(' · ')}</p><p>추가 확인 · {item.checks.join(' · ')}</p><div className="finder-links"><label><input type="checkbox" checked={selected.includes(item.id)} disabled={selected.length>=3&&!selected.includes(item.id)} onChange={()=>onSelect(item.id)}/>비교에 담기<span className="sr-only"> {item.title}</span></label><a href={item.url} target="_blank" rel="noopener noreferrer">공식 안내 ↗</a></div></article>)}
+        {items.slice(0,limit).map(item=><article key={item.id} className={"finder-row"+(item.recommendationLabel?" finder-recommended":"")}>{item.recommendationLabel&&<span className="finder-recommendation-badge">{item.recommendationLabel} · 모집·지역·입력조건 기준</span>}<div className="finder-meta"><small>{item.status}</small><span>{item.location}</span></div><h3>{item.title}</h3><p>{item.benefit}</p><strong>{item.match}</strong><p>{item.reasons.join(' · ')}</p><p>추가 확인 · {item.checks.join(' · ')}</p><div className="finder-links"><label><input type="checkbox" checked={selected.includes(item.id)} disabled={selected.length>=3&&!selected.includes(item.id)} onChange={()=>onSelect(item.id)}/>비교에 담기<span className="sr-only"> {item.title}</span></label><a href={item.url} target="_blank" rel="noopener noreferrer">공식 안내 ↗</a></div></article>)}
         {limit<items.length&&<button type="button" onClick={()=>setLimit(limit+8)}>지원사업 더 보기</button>}</>}
       {view==='compare'&&(selected.length?comparison:<div className="finder-empty"><h3>어떤 사업을 비교할까요?</h3><p>추천 결과에서 ‘비교에 담기’를 누르면 모집 일정과 확인할 조건을 나란히 볼 수 있어요.</p><button type="button" onClick={()=>setView('programs')}>비교할 지원사업 고르기</button></div>)}
       <div hidden={view!=='products'}>{productsVisited&&<ProductResults/>}</div>
