@@ -1,0 +1,9 @@
+{
+  "server_test_transport_counts": {},
+  "os_display": "CONFIRMED_BY_USER",
+  "evidence_kind": "USER_REPORT",
+  "user_report": "브라우저 테스트 알림이 떴어",
+  "independent_automated_os_verification": false,
+  "browser_automation_stop": "Could not determine current browser URL safely; no further computer use attempted.",
+  "server_delivery_corroboration": "No corresponding TEST delivery record remained at the time of aggregate-only inspection; no inference about deletion history."
+}

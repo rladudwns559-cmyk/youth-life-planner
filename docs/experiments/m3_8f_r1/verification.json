@@ -1,0 +1,68 @@
+{
+  "milestone": "M3.8F-R1",
+  "date_kst": "2026-10-26",
+  "verdict": "M3_T08_LIVE_RETEST_APPROVAL_REQUIRED",
+  "root_cause": "PARTIAL_CONFIRMED_FULL_CAUSE_UNCONFIRMED",
+  "actual_new_generations": 0,
+  "actual_new_preloads": 0,
+  "new_test_passed": 30,
+  "backend": {
+    "passed": 12270,
+    "skipped": 1,
+    "warnings": 1,
+    "seconds": 90.07
+  },
+  "frontend": {
+    "passed": 115,
+    "seconds": 41.45,
+    "typescript": "PASS",
+    "build": "PASS",
+    "vite_seconds": 1.46
+  },
+  "original_pair_count": 7,
+  "planned_tasks": 8,
+  "actual_participants": 0,
+  "real_responses": 0,
+  "implementation_changes": "offline diagnostic tool + synthetic tests only",
+  "production_changes": 0,
+  "proposed_diagnostic_generations": 2,
+  "proposed_preloads": 1,
+  "retest_approval": "NOT_GRANTED",
+  "first_failures": {
+    "new_unit": 0,
+    "regression": 0,
+    "current_CIM_access_denied_then_read_only_query_succeeded": true
+  },
+  "frozen": {
+    "policy": "DRAFT/CONDITION_SLICE",
+    "ResidenceHistory": "OFFICIAL_INQUIRY_REQUIRED",
+    "M277": "SYNTHETIC_ONLY",
+    "actual_product_calculations": 0,
+    "unverified_benefit_krw": 0,
+    "coverage": "FROZEN_UNCHANGED"
+  },
+  "obsidian": {
+    "markdown": 75,
+    "bases": 1,
+    "canvases": 1,
+    "content_folders": 11,
+    "wikilinks": 717,
+    "heading_links": 23,
+    "block_links": 1,
+    "source_paths": 467,
+    "external_local_links": 94,
+    "broken_links": 0,
+    "bookmark_groups": 4,
+    "bookmarks": 13,
+    "templates": 5,
+    "changed_existing_notes": 8,
+    "new_notes": 0,
+    "config_files_unchanged": true,
+    "gui": "UNVERIFIED",
+    "latest_bookmark": "M3.1 (stale, unchanged)",
+    "verdict": "M3_T08_LIVE_RETEST_APPROVAL_REQUIRED",
+    "actual_model_runs": 0,
+    "actual_participants": 0,
+    "real_responses": 0
+  }
+}

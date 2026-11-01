@@ -1,0 +1,329 @@
+{
+  "reviewed_on": "2026-11-01",
+  "source_directory": "disclosure-directory-20261023.json",
+  "source_items": 299,
+  "promoted_product_count": 13,
+  "promoted_disclosure_count": 14,
+  "promoted": [
+    {
+      "product_id": "IM-TOGETHER-SAVINGS",
+      "institution": "iM뱅크",
+      "product_name": "iM함께적금",
+      "disclosure_ids": [
+        "DISC-457211d9acfc22d4"
+      ],
+      "sources": [
+        {
+          "url": "https://www.imbank.co.kr/upload/newbbs/FNM001/202503041924527264929452.pdf",
+          "title": "iM함께적금 공식 요약 및 상품설명서",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2025-03-05",
+          "mode": "OFFICIAL_DOCUMENT",
+          "locator": "요약 p.1 최고가입금액 제한없음; 본문 p.2 거래조건; p.3 우대조건"
+        },
+        {
+          "url": "https://www.imbank.co.kr/customer/counsel/fnp_ebz_21010_depo.act",
+          "title": "iM뱅크 인터넷신규상품",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-10-18",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "iM함께적금·가입하기 행"
+        }
+      ]
+    },
+    {
+      "product_id": "BNK-BUSAN-CARBON-SAVINGS",
+      "institution": "BNK부산은행",
+      "product_name": "저탄소 실천 적금",
+      "disclosure_ids": [
+        "DISC-ee37211bfb985299"
+      ],
+      "sources": [
+        {
+          "url": "https://www.busanbank.co.kr/ib20/mnu/FPMSVC002001200",
+          "title": "부산은행 현행 전체상품 및 공개 상품 상세 조회",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_PAGE",
+          "locator": "busan-carbon.html .SSP_TMPLT_JSON_TEXT URLdecode→ dtb_Ltiv/dtb_Data"
+        }
+      ]
+    },
+    {
+      "product_id": "BNK-BUSAN-PET-SAVINGS",
+      "institution": "BNK부산은행",
+      "product_name": "펫 적금",
+      "disclosure_ids": [
+        "DISC-ad0ec95b56a17c7e"
+      ],
+      "sources": [
+        {
+          "url": "https://www.busanbank.co.kr/ib20/mnu/FPMSVC002001200",
+          "title": "부산은행 현행 전체상품 및 공개 상품 상세 조회",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_PAGE",
+          "locator": "busan-pet.html .SSP_TMPLT_JSON_TEXT URLdecode→ dtb_Ltiv/dtb_Data"
+        }
+      ]
+    },
+    {
+      "product_id": "BNK-BUSAN-ONLYONE-SAVINGS",
+      "institution": "BNK부산은행",
+      "product_name": "Only One 주거래 우대적금",
+      "disclosure_ids": [
+        "DISC-551cc70f7452a935"
+      ],
+      "sources": [
+        {
+          "url": "https://www.busanbank.co.kr/ib20/mnu/FPMSVC002001200",
+          "title": "부산은행 현행 전체상품 및 공개 상품 상세 조회",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_PAGE",
+          "locator": "busan-primary.html .SSP_TMPLT_JSON_TEXT URLdecode→ dtb_Ltiv/dtb_Data"
+        }
+      ]
+    },
+    {
+      "product_id": "BNK-BUSAN-BIG-SAVINGS",
+      "institution": "BNK부산은행",
+      "product_name": "부산이라 좋다 Big적금",
+      "disclosure_ids": [
+        "DISC-bddf052c9063d53f"
+      ],
+      "sources": [
+        {
+          "url": "https://www.busanbank.co.kr/ib20/mnu/FPMSVC002001200",
+          "title": "부산은행 현행 전체상품 및 Big적금 공개 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_PAGE",
+          "locator": "busan-big.html .SSP_TMPLT_JSON_TEXT dtb_Ltiv/dtb_Data"
+        }
+      ]
+    },
+    {
+      "product_id": "KBSB-KIND-EPLUS",
+      "institution": "KB저축은행",
+      "product_name": "KB착한e-Plus정기적금",
+      "disclosure_ids": [
+        "DISC-649723b16a0afebd"
+      ],
+      "sources": [
+        {
+          "url": "https://m.kbsavings.com/mobweb/kiwisavings/kindEplusSavingsProd.do",
+          "title": "KB저축은행 KB착한e-Plus정기적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-14",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "가입대상·가입기간·월 납입금액·가입 채널·우대조건·공시유효기간"
+        }
+      ]
+    },
+    {
+      "product_id": "KBSB-KIND-NURI",
+      "institution": "KB저축은행",
+      "product_name": "KB착한누리적금",
+      "disclosure_ids": [
+        "DISC-d1d54c8daf4f30a6"
+      ],
+      "sources": [
+        {
+          "url": "https://m.kbsavings.com/mobweb/savings/savingInfo.do?SAVINGS_GOODS_CODE=10",
+          "title": "KB저축은행 KB착한누리적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-08-14",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "가입대상·가입기간·월 납입금액·가입 채널·우대조건·공시유효기간"
+        }
+      ]
+    },
+    {
+      "product_id": "PEPPER-REGULAR",
+      "institution": "페퍼저축은행",
+      "product_name": "정기적금",
+      "disclosure_ids": [
+        "DISC-e13b0d7f0c414907",
+        "DISC-d918bc73384128b1"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=17&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+          "title": "페퍼저축은행 정기적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-17",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "가입대상·가입기간·월 납입금액·가입 채널·우대조건·공시유효기간"
+        }
+      ]
+    },
+    {
+      "product_id": "PEPPER-DIGITAL-REGULAR",
+      "institution": "페퍼저축은행",
+      "product_name": "페퍼스정기적금",
+      "disclosure_ids": [
+        "DISC-f1611cd89f4d18cf"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=2&prdSn=34",
+          "title": "페퍼저축은행 페퍼스정기적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-05-15",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "가입대상·가입기간·월 납입금액·가입 채널·우대조건·공시유효기간"
+        }
+      ]
+    },
+    {
+      "product_id": "PEPPER-2030",
+      "institution": "페퍼저축은행",
+      "product_name": "페퍼스2030적금",
+      "disclosure_ids": [
+        "DISC-81e8753ff691ce61"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=33&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+          "title": "페퍼저축은행 페퍼스2030적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-10-23",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "가입대상·가입기간·월 납입금액·가입 채널·우대조건·공시유효기간"
+        }
+      ]
+    },
+    {
+      "product_id": "WELCOME-WALKING",
+      "institution": "웰컴저축은행",
+      "product_name": "웰뱅 워킹 적금",
+      "disclosure_ids": [
+        "DISC-1026dfd6d3da7202"
+      ],
+      "sources": [
+        {
+          "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP002?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&sysDsCd=01&prdCd=1130313507",
+          "title": "웰컴저축은행 웰뱅 워킹 적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-08-18",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "가입대상·가입기간·월 납입금액·가입 채널·우대조건·공시유효기간"
+        }
+      ]
+    },
+    {
+      "product_id": "WELCOME-HAJA",
+      "institution": "웰컴저축은행",
+      "product_name": "웰뱅하자 정기적금",
+      "disclosure_ids": [
+        "DISC-3d2dbb4a16929334"
+      ],
+      "sources": [
+        {
+          "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP002?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&sysDsCd=01&prdCd=1130315009",
+          "title": "웰컴저축은행 웰뱅하자 정기적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-08-20",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "가입대상·가입기간·월 납입금액·가입 채널·우대조건·공시유효기간"
+        }
+      ]
+    },
+    {
+      "product_id": "WELCOME-CHILDLOVE",
+      "institution": "웰컴저축은행",
+      "product_name": "WELCOME 아이사랑 정기적금",
+      "disclosure_ids": [
+        "DISC-9ff2e02a604b4174"
+      ],
+      "sources": [
+        {
+          "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP001?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&sysDsCd=01&prdCd=1130315008",
+          "title": "웰컴저축은행 WELCOME 아이사랑 정기적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-08-18",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "가입대상·가입기간·월 납입금액·가입 채널·우대조건·공시유효기간"
+        }
+      ]
+    }
+  ],
+  "holds": [
+    {
+      "institution": "NH농협은행",
+      "product_name": "NH고향사랑기부적금",
+      "disclosure_ids": [
+        "DISC-cceec1d02d5ab745"
+      ],
+      "reason": "신규 1만원·이후 매회 1천원 차이와 만기 전 3개월의 누적 납입제약을 현 비교 엔진이 검증하지 않음."
+    },
+    {
+      "institution": "NH농협은행",
+      "product_name": "NH내가Green초록세상적금",
+      "disclosure_ids": [
+        "DISC-3f0a6cf67db3095b"
+      ],
+      "reason": "초입금 5만원·이후 월 1만원 이상 차이와 만기 전 3개월 누적제약, 친환경서약 기본 가입조건이 있어 현 엔진의 단순 min/max 비교로 승격하지 않음."
+    },
+    {
+      "institution": "웰컴저축은행",
+      "product_name": "웰뱅 든든적금",
+      "disclosure_ids": [
+        "DISC-5d965761a4dc1611"
+      ],
+      "reason": "월1~30만12개월 확인했으나 확보페이지 공시유효2026.08.25종료. 2026.07.16설명서만표시; 최신공시확인전hold"
+    },
+    {
+      "institution": "웰컴저축은행",
+      "product_name": "WELCOME 디딤돌적금",
+      "disclosure_ids": [
+        "DISC-de09b6bf057b9618"
+      ],
+      "reason": "확보공시유효2026.08.25종료; 사회적배려대상증빙도필요"
+    },
+    {
+      "institution": "웰컴저축은행",
+      "product_name": "웰뱅 라이킷(LIKIT) 적금",
+      "disclosure_ids": [
+        "DISC-af1fe51de35b57be"
+      ],
+      "reason": "월1천~30만12개월 확인하였으나 1만좌 한도특판 잔여미확인·공시유효2026.08.25종료·유료카드복합조건"
+    },
+    {
+      "institution": "다올저축은행",
+      "product_name": "Fi 정기적금",
+      "disclosure_ids": [
+        "DISC-cd186b66b77ece31",
+        "DISC-7c4048130623df52"
+      ],
+      "reason": "월1만원이상6~36개월 확인했지만 명시적상한없음근거를미확보. 누락을UNLIMITED로승격금지"
+    },
+    {
+      "institution": "다올저축은행",
+      "product_name": "Fi 시드머니 적금",
+      "disclosure_ids": [
+        "DISC-a290f492e91ca9af"
+      ],
+      "reason": "목표플랜×개월별 월납입액이 확정되는불연속조합. 6~60개월/최소~최대 연속구간으로승격금지"
+    },
+    {
+      "institution": "웰컴저축은행",
+      "product_name": "WELCOME 첫거래우대 m정기적금",
+      "disclosure_ids": [
+        "DISC-6d4e65a352ebc543"
+      ],
+      "reason": "월1~20만12개월 확인. 본문은첫가입30일내또는90일미거래,후단은첫가입30일내만반복하여신규조건충돌. 최신설명서확인전hold"
+    },
+    {
+      "institution": "웰컴저축은행",
+      "product_name": "웰컴 페이적금",
+      "disclosure_ids": [
+        "DISC-462d0d48d31c7721"
+      ],
+      "reason": "공식 색인에서 가입 안내·2026-08-20 금리 기준일은 확인했으나 현행 공시 유효기간은 미확보. 금리 기준일만으로 최신 판매 검증 완료로 승격하지 않음."
+    }
+  ],
+  "calculation_count": 0,
+  "eligibility": "UNKNOWN"
+}

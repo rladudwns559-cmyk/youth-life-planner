@@ -1,0 +1,1091 @@
+{
+  "schema_version": "product-discovery-v1",
+  "dataset_version": "OFFICIAL-DISCOVERY-20261031-V1",
+  "reviewed_on": "2026-10-31",
+  "review_after_days": 7,
+  "coverage_note": "선별한 은행 공식 예·적금 자료입니다. 국내 모든 은행·저축은행·특판을 전수 수집한 목록이 아니며, 현재 가입·우대금리·실시간 갱신을 보장하지 않습니다.",
+  "products": [
+    {
+      "product_id": "KAKAO-FREE-SAVINGS",
+      "institution": "카카오뱅크",
+      "product_name": "카카오뱅크 자유적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 1000,
+      "maximum": 3000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 6,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+      "term_note": "공식 가입기간 6~36개월(월·일 단위). 여기서는 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "개인별 가입 가능 여부와 계좌 개설 조건은 은행에서 별도 확인합니다.",
+      "features": [
+        "표시 최고금리는 기본금리에 공개된 자동이체 우대 0.20%p를 더한 조건부 값입니다. 개별 쿠폰 제외."
+      ],
+      "preferential_conditions": [
+        "계약월수 절반 이상을 매월 자동이체로 납입하고 만기 해지 시 연 0.20%p 우대. 자동연장 원리금 제외."
+      ],
+      "required_checks": [
+        "사용자의 실제 가입 자격",
+        "우대조건 실제 충족 여부",
+        "검증된 날짜별 만기 계산 계약",
+        "납입 단위 세칙"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 6,
+          "max_months": 11,
+          "base_rate_percent": "3.70",
+          "max_total_rate_percent": "3.90",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 12,
+          "max_months": 23,
+          "base_rate_percent": "3.85",
+          "max_total_rate_percent": "4.05",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 24,
+          "max_months": 36,
+          "base_rate_percent": "3.20",
+          "max_total_rate_percent": "3.40",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.kakaobank.com/products/savings",
+          "title": "카카오뱅크 자유적금 공식 상품 페이지",
+          "reviewed_on": "2026-10-30",
+          "basis_date": "2026-10-30",
+          "mode": "PREVIOUS_VERIFIED_SNAPSHOT",
+          "locator": "가입기간·가입금액 FAQ; 기본금리 표; 자동이체 우대금리"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KBANK-CODEK-SAVINGS",
+      "institution": "케이뱅크",
+      "product_name": "코드K 자유적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 1000,
+      "maximum": 300000,
+      "maximum_kind": "KNOWN",
+      "min_months": 1,
+      "max_months": 36,
+      "allowed_months": [
+        1,
+        3,
+        6,
+        12,
+        24,
+        36
+      ],
+      "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+      "term_note": "공식 가입기간은 1·3·6·12·24·36개월입니다. 1~36개월의 모든 개월 수로 확대하지 않습니다.",
+      "eligibility_note": "공식 대상은 만 17세 이상 실명의 개인·개인사업자, 본인 명의 케이뱅크 입출금통장을 통해 납입. 실제 가입 자격 미판정.",
+      "features": [
+        "공식 기간별 기본금리를 표시합니다. 개별 우대코드 가산은 미반영."
+      ],
+      "preferential_conditions": [
+        "이벤트 우대코드는 진행 여부·개인 코드가 확인되지 않아 표시 최고금리에 반영하지 않습니다."
+      ],
+      "required_checks": [
+        "사용자의 실제 가입 자격",
+        "우대조건 실제 충족 여부",
+        "검증된 날짜별 만기 계산 계약"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 1,
+          "max_months": 1,
+          "base_rate_percent": "2.90",
+          "max_total_rate_percent": "2.90",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 3,
+          "max_months": 3,
+          "base_rate_percent": "3.10",
+          "max_total_rate_percent": "3.10",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 6,
+          "max_months": 6,
+          "base_rate_percent": "3.60",
+          "max_total_rate_percent": "3.60",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 12,
+          "max_months": 12,
+          "base_rate_percent": "3.80",
+          "max_total_rate_percent": "3.80",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 24,
+          "max_months": 24,
+          "base_rate_percent": "3.20",
+          "max_total_rate_percent": "3.20",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 36,
+          "max_months": 36,
+          "base_rate_percent": "3.20",
+          "max_total_rate_percent": "3.20",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.kbanknow.com/web/product/deposit/codek-saving",
+          "title": "코드K 자유적금 공식 상품 페이지",
+          "reviewed_on": "2026-10-30",
+          "basis_date": "2026-10-27",
+          "mode": "PREVIOUS_VERIFIED_SNAPSHOT",
+          "locator": "상품요약; 월 적립한도; 금리안내 조회기준일 2026.10.27"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KBANK-PRIMARY-SAVINGS",
+      "institution": "케이뱅크",
+      "product_name": "주거래우대 자유적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 1000,
+      "maximum": 3000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 6,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+      "term_note": "6~36개월. 실제 금리는 계약 일수(180/365/730/1095일)로 판정하므로 은행에서 계약일수를 재확인하세요.",
+      "eligibility_note": "공식 대상은 만 17세 이상 실명의 개인·개인사업자. 본인 명의 케이뱅크 입출금통장 필요. 실제 가입 자격 미판정.",
+      "features": [
+        "정수 개월 구간에 해당하는 공시 기본·최고금리를 안내하며 실제 날짜별 금액은 계산하지 않습니다."
+      ],
+      "preferential_conditions": [
+        "급여이체 또는 지정 통신비 자동이체 실적 3개월 이상: 연 0.30%p.",
+        "케이뱅크 체크카드 월 20만원 이상 실적 3개월 이상: 연 0.30%p. 실적 인정기간 등 세부 조건 및 만기 해지 필요."
+      ],
+      "required_checks": [
+        "사용자의 실제 가입 자격",
+        "우대조건 실제 충족 여부",
+        "검증된 날짜별 만기 계산 계약",
+        "납입 단위 세칙",
+        "실제 계약 일수"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 6,
+          "max_months": 11,
+          "base_rate_percent": "3.30",
+          "max_total_rate_percent": "3.90",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 12,
+          "max_months": 23,
+          "base_rate_percent": "3.70",
+          "max_total_rate_percent": "4.30",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 24,
+          "max_months": 36,
+          "base_rate_percent": "3.50",
+          "max_total_rate_percent": "4.10",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.kbanknow.com/web/product/deposit/primary-saving",
+          "title": "주거래우대 자유적금 공식 상품 페이지",
+          "reviewed_on": "2026-10-30",
+          "basis_date": "2026-10-27",
+          "mode": "PREVIOUS_VERIFIED_SNAPSHOT",
+          "locator": "상품요약; 우대조건; 기간별 금리안내 및 일수 기준 주의문"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "TOSS-FREE-SAVINGS",
+      "institution": "토스뱅크",
+      "product_name": "토스뱅크 자유적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 1,
+      "maximum": 3000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 3,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+      "term_note": "3~36개월, 월 단위. 최초 가입금액 0원과 매월 계획 납입액 최소 1원을 구분합니다.",
+      "eligibility_note": "실명의 개인, 본인 명의 토스뱅크 통장 또는 서브 통장 필요. 월 자동이체 필수(1원~300만원). 실제 가입 자격 미판정.",
+      "features": [
+        "2026.10.27 공식 설명서의 기간별 기본금리와 우대 가산 0.50%p를 사용합니다. 과거 안내 글의 금리는 사용하지 않습니다."
+      ],
+      "preferential_conditions": [
+        "계약월수의 절반 이상 자동이체 성공 및 만기 해지 시 연 0.50%p 우대. 홀수 개월 수는 공식 반올림 조건 적용."
+      ],
+      "required_checks": [
+        "사용자의 실제 가입 자격",
+        "우대조건 실제 충족 여부",
+        "검증된 날짜별 만기 계산 계약"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 3,
+          "max_months": 5,
+          "base_rate_percent": "2.60",
+          "max_total_rate_percent": "3.10",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 6,
+          "max_months": 11,
+          "base_rate_percent": "2.90",
+          "max_total_rate_percent": "3.40",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 12,
+          "max_months": 23,
+          "base_rate_percent": "3.25",
+          "max_total_rate_percent": "3.75",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        },
+        {
+          "min_months": 24,
+          "max_months": 36,
+          "base_rate_percent": "2.50",
+          "max_total_rate_percent": "3.00",
+          "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.tossbank.com/product-service/savings/savings-freedom",
+          "title": "토스뱅크 자유 적금 상품설명서 (2026.10.27)",
+          "reviewed_on": "2026-10-30",
+          "basis_date": "2026-10-27",
+          "mode": "PREVIOUS_VERIFIED_SNAPSHOT",
+          "locator": "공식 상품공시실 > 토스뱅크 자유 적금 > 상품설명서; 1~3쪽; 기본정보/자동이체/기간별 금리"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KB-MY-SAVING",
+      "institution": "KB국민은행",
+      "product_name": "KB내맘대로적금 · 자유적립식",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 3000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 6,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "자유적립식은 매월 1만원~300만원. 정액적립식은 별도 조건을 확인하세요.",
+      "term_note": "6~36개월 범위. 월 단위 계약 조건을 은행에서 확인합니다.",
+      "eligibility_note": "만 14세 이상 실명의 개인. 공동명의 불가; 자유적립식은 1인 최대 5계좌 안내.",
+      "features": [
+        "납입 방식과 우대 항목을 선택하는 상품입니다."
+      ],
+      "preferential_conditions": [
+        "선택한 우대 항목의 세부 충족 기준과 적용 금리는 공식 안내에서 확인합니다."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000821",
+          "title": "KB내맘대로적금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": null,
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KB-CLEAR-SKY",
+      "institution": "KB국민은행",
+      "product_name": "KB맑은하늘적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 1000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 36,
+      "allowed_months": [
+        12,
+        24,
+        36
+      ],
+      "payment_note": "매월 1만원~100만원을 원 단위로 자유롭게 납입.",
+      "term_note": "1년·2년·3년 중 선택.",
+      "eligibility_note": "실명의 개인. 공동명의 불가; 1인 3계좌까지 안내.",
+      "features": [
+        "생활 속 친환경 실천 관련 우대 항목이 있는 적금입니다."
+      ],
+      "preferential_conditions": [
+        "전자 서식·환경 실천 등 우대 항목별 요건을 가입 시 확인합니다."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP000942",
+          "title": "KB맑은하늘적금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2026-08-18",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KB-PET",
+      "institution": "KB국민은행",
+      "product_name": "KB반려행복적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 500000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "공식 특약에 월 1만원~50만원 자유적립으로 명시.",
+      "term_note": "특약상 12~36개월 월 단위.",
+      "eligibility_note": "실명의 개인, 공동명의 불가, 1인 최대 3계좌 안내.",
+      "features": [
+        "반려동물 등록·돌봄 관련 우대 항목이 있습니다."
+      ],
+      "preferential_conditions": [
+        "반려동물 등록·입양·돌봄 활동·관련 통신요금제 등 항목별 확인 필요."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": true,
+      "reference_reason": "특약은 확보했으나 현재 상품 페이지와 적용 금리를 이번에 대조하지 못했습니다.",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://img2.kbstar.com/obj/ocommon/0925_banryu_full.pdf",
+          "title": "KB반려행복적금 특약",
+          "reviewed_on": "2026-10-31",
+          "basis_date": null,
+          "mode": "OFFICIAL_DOCUMENT",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "HANA-RICH",
+      "institution": "하나은행",
+      "product_name": "부자씨 적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 1,
+      "maximum": 500000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 12,
+      "allowed_months": null,
+      "payment_note": "매월 1원~50만원 자유적립. 재예치된 원리금과 새 적립금의 적용 금리는 다를 수 있습니다.",
+      "term_note": "1년. 자동 재예치 조건은 별도 확인.",
+      "eligibility_note": "실명의 개인 및 개인사업자, 1인 1계좌 안내.",
+      "features": [
+        "적금을 모아 예금으로 이어가는 재예치 구조."
+      ],
+      "preferential_conditions": [
+        "하나원큐 로그인 횟수와 하나 합 서비스 등록·유지 관련 요건."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "상품 페이지 금리 표시가 과거 기준이므로 가입일 금리 확인",
+        "로그인·자산연결 실적 충족 여부"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1486817_115157.jsp",
+          "title": "부자씨 적금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2023-11-13",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "HANA-SALARY",
+      "institution": "하나은행",
+      "product_name": "급여하나 월복리 적금",
+      "kind": "SAVINGS",
+      "schedule": "QUARTERLY",
+      "minimum": 10000,
+      "maximum": 3000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 36,
+      "allowed_months": [
+        12,
+        24,
+        36
+      ],
+      "payment_note": "300만원은 월 한도가 아닌 분기 한도입니다. 청년응원 특별금리 선택 시 분기 150만원 조건이 안내됩니다.",
+      "term_note": "1년·2년·3년. 분기별 납입 일정 확인 필요.",
+      "eligibility_note": "실명의 개인 또는 개인사업자. 주거래·연금하나 월복리 적금과 중복 가입 제한.",
+      "features": [
+        "월복리 이자 구조. 실제 이자는 계산하지 않습니다."
+      ],
+      "preferential_conditions": [
+        "급여 이체 실적·온라인 가입/재예치·청년응원 특별금리의 별도 요건."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455929_115157.jsp",
+          "title": "급여하나 월복리 적금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2024-07-12",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "HANA-PRIMARY",
+      "institution": "하나은행",
+      "product_name": "주거래하나 월복리 적금",
+      "kind": "SAVINGS",
+      "schedule": "QUARTERLY",
+      "minimum": 10000,
+      "maximum": 3000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 36,
+      "allowed_months": [
+        12,
+        24,
+        36
+      ],
+      "payment_note": "분기당 1만원~300만원. 매월 300만원으로 해석하지 않습니다.",
+      "term_note": "1년·2년·3년.",
+      "eligibility_note": "실명의 개인 또는 개인사업자. 급여·연금하나 월복리 적금과 중복 가입 제한.",
+      "features": [
+        "이체 실적과 연계되는 월복리 적금."
+      ],
+      "preferential_conditions": [
+        "급여·카드·공과금 등 주거래 이체 항목과 온라인/재예치 조건을 확인합니다."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://banking.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455927_115157.jsp",
+          "title": "주거래하나 월복리 적금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": null,
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        },
+        {
+          "url": "https://image.kebhana.com/cont/download/documents/manual/0100272000301_20250728_m.pdf",
+          "title": "주거래하나 월복리 적금 설명서",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2025-07-28",
+          "mode": "OFFICIAL_DOCUMENT",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "IBK-DDAY",
+      "institution": "IBK기업은행",
+      "product_name": "IBK D-day적금",
+      "kind": "SAVINGS",
+      "schedule": "CUSTOM_DATE",
+      "minimum": 10000,
+      "maximum": 200000,
+      "maximum_kind": "KNOWN",
+      "min_months": 1,
+      "max_months": 12,
+      "allowed_months": null,
+      "payment_note": "월 1만원~20만원, 천원 단위. 설정 목표금액과 자동이체 조건을 확인합니다.",
+      "term_note": "1~12개월 범위에서 일 단위 만기일 지정. 날짜별 계약 확인이 필요합니다.",
+      "eligibility_note": "실명의 개인. 개인사업자·외국인 비거주자 제외 안내; 계좌 수 제한 확인.",
+      "features": [
+        "필요한 날짜에 맞춰 만기를 정하는 적금."
+      ],
+      "preferential_conditions": [
+        "목표 달성·자동이체 납입 횟수·최초 고객 조건 확인."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&tmcd=121&pdcd=0113",
+          "title": "IBK D-day적금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": null,
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        },
+        {
+          "url": "https://blog.ibk.co.kr/569728",
+          "title": "IBK 공식 안내: 적금 만기 후 관리",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2026-10-30",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "IBK-CARBON",
+      "institution": "IBK기업은행",
+      "product_name": "IBK탄소제로적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 1000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 12,
+      "allowed_months": null,
+      "payment_note": "신규 1만원 이상; 월 납입한도 100만원, 천원 단위.",
+      "term_note": "1년.",
+      "eligibility_note": "실명의 개인, 1인 1계좌. 개인사업자 제외 안내.",
+      "features": [
+        "전기사용량 절감 활동과 연계되는 적금."
+      ],
+      "preferential_conditions": [
+        "전기사용량 절감 횟수 등 우대금리 요건 확인."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": true,
+      "reference_reason": "확보한 안내의 심의 유효기간이 2026-09-15까지여서 현재 판매 조건 재확인이 필요합니다.",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&tmcd=121&pdcd=0121",
+          "title": "IBK탄소제로적금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2026-09-14",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KAKAO-26W",
+      "institution": "카카오뱅크",
+      "product_name": "26주적금",
+      "kind": "SAVINGS",
+      "schedule": "WEEKLY_STEP",
+      "minimum": 1000,
+      "maximum": 10000,
+      "maximum_kind": "KNOWN",
+      "min_months": 6,
+      "max_months": 6,
+      "allowed_months": null,
+      "payment_note": "첫 주 1천·2천·3천·5천·1만원 중 선택하고 매주 증액. 월 고정 납입액 상품이 아닙니다.",
+      "term_note": "26주 자동이체, 은행 계약기간 안내는 6개월.",
+      "eligibility_note": "실명의 개인의 계좌 개설·보유 제한을 은행에서 확인합니다.",
+      "features": [
+        "초기 금액보다 뒤 주차의 납입액이 커집니다."
+      ],
+      "preferential_conditions": [
+        "7주·26주 연속 자동이체 성공과 만기해지 조건."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 6,
+          "max_months": 6,
+          "base_rate_percent": "2.00",
+          "max_total_rate_percent": "5.00"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.kakaobank.com/products/26weeks",
+          "title": "카카오뱅크 26주적금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2026-10-09",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KAKAO-31D",
+      "institution": "카카오뱅크",
+      "product_name": "한달적금",
+      "kind": "SAVINGS",
+      "schedule": "DAILY",
+      "minimum": 100,
+      "maximum": 30000,
+      "maximum_kind": "KNOWN",
+      "min_months": null,
+      "max_months": null,
+      "allowed_months": null,
+      "payment_note": "31일 동안 하루 1회, 회당 100원~3만원. 월 납입한도로 환산하지 않습니다.",
+      "term_note": "31일. 달력 한 달과 항상 같지 않습니다.",
+      "eligibility_note": "설명서상 만 14세 이상 실명의 개인, 1인 최대 3계좌. 연결 계좌 납입 조건 확인.",
+      "features": [
+        "직접 매일 납입하는 단기 저축."
+      ],
+      "preferential_conditions": [
+        "매일 납입·누적 횟수별 우대조건 확인."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://og.kakaobank.io/download/62b8463d-60e6-4b1f-bace-5a3e4410e69b",
+          "title": "카카오뱅크 한달적금 상품설명서",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2026-02-01",
+          "mode": "OFFICIAL_DOCUMENT",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "SHINHAN-SOL",
+      "institution": "신한은행",
+      "product_name": "신한 쏠만해 적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 1000,
+      "maximum": 300000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 12,
+      "allowed_months": null,
+      "payment_note": "확보한 설명서상 월 1천원~30만원.",
+      "term_note": "확보한 설명서상 12개월.",
+      "eligibility_note": "설명서상 실명의 개인 및 개인사업자, 1인 1계좌.",
+      "features": [
+        "모바일뱅킹 이용 조건과 연계된 자유적립식 적금."
+      ],
+      "preferential_conditions": [
+        "모바일 이용·기타 우대 항목과 판매한도 재확인 필요."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": true,
+      "reference_reason": "확보한 설명서의 유효기간은 2025-12-31까지입니다. 현재 판매·금리 확인 전 비교 후보로 올리지 않습니다.",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://img.shinhan.com/sbank2016/seol/20220523000000820010LC000030.PDF?1734881305826=",
+          "title": "신한 쏠만해 적금 상품설명서",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2024-12-23",
+          "mode": "OFFICIAL_DOCUMENT",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KB-STAR-DEPOSIT",
+      "institution": "KB국민은행",
+      "product_name": "KB Star 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 1000000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 1,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "한 번에 100만원 이상 예치. 추가입금 불가. 상한은 이번 자료에서 확정하지 않았습니다.",
+      "term_note": "1~36개월 월 단위.",
+      "eligibility_note": "개인 및 개인사업자 안내.",
+      "features": [
+        "가입 후 일정 기간이 지나면 분할인출 가능; 횟수·최소 잔액 확인."
+      ],
+      "preferential_conditions": [
+        "가입일의 고객 적용금리와 재예치 시점 금리 확인."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01000938",
+          "title": "KB Star 정기예금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2026-08-27",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KAKAO-DEPOSIT",
+      "institution": "카카오뱅크",
+      "product_name": "카카오뱅크 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 1000000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 1,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "한 번에 100만원 이상 예치. 공식 FAQ에 최대 가입금액 제한 없음으로 안내.",
+      "term_note": "1~36개월, 월/일 단위. 실제 만기일은 은행에서 확인.",
+      "eligibility_note": "실명의 개인의 계좌 개설 요건 별도 확인.",
+      "features": [
+        "긴급출금 최대 2회; 출금 후 최소 잔액 100만원 유지 조건."
+      ],
+      "preferential_conditions": [
+        "금리쿠폰 적용 여부·자동연장 조건은 별도 확인."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kakaobank.com/products/deposit",
+          "title": "카카오뱅크 정기예금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2026-09-11",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KBANK-DEPOSIT",
+      "institution": "케이뱅크",
+      "product_name": "코드K 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 1000000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 1,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "한 번에 100만원 이상 예치. 한도 없는 금액으로 안내.",
+      "term_note": "1~36개월.",
+      "eligibility_note": "만 17세 이상 실명의 개인 및 개인사업자 안내.",
+      "features": [
+        "가입 후 14일 이내 금리보장서비스·부분인출 조건 확인."
+      ],
+      "preferential_conditions": [
+        "일반 우대조건과 별도로 금리보장서비스 적용 요건 확인."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kbanknow.com/web/product/deposit/codek-fixed?click=2023start_codek_termdeposit",
+          "title": "코드K 정기예금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2026-09-10",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "HANA-DEPOSIT",
+      "institution": "하나은행",
+      "product_name": "하나의 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 1000000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 1,
+      "max_months": 60,
+      "allowed_months": null,
+      "payment_note": "한 번에 100만원 이상 예치. 최대 가입금액은 은행에서 확인.",
+      "term_note": "1개월~5년 이내 일 단위.",
+      "eligibility_note": "실명의 개인 또는 개인사업자.",
+      "features": [
+        "하나원큐 전용. 자동 재예치 선택 시 새 시점 금리가 적용됩니다."
+      ],
+      "preferential_conditions": [
+        "가입일·재예치일의 기간별 적용금리와 쿠폰 조건 확인."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1479088_115126.jsp",
+          "title": "하나의 정기예금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": null,
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    },
+    {
+      "product_id": "KJB-MIZ",
+      "institution": "광주은행",
+      "product_name": "미즈월복리정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 5000000,
+      "maximum": 50000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "한 번에 500만원 이상, 고객당 5천만원 이내.",
+      "term_note": "12~36개월, 월 단위.",
+      "eligibility_note": "만 18세 이상 여성인 실명의 개인 및 개인사업자 안내. 입력한 금액·기간만으로 이 대상 조건을 충족한다고 판단하지 않습니다.",
+      "features": [
+        "특정 가입 대상과 거래 실적에 연계된 월복리 정기예금."
+      ],
+      "preferential_conditions": [
+        "카드 거래 실적 등 항목별 산정기간 확인."
+      ],
+      "required_checks": [
+        "현재 판매 여부",
+        "가입 대상·계좌 개설 요건",
+        "가입일 금리와 우대조건"
+      ],
+      "channels": [
+        "은행 공식 상품 페이지 또는 앱에서 확인"
+      ],
+      "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20110819001",
+          "title": "미즈월복리정기예금 상품 안내",
+          "reviewed_on": "2026-10-31",
+          "basis_date": "2025-12-10",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품 안내의 납입금액·기간·가입대상·유의사항"
+        }
+      ],
+      "calculation": null,
+      "eligibility": "UNKNOWN"
+    }
+  ]
+}

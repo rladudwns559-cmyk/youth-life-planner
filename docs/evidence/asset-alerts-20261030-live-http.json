@@ -1,0 +1,38 @@
+{
+  "actual_http": true,
+  "mock": false,
+  "cases": [
+    "automatic-worker-heartbeat",
+    "real-official-check-completed",
+    "browser-key-public-email-excluded",
+    "official-notices-unknown-no-financial-computation",
+    "persistent-explicit-interests",
+    "no-historical-spam",
+    "actual-inbox-test-notification",
+    "test-distinct-from-recruitment",
+    "read-state-persisted",
+    "private-inbox-auth",
+    "test-cooldown",
+    "cross-origin-mutation-blocked",
+    "financial-data-storage-rejected",
+    "existing-catalog-and-money-preserved",
+    "vite-proxy",
+    "real-service-worker-served",
+    "unsubscribe-deletes-private-records"
+  ],
+  "passed": 17,
+  "generated_test_subscriber_deleted": true,
+  "inbox_test_notifications": 1,
+  "browser_push_network_delivery": "NOT_VERIFIED",
+  "browser_os_display": "NOT_VERIFIED",
+  "real_recruitment_alerts_sent": 0,
+  "official_source_run": {
+    "status": "OK",
+    "checked_at": "2026-10-30T21:39:29.496904+09:00",
+    "next_check_at": "2026-10-31T03:39:29.496904+09:00",
+    "source_count": 25,
+    "successful": 25,
+    "parsed_notices": 3,
+    "bootstrap": false
+  }
+}

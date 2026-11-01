@@ -1,0 +1,3136 @@
+{
+  "schema_version": "bank-research-staging-v1",
+  "checked_on": "2026-11-01",
+  "status": "BOUNDED_RESEARCH_COMPLETE",
+  "staged_products": [
+    {
+      "product_id": "PEPPER-6M-ROTATING-DEPOSIT",
+      "institution": "페퍼저축은행",
+      "product_name": "6개월 회전정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 24,
+      "max_months": 60,
+      "allowed_months": [
+        24,
+        36,
+        48,
+        60
+      ],
+      "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+      "term_note": "공식기간 24~60개월. 가능 기간 [24, 36, 48, 60]개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "6개월 회전주기 변동금리; 6개월 계약상품이 아님"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "영업점·공식 뱅킹 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 24,
+          "max_months": 60,
+          "base_rate_percent": "3.85",
+          "max_total_rate_percent": "3.85",
+          "evidence_locator": "명시 기준일의 단리 연이율; 회전 시 변경 가능"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=79",
+          "title": "페퍼저축은행 6개월 회전정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-10-16",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "PEPPER-TERM-DEPOSIT",
+      "institution": "페퍼저축은행",
+      "product_name": "정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 1,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+      "term_note": "공식기간 1~36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "만기 월복리 또는 월이자 단리 선택; 이자방식별 상품 수 중복계산 안 함"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "영업점·공식 뱅킹 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 1,
+          "max_months": 2,
+          "base_rate_percent": "2.00",
+          "max_total_rate_percent": "2.00",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 3,
+          "max_months": 5,
+          "base_rate_percent": "2.30",
+          "max_total_rate_percent": "2.30",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 6,
+          "max_months": 11,
+          "base_rate_percent": "2.60",
+          "max_total_rate_percent": "2.60",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 12,
+          "max_months": 17,
+          "base_rate_percent": "3.80",
+          "max_total_rate_percent": "3.80",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 18,
+          "max_months": 23,
+          "base_rate_percent": "2.90",
+          "max_total_rate_percent": "2.90",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 24,
+          "max_months": 36,
+          "base_rate_percent": "2.50",
+          "max_total_rate_percent": "2.50",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+          "title": "페퍼저축은행 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-10-16",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "PEPPER-FREE-EXIT-DEPOSIT",
+      "institution": "페퍼저축은행",
+      "product_name": "페퍼루 중도해지 FREE 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 36,
+      "max_months": 36,
+      "allowed_months": [
+        36
+      ],
+      "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+      "term_note": "공식기간 36~36개월. 가능 기간 [36]개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "중도해지 시에도 예치기간별 별도 이율; 36개월 약정"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "영업점·공식 뱅킹 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 36,
+          "max_months": 36,
+          "base_rate_percent": "2.50",
+          "max_total_rate_percent": "2.50",
+          "evidence_locator": "명시 기준일의 단리 연이율; 회전 시 변경 가능"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=18",
+          "title": "페퍼저축은행 페퍼루 중도해지 FREE 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-02-26",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "PEPPERS-6M-ROTATING-DEPOSIT",
+      "institution": "페퍼저축은행",
+      "product_name": "페퍼스 6개월 회전정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 24,
+      "max_months": 60,
+      "allowed_months": [
+        24,
+        36,
+        48,
+        60
+      ],
+      "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+      "term_note": "공식기간 24~60개월. 가능 기간 [24, 36, 48, 60]개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "실명 개인, 외국인·미성년자 제외",
+      "features": [
+        "목록상3.85%와 상세8/28금리3.45% 불일치: 금리 숫자 노출 보류"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "디지털페퍼 앱"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=80",
+          "title": "페퍼저축은행 페퍼스 6개월 회전정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-08-28",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "PEPPERS-TERM-DEPOSIT",
+      "institution": "페퍼저축은행",
+      "product_name": "페퍼스 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 1,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+      "term_note": "공식기간 1~36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "개인고객",
+      "features": [
+        "디지털페퍼 앱 전용; 만기 월복리/월이자 단리"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "디지털페퍼 앱"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 1,
+          "max_months": 2,
+          "base_rate_percent": "2.00",
+          "max_total_rate_percent": "2.00",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 3,
+          "max_months": 5,
+          "base_rate_percent": "2.30",
+          "max_total_rate_percent": "2.30",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 6,
+          "max_months": 11,
+          "base_rate_percent": "2.60",
+          "max_total_rate_percent": "2.60",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 12,
+          "max_months": 17,
+          "base_rate_percent": "3.80",
+          "max_total_rate_percent": "3.80",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 18,
+          "max_months": 23,
+          "base_rate_percent": "2.90",
+          "max_total_rate_percent": "2.90",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        },
+        {
+          "min_months": 24,
+          "max_months": 36,
+          "base_rate_percent": "2.50",
+          "max_total_rate_percent": "2.50",
+          "evidence_locator": "2026-10-16 금리표의 연이율; 복리 연수익률과 구분"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+          "title": "페퍼저축은행 페퍼스 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-10-16",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "PEPPERS-FREE-EXIT-DEPOSIT",
+      "institution": "페퍼저축은행",
+      "product_name": "페퍼스 중도해지 FREE 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 36,
+      "max_months": 36,
+      "allowed_months": [
+        36
+      ],
+      "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+      "term_note": "공식기간 36~36개월. 가능 기간 [36]개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "개인고객",
+      "features": [
+        "디지털페퍼 앱 전용; 경과기간별 중도해지 이율"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "디지털페퍼 앱"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 36,
+          "max_months": 36,
+          "base_rate_percent": "2.50",
+          "max_total_rate_percent": "2.50",
+          "evidence_locator": "명시 기준일의 단리 연이율; 회전 시 변경 가능"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=37",
+          "title": "페퍼저축은행 페퍼스 중도해지 FREE 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-02-26",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "PEPPERS-ROTATING-DEPOSIT",
+      "institution": "페퍼저축은행",
+      "product_name": "페퍼스 회전정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 24,
+      "max_months": 60,
+      "allowed_months": [
+        24,
+        36,
+        48,
+        60
+      ],
+      "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+      "term_note": "공식기간 24~60개월. 가능 기간 [24, 36, 48, 60]개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "개인고객",
+      "features": [
+        "12개월 회전주기; 12개월 기본3.80%에 기본우대0.10% 포함"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "디지털페퍼 앱"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 24,
+          "max_months": 60,
+          "base_rate_percent": "3.90",
+          "max_total_rate_percent": "3.90",
+          "evidence_locator": "명시 기준일의 단리 연이율; 회전 시 변경 가능"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=35",
+          "title": "페퍼저축은행 페퍼스 회전정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-10-16",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "PEPPER-FREE-ACCUMULATION",
+      "institution": "페퍼저축은행",
+      "product_name": "자유적립예금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 1000,
+      "maximum": null,
+      "maximum_kind": "UNLIMITED",
+      "min_months": 3,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "매회1천원 이상, 납입일·횟수 제한없음. 가입한도 제한없음 명시.",
+      "term_note": "공식기간 3~36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "공식목록은 목돈굴리기로 분류하나 추가납입 가능한 자유적립 구조; 월 적립액 비교 시 계약 원금과 추가입금 구분 필요"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "월 적립 구조 비교 계약 추가 확인 필요",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=20",
+          "title": "페퍼저축은행 자유적립예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "납입일·횟수 자유인 상품의 월 최소액 계약 해석 추가 확인 필요",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-MYMO-SAVINGS",
+      "institution": "한화저축은행",
+      "product_name": "Mymo 정기적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 6,
+      "max_months": 60,
+      "allowed_months": null,
+      "payment_note": "매월 일정액,1만원 이상 정액적립식",
+      "term_note": "공식기간 6~60개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+      "features": [
+        "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=94",
+          "title": "한화저축은행 Mymo 정기적금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2024-01-03",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "상한 및 복합 납입조건 추가 확인 필요",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": [
+        "DISC-86a9892e9ccd29bd"
+      ]
+    },
+    {
+      "product_id": "HANWHA-EBANK-SAVINGS",
+      "institution": "한화저축은행",
+      "product_name": "e뱅킹 정기적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 6,
+      "max_months": 60,
+      "allowed_months": null,
+      "payment_note": "정액1만원 이상; 자유식은 본인 계약금액의 매월10%이내. 동일 상품 내 방식 중복계산 금지",
+      "term_note": "공식기간 6~60개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+      "features": [
+        "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류",
+        "공식 금리표 기준2022-12-01로 오래되어 숫자 노출 보류"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=24",
+          "title": "한화저축은행 e뱅킹 정기적금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2022-12-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "상한 및 복합 납입조건 추가 확인 필요",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": [
+        "DISC-6fa846f3b88e7de9"
+      ]
+    },
+    {
+      "product_id": "HANWHA-FAMILY-SAVINGS",
+      "institution": "한화저축은행",
+      "product_name": "한화가족사랑 정기적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 6,
+      "max_months": 60,
+      "allowed_months": null,
+      "payment_note": "정액1만원 이상; 자유식은 본인 계약금액의 매월10%이내. 방식별별도상품으로 부풀리지 않음",
+      "term_note": "공식기간 6~60개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류",
+        "공식 금리표 기준2022-12-01로 오래되어 숫자 노출 보류"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=74",
+          "title": "한화저축은행 한화가족사랑 정기적금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2022-12-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "상한 및 복합 납입조건 추가 확인 필요",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": [
+        "DISC-0052dedf23bc076c"
+      ]
+    },
+    {
+      "product_id": "HANWHA-FAMILY-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "한화가족사랑 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 1,
+      "max_months": 24,
+      "allowed_months": null,
+      "payment_note": "목돈10만원 이상,월·일단위 계약",
+      "term_note": "공식기간 1~24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=27",
+          "title": "한화저축은행 한화가족사랑 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-07-08",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-AUTO-RENEW-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "한화자동연장 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 1,
+      "max_months": 24,
+      "allowed_months": null,
+      "payment_note": "목돈10만원 이상; 동일상품 최대3회 자동연장",
+      "term_note": "공식기간 1~24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=29",
+          "title": "한화저축은행 한화자동연장 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-07-08",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-EBANK-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "e뱅킹 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 1,
+      "max_months": 24,
+      "allowed_months": null,
+      "payment_note": "목돈10만원 이상; 월·일단위 계약",
+      "term_note": "공식기간 1~24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+      "features": [
+        "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=33",
+          "title": "한화저축은행 e뱅킹 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·가입금액·가입대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-E-ROTATE3-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "한화 e-회전(3개월) 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 24,
+      "max_months": 24,
+      "allowed_months": [
+        24
+      ],
+      "payment_note": "10만원 이상 일시 예치. 매3개월 회전금리, 계약기간과 회전주기 구분.",
+      "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+      "features": [
+        "회전주기3개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [
+        {
+          "min_months": 24,
+          "max_months": 24,
+          "base_rate_percent": "3.55",
+          "max_total_rate_percent": "3.55",
+          "evidence_locator": "2026-09-01 명시 단리 연이율, 회전 후 변경 가능. 복리 연수익률과 구분."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=87",
+          "title": "한화저축은행 한화 e-회전(3개월) 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-E-ROTATE6-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "한화 e-회전(6개월) 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 24,
+      "max_months": 24,
+      "allowed_months": [
+        24
+      ],
+      "payment_note": "10만원 이상 일시 예치. 매6개월 회전금리, 계약기간과 회전주기 구분.",
+      "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+      "features": [
+        "회전주기6개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [
+        {
+          "min_months": 24,
+          "max_months": 24,
+          "base_rate_percent": "3.70",
+          "max_total_rate_percent": "3.70",
+          "evidence_locator": "2026-09-01 명시 단리 연이율, 회전 후 변경 가능. 복리 연수익률과 구분."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=89",
+          "title": "한화저축은행 한화 e-회전(6개월) 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-E-ROTATE12-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "한화 e-회전 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 36,
+      "max_months": 36,
+      "allowed_months": [
+        36
+      ],
+      "payment_note": "10만원 이상 일시 예치. 매12개월 회전금리, 계약기간과 회전주기 구분.",
+      "term_note": "공식 계약기간 36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+      "features": [
+        "회전주기12개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [
+        {
+          "min_months": 36,
+          "max_months": 36,
+          "base_rate_percent": "3.90",
+          "max_total_rate_percent": "3.90",
+          "evidence_locator": "2026-09-01 명시 단리 연이율, 회전 후 변경 가능. 복리 연수익률과 구분."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=91",
+          "title": "한화저축은행 한화 e-회전 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-ROTATE3-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "한화회전(3개월) 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 24,
+      "max_months": 24,
+      "allowed_months": [
+        24
+      ],
+      "payment_note": "10만원 이상 일시 예치. 매3개월 회전금리, 계약기간과 회전주기 구분.",
+      "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "회전주기3개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=83",
+          "title": "한화저축은행 한화회전(3개월) 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-ROTATE6-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "한화회전(6개월) 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 24,
+      "max_months": 24,
+      "allowed_months": [
+        24
+      ],
+      "payment_note": "10만원 이상 일시 예치. 매6개월 회전금리, 계약기간과 회전주기 구분.",
+      "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "회전주기6개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=85",
+          "title": "한화저축은행 한화회전(6개월) 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-ROTATE12-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "한화회전 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 36,
+      "max_months": 36,
+      "allowed_months": [
+        36
+      ],
+      "payment_note": "10만원 이상 일시 예치. 매12개월 회전금리, 계약기간과 회전주기 구분.",
+      "term_note": "공식 계약기간 36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [
+        "회전주기12개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=31",
+          "title": "한화저축은행 한화회전 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-MYMO-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "Mymo 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 1,
+      "max_months": 24,
+      "allowed_months": null,
+      "payment_note": "10만원 이상 일시 예치. 월 또는 일단위 계약.",
+      "term_note": "공식 계약기간 1~24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+      "features": [
+        "확정금리 예금; 가입일 실제 금리 확인"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [
+        {
+          "min_months": 1,
+          "max_months": 1,
+          "base_rate_percent": "1.60",
+          "max_total_rate_percent": "1.60",
+          "evidence_locator": "2026-09-01 금리표에 실제 열거된 기간만 표시"
+        },
+        {
+          "min_months": 6,
+          "max_months": 6,
+          "base_rate_percent": "2.50",
+          "max_total_rate_percent": "2.50",
+          "evidence_locator": "2026-09-01 금리표에 실제 열거된 기간만 표시"
+        },
+        {
+          "min_months": 12,
+          "max_months": 12,
+          "base_rate_percent": "3.80",
+          "max_total_rate_percent": "3.80",
+          "evidence_locator": "2026-09-01 금리표에 실제 열거된 기간만 표시"
+        },
+        {
+          "min_months": 24,
+          "max_months": 24,
+          "base_rate_percent": "3.80",
+          "max_total_rate_percent": "3.80",
+          "evidence_locator": "2026-09-01 금리표에 실제 열거된 기간만 표시"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=95",
+          "title": "한화저축은행 Mymo 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-MYMO-ROTATE6-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "Mymo 회전정기예금 (6개월)",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 24,
+      "max_months": 24,
+      "allowed_months": [
+        24
+      ],
+      "payment_note": "10만원 이상 일시 예치. 매6개월 회전금리, 계약기간과 회전주기 구분.",
+      "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+      "features": [
+        "회전주기6개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [
+        {
+          "min_months": 24,
+          "max_months": 24,
+          "base_rate_percent": "3.70",
+          "max_total_rate_percent": "3.70",
+          "evidence_locator": "2026-09-01 명시 단리 연이율, 회전 후 변경 가능. 복리 연수익률과 구분."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=97",
+          "title": "한화저축은행 Mymo 회전정기예금 (6개월) 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANWHA-MYMO-ROTATE12-DEPOSIT",
+      "institution": "한화저축은행",
+      "product_name": "Mymo 회전정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 36,
+      "max_months": 36,
+      "allowed_months": [
+        36
+      ],
+      "payment_note": "10만원 이상 일시 예치. 매12개월 회전금리, 계약기간과 회전주기 구분.",
+      "term_note": "공식 계약기간 36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+      "features": [
+        "회전주기12개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+      ],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [
+        {
+          "min_months": 36,
+          "max_months": 36,
+          "base_rate_percent": "3.90",
+          "max_total_rate_percent": "3.90",
+          "evidence_locator": "2026-09-01 명시 단리 연이율, 회전 후 변경 가능. 복리 연수익률과 구분."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=99",
+          "title": "한화저축은행 Mymo 회전정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "OSB-REGULAR-SAVINGS",
+      "institution": "OSB저축은행",
+      "product_name": "정기적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 6,
+      "max_months": 60,
+      "allowed_months": null,
+      "payment_note": "월1만원 이상 약정금액 정액적립",
+      "term_note": "공식 계약기간 6~60개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [
+        {
+          "min_months": 6,
+          "max_months": 6,
+          "base_rate_percent": "2.20",
+          "max_total_rate_percent": "2.20",
+          "evidence_locator": "2026-10-30 공식 금리표에 열거된 기간만"
+        },
+        {
+          "min_months": 12,
+          "max_months": 12,
+          "base_rate_percent": "3.30",
+          "max_total_rate_percent": "3.30",
+          "evidence_locator": "2026-10-30 공식 금리표에 열거된 기간만"
+        },
+        {
+          "min_months": 24,
+          "max_months": 24,
+          "base_rate_percent": "3.30",
+          "max_total_rate_percent": "3.30",
+          "evidence_locator": "2026-10-30 공식 금리표에 열거된 기간만"
+        },
+        {
+          "min_months": 36,
+          "max_months": 36,
+          "base_rate_percent": "3.30",
+          "max_total_rate_percent": "3.30",
+          "evidence_locator": "2026-10-30 공식 금리표에 열거된 기간만"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.osb.co.kr/ib20/mnu/HOM00076",
+          "title": "OSB저축은행 정기적금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-10-30",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "공식 월 상한 미기재",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": [
+        "DISC-f94b2c5faa70fbee"
+      ]
+    },
+    {
+      "product_id": "OSB-FREESTYLE-SAVINGS",
+      "institution": "OSB저축은행",
+      "product_name": "프리스타일적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 12,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "가입시 정한 계약금액의 월10% 이내; 만기1개월 이내 납입불가",
+      "term_note": "공식 계약기간 12~36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.osb.co.kr/ib20/mnu/HOM00077",
+          "title": "OSB저축은행 프리스타일적금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "계약 총액·월10%·후반 납입제한 복합조건",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": [
+        "DISC-701da6c663d483c6"
+      ]
+    },
+    {
+      "product_id": "OSB-FREE-ACCUMULATION",
+      "institution": "OSB저축은행",
+      "product_name": "자유적립예금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 1000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 3,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "매회1천원 이상 자유납입, 개별 납입일별 정기예금 금리 적용",
+      "term_note": "공식 계약기간 3~36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.osb.co.kr/ib20/mnu/HOM00078",
+          "title": "OSB저축은행 자유적립예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-10-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "회차별 납입 기준과 월 비교 구조 확인 필요",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "OSB-ROTATING-DEPOSIT",
+      "institution": "OSB저축은행",
+      "product_name": "OSB회전식 단리정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 1000000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 36,
+      "max_months": 36,
+      "allowed_months": [
+        36
+      ],
+      "payment_note": "100만원 이상 일시예치,12개월 회전금리",
+      "term_note": "공식 계약기간 36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [
+        {
+          "min_months": 36,
+          "max_months": 36,
+          "base_rate_percent": "3.80",
+          "max_total_rate_percent": "3.80",
+          "evidence_locator": "2026-09-22 기준 가입시점 금리;12개월 회전시 재결정"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.osb.co.kr/ib20/mnu/HOM00227",
+          "title": "OSB저축은행 OSB회전식 단리정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-22",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "공식 예치 상한 미기재",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "OSB-REGULAR-DEPOSIT",
+      "institution": "OSB저축은행",
+      "product_name": "정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 1,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "10만원 이상 일시예치; 단리 월이자와 복리 만기이자 방식 동일 상품군으로 통합",
+      "term_note": "공식 계약기간 1~36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.osb.co.kr/ib20/mnu/HOM00072",
+          "title": "OSB저축은행 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-11",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "공식 예치 상한 미기재",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "JT-REGULAR-SAVINGS",
+      "institution": "JT저축은행",
+      "product_name": "정기적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 6,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "월1만원 이상 정액적립; 영업점·인터넷·비대면",
+      "term_note": "공식 계약기간 6~36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.jt-bank.co.kr/deposit/DEP0300.view",
+          "title": "JT저축은행 정기적금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": null,
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": [
+        "DISC-a83bc86441f1a2f5"
+      ]
+    },
+    {
+      "product_id": "JT-REGULAR-DEPOSIT",
+      "institution": "JT저축은행",
+      "product_name": "정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 100000,
+      "maximum": null,
+      "maximum_kind": "UNKNOWN",
+      "min_months": 1,
+      "max_months": 36,
+      "allowed_months": null,
+      "payment_note": "10만원 이상 목돈예치; 단리·복리 방식별 상품수 중복계산 안 함",
+      "term_note": "공식 계약기간 1~36개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "제한없음",
+      "features": [],
+      "preferential_conditions": [],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "공식 은행 안내에서 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.jt-bank.co.kr/deposit/DEP0200.view",
+          "title": "JT저축은행 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-09-11",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "KN-PREMIUM-DEPOSIT",
+      "institution": "BNK경남은행",
+      "product_name": "BNK 프리미엄 정기예금",
+      "kind": "DEPOSIT",
+      "schedule": "LUMP_SUM",
+      "minimum": 1000000,
+      "maximum": 1000000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 13,
+      "allowed_months": [
+        12,
+        13
+      ],
+      "payment_note": "100만원 이상 고객별10억원 이하 일시예치",
+      "term_note": "공식 계약기간 12~13개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "개인",
+      "features": [
+        "2026-08-31 제정 특판; 공식페이지 마감 임박 표시. 실제 잔여 한도는 별도 확인"
+      ],
+      "preferential_conditions": [
+        "가입전 마케팅 동의0.20%p",
+        "프리미엄 기본우대1.10%p",
+        "신규당일 및 최근15일 정기예금 해지이력 미보유0.10%p",
+        "13개월 계약 우대0.10%p"
+      ],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "영업점",
+        "모바일뱅킹"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 12,
+          "max_months": 12,
+          "base_rate_percent": "2.55",
+          "max_total_rate_percent": "3.95",
+          "evidence_locator": "2026-10-27 기본2.55 + 해당12개월 우대합1.40, 명시 가산조건 합산"
+        },
+        {
+          "min_months": 13,
+          "max_months": 13,
+          "base_rate_percent": "2.55",
+          "max_total_rate_percent": "4.05",
+          "evidence_locator": "2026-10-27 기본2.55 +13개월 전체우대1.50"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000211986&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+          "title": "BNK경남은행 BNK 프리미엄 정기예금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-10-27",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": 1,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "KB-RUNNING-SAVINGS",
+      "institution": "KB국민은행",
+      "product_name": "KB달리자적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 300000,
+      "maximum_kind": "KNOWN",
+      "min_months": 6,
+      "max_months": 6,
+      "allowed_months": [
+        6
+      ],
+      "payment_note": "월1만원~30만원 자유납입",
+      "term_note": "공식 계약기간 6개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "만14세 이상 실명 개인1인1계좌, 개인사업자·임의단체·공동명의 제외",
+      "features": [
+        "가입한도20만좌 소진 시 판매 종료; 현재 접수 가능한 것으로 단정하지 않음"
+      ],
+      "preferential_conditions": [
+        "KB스타뱅킹 달리자 기록 및 본인 입출금통장 자동이체",
+        "월10/21/42km 구간별 우대,6개월 합산 최고4.20%p",
+        "모임통장 총무 및 총무포함3명 이상 조건2.00%p"
+      ],
+      "required_checks": [
+        "가입 자격 및 채널",
+        "실제 가입일 적용 금리",
+        "중도해지 조건",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "KB스타뱅킹"
+      ],
+      "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+      "reference_only": true,
+      "reference_reason": "공식 상세 조건 확보,20만좌 한정판매 현재 잔여 및 현행 판매상태 추가 확인",
+      "rates": [
+        {
+          "min_months": 6,
+          "max_months": 6,
+          "base_rate_percent": "1.00",
+          "max_total_rate_percent": "7.20",
+          "evidence_locator": "2026-04-28 공식 작성기준; 현재금리로 확정하지 않음"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://kbthink.com/saving-guide/kb-running-savings.html",
+          "title": "KB국민은행 KB달리자적금 공식 상세",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-04-28",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "상품개요·가입기간·금액·대상·금리정보"
+        }
+      ],
+      "comparison_hold_reason": "20만좌 한정판매의 현재 잔여·모집상태 미확인",
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANA-DOUBLE-UP-SAVINGS",
+      "institution": "하나은행",
+      "product_name": "내집마련 더블업(Double-Up)적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 50000,
+      "maximum": 200000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 24,
+      "allowed_months": [
+        12,
+        24
+      ],
+      "payment_note": "매월 약정일5만원~20만원 원 단위 정액 납입",
+      "term_note": "공식 가능기간 12,24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "해당일 하나은행 주택청약종합저축을 신규한 실명 개인·개인사업자1인1계좌",
+      "features": [
+        "공식현행 추천상품 목록에서 연결. 2024-05-01 헤더 금리를 오늘 금리로 표시하지 않아 숫자 생략."
+      ],
+      "preferential_conditions": [
+        "적금 만기시 본인명의 하나은행 주택청약종합저축 보유 시 각 기간 기본금리만큼 우대"
+      ],
+      "required_checks": [
+        "실제 가입자격 및 채널",
+        "가입일 적용금리",
+        "우대 실적·증빙",
+        "검증된 만기 계산 계약",
+        "주택청약 신규→적금 신규 동일자 거래순서 필수"
+      ],
+      "channels": [
+        "영업점·하나원큐 등 공식 채널 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 계약 이율 및 약관 적용. 실사용 만기액 계산 제공 안 함.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1450446_115157.jsp",
+          "title": "하나은행 내집마련 더블업(Double-Up)적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2024-05-01",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "가입대상·가입기간·적립한도·판매기간·우대조건"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": 1,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANA-CHILD-CARE-SAVINGS",
+      "institution": "하나은행",
+      "product_name": "하나 아이키움 적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 300000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 12,
+      "allowed_months": [
+        12
+      ],
+      "payment_note": "가입금액1만원~30만원 및 월납입액30만원 예시는 공식 확인. 월 누적한도 별도문구 미확인.",
+      "term_note": "공식 가능기간 12개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "실명 개인·개인사업자1인1계좌",
+      "features": [
+        "공식 신규가능상품 목록 최종게시2026-03-05. 판매기간2026-12-31까지7만좌, 소진시중단.",
+        "상품 헤더금리2023-11-13와 우대표2026-01-01의 혼합 기준일: 현재금리 숫자노출 보류."
+      ],
+      "preferential_conditions": [
+        "양육수당 수급 또는 임산부 증빙",
+        "아이 미래 지킴 서약",
+        "주택청약 보유·하나 합·마케팅 동의",
+        "다자녀 가구 특별우대는 별도증빙"
+      ],
+      "required_checks": [
+        "실제 가입자격 및 채널",
+        "가입일 적용금리",
+        "우대 실적·증빙",
+        "검증된 만기 계산 계약",
+        "한정7만좌 판매 잔여",
+        "자녀·임신·수당증빙은 가입대상 전체의 필수조건으로 오해하지 않음"
+      ],
+      "channels": [
+        "영업점·하나원큐 등 공식 채널 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 계약 이율 및 약관 적용. 실사용 만기액 계산 제공 안 함.",
+      "reference_only": true,
+      "reference_reason": "월 누적한도 문구를 약관/설명서에서 추가확인하기 전 월액 비교보류",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1490214_115157.jsp",
+          "title": "하나은행 하나 아이키움 적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-03-05",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "가입대상·가입기간·적립한도·판매기간·우대조건"
+        }
+      ],
+      "comparison_hold_reason": "공식 본문 가입금액 상한30만원과 월30만원 납입예시는 확인, 월 누적 적립한도 명시문 추가확인",
+      "amount_increment": 1,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANA-EASY-FOREIGNER-SAVINGS",
+      "institution": "하나은행",
+      "product_name": "하나더이지 적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 300000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 12,
+      "allowed_months": [
+        12
+      ],
+      "payment_note": "월1만원~30만원 원단위 자유적립",
+      "term_note": "공식 가능기간 12개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "실명 외국인1인1계좌, 비거주자 제외",
+      "features": [
+        "공식 신규가능상품 목록 최종게시2025-12-31. 판매기간2026-12-31까지6만좌 한정.",
+        "현재 적용금리는 가입일 은행 금리표 확인; 헤더2025-05-28 숫자 생략."
+      ],
+      "preferential_conditions": [
+        "해외송금 건수 및 금액",
+        "급여입금6회 이상",
+        "하나카드 결제6회 이상"
+      ],
+      "required_checks": [
+        "실제 가입자격 및 채널",
+        "가입일 적용금리",
+        "우대 실적·증빙",
+        "검증된 만기 계산 계약",
+        "외국인·거주자 여부",
+        "한정6만좌 잔여"
+      ],
+      "channels": [
+        "영업점·하나원큐 등 공식 채널 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 계약 이율 및 약관 적용. 실사용 만기액 계산 제공 안 함.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1508308_115157.jsp",
+          "title": "하나은행 하나더이지 적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2025-12-31",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "가입대상·가입기간·적립한도·판매기간·우대조건"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": 1,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANA-RUNNING-SAVINGS",
+      "institution": "하나은행",
+      "product_name": "달려라 하나 적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 300000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 12,
+      "allowed_months": [
+        12
+      ],
+      "payment_note": "월1만원~30만원 원단위 자유적립",
+      "term_note": "공식 가능기간 12개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "만19세 이상 실명 개인·개인사업자1인1계좌",
+      "features": [
+        "공식 신규가능상품 목록 및 상세에 현행 판매 안내. 우대는 만기해지 및 실적 요건 충족 조건."
+      ],
+      "preferential_conditions": [
+        "예적금 첫거래0.70%p",
+        "국민체력100 인증서 또는 러닝크루 최대1.00%p, 두항목 중복불가",
+        "달리기누적거리별 최대2.50%p, 서비스 연결·확인기한 준수"
+      ],
+      "required_checks": [
+        "실제 가입자격 및 채널",
+        "가입일 적용금리",
+        "우대 실적·증빙",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "영업점·하나원큐 등 공식 채널 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 계약 이율 및 약관 적용. 실사용 만기액 계산 제공 안 함.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 12,
+          "max_months": 12,
+          "base_rate_percent": "1.80",
+          "max_total_rate_percent": "6.00",
+          "evidence_locator": "2026-04-29 명시 기준, 현재가입일 금리 별도확인"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1524394_115157.jsp",
+          "title": "하나은행 달려라 하나 적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2026-04-29",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "가입대상·가입기간·적립한도·판매기간·우대조건"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": 1,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANA-DAEJEON-FOOTBALL-SAVINGS",
+      "institution": "하나은행",
+      "product_name": "대전하나 축구사랑 적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 300000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 12,
+      "allowed_months": [
+        12
+      ],
+      "payment_note": "월1만원~30만원 원단위 자유적립",
+      "term_note": "공식 가능기간 12개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "만기이자 전부 또는 일부의 대전하나시티즌 후원이체에 동의한 실명 개인·개인사업자1인2계좌",
+      "features": [
+        "세후 만기이자100%·50%·10% 중 선택한 비율이 후원 계좌로 이체됨. 전액 본인 수령 상품과 동일시 금지.",
+        "현행 상품목록과 상세의 금리 기준 불일치 가능하여 숫자 노출 생략."
+      ],
+      "preferential_conditions": [
+        "하나카드 결제6개월",
+        "마케팅 및 하나원큐 푸시 동의"
+      ],
+      "required_checks": [
+        "실제 가입자격 및 채널",
+        "가입일 적용금리",
+        "우대 실적·증빙",
+        "검증된 만기 계산 계약",
+        "만기이자 후원 방식과 비율에 명시 동의 필요"
+      ],
+      "channels": [
+        "영업점·하나원큐 등 공식 채널 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 계약 이율 및 약관 적용. 실사용 만기액 계산 제공 안 함.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1492538_115157.jsp",
+          "title": "하나은행 대전하나 축구사랑 적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2024-03-08",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "가입대상·가입기간·적립한도·판매기간·우대조건"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": 1,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANASB-BLUE-SKY-SAVINGS",
+      "institution": "하나저축은행",
+      "product_name": "파란 하늘 정기적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 1000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 24,
+      "allowed_months": [
+        12,
+        24
+      ],
+      "payment_note": "매월 약정액1만원~100만원 정기 납입",
+      "term_note": "공식 가능기간 12,24개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "개인, 활동좌 기준1인1계좌",
+      "features": [
+        "공식 현재상품목록 NEW0200에 등록. 상세직접열기는 redirect loop; 공식검색색인 본문으로 검증.",
+        "2025-12-10~2027-12-09 준법심사 유효기간.6개월 유지 후 중도해지 시 별도 기본+우대 규정."
+      ],
+      "preferential_conditions": [
+        "은행 앱 월1회이상 로그인 기록 횟수에 따른 최대3.00%p"
+      ],
+      "required_checks": [
+        "실제 가입자격 및 채널",
+        "가입일 적용금리",
+        "우대 실적·증빙",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "영업점·하나원큐 등 공식 채널 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 계약 이율 및 약관 적용. 실사용 만기액 계산 제공 안 함.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 12,
+          "max_months": 24,
+          "base_rate_percent": "1.00",
+          "max_total_rate_percent": "4.00",
+          "evidence_locator": "2025-10-15 명시 기본금리 및 현재게시 우대표; 당일금리 확정 아님"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.hanasavings.com/NEW/NEW0116",
+          "title": "하나저축은행 파란 하늘 정기적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2025-10-15",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "가입대상·가입기간·적립한도·판매기간·우대조건"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANASB-SOHO-TOGETHER-SAVINGS",
+      "institution": "하나저축은행",
+      "product_name": "하나더소호동행적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 500000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 12,
+      "allowed_months": [
+        12
+      ],
+      "payment_note": "매월 약정액1만원~50만원 정기 납입",
+      "term_note": "공식 가능기간 12개월. 정수 개월 조건만 비교합니다.",
+      "eligibility_note": "개인사업자",
+      "features": [
+        "공식 현재상품목록 및 상세의 스마트뱅킹 가입 안내. 공동사업자는 영업점만 가능.",
+        "2025-12-10~2027-12-09 준법심사 유효기간."
+      ],
+      "preferential_conditions": [
+        "가입시 소상공인확인서 제출1.00%p",
+        "본인명의 사장님 혜택가득 보통예금에서 계약기간1/2회 이상 자동이체2.00%p"
+      ],
+      "required_checks": [
+        "실제 가입자격 및 채널",
+        "가입일 적용금리",
+        "우대 실적·증빙",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "영업점·하나원큐 등 공식 채널 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 계약 이율 및 약관 적용. 실사용 만기액 계산 제공 안 함.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [
+        {
+          "min_months": 12,
+          "max_months": 12,
+          "base_rate_percent": "2.00",
+          "max_total_rate_percent": "5.00",
+          "evidence_locator": "2025-11-26 명시 기준, 오늘 금리확정 아님"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.hanasavings.com/NEW/NEW0122",
+          "title": "하나저축은행 하나더소호동행적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2025-11-26",
+          "mode": "OFFICIAL_INDEXED_PAGE",
+          "locator": "가입대상·가입기간·적립한도·판매기간·우대조건"
+        }
+      ],
+      "comparison_hold_reason": null,
+      "amount_increment": null,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANA-SOHO-MERCHANT-SAVINGS",
+      "institution": "하나은행",
+      "product_name": "하나더소호 가맹점 적금",
+      "kind": "SAVINGS",
+      "schedule": "MONTHLY",
+      "minimum": 10000,
+      "maximum": 300000,
+      "maximum_kind": "KNOWN",
+      "min_months": null,
+      "max_months": null,
+      "allowed_months": null,
+      "payment_note": "월1만원~30만원 자유적립",
+      "term_note": "상단 가입기간1년과 금리안내의 만기일고정·가입일별 기간상이 문구가 공존하므로 기간 비교 보류.",
+      "eligibility_note": "만14세 이상 실명 개인사업자1인1계좌",
+      "features": [
+        "공식 신규가능상품목록. 판매2026-12-31까지3만좌.",
+        "상단1년과 하단 만기일고정으로 가입자별기간상이 문구가 공존. 기간 계약 확인 전 승격 보류."
+      ],
+      "preferential_conditions": [
+        "가맹점 입금실적6개월",
+        "대금 입금 카드사 개수별 우대"
+      ],
+      "required_checks": [
+        "실제 가입자격 및 채널",
+        "가입일 적용금리",
+        "우대 실적·증빙",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "영업점·하나원큐 등 공식 채널 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 계약 이율 및 약관 적용. 실사용 만기액 계산 제공 안 함.",
+      "reference_only": true,
+      "reference_reason": "공식1년 표시와 만기일고정·가입일별 기간상이 문구 충돌",
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1506417_115157.jsp",
+          "title": "하나은행 하나더소호 가맹점 적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2025-12-17",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "가입대상·가입기간·적립한도·판매기간·우대조건"
+        }
+      ],
+      "comparison_hold_reason": "실제 만기일·가입기간 계약 추가확인",
+      "amount_increment": 1,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    },
+    {
+      "product_id": "HANA-PENSION-COMPOUND-SAVINGS",
+      "institution": "하나은행",
+      "product_name": "연금하나 월복리 적금",
+      "kind": "SAVINGS",
+      "schedule": "QUARTERLY",
+      "minimum": 10000,
+      "maximum": 3000000,
+      "maximum_kind": "KNOWN",
+      "min_months": 12,
+      "max_months": 36,
+      "allowed_months": [
+        12,
+        24,
+        36
+      ],
+      "payment_note": "분기1만원~300만원 자유적립. 월300만원 상품으로 표시 금지.",
+      "term_note": "12/24/36개월, 납입예산은 분기 단위 추가 확인.",
+      "eligibility_note": "실명 개인·개인사업자1인1계좌; 급여하나·주거래하나 월복리적금 중복가입 불가",
+      "features": [
+        "월복리라는 상품명은 이자방식, 납입한도는 분기300만원.",
+        "월액 단순비교 미지원."
+      ],
+      "preferential_conditions": [
+        "본인명의 입출금통장 연금입금 실적",
+        "금리우대쿠폰 해당 시"
+      ],
+      "required_checks": [
+        "실제 가입자격 및 채널",
+        "가입일 적용금리",
+        "우대 실적·증빙",
+        "검증된 만기 계산 계약"
+      ],
+      "channels": [
+        "영업점·하나원큐 등 공식 채널 안내 확인"
+      ],
+      "early_exit_note": "중도해지 시 상품별 계약 이율 및 약관 적용. 실사용 만기액 계산 제공 안 함.",
+      "reference_only": false,
+      "reference_reason": null,
+      "rates": [],
+      "sources": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455928_115157.jsp",
+          "title": "하나은행 연금하나 월복리 적금 공식 상품 안내",
+          "reviewed_on": "2026-11-01",
+          "basis_date": "2024-07-12",
+          "mode": "OFFICIAL_PAGE",
+          "locator": "가입대상·가입기간·적립한도·판매기간·우대조건"
+        }
+      ],
+      "comparison_hold_reason": "분기한도는 월 한도로 단순변환하지 않음",
+      "amount_increment": 1,
+      "calculation": null,
+      "eligibility": "UNKNOWN",
+      "disclosure_ids": []
+    }
+  ],
+  "evidence": [
+    {
+      "product_id": "PEPPER-6M-ROTATING-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=79",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식",
+        "상한 제한없음 명시"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "PEPPER-TERM-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식",
+        "상한 제한없음 명시"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "PEPPER-FREE-EXIT-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=18",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식",
+        "상한 제한없음 명시"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "PEPPERS-6M-ROTATING-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=80",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식",
+        "상한 제한없음 명시"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "PEPPERS-TERM-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식",
+        "상한 제한없음 명시"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "PEPPERS-FREE-EXIT-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=37",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식",
+        "상한 제한없음 명시"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "PEPPERS-ROTATING-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=35",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식",
+        "상한 제한없음 명시"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "PEPPER-FREE-ACCUMULATION",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=20",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식",
+        "상한 제한없음 명시"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANWHA-MYMO-SAVINGS",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=94",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증",
+        "상한 미기재"
+      ],
+      "historical_rate_observation": {
+        "basis_date": "2024-01-03",
+        "note": "6개월2.75,12/24/36개월3.55; 오래된 기준으로 현행 숫자 노출 보류"
+      }
+    },
+    {
+      "product_id": "HANWHA-EBANK-SAVINGS",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=24",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증",
+        "상한 미기재"
+      ]
+    },
+    {
+      "product_id": "HANWHA-FAMILY-SAVINGS",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=74",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증",
+        "상한 미기재"
+      ]
+    },
+    {
+      "product_id": "HANWHA-FAMILY-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=27",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증",
+        "상한 미기재"
+      ]
+    },
+    {
+      "product_id": "HANWHA-AUTO-RENEW-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=29",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증",
+        "상한 미기재"
+      ]
+    },
+    {
+      "product_id": "HANWHA-EBANK-DEPOSIT",
+      "current_sale_evidence": "공식 현행 상품목록에서 직접 연결된 상품 상세; 계좌 가입 실행 없음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=33",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상품별 가입 가능 여부 UNKNOWN",
+        "만기 계산 미검증",
+        "상한 미기재"
+      ]
+    },
+    {
+      "product_id": "HANWHA-E-ROTATE3-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=87",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANWHA-E-ROTATE6-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=89",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANWHA-E-ROTATE12-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=91",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANWHA-ROTATE3-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=83",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANWHA-ROTATE6-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=85",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANWHA-ROTATE12-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=31",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANWHA-MYMO-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=95",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANWHA-MYMO-ROTATE6-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=97",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANWHA-MYMO-ROTATE12-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=99",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "OSB-REGULAR-SAVINGS",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.osb.co.kr/ib20/mnu/HOM00076",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "OSB-FREESTYLE-SAVINGS",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.osb.co.kr/ib20/mnu/HOM00077",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "OSB-FREE-ACCUMULATION",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.osb.co.kr/ib20/mnu/HOM00078",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "OSB-ROTATING-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.osb.co.kr/ib20/mnu/HOM00227",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "OSB-REGULAR-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.osb.co.kr/ib20/mnu/HOM00072",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "JT-REGULAR-SAVINGS",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.jt-bank.co.kr/deposit/DEP0300.view",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "JT-REGULAR-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.jt-bank.co.kr/deposit/DEP0200.view",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "상한 미기재, 개인 조건 비교 보류",
+        "가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "KN-PREMIUM-DEPOSIT",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000211986&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식",
+        "최대금액10억원",
+        "기간12/13개월",
+        "조회일 명시 기본금리·우대조건"
+      ],
+      "uncertainties": [
+        "특판 잔여 판매한도는 별도 확인",
+        "개인 가입자격 UNKNOWN",
+        "만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "KB-RUNNING-SAVINGS",
+      "current_sale_evidence": "공식 상품공시 메뉴 또는 현행 안내에서 확인; 실제 신규가입 수행하지 않음",
+      "source_url": "https://kbthink.com/saving-guide/kb-running-savings.html",
+      "verified_fields": [
+        "상품명",
+        "가입기간",
+        "최소금액",
+        "대상",
+        "납입방식"
+      ],
+      "uncertainties": [
+        "20만좌 판매한도 잔여 불명, 참고 전용",
+        "2026-04-28 금리 기준, 현재 적용금리 확정 불가"
+      ]
+    },
+    {
+      "product_id": "HANA-DOUBLE-UP-SAVINGS",
+      "source_url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1450446_115157.jsp",
+      "current_sale_evidence": "은행 공식 신규가능상품 공시/현행 상품 목록에서 직접 연결된 상세. 한정 판매는 잔여 한도 별도 확인.",
+      "verified_fields": [
+        "월 최소·최대 납입액",
+        "계약기간",
+        "가입대상",
+        "적립방식",
+        "우대조건"
+      ],
+      "uncertainties": [
+        "가입자격 UNKNOWN",
+        "현재 잔여 판매한도 및 가입일 실제금리는 은행 확인",
+        "실제상품 만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANA-CHILD-CARE-SAVINGS",
+      "source_url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1490214_115157.jsp",
+      "current_sale_evidence": "은행 공식 신규가능상품 공시/현행 상품 목록에서 직접 연결된 상세. 한정 판매는 잔여 한도 별도 확인.",
+      "verified_fields": [
+        "월 최소·최대 납입액",
+        "계약기간",
+        "가입대상",
+        "적립방식",
+        "우대조건"
+      ],
+      "uncertainties": [
+        "가입자격 UNKNOWN",
+        "현재 잔여 판매한도 및 가입일 실제금리는 은행 확인",
+        "실제상품 만기 계산 미검증",
+        "가입금액 상한과 월예시는 확인했으나 매월 누적한도 명시문 부재로 hold"
+      ]
+    },
+    {
+      "product_id": "HANA-EASY-FOREIGNER-SAVINGS",
+      "source_url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1508308_115157.jsp",
+      "current_sale_evidence": "은행 공식 신규가능상품 공시/현행 상품 목록에서 직접 연결된 상세. 한정 판매는 잔여 한도 별도 확인.",
+      "verified_fields": [
+        "월 최소·최대 납입액",
+        "계약기간",
+        "가입대상",
+        "적립방식",
+        "우대조건"
+      ],
+      "uncertainties": [
+        "가입자격 UNKNOWN",
+        "현재 잔여 판매한도 및 가입일 실제금리는 은행 확인",
+        "실제상품 만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANA-RUNNING-SAVINGS",
+      "source_url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1524394_115157.jsp",
+      "current_sale_evidence": "은행 공식 신규가능상품 공시/현행 상품 목록에서 직접 연결된 상세. 한정 판매는 잔여 한도 별도 확인.",
+      "verified_fields": [
+        "월 최소·최대 납입액",
+        "계약기간",
+        "가입대상",
+        "적립방식",
+        "우대조건"
+      ],
+      "uncertainties": [
+        "가입자격 UNKNOWN",
+        "현재 잔여 판매한도 및 가입일 실제금리는 은행 확인",
+        "실제상품 만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANA-DAEJEON-FOOTBALL-SAVINGS",
+      "source_url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1492538_115157.jsp",
+      "current_sale_evidence": "은행 공식 신규가능상품 공시/현행 상품 목록에서 직접 연결된 상세. 한정 판매는 잔여 한도 별도 확인.",
+      "verified_fields": [
+        "월 최소·최대 납입액",
+        "계약기간",
+        "가입대상",
+        "적립방식",
+        "우대조건"
+      ],
+      "uncertainties": [
+        "가입자격 UNKNOWN",
+        "현재 잔여 판매한도 및 가입일 실제금리는 은행 확인",
+        "실제상품 만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANASB-BLUE-SKY-SAVINGS",
+      "source_url": "https://www.hanasavings.com/NEW/NEW0116",
+      "current_sale_evidence": "은행 공식 신규가능상품 공시/현행 상품 목록에서 직접 연결된 상세. 한정 판매는 잔여 한도 별도 확인.",
+      "verified_fields": [
+        "월 최소·최대 납입액",
+        "계약기간",
+        "가입대상",
+        "적립방식",
+        "우대조건"
+      ],
+      "uncertainties": [
+        "가입자격 UNKNOWN",
+        "현재 잔여 판매한도 및 가입일 실제금리는 은행 확인",
+        "실제상품 만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANASB-SOHO-TOGETHER-SAVINGS",
+      "source_url": "https://www.hanasavings.com/NEW/NEW0122",
+      "current_sale_evidence": "은행 공식 신규가능상품 공시/현행 상품 목록에서 직접 연결된 상세. 한정 판매는 잔여 한도 별도 확인.",
+      "verified_fields": [
+        "월 최소·최대 납입액",
+        "계약기간",
+        "가입대상",
+        "적립방식",
+        "우대조건"
+      ],
+      "uncertainties": [
+        "가입자격 UNKNOWN",
+        "현재 잔여 판매한도 및 가입일 실제금리는 은행 확인",
+        "실제상품 만기 계산 미검증"
+      ]
+    },
+    {
+      "product_id": "HANA-SOHO-MERCHANT-SAVINGS",
+      "source_url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1506417_115157.jsp",
+      "current_sale_evidence": "은행 공식 신규가능상품 공시/현행 상품 목록에서 직접 연결된 상세. 한정 판매는 잔여 한도 별도 확인.",
+      "verified_fields": [
+        "월 최소·최대 납입액",
+        "계약기간",
+        "가입대상",
+        "적립방식",
+        "우대조건"
+      ],
+      "uncertainties": [
+        "가입자격 UNKNOWN",
+        "현재 잔여 판매한도 및 가입일 실제금리는 은행 확인",
+        "실제상품 만기 계산 미검증",
+        "공식기간 표시 충돌로 기간비교보류"
+      ]
+    },
+    {
+      "product_id": "HANA-PENSION-COMPOUND-SAVINGS",
+      "source_url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455928_115157.jsp",
+      "current_sale_evidence": "은행 공식 신규가능상품 공시/현행 상품 목록에서 직접 연결된 상세. 한정 판매는 잔여 한도 별도 확인.",
+      "verified_fields": [
+        "월 최소·최대 납입액",
+        "계약기간",
+        "가입대상",
+        "적립방식",
+        "우대조건"
+      ],
+      "uncertainties": [
+        "가입자격 UNKNOWN",
+        "현재 잔여 판매한도 및 가입일 실제금리는 은행 확인",
+        "실제상품 만기 계산 미검증",
+        "분기한도, 월액 비교 제외"
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "institution": "KB국민은행",
+      "product_name": "KB국민ONE적금",
+      "existing_catalog": true,
+      "status": "SALES_DISCONTINUED",
+      "stop_date": "2023-01-01",
+      "official_url": "https://img2.kbstar.com/obj/ocommon/deposit_Insurance_260529.pdf",
+      "basis_date": "2026-05-29",
+      "locator": "PDF4쪽 표241"
+    },
+    {
+      "institution": "KB국민은행",
+      "product_name": "KB반려행복적금",
+      "existing_catalog": true,
+      "status": "SALES_DISCONTINUED",
+      "stop_date": "2025-01-01",
+      "official_url": "https://img2.kbstar.com/obj/ocommon/deposit_Insurance_260529.pdf",
+      "basis_date": "2026-05-29",
+      "locator": "PDF5쪽 표261"
+    },
+    {
+      "institution": "다올저축은행",
+      "product_name": "정기적금",
+      "status": "SALES_DISCONTINUED",
+      "stop_date": "2022-08-16",
+      "official_url": "https://www.daolsb.com/deposit/goods.do?gds_cd=DB101&gds_clss_cd=DB",
+      "locator": "상품안내 판매종료일; 현재 금리표가 남아 있어도 판매종료"
+    },
+    {
+      "institution": "하나저축은행",
+      "product_name": "잘파(Z+알파) 적금",
+      "status": "SALES_DISCONTINUED",
+      "stop_date": null,
+      "official_url": "https://www.hanasavings.com/NEW/NEW0119",
+      "locator": "공식 검색색인: HOME 예금 판매중지상품, 한도소진상품"
+    },
+    {
+      "institution": "우리은행",
+      "product_name": "우리 퍼스트 정기적금",
+      "status": "SALES_DISCONTINUED",
+      "stop_date": null,
+      "official_url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010002507&cc=c021299%3Ac009166&withyou=PORMG0044",
+      "locator": "상품명 (판매종료) 명시"
+    }
+  ],
+  "notes": [
+    "Source 스키마의 신규 공식 도메인 www.hanwhasbank.com 허용 필요(부모 검토).",
+    "실제상품 만기계산0 유지. 상한미기재=무제한 추정 금지.",
+    "다올 정기적금은 최신금리표와 별개로 판매종료 명시이므로 제외.",
+    "추가 허용 검토 도메인: www.osb.co.kr, www.jt-bank.co.kr, kbthink.com. 신규 은행 도메인 증거는 parents가 검토 후 반영.",
+    "한화 상품별 현재 공시메뉴는 확인했으나 개인 비교에 필요한 상한은 미기재이므로 참고 전용.",
+    "정액·자유/단리·복리 방식으로 고유상품을 부풀리지 않음. 공식 별도 상품명·상품ID가 있는 채널 상품은 별도 기록.",
+    "상위 금리의 무조건 추천/수익순위 생성 안 함.",
+    "추가 공식 도메인 www.hanasavings.com 허용 검토 필요. 직접열기 redirect loop이므로 OFFICIAL_INDEXED_PAGE 구분.",
+    "추가 적금9개: 직접 월 비교 후보7개, 분기한도1개, 고정만기/1년 충돌보류1개.",
+    "공식 금융상품목록에 있으나 제한좌수 잔여는 은행에서 확인. 금액·기간 비교가 가입 가능 확정을 뜻하지 않음.",
+    "아이키움은월납입예시만으로 월누적한도 확정 안 하여 추가보류. 적금추가9개중 월조건비교6개, 분기1개, 보류2개."
+  ],
+  "counts": {
+    "staged_unique_named_products": 41,
+    "direct_amount_term_complete": 15,
+    "plain_monthly_or_lump_comparison_candidates": 14,
+    "reference_hold": 26,
+    "excluded": 5,
+    "additional_savings_batch": 9,
+    "additional_plain_monthly_savings": 6
+  }
+}

@@ -1,0 +1,1978 @@
+{
+  "programs": [
+    {
+      "program_id": "GAP95-YP-MONEY-2026",
+      "title": "양평 청년 금융교육 · 돈의 흐름을 읽는 청년 투자학교",
+      "authority": "양평군 청년공간 오름",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "경기"
+      ],
+      "city": "양평군",
+      "benefit_summary": "매주 목요일 저녁 금융상품·자산 배분과 경제 흐름을 다루는 4회 무료 교육입니다.",
+      "age_note": "양평군민 가운데 청년을 우선합니다. 수치 나이 제한은 확인이 필요합니다.",
+      "income_note": "소득·자산 기준은 별도 확인합니다.",
+      "required_checks": [
+        "양평군민 여부·청년 우선 선발",
+        "회차별 대면 참석·잔여석"
+      ],
+      "schedule_note": "군청은 11월 26일을 모집 마감일로 안내합니다. 11월 5일부터 매주 다른 내용을 배우므로 희망 회차를 확인하세요.",
+      "starts_on": "2026-10-26",
+      "ends_on": "2026-11-26",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.yp21.go.kr/work/selectBbsNttView.do?key=3252&bbsNo=360&nttNo=314483",
+          "title": "양평군 일자리센터 공식 공고",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "양평군민·청년우선, 교육 일시·지정 신청 링크"
+        },
+        {
+          "url": "https://form.naver.com/response/JS3I9Fykk0n",
+          "title": "양평청년공간 지정 금융교육 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "해당 교육 제목과 공개 응답 상태 IN_PROGRESS 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-DJ-CAREER-2026",
+      "title": "동작구 청년일자리센터 개별 구직·진로 상담",
+      "authority": "동작구 노량진 청년일자리센터",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "서울"
+      ],
+      "city": "동작구",
+      "benefit_summary": "센터에서 모의면접, 진로 방향, 취업 준비와 자기소개서를 개별 상담합니다.",
+      "age_note": "개인 상담이며 지역 제한은 없습니다. 숫자로 된 나이 기준은 확인하지 못했습니다.",
+      "income_note": "소득·자산 기준은 별도 확인합니다.",
+      "required_checks": [
+        "신분증 지참·노량진 센터 방문",
+        "상담 시간·희망 상담 분야"
+      ],
+      "schedule_note": "11월 1일 예약 달력에서 11월 4일 선택 가능한 상담 시간 4개를 확인했습니다. 예약 가능 시간은 바뀝니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://youthjob.dongjak.go.kr/noryangjin/careerPath/zy258kb55cns/info.do?mId=1496",
+          "title": "노량진 청년일자리센터 공식 상담 예약",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "달력·차단일·선택 가능한 개별 시간 및 이용 안내"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-GH-INTERVIEW-2026",
+      "title": "강화 청년 취업 면접수당",
+      "authority": "강화군 창업·일자리센터",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "인천"
+      ],
+      "city": "강화군",
+      "benefit_summary": "공개 채용 면접에 참여한 미취업 청년에게 1회 5만 원, 연 최대 3회 면접수당을 지원합니다.",
+      "age_note": "공고상 18~39세입니다. 신청일 본인 또는 부모의 강화군 주민등록 요건을 확인하세요.",
+      "income_note": "소득·자산 기준은 별도 확인합니다.",
+      "required_checks": [
+        "면접 시 미취업과 공개 채용공고·면접 참여 증빙",
+        "본인·부모 주민등록 증빙과 사전 신청 승인",
+        "예산 잔여 여부·방문 신청 가능 시간"
+      ],
+      "schedule_note": "2~12월 예산 소진 전까지 진행합니다. 11월 1일 해당 사업 게시판에서 당일 신청 접수를 확인했습니다. 온라인 작성 오류 시 센터 공식 방문접수를 이용하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.ganghwajob.kr/_NBoard/board.php?bo_table=notice&wr_id=198",
+          "title": "강화군 청년 면접토탈 시행 공고",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "주민등록·나이·구직요건과 면접수당, 방문 접수"
+        },
+        {
+          "url": "https://www.ganghwajob.kr/_NBoard/board.php?bo_table=board3",
+          "title": "강화군 면접수당 공식 접수대장",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "11월 1일 실제 신청 접수 표시. 글쓰기 접속 오류, 방문 접수 병행"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-YJ-TAX-2026",
+      "title": "여주 1인가구 잇테크 · 연말정산과 셀프김장",
+      "authority": "여주시가족센터",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "경기"
+      ],
+      "city": "여주시",
+      "benefit_summary": "11월 21일 오전에 연말정산과 절세를 배우고 오후에는 함께 김장을 합니다. 오전과 오후 모두 참석하고 각각 신청하는 무료 프로그램입니다.",
+      "age_note": "여주에 거주하는 만 18세 이상 1인가구를 선착순 모집합니다.",
+      "income_note": "소득·자산 기준은 별도 확인합니다.",
+      "required_checks": [
+        "신규 참여자는 주민등록등본 등 1인가구 증빙 제출",
+        "오전·오후 두 신청 페이지 모두 접수, 참가 가능 인원 확인"
+      ],
+      "schedule_note": "공식 온라인 접수 기간은 10월 23일부터 11월 21일 15시까지입니다. 교육은 당일 10시에 시작하며 선착순 마감될 수 있어 시작 전에 신청해야 합니다.",
+      "starts_on": "2026-10-23",
+      "ends_on": "2026-11-21",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=284898",
+          "title": "여주시가족센터 공식 신청 · 1인가구 금융안전교육 '연말정산미리보기'",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 접수중 표시, 참가 대상·회차·모집 기간"
+        },
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=284900",
+          "title": "여주시가족센터 공식 신청 · 1인가구 식생활 개선 다이닝 '셀프김장'",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 접수중 표시, 참가 대상·회차·모집 기간"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-JN-EMPLOY-2026",
+      "title": "종로 결혼이민자 취업 지원 · 구직 등록과 취업처 연계",
+      "authority": "종로구가족센터",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "서울"
+      ],
+      "city": "종로구",
+      "benefit_summary": "결혼이민자의 구직 등록을 돕고 취업처를 연결하는 서비스입니다. 희망 서비스별로 신청합니다.",
+      "age_note": "결혼이민자가 대상이며 숫자 나이 기준은 기재되지 않았습니다.",
+      "income_note": "소득·자산 기준은 별도 확인합니다.",
+      "required_checks": [
+        "결혼이민자 대상 여부·서비스 희망 분야",
+        "기관별 이용권역·등록 절차와 취업처 연계 가능 여부"
+      ],
+      "schedule_note": "각 공식 신청 페이지에 11월·12월 개별 운영 회차가 있고 접수 중입니다.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=251264",
+          "title": "종로구가족센터 공식 신청 · [가족생활] 결혼이민자 취업지원 워크넷 등록",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 접수중 표시, 참가 대상·회차·모집 기간"
+        },
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=251260",
+          "title": "종로구가족센터 공식 신청 · [가족생활] 결혼이민자 취업지원 취업처 연계",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 접수중 표시, 참가 대상·회차·모집 기간"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-11-2026",
+      "title": "서산시 청년 생활용품 대여",
+      "authority": "서산시 · 서산청년마당",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "충남"
+      ],
+      "city": "서산시",
+      "benefit_summary": "서산청년마당에서 아이스박스·접이식 의자 등을 최대 7일간 빌립니다. 1회 최대 3개, 1인 연간 5회입니다.",
+      "age_note": "신청일 기준 서산시 거주 또는 생활하는 18 ~ 39세 청년입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "해당 지역 거주·생활권을 증명할 수 있는지 공식 안내 확인",
+        "충남청년포털 본인 로그인 후 물품별 예약 일정·재고와 센터 승인 확인"
+      ],
+      "schedule_note": "개별 대여일을 예약하는 서비스입니다. 공식 고정 모집 시작일·마감일은 공개하지 않습니다. 논산 등은 사전 예약이 필요하며 지역별 운영일을 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10011",
+          "title": "서산시 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-12-2026",
+      "title": "계룡시 청년 생활용품 대여",
+      "authority": "계룡시 · 계룡청년공간 소소마루",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "충남"
+      ],
+      "city": "계룡시",
+      "benefit_summary": "계룡청년공간 소소마루에서 랜턴·폴딩 매트 등을 최대 7일간 빌립니다. 1회 최대 3개, 1인 연간 5회입니다.",
+      "age_note": "신청일 기준 계룡시에 거주하는 18 ~ 39세 청년입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "신청일 주민등록상 해당 지역 확인",
+        "충남청년포털 본인 로그인 후 물품별 예약 일정·재고와 센터 승인 확인"
+      ],
+      "schedule_note": "개별 대여일을 예약하는 서비스입니다. 공식 고정 모집 시작일·마감일은 공개하지 않습니다. 논산 등은 사전 예약이 필요하며 지역별 운영일을 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10012",
+          "title": "계룡시 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-13-2026",
+      "title": "부여군 청년 생활용품 대여",
+      "authority": "부여군 · 부여 청년센터",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "충남"
+      ],
+      "city": "부여군",
+      "benefit_summary": "부여 청년센터에서 전동드릴·접이식 대차·이사박스 등을 최대 7일간 빌립니다. 1회 최대 3개, 1인 연간 5회입니다.",
+      "age_note": "신청일 기준 부여군 거주 또는 생활하는 18 ~ 39세 청년입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "해당 지역 거주·생활권을 증명할 수 있는지 공식 안내 확인",
+        "충남청년포털 본인 로그인 후 물품별 예약 일정·재고와 센터 승인 확인"
+      ],
+      "schedule_note": "개별 대여일을 예약하는 서비스입니다. 공식 고정 모집 시작일·마감일은 공개하지 않습니다. 논산 등은 사전 예약이 필요하며 지역별 운영일을 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10013",
+          "title": "부여군 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-15-2026",
+      "title": "보령시 청년 생활용품 대여",
+      "authority": "보령시 · 보령청년센터",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "충남"
+      ],
+      "city": "보령시",
+      "benefit_summary": "보령청년센터에서 육각렌치·마이크·빔 스크린 등을 최대 7일간 빌립니다. 1회 최대 3개, 1인 연간 5회입니다.",
+      "age_note": "신청일 기준 보령시 거주 또는 생활하는 18 ~ 45세 청년입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "해당 지역 거주·생활권을 증명할 수 있는지 공식 안내 확인",
+        "충남청년포털 본인 로그인 후 물품별 예약 일정·재고와 센터 승인 확인"
+      ],
+      "schedule_note": "개별 대여일을 예약하는 서비스입니다. 공식 고정 모집 시작일·마감일은 공개하지 않습니다. 논산 등은 사전 예약이 필요하며 지역별 운영일을 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10015",
+          "title": "보령시 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-16-2026",
+      "title": "논산시 청년 생활용품 대여",
+      "authority": "논산시 · 논산청년꿈키움광장",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "충남"
+      ],
+      "city": "논산시",
+      "benefit_summary": "논산청년꿈키움광장에서 공구·이사용품·캠핑용품을 최대 7일간 빌립니다. 1회 최대 3개, 1인 연간 5회입니다.",
+      "age_note": "논산시 거주 또는 활동 중인 18 ~ 45세 청년입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "해당 지역 거주·생활권을 증명할 수 있는지 공식 안내 확인",
+        "충남청년포털 본인 로그인 후 물품별 예약 일정·재고와 센터 승인 확인"
+      ],
+      "schedule_note": "개별 대여일을 예약하는 서비스입니다. 공식 고정 모집 시작일·마감일은 공개하지 않습니다. 논산 등은 사전 예약이 필요하며 지역별 운영일을 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10016",
+          "title": "논산시 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-18-2026",
+      "title": "서천군 청년 생활용품 대여",
+      "authority": "서천군 · 한산 디지털 노마드 센터",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "충남"
+      ],
+      "city": "서천군",
+      "benefit_summary": "한산 디지털 노마드 센터에서 일산화탄소 감지기·몽키스패너 등을 최대 7일간 빌립니다. 1회 최대 3개, 1인 연간 5회입니다.",
+      "age_note": "서천군 거주 또는 재직 청년(18~45)세입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "해당 지역 거주·생활권을 증명할 수 있는지 공식 안내 확인",
+        "충남청년포털 본인 로그인 후 물품별 예약 일정·재고와 센터 승인 확인"
+      ],
+      "schedule_note": "개별 대여일을 예약하는 서비스입니다. 공식 고정 모집 시작일·마감일은 공개하지 않습니다. 논산 등은 사전 예약이 필요하며 지역별 운영일을 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10018",
+          "title": "서천군 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-20-2026",
+      "title": "예산군 청년 생활용품 대여",
+      "authority": "예산군 · 예산청년온담",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "충남"
+      ],
+      "city": "예산군",
+      "benefit_summary": "예산청년온담에서 창문닦이·휴대용 가스 스토브 등을 최대 7일간 빌립니다. 1회 최대 3개, 1인 연간 5회입니다.",
+      "age_note": "신청일 기준 예산군 거주 또는 생활하는 18 ~ 45세 청년입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "포털의 지원대상은 생활권도 포함하나 센터 상세는 예산군 주민등록을 요구하므로 센터에 확인",
+        "충남청년포털 본인 로그인 후 물품별 예약 일정·재고와 센터 승인 확인"
+      ],
+      "schedule_note": "개별 대여일을 예약하는 서비스입니다. 공식 고정 모집 시작일·마감일은 공개하지 않습니다. 논산 등은 사전 예약이 필요하며 지역별 운영일을 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10020",
+          "title": "예산군 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-21-2026",
+      "title": "태안군 청년 생활용품 대여",
+      "authority": "태안군 · 태안청년창업비즈니스센터",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "충남"
+      ],
+      "city": "태안군",
+      "benefit_summary": "태안청년창업비즈니스센터에서 청소기·이사박스 등을 최대 7일간 빌립니다. 1회 최대 3개, 1인 연간 5회입니다.",
+      "age_note": "태안군에 주소를 둔 청년 (만18세 ~ 45세)입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "신청일 주민등록상 해당 지역 확인",
+        "충남청년포털 본인 로그인 후 물품별 예약 일정·재고와 센터 승인 확인"
+      ],
+      "schedule_note": "개별 대여일을 예약하는 서비스입니다. 공식 고정 모집 시작일·마감일은 공개하지 않습니다. 논산 등은 사전 예약이 필요하며 지역별 운영일을 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10021",
+          "title": "태안군 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-CN-NONSAN-SUIT-2026",
+      "title": "논산청년옷장 · 면접정장 대여와 비대면 면접상담",
+      "authority": "논산시청소년청년재단 청년센터",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "충남"
+      ],
+      "city": "논산시",
+      "benefit_summary": "정장·신발 등 면접복을 3박 4일간 연 3회까지 대여하고, 비대면 면접상담을 연 1회 1시간 지원합니다.",
+      "age_note": "논산에 거주하거나 논산 기업에 면접 예정인 18~45세 미취업 구직 청년입니다. 졸업예정자 등 세부사항을 확인합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "실제 면접 예정 및 면접 증빙",
+        "면접일 기준 주말 제외 최소 4일 전 온라인 신청",
+        "대여 날짜 및 정장 재고, 상담 일정 확인"
+      ],
+      "schedule_note": "사업은 2026년 2~12월 운영하며 개별 면접일에 맞춰 사전 신청합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://nsyouth.or.kr/youthdream/html/sub03/0303.html",
+          "title": "논산청년꿈키움광장 공식 대여 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "2026년 지원대상·운영기간·면접일 기준 사전신청"
+        },
+        {
+          "url": "https://nsyouth.or.kr/youthdream/html/sub03/0303.html?mode=W",
+          "title": "논산청년면접정장대여 전용 접수",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청정보, 첨부서류 입력과 등록하기 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-GJ-BUKGU-STARTUP-2026",
+      "title": "광주 북구 청년 창업 컨설팅",
+      "authority": "광주 북구청년센터",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "광주"
+      ],
+      "city": "북구",
+      "benefit_summary": "창업을 준비하거나 이미 창업한 청년이 청년어울림에서 맞춤 상담을 신청합니다. 센터는 매월 둘째·넷째 수요일 오후 운영을 안내합니다.",
+      "age_note": "북구 거주 또는 활동 청년 19~39세이며 (예비)창업자의 상담 일정은 담당자 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "북구 생활권과 예비 또는 기창업자 여부",
+        "월 6명 모집·상담 일정 확인"
+      ],
+      "schedule_note": "2월 1일부터 공식 상세의 12월 24일 0시까지이며 월별 상담 일정은 별도 확인합니다.",
+      "starts_on": "2026-02-01",
+      "ends_on": "2026-12-24",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://bukgu.gwangju.kr/youthProgram.es?act=view&el_seq=71&nPage=1",
+          "title": "북구 청년센터 창업컨설팅 접수",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청가능 표시·모집기간·신청하기와 지정 양식"
+        },
+        {
+          "url": "https://form.naver.com/response/Ga3Wwc0z513E9WZy4yoMMA",
+          "title": "센터 지정 2026년 창업컨설팅 양식",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "북구 거주·활동 19~39세·2026년 2~12월·접수 진행 중"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-GJ-BUKGU-JOB-NOV-2026",
+      "title": "광주 북구 청년 일자리스테이션 용봉 · 11월 프로그램",
+      "authority": "광주 북구 청년 일자리스테이션 용봉",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "광주"
+      ],
+      "city": "북구",
+      "benefit_summary": "진로·취업·이직·창업을 고민하는 청년이 11월 프로그램에 무료로 참여할 수 있습니다.",
+      "age_note": "15~39세 청년 대상이며 생활권에 따른 우선순위는 운영기관에서 확인합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "회차별 신청 가능 여부와 선정 회신",
+        "센터 방문, 프로그램별 준비 및 참여 조건 확인"
+      ],
+      "schedule_note": "10월 15일 접수를 시작해 선착순으로 모집하며 정확한 마감 날짜와 회차별 정원은 공개하지 않았습니다.",
+      "starts_on": "2026-10-15",
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://bukgu.gwangju.kr/youthProgram.es?act=view&el_seq=73&nPage=1",
+          "title": "북구청년센터 일자리스테이션 공식 접수",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "구청 신청가능 표시·북구 용봉센터 및 운영기관 접수처"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSdRW_ulwdYvur6lr8bE5G_D-vO3iL_swinlnpJR4rKoBnZ2jg/viewform",
+          "title": "용봉 운영기관 11월 프로그램 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "10월 15일부터 선착순, 대상 15~39세와 응답 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-JB-WANJU-JOB-FAIR-2026",
+      "title": "완주군 결혼이민자 취업 지원 · 일자리박람회 탐방",
+      "authority": "완주군가족센터",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "전북"
+      ],
+      "city": "완주군",
+      "benefit_summary": "취업을 희망하는 결혼이주여성이 11월 10일 우석대학교 체육관에서 열리는 완주군 일자리박람회를 함께 둘러봅니다.",
+      "age_note": "취업을 희망하는 결혼이주여성 대상입니다. 공고에 수치 나이 제한이 없습니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "결혼이민자 지원 대상 및 센터 이용 대상 여부",
+        "박람회 참여 일정과 잔여 자리"
+      ],
+      "schedule_note": "공식 접수기간은 10월 29일 0시부터 11월 10일 0시까지입니다. 박람회는 11월 10일 10~17시입니다.",
+      "starts_on": "2026-10-29",
+      "ends_on": "2026-11-10",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=285881",
+          "title": "가족센터 공식 접수 · 완주군 일자리박람회 탐방",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "접수중·참여 대상과 회차별 접수/행사 일시"
+        },
+        {
+          "url": "https://www.familydb.or.kr/Upload/UploadA/20261029/new_202610290133350720",
+          "title": "완주군 일자리박람회 포스터",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "11월 10일 10~17시, 우석대학교 체육관"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-JB-BUAN-YOUTH-SPACE-2026",
+      "title": "부안 청년UP센터 청년활동공간 무료 대관",
+      "authority": "부안군 청년UP센터",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "전북"
+      ],
+      "city": "부안군",
+      "benefit_summary": "청년 모임이나 촬영에 필요한 세미나실·촬영실·라운지 등을 무료로 빌릴 수 있습니다. 공간과 날짜를 선택해 이용을 신청합니다.",
+      "age_note": "청년 활동공간이며 대관 안내에 숫자 연령 제한이 나타나지 않습니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "센터 이용 대상, 신청서와 사용 목적 심사",
+        "희망일 7일 전까지 신청하고 관리자 승인, 시간대 재확인",
+        "상업·정치·종교 목적 등 이용제한"
+      ],
+      "schedule_note": "신청 페이지에서 시설별 날짜·시간을 선택합니다. 확정된 모집 마감일은 없습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.buan.go.kr/youthup/index.buan?menuCd=DOM_000001901005000000",
+          "title": "부안군 청년UP센터 대관 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공간별 신청 링크·무상 이용·최소 7일 전 신청"
+        },
+        {
+          "url": "https://www.buan.go.kr/youthup/index.buan?menuCd=DOM_000001901005002000&facltId=BUFA0000313&searchDate=2026-11-12",
+          "title": "부안군 촬영실 11월 12일 실제 시간 선택",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "예약가능 시간 13~14시 등 활성·대관 신청하기"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP95-JN-YEONGGWANG-3D-2026",
+      "title": "영광군 청년 디지털 제작 교육 · 3D 프린팅 키링",
+      "authority": "영광군청년센터",
+      "edition": "2026년 모집",
+      "category": "EDUCATION",
+      "provinces": [
+        "전남"
+      ],
+      "city": "영광군",
+      "benefit_summary": "11월 13일 저녁과 14일 오후, 총 두 번 3D 프린팅으로 키링을 만드는 청년 대상 제작 교육입니다.",
+      "age_note": "센터가 영광군 청년 18~45세와 1981~2007년생을 함께 명시합니다. 연령 경계는 센터 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "영광군 청년 요건 및 두 회차 모두 참석 가능한지 확인",
+        "센터는 참가비 안내와 교육비 무료 표기를 함께 게시해 실제 비용과 선정 여부는 확인 필요"
+      ],
+      "schedule_note": "10월 26일 10시부터 11월 11일 10시까지 회원 신청을 받습니다. 인원 초과 시 센터가 참여 이력 등을 고려해 선정합니다.",
+      "starts_on": "2026-10-26",
+      "ends_on": "2026-11-11",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://ygyoungman.or.kr/program/554",
+          "title": "영광군청년센터 공식 디지털 제작 교육 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "해당 회차 신청기간·대상·두 차시 참석 조건·신청하기"
+        },
+        {
+          "url": "https://ygyoungman.or.kr/program",
+          "title": "영광군청년센터 접수 목록",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "3D 프린팅 교육 554번의 접수 중 표시와 전용 신청 경로"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G95-USNAM-HEAL",
+      "title": "울산 남구 구직청년 힐링데이 4회차",
+      "authority": "울산 남구 청년일자리카페",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "울산"
+      ],
+      "city": "남구",
+      "benefit_summary": "11월 19일 스트레스와 감정을 돌아보고 강점을 정리하는 구직청년 프로그램입니다.",
+      "age_note": "구직청년 19~39세 대상입니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "구직 여부 및 남구 청년일자리카페 참여 조건",
+        "11월 19일 13~18시 참여와 선착순 여석"
+      ],
+      "schedule_note": "구청이 지정한 선착순 신청서가 열려 있습니다. 접수 마감일과 남은 인원은 별도 확인입니다. ",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.ulsannamgu.go.kr/namgujob/board/namgu/view.do?nttId=5330&pageIndex=1",
+          "title": "울산 남구 일자리포털 · 울산 남구 구직청년 힐링데이 4회차",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "참여대상·운영일시·공식 지정 신청 링크"
+        },
+        {
+          "url": "https://forms.gle/TvZDqzGYv63iYV8T8",
+          "title": "남구 청년일자리카페 지정 11월 프로그램 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 표제와 참여 안내 및 다음 단계 활성"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G95-USNAM-MENTOR",
+      "title": "울산 남구 청년멘토단 취업선배 토크콘서트 · 11월",
+      "authority": "울산 남구 청년일자리카페",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "울산"
+      ],
+      "city": "남구",
+      "benefit_summary": "11월 14일 공공기관 현직자에게 행정·차량기계 직무와 취업 준비에 대해 듣습니다.",
+      "age_note": "울산 청년 19~39세",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "울산 청년·현장 참여 및 희망 직무 선택",
+        "11월 14일 강좌의 여석과 확정 여부"
+      ],
+      "schedule_note": "구청이 지정한 선착순 신청서가 열려 있습니다. 접수 마감일과 남은 인원은 별도 확인입니다. ",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.ulsannamgu.go.kr/namgujob/board/namgu/view.do?nttId=5305&pageIndex=1",
+          "title": "울산 남구 일자리포털 · 울산 남구 청년멘토단 취업선배 토크콘서트 · 11월",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "참여대상·운영일시·공식 지정 신청 링크"
+        },
+        {
+          "url": "https://forms.gle/MgjNsHn3yTD1wsDb7",
+          "title": "남구 청년일자리카페 지정 11월 프로그램 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 표제와 참여 안내 및 다음 단계 활성"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G95-USNAM-FINANCE",
+      "title": "울산 남구 구직청년 금융경제아카데미 3회차",
+      "authority": "울산 남구 청년일자리카페",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "울산"
+      ],
+      "city": "남구",
+      "benefit_summary": "신용관리와 채무 관련 제도를 배우고 금융상담을 받을 수 있는 11월 10일 구직청년 교육입니다.",
+      "age_note": "울산 구직청년 19~39세 대상입니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "울산 거주·활동 및 구직청년 여부",
+        "특강 참여 및 당일 청년성장프로젝트 신청서 제출",
+        "20명 정원과 최종 일정 확인"
+      ],
+      "schedule_note": "구청이 지정한 선착순 신청서가 열려 있습니다. 접수 마감일과 남은 인원은 별도 확인입니다. 구청 공고의 요일 표기와 날짜가 달라 신청서에서 일자를 대조했습니다. 참석 전 운영기관에서 시간을 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.ulsannamgu.go.kr/namgujob/board/namgu/view.do?nttId=5307&pageIndex=1",
+          "title": "울산 남구 일자리포털 · 울산 남구 구직청년 금융경제아카데미 3회차",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "참여대상·운영일시·공식 지정 신청 링크"
+        },
+        {
+          "url": "https://forms.gle/urdMrzpifVQtCzcG6",
+          "title": "남구 청년일자리카페 지정 11월 프로그램 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 표제와 참여 안내 및 다음 단계 활성"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G95-MG-285291",
+      "title": "문경시 1인가구 식생활 자립 교실 · 집밥뚝딱",
+      "authority": "문경시가족센터",
+      "edition": "2026",
+      "category": "LIVING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "문경시",
+      "benefit_summary": "문경시의 1인가구 또는 독립을 준비하는 예비 1인가구가 무료로 요리를 배우는 4회 과정입니다. 11월 10일부터 화요일 저녁에 집밥을 실습합니다.",
+      "age_note": "공고 대상은 문경시 1인가구 및 예비 1인가구입니다. 청년 전용 연령 제한은 명시되지 않았습니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "문경시 1인가구 또는 예비 1인가구, 현 1인가구 우선",
+        "선택한 반 4회 모두 참석 및 선발 여부"
+      ],
+      "schedule_note": "접수 화면의 종료 시각은 11월 8일 0시입니다.",
+      "starts_on": "2026-10-26",
+      "ends_on": "2026-11-08",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=285291",
+          "title": "문경시가족센터 · 집밥뚝딱 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 참여대상·접수기간·수업 일정·교육 안내 포스터"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G95-MG-285302",
+      "title": "문경시 1인가구 식생활 자립 교실 · 별미뚝딱",
+      "authority": "문경시가족센터",
+      "edition": "2026",
+      "category": "LIVING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "문경시",
+      "benefit_summary": "문경시의 1인가구 또는 독립을 준비하는 예비 1인가구가 무료로 요리를 배우는 4회 과정입니다. 11월 12일부터 목요일 저녁에 다양한 한 끼 메뉴를 실습합니다.",
+      "age_note": "공고 대상은 문경시 1인가구 및 예비 1인가구입니다. 청년 전용 연령 제한은 명시되지 않았습니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "문경시 1인가구 또는 예비 1인가구, 현 1인가구 우선",
+        "선택한 반 4회 모두 참석 및 선발 여부"
+      ],
+      "schedule_note": "공식 접수 화면은 11월 4일 18시, 포스터는 11월 11일로 달라 더 이른 접수 화면 기준으로 표시합니다.",
+      "starts_on": "2026-10-26",
+      "ends_on": "2026-11-04",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=285302",
+          "title": "문경시가족센터 · 별미뚝딱 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공식 참여대상·접수기간·수업 일정·교육 안내 포스터"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G95-USJUNG-FUTURE",
+      "title": "울산 중구 청년 특강 · 인인프로젝트 여섯 번째 이야기",
+      "authority": "울산중구종합사회복지관",
+      "edition": "2026",
+      "category": "LIVING",
+      "provinces": [
+        "울산"
+      ],
+      "city": "중구",
+      "benefit_summary": "11월 20일 복지관에서 지역 북카페 대표와 청년의 진로 고민과 삶의 경험을 나누는 강연입니다.",
+      "age_note": "울산 거주 19~39세 청년 대상입니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "울산 거주 여부 및 중구 복지관 현장 참여 가능 여부",
+        "11월 20일 14~16시 일정과 참여 확정 연락"
+      ],
+      "schedule_note": "11월 18일까지 모집으로 표시되며 복지관의 해당 회차 신청서가 열려 있습니다.",
+      "starts_on": "2026-10-27",
+      "ends_on": "2026-11-18",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.ulsan.go.kr/s/ulsanyouth/bbs/view.do?mId=008001002000000000&bbsId=BBS_0000000000000309&dataId=60983",
+          "title": "울산청년정책플랫폼 · 중구종합사회복지관 인인프로젝트",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "접수중·운영 주체·참여대상·접수기간·연결 신청서"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSf1XWTxTqgQ2xwmvQvhbyvJULTsOT7RVHPr3S6g2oos3guu8g/viewform",
+          "title": "복지관 지정 여섯 번째 청년특강 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "11월 20일 대상 회차와 참여 신청 제출 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G95-HAE-NEWLYWEDS",
+      "title": "해운대구 신혼부부 교육 · 어쩌다 로맨스",
+      "authority": "해운대구건강가정지원센터",
+      "edition": "2026",
+      "category": "LIVING",
+      "provinces": [
+        "부산"
+      ],
+      "city": "해운대구",
+      "benefit_summary": "결혼 5년 이내 부부가 함께 듣는 무료 교육입니다. 11월 3일 비대면 수업에서 부부 대화와 감정조절을 다루고 11월 7일 센터 체험으로 이어집니다.",
+      "age_note": "연령 대신 결혼 5년 이내 신혼부부 요건을 확인합니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "부부 공동 참여·혼인 기간 및 선정 기준",
+        "11월 3일 비대면 교육·11월 7일 대면 일정과 여석"
+      ],
+      "schedule_note": "접수 포털은 11월 3일 0시에 닫힙니다. 10월에 시작했던 예비부부반과 구분해 11월 신혼부부반 신청서만 안내합니다.",
+      "starts_on": "2026-09-23",
+      "ends_on": "2026-11-03",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=281134",
+          "title": "해운대구건강가정지원센터 · 부부교육 개별 접수",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "해당 회차 접수중·신혼부부반 일정·포스터의 신혼부부 전용 QR"
+        },
+        {
+          "url": "https://form.naver.com/response/t9rMipgFBnwADwtpF5VzJA",
+          "title": "센터 지정 신혼부부반 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "포스터 오른쪽 QR로 연결된 신혼부부 전용 양식, 접수 진행 상태"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "JJ-SEOGWIPO-YOUTH-EXAM-2026-R2",
+      "title": "서귀포시 취업준비 청년 자격증·어학시험 응시료",
+      "authority": "서귀포시 기획예산과",
+      "edition": "2026년",
+      "category": "EDUCATION",
+      "provinces": [
+        "제주"
+      ],
+      "city": "서귀포시",
+      "benefit_summary": "올해 실제 응시한 시험 비용을 연간 10만 원 한도에서 지원합니다. 상반기에 받은 금액도 한도에 포함됩니다.",
+      "age_note": "신청일 기준 만 19~39세이며 서귀포시에 주민등록된 미취업 청년이 대상입니다.",
+      "income_note": "생활비 입력값으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "신청일 주민등록·미취업 및 사업자등록 사실 여부",
+        "응시 당시 제주도 주민등록과 미취업, 응시확인서·실제 결제 증빙",
+        "기지원액과 남은 예산, 신청 횟수는 시청 확인"
+      ],
+      "schedule_note": "8월 6일부터 예산 소진 시까지 접수합니다. 12월 31일은 공고의 시험 응시일 기준이며 신청 마감일이 아닙니다.",
+      "starts_on": "2026-08-06",
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.seogwipo.go.kr/group/selfgoverning/planning/application/intro.htm",
+          "title": "서귀포시 기획예산과 · 서귀포시 취업준비 청년 자격증·어학시험 응시료",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "기획예산과의 자격증 응시료 접수 안내·자가점검 항목·해당 사업 신청 버튼 확인. 로그인이나 신청서 제출은 하지 않았습니다."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "JJ-SEOGWIPO-ONE-MEAL-2026-11",
+      "title": "서귀포시 1인가구 식생활 교육 · 혼밥의 정석",
+      "authority": "서귀포시 가족센터",
+      "edition": "2026년",
+      "category": "LIVING",
+      "provinces": [
+        "제주"
+      ],
+      "city": "서귀포시",
+      "benefit_summary": "혼자 사는 주민을 위한 식생활 교육과 배추김치 만들기입니다. 11월 9일에 진행합니다.",
+      "age_note": "청년 전용이 아닌 서귀포시 거주 1인가구 대상입니다. 숫자 연령 제한은 확인되지 않았습니다.",
+      "income_note": "생활비 입력값으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "신청자 본인의 서귀포시 거주 및 1인가구 해당 여부",
+        "회차 참석 가능 여부와 잔여 정원"
+      ],
+      "schedule_note": "온라인 신청 2026-10-29 10:00 ~ 2026-11-05 18:00.",
+      "starts_on": "2026-10-29",
+      "ends_on": "2026-11-05",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=285778",
+          "title": "서귀포시 가족센터 · 서귀포시 1인가구 식생활 교육 · 혼밥의 정석",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "해당 회차 상세의 접수중 표시·개별 신청 경로, 지역센터 및 신청기간을 확인했습니다."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    }
+  ],
+  "intake_verification": {
+    "GAP95-YP-MONEY-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL_APPLICATION",
+      "verified_on": "2026-11-01",
+      "url": "https://form.naver.com/response/JS3I9Fykk0n",
+      "evidence_excerpt": "공식 공고의 지정 온라인 양식이 진행 중이며 회차별 신청을 받습니다.",
+      "budget_uncertainty": "11월 1일 공개 접수 정보입니다. 개별 이용 승인과 여석·예산은 기관에 확인하세요."
+    },
+    "GAP95-DJ-CAREER-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL_APPLICATION",
+      "verified_on": "2026-11-01",
+      "url": "https://youthjob.dongjak.go.kr/noryangjin/careerPath/zy258kb55cns/info.do?mId=1496",
+      "evidence_excerpt": "동작구 상담 신청용 달력과 시간 선택 단계에서 11월 4일 10시 등 미예약 시간 4개를 확인했습니다.",
+      "budget_uncertainty": "11월 1일 공개 접수 정보입니다. 개별 이용 승인과 여석·예산은 기관에 확인하세요."
+    },
+    "GAP95-GH-INTERVIEW-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL_APPLICATION",
+      "verified_on": "2026-11-01",
+      "url": "https://www.ganghwajob.kr/_NBoard/board.php?bo_table=board3",
+      "evidence_excerpt": "사업 전용 공식 접수대장에 11월 1일 새 신청이 접수되어 답변 대기 상태임을 확인했습니다.",
+      "budget_uncertainty": "11월 1일 공개 접수 정보입니다. 개별 이용 승인과 여석·예산은 기관에 확인하세요."
+    },
+    "GAP95-YJ-TAX-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL_APPLICATION",
+      "verified_on": "2026-11-01",
+      "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=284900",
+      "evidence_excerpt": "여주시가족센터의 연계된 두 수업 모두 공식 개별 접수중 표시가 있고, 운영기관 포스터가 두 수업 모두 신청하도록 안내합니다.",
+      "budget_uncertainty": "11월 1일 공개 접수 정보입니다. 개별 이용 승인과 여석·예산은 기관에 확인하세요."
+    },
+    "GAP95-JN-EMPLOY-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL_APPLICATION",
+      "verified_on": "2026-11-01",
+      "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=251260",
+      "evidence_excerpt": "두 사업별 접수중 표시와 11월 및 12월 구직 등록·취업처 연계 회차가 각각 확인됩니다.",
+      "budget_uncertainty": "11월 1일 공개 접수 정보입니다. 개별 이용 승인과 여석·예산은 기관에 확인하세요."
+    },
+    "GAP95-CN-ITEMS-11-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10011",
+      "evidence_excerpt": "지역 센터 전용 물품 신청 버튼과 로그인 후 신청 단계. 개인별 재고와 승인 여부는 추가 확인.",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-CN-ITEMS-12-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10012",
+      "evidence_excerpt": "지역 센터 전용 물품 신청 버튼과 로그인 후 신청 단계. 개인별 재고와 승인 여부는 추가 확인.",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-CN-ITEMS-13-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10013",
+      "evidence_excerpt": "지역 센터 전용 물품 신청 버튼과 로그인 후 신청 단계. 개인별 재고와 승인 여부는 추가 확인.",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-CN-ITEMS-15-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10015",
+      "evidence_excerpt": "지역 센터 전용 물품 신청 버튼과 로그인 후 신청 단계. 개인별 재고와 승인 여부는 추가 확인.",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-CN-ITEMS-16-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10016",
+      "evidence_excerpt": "지역 센터 전용 물품 신청 버튼과 로그인 후 신청 단계. 개인별 재고와 승인 여부는 추가 확인.",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-CN-ITEMS-18-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10018",
+      "evidence_excerpt": "지역 센터 전용 물품 신청 버튼과 로그인 후 신청 단계. 개인별 재고와 승인 여부는 추가 확인.",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-CN-ITEMS-20-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10020",
+      "evidence_excerpt": "지역 센터 전용 물품 신청 버튼과 로그인 후 신청 단계. 개인별 재고와 승인 여부는 추가 확인.",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-CN-ITEMS-21-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10021",
+      "evidence_excerpt": "지역 센터 전용 물품 신청 버튼과 로그인 후 신청 단계. 개인별 재고와 승인 여부는 추가 확인.",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-CN-NONSAN-SUIT-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://nsyouth.or.kr/youthdream/html/sub03/0303.html?mode=W",
+      "evidence_excerpt": "면접정장대여 신청정보서와 등록하기 버튼",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-GJ-BUKGU-STARTUP-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://form.naver.com/response/Ga3Wwc0z513E9WZy4yoMMA",
+      "evidence_excerpt": "구청 신청가능, 지정 2026년 창업컨설팅 응답 양식 IN_PROGRESS",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-GJ-BUKGU-JOB-NOV-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdRW_ulwdYvur6lr8bE5G_D-vO3iL_swinlnpJR4rKoBnZ2jg/viewform",
+      "evidence_excerpt": "운영기관 지정 11월 신청서에 선착순 모집 및 다음 버튼 표시",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-JB-WANJU-JOB-FAIR-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=285881",
+      "evidence_excerpt": "완주군가족센터 참여신청 상세 접수중",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-JB-BUAN-YOUTH-SPACE-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.buan.go.kr/youthup/index.buan?menuCd=DOM_000001901005002000&facltId=BUFA0000313&searchDate=2026-11-12",
+      "evidence_excerpt": "촬영실 11월 12일 13~14시 등 예약가능 시간 및 신청 단계 확인",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP95-JN-YEONGGWANG-3D-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://ygyoungman.or.kr/program/554",
+      "evidence_excerpt": "해당 회차 접수 중 표시와 신청하기 버튼, 회원 로그인 후 신청",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "G95-USNAM-HEAL": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://forms.gle/TvZDqzGYv63iYV8T8",
+      "evidence_excerpt": "구청 지정 신청서에서 해당 11월 회차명과 다음 단계 확인",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G95-USNAM-MENTOR": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://forms.gle/MgjNsHn3yTD1wsDb7",
+      "evidence_excerpt": "구청 지정 신청서에서 해당 11월 회차명과 다음 단계 확인",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G95-USNAM-FINANCE": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://forms.gle/urdMrzpifVQtCzcG6",
+      "evidence_excerpt": "구청 지정 신청서에서 해당 11월 회차명과 다음 단계 확인",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G95-MG-285291": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=285291",
+      "evidence_excerpt": "개별 회차 접수중 상태와 기관 지정 신청 버튼 확인",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G95-MG-285302": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=285302",
+      "evidence_excerpt": "개별 회차 접수중 상태와 기관 지정 신청 버튼 확인",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G95-USJUNG-FUTURE": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf1XWTxTqgQ2xwmvQvhbyvJULTsOT7RVHPr3S6g2oos3guu8g/viewform",
+      "evidence_excerpt": "울산 공식 접수중과 기관 신청폼 제출 단계 확인",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G95-HAE-NEWLYWEDS": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://form.naver.com/response/t9rMipgFBnwADwtpF5VzJA",
+      "evidence_excerpt": "공식 개별 회차 접수중과 지정 신혼부부반 신청폼 IN_PROGRESS",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "JJ-SEOGWIPO-YOUTH-EXAM-2026-R2": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL_APPLICATION_CONTROL",
+      "url": "https://www.seogwipo.go.kr/group/selfgoverning/planning/application/intro.htm",
+      "verified_on": "2026-11-01",
+      "evidence_excerpt": "기획예산과의 자격증 응시료 접수 안내·자가점검 항목·해당 사업 신청 버튼 확인. 로그인이나 신청서 제출은 하지 않았습니다.",
+      "budget_uncertainty": "접수 창구 확인. 신청 직전의 잔여 예산·정원 및 최종 승인은 해당 기관에서 확인합니다."
+    },
+    "JJ-SEOGWIPO-ONE-MEAL-2026-11": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL_APPLICATION_CONTROL",
+      "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=285778",
+      "verified_on": "2026-11-01",
+      "evidence_excerpt": "해당 회차 상세의 접수중 표시·개별 신청 경로, 지역센터 및 신청기간을 확인했습니다.",
+      "budget_uncertainty": "접수 창구 확인. 신청 직전의 잔여 예산·정원 및 최종 승인은 해당 기관에서 확인합니다."
+    }
+  },
+  "rules": [
+    {
+      "program_id": "GAP95-GH-INTERVIEW-2026",
+      "sources": [
+        {
+          "url": "https://www.ganghwajob.kr/_NBoard/board.php?bo_table=notice&wr_id=198",
+          "title": "강화군 청년 면접토탈 시행 공고",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "주민등록·나이·구직요건과 면접수당, 방문 접수"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "공고상 18~39세입니다. 신청일 본인 또는 부모의 강화군 주민등록 요건을 확인하세요."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업 여부는 실제 면접일의 미취업 상태를 증명하지 않습니다.",
+      "rent_required": false,
+      "rent_note": "월세 여부로 해당 여부를 확정하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-11-2026",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10011",
+          "title": "서산시 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "신청일 기준 서산시 거주 또는 생활하는 18 ~ 39세 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-12-2026",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10012",
+          "title": "계룡시 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "신청일 기준 계룡시에 거주하는 18 ~ 39세 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-13-2026",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10013",
+          "title": "부여군 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "신청일 기준 부여군 거주 또는 생활하는 18 ~ 39세 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-15-2026",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10015",
+          "title": "보령시 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 45,
+        "older_exception": false,
+        "note": "신청일 기준 보령시 거주 또는 생활하는 18 ~ 45세 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-16-2026",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10016",
+          "title": "논산시 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 45,
+        "older_exception": false,
+        "note": "논산시 거주 또는 활동 중인 18 ~ 45세 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-18-2026",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10018",
+          "title": "서천군 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 45,
+        "older_exception": false,
+        "note": "서천군 거주 또는 재직 청년(18~45)세입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-20-2026",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10020",
+          "title": "예산군 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 45,
+        "older_exception": false,
+        "note": "신청일 기준 예산군 거주 또는 생활하는 18 ~ 45세 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-CN-ITEMS-21-2026",
+      "sources": [
+        {
+          "url": "https://youth.chungnam.go.kr/web/main/share/goods/list?districtCode=dep10021",
+          "title": "태안군 청년 공유물품 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지정 지역 센터, 물품 목록, 지원대상과 센터 코드별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 45,
+        "older_exception": false,
+        "note": "태안군에 주소를 둔 청년 (만18세 ~ 45세)입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-CN-NONSAN-SUIT-2026",
+      "sources": [
+        {
+          "url": "https://nsyouth.or.kr/youthdream/html/sub03/0303.html",
+          "title": "논산청년꿈키움광장 공식 대여 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "2026년 지원대상·운영기간·면접일 기준 사전신청"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 45,
+        "older_exception": false,
+        "note": "논산에 거주하거나 논산 기업에 면접 예정인 18~45세 미취업 구직 청년입니다. 졸업예정자 등 세부사항을 확인합니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "공고상 미취업 구직자 대상이며 구직 등록·자격 확인 서류를 센터가 검토합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-GJ-BUKGU-STARTUP-2026",
+      "sources": [
+        {
+          "url": "https://bukgu.gwangju.kr/youthProgram.es?act=view&el_seq=71&nPage=1",
+          "title": "북구 청년센터 창업컨설팅 접수",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청가능 표시·모집기간·신청하기와 지정 양식"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "북구 거주 또는 활동 청년 19~39세이며 (예비)창업자의 상담 일정은 담당자 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-GJ-BUKGU-JOB-NOV-2026",
+      "sources": [
+        {
+          "url": "https://bukgu.gwangju.kr/youthProgram.es?act=view&el_seq=73&nPage=1",
+          "title": "북구청년센터 일자리스테이션 공식 접수",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "구청 신청가능 표시·북구 용봉센터 및 운영기관 접수처"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 15,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "15~39세 청년 대상이며 생활권에 따른 우선순위는 운영기관에서 확인합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-JB-WANJU-JOB-FAIR-2026",
+      "sources": [
+        {
+          "url": "https://www.familynet.or.kr/web/lay1/program/S1T304C450/recruitReceipt/view.do?seq=285881",
+          "title": "가족센터 공식 접수 · 완주군 일자리박람회 탐방",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "접수중·참여 대상과 회차별 접수/행사 일시"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "취업을 희망하는 결혼이주여성 대상입니다. 공고에 수치 나이 제한이 없습니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-JB-BUAN-YOUTH-SPACE-2026",
+      "sources": [
+        {
+          "url": "https://www.buan.go.kr/youthup/index.buan?menuCd=DOM_000001901005000000",
+          "title": "부안군 청년UP센터 대관 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "공간별 신청 링크·무상 이용·최소 7일 전 신청"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "청년 활동공간이며 대관 안내에 숫자 연령 제한이 나타나지 않습니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP95-JN-YEONGGWANG-3D-2026",
+      "sources": [
+        {
+          "url": "https://ygyoungman.or.kr/program/554",
+          "title": "영광군청년센터 공식 디지털 제작 교육 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "해당 회차 신청기간·대상·두 차시 참석 조건·신청하기"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1981-01-01",
+        "birth_end": "2007-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "센터가 영광군 청년 18~45세와 1981~2007년생을 함께 명시합니다. 연령 경계는 센터 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "G95-USNAM-HEAL",
+      "sources": [
+        {
+          "url": "https://www.ulsannamgu.go.kr/namgujob/board/namgu/view.do?nttId=5330&pageIndex=1",
+          "title": "울산 남구 일자리포털 · 울산 남구 구직청년 힐링데이 4회차",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "참여대상·운영일시·공식 지정 신청 링크"
+        },
+        {
+          "url": "https://forms.gle/TvZDqzGYv63iYV8T8",
+          "title": "남구 청년일자리카페 지정 11월 프로그램 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 표제와 참여 안내 및 다음 단계 활성"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "구직청년 19~39세 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업 상태만으로 세부 요건을 확정할 수 없습니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "G95-USNAM-MENTOR",
+      "sources": [
+        {
+          "url": "https://www.ulsannamgu.go.kr/namgujob/board/namgu/view.do?nttId=5305&pageIndex=1",
+          "title": "울산 남구 일자리포털 · 울산 남구 청년멘토단 취업선배 토크콘서트 · 11월",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "참여대상·운영일시·공식 지정 신청 링크"
+        },
+        {
+          "url": "https://forms.gle/MgjNsHn3yTD1wsDb7",
+          "title": "남구 청년일자리카페 지정 11월 프로그램 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 표제와 참여 안내 및 다음 단계 활성"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "울산 청년 19~39세"
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업 상태만으로 세부 요건을 확정할 수 없습니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "G95-USNAM-FINANCE",
+      "sources": [
+        {
+          "url": "https://www.ulsannamgu.go.kr/namgujob/board/namgu/view.do?nttId=5307&pageIndex=1",
+          "title": "울산 남구 일자리포털 · 울산 남구 구직청년 금융경제아카데미 3회차",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "참여대상·운영일시·공식 지정 신청 링크"
+        },
+        {
+          "url": "https://forms.gle/urdMrzpifVQtCzcG6",
+          "title": "남구 청년일자리카페 지정 11월 프로그램 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "프로그램별 표제와 참여 안내 및 다음 단계 활성"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "울산 구직청년 19~39세 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업 상태만으로 세부 요건을 확정할 수 없습니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "G95-USJUNG-FUTURE",
+      "sources": [
+        {
+          "url": "https://www.ulsan.go.kr/s/ulsanyouth/bbs/view.do?mId=008001002000000000&bbsId=BBS_0000000000000309&dataId=60983",
+          "title": "울산청년정책플랫폼 · 중구종합사회복지관 인인프로젝트",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "접수중·운영 주체·참여대상·접수기간·연결 신청서"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSf1XWTxTqgQ2xwmvQvhbyvJULTsOT7RVHPr3S6g2oos3guu8g/viewform",
+          "title": "복지관 지정 여섯 번째 청년특강 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "11월 20일 대상 회차와 참여 신청 제출 단계"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "울산 거주 19~39세 청년 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업 상태만으로 세부 요건을 확정할 수 없습니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "JJ-SEOGWIPO-YOUTH-EXAM-2026-R2",
+      "sources": [
+        {
+          "url": "https://www.seogwipo.go.kr/group/selfgoverning/planning/application/intro.htm",
+          "title": "서귀포시 기획예산과 · 서귀포시 취업준비 청년 자격증·어학시험 응시료",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "기획예산과의 자격증 응시료 접수 안내·자가점검 항목·해당 사업 신청 버튼 확인. 로그인이나 신청서 제출은 하지 않았습니다."
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "신청일 기준 만 19~39세이며 서귀포시에 주민등록된 미취업 청년이 대상입니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "신청일 현재 아르바이트 등 근로 중이면 지원할 수 없습니다. 사업자등록 및 응시일 미취업 여부는 별도 증빙으로 확인합니다. 자영업·프리랜서 입력만으로 사업자등록 사실은 확정하지 않습니다.",
+      "rent_required": false,
+      "rent_note": "월세 계약을 이 사업의 자격으로 사용하지 않습니다."
+    }
+  ],
+  "alternative_region_ids": [
+    "GAP95-DJ-CAREER-2026",
+    "GAP95-GH-INTERVIEW-2026",
+    "GAP95-JN-EMPLOY-2026",
+    "GAP95-CN-ITEMS-11-2026",
+    "GAP95-CN-ITEMS-13-2026",
+    "GAP95-CN-ITEMS-15-2026",
+    "GAP95-CN-ITEMS-16-2026",
+    "GAP95-CN-ITEMS-18-2026",
+    "GAP95-CN-ITEMS-20-2026",
+    "GAP95-CN-NONSAN-SUIT-2026",
+    "GAP95-GJ-BUKGU-STARTUP-2026",
+    "GAP95-GJ-BUKGU-JOB-NOV-2026",
+    "GAP95-JB-WANJU-JOB-FAIR-2026",
+    "GAP95-JB-BUAN-YOUTH-SPACE-2026",
+    "G95-USNAM-HEAL",
+    "G95-USNAM-MENTOR",
+    "G95-USNAM-FINANCE",
+    "G95-USJUNG-FUTURE",
+    "G95-HAE-NEWLYWEDS"
+  ]
+}

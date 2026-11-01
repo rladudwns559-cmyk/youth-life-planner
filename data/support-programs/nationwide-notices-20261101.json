@@ -1,0 +1,1250 @@
+{
+  "programs": [
+    {
+      "program_id": "METRO-YONGIN-YOUTH-DEPOSIT-2026",
+      "title": "용인형 청년예금",
+      "authority": "용인시 청년정책과",
+      "edition": "2026년 안내",
+      "category": "ASSET",
+      "provinces": [
+        "경기"
+      ],
+      "city": "용인시",
+      "benefit_summary": "정책적금 만기 자금을 12개월간 예치할 때 협약기관 기본금리에 특별우대 1%p를 더하는 사업입니다. 예치 한도는 1천만원입니다.",
+      "age_note": "용인 거주 18~39세 정책적금 만기자입니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "장병내일준비적금·청년도약계좌·청년내일저축계좌 중 해당 계좌의 만기 해지 이력",
+        "청년도약계좌 특별중도해지자는 청년미래적금 연계가입 요건",
+        "협약 농협·신협 지점 본인 방문 및 지점별 기본금리·잔여 한도"
+      ],
+      "schedule_note": "공식 포털 접수 중 표시. 2028년 2월 29일까지 안내하며 예산 소진 시 종료됩니다. 은행 영업일과 접수 가능 여부를 방문 전에 확인하세요.",
+      "starts_on": "2026-03-23",
+      "ends_on": "2028-02-29",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.yongin.go.kr/web/main/youthPolicy/view?bizId=A2026031700300200801959001",
+          "title": "용인형 청년예금 사업 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업개요, 가입 대상과 한도·기간, 특별중도해지자 안내, 신청기간"
+        },
+        {
+          "url": "https://youth.yongin.go.kr/web/main/main",
+          "title": "용인청년포털 현재 모집중",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "현재 모집중 목록에서 해당 공고에 접수 중 표시를 확인했습니다."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-YONGIN-BROKER-DISCOUNT-2026",
+      "title": "용인청년 부동산 중개보수 감면",
+      "authority": "용인시 청년정책과",
+      "edition": "2026년 안내",
+      "category": "HOUSING",
+      "provinces": [
+        "경기"
+      ],
+      "city": "용인시",
+      "benefit_summary": "협약 중개사무소에서 전·월세 보증금 1억원 미만 계약 시 중개보수 20% 이상 감면을 안내합니다. 적용 여부와 감면율은 중개사무소에 먼저 확인하세요.",
+      "age_note": "18~34세 청년입니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "해당 사무소의 청년우대 착한부동산 참여 여부",
+        "계약 보증금이 1억원 미만인지",
+        "중개사무소별 감면 여부·감면율 사전 문의"
+      ],
+      "schedule_note": "2026년 공고에서 접수 중으로 표시합니다. 참여 중개사무소 방문 전 적용 여부를 확인하세요.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.yongin.go.kr/web/main/youthPolicy/view?bizId=A2026021000000000000055001",
+          "title": "용인청년 부동산 중개보수 감면 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원 대상, 보증금과 감면율, 참여 사무소 목록 및 신청안내"
+        },
+        {
+          "url": "https://youth.yongin.go.kr/web/main/main",
+          "title": "용인청년포털 현재 모집중",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "현재 모집중 목록에서 해당 공고에 접수 중 표시를 확인했습니다."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-YONGIN-AI-JOB-2026",
+      "title": "용인시 AI 활용 청년 취업역량강화 지원",
+      "authority": "용인시 청년정책과",
+      "edition": "2026년 안내",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "용인시",
+      "benefit_summary": "자기소개서 첨삭, 모의면접, 역량평가와 NCS 전자책 등 온라인 취업 준비 서비스를 제공합니다.",
+      "age_note": "용인 거주 또는 지정 관내 대학 재학·휴학 중인 18~39세 청년 구직자입니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "용인 주민등록 또는 공고에 열거된 대학교의 재학·휴학 증명",
+        "신청일 기준 1개월 이내에 발급한 증빙",
+        "국적과 구직 의사, 모집 정원 및 계정 발급 여부"
+      ],
+      "schedule_note": "공식 포털에 접수 중으로 표시하며 11월 30일까지 안내합니다. 예산 소진 시 조기 마감되며 마감 시각은 포털에서 확인하세요.",
+      "starts_on": "2026-07-01",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.yongin.go.kr/web/main/youthPolicy/view?bizId=A2026030300300200801958001",
+          "title": "용인시 AI 활용 청년 취업역량강화 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원대상, 인정 대학 목록, 신청기간 및 제출서류"
+        },
+        {
+          "url": "https://youth.yongin.go.kr/web/main/main",
+          "title": "용인청년포털 현재 모집중",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "현재 모집중 목록에서 해당 공고에 접수 중 표시를 확인했습니다."
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-UIWANG-JEONSE-FEE-2026",
+      "title": "의왕시 전세보증금반환보증 보증료 지원",
+      "authority": "의왕시 건축과",
+      "edition": "2026년 안내",
+      "category": "HOUSING",
+      "provinces": [
+        "경기"
+      ],
+      "city": "의왕시",
+      "benefit_summary": "무주택 임차인이 이미 낸 전세보증금 반환보증 보증료의 전액 또는 일부를 최대 40만원까지 지원합니다.",
+      "age_note": "청년·청년 외·신혼부부의 신청 유형이 구분됩니다.",
+      "income_note": "공고의 소득 기준은 청년 5천만원, 청년 외 6천만원, 신혼부부 7천500만원 이하입니다. 본인의 소득 산정 범위를 확인하세요.",
+      "required_checks": [
+        "신청일 기준 유효한 HUG·HF·SGI 반환보증과 납부한 보증료",
+        "무주택 임차인 여부와 임차보증금 3억원 이하",
+        "주소지·신청 유형·공식 소득 증빙 및 예산 잔여"
+      ],
+      "schedule_note": "의왕시 청년포털은 2026년 접수 중으로 표시합니다. 시청은 예산 소진 시까지 정부24 또는 주소지 주민센터 접수를 안내합니다.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.uiwang.go.kr/UWKORINFO0101/6997194",
+          "title": "의왕시 전세보증금반환보증 보증료 지원 안내",
+          "basis_date": "2026-01-19",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원 대상, 보증금·소득 기준, 한도 및 접수 방법"
+        },
+        {
+          "url": "https://www.uiwang.go.kr/youth/policy-list?searchPolicySe=PS02",
+          "title": "의왕시 청년포털 주거사업 모집현황",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "해당 공고의 모집중 표시와 신청기간"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-SUWON-SUIT-2026",
+      "title": "수원 청나래 면접정장 대여",
+      "authority": "수원시 교육청년청소년과",
+      "edition": "2026년 안내",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "수원시",
+      "benefit_summary": "면접에 필요한 정장과 셔츠·블라우스, 넥타이를 한 번에 4일간, 1인당 연 3회까지 대여합니다. 구두와 액세서리는 유료입니다.",
+      "age_note": "취업 면접을 앞둔 19~39세 수원시 청년입니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "최근 1개월 이내 주민등록초본",
+        "면접 예정 증빙과 방문 수령 시 신분증",
+        "대여점 예약 승인·기존 이용 횟수와 예산 잔여"
+      ],
+      "schedule_note": "시청의 예약 대여 안내가 있습니다. 예산 소진으로 일찍 끝날 수 있으며 현재 대여점별 예약 가능 여부는 확인해야 합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.suwon.go.kr/sw-www/sw-share/sw-share02/sw-share02-01/sw-share02-01-12.jsp",
+          "title": "공유수원 청나래 이용안내",
+          "basis_date": "2026-02-03",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원대상, 대여 품목·기간, 예약과 구비서류"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-GIMPO-SUIT-2026",
+      "title": "김포청년 내일옷장",
+      "authority": "김포시 일자리정책과",
+      "edition": "2026년 안내",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "김포시",
+      "benefit_summary": "청년 구직자에게 면접정장을 3박 4일씩 최대 3회 빌려 줍니다. 온라인 신청 후 승인받고 대여점을 예약합니다.",
+      "age_note": "김포 거주 15~39세 청년 구직자입니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "김포 주소 증빙",
+        "회사명·면접일·담당자 연락처가 담긴 면접 증빙",
+        "이용 횟수·대여 승인 문자와 대여점 예약"
+      ],
+      "schedule_note": "시청 안내에 따라 2026년 1월부터 예산 소진 시까지 신청합니다. 업무시간 외 신청 건은 다음 업무일에 처리됩니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://m.gimpo.go.kr/gimpojob/contents.do?key=6303",
+          "title": "김포시 통합일자리정보 내일옷장",
+          "basis_date": "2026-05-26",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업개요, 신청시간, 신청서류 및 서비스 이용방법"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-SEONGNAM-ALLPASS-2026",
+      "title": "성남 미취업 청년 ALL-Pass",
+      "authority": "성남시 청년청소년과",
+      "edition": "2026년 안내",
+      "category": "EDUCATION",
+      "provinces": [
+        "경기"
+      ],
+      "city": "성남시",
+      "benefit_summary": "지정 어학·자격시험 응시료와 수강료 실비를 기본 1인 100만원 한도에서 지원합니다. 이전 지원 잔액과 저소득 청년의 추가 한도를 확인하세요.",
+      "age_note": "신청 시 성남에 1년 이상 주민등록한 19~39세 미취업 청년입니다. 대학생과 1년 미만 비정규직 예외가 있습니다.",
+      "income_note": "저소득 청년의 별도 한도는 수급·소득 증빙을 확인해야 합니다.",
+      "required_checks": [
+        "주민등록 기간·생년 범위와 고용형태",
+        "지원 대상 시험 또는 수강 완료 증빙과 결제 영수증",
+        "인정되는 응시·수강일은 시 공고와 보도자료 안내가 달라 개별 확인",
+        "이전 지원액·중복 수혜·별도 한도"
+      ],
+      "schedule_note": "시 모집공고의 접수기간은 1월 20일부터 12월 31일까지입니다. 접수 상태와 남은 예산은 성남 청년정보플랫폼에서 확인하세요.",
+      "starts_on": "2026-01-20",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://eminwon.seongnam.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?Key=B_Subject&context=NTIS&countYn=Y&epcCheck=Y&homepage_pbs_yn=Y&initValue=Y&jndinm=OfrNotAncmtEJB&method=selectOfrNotAncmt&methodnm=selectOfrNotAncmtRegst&not_ancmt_mgt_no=145130&not_ancmt_se_code=01%2C02%2C03%2C04%2C05%2C06%2C07&ofr_pageSize=10&subCheck=Y&title=%EA%B3%A0%EC%8B%9C%EA%B3%B5%EA%B3%A0",
+          "title": "성남시 공고 제2026-176호",
+          "basis_date": "2026-01-20",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "모집대상·자격요건·지원내용·신청기간"
+        },
+        {
+          "url": "https://snvision.seongnam.go.kr/22235",
+          "title": "비전성남 ALL-Pass 안내",
+          "basis_date": "2026-01-26",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "대학생·단기근로 예외, 저소득 한도, 증빙 및 이전 수혜 안내"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-GM-ENLISTMENT-2026",
+      "title": "광명시 입영지원금",
+      "authority": "광명시 안전총괄과",
+      "edition": "2026년 안내",
+      "category": "LIVING",
+      "provinces": [
+        "경기"
+      ],
+      "city": "광명시",
+      "benefit_summary": "병역 의무 이행 대상자에게 1인 10만원을 광명사랑화폐로 지급하는 사업입니다. 거주지 동 행정복지센터에 방문 신청합니다.",
+      "age_note": "입영 또는 소집 대상 여부가 기준입니다. 별도의 연령 범위는 안내에서 확인되지 않았습니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "입영·소집일 기준 광명에서 1년 이상 계속 주민등록",
+        "해당 병역 유형과 입영통지서",
+        "입영 전 신청 여부 또는 부득이한 사후 신청 사유"
+      ],
+      "schedule_note": "개인별 입영통지서 수령일부터 입영일까지 신청합니다. 불가피한 사유가 있으면 입영 후 3개월 이내 신청 가능 여부를 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.gm.go.kr/pt/partInfo/youth/youthPlpj/FinWelCul.jsp",
+          "title": "광명시 청년정책 금융·복지·문화",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "광명시 입영지원금 지급 항목의 기간·대상·지원 및 신청방법"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-ANYANG-INTERVIEW-STYLE-2026",
+      "title": "안양청년 면접스타일링",
+      "authority": "안양시 고용노동과",
+      "edition": "2026년 안내",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "안양시",
+      "benefit_summary": "입사 면접용 헤어와 메이크업을 지원합니다. 합산 연 5회까지이며 두 서비스를 함께 이용하면 2회로 계산합니다.",
+      "age_note": "안양 거주 만 19~39세 청년 구직자입니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "안양시 거주 증빙",
+        "취업 면접 자료·신분증",
+        "지정업체 사전 예약·해당 연도 이용 횟수"
+      ],
+      "schedule_note": "2026년 1월 2일 재개 안내에는 예산 소진 시까지로 적혀 있습니다. 예약 가능 여부를 시 통합예약과 지정업체에서 확인하세요.",
+      "starts_on": "2026-01-02",
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.anyang.go.kr/reserve/selectBbsNttList.do?bbsNo=331&integrDeptCode=&key=2803&pageIndex=3&pageUnit=10&searchCnd=all&searchCtgry=&searchKrwd=&viewCount=",
+          "title": "안양시 통합예약 면접스타일링",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원대상·유의사항 및 2026년 사업 재개 공지"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-HWASEONG-SUIT-H2-2026",
+      "title": "화성 꿈나래 면접정장 대여 · 하반기",
+      "authority": "화성시 청년청소년과",
+      "edition": "2026년 안내",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "화성시",
+      "benefit_summary": "면접을 준비하는 화성시 청년 구직자에게 면접정장 대여를 지원합니다.",
+      "age_note": "화성에 주민등록을 둔 19~39세 구직자입니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "주민등록과 구직·면접 증빙",
+        "하반기 공고 및 업체별 대여 조건",
+        "현재 예약 가능 여부와 잔여 예산"
+      ],
+      "schedule_note": "하반기 모집기간은 7월 1일부터 11월 30일까지로 안내합니다. 현재 남은 대여 물량과 신청 여부는 화성시 공고에서 확인하세요.",
+      "starts_on": "2026-07-01",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.hscity.go.kr/www/gosi/BD_selectGosiDetail.do?q_notAncmtMgtNo=146959",
+          "title": "화성시 공고 제2026-2163호",
+          "basis_date": "2026-06-24",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "하반기 정장 대여 공고와 첨부 공고문"
+        },
+        {
+          "url": "https://job.gg.go.kr/jobSprt/detail.do?currentPageNo=3&recordCountPerPage=20&seq=2877&srchCnd=&srchSprtAmtYn=&srchSprtSeCd=&srchType=END",
+          "title": "경기도 잡아바 꿈나래 모집 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_INDEXED_PAGE",
+          "locator": "공식 검색 색인에 나타난 대상 및 모집기간. 직접 열기는 통합인증 연결로 본문 미확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-SEOCHO-EXAM-Q4-2026",
+      "title": "서초청년 자격증 응시료 지원 · 4분기",
+      "authority": "서울특별시 서초구",
+      "edition": "2026년 안내",
+      "category": "EDUCATION",
+      "provinces": [
+        "서울"
+      ],
+      "city": "서초구",
+      "benefit_summary": "2026년에 실제 응시한 지정 시험의 비용을 연간 20만원 범위에서 지원합니다. 운전면허시험은 제외합니다.",
+      "age_note": "1986~2007년생 서초구 미취업 청년입니다. 의무복무 제대군인과 단기근로자 예외는 별도로 확인합니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "2026년 1월 1일 전부터의 서초구 주민등록",
+        "사업자등록 여부와 단기근로·군복무 예외 증명",
+        "응시 완료 증빙과 영수증, 유사 사업 중복·연 한도"
+      ],
+      "schedule_note": "4분기 접수는 11월 2일 오전 9시 시작 예정입니다. 11월 30일까지 선착순 접수하며 예산 소진 시 조기 종료됩니다.",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.seocho.go.kr/site/seocho/ex/online/OnlineListF.do?ocIdx=testfee",
+          "title": "서초구청 4분기 자격증 응시료 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "4분기 접수예정 표시, 접수 개시 시각, 대상과 연간 지원한도"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "METRO-GANGNAM-EXAM-2026",
+      "title": "강남구 미취업 청년 어학·자격시험 응시료",
+      "authority": "서울특별시 강남구",
+      "edition": "2026년 안내",
+      "category": "EDUCATION",
+      "provinces": [
+        "서울"
+      ],
+      "city": "강남구",
+      "benefit_summary": "올해 실제로 응시한 어학·자격시험의 응시료를 1인 최대 20만원 범위에서 지원합니다.",
+      "age_note": "강남구 거주 만 19~39세 미취업 청년입니다.",
+      "income_note": "공식 안내에서 별도 소득 상한을 확인하지 못했습니다. 대상 요건은 운영기관에서 확인하세요.",
+      "required_checks": [
+        "주소·연령·미취업 여부를 입증할 서류",
+        "공고가 인정하는 시험과 실제 응시일·납부 비용",
+        "중복 지원 및 잔여 예산"
+      ],
+      "schedule_note": "공고상 2월 1일부터 12월 10일까지 신청하며 예산 소진 시 조기 마감됩니다. 이메일 접수 전 구청의 최신 안내를 확인하세요.",
+      "starts_on": "2026-02-01",
+      "ends_on": "2026-12-10",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.gangnam.go.kr/board/B_000001/1076200/view.do?mid=ID05_04010",
+          "title": "강남구청 어학·자격시험 응시료 지원사업 안내",
+          "basis_date": "2026-01-08",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "신청기간, 지원대상·금액 및 접수 방법"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "IC-JEMULPO-MOVE-2026",
+      "provinces": [
+        "인천"
+      ],
+      "city": "제물포구",
+      "title": "제물포구 청년 웰컴페이 · 이사비",
+      "authority": "인천광역시 제물포구",
+      "category": "HOUSING",
+      "edition": "2026",
+      "benefit_summary": "자격 심사 후 이사비·중개수수료·입주청소비 실비를 생애 1회, 합계 40만원까지 지원합니다.",
+      "age_note": "1986년 1월 1일~2007년 12월 31일 출생. 신청일에 제물포구 주민등록을 둔 무주택 청년 세대주입니다.",
+      "income_note": "가구 건강보험료 부과액 기준 중위소득 150% 이하. 개인 월소득만으로 판정하지 않습니다.",
+      "required_checks": [
+        "2025.11.1 이후 전입 또는 관내 이사 후 전입신고",
+        "본인 명의 전·월세 계약 및 계약기간 1년 이상",
+        "가구 건강보험료·무주택·주거급여 수급 여부",
+        "가족 간 계약 제한 및 다른 이사비 수혜 이력",
+        "계약서·지출증빙·지방세 미과세 증명서"
+      ],
+      "intake_mode": "WINDOW",
+      "starts_on": "2026-07-06",
+      "ends_on": "2026-11-30",
+      "schedule_note": "7월 6일~11월 30일 신청 안내입니다. 하반기 약 45명 규모로, 신청화면 로그인 후 잔여예산을 확인하세요.",
+      "sources": [
+        {
+          "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=403",
+          "title": "인천청년포털 · 제물포구 청년 웰컴페이",
+          "locator": "지원대상·지원내용·제외대상·신청기간·제출서류",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        }
+      ],
+      "aliases": [
+        "이사비",
+        "청소비",
+        "중개보수"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GW-WONJU-AI-INTERVIEW-2026",
+      "provinces": [
+        "강원"
+      ],
+      "city": "원주시",
+      "title": "원주 AI 면접·역량검사 체험 지원",
+      "authority": "원주시 청년지원센터",
+      "category": "EMPLOYMENT",
+      "edition": "2026",
+      "benefit_summary": "AI 면접 연습, 자기소개서와 역량검사 피드백을 이용할 수 있는 온라인 이용권을 제공합니다.",
+      "age_note": "신청일에 원주에 1개월 이상 거주한 18~39세 구직 희망자",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "신청일 기준 거주기간과 나이",
+        "주소변동사항이 담긴 최근 1개월 이내 발급 주민등록초본",
+        "선착순 150명 중 잔여 인원 및 이용권 수령 방법"
+      ],
+      "intake_mode": "WINDOW",
+      "starts_on": "2026-03-03",
+      "ends_on": "2026-11-27",
+      "schedule_note": "시청 신청 목록에서 3월 3일~11월 27일 접수중 표시를 확인했습니다. 선착순 잔여 정원은 확인이 필요합니다.",
+      "sources": [
+        {
+          "url": "https://www.wonju.go.kr/wjyouth/viewTnWjyouthProgrmU.do?key=5942&progrmNo=56",
+          "title": "원주시 청년지원센터 · AI 면접 및 역량 검사",
+          "locator": "모집 대상·정원·지원내용·구비서류",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        },
+        {
+          "url": "https://www.wonju.go.kr/wjyouth/selectTnWjyouthProgrmListU.do?key=5942",
+          "title": "원주시 청년지원센터 프로그램 신청 목록",
+          "locator": "AI 면접 및 역량 검사 체험 지원 항목 접수중 및 2026.03.03~11.27",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        }
+      ],
+      "aliases": [
+        "취업",
+        "구직",
+        "AI면접"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GW-WONJU-COMMUTE-2026",
+      "provinces": [
+        "강원"
+      ],
+      "city": "원주시",
+      "title": "원주 전입청년 교통비 지원",
+      "authority": "원주시",
+      "category": "LIVING",
+      "edition": "2026",
+      "benefit_summary": "원주 밖 직장으로 출퇴근하는 전입청년의 대중교통비 또는 승용차 유류비를 1년간 월 최대 10만원 범위에서 지원하는 회차입니다.",
+      "age_note": "신청일 기준 18~39세이며 2023년 1월 1일 이후 원주시로 전입하여 현재 거주하고, 관외 직장에 출퇴근하는 청년",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "전입일과 주소변동사항",
+        "관외 직장 및 출퇴근 증빙",
+        "공무원·교사·공공기관 재직 제외 여부",
+        "2023~2025년 같은 사업 대상자 여부"
+      ],
+      "intake_mode": "CLOSED",
+      "starts_on": "2026-05-01",
+      "ends_on": "2026-06-19",
+      "schedule_note": "신규 접수는 6월 19일 종료됐습니다. 선정자의 교통비 지급기간은 2026년 7월~2027년 6월입니다.",
+      "sources": [
+        {
+          "url": "https://www.wonju.go.kr/wjyouth/viewTnWjyouthProgrmU.do?key=5942&progrmNo=60",
+          "title": "원주시 청년지원센터 · 전입청년 교통비 모집",
+          "locator": "접수마감 표시, 접수기간과 운영기간, 지원대상·제외대상·지원내용",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GW-CHUNCHEON-GRAD-EXAM-2026",
+      "provinces": [
+        "강원"
+      ],
+      "city": "춘천시",
+      "title": "춘천 대학입학·취업자격증 응시료 지원",
+      "authority": "춘천시",
+      "category": "EDUCATION",
+      "edition": "2026",
+      "benefit_summary": "대학 입학 또는 취업 자격증 응시 항목 중 하나를 선택해 1회 최대 5만원을 지원합니다.",
+      "age_note": "관내 고등학교·학력인정 평생교육시설 졸업예정자 또는 공고일 기준 춘천에 2년 이상 주민등록을 둔 타 시도 해당 교육기관 졸업예정자",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "졸업예정 증명",
+        "학교 소재지 또는 춘천 주민등록 기간",
+        "시험 종류 및 납부 금액",
+        "기관의 실제 접수일과 신청 경로"
+      ],
+      "intake_mode": "UNKNOWN",
+      "starts_on": null,
+      "ends_on": null,
+      "schedule_note": "사업 안내 기간은 9~12월입니다. 신청 시작일·마감일은 별도 확인이 필요합니다.",
+      "sources": [
+        {
+          "url": "https://www.chuncheon.go.kr/cityhall/about-chuncheon/educational-city/city-project",
+          "title": "춘천시 교육도시사업",
+          "locator": "춘천시 대학입학 및 취업자격증 응시료 지원 항목의 기간·대상·지원내용",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CB-CHEONGJU-WINGS-2026",
+      "provinces": [
+        "충북"
+      ],
+      "city": "청주시",
+      "title": "청주 청년희망날개 · 면접정장 대여",
+      "authority": "청주시",
+      "category": "EMPLOYMENT",
+      "edition": "2026",
+      "benefit_summary": "입사 면접용 정장 무료 대여와 코디 상담을 제공합니다. 온라인 예약 후 방문 대여·반납하는 방식입니다.",
+      "age_note": "19~39세 지역 청년구직자. 고등학교 졸업예정자 포함. 청주 주민등록·실거주 또는 청주 소재 학교 재학 경로가 있습니다.",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "거주 또는 관내 학교 재학 증빙",
+        "실제 구직 면접 및 졸업예정자 예외",
+        "예약 가능일·사이즈·잔여예산"
+      ],
+      "intake_mode": "UNKNOWN",
+      "starts_on": null,
+      "ends_on": null,
+      "schedule_note": "사업기간은 1~12월로 예산 소진 시 종료됩니다. 방문 전 예약 가능 여부를 확인하세요.",
+      "sources": [
+        {
+          "url": "https://www.cheongju.go.kr/www/contents.do?key=22715",
+          "title": "청주시청 청년정책 · 청년희망날개",
+          "locator": "청년희망날개 지원사업의 연령·지역 대체 경로·예약 방식. 직접 열람 제한으로 공식 검색색인 확인.",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_INDEXED_PAGE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CN-CHEONAN-EXAM-H2-2026",
+      "provinces": [
+        "충남"
+      ],
+      "city": "천안시",
+      "title": "천안 하반기 취업자격증 취득 지원",
+      "authority": "천안시 일자리경제과",
+      "category": "EDUCATION",
+      "edition": "2026",
+      "benefit_summary": "2026년부터 응시한 자격증·어학시험 응시료를 1회 최대 5만원, 연 2회까지 지원합니다.",
+      "age_note": "천안에 거주하는 만 19~64세 미취업자. 청년도 참여할 수 있는 구직자 사업입니다.",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "천안 거주 및 미취업 상태",
+        "올해 시험 응시·납부 증빙과 지원이력",
+        "천안시일자리종합지원센터의 잔여예산"
+      ],
+      "intake_mode": "CONTINUOUS",
+      "starts_on": "2026-09-07",
+      "ends_on": null,
+      "schedule_note": "9월 7일부터 예산 소진 시까지 운영 안내입니다. 일자리종합지원센터에서 접수 여부를 확인하세요.",
+      "sources": [
+        {
+          "url": "https://eminwon.cheonan.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?context=NTIS&epcCheck=Y&homepage_pbs_yn=Y&jndinm=OfrNotAncmtEJB&method=selectOfrNotAncmt&methodnm=selectOfrNotAncmtRegst&not_ancmt_mgt_no=114762&not_ancmt_se_code=01%2C04%2C05&subCheck=Y",
+          "title": "천안시 공고 제2026-2331호",
+          "locator": "사업기간·지원대상·지원내용·금액·신청방법",
+          "basis_date": "2026-08-24",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CN-CHEONAN-GROWTH-NOV-2026",
+      "provinces": [
+        "충남"
+      ],
+      "city": "천안시",
+      "title": "천안 청년성장프로젝트 · 11월 무료 교육",
+      "authority": "천안시·천안청년센터이음",
+      "category": "EMPLOYMENT",
+      "edition": "2026",
+      "benefit_summary": "공공기관 NCS, 디지털 드로잉 수익화 등 11월 청년 프로그램의 교육비를 전액 지원합니다.",
+      "age_note": "천안 청년 15~39세. 미취업자, 졸업예정자, 이직예정자 순으로 선정 우선순위가 있습니다.",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "천안 청년 인정 범위와 해당 과정 일정",
+        "구글폼과 고용24 양쪽 신청 및 기존 신청 예외",
+        "회차별 모집 현황과 선정 안내"
+      ],
+      "intake_mode": "UNKNOWN",
+      "starts_on": null,
+      "ends_on": null,
+      "schedule_note": "11월은 운영기간입니다. 공고의 회차별 일정과 공식 신청폼에서 신청 가능 여부를 확인하세요.",
+      "sources": [
+        {
+          "url": "https://www.ch2030youth.kr/bbs/board.php?bo_table=notice&wr_id=725",
+          "title": "천안청년센터이음 · 11월 청년성장프로젝트 참여자 모집",
+          "locator": "대상·선정 우선순위·운영기간·교육비·신청 방법",
+          "basis_date": "2026-10-20",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CN-CHEONAN-LOCAL-BRAND-2026",
+      "provinces": [
+        "충남"
+      ],
+      "city": "천안시",
+      "title": "천안시장배 로컬브랜딩 창업경진대회",
+      "authority": "백석대학교 앵커사업단·참여 대학",
+      "category": "EMPLOYMENT",
+      "edition": "2026",
+      "benefit_summary": "천안 특산물 호두를 활용한 시제품과 창업 아이디어의 사업제안서를 심사합니다. 수상자에게 상장과 등수별 상금을 지급합니다.",
+      "age_note": "공고 대상은 천안시 거주 청년 및 대학생 만 18~39세입니다. 대학생의 거주·재학 요건은 공고에서 확인해야 합니다.",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "응모 자격의 거주·학적 인정 범위",
+        "호두 활용 계획과 사업 제안서",
+        "신청서·개인정보 이용 동의서·서약서",
+        "서면 평가 및 본선 발표 일정"
+      ],
+      "intake_mode": "WINDOW",
+      "starts_on": "2026-10-26",
+      "ends_on": "2026-11-13",
+      "schedule_note": "접수는 10월 26일부터 11월 13일까지입니다. 세부 본선 일정과 실제 제출 방법은 공식 공고를 확인하세요.",
+      "sources": [
+        {
+          "url": "https://www.ch2030youth.kr/bbs/board.php?bo_table=notice&wr_id=719",
+          "title": "천안청년센터이음 · 제1회 천안시장배 로컬브랜딩 창업경진대회",
+          "locator": "응모자격·공모분야·제출 마감·시상·제출서류",
+          "basis_date": "2026-10-14",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "JN-YEOSU-EXAM-Q3-2026",
+      "provinces": [
+        "전남"
+      ],
+      "city": "여수시",
+      "title": "여수 청년 자격시험 응시료 지원 · 3분기",
+      "authority": "여수시 청년지원센터",
+      "category": "EDUCATION",
+      "edition": "2026",
+      "benefit_summary": "어학·자격·한국사 시험의 응시료를 1회 최대 5만원까지 지원합니다. 연간 최대 2회 신청할 수 있습니다.",
+      "age_note": "여수 주민등록을 둔 18~45세 또는 관내 대학교 재학생. 재학생 경로와 연령 적용 범위는 공고문 확인이 필요합니다.",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "여수 주민등록 또는 관내 대학 재학",
+        "공고상 8월 1일~11월 30일 응시분의 증빙 시점",
+        "시험 종목과 기존 신청 횟수",
+        "접수 첫날 9시 이후 유효·예산 소진 조기 종료"
+      ],
+      "intake_mode": "WINDOW",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-04",
+      "schedule_note": "11월 2일 오전 9시부터 11월 4일까지 접수 안내입니다. 11월 1일 현재 모집 예정이며 예산 소진 시 종료됩니다.",
+      "sources": [
+        {
+          "url": "https://yeosu.go.kr/youthcenter/community/notice?idx=4158&mode=view&page=25",
+          "title": "여수시청년지원센터 · 청년 자격시험 응시료 지원사업 3분기 공고",
+          "locator": "접수기간·대상·자격·지원금액·선정방법. 공식 색인에서 본문 확인, 원문 재열람 시간초과.",
+          "basis_date": "2026-10-22",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_INDEXED_PAGE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "JN-GWANGYANG-YOUTH-SUIT-2026",
+      "provinces": [
+        "전남"
+      ],
+      "city": "광양시",
+      "title": "광양 청년 감동 날개 · 정장 무료 대여",
+      "authority": "광양시 청년일자리과",
+      "category": "EMPLOYMENT",
+      "edition": "2026",
+      "benefit_summary": "청년꿈터에서 면접·경조사에 필요한 정장을 대여합니다. 보증금 3만원이 안내되어 있어 대여 전 반납 조건을 확인하세요.",
+      "age_note": "광양시 거주 18~45세 청년",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "신분증과 주민등록 등·초본",
+        "청년꿈터 예약 및 보증금 반환 조건",
+        "대여 가능 품목과 현재 대여기간"
+      ],
+      "intake_mode": "CONTINUOUS",
+      "starts_on": null,
+      "ends_on": null,
+      "schedule_note": "2026년 연중 운영 안내입니다. 실제 예약 가능 시간과 대여기간은 청년꿈터에서 확인하세요.",
+      "sources": [
+        {
+          "url": "https://gwangyang.go.kr/boardDownload.es?bid=0001&list_no=195218&seq=1",
+          "title": "광양시 · 2026 달라지는 광양시",
+          "locator": "29쪽 정장 무료 대여 청년 감동 날개 항목. 2026년 연중, 대상·신청·서류·대여 장소",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GB-GUMI-JOB-PASS-2026",
+      "provinces": [
+        "경북"
+      ],
+      "city": "구미시",
+      "title": "구미 취업준비 프리패스 · 취준PASS",
+      "authority": "구미시 인구청년과",
+      "category": "EMPLOYMENT",
+      "edition": "2026",
+      "benefit_summary": "정장 대여, 취업사진, 취업 관련 서적·응시료·학원비 등 공고상 인정 항목의 선지출 비용을 연 25만원 범위에서 지원합니다.",
+      "age_note": "구미 주소를 둔 18~39세 미취업 청년. 주 30시간 이하 또는 3개월 이하의 생계형 아르바이트는 증빙으로 예외 심사합니다.",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "구미시 주소와 출생연도",
+        "미취업 또는 단기근로 증명",
+        "관내 사용처·시험 응시 및 결제 증빙",
+        "경북고용성장지원센터의 현재 접수 경로"
+      ],
+      "intake_mode": "UNKNOWN",
+      "starts_on": null,
+      "ends_on": null,
+      "schedule_note": "시청 공고는 3월 3일부터 예산 소진까지로 안내하지만 온라인 예약 화면의 접수기간은 7월 30일까지입니다. 추가·오프라인 접수 여부를 기관에서 확인하세요.",
+      "sources": [
+        {
+          "url": "https://www.gumi.go.kr/reservation/www/anm/master/view.do?idx=10003&key=132",
+          "title": "구미시통합예약 · 2026 취업준비 프리패스",
+          "locator": "접수기간 3.3~7.30, 본문 별도 예산소진 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        },
+        {
+          "url": "https://www.gumi.go.kr/portal/board/post/view.do?bcIdx=1&idx=833507&mid=0401020000",
+          "title": "구미시청 · 취업준비 프리패스 신청 안내",
+          "locator": "대상·제외/예외·지출항목·증빙·지급 절차",
+          "basis_date": "2026-03-04",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "DJ-YOUTH-SUIT-2026",
+      "provinces": [
+        "대전"
+      ],
+      "city": null,
+      "title": "대전 구직청년 면접정장 대여",
+      "authority": "대전청년내일재단",
+      "category": "EMPLOYMENT",
+      "edition": "2026",
+      "benefit_summary": "취업 면접이 확정된 구직청년에게 면접용 정장을 대여한 사업입니다. 2026년 예산 소진 공지가 게시됐습니다.",
+      "age_note": "대전 거주 18~39세 미취업자. 고용보험 미가입 또는 주 30시간 미만 근로자 등 세부 기준이 있습니다.",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "올해 접수 마감 공지",
+        "후속 회차 공식 안내",
+        "주민등록·고용보험 또는 근로계약·실제 면접 증빙"
+      ],
+      "intake_mode": "CLOSED",
+      "starts_on": "2026-03-30",
+      "ends_on": null,
+      "schedule_note": "2026년도 예산 소진으로 신청 접수가 마감됐습니다. 이전 신청 안내와 버튼이 남아 있어도 신규 접수를 의미하지 않습니다.",
+      "sources": [
+        {
+          "url": "https://www.daejeonyouthportal.kr/content/CT_000000000042/cntPage.do?commonMenuNo=438_441_442&dpmSectionFst=&dpmSectionScd=",
+          "title": "대전청년포털 · 구직청년 면접정장 대여",
+          "locator": "2026년도 예산 소진 마감 공지, 대상, 접수일, 증빙",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "JEJU-HOPE-SAVINGS-R2-2026",
+      "provinces": [
+        "제주"
+      ],
+      "city": null,
+      "title": "제주청년 희망사다리 재형저축 · 2차 모집",
+      "authority": "제주특별자치도·제주경제통상진흥원",
+      "category": "ASSET",
+      "edition": "2026",
+      "benefit_summary": "제주 중소기업 정규직 청년과 기업, 도가 함께 적립하는 5년 자산형성 사업입니다. 청년 납입금은 월 10만원입니다.",
+      "age_note": "만 15~39세 정규직 청년 근로자와 참여 중소기업 요건을 함께 심사합니다.",
+      "income_note": "정책 플랫폼에는 소득기준이 기타로 표시됩니다. 참여기업·근로자 공고의 개별 기준을 확인하세요.",
+      "required_checks": [
+        "제주 지역 근로·정규직 및 기업 자격",
+        "근로자·기업 자격확인서 및 공고 서식",
+        "참여기업과 공동 신청·대리 제출 조건",
+        "2026년 2차 모집 마감"
+      ],
+      "intake_mode": "CLOSED",
+      "starts_on": "2026-07-24",
+      "ends_on": "2026-08-18",
+      "schedule_note": "2차 신청은 8월 18일 마감됐습니다. 계약 유지와 중도해지 조건은 해당 회차 공식 약관을 확인하세요.",
+      "sources": [
+        {
+          "url": "https://jejuyouthdream.com/policy/detail/83",
+          "title": "제주 청년이어드림 · 희망사다리 재형저축",
+          "locator": "2차 모집 마감, 연령·재직·사업기간과 신청기간 구분",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        },
+        {
+          "url": "https://jbawith.or.kr/bbs/board.php?bo_table=2_5_1_1&wr_id=5",
+          "title": "제주경제통상진흥원 · 2026년 2차 희망사다리 재형저축 모집",
+          "locator": "참여기업·청년근로자 모집공고, 신청서식 및 약관",
+          "basis_date": "2026-07-24",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "JB-JEONJU-INTERVIEW-SUIT-2026",
+      "provinces": [
+        "전북"
+      ],
+      "city": "전주시",
+      "title": "전주 청년 면접정장 무료 대여",
+      "authority": "전주시 청년활력과",
+      "category": "EMPLOYMENT",
+      "edition": "2026",
+      "benefit_summary": "취업 면접용 정장 세트를 2박 3일 동안 대여합니다. 1인당 최대 3회 이용할 수 있습니다.",
+      "age_note": "전주시에 거주하는 18~39세 구직 청년",
+      "income_note": "공식 안내에 별도 소득 상한이 표시되지 않았습니다. 세부 공고를 확인하세요.",
+      "required_checks": [
+        "전주 거주와 나이",
+        "구직 및 실제 면접 일정",
+        "남은 대여 횟수·재고·예산",
+        "청정지대의 신청 절차"
+      ],
+      "intake_mode": "CONTINUOUS",
+      "starts_on": null,
+      "ends_on": null,
+      "schedule_note": "예산 소진 시까지 청정지대 온라인 신청 안내입니다. 현재 예약 가능 여부는 공식 기관에서 확인하세요.",
+      "sources": [
+        {
+          "url": "https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a89b212afa019c8d0d38dc2927&page=70&subPath=",
+          "title": "전주시 · 면접정장 무료대여로 취업성공 돕는다",
+          "locator": "2026년 대상·이용횟수·품목·예산 소진 시까지 신청",
+          "basis_date": "2026-02-24",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    }
+  ],
+  "intake_verification": {
+    "METRO-YONGIN-YOUTH-DEPOSIT-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.yongin.go.kr/web/main/main",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-YONGIN-BROKER-DISCOUNT-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.yongin.go.kr/web/main/main",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-YONGIN-AI-JOB-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.yongin.go.kr/web/main/main",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-UIWANG-JEONSE-FEE-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.uiwang.go.kr/youth/policy-list?searchPolicySe=PS02",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-SUWON-SUIT-2026": {
+      "explicit_status": "CURRENT_RESERVATION_UNCONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://www.suwon.go.kr/sw-www/sw-share/sw-share02/sw-share02-01/sw-share02-01-12.jsp",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-GIMPO-SUIT-2026": {
+      "explicit_status": "CONTINUOUS_GUIDANCE",
+      "verified_on": "2026-11-01",
+      "url": "https://m.gimpo.go.kr/gimpojob/contents.do?key=6303",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-SEONGNAM-ALLPASS-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://eminwon.seongnam.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?Key=B_Subject&context=NTIS&countYn=Y&epcCheck=Y&homepage_pbs_yn=Y&initValue=Y&jndinm=OfrNotAncmtEJB&method=selectOfrNotAncmt&methodnm=selectOfrNotAncmtRegst&not_ancmt_mgt_no=145130&not_ancmt_se_code=01%2C02%2C03%2C04%2C05%2C06%2C07&ofr_pageSize=10&subCheck=Y&title=%EA%B3%A0%EC%8B%9C%EA%B3%B5%EA%B3%A0",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-GM-ENLISTMENT-2026": {
+      "explicit_status": "INDIVIDUAL_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.gm.go.kr/pt/partInfo/youth/youthPlpj/FinWelCul.jsp",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-ANYANG-INTERVIEW-STYLE-2026": {
+      "explicit_status": "CONTINUOUS_GUIDANCE",
+      "verified_on": "2026-11-01",
+      "url": "https://www.anyang.go.kr/reserve/selectBbsNttList.do?bbsNo=331&integrDeptCode=&key=2803&pageIndex=3&pageUnit=10&searchCnd=all&searchCtgry=&searchKrwd=&viewCount=",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-HWASEONG-SUIT-H2-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.hscity.go.kr/www/gosi/BD_selectGosiDetail.do?q_notAncmtMgtNo=146959",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-SEOCHO-EXAM-Q4-2026": {
+      "explicit_status": "UPCOMING_CONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://www.seocho.go.kr/site/seocho/ex/online/OnlineListF.do?ocIdx=testfee",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "METRO-GANGNAM-EXAM-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.gangnam.go.kr/board/B_000001/1076200/view.do?mid=ID05_04010",
+      "budget_uncertainty": "기관별 잔여 예산·정원과 개인별 최종 승인 여부는 추가 확인이 필요합니다."
+    },
+    "IC-JEMULPO-MOVE-2026": {
+      "explicit_status": "PUBLISHED_WINDOW_CURRENT_CAPACITY_UNCONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=403",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "GW-WONJU-AI-INTERVIEW-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.wonju.go.kr/wjyouth/viewTnWjyouthProgrmU.do?key=5942&progrmNo=56",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "GW-WONJU-COMMUTE-2026": {
+      "explicit_status": "CLOSED_CONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://www.wonju.go.kr/wjyouth/viewTnWjyouthProgrmU.do?key=5942&progrmNo=60",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "GW-CHUNCHEON-GRAD-EXAM-2026": {
+      "explicit_status": "UNKNOWN_CURRENT_INTAKE",
+      "verified_on": "2026-11-01",
+      "url": "https://www.chuncheon.go.kr/cityhall/about-chuncheon/educational-city/city-project",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "CB-CHEONGJU-WINGS-2026": {
+      "explicit_status": "UNKNOWN_CURRENT_INTAKE",
+      "verified_on": "2026-11-01",
+      "url": "https://www.cheongju.go.kr/www/contents.do?key=22715",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "CN-CHEONAN-EXAM-H2-2026": {
+      "explicit_status": "CONTINUOUS_GUIDANCE_CURRENT_QUOTA_UNCONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://eminwon.cheonan.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?context=NTIS&epcCheck=Y&homepage_pbs_yn=Y&jndinm=OfrNotAncmtEJB&method=selectOfrNotAncmt&methodnm=selectOfrNotAncmtRegst&not_ancmt_mgt_no=114762&not_ancmt_se_code=01%2C04%2C05&subCheck=Y",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "CN-CHEONAN-GROWTH-NOV-2026": {
+      "explicit_status": "UNKNOWN_CURRENT_INTAKE",
+      "verified_on": "2026-11-01",
+      "url": "https://www.ch2030youth.kr/bbs/board.php?bo_table=notice&wr_id=725",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "CN-CHEONAN-LOCAL-BRAND-2026": {
+      "explicit_status": "PUBLISHED_WINDOW_CURRENT_CAPACITY_UNCONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://www.ch2030youth.kr/bbs/board.php?bo_table=notice&wr_id=719",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "JN-YEOSU-EXAM-Q3-2026": {
+      "explicit_status": "UPCOMING_CONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://yeosu.go.kr/youthcenter/community/notice?idx=4158&mode=view&page=25",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "JN-GWANGYANG-YOUTH-SUIT-2026": {
+      "explicit_status": "CONTINUOUS_GUIDANCE_CURRENT_QUOTA_UNCONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://gwangyang.go.kr/boardDownload.es?bid=0001&list_no=195218&seq=1",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "GB-GUMI-JOB-PASS-2026": {
+      "explicit_status": "UNKNOWN_CONFLICTING_AVAILABILITY_DISPLAY",
+      "verified_on": "2026-11-01",
+      "url": "https://www.gumi.go.kr/reservation/www/anm/master/view.do?idx=10003&key=132",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "DJ-YOUTH-SUIT-2026": {
+      "explicit_status": "CLOSED_CONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://www.daejeonyouthportal.kr/content/CT_000000000042/cntPage.do?commonMenuNo=438_441_442&dpmSectionFst=&dpmSectionScd=",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "JEJU-HOPE-SAVINGS-R2-2026": {
+      "explicit_status": "CLOSED_CONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://jejuyouthdream.com/policy/detail/83",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    },
+    "JB-JEONJU-INTERVIEW-SUIT-2026": {
+      "explicit_status": "CONTINUOUS_GUIDANCE_CURRENT_QUOTA_UNCONFIRMED",
+      "verified_on": "2026-11-01",
+      "url": "https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a89b212afa019c8d0d38dc2927&page=70&subPath=",
+      "budget_uncertainty": "현재 잔여예산·정원 및 개인별 최종 접수는 운영기관 확인이 필요합니다."
+    }
+  },
+  "alternative_region_ids": [
+    "METRO-YONGIN-BROKER-DISCOUNT-2026",
+    "METRO-YONGIN-AI-JOB-2026",
+    "GW-CHUNCHEON-GRAD-EXAM-2026",
+    "CB-CHEONGJU-WINGS-2026",
+    "CN-CHEONAN-GROWTH-NOV-2026",
+    "CN-CHEONAN-LOCAL-BRAND-2026",
+    "JN-YEOSU-EXAM-Q3-2026",
+    "JEJU-HOPE-SAVINGS-R2-2026"
+  ]
+}

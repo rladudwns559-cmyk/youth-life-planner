@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-30",
+  "synthetic_inputs": true,
+  "actual_browser": true,
+  "cases": [
+    "300000원/12개월 4개",
+    "18개월 3개 및 기간 미일치 이유",
+    "What-if 300000원→500000원 4개→3개 및 한도 초과 제외",
+    "토스 공식 설명서·우대조건 상세"
+  ],
+  "responsive": [
+    {
+      "client": 375,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 305,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 753,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "client": 1265,
+      "scroll": 1265,
+      "width": 1280
+    }
+  ],
+  "console_errors_or_warnings": [],
+  "actual_product_maturity_count": 0,
+  "real_phone_test": "NOT_RUN",
+  "obsidian_gui": "NOT_VERIFIED"
+}

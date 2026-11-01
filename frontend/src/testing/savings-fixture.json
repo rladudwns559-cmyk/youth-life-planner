@@ -1,0 +1,62 @@
+{
+  "synthetic": true,
+  "test_only": true,
+  "monthly_payment": 200000,
+  "term_months": 12,
+  "annual_base_rate_percent": "3",
+  "annual_rate_ratio": "0.03",
+  "total_principal_krw": 2400000,
+  "estimated_interest_before_tax_krw": 39000,
+  "estimated_maturity_before_tax_krw": 2439000,
+  "unrounded_interest_krw": "39000.00",
+  "calculation_method": "MONTHLY_BEGINNING_FIXED_SIMPLE_PRETAX",
+  "assumptions": {
+    "deposit_timing": "BEGINNING_OF_MONTH",
+    "contribution": "FIXED_MONTHLY",
+    "rate_type": "FIXED",
+    "interest": "SIMPLE",
+    "tax": "PRE_TAX",
+    "period": "INTEGER_MONTHS"
+  },
+  "rounding": {
+    "mode": "ROUND_HALF_UP",
+    "unit": "KRW",
+    "stage": "TOTAL_INTEREST_ONCE",
+    "description": "총이자를 계산한 뒤 마지막에 한 번만 원 단위로 반올림합니다. 0.5원은 올립니다."
+  },
+  "unsupported_conditions": [
+    "복리",
+    "실제 일수 기준 이자",
+    "중도해지",
+    "우대금리 자동 충족",
+    "세후 실수령액",
+    "변동금리",
+    "자유적립식",
+    "정책형 적금 정부 기여금",
+    "재가입·장기 전망"
+  ],
+  "cashflow": {
+    "monthly_income": 1500000,
+    "essential_monthly_expenses": 650000,
+    "other_monthly_expenses": 350000,
+    "total_monthly_expenses": 1000000,
+    "policy_benefit_applied": 0,
+    "total_monthly_income": 1500000,
+    "disposable_before_policy": 500000,
+    "disposable_after_policy": 500000,
+    "user_savings_capacity": 300000,
+    "savable_amount": 300000
+  },
+  "budget_comparison": {
+    "savable_amount_krw": 300000,
+    "requested_monthly_payment_krw": 200000,
+    "exceeds_budget_cap": false,
+    "excess_krw": 0,
+    "has_deficit": false,
+    "savings_capacity_mode": "EXPLICIT_LIMIT",
+    "user_savings_capacity_krw": 300000,
+    "policy_benefit_applied": 0,
+    "message": "입력한 월 납입액은 현재 계산한 저축 투입 상한 이내입니다. 현재 입력에 따른 상한 비교이며 실제 상품 가입이나 장기 납입 여력을 보장하지 않습니다."
+  },
+  "disclaimer": "가상 정액적금의 계산 예시입니다. 실제 은행 상품·추천이 아니며 세후 실수령액이나 금융수익을 보장하지 않습니다. 정책 지원금 반영은 0원입니다."
+}

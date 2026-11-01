@@ -1,0 +1,20 @@
+{
+  "actual_http": true,
+  "fetch_mock": false,
+  "synthetic_profiles": true,
+  "cases": [
+    "public-10-current1-closed8-no-intake1",
+    "ansan-unknown-preserved",
+    "manual-region-birth-home",
+    "known-housing-mismatch",
+    "zero-saving-capacity",
+    "deficit-is-not-saving-capacity",
+    "excess-capacity-shown-separately",
+    "what-if-region-budget",
+    "client-override-422",
+    "future-birth-422",
+    "vite-proxy-public"
+  ],
+  "passed": 11,
+  "real_notifications_sent": 0
+}

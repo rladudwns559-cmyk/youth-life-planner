@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-30",
+  "baseline_files": 451,
+  "changed_existing_files": [
+    "backend/web/app.py",
+    "frontend/src/App.tsx",
+    "frontend/src/styles.css"
+  ],
+  "unchanged_existing_files": 448,
+  "release6_sha256": {
+    "data/releases/ansan-youth-2026-10-20-001/README.md": "4183c73c37d3cb7ec76bad21656b50a2c41b064e1298c2d4934db0d4e536a09f",
+    "data/releases/ansan-youth-2026-10-20-001/sources.json": "a47e53da0b298c93c1ad04480e8c7fed96f2e45144ad4d58991c9ec86aaa9e3b",
+    "data/releases/ansan-youth-2026-10-20-001/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json": "9c6e22ddc1c936e365ecb9b3be355a73f8cfbdc6f02f99d66e2fb843e0187025",
+    "data/releases/ansan-youth-2026-10-20-002/README.md": "8955e554cd484240f0d8dddffec5494d342c2b5732e789666b45eb261b58ca99",
+    "data/releases/ansan-youth-2026-10-20-002/sources.json": "711f1e3bbb8ddb4bcbaaddd189b6f35f7c9a6ef8b4a81f0208e4dd818629e620",
+    "data/releases/ansan-youth-2026-10-20-002/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json": "d4aaa62f1a1c46392af213c05c6e24ff59e44f17333f3b3785bde2d4b3161e92"
+  },
+  "existing_test_and_fixture_changes": [],
+  "golden_and_coverage_core_changes": [],
+  "preserved_boundaries": [
+    "Policy",
+    "Cashflow",
+    "M3.2 savings calculator",
+    "Coverage",
+    "Acceptance",
+    "Historical",
+    "GV01-GV15",
+    "BV01-BV16"
+  ],
+  "backend": {
+    "passed": 12373,
+    "skipped": 1,
+    "warnings": 1,
+    "seconds": 146.6
+  },
+  "frontend": {
+    "passed": 131,
+    "files": 6,
+    "seconds": 13.99
+  },
+  "typecheck": "PASS",
+  "build": {
+    "result": "PASS",
+    "seconds": 2.26
+  },
+  "related_backend": {
+    "passed": 149
+  },
+  "new_backend_tests": 58,
+  "new_frontend_tests": 16,
+  "existing_http_paths": 5,
+  "new_matching_http_cases": 8,
+  "actual_llm_calls": 0,
+  "actual_product_maturity_count": 0,
+  "unverified_policy_cashflow_krw": 0,
+  "obsidian_gui": "NOT_VERIFIED",
+  "physical_phone": "NOT_RUN"
+}

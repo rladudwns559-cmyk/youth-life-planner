@@ -1,0 +1,77 @@
+{
+  "source": {
+    "sha256": "0469cbcbbad8a776280bf12e4d4fe204f9c84954078c77b18d2dd5ea90ea584c",
+    "size": 24234,
+    "mtime_ns": 1792991241105363100
+  },
+  "events": {
+    "runner_starts": [
+      {
+        "line": 11,
+        "timestamp": "2026-10-26T14:07:13.917+09:00",
+        "port": 64243,
+        "context_shift": false
+      }
+    ],
+    "events": [
+      {
+        "line": 230,
+        "timestamp": "2026-10-26T14:07:17.464+09:00",
+        "event": "runner_ready",
+        "runner_port": 64243
+      },
+      {
+        "line": 234,
+        "timestamp": "2026-10-26T14:07:17.469+09:00",
+        "event": "runner_ready",
+        "runner_port": 64243
+      },
+      {
+        "line": 248,
+        "timestamp": null,
+        "event": "task_started",
+        "runner_port": 64243
+      },
+      {
+        "line": 249,
+        "timestamp": null,
+        "event": "prompt_started",
+        "runner_port": 64243,
+        "prompt_tokens": 250
+      },
+      {
+        "line": 257,
+        "timestamp": null,
+        "event": "slot_released",
+        "runner_port": 64243,
+        "slot_n_tokens": 346,
+        "official_eval_count": null
+      },
+      {
+        "line": 275,
+        "timestamp": null,
+        "event": "task_started",
+        "runner_port": 64243
+      },
+      {
+        "line": 276,
+        "timestamp": null,
+        "event": "prompt_started",
+        "runner_port": 64243,
+        "prompt_tokens": 266
+      },
+      {
+        "line": 284,
+        "timestamp": null,
+        "event": "slot_released",
+        "runner_port": 64243,
+        "slot_n_tokens": 371,
+        "official_eval_count": null
+      }
+    ],
+    "normalized_text_sha256": "5c54f02d3db7da68e95ee50730c833ec4575834abbef06c995dabb4ef48cae99",
+    "note": "네이티브 무타임스탬프 줄은 직전 runner 구간에만 대응. HTTP 요청 ID가 없어 정밀 요청 시각/생성 토큰 수를 복원하지 않는다.",
+    "launch_context": 16384,
+    "launch_parallel": 1
+  }
+}

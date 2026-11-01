@@ -1,0 +1,23 @@
+// 실제 서버에 fetch로 요청한다. LLM 미설정 fallback HTTP 시험이며 실제 AI 실행은 아니다.
+import assert from 'node:assert/strict';
+import {requestExplanation} from '../src/explanation-api.ts';
+const base=process.env.SIMULATION_API_ORIGIN??'http://127.0.0.1:8100';
+const before={age:24,region:'안산시',student_status:true,employment_status:'unemployed' as const,monthly_income:1500000,monthly_rent:450000,monthly_fixed_expenses:200000,other_monthly_expenses:350000,user_savings_capacity:300000};
+const after={...before,employment_status:'employed' as const,monthly_income:1800000,monthly_rent:550000,user_savings_capacity:500000};
+const result=await requestExplanation(before,after,undefined,base);
+assert.equal(result.explanation_source,'deterministic_fallback');assert.equal(result.fallback_reason,'PROVIDER_NOT_CONFIGURED');
+assert.equal(result.ai_success,false);assert.equal(result.external_transmission,false);
+assert.ok(result.document.changed_facts.some(f=>f.field==='monthly_rent'&&f.before===450000&&f.after===550000));
+assert.ok(result.document.changed_facts.some(f=>f.field==='monthly_fixed_expenses'&&f.before===200000&&f.after===200000));
+assert.ok(result.document.changed_facts.some(f=>f.field==='disposable_after_policy'&&f.before===500000&&f.after===700000&&f.delta===200000));
+assert.deepEqual(result.document.policy_explanations.map(p=>[p.before_status,p.after_status]),[['PASS','PASS'],['PASS','FAIL'],['UNKNOWN','UNKNOWN']]);
+assert.ok(result.unknown_information.some(u=>u.policy_id==='SAMPLE-003'&&u.after_missing_fields.includes('household_income')));
+const deficit=await requestExplanation(before,{...before,monthly_income:100000},undefined,base);
+assert.ok(deficit.document.changed_facts.some(f=>f.field==='disposable_after_policy'&&f.after===-900000));
+const noSaving=await requestExplanation(before,{...before,user_savings_capacity:0},undefined,base);
+assert.ok(noSaving.document.changed_facts.some(f=>f.field==='savable_amount'&&f.after===0));
+const tamper=await fetch(`${base}/api/synthetic/explain`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({before,after,facts:{benefit:999}})});
+assert.equal(tamper.status,422);
+const clean=await fetch(`${base}/api/synthetic/explain`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({before,after})});
+assert.equal(clean.headers.get('cache-control'),'no-store');
+console.log('M3.6 actual HTTP: server engine facts, 0 benefit, fallback, UNKNOWN, deficit, cap0, tamper422, no-store passed; actual LLM0.');

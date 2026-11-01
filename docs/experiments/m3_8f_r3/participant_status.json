@@ -1,0 +1,18 @@
+{
+  "data_status": "NOT_COLLECTED",
+  "source": "user explicitly confirmed no actual responses",
+  "actual_participants": 0,
+  "actual_consents": 0,
+  "actual_response_files": 0,
+  "actual_task_responses": 0,
+  "recruitment": "NOT_CONFIRMED_AS_STARTED",
+  "subjective_scores": null,
+  "accuracy": null,
+  "UNKNOWN_understanding": null,
+  "mean_time": null,
+  "median_time": null,
+  "participant_comments": null,
+  "attrition": null,
+  "ai_added_value": "NOT_EVALUATED",
+  "verdict": "M3_EXPLANATION_EVALUATION_PARTICIPANTS_PENDING"
+}

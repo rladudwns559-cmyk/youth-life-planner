@@ -1,0 +1,8 @@
+{
+  "age": 24,
+  "region": "안산시",
+  "student_status": true,
+  "employment_status": "employed",
+  "monthly_income": 1500000,
+  "policy_facts": []
+}

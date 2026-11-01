@@ -1,0 +1,92 @@
+{
+  "docs/M3_8F_EXPLANATION_HUMAN_EVALUATION.md": {
+    "sha256": "45aba9ec50f2f011d2cee10672661e5acd98e2fa2dc22780a1bd88a1047a4795",
+    "size": 13798,
+    "mtime_ns": 1792988171521184100
+  },
+  "docs/experiments/m3_8f/PROTOCOL.md": {
+    "sha256": "0de97842a538de1c71619c0d97c40599b2fa0e1cce63da4de7bba1304c82ef3c",
+    "size": 13937,
+    "mtime_ns": 1792986569543637600
+  },
+  "docs/experiments/m3_8f/evidence/m38f-combined-actual.json": {
+    "sha256": "377a2532a06ffef42a03c20387648bc8a1490b1219e7314829a951c4a15a0031",
+    "size": 66086,
+    "mtime_ns": 1792985835808126200
+  },
+  "docs/experiments/m3_8f/evidence/m38f-combined-actual-retry.json": {
+    "sha256": "72e3e14511bb49eac654f4c07cc8192bf129e194161b80ec7ca9b9ff0059018c",
+    "size": 65856,
+    "mtime_ns": 1792986079155612700
+  },
+  "docs/evidence/m3_8e_actual_candidate_evaluation.json": {
+    "sha256": "dff653cfb8b1d8bd612735e033904b72f346abed859888dc21e3dee8af5d650e",
+    "size": 2268649,
+    "mtime_ns": 1792983274342910200
+  },
+  "docs/M3_8E_LOCAL_CANDIDATE_LLM_VERIFICATION.md": {
+    "sha256": "f42198459ce3bee9b7f4915a18647a98f1a760bf83995df73de96fa0291b9002",
+    "size": 24329,
+    "mtime_ns": 1792983274344906600
+  },
+  "docs/M3_8D_NARRATIVE_CATALOG_CORE.md": {
+    "sha256": "204eb931b70d6cb7f1edb4c3e664c293b3f96a0ecbc2ae60c5668d1afcd9246b",
+    "size": 16311,
+    "mtime_ns": 1792976852683878500
+  },
+  "docs/M3_8_LIGHTWEIGHT_LLM_CONTRACT_DESIGN.md": {
+    "sha256": "693efb53227000ccfcb97033f793c95b8d7b7a7aa70cf14f07c5e50803956f6c",
+    "size": 30618,
+    "mtime_ns": 1792949716112966200
+  },
+  "backend/explanation/catalog_provider.py": {
+    "sha256": "0d6686c40a38af12c15fa9513bd8c13988a257b456e836ce81e1a8ec0af168ac",
+    "size": 2318,
+    "mtime_ns": 1792981601346738100
+  },
+  "backend/explanation/catalog_prompt.py": {
+    "sha256": "8d87628cd8754f95ab2f692b37242f7bb9bd0a817e437df0723695883544ff41",
+    "size": 528,
+    "mtime_ns": 1792981601344733700
+  },
+  "backend/explanation/narrative_catalog.py": {
+    "sha256": "3720132535a723686624fcb50fba2e8f815b5eaa79b3df779f9264b67d69f3b9",
+    "size": 11339,
+    "mtime_ns": 1792972405446106000
+  },
+  "backend/explanation/narrative_contract.py": {
+    "sha256": "a6d01bf5e643cf870f022b996efd25c3a87723a85747335fa455c86a89787a1d",
+    "size": 15355,
+    "mtime_ns": 1792952349405785400
+  },
+  "backend/explanation/narrative_provider.py": {
+    "sha256": "45809fc6eef008f055f24bb651cc2e1b09c91751400324adfaa63d014aa5eac1",
+    "size": 5124,
+    "mtime_ns": 1792953769839535100
+  },
+  "backend/explanation/provider.py": {
+    "sha256": "5c54547085390f500ea838782b5aca63b480365adc86ad9222bd13cd306866ee",
+    "size": 4899,
+    "mtime_ns": 1792981601349738300
+  },
+  "backend/explanation/service.py": {
+    "sha256": "290daf2fbacacd212a37f92f86603881154e367d460731164972c9871b00d6cc",
+    "size": 4907,
+    "mtime_ns": 1792941551111558900
+  },
+  "backend/explanation/facts.py": {
+    "sha256": "8e5bdf0e671a7a49f6887a3280b5879d3b5e8a823d9eed02f15e5d4a719ee76d",
+    "size": 6235,
+    "mtime_ns": 1792943036643568200
+  },
+  "docs/ARCHITECTURE.md": {
+    "sha256": "801b5a67e21b38ec093375aa287b9d2294e468a547901175bd4eb685937f664f",
+    "size": 153056,
+    "mtime_ns": 1792955272185307000
+  },
+  "docs/OBSIDIAN_WORKFLOW.md": {
+    "sha256": "e20da676b4d91ba9efd214f02419fb28fa9a2cf3ae84fd3a6014228bda16e1a4",
+    "size": 4027,
+    "mtime_ns": 1792851257890548700
+  }
+}

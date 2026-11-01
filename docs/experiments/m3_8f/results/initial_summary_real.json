@@ -1,0 +1,120 @@
+{
+  "milestone": "M3.8F",
+  "data_kind": "real",
+  "synthetic_analysis_only": false,
+  "actual_participants": 0,
+  "synthetic_participants": 0,
+  "enrolled_records": 0,
+  "withdrawn_records": 0,
+  "real_response_rows": 0,
+  "response_rows": 0,
+  "conditions": {
+    "A": {
+      "assigned_tasks": 0,
+      "recorded_tasks": 0,
+      "answered_items": 0,
+      "assigned_items": 0,
+      "correct_items": null,
+      "missing_items": null,
+      "dont_know_items": null,
+      "accuracy_assigned": null,
+      "accuracy_observed": null,
+      "completed_tasks": null,
+      "completion_rate": null,
+      "time_n": 0,
+      "time_mean_seconds": null,
+      "time_median_seconds": null,
+      "uninterrupted_time_n": 0,
+      "uninterrupted_time_mean_seconds": null,
+      "ratings": {
+        "ease": {
+          "n": 0,
+          "mean": null
+        },
+        "trust": {
+          "n": 0,
+          "mean": null
+        },
+        "usefulness": {
+          "n": 0,
+          "mean": null
+        }
+      },
+      "observed_wrong_by_category": {
+        "money": null,
+        "policy": null,
+        "unknown": null,
+        "confirmation": null,
+        "reason": null,
+        "certainty": null
+      },
+      "confirmation_omissions": null
+    },
+    "B": {
+      "assigned_tasks": 0,
+      "recorded_tasks": 0,
+      "answered_items": 0,
+      "assigned_items": 0,
+      "correct_items": null,
+      "missing_items": null,
+      "dont_know_items": null,
+      "accuracy_assigned": null,
+      "accuracy_observed": null,
+      "completed_tasks": null,
+      "completion_rate": null,
+      "time_n": 0,
+      "time_mean_seconds": null,
+      "time_median_seconds": null,
+      "uninterrupted_time_n": 0,
+      "uninterrupted_time_mean_seconds": null,
+      "ratings": {
+        "ease": {
+          "n": 0,
+          "mean": null
+        },
+        "trust": {
+          "n": 0,
+          "mean": null
+        },
+        "usefulness": {
+          "n": 0,
+          "mean": null
+        }
+      },
+      "observed_wrong_by_category": {
+        "money": null,
+        "policy": null,
+        "unknown": null,
+        "confirmation": null,
+        "reason": null,
+        "certainty": null
+      },
+      "confirmation_omissions": null
+    }
+  },
+  "participant_paired_accuracy_delta_B_minus_A": null,
+  "preference": {
+    "n": 0,
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "tie": 0,
+      "neither": 0
+    }
+  },
+  "added_value": {
+    "n": 0,
+    "counts": {
+      "A": 0,
+      "B": 0,
+      "same_information": 0,
+      "neither_clear": 0,
+      "not_sure": 0
+    }
+  },
+  "serious_model_contradictions": null,
+  "serious_contradiction_review": "NOT_PERFORMED",
+  "ai_added_value_conclusion": "NOT_EVALUATED",
+  "verdict": "M3_EXPLANATION_EVALUATION_REVISION_REQUIRED",
+  "note": "결측 원자료는 유지. assigned 정답률만 미응답 비득점 처리. DK는 별도 집계. 사람 단위 탐색 비교이며 우수성 자동 판정 없음."
+}

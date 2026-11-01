@@ -1,0 +1,874 @@
+{
+  "synthetic": true,
+  "test_only": true,
+  "version": "explanation-scenarios-v1",
+  "cases": [
+    {
+      "case_id": "EX01",
+      "name": "PASS 유지·변화 없음",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_disposable_delta": 0,
+      "expected_policy": [
+        "SAMPLE-001",
+        "PASS",
+        "PASS"
+      ]
+    },
+    {
+      "case_id": "EX02",
+      "name": "PASS에서 FAIL",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "employed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-002",
+        "PASS",
+        "FAIL"
+      ]
+    },
+    {
+      "case_id": "EX03",
+      "name": "FAIL에서 PASS",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "employed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-002",
+        "FAIL",
+        "PASS"
+      ]
+    },
+    {
+      "case_id": "EX04",
+      "name": "UNKNOWN 유지",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": null,
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": null,
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-002",
+        "UNKNOWN",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "case_id": "EX05",
+      "name": "새 UNKNOWN",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": null,
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-002",
+        "PASS",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "case_id": "EX06",
+      "name": "UNKNOWN 해소",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": null,
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-002",
+        "UNKNOWN",
+        "PASS"
+      ]
+    },
+    {
+      "case_id": "EX07",
+      "name": "소득 증가",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1800000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_disposable_delta": 300000
+    },
+    {
+      "case_id": "EX08",
+      "name": "소득 감소",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1200000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_disposable_delta": -300000
+    },
+    {
+      "case_id": "EX09",
+      "name": "월세 증가",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 550000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_disposable_delta": -100000
+    },
+    {
+      "case_id": "EX10",
+      "name": "월세 감소",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 350000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_disposable_delta": 100000
+    },
+    {
+      "case_id": "EX11",
+      "name": "저축 상한 증가",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 500000
+      },
+      "expected_savable_delta": 200000
+    },
+    {
+      "case_id": "EX12",
+      "name": "음수 Cashflow",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 100000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_after_disposable": -900000,
+      "expected_after_savable": 0
+    },
+    {
+      "case_id": "EX13",
+      "name": "나이 누락",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": null,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-001",
+        "PASS",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "case_id": "EX14",
+      "name": "지역 누락",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": null,
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-003",
+        "UNKNOWN",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "case_id": "EX15",
+      "name": "재학 누락·비사용 조건",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": null,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-001",
+        "PASS",
+        "PASS"
+      ]
+    },
+    {
+      "case_id": "EX16",
+      "name": "상한 미입력에서 0",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": null
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 0
+      },
+      "expected_savable_delta": -500000
+    },
+    {
+      "case_id": "EX17",
+      "name": "상한 0에서 미입력",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 0
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": null
+      },
+      "expected_savable_delta": 500000
+    },
+    {
+      "case_id": "EX18",
+      "name": "경계 나이",
+      "before": {
+        "age": 34,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 35,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-001",
+        "PASS",
+        "FAIL"
+      ]
+    },
+    {
+      "case_id": "EX19",
+      "name": "FAIL이어도 가구소득 누락 보존",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "서울시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "expected_policy": [
+        "SAMPLE-003",
+        "UNKNOWN",
+        "FAIL"
+      ]
+    },
+    {
+      "case_id": "EX20",
+      "name": "수입 지출 0",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 0,
+        "monthly_rent": 0,
+        "monthly_fixed_expenses": 0,
+        "other_monthly_expenses": 0,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 0,
+        "monthly_rent": 0,
+        "monthly_fixed_expenses": 0,
+        "other_monthly_expenses": 0,
+        "user_savings_capacity": 300000
+      },
+      "expected_disposable_delta": 0,
+      "expected_after_savable": 0
+    },
+    {
+      "case_id": "EX21",
+      "name": "모델 미설정",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "none",
+      "expected_fallback_reason": "PROVIDER_NOT_CONFIGURED"
+    },
+    {
+      "case_id": "EX22",
+      "name": "연결 불가",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "offline",
+      "expected_fallback_reason": "PROVIDER_UNAVAILABLE"
+    },
+    {
+      "case_id": "EX23",
+      "name": "시간 초과",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "timeout",
+      "expected_fallback_reason": "TIMEOUT"
+    },
+    {
+      "case_id": "EX24",
+      "name": "잘못된 JSON",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "json",
+      "expected_fallback_reason": "INVALID_JSON"
+    },
+    {
+      "case_id": "EX25",
+      "name": "AI 금액 조작",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "money",
+      "expected_fallback_reason": "NUMBER_MISMATCH"
+    },
+    {
+      "case_id": "EX26",
+      "name": "AI 정책 상태 조작",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "status",
+      "expected_fallback_reason": "POLICY_STATE_MISMATCH"
+    },
+    {
+      "case_id": "EX27",
+      "name": "AI UNKNOWN 누락",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "unknown",
+      "expected_fallback_reason": "UNKNOWN_MISSING"
+    },
+    {
+      "case_id": "EX28",
+      "name": "없는 신청기한",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "deadline",
+      "expected_fallback_reason": "UNSUPPORTED_NARRATIVE"
+    },
+    {
+      "case_id": "EX29",
+      "name": "근거 없는 추천",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "recommend",
+      "expected_fallback_reason": "UNSUPPORTED_NARRATIVE"
+    },
+    {
+      "case_id": "EX30",
+      "name": "출력 길이 초과",
+      "before": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "after": {
+        "age": 24,
+        "region": "안산시",
+        "student_status": true,
+        "employment_status": "unemployed",
+        "monthly_income": 1500000,
+        "monthly_rent": 450000,
+        "monthly_fixed_expenses": 200000,
+        "other_monthly_expenses": 350000,
+        "user_savings_capacity": 300000
+      },
+      "fault": "length",
+      "expected_fallback_reason": "RESPONSE_TOO_LONG"
+    }
+  ]
+}

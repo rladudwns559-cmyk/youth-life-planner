@@ -1,0 +1,109 @@
+[
+  {
+    "id": "future",
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972819",
+    "final_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972819",
+    "status": 200,
+    "bytes": 174024,
+    "sha256": "c25be48889f20522345abd30e3f8cf4a4791c21e981b95d57bc7f096fc507960",
+    "file": "future.html"
+  },
+  {
+    "id": "tomorrow",
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/customer/notice/1309680_1141.html",
+    "final_url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/customer/notice/1309680_1141.html",
+    "status": 200,
+    "bytes": 24768,
+    "sha256": "59ee3a17e87c25cbc2af7ac7e691e927145ff03004fa99476d34a754829fa90f",
+    "file": "tomorrow.html"
+  },
+  {
+    "id": "housing-change",
+    "url": "https://www.korea.kr/common/download.do?fileId=198568323&tblKey=GMN",
+    "final_url": "https://www.korea.kr/common/download.do?fileId=198568323&tblKey=GMN",
+    "status": 200,
+    "bytes": 873829,
+    "sha256": "7e8d4a8747c2c2175071b4ce5620178215181c4453e66100685202624a5dba5a",
+    "file": "housing-change.pdf"
+  },
+  {
+    "id": "housing-bank",
+    "url": "https://obank.kbstar.com/quics?cc=b061496:b061645&isNew=Y&page=C016613&prcode=DP01000935",
+    "final_url": "https://obank.kbstar.com/quics?cc=b061496:b061645&isNew=Y&page=C016613&prcode=DP01000935",
+    "status": 200,
+    "bytes": 427636,
+    "sha256": "145936eedb39870aec91b8ee4a624c8e29bf2410faaa1bb814cd6882bc046aeb",
+    "file": "housing-bank.html"
+  },
+  {
+    "id": "gg",
+    "url": "https://account.gfgf.kr/hpdsk/ntc/list.do?mode=list&searchBbsSeCd=01&searchOpnpYn=Y",
+    "final_url": "https://account.gfgf.kr/hpdsk/ntc/list.do?mode=list&searchBbsSeCd=01&searchOpnpYn=Y",
+    "status": 200,
+    "bytes": 95586,
+    "sha256": "0a0fc94160b4ce28da2006626c624df9d11bc943fdaab71875508c8171e7ac76",
+    "file": "gg.html"
+  },
+  {
+    "id": "seoul",
+    "url": "https://news.seoul.go.kr/welfare/archives/581505?listPage=1",
+    "final_url": "https://news.seoul.go.kr/welfare/archives/581505?listPage=1",
+    "status": 200,
+    "bytes": 128730,
+    "sha256": "faaf0e1ee472424206689adad0d13aa77a3f17aa0c34e5a7a45e7b5fb015bdb2",
+    "file": "seoul.html"
+  },
+  {
+    "id": "busan",
+    "url": "https://young.busan.go.kr/index.nm?menuCd=53",
+    "final_url": "https://young.busan.go.kr/index.nm?menuCd=53",
+    "status": 200,
+    "bytes": 86876,
+    "sha256": "65c7b9c7d3a1497ed74217adeec33e3c383d5ba94e7bf55f68466eb6f9070382",
+    "file": "busan.html"
+  },
+  {
+    "id": "incheon",
+    "url": "https://youth.incheon.go.kr/financial/dreamfor.jsp",
+    "final_url": "https://youth.incheon.go.kr/financial/dreamfor.jsp",
+    "status": 200,
+    "bytes": 51791,
+    "sha256": "1f5a3cd91aaa782b1e42fe330919e428fe859664a4e49a029df1e53ea8c18c85",
+    "file": "incheon.html"
+  },
+  {
+    "id": "gyeongnam",
+    "url": "https://www.modadream.kr/upload/board/20260727092534-77423622.pdf",
+    "final_url": "https://www.modadream.kr/upload/board/20260727092534-77423622.pdf",
+    "status": 200,
+    "bytes": 330582,
+    "sha256": "258926d5f69d6887bac90a417a26b93a80823cdbc7395480adfd776901299749",
+    "file": "gyeongnam.pdf"
+  },
+  {
+    "id": "daejeon",
+    "url": "https://daejeonyouthportal.kr/content/CT_000000000067/cntPage.do?commonMenuNo=&dpmSectionFst=1&dpmSectionScd=16",
+    "final_url": "https://daejeonyouthportal.kr/content/CT_000000000067/cntPage.do?commonMenuNo=&dpmSectionFst=1&dpmSectionScd=16",
+    "status": 200,
+    "bytes": 64037,
+    "sha256": "5239344e642058da425e46c262446b433738b4c9f30f21f2caa5d260892670c8",
+    "file": "daejeon.html"
+  },
+  {
+    "id": "jeonbuk",
+    "url": "https://double.jb2030.or.kr/sub/2024_data.html",
+    "final_url": "https://double.jb2030.or.kr/sub/2024_data.html",
+    "status": 200,
+    "bytes": 38161,
+    "sha256": "27d30304786b4dff2b045f2647fc19077bd76a3d4944c08fd276cafb863391a1",
+    "file": "jeonbuk.html"
+  },
+  {
+    "id": "tomorrow-rules",
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/news/1309724_1114.html",
+    "status": 200,
+    "bytes": 28452,
+    "sha256": "fc26682bd768484a53353e50e280f5df120b3e986e14828a1f6145e92bd50b23",
+    "file": "tomorrow-rules.html"
+  }
+]

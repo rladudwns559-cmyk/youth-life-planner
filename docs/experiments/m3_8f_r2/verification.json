@@ -1,0 +1,102 @@
+{
+  "milestone": "M3.8F-R2",
+  "date_kst": "2026-10-26",
+  "verdict": "M3_T08_EVALUATION_MATERIAL_READY",
+  "human_evaluation_verdict": "M3_EXPLANATION_EVALUATION_READY_PARTICIPANTS_PENDING",
+  "preloads": 1,
+  "diagnostic_generations": 2,
+  "automatic_retries": 0,
+  "additional_generations": 0,
+  "preload_success": true,
+  "T08": {
+    "service_ms": 1755.48,
+    "accepted": true,
+    "exact_candidate_match": true,
+    "existing_validator": true,
+    "runner_reload": false
+  },
+  "EX06": {
+    "service_ms": 1733.28,
+    "accepted": true,
+    "exact_candidate_match": true,
+    "existing_validator": true,
+    "runner_reload": false
+  },
+  "native_runner_starts": 1,
+  "model_server_stopped": true,
+  "qa_server_stopped": true,
+  "default_provider": "NoProvider",
+  "default_AIX_environment_values": {
+    "AIX_EXPLANATION_PROVIDER": null,
+    "AIX_OLLAMA_MODEL": null,
+    "AIX_EXPLANATION_CONTRACT": null
+  },
+  "study_version": "m38f-study-v2-r2",
+  "study_pairs": 8,
+  "actual_participants": 0,
+  "real_responses": 0,
+  "ai_added_value": "NOT_EVALUATED",
+  "new_tests": {
+    "passed": 45,
+    "seconds": 1.14
+  },
+  "backend": {
+    "passed": 12315,
+    "skipped": 1,
+    "warnings": 1,
+    "seconds": 92.64
+  },
+  "frontend": {
+    "passed": 115,
+    "seconds": 9.78,
+    "typescript": "PASS",
+    "build": "PASS",
+    "vite_seconds": 1.36
+  },
+  "synthetic_ui_qa": {
+    "id": "SYN001",
+    "tasks": 8,
+    "preference_after_primary": true,
+    "export_validated": true,
+    "blank_ratings_preserved": true,
+    "dont_know_preserved": true,
+    "not_human_evaluation": true,
+    "viewport": "default desktop"
+  },
+  "first_failures": {
+    "new_unit": 0,
+    "regression": 0,
+    "preload": 0,
+    "live_generation": 0
+  },
+  "runtime_changes": "research preload matches existing request; production Provider/Prompt/catalog/validator/limits unchanged",
+  "actual_product_calculations": 0,
+  "unverified_benefit_krw": 0,
+  "original_failed_T08_attempts_preserved": 2,
+  "obsidian": {
+    "markdown": 75,
+    "bases": 1,
+    "canvases": 1,
+    "content_folders": 11,
+    "wikilinks": 725,
+    "heading_links": 32,
+    "block_links": 1,
+    "source_paths": 495,
+    "external_local_links": 102,
+    "broken_links": 0,
+    "bookmark_groups": 4,
+    "bookmarks": 13,
+    "templates": 5,
+    "changed_existing_notes": 8,
+    "new_notes": 0,
+    "config_files_unchanged": true,
+    "gui": "UNVERIFIED",
+    "bookmark_latest": "M3.1 (stale, unchanged)",
+    "verdict": "M3_T08_EVALUATION_MATERIAL_READY",
+    "human_verdict": "M3_EXPLANATION_EVALUATION_READY_PARTICIPANTS_PENDING",
+    "study_pairs": 8,
+    "actual_participants": 0,
+    "real_responses": 0
+  },
+  "documentation_initial_validation_failure": "digit in temporary Vault property key; fixed to lowercase underscores before publishing"
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "province": "경기",
+    "city": "구리시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 2,
+    "allowed": [
+      "NOV2-GURI-NOV-2026",
+      "NOV2-GURI-COUNSEL-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "파주시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 2,
+    "allowed": [
+      "NOV2-PAJU-JOB-2026",
+      "NOV2-PAJU-HEAL-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "포천시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV2-POCHEON-AI-2026",
+      "GG-YOUTH-CONNECTION-SUPPORT-2026"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "김천시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "G116-GB-545"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "성주군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "G116-GB-849"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "안동시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "G116-GB-546",
+      "G116-GB-841"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "영주시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 2,
+    "allowed": [
+      "G116-YEONGJU-GROW"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "예천군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 2,
+    "allowed": [
+      "G116-GB-1113"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "울진군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "G116-GB-839",
+      "G116-GB-837"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "의성군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "G116-UISEONG-COUNSEL"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "청송군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "G116-GB-840"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "칠곡군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "G116-GB-848"
+    ]
+  },
+  {
+    "province": "광주",
+    "city": "서구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP116-GWANGJU-SEOGU-VR-2026"
+    ]
+  },
+  {
+    "province": "대구",
+    "city": "달성군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 2,
+    "allowed": [
+      "G116-DAEGU-DALSEONG-EXAM"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "구로구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV2-GURO-COUNSEL-2026",
+      "NOV2-GURO-VR-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "송파구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV2-SONGPA-AI-2026"
+    ]
+  },
+  {
+    "province": "전남",
+    "city": "나주시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 2,
+    "allowed": [
+      "GAP116-NAJU-PHOTO-2026",
+      "GAP116-NAJU-SUIT-2026"
+    ]
+  },
+  {
+    "province": "전남",
+    "city": "장성군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP116-CSPP81842603187841-2026"
+    ]
+  },
+  {
+    "province": "전북",
+    "city": "남원시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP116-CSPP81862605114341-2026"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "공주시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP116-CSPP81882610086579-2026"
+    ]
+  },
+  {
+    "province": "충북",
+    "city": "제천시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP116-CSPP81932603258763-2026"
+    ]
+  }
+]

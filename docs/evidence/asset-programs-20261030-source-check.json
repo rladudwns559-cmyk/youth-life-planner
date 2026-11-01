@@ -1,0 +1,18 @@
+{
+  "schema_version": "asset-source-check-v1",
+  "checked_at": "2026-10-30T20:45:43.234528+09:00",
+  "automatic_policy_update": false,
+  "notifications_sent": 0,
+  "catalog_verified_dates_updated": false,
+  "sources": [
+    {
+      "source_id": "tomorrow",
+      "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/customer/notice/1309680_1141.html",
+      "http_status": 200,
+      "bytes": 24768,
+      "sha256": "59ee3a17e87c25cbc2af7ac7e691e927145ff03004fa99476d34a754829fa90f",
+      "result": "UNCHANGED_BYTES"
+    }
+  ],
+  "note": "HTML byte differences may reflect navigation or counters. Manual review of substantive conditions is required before publishing or emitting a policy-change event."
+}

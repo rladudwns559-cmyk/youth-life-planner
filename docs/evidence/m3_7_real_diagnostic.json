@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "runtime": "0.40.11",
+    "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+    "quantization": "Q4_K_M"
+  },
+  "synthetic": true,
+  "mode": "DIAGNOSTIC_NOT_PRODUCTION_TIMEOUT",
+  "calls": [
+    {
+      "name": "small_real_smoke",
+      "timeout_seconds": 60,
+      "production_contract_timeout_seconds": 6,
+      "request_bytes": 346,
+      "raw_bytes": 576,
+      "outer": {
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "created_at": "2026-10-25T16:47:49.5225913Z",
+        "response": "{\"text\": \"안녕하세요!\"}",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 5556713000,
+        "load_duration": 5224654700,
+        "prompt_eval_count": 31,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 149660000,
+        "eval_count": 10,
+        "eval_duration": 145166000
+      },
+      "client_latency_ms": 5565.55,
+      "resources_after": {
+        "ps": {
+          "models": [
+            {
+              "name": "qwen3:4b-instruct-2507-q4_K_M",
+              "model": "qwen3:4b-instruct-2507-q4_K_M",
+              "size": 5102307901,
+              "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "qwen3",
+                "families": [
+                  "qwen3"
+                ],
+                "parameter_size": "4.0B",
+                "quantization_level": "Q4_K_M"
+              },
+              "expires_at": "2026-10-26T01:52:49.527612+09:00",
+              "size_vram": 5102307901,
+              "context_length": 16384,
+              "runner": "llamacpp"
+            }
+          ]
+        },
+        "nvidia_smi": "NVIDIA GeForce RTX 5050 Laptop GPU, 4970 MiB, 2853 MiB, 0 %"
+      },
+      "returned_context_tokens": 40
+    },
+    {
+      "name": "EX01_full_contract_diagnostic",
+      "timeout_seconds": 60,
+      "production_contract_timeout_seconds": 6,
+      "request_bytes": 21096,
+      "raw_bytes": 32769,
+      "error_type": "RESPONSE_TOO_LONG",
+      "client_latency_ms": 37098.41,
+      "resources_after": {
+        "ps": {
+          "models": [
+            {
+              "name": "qwen3:4b-instruct-2507-q4_K_M",
+              "model": "qwen3:4b-instruct-2507-q4_K_M",
+              "size": 5102307901,
+              "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "qwen3",
+                "families": [
+                  "qwen3"
+                ],
+                "parameter_size": "4.0B",
+                "quantization_level": "Q4_K_M"
+              },
+              "expires_at": "2026-10-26T01:53:26.7507843+09:00",
+              "size_vram": 5102307901,
+              "context_length": 16384,
+              "runner": "llamacpp"
+            }
+          ]
+        },
+        "nvidia_smi": "NVIDIA GeForce RTX 5050 Laptop GPU, 4982 MiB, 2841 MiB, 93 %"
+      }
+    },
+    {
+      "name": "EX01_bounded_envelope_diagnostic",
+      "timeout_seconds": 60,
+      "production_contract_timeout_seconds": 6,
+      "request_bytes": 21096,
+      "diagnostic_envelope_limit_bytes": 262144,
+      "raw_bytes": 39949,
+      "returned_context_tokens": 6974,
+      "outer": {
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "created_at": "2026-10-25T16:52:29.1308673Z",
+        "response": "{\n  \"summary\": \"변경한 입력이 없어 두 시나리오의 결과가 같습니다.\\n월 여유자금 변화는 0원입니다.\\n저축 투입 상한 변화는 0원입니다.\\n생활비 소득은 정책 기준의 가구소득을 대신하지 않습니다. 정책 지원금 반영은 전후 모두 0원입니다.\",\n  \"changed_facts\": [\n    {\n      \"field\": \"monthly_income\",\n      \"label\": \"월소득\",\n      \"before\": 1500000,\n      \"after\": 1500000,\n      \"delta\": 0,\n      \"text\": \"월소득: 1,500,000원 → 1,500,000원 · 변동 없음.\"\n    },\n    {\n      \"field\": \"monthly_rent\",\n      \"label\": \"월세\",\n      \"before\": 450000,\n      \"after\": 450000,\n      \"delta\": 0,\n      \"text\": \"월세: 450,000원 → 450,000원 · 변동 없음.\"\n    },\n    {\n      \"field\": \"monthly_fixed_expenses\",\n      \"label\": \"고정지출\",\n      \"before\": 200000,\n      \"after\": 200000,\n      \"delta\": 0,\n      \"text\": \"고정지출: 200,000원 → 200,000원 · 변동 없음.\"\n    },\n    {\n      \"field\": \"other_monthly_expenses\",\n      \"label\": \"기타지출\",\n      \"before\": 350000,\n      \"after\": 350000,\n      \"delta\": 0,\n      \"text\": \"기타지출: 350,000원 → 350,000원 · 변동 없음.\"\n    },\n    {\n      \"field\": \"total_monthly_income\",\n      \"label\": \"월 총수입\",\n      \"before\": 1500000,\n      \"after\": 1500000,\n      \"delta\": 0,\n      \"text\": \"월 총수입: 1,500,000원 → 1,500,000원 · 변동 없음.\"\n    },\n    {\n      \"field\": \"total_monthly_expenses\",\n      \"label\": \"월 총지출\",\n      \"before\": 1000000,\n      \"after\": 1000000,\n      \"delta\": 0,\n      \"text\": \"월 총지출: 1,000,000원 → 1,000,000원 · 변동 없음.\"\n    },\n    {\n      \"field\": \"disposable_after_policy\",\n      \"label\": \"월 여유자금\",\n      \"before\": 500000,\n      \"after\": 500000,\n      \"delta\": 0,\n      \"text\": \"월 여유자금: 500,000원 → 500,000원 · 변동 없음.\"\n    },\n    {\n      \"field\": \"savable_amount\",\n      \"label\": \"저축 투입 상한\",\n      \"before\": 300000,\n      \"after\": 300000,\n      \"delta\": 0,\n      \"text\": \"저축 투입 상한: 300,000원 → 300,000원 · 변동 없음.\"\n    },\n    {\n      \"field\": \"user_savings_capacity\",\n      \"label\": \"사용자 저축 상한\",\n      \"before\": 300000,\n      \"after\": 300000,\n      \"delta\": 0,\n      \"text\": \"사용자 저축 상한: 300,000원 → 300,000원 · 변동 없음.\"\n    },\n    {\n      \"field\": \"policy_benefit_applied\",\n      \"label\": \"정책 지원금 반영\",\n      \"before\": 0,\n      \"after\": 0,\n      \"delta\": 0,\n      \"text\": \"정책 지원금 반영: 0원 → 0원 · 변동 없음.\"\n    }\n  ],\n  \"policy_explanations\": [\n    {\n      \"policy_id\": \"SAMPLE-001\",\n      \"before_status\": \"PASS\",\n      \"after_status\": \"PASS\",\n      \"rules\": [\n        {\n          \"rule_id\": \"S001-AGE-MIN\",\n          \"field\": \"age\",\n          \"before_status\": \"PASS\",\n          \"after_status\": \"PASS\",\n          \"before_reason\": \"CONDITION_MET\",\n          \"after_reason\": \"CONDITION_MET\",\n          \"input_changed\": false,\n          \"before_missing\": [],\n          \"after_missing\": [],\n          \"source_refs\": [\n            \"SOURCE-001\"\n          ]\n        },\n        {\n          \"rule_id\": \"S001-AGE-MAX\",\n          \"field\": \"age\",\n          \"before_status\": \"PASS\",\n          \"after_status\": \"PASS\",\n          \"before_reason\": \"CONDITION_MET\",\n          \"after_reason\": \"CONDITION_MET\",\n          \"input_changed\": false,\n          \"before_missing\": [],\n          \"after_missing\": [],\n          \"source_refs\": [\n            \"SOURCE-001\"\n          ]\n        },\n        {\n          \"rule_id\": \"S001-REGION\",\n          \"field\": \"region\",\n          \"before_status\": \"PASS\",\n          \"after_status\": \"PASS\",\n          \"before_reason\": \"CONDITION_MET\",\n          \"after_reason\": \"CONDITION_MET\",\n          \"input_changed\": false,\n          \"before_missing\": [],\n          \"after_missing\": [],\n          \"source_refs\": [\n            \"SOURCE-001\"\n          ]\n        }\n      ],\n      \"text\": \"이 정책에서 평가한 입력 조건의 변화는 없습니다.\"\n    },\n    {\n      \"policy_id\": \"SAMPLE-002\",\n      \"before_status\": \"PASS\",\n      \"after_status\": \"PASS\",\n      \"rules\": [\n        {\n          \"rule_id\": \"S002-EMPLOYMENT\",\n          \"field\": \"employment_status\",\n          \"before_status\": \"PASS\",\n          \"after_status\": \"PASS\",\n          \"before_reason\": \"CONDITION_MET\",\n          \"after_reason\": \"CONDITION_MET\",\n          \"input_changed\": false,\n          \"before_missing\": [],\n          \"after_missing\": [],\n          \"source_refs\": [\n            \"SOURCE-002\"\n          ]\n        }\n      ],\n      \"text\": \"이 정책에서 평가한 입력 조건의 변화는 없습니다.\"\n    },\n    {\n      \"policy_id\": \"SAMPLE-003\",\n      \"before_status\": \"UNKNOWN\",\n      \"after_status\": \"UNKNOWN\",\n      \"rules\": [\n        {\n          \"rule_id\": \"S003-REGION\",\n          \"field\": \"region\",\n          \"before_status\": \"PASS\",\n          \"after_status\": \"PASS\",\n          \"before_reason\": \"CONDITION_MET\",\n          \"after_reason\": \"CONDITION_MET\",\n          \"input_changed\": false,\n          \"before_missing\": [],\n          \"after_missing\": [],\n          \"source_refs\": [\n            \"SOURCE-003\"\n          ]\n        },\n        {\n          \"rule_id\": \"S003-INCOME\",\n          \"field\": \"household_income\",\n          \"before_status\": \"UNKNOWN\",\n          \"after_status\": \"UNKNOWN\",\n          \"before_reason\": \"MISSING_FIELD\",\n          \"after_reason\": \"MISSING_FIELD\",\n          \"input_changed\": false,\n          \"before_missing\": [\n            \"household_income\"\n          ],\n          \"after_missing\": [\n            \"household_income\"\n          ],\n          \"source_refs\": [\n            \"SOURCE-003\"\n          ]\n        }\n      ],\n      \"text\": \"이 정책에서 평가한 입력 조건의 변화는 없습니다. 미확인 조건은 추가 확인이 필요합니다.\"\n    }\n  ],\n  \"unknown_information\": [\n    {\n      \"policy_id\": \"SAMPLE-003\",\n      \"before_status\": \"UNKNOWN\",\n      \"after_status\": \"UNKNOWN\",\n      \"before_missing_fields\": [\n        \"household_income\"\n      ],\n      \"after_missing_fields\": [\n        \"household_income\"\n      ]\n    }\n  ],\n  \"next_actions\": [\n    {\n      \"policy_id\": \"SAMPLE-003\",\n      \"field\": \"household_income\",\n      \"text\": \"정책 기준의 가구소득 정보를 공식 기준과 별도로 확인해 주세요.\"\n    }\n  ]\n}",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 34413302700,
+        "load_duration": 9956500,
+        "prompt_eval_count": 5043,
+        "prompt_eval_cached_count": 5042,
+        "prompt_eval_duration": 237875000,
+        "eval_count": 1932,
+        "eval_duration": 34116241000
+      },
+      "restored_output": "{\"summary\": \"변경한 입력이 없어 두 시나리오의 결과가 같습니다.\\n월 여유자금 변화는 0원입니다.\\n저축 투입 상한 변화는 0원입니다.\\n생활비 소득은 정책 기준의 가구소득을 대신하지 않습니다. 정책 지원금 반영은 전후 모두 0원입니다.\", \"changed_facts\": [{\"field\": \"monthly_income\", \"label\": \"월소득\", \"before\": 1500000, \"after\": 1500000, \"delta\": 0, \"text\": \"월소득: 1,500,000원 → 1,500,000원 · 변동 없음.\"}, {\"field\": \"monthly_rent\", \"label\": \"월세\", \"before\": 450000, \"after\": 450000, \"delta\": 0, \"text\": \"월세: 450,000원 → 450,000원 · 변동 없음.\"}, {\"field\": \"monthly_fixed_expenses\", \"label\": \"고정지출\", \"before\": 200000, \"after\": 200000, \"delta\": 0, \"text\": \"고정지출: 200,000원 → 200,000원 · 변동 없음.\"}, {\"field\": \"other_monthly_expenses\", \"label\": \"기타지출\", \"before\": 350000, \"after\": 350000, \"delta\": 0, \"text\": \"기타지출: 350,000원 → 350,000원 · 변동 없음.\"}, {\"field\": \"total_monthly_income\", \"label\": \"월 총수입\", \"before\": 1500000, \"after\": 1500000, \"delta\": 0, \"text\": \"월 총수입: 1,500,000원 → 1,500,000원 · 변동 없음.\"}, {\"field\": \"total_monthly_expenses\", \"label\": \"월 총지출\", \"before\": 1000000, \"after\": 1000000, \"delta\": 0, \"text\": \"월 총지출: 1,000,000원 → 1,000,000원 · 변동 없음.\"}, {\"field\": \"disposable_after_policy\", \"label\": \"월 여유자금\", \"before\": 500000, \"after\": 500000, \"delta\": 0, \"text\": \"월 여유자금: 500,000원 → 500,000원 · 변동 없음.\"}, {\"field\": \"savable_amount\", \"label\": \"저축 투입 상한\", \"before\": 300000, \"after\": 300000, \"delta\": 0, \"text\": \"저축 투입 상한: 300,000원 → 300,000원 · 변동 없음.\"}, {\"field\": \"user_savings_capacity\", \"label\": \"사용자 저축 상한\", \"before\": 300000, \"after\": 300000, \"delta\": 0, \"text\": \"사용자 저축 상한: 300,000원 → 300,000원 · 변동 없음.\"}, {\"field\": \"policy_benefit_applied\", \"label\": \"정책 지원금 반영\", \"before\": 0, \"after\": 0, \"delta\": 0, \"text\": \"정책 지원금 반영: 0원 → 0원 · 변동 없음.\"}], \"policy_explanations\": [{\"policy_id\": \"SAMPLE-001\", \"before_status\": \"PASS\", \"after_status\": \"PASS\", \"rules\": [{\"rule_id\": \"S001-AGE-MIN\", \"field\": \"age\", \"before_status\": \"PASS\", \"after_status\": \"PASS\", \"before_reason\": \"CONDITION_MET\", \"after_reason\": \"CONDITION_MET\", \"input_changed\": false, \"before_missing\": [], \"after_missing\": [], \"source_refs\": [\"data/synthetic/README.md#sample-001\"]}, {\"rule_id\": \"S001-AGE-MAX\", \"field\": \"age\", \"before_status\": \"PASS\", \"after_status\": \"PASS\", \"before_reason\": \"CONDITION_MET\", \"after_reason\": \"CONDITION_MET\", \"input_changed\": false, \"before_missing\": [], \"after_missing\": [], \"source_refs\": [\"data/synthetic/README.md#sample-001\"]}, {\"rule_id\": \"S001-REGION\", \"field\": \"region\", \"before_status\": \"PASS\", \"after_status\": \"PASS\", \"before_reason\": \"CONDITION_MET\", \"after_reason\": \"CONDITION_MET\", \"input_changed\": false, \"before_missing\": [], \"after_missing\": [], \"source_refs\": [\"data/synthetic/README.md#sample-001\"]}], \"text\": \"이 정책에서 평가한 입력 조건의 변화는 없습니다.\"}, {\"policy_id\": \"SAMPLE-002\", \"before_status\": \"PASS\", \"after_status\": \"PASS\", \"rules\": [{\"rule_id\": \"S002-EMPLOYMENT\", \"field\": \"employment_status\", \"before_status\": \"PASS\", \"after_status\": \"PASS\", \"before_reason\": \"CONDITION_MET\", \"after_reason\": \"CONDITION_MET\", \"input_changed\": false, \"before_missing\": [], \"after_missing\": [], \"source_refs\": [\"data/synthetic/README.md#sample-002\"]}], \"text\": \"이 정책에서 평가한 입력 조건의 변화는 없습니다.\"}, {\"policy_id\": \"SAMPLE-003\", \"before_status\": \"UNKNOWN\", \"after_status\": \"UNKNOWN\", \"rules\": [{\"rule_id\": \"S003-REGION\", \"field\": \"region\", \"before_status\": \"PASS\", \"after_status\": \"PASS\", \"before_reason\": \"CONDITION_MET\", \"after_reason\": \"CONDITION_MET\", \"input_changed\": false, \"before_missing\": [], \"after_missing\": [], \"source_refs\": [\"data/synthetic/README.md#sample-003\"]}, {\"rule_id\": \"S003-INCOME\", \"field\": \"household_income\", \"before_status\": \"UNKNOWN\", \"after_status\": \"UNKNOWN\", \"before_reason\": \"MISSING_FIELD\", \"after_reason\": \"MISSING_FIELD\", \"input_changed\": false, \"before_missing\": [\"household_income\"], \"after_missing\": [\"household_income\"], \"source_refs\": [\"data/synthetic/README.md#sample-003\"]}], \"text\": \"이 정책에서 평가한 입력 조건의 변화는 없습니다. 미확인 조건은 추가 확인이 필요합니다.\"}], \"unknown_information\": [{\"policy_id\": \"SAMPLE-003\", \"before_status\": \"UNKNOWN\", \"after_status\": \"UNKNOWN\", \"before_missing_fields\": [\"household_income\"], \"after_missing_fields\": [\"household_income\"]}], \"next_actions\": [{\"policy_id\": \"SAMPLE-003\", \"field\": \"household_income\", \"text\": \"정책 기준의 가구소득 정보를 공식 기준과 별도로 확인해 주세요.\"}]}",
+      "validator": "UNSUPPORTED_NARRATIVE",
+      "client_latency_ms": 34478.34,
+      "resources_after": {
+        "ps": {
+          "models": [
+            {
+              "name": "qwen3:4b-instruct-2507-q4_K_M",
+              "model": "qwen3:4b-instruct-2507-q4_K_M",
+              "size": 5102307901,
+              "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "qwen3",
+                "families": [
+                  "qwen3"
+                ],
+                "parameter_size": "4.0B",
+                "quantization_level": "Q4_K_M"
+              },
+              "expires_at": "2026-10-26T01:57:29.1542694+09:00",
+              "size_vram": 5102307901,
+              "context_length": 16384,
+              "runner": "llamacpp"
+            }
+          ]
+        },
+        "nvidia_smi": "NVIDIA GeForce RTX 5050 Laptop GPU, 4982 MiB, 2841 MiB, 95 %"
+      }
+    }
+  ],
+  "qualitative_review": {
+    "reviewer": "Codex",
+    "human_review": false,
+    "scope": "EX01 completed diagnostic only, not fixed30",
+    "korean": "자연스러운 한국어이지만 기존 정형문장을 그대로 복사해 추가 설명 효용이 낮음",
+    "causality": "입력 변화 없음이라는 Python 결과와 일치",
+    "unknown": "가구소득 미확인과 추가 확인 문장이 보존됨",
+    "unsupported_new_facts_observed": false,
+    "core_amount_state_unknown_mismatches": 0,
+    "contract_violation": "summary 자유영역에 0원 및 지원금 표현을 복사함. 사실값은 정확하지만 기존 Prompt/자유영역 출력 계약 위반",
+    "human_semantic_review_status": "NOT_PERFORMED; no independent human/user study"
+  }
+}

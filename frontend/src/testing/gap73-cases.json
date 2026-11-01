@@ -1,0 +1,53 @@
+[
+  {
+    "province": "경기",
+    "city": "의정부시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP73-UJB-EXOTIC-2026",
+      "GAP73-UJB-INTERVIEWBOOK-2026"
+    ]
+  },
+  {
+    "province": "부산",
+    "city": "남구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "G73-BSNAM-SINGLECOOK-2026"
+    ]
+  },
+  {
+    "province": "전남",
+    "city": "강진군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP73-JN-GANGJIN-RENT-Q4-2026"
+    ]
+  },
+  {
+    "province": "전남",
+    "city": "영암군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP73-JN-YEONGAM-EXAM-NOV-2026"
+    ]
+  },
+  {
+    "province": "전북",
+    "city": "익산시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP73-JB-IKSAN-YOUTH-SPACE-2026"
+    ]
+  }
+]

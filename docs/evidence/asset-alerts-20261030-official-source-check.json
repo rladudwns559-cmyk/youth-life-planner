@@ -1,0 +1,230 @@
+{
+  "run": {
+    "status": "OK",
+    "checked_at": "2026-10-30T21:54:43.615325+09:00",
+    "next_check_at": "2026-10-31T03:54:43.615325+09:00",
+    "source_count": 25,
+    "successful": 25,
+    "parsed_notices": 3,
+    "bootstrap": false,
+    "not_checked": 0
+  },
+  "public": {
+    "schema_version": "asset-alerts-v1",
+    "interval_seconds": 21600,
+    "retention_days": 90,
+    "monitor": {
+      "status": "OK",
+      "checked_at": "2026-10-30T21:54:43.615325+09:00",
+      "next_check_at": "2026-10-31T03:54:43.615325+09:00",
+      "source_count": 25,
+      "successful": 25,
+      "parsed_notices": 3,
+      "bootstrap": false,
+      "not_checked": 0
+    },
+    "sources": [
+      {
+        "id": "future",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972819",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "tomorrow",
+        "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/customer/notice/1309680_1141.html",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "housing-change",
+        "url": "https://www.korea.kr/common/download.do?fileId=198568323&tblKey=GMN",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "housing-bank",
+        "url": "https://obank.kbstar.com/quics?cc=b061496:b061645&isNew=Y&page=C016613&prcode=DP01000935",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "gg",
+        "url": "https://account.gfgf.kr/hpdsk/ntc/list.do?mode=list&searchBbsSeCd=01&searchOpnpYn=Y",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "CHANGED_REVIEW_REQUIRED"
+      },
+      {
+        "id": "seoul",
+        "url": "https://news.seoul.go.kr/welfare/archives/581505?listPage=1",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "busan",
+        "url": "https://young.busan.go.kr/index.nm?menuCd=53",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "incheon",
+        "url": "https://youth.incheon.go.kr/financial/dreamfor.jsp",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "gyeongnam",
+        "url": "https://www.modadream.kr/upload/board/20260727092534-77423622.pdf",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "daejeon",
+        "url": "https://daejeonyouthportal.kr/content/CT_000000000067/cntPage.do?commonMenuNo=&dpmSectionFst=1&dpmSectionScd=16",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "jeonbuk",
+        "url": "https://double.jb2030.or.kr/sub/2024_data.html",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "tomorrow-rules",
+        "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/news/1309724_1114.html",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "UNCHANGED_VERIFIED"
+      },
+      {
+        "id": "national-news",
+        "url": "https://www.korea.kr/news/policyNewsList.do",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "LIST_CHECKED"
+      },
+      {
+        "id": "seoul-notices",
+        "url": "https://news.seoul.go.kr/welfare/archives/tag/%ec%b2%ad%eb%85%84%ed%86%b5%ec%9e%a5",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "LIST_CHECKED"
+      },
+      {
+        "id": "busan-notices",
+        "url": "https://young.busan.go.kr/article/list.nm?menuCd=153",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "LIST_CHECKED"
+      },
+      {
+        "id": "incheon-notices",
+        "url": "https://youth.incheon.go.kr/financial/dreamfor_notice.jsp",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "LIST_CHECKED"
+      },
+      {
+        "id": "gyeongnam-notices",
+        "url": "https://www.modadream.kr/board/notice/list/0",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "LIST_CHECKED"
+      },
+      {
+        "id": "daejeon-notices",
+        "url": "https://daejeonyouthportal.kr/board/BBSMSTR_000000000239/articleList.do?commonMenuNo=506_424",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "LIST_CHECKED"
+      },
+      {
+        "id": "jeonbuk-notices",
+        "url": "https://double.jb2030.or.kr/sub/notice.html",
+        "checked_at": "2026-10-30T21:54:43.615325+09:00",
+        "last_success_at": "2026-10-30T21:54:43.615325+09:00",
+        "status": "LIST_CHECKED"
+      }
+    ],
+    "notices": [
+      {
+        "notice_id": "366855ddc038d85be4ff5352a31b28c0e9a6e5a60dc6abc52f9c42f3f5100b7e",
+        "program_id": "JB-TOGETHER-DOUBLE",
+        "title": "전북청년 함께 두배적금",
+        "url": "https://double.jb2030.or.kr/sub/2024_data.html",
+        "regions": [
+          "전북"
+        ],
+        "scope": "REGIONAL",
+        "starts_at": "2026-03-03T09:00:00+09:00",
+        "ends_at_exclusive": "2026-03-16T18:00:00+09:00",
+        "date_only": false,
+        "start_date_only": false,
+        "schedule_evidence": "2026. 3. 3.(화) 09:00 ∼ 3. 16.(월) 18:00",
+        "verified_at": "2026-10-30T21:54:43.615325+09:00",
+        "content_sha256": "413799c88413a67331a11adb6aa7c874042bcc7df74d01593bf54d16134feffd",
+        "eligibility_status": "UNKNOWN",
+        "financial_calculation_available": false,
+        "note": "공식 공고에서 자동 확인한 신청 일정입니다. 소득·재산·선발 등 가입조건은 별도 확인해야 합니다.",
+        "status": "CLOSED"
+      },
+      {
+        "notice_id": "6502667bbc3eec717ddd355488ab6541343b4a36179c2237331a6e35c5206b45",
+        "program_id": "INCHEON-DREAM-FOR",
+        "title": "사업안내-드림For 청년통장 | 인천청년포털>금융>금융지원>드림For 청년통장",
+        "url": "https://youth.incheon.go.kr/financial/dreamfor.jsp",
+        "regions": [
+          "인천"
+        ],
+        "scope": "REGIONAL",
+        "starts_at": "2026-05-04T09:00:00+09:00",
+        "ends_at_exclusive": "2026-05-15T18:00:00+09:00",
+        "date_only": false,
+        "start_date_only": false,
+        "schedule_evidence": "2026. 05. 04.(월) 9:00 ~ 2026. 05. 15.(금) 18:00",
+        "verified_at": "2026-10-30T21:54:43.615325+09:00",
+        "content_sha256": "408c3a4252faa49d565d0447c232fc502d839fef4f298d18a36a007f6a98ab43",
+        "eligibility_status": "UNKNOWN",
+        "financial_calculation_available": false,
+        "note": "공식 공고에서 자동 확인한 신청 일정입니다. 소득·재산·선발 등 가입조건은 별도 확인해야 합니다.",
+        "status": "CLOSED"
+      },
+      {
+        "notice_id": "2db471c12706b50ac59cda0c161caf0599b8392800c1831139ae353459f0ecda",
+        "program_id": "BUSAN-JOY-DOUBLE",
+        "title": "부산청년 기쁨두배통장 : 부산청년플랫폼",
+        "url": "https://young.busan.go.kr/index.nm?menuCd=53",
+        "regions": [
+          "부산"
+        ],
+        "scope": "REGIONAL",
+        "starts_at": "2026-08-10T09:00:00+09:00",
+        "ends_at_exclusive": "2026-08-21T18:00:00+09:00",
+        "date_only": false,
+        "start_date_only": false,
+        "schedule_evidence": "2026. 8. 10.(월) 09:00 ~ 8. 21.(금) 18:00",
+        "verified_at": "2026-10-30T21:54:43.615325+09:00",
+        "content_sha256": "47dd73556ccec1f118a802f5e82746d1109991b222824317ba57f4736bd81e78",
+        "eligibility_status": "UNKNOWN",
+        "financial_calculation_available": false,
+        "note": "공식 공고에서 자동 확인한 신청 일정입니다. 소득·재산·선발 등 가입조건은 별도 확인해야 합니다.",
+        "status": "CLOSED"
+      }
+    ],
+    "email_available": false,
+    "worker_active": true,
+    "note": "서버가 실행 중일 때 6시간마다 공식 출처를 확인합니다. 모든 지역의 모든 공고를 보장하지 않으며, 날짜가 불명확한 자료는 자동 모집 알림에서 제외합니다."
+  }
+}

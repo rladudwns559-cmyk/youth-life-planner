@@ -1,0 +1,226 @@
+[
+  {
+    "province": "경기",
+    "city": "양평군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP95-YP-MONEY-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "여주시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP95-YJ-TAX-2026"
+    ]
+  },
+  {
+    "province": "경북",
+    "city": "문경시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "G95-MG-285291",
+      "G95-MG-285302"
+    ]
+  },
+  {
+    "province": "광주",
+    "city": "북구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-GJ-BUKGU-STARTUP-2026",
+      "GAP95-GJ-BUKGU-JOB-NOV-2026"
+    ]
+  },
+  {
+    "province": "부산",
+    "city": "해운대구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "G95-HAE-NEWLYWEDS"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "동작구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP95-DJ-CAREER-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "종로구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP95-JN-EMPLOY-2026"
+    ]
+  },
+  {
+    "province": "울산",
+    "city": "남구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "G95-USNAM-HEAL",
+      "G95-USNAM-MENTOR",
+      "G95-USNAM-FINANCE"
+    ]
+  },
+  {
+    "province": "울산",
+    "city": "중구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "G95-USJUNG-FUTURE"
+    ]
+  },
+  {
+    "province": "인천",
+    "city": "강화군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-GH-INTERVIEW-2026"
+    ]
+  },
+  {
+    "province": "전남",
+    "city": "영광군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-JN-YEONGGWANG-3D-2026"
+    ]
+  },
+  {
+    "province": "전북",
+    "city": "부안군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP95-JB-BUAN-YOUTH-SPACE-2026"
+    ]
+  },
+  {
+    "province": "전북",
+    "city": "완주군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "GAP95-JB-WANJU-JOB-FAIR-2026"
+    ]
+  },
+  {
+    "province": "제주",
+    "city": "서귀포시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 2,
+    "allowed": [
+      "JJ-SEOGWIPO-YOUTH-EXAM-2026-R2"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "계룡시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-CN-ITEMS-12-2026"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "논산시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 2,
+    "allowed": [
+      "GAP95-CN-NONSAN-SUIT-2026"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "보령시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-CN-ITEMS-15-2026"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "부여군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-CN-ITEMS-13-2026"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "서산시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-CN-ITEMS-11-2026"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "서천군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-CN-ITEMS-18-2026"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "예산군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-CN-ITEMS-20-2026"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "태안군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "GAP95-CN-ITEMS-21-2026"
+    ]
+  }
+]

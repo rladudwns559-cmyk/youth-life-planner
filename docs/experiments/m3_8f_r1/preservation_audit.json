@@ -1,0 +1,37 @@
+{
+  "existing_files": 354,
+  "all_existing_sha_size_mtime_unchanged": true,
+  "new_files": [
+    "docs/M3_8F_R1_T08_TIMEOUT_ANALYSIS.md",
+    "docs/experiments/m3_8f_r1/MINIMAL_FIX_AND_RETEST_PLAN.md",
+    "docs/experiments/m3_8f_r1/README.md",
+    "docs/experiments/m3_8f_r1/build.txt",
+    "docs/experiments/m3_8f_r1/environment.json",
+    "docs/experiments/m3_8f_r1/final_offline_diagnosis.json",
+    "docs/experiments/m3_8f_r1/frontend.txt",
+    "docs/experiments/m3_8f_r1/native_log_excerpts.json",
+    "docs/experiments/m3_8f_r1/obsidian_audit.json",
+    "docs/experiments/m3_8f_r1/offline_diagnosis.json",
+    "docs/experiments/m3_8f_r1/pytest_full.txt",
+    "docs/experiments/m3_8f_r1/pytest_new.txt",
+    "docs/experiments/m3_8f_r1/source_inventory.json",
+    "docs/experiments/m3_8f_r1/verification.json",
+    "tests/test_t08_diagnostics.py",
+    "tools/diagnose_t08.py"
+  ],
+  "release_sha256": {
+    "data/releases/ansan-youth-2026-10-20-001/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json": "9c6e22ddc1c936e365ecb9b3be355a73f8cfbdc6f02f99d66e2fb843e0187025",
+    "data/releases/ansan-youth-2026-10-20-001/README.md": "4183c73c37d3cb7ec76bad21656b50a2c41b064e1298c2d4934db0d4e536a09f",
+    "data/releases/ansan-youth-2026-10-20-001/sources.json": "a47e53da0b298c93c1ad04480e8c7fed96f2e45144ad4d58991c9ec86aaa9e3b",
+    "data/releases/ansan-youth-2026-10-20-002/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json": "d4aaa62f1a1c46392af213c05c6e24ff59e44f17333f3b3785bde2d4b3161e92",
+    "data/releases/ansan-youth-2026-10-20-002/README.md": "8955e554cd484240f0d8dddffec5494d342c2b5732e789666b45eb261b58ca99",
+    "data/releases/ansan-youth-2026-10-20-002/sources.json": "711f1e3bbb8ddb4bcbaaddd189b6f35f7c9a6ef8b4a81f0208e4dd818629e620"
+  },
+  "source_logs_unchanged": true,
+  "coverage_freeze": "UNCHANGED",
+  "golden_GV01_GV15_BV01_BV16": "UNCHANGED",
+  "original_ab_7_pairs_and_T08_ground_truth_unchanged": true,
+  "actual_model_runs": 0,
+  "actual_participants": 0,
+  "real_responses": 0
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "policy-data-1.0",
+  "rule_schema_version": "m1.1",
+  "policy_id": "SYNTH-POLICY-001",
+  "edition_id": "2026",
+  "jurisdiction": {"sido": "SEOUL", "sigungu": "JONGNO"},
+  "category": "YOUTH_SUPPORT",
+  "dataset_version": "synthetic-edition-001",
+  "evaluation_scope": "CONDITION_SLICE",
+  "coverage": {
+    "included_rule_ids": ["SYNTH-ATOM", "SYNTH-RESIDENT"],
+    "excluded_conditions": ["합성 미구현 조건"]
+  },
+  "source_bindings": [
+    {"source_document_id": "SYNTH-SOURCE-001", "document_version": "d0001"}
+  ],
+  "verification_status": "DRAFT",
+  "last_verified_at": "2026-01-10",
+  "lifecycle_status": "ACTIVE",
+  "effective_from": "2026-01-01",
+  "effective_to": "2026-12-31",
+  "synthetic": true,
+  "test_only": true,
+  "policy": {
+    "policy_id": "SYNTH-POLICY-001",
+    "policy_name": "합성 test_only 정책",
+    "rule_version": "r0001",
+    "synthetic": true,
+    "test_only": true,
+    "root": {
+      "kind": "group",
+      "rule_id": "SYNTH-ROOT",
+      "operator": "ALL",
+      "children": [
+        {
+          "kind": "rule",
+          "rule_type": "atomic",
+          "rule_id": "SYNTH-ATOM",
+          "field": "age",
+          "operator": "gte",
+          "value": 19,
+          "evidence_refs": ["SYNTH-SOURCE-001#application-period"]
+        },
+        {
+          "kind": "rule",
+          "rule_type": "resident_registration",
+          "rule_id": "SYNTH-RESIDENT",
+          "required_region": {"sido": "SEOUL", "sigungu": "JONGNO"},
+          "reference_date_source": "APPLICATION_DATE",
+          "evidence_refs": ["SYNTH-SOURCE-001#eligibility-residence"]
+        }
+      ]
+    }
+  }
+}

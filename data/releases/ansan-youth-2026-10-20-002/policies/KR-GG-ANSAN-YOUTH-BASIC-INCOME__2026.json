@@ -1,0 +1,90 @@
+{
+  "schema_version": "policy-data-1.0",
+  "rule_schema_version": "m1.1",
+  "policy_id": "KR-GG-ANSAN-YOUTH-BASIC-INCOME",
+  "edition_id": "2026",
+  "jurisdiction": {
+    "sido": "GYEONGGI",
+    "sigungu": "ANSAN"
+  },
+  "category": "YOUTH_SUPPORT",
+  "dataset_version": "ansan-youth-2026-10-20-002",
+  "evaluation_scope": "CONDITION_SLICE",
+  "coverage": {
+    "included_rule_ids": [
+      "ANSAN_YBI_2026_RESIDENT_AT_APPLICATION",
+      "ANSAN_YBI_2026_Q3_BIRTH_RANGE"
+    ],
+    "excluded_conditions": [
+      "2026 Q1·Q2·Q4 생년월일 조건 및 연간 전체 판정·분기 자동선택",
+      "경기도 최근 연속 3년 주민등록 거주기간",
+      "경기도 합산 10년 주민등록 거주기간",
+      "등록분류·국적 및 귀화일에 따른 인정기간",
+      "분기별 신청기간·시각·ApplicationWindow",
+      "자동신청·소급신청·제출서류·대리신청 절차",
+      "지원금·지급분기·일시금 예외 계산"
+    ]
+  },
+  "source_bindings": [
+    {
+      "source_document_id": "ANSAN-2026-399-HWP",
+      "document_version": "d0002"
+    },
+    {
+      "source_document_id": "ANSAN-C0001545",
+      "document_version": "d0002"
+    },
+    {
+      "source_document_id": "ANSAN-B0238-1681390",
+      "document_version": "d0002"
+    }
+  ],
+  "verification_status": "DRAFT",
+  "last_verified_at": "2026-10-20",
+  "lifecycle_status": "ACTIVE",
+  "effective_from": null,
+  "effective_to": null,
+  "synthetic": false,
+  "test_only": false,
+  "policy": {
+    "policy_id": "KR-GG-ANSAN-YOUTH-BASIC-INCOME",
+    "policy_name": "2026년 안산시 청년기본소득 — 3분기 주민등록·생년월일 조건 일부",
+    "rule_version": "r0002",
+    "synthetic": false,
+    "test_only": false,
+    "root": {
+      "kind": "group",
+      "rule_id": "ANSAN_YBI_2026_Q3_IMPLEMENTED_SLICE",
+      "operator": "ALL",
+      "children": [
+        {
+          "kind": "rule",
+          "rule_type": "resident_registration",
+          "rule_id": "ANSAN_YBI_2026_RESIDENT_AT_APPLICATION",
+          "required_region": {
+            "sido": "GYEONGGI",
+            "sigungu": "ANSAN"
+          },
+          "reference_date_source": "APPLICATION_DATE",
+          "evidence_refs": [
+            "ANSAN-2026-399-HWP#eligibility-resident-registration",
+            "ANSAN-C0001545#eligibility-resident-registration",
+            "ANSAN-B0238-1681390#eligibility-resident-registration"
+          ]
+        },
+        {
+          "kind": "rule",
+          "rule_type": "birth_date",
+          "rule_id": "ANSAN_YBI_2026_Q3_BIRTH_RANGE",
+          "min_birth_date": "2001-07-02",
+          "max_birth_date": "2002-07-01",
+          "evidence_refs": [
+            "ANSAN-2026-399-HWP#eligibility-birth-date-2026-q3",
+            "ANSAN-C0001545#eligibility-birth-date-2026-q3",
+            "ANSAN-B0238-1681390#eligibility-birth-date-2026-q3"
+          ]
+        }
+      ]
+    }
+  }
+}

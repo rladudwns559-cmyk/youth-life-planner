@@ -1,0 +1,52 @@
+{
+  "schema_version": "policy-data-1.0",
+  "rule_schema_version": "m1.1",
+  "policy_id": "KR-GG-ANSAN-YOUTH-BASIC-INCOME",
+  "edition_id": "2026",
+  "jurisdiction": {"sido": "GYEONGGI", "sigungu": "ANSAN"},
+  "category": "YOUTH_SUPPORT",
+  "dataset_version": "ansan-youth-2026-10-20-001",
+  "evaluation_scope": "CONDITION_SLICE",
+  "coverage": {
+    "included_rule_ids": ["ANSAN_YBI_2026_RESIDENT_AT_APPLICATION"],
+    "excluded_conditions": [
+      "분기별 연령·생년월일",
+      "경기도 최근 연속 3년 또는 합산 10년 주민등록 거주이력",
+      "등록분류·국적 및 귀화일에 따른 인정기간",
+      "분기별 신청기간·시각·ApplicationWindow",
+      "자동신청·소급신청·제출서류·대리신청 절차",
+      "지원금·지급분기·일시금 예외 계산"
+    ]
+  },
+  "source_bindings": [
+    {"source_document_id": "ANSAN-2026-399-HWP", "document_version": "d0001"},
+    {"source_document_id": "ANSAN-C0001545", "document_version": "d0001"},
+    {"source_document_id": "ANSAN-B0238-1681390", "document_version": "d0001"}
+  ],
+  "verification_status": "DRAFT",
+  "last_verified_at": "2026-10-20",
+  "lifecycle_status": "ACTIVE",
+  "effective_from": null,
+  "effective_to": null,
+  "synthetic": false,
+  "test_only": false,
+  "policy": {
+    "policy_id": "KR-GG-ANSAN-YOUTH-BASIC-INCOME",
+    "policy_name": "2026년 안산시 청년기본소득",
+    "rule_version": "r0001",
+    "synthetic": false,
+    "test_only": false,
+    "root": {
+      "kind": "rule",
+      "rule_type": "resident_registration",
+      "rule_id": "ANSAN_YBI_2026_RESIDENT_AT_APPLICATION",
+      "required_region": {"sido": "GYEONGGI", "sigungu": "ANSAN"},
+      "reference_date_source": "APPLICATION_DATE",
+      "evidence_refs": [
+        "ANSAN-2026-399-HWP#eligibility-resident-registration",
+        "ANSAN-C0001545#eligibility-resident-registration",
+        "ANSAN-B0238-1681390#eligibility-resident-registration"
+      ]
+    }
+  }
+}

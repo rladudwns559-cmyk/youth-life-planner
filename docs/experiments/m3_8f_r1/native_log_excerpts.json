@@ -1,0 +1,99 @@
+{
+  "source": {
+    "sha256": "ed6af194eabd0a144e1932c80437a7c7d44af304c9b1d2cc8c11d8d455c491cc",
+    "size": 67965,
+    "mtime_ns": 1792986079170731600
+  },
+  "original_log": "WORK/tmp/m38f-ollama-server.txt",
+  "new_runtime_execution": false,
+  "excerpts": [
+    {
+      "original_line": 11,
+      "text": "time=2026-10-26T12:37:05.325+09:00 level=INFO source=llama_server.go:457 msg=\"starting llama-server\" cmd=\"C:\\\\Users\\\\김영준\\\\Documents\\\\ChatGPT\\\\AI+X채팅\\\\local-runtime\\\\ollama-v0.40.11\\\\lib\\\\ollama\\\\llama-server.exe --model C:\\\\Users\\\\김영준\\\\Documents\\\\ChatGPT\\\\AI+X채팅\\\\local-runtime\\\\models\\\\blobs\\\\sha256-85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9 --port 62254 --host 127.0.0.1 --no-webui --offline -c 16384 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --load-mode none --flash-attn auto -b 1024 -ub 1024 --context-shift --keep 4\""
+    },
+    {
+      "original_line": 12,
+      "text": "time=2026-10-26T12:37:05.337+09:00 level=INFO source=sched.go:658 msg=\"system memory\" total=\"15.3 GiB\" free=\"1.2 GiB\" free_swap=\"2.4 GiB\""
+    },
+    {
+      "original_line": 230,
+      "text": "time=2026-10-26T12:37:09.663+09:00 level=INFO source=llama_server.go:1408 msg=\"llama-server started in 4.33 seconds\""
+    },
+    {
+      "original_line": 234,
+      "text": "time=2026-10-26T12:37:09.668+09:00 level=INFO source=llama_server.go:1408 msg=\"llama-server started in 4.33 seconds\""
+    },
+    {
+      "original_line": 237,
+      "text": "time=2026-10-26T12:37:12.256+09:00 level=INFO source=llama_server.go:457 msg=\"starting llama-server\" cmd=\"C:\\\\Users\\\\김영준\\\\Documents\\\\ChatGPT\\\\AI+X채팅\\\\local-runtime\\\\ollama-v0.40.11\\\\lib\\\\ollama\\\\llama-server.exe --model C:\\\\Users\\\\김영준\\\\Documents\\\\ChatGPT\\\\AI+X채팅\\\\local-runtime\\\\models\\\\blobs\\\\sha256-85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9 --port 62279 --host 127.0.0.1 --no-webui --offline -c 16384 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --load-mode none --flash-attn auto -b 1024 -ub 1024\""
+    },
+    {
+      "original_line": 238,
+      "text": "time=2026-10-26T12:37:12.267+09:00 level=INFO source=sched.go:658 msg=\"system memory\" total=\"15.3 GiB\" free=\"1.3 GiB\" free_swap=\"5.9 GiB\""
+    },
+    {
+      "original_line": 433,
+      "text": "time=2026-10-26T12:37:15.799+09:00 level=WARN source=llama_server.go:1347 msg=\"client connection closed before llama-server finished loading, aborting load\""
+    },
+    {
+      "original_line": 434,
+      "text": "time=2026-10-26T12:37:15.799+09:00 level=INFO source=sched.go:686 msg=\"Load failed\" model=C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\local-runtime\\models\\blobs\\sha256-85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9 error=\"timed out waiting for llama-server to start: context canceled\""
+    },
+    {
+      "original_line": 437,
+      "text": "time=2026-10-26T12:40:58.001+09:00 level=INFO source=llama_server.go:457 msg=\"starting llama-server\" cmd=\"C:\\\\Users\\\\김영준\\\\Documents\\\\ChatGPT\\\\AI+X채팅\\\\local-runtime\\\\ollama-v0.40.11\\\\lib\\\\ollama\\\\llama-server.exe --model C:\\\\Users\\\\김영준\\\\Documents\\\\ChatGPT\\\\AI+X채팅\\\\local-runtime\\\\models\\\\blobs\\\\sha256-85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9 --port 60854 --host 127.0.0.1 --no-webui --offline -c 16384 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --load-mode none --flash-attn auto -b 1024 -ub 1024 --context-shift --keep 4\""
+    },
+    {
+      "original_line": 438,
+      "text": "time=2026-10-26T12:40:58.013+09:00 level=INFO source=sched.go:658 msg=\"system memory\" total=\"15.3 GiB\" free=\"2.3 GiB\" free_swap=\"5.6 GiB\""
+    },
+    {
+      "original_line": 595,
+      "text": "time=2026-10-26T12:41:02.555+09:00 level=WARN source=llama_server.go:1347 msg=\"client connection closed before llama-server finished loading, aborting load\""
+    },
+    {
+      "original_line": 596,
+      "text": "time=2026-10-26T12:41:02.555+09:00 level=INFO source=sched.go:686 msg=\"Load failed\" model=C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\local-runtime\\models\\blobs\\sha256-85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9 error=\"timed out waiting for llama-server to start: context canceled\""
+    },
+    {
+      "original_line": 599,
+      "text": "time=2026-10-26T12:41:14.090+09:00 level=INFO source=llama_server.go:457 msg=\"starting llama-server\" cmd=\"C:\\\\Users\\\\김영준\\\\Documents\\\\ChatGPT\\\\AI+X채팅\\\\local-runtime\\\\ollama-v0.40.11\\\\lib\\\\ollama\\\\llama-server.exe --model C:\\\\Users\\\\김영준\\\\Documents\\\\ChatGPT\\\\AI+X채팅\\\\local-runtime\\\\models\\\\blobs\\\\sha256-85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9 --port 60901 --host 127.0.0.1 --no-webui --offline -c 16384 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --load-mode none --flash-attn auto -b 1024 -ub 1024\""
+    },
+    {
+      "original_line": 600,
+      "text": "time=2026-10-26T12:41:14.099+09:00 level=INFO source=sched.go:658 msg=\"system memory\" total=\"15.3 GiB\" free=\"2.7 GiB\" free_swap=\"5.7 GiB\""
+    },
+    {
+      "original_line": 818,
+      "text": "time=2026-10-26T12:41:17.631+09:00 level=INFO source=llama_server.go:1408 msg=\"llama-server started in 3.53 seconds\""
+    },
+    {
+      "original_line": 822,
+      "text": "time=2026-10-26T12:41:17.633+09:00 level=INFO source=llama_server.go:1408 msg=\"llama-server started in 3.53 seconds\""
+    },
+    {
+      "original_line": 836,
+      "text": "slot launch_slot_: id  0 | task 0 | processing task, is_child = 0"
+    },
+    {
+      "original_line": 837,
+      "text": "slot   operator(): id  0 | task 0 | new prompt, n_ctx_slot = 16384, n_keep = 4, task.n_tokens = 250"
+    },
+    {
+      "original_line": 838,
+      "text": "slot   operator(): id  0 | task 0 | cached n_tokens = 0, memory_seq_rm [0, end)"
+    },
+    {
+      "original_line": 839,
+      "text": "slot init_sampler: id  0 | task 0 | init sampler, took 0.05 ms, tokens: text = 250, total = 250"
+    },
+    {
+      "original_line": 840,
+      "text": "srv          stop: cancel task, id_task = 0"
+    },
+    {
+      "original_line": 841,
+      "text": "slot      release: id  0 | task 0 | stop processing: n_tokens = 342, truncated = 0"
+    }
+  ]
+}

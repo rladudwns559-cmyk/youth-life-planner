@@ -1,0 +1,28 @@
+# PROPOSED PAID RESOURCES. Do not apply before the user accepts the cost.
+# Base estimate checked 2026-10-30: Starter $7/month + 1GB disk $0.25/month.
+# Taxes, exchange rates and usage beyond workspace allowances are additional.
+services:
+  - type: web
+    name: youth-life-planner-api
+    runtime: docker
+    plan: starter
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    numInstances: 1
+    autoDeployTrigger: "off"
+    maxShutdownDelaySeconds: 180
+    disk:
+      name: youth-life-private-state
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: AIX_ENV
+        value: production
+      - key: ASSET_ALERTS_AUTO_REFRESH
+        value: "1"
+      - key: ASSET_ALERTS_STATE_DIR
+        value: /var/data/asset-alerts
+      - key: WEB_BUILD_DIR
+        value: /app/web

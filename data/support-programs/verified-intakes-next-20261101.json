@@ -1,0 +1,2773 @@
+{
+  "programs": [
+    {
+      "program_id": "NOV2-SONGPA-AI-2026",
+      "title": "송파 청년 구직자 AI 역량검사 무료 체험",
+      "authority": "송파구청 청년일자리팀",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "서울"
+      ],
+      "city": "송파구",
+      "benefit_summary": "온라인으로 AI 면접을 연습할 수 있는 무료 체험 코드를 신청합니다.",
+      "age_note": "청년 구직자가 대상이고 송파구 청년은 체험권 발급 때 우대합니다. 공식 신청창에서 수치 나이 기준은 추가 확인합니다.",
+      "income_note": "생활비 월소득으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "구직 여부·송파구 청년 우대 조건",
+        "체험 코드 수신·발급 가능 여부"
+      ],
+      "schedule_note": "1월 28일까지 모집으로 표시됩니다. 접수 후 체험 코드 발급은 구청이 안내합니다.",
+      "starts_on": "2026-02-02",
+      "ends_on": "2027-01-28",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.songpa.go.kr/job/jobWebProgramView.do?key=5963&nttNo=176&pageIndex=1",
+          "title": "송파구 일자리 · AI 면접 체험",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "모집기간·청년 대상·송파구 청년 우대·신청 창구"
+        },
+        {
+          "url": "https://www.songpa.go.kr/www/recptApplStep1.do?recptNo=609&sc3=Y&key=2173",
+          "title": "송파구청 온라인접수 · AI 역량검사 무료체험",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업명·체험코드 발급 안내·개별 신청 첫 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "NOV2-POCHEON-AI-2026",
+      "title": "포천 취준에 AI 한 스푼 · 모의면접과 자기소개서",
+      "authority": "포천시 청년센터",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "포천시",
+      "benefit_summary": "구직 청년에게 AI 모의면접·역량평가와 자기소개서 첨삭용 계정을 무료 제공합니다.",
+      "age_note": "취업을 준비하는 만 18~34세 청년 100명 대상입니다.",
+      "income_note": "생활비 월소득으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "신청 뒤 일주일 이내 포천청년센터 방문",
+        "선착순 발급 가능 여부 및 계정 이용기간"
+      ],
+      "schedule_note": "가입 양식에 고정 접수 종료일이 없습니다. 계정은 발급일로부터 2026년 12월 31일까지 이용하며 정원에 따라 일찍 마감될 수 있습니다.",
+      "starts_on": "2026-10-30",
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.pocheon.go.kr/newsvision/selectBbsNttView.do?key=47602&bbsNo=1990&nttNo=805815",
+          "title": "포천시 청년센터 · 취준에 AI 한 스푼",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "대상·무료 제공 서비스·방문 필수·공식 신청 링크"
+        },
+        {
+          "url": "https://form.naver.com/response/FTGatmvZAu3",
+          "title": "포천센터 지정 네이버폼 · AI 무료 이용 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "센터 공식 링크의 폼 제목·공개 응답 진행 상태"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "NOV2-GURI-NOV-2026",
+      "title": "구리 청년성장프로젝트 · 11월 진로·생활 프로그램",
+      "authority": "구리시·고용노동부 / 광운대학교 산학협력단",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "구리시",
+      "benefit_summary": "청년내일센터에서 전통 꽃차, 진로 탐색, 온라인 쇼핑몰 기초 등 희망 프로그램을 무료로 신청할 수 있습니다.",
+      "age_note": "구리시에 살거나 구리에서 활동하는 만 15~39세 미취업 청년입니다.",
+      "income_note": "생활비 월소득으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "신규 참여자의 고용24 초기상담",
+        "청년도전지원사업 중복 여부·회차별 정원·잔여석"
+      ],
+      "schedule_note": "11월 회차마다 행사 3일 전 신청 마감입니다. 마지막 11월 28일 회차의 접수 기준은 11월 25일이며 먼저 마감되는 수업이 있습니다.",
+      "starts_on": null,
+      "ends_on": "2026-11-25",
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81612610289045",
+          "title": "고용24 · 구리시 11월 청년 프로그램 접수 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQPbkmCiifvfe662q8mrkgiO3SM_vXvAdykKVVkm9O2Qt-tw/viewform?usp=send_form",
+          "title": "구리시 청년성장프로젝트 운영팀 11월 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "마감 시점·구리 거주 또는 활동·미취업·복수 참여·실제 신청 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "NOV2-GURI-COUNSEL-2026",
+      "title": "구리 청년성장프로젝트 · 1대1 진로 초기상담",
+      "authority": "구리시 청년성장프로젝트 / 광운대학교 산학협력단",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "구리시",
+      "benefit_summary": "현재 고민과 구직 상황을 상담하고 이후 이용할 청년성장프로그램을 함께 정합니다.",
+      "age_note": "구리 거주 또는 생활권의 만 15~39세 미취업 청년 대상입니다.",
+      "income_note": "생활비 월소득으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "구리 생활권·미취업 여부",
+        "접수 후 평일 상담 시간을 개별 조율"
+      ],
+      "schedule_note": "고용24에서 상시 신청을 받습니다. 12월 31일은 사업 운영 종료일이며 실제 가능한 상담일은 개별 조율합니다.",
+      "starts_on": null,
+      "ends_on": "2026-12-31",
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81612604141081",
+          "title": "고용24 · 구리시 1대1 진로 초기상담",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "NOV2-PAJU-JOB-2026",
+      "title": "파주 청년카페 · 취업저격 4기",
+      "authority": "파주시 청년성장프로젝트 / 지에스씨넷 파주지점",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "파주시",
+      "benefit_summary": "11월 9~24일 여섯 차례 진로·자기소개서·면접을 연습하고 지역 기업을 탐방합니다.",
+      "age_note": "공식 신청 양식에 만 15~39세 미취업 청년으로 표시됩니다. 거주·생활권 우선순위는 확인이 필요합니다.",
+      "income_note": "생활비 월소득으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "참여 전 1대1 상담·노트북 지참",
+        "6회 참여 및 기업탐방 시간"
+      ],
+      "schedule_note": "11월 해당 회차를 선택해 선착순으로 접수합니다. 잔여석과 정확한 신청 종료 시각은 운영처에 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81692610086575",
+          "title": "고용24 · 파주 청년카페 · 취업저격 4기",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSdLNc0ASO0VV7Wcv0mO29afiD7ye7izs8JybfjWquEPruBi0g/viewform",
+          "title": "파주시 청년성장프로젝트 11월 프로그램 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "고용노동부·파주시 지원, 참여 대상·회차 선택·다음 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "NOV2-PAJU-HEAL-2026",
+      "title": "파주 청년카페 · 색과 향기로 만나는 나의 마음",
+      "authority": "파주시 청년성장프로젝트 / 지에스씨넷 파주지점",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "파주시",
+      "benefit_summary": "파주시가족센터에서 11월 19일 색을 활용해 감정을 살피고 석고 방향제를 만듭니다.",
+      "age_note": "공식 신청 양식에 만 15~39세 미취업 청년으로 표시됩니다. 거주·생활권 우선순위는 확인이 필요합니다.",
+      "income_note": "생활비 월소득으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "파주시가족센터 11월 19일 오후 대면 참여",
+        "신청 후 유선 개별 선정 안내"
+      ],
+      "schedule_note": "11월 해당 회차를 선택해 선착순으로 접수합니다. 잔여석과 정확한 신청 종료 시각은 운영처에 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81692610137053",
+          "title": "고용24 · 파주 청년카페 · 색과 향기로 만나는 나의 마음",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        },
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSdLNc0ASO0VV7Wcv0mO29afiD7ye7izs8JybfjWquEPruBi0g/viewform",
+          "title": "파주시 청년성장프로젝트 11월 프로그램 신청서",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "고용노동부·파주시 지원, 참여 대상·회차 선택·다음 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "NOV2-GURO-COUNSEL-2026",
+      "title": "구로 청년이룸 · 1대1 진로·정책 상담",
+      "authority": "구로 청년이룸",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "서울"
+      ],
+      "city": "구로구",
+      "benefit_summary": "취업 준비 단계를 살피고 이용할 청년 정책과 프로그램을 개별 상담합니다.",
+      "age_note": "청년 구직자를 위한 서비스입니다. 수치 연령·거주지 제한은 개별 확인이 필요합니다.",
+      "income_note": "생활비 월소득으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "희망 이용일 최소 일주일 전에 신청",
+        "구로 청년이룸 방문·담당자 일정 조율"
+      ],
+      "schedule_note": "3~12월 평일에 운영하는 상시 프로그램입니다. 이용일 일주일 전까지 신청하고 일정을 조율합니다.",
+      "starts_on": null,
+      "ends_on": "2026-12-31",
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81592603279001",
+          "title": "고용24 · 구로 청년이룸 · 1대1 진로·정책 상담",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "NOV2-GURO-VR-2026",
+      "title": "구로 청년이룸 · 이루JOB 가상 면접",
+      "authority": "구로 청년이룸",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "서울"
+      ],
+      "city": "구로구",
+      "benefit_summary": "가상 면접을 반복 연습하고 담당자와 답변 보완·자기소개서 관련 꼬리 질문을 연습합니다.",
+      "age_note": "청년 구직자를 위한 서비스입니다. 수치 연령·거주지 제한은 개별 확인이 필요합니다.",
+      "income_note": "생활비 월소득으로 공식 자격이나 선정을 확정하지 않습니다.",
+      "required_checks": [
+        "희망 이용일 최소 일주일 전에 신청",
+        "구로 청년이룸 방문·담당자 일정 조율"
+      ],
+      "schedule_note": "3~12월 평일에 운영하는 상시 프로그램입니다. 이용일 일주일 전까지 신청하고 일정을 조율합니다.",
+      "starts_on": null,
+      "ends_on": "2026-12-31",
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81592603278943",
+          "title": "고용24 · 구로 청년이룸 · 이루JOB 가상 면접",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-NAJU-ACTIVITY-2026",
+      "title": "나주시 청년 활력소득 · 4분기",
+      "authority": "나주시 청년인구팀",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "전남"
+      ],
+      "city": "나주시",
+      "benefit_summary": "지정된 공공기여 활동에 참여한 청년을 심사해 분기당 30만 원을 나주사랑상품권 모바일 포인트로 지급합니다.",
+      "age_note": "공고 기준 2002년생입니다. 현재 만 나이로 생년을 확정할 수 없는 경계는 추가 확인합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "공고일 기준 최근 1년 이상 나주시 주민등록 및 계속 거주",
+        "최초 신청·기존 신청 구분에 따른 활동 실적 증빙",
+        "분기별 인정 활동과 제출서류 심사"
+      ],
+      "schedule_note": "4분기는 10월 7일~11월 13일입니다. 누리집 온라인 또는 주소지 행정복지센터 방문 접수를 안내합니다.",
+      "starts_on": "2026-10-07",
+      "ends_on": "2026-11-13",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.naju.go.kr/najuyouth/policy/energy/youth",
+          "title": "나주시 청년활력소득 공식 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청 절차 및 대상·분기별 지원액"
+        },
+        {
+          "url": "https://www.naju.go.kr/najuyouth/community/notice?idx=611982&mode=view",
+          "title": "나주시 4분기 모집 공고",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "2026년 4분기 신청기간·연령·연속 거주·활동"
+        },
+        {
+          "url": "https://www.naju.go.kr/najuyouth/policy/index",
+          "title": "나주시 공식 지원사업 접수대장",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "청년활력소득 행에 접수중·4분기 날짜·신청하기 표시"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-NAJU-PHOTO-2026",
+      "title": "나주시 구직 청년 면접사진 촬영",
+      "authority": "나주시 청년센터",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "전남"
+      ],
+      "city": "나주시",
+      "benefit_summary": "지정 사진관에서 연 1회 면접사진을 촬영하며 기본 사진과 파일을 제공합니다.",
+      "age_note": "공고상 1981~2008년생을 확인합니다. 나주시 거주 또는 나주 소재 대학교 재학·휴학·졸업한 미취업 구직 청년 대상입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "미취업 구직 증빙 및 주민등록 또는 관내 대학 경로",
+        "희망 촬영일 일주일 전까지 신청",
+        "취업 공고문·이력서와 구직 증빙, 사진관 일정"
+      ],
+      "schedule_note": "사업 공고 기간은 1월 20일~12월 31일입니다. 접수대장에 접수중으로 표시되며 예산 소진 시 조기 종료됩니다.",
+      "starts_on": "2026-01-20",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.naju.go.kr/najuyouth/policy/dream_room/photo",
+          "title": "나주시 구직 청년 면접사진 촬영 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "온라인 신청, 1981~2008년생, 대상·지원 범위"
+        },
+        {
+          "url": "https://www.naju.go.kr/najuyouth/policy/index",
+          "title": "나주시 청년센터 공식 접수대장",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "면접사진 및 정장대여 개별 행의 접수중 상태"
+        },
+        {
+          "url": "https://www.naju.go.kr/najuyouth/community/notice?idx=597302&mode=view",
+          "title": "2026년 꿈이룸서비스 모집 공고",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "전체 운영기간과 예산 소진 시 조기 종료"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-NAJU-SUIT-2026",
+      "title": "나주시 구직 청년 면접정장 대여",
+      "authority": "나주시 청년센터",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "전남"
+      ],
+      "city": "나주시",
+      "benefit_summary": "면접용 정장과 신발 등을 3박 4일간 빌릴 수 있으며 연간 최대 3회입니다.",
+      "age_note": "공고상 1981~2008년생을 확인합니다. 나주시 거주 또는 나주 소재 대학교 재학·휴학·졸업한 미취업 구직 청년 대상입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "미취업 구직 증빙 및 주민등록 또는 관내 대학 경로",
+        "실제 면접 확인 자료와 대여 가능 사이즈",
+        "센터 평일 수령·반납 및 대여 가능일"
+      ],
+      "schedule_note": "사업 공고 기간은 1월 20일~12월 31일입니다. 접수대장에 접수중으로 표시되며 예산 소진 시 조기 종료됩니다.",
+      "starts_on": "2026-01-20",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.naju.go.kr/najuyouth/policy/dream_room/suit",
+          "title": "나주시 구직 청년 면접정장 대여 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "온라인 신청, 1981~2008년생, 대상·지원 범위"
+        },
+        {
+          "url": "https://www.naju.go.kr/najuyouth/policy/index",
+          "title": "나주시 청년센터 공식 접수대장",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "면접사진 및 정장대여 개별 행의 접수중 상태"
+        },
+        {
+          "url": "https://www.naju.go.kr/najuyouth/community/notice?idx=597302&mode=view",
+          "title": "2026년 꿈이룸서비스 모집 공고",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "전체 운영기간과 예산 소진 시 조기 종료"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-CSPP81882610086579-2026",
+      "title": "공주시 청년센터 정착나침반 · 공방 창업과 도예",
+      "authority": "공주시청년센터",
+      "edition": "2026년 모집",
+      "category": "EDUCATION",
+      "provinces": [
+        "충남"
+      ],
+      "city": "공주시",
+      "benefit_summary": "공방 창업 상담과 도자기 소품·접시 제작을 이틀간 경험합니다.",
+      "age_note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "공주시 청년센터의 참여 대상 및 생활권 요건",
+        "참여 전 초기상담 필요 여부·정원·선정 회신"
+      ],
+      "schedule_note": "11월 9·10일 저녁에 일상세라믹 공방에서 진행합니다. 신청 마감 시각은 별도 표시가 없어 센터에서 확인합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81882610086579",
+          "title": "고용24 · 공주시 청년센터 정착나침반 · 공방 창업과 도예",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-CSPP81932603258763-2026",
+      "title": "제천시 청년센터 1대1 진로 초기상담",
+      "authority": "제천복지재단 제천시청년센터",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "충북"
+      ],
+      "city": "제천시",
+      "benefit_summary": "상담 후 개인별로 월별 청년성장프로젝트 참여 일정을 설계합니다.",
+      "age_note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "제천시 청년센터의 참여 대상 및 생활권 요건",
+        "참여 전 초기상담 필요 여부·정원·선정 회신"
+      ],
+      "schedule_note": "운영은 12월 31일까지이며, 초기상담 일정은 센터가 개별 연락해 조율합니다. 신청 마감 시각은 별도 표시가 없어 센터에서 확인합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81932603258763",
+          "title": "고용24 · 제천시 청년센터 1대1 진로 초기상담",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-CSPP81862605114341-2026",
+      "title": "남원 청년마루 · 청년 커리어 체크인",
+      "authority": "남원 청년·창업센터 청년마루",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "전북"
+      ],
+      "city": "남원시",
+      "benefit_summary": "진로 적성과 경력을 바탕으로 개인별 진로·취업·창업 방향을 상담합니다.",
+      "age_note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "남원시 청년센터의 참여 대상 및 생활권 요건",
+        "참여 전 초기상담 필요 여부·정원·선정 회신"
+      ],
+      "schedule_note": "고용24에 12월 31일까지 운영하는 초기상담으로 안내돼 있습니다. 신청 마감 시각은 별도 표시가 없어 센터에서 확인합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81862605114341",
+          "title": "고용24 · 남원 청년마루 · 청년 커리어 체크인",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-CSPP81842603187841-2026",
+      "title": "장성군 청년카페 아우름 초기상담",
+      "authority": "전남고용노동연구원 장성 청년카페",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "전남"
+      ],
+      "city": "장성군",
+      "benefit_summary": "센터에서 상담하고 맞춤 프로그램을 안내합니다.",
+      "age_note": "장성군에 거주하거나 직장·활동 기반이 있는 15~49세 청년입니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "장성군 거주 또는 직장·활동 증빙",
+        "개인별 상담 일정과 담당자 회신"
+      ],
+      "schedule_note": "올해 12월 31일까지 평일에 프로그램을 운영합니다. 신청 마감 시각은 별도 표시가 없어 센터에서 확인합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842603187841",
+          "title": "고용24 · 장성군 청년카페 아우름 초기상담",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289037-2026",
+      "title": "장성 청년카페 · AI 업무 도우미 만들기",
+      "authority": "전남고용노동연구원 장성 청년카페",
+      "edition": "2026년 모집",
+      "category": "EDUCATION",
+      "provinces": [
+        "전남"
+      ],
+      "city": "장성군",
+      "benefit_summary": "데이터 분석과 개인 업무 도우미 제작을 배웁니다.",
+      "age_note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "장성군 청년센터의 참여 대상 및 생활권 요건",
+        "참여 전 초기상담 필요 여부·정원·선정 회신"
+      ],
+      "schedule_note": "11월 18~20일 대면 수업입니다. 신청 마감 시각은 별도 표시가 없어 센터에서 확인합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289037",
+          "title": "고용24 · 장성 청년카페 · AI 업무 도우미 만들기",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289054-2026",
+      "title": "장성 청년카페 · 오늘 배워 바로 쓰는 AI",
+      "authority": "전남고용노동연구원 장성 청년카페",
+      "edition": "2026년 모집",
+      "category": "EDUCATION",
+      "provinces": [
+        "전남"
+      ],
+      "city": "장성군",
+      "benefit_summary": "생성형 AI를 생활과 업무에 적용하는 기초 실습입니다.",
+      "age_note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "장성군 청년센터의 참여 대상 및 생활권 요건",
+        "참여 전 초기상담 필요 여부·정원·선정 회신"
+      ],
+      "schedule_note": "11월 16·17일 대면 수업입니다. 신청 마감 시각은 별도 표시가 없어 센터에서 확인합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289054",
+          "title": "고용24 · 장성 청년카페 · 오늘 배워 바로 쓰는 AI",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289059-2026",
+      "title": "장성 청년카페 · 방송 소품 제작과 브랜드 창업",
+      "authority": "전남고용노동연구원 장성 청년카페",
+      "edition": "2026년 모집",
+      "category": "EDUCATION",
+      "provinces": [
+        "전남"
+      ],
+      "city": "장성군",
+      "benefit_summary": "브랜드 창업 사례를 듣고 방송에 쓰인 유형의 소품을 직접 제작합니다.",
+      "age_note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "장성군 청년센터의 참여 대상 및 생활권 요건",
+        "참여 전 초기상담 필요 여부·정원·선정 회신"
+      ],
+      "schedule_note": "11월 23·24일 대면 수업입니다. 신청 마감 시각은 별도 표시가 없어 센터에서 확인합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289059",
+          "title": "고용24 · 장성 청년카페 · 방송 소품 제작과 브랜드 창업",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289040-2026",
+      "title": "장성 청년카페 · 향으로 기분전환 2차",
+      "authority": "전남고용노동연구원 장성 청년카페",
+      "edition": "2026년 모집",
+      "category": "CULTURE",
+      "provinces": [
+        "전남"
+      ],
+      "city": "장성군",
+      "benefit_summary": "아로마테라피를 체험하는 청년 힐링 수업입니다.",
+      "age_note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "장성군 청년센터의 참여 대상 및 생활권 요건",
+        "참여 전 초기상담 필요 여부·정원·선정 회신"
+      ],
+      "schedule_note": "11월 17일 대면 수업입니다. 신청 마감 시각은 별도 표시가 없어 센터에서 확인합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289040",
+          "title": "고용24 · 장성 청년카페 · 향으로 기분전환 2차",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289036-2026",
+      "title": "장성 청년카페 · 드립 커피 체험",
+      "authority": "전남고용노동연구원 장성 청년카페",
+      "edition": "2026년 모집",
+      "category": "CULTURE",
+      "provinces": [
+        "전남"
+      ],
+      "city": "장성군",
+      "benefit_summary": "커피 이론과 추출법을 배우고 직접 드립백을 만들어 봅니다.",
+      "age_note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "장성군 청년센터의 참여 대상 및 생활권 요건",
+        "참여 전 초기상담 필요 여부·정원·선정 회신"
+      ],
+      "schedule_note": "11월 11일 대면 수업입니다. 신청 마감 시각은 별도 표시가 없어 센터에서 확인합니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289036",
+          "title": "고용24 · 장성 청년카페 · 드립 커피 체험",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP116-GWANGJU-SEOGU-VR-2026",
+      "title": "광주 서구 청춘발산공작소 VR 면접 연습",
+      "authority": "광주 서구 일자리센터",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "광주"
+      ],
+      "city": "서구",
+      "benefit_summary": "청년 잡카페에서 VR 면접 기기와 AI 역량검사 장비를 이용해 면접을 연습합니다.",
+      "age_note": "서구청이 운영하는 잡카페입니다. 숫자 연령과 서구 주민등록 필수 여부는 예약 전 확인하세요.",
+      "income_note": "소득·재산에 대한 추가 요건은 신청처에서 확인합니다.",
+      "required_checks": [
+        "예약 가능한 날짜와 시간 선택",
+        "1인 이용·센터의 승인 및 장비 이용 확인"
+      ],
+      "schedule_note": "11월 4일 달력과 시간별 예약 가능 슬롯을 확인했습니다. 평일 이용을 안내하며 운영 일정·기관 행사에 따라 달라집니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.seogu.gwangju.kr/applyList.es?mid=b70404010100&eas_code=EACD007&eap_code=C04",
+          "title": "광주 서구청 VR체험관 실제 예약 달력",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "VR체험관 선택 후 예약일과 시간 슬롯 선택"
+        },
+        {
+          "url": "https://www.seogu.gwangju.kr/menu.es?mid=b70404010000",
+          "title": "광주 서구청 잡카페 공간별 이용 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "VR체험관 1인, 평일 운영, 사용 전날 예약 안내"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-885",
+      "title": "영주시 전세보증금 반환보증 보증료 지원 · 국비사업 지역 접수",
+      "authority": "영주시청 지방시대정책실",
+      "edition": "2026",
+      "category": "HOUSING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "영주시",
+      "benefit_summary": "영주시에서 보증료 지원을 접수합니다. 유효한 반환보증에 가입한 무주택 임차인의 실제 납부 보증료를 심사해 환급합니다.",
+      "age_note": "청년 외 임차인 등도 별도 기준으로 심사합니다. 청년 경로의 나이와 기준일은 확인이 필요합니다.",
+      "income_note": "연소득 산정과 청년·신혼부부 등 대상 구분을 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "영주시 접수 대상 주택 및 전입 주소",
+        "무주택·보증 유효기간·납부 영수증·보증금 및 가구소득 증빙",
+        "등록임대주택·법인 임차 등 제외사항과 보증가입일별 환급 상한"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-31 15:43입니다. 국비사업의 시군별 개별 신청 창구입니다. 잔여 예산과 적용 상한은 시군이 확인합니다.",
+      "starts_on": "2026-03-12",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=885",
+          "title": "영주시 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=885",
+          "title": "영주시 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-860",
+      "title": "울진군 전세보증금 반환보증 보증료 지원 · 국비사업 지역 접수",
+      "authority": "울진군",
+      "edition": "2026",
+      "category": "HOUSING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "울진군",
+      "benefit_summary": "울진군에서 보증료 지원을 접수합니다. 유효한 반환보증에 가입한 무주택 임차인의 실제 납부 보증료를 심사해 환급합니다.",
+      "age_note": "청년 외 임차인 등도 별도 기준으로 심사합니다. 청년 경로의 나이와 기준일은 확인이 필요합니다.",
+      "income_note": "연소득 산정과 청년·신혼부부 등 대상 구분을 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "울진군 접수 대상 주택 및 전입 주소",
+        "무주택·보증 유효기간·납부 영수증·보증금 및 가구소득 증빙",
+        "등록임대주택·법인 임차 등 제외사항과 보증가입일별 환급 상한"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-31 10:11입니다. 국비사업의 시군별 개별 신청 창구입니다. 잔여 예산과 적용 상한은 시군이 확인합니다.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=860",
+          "title": "울진군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=860",
+          "title": "울진군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-849",
+      "title": "성주군 전세보증금 반환보증 보증료 지원 · 국비사업 지역 접수",
+      "authority": "성주군",
+      "edition": "2026",
+      "category": "HOUSING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "성주군",
+      "benefit_summary": "성주군에서 보증료 지원을 접수합니다. 유효한 반환보증에 가입한 무주택 임차인의 실제 납부 보증료를 심사해 환급합니다.",
+      "age_note": "청년 외 임차인 등도 별도 기준으로 심사합니다. 청년 경로의 나이와 기준일은 확인이 필요합니다.",
+      "income_note": "연소득 산정과 청년·신혼부부 등 대상 구분을 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "성주군 접수 대상 주택 및 전입 주소",
+        "무주택·보증 유효기간·납부 영수증·보증금 및 가구소득 증빙",
+        "등록임대주택·법인 임차 등 제외사항과 보증가입일별 환급 상한"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-31 23:50입니다. 국비사업의 시군별 개별 신청 창구입니다. 잔여 예산과 적용 상한은 시군이 확인합니다.",
+      "starts_on": "2026-02-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=849",
+          "title": "성주군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=849",
+          "title": "성주군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-848",
+      "title": "칠곡군 전세보증금 반환보증 보증료 지원 · 국비사업 지역 접수",
+      "authority": "칠곡군",
+      "edition": "2026",
+      "category": "HOUSING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "칠곡군",
+      "benefit_summary": "칠곡군에서 보증료 지원을 접수합니다. 유효한 반환보증에 가입한 무주택 임차인의 실제 납부 보증료를 심사해 환급합니다.",
+      "age_note": "청년 외 임차인 등도 별도 기준으로 심사합니다. 청년 경로의 나이와 기준일은 확인이 필요합니다.",
+      "income_note": "연소득 산정과 청년·신혼부부 등 대상 구분을 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "칠곡군 접수 대상 주택 및 전입 주소",
+        "무주택·보증 유효기간·납부 영수증·보증금 및 가구소득 증빙",
+        "등록임대주택·법인 임차 등 제외사항과 보증가입일별 환급 상한"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-31 15:00입니다. 국비사업의 시군별 개별 신청 창구입니다. 잔여 예산과 적용 상한은 시군이 확인합니다.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=848",
+          "title": "칠곡군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=848",
+          "title": "칠곡군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-846",
+      "title": "청송군 전세보증금 반환보증 보증료 지원 · 국비사업 지역 접수",
+      "authority": "청송군(기획감사실 행복일자리팀)",
+      "edition": "2026",
+      "category": "HOUSING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "청송군",
+      "benefit_summary": "청송군에서 보증료 지원을 접수합니다. 유효한 반환보증에 가입한 무주택 임차인의 실제 납부 보증료를 심사해 환급합니다.",
+      "age_note": "청년 외 임차인 등도 별도 기준으로 심사합니다. 청년 경로의 나이와 기준일은 확인이 필요합니다.",
+      "income_note": "연소득 산정과 청년·신혼부부 등 대상 구분을 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "청송군 접수 대상 주택 및 전입 주소",
+        "무주택·보증 유효기간·납부 영수증·보증금 및 가구소득 증빙",
+        "등록임대주택·법인 임차 등 제외사항과 보증가입일별 환급 상한"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-31 18:00입니다. 국비사업의 시군별 개별 신청 창구입니다. 잔여 예산과 적용 상한은 시군이 확인합니다.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=846",
+          "title": "청송군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=846",
+          "title": "청송군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-698",
+      "title": "예천군 전세보증금 반환보증 보증료 지원 · 국비사업 지역 접수",
+      "authority": "예천군",
+      "edition": "2026",
+      "category": "HOUSING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "예천군",
+      "benefit_summary": "예천군에서 보증료 지원을 접수합니다. 유효한 반환보증에 가입한 무주택 임차인의 실제 납부 보증료를 심사해 환급합니다.",
+      "age_note": "청년 외 임차인 등도 별도 기준으로 심사합니다. 청년 경로의 나이와 기준일은 확인이 필요합니다.",
+      "income_note": "연소득 산정과 청년·신혼부부 등 대상 구분을 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "예천군 접수 대상 주택 및 전입 주소",
+        "무주택·보증 유효기간·납부 영수증·보증금 및 가구소득 증빙",
+        "등록임대주택·법인 임차 등 제외사항과 보증가입일별 환급 상한"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-31 09:03입니다. 국비사업의 시군별 개별 신청 창구입니다. 잔여 예산과 적용 상한은 시군이 확인합니다.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=698",
+          "title": "예천군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=698",
+          "title": "예천군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-546",
+      "title": "안동시 전세보증금 반환보증 보증료 지원 · 국비사업 지역 접수",
+      "authority": "안동시",
+      "edition": "2026",
+      "category": "HOUSING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "안동시",
+      "benefit_summary": "안동시에서 보증료 지원을 접수합니다. 유효한 반환보증에 가입한 무주택 임차인의 실제 납부 보증료를 심사해 환급합니다.",
+      "age_note": "청년 외 임차인 등도 별도 기준으로 심사합니다. 청년 경로의 나이와 기준일은 확인이 필요합니다.",
+      "income_note": "연소득 산정과 청년·신혼부부 등 대상 구분을 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "안동시 접수 대상 주택 및 전입 주소",
+        "무주택·보증 유효기간·납부 영수증·보증금 및 가구소득 증빙",
+        "등록임대주택·법인 임차 등 제외사항과 보증가입일별 환급 상한"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-20 18:00입니다. 국비사업의 시군별 개별 신청 창구입니다. 잔여 예산과 적용 상한은 시군이 확인합니다.",
+      "starts_on": "2026-02-01",
+      "ends_on": "2026-12-20",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=546",
+          "title": "안동시 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=546",
+          "title": "안동시 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-545",
+      "title": "김천시 전세보증금 반환보증 보증료 지원 · 국비사업 지역 접수",
+      "authority": "김천시",
+      "edition": "2026",
+      "category": "HOUSING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "김천시",
+      "benefit_summary": "김천시에서 보증료 지원을 접수합니다. 유효한 반환보증에 가입한 무주택 임차인의 실제 납부 보증료를 심사해 환급합니다.",
+      "age_note": "청년 외 임차인 등도 별도 기준으로 심사합니다. 청년 경로의 나이와 기준일은 확인이 필요합니다.",
+      "income_note": "연소득 산정과 청년·신혼부부 등 대상 구분을 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "김천시 접수 대상 주택 및 전입 주소",
+        "무주택·보증 유효기간·납부 영수증·보증금 및 가구소득 증빙",
+        "등록임대주택·법인 임차 등 제외사항과 보증가입일별 환급 상한"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-31 18:00입니다. 국비사업의 시군별 개별 신청 창구입니다. 잔여 예산과 적용 상한은 시군이 확인합니다.",
+      "starts_on": "2024-03-04",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=545",
+          "title": "김천시 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=545",
+          "title": "김천시 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-1118",
+      "title": "예천군 지역대학생 학업장려금",
+      "authority": "예천군 총무과",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "경북"
+      ],
+      "city": "예천군",
+      "benefit_summary": "군내 대학에 재학하며 예천에 주민등록을 둔 대학생을 대상으로 학년당 한 차례 100만원을 지원합니다.",
+      "age_note": "공식 화면에는 수치 연령 대신 대학 재학 요건이 제시돼 있습니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "예천군 주민등록 및 군내 대학 재학",
+        "직전 학기 평균 70점 이상·예외 증빙",
+        "같은 학년 수령 이력 및 전출·재전입 제한"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-11-06 23:59입니다. 대학교 현장 접수는 11월 9~13일로 별도 안내합니다.",
+      "starts_on": "2026-10-19",
+      "ends_on": "2026-11-06",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=1118",
+          "title": "예천군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=1118",
+          "title": "예천군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-1113",
+      "title": "예천군 청년취업 올인원 지원",
+      "authority": "예천군",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경북"
+      ],
+      "city": "예천군",
+      "benefit_summary": "구직 활동에 쓰는 교육·도서·시험 비용을 월 30만원씩 3개월 지원하고, 직업 상담과 취업 연계를 제공합니다.",
+      "age_note": "예천에 주민등록을 둔 만 19~49세 미취업 청년 대상입니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "예천군 주민등록 및 미취업·미창업",
+        "구직등록·졸업증명과 구직활동계획서",
+        "동일·유사 사업 참여와 선발 결과"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-11-30 18:00입니다. 중복 게시된 같은 사업은 한 건으로 묶었습니다. 모집 규모와 개별 선발 여부를 확인하세요.",
+      "starts_on": "2026-05-07",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=1113",
+          "title": "예천군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=1113",
+          "title": "예천군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-841",
+      "title": "안동시 청년 면접정장 대여료·사진촬영비 지원",
+      "authority": "안동시",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경북"
+      ],
+      "city": "안동시",
+      "benefit_summary": "면접 정장 대여는 연 2회 회당 7만원 이내, 증명사진 촬영은 연 1회 3만원 이내에서 실제 비용을 지원합니다.",
+      "age_note": "2026년 1월 1일 기준 18~39세가 대상입니다. 현재 만 나이만으로 기준일 나이를 확정하지 않습니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "안동시 주민등록과 기준일 나이",
+        "면접정장 착용 사진 또는 안동시 소재 업체에서 찍은 면접사진",
+        "실제 결제 증빙 및 횟수·잔여 예산"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-31 18:00입니다. 시설별 정산 증빙과 예산 소진 여부를 확인하세요.",
+      "starts_on": "2026-01-16",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=841",
+          "title": "안동시 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=841",
+          "title": "안동시 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-840",
+      "title": "청송군 청년 자격증 응시료 지원",
+      "authority": "청송군",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "경북"
+      ],
+      "city": "청송군",
+      "benefit_summary": "어학·한국사 등 공고 인정 시험에 응시한 뒤 실제 납부한 응시료를 연 3회, 합계 20만원 이내에서 청구합니다.",
+      "age_note": "19~49세 청송군 거주 청년이 대상입니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "신청일 기준 청송군 3개월 이상 주민등록",
+        "응시일의 미취업·사업자등록 여부와 응시 및 결제증빙",
+        "12월 13일까지 응시한 시험 및 유사사업 참여 여부"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-14 18:00입니다. 시험 응시 이후에 취업했어도 공고의 과거 시점 요건을 확인합니다.",
+      "starts_on": "2026-01-21",
+      "ends_on": "2026-12-14",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=840",
+          "title": "청송군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=840",
+          "title": "청송군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-839",
+      "title": "울진군 자격증 취득 직업훈련비 지원",
+      "authority": "울진군청 인구정책과",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "경북"
+      ],
+      "city": "울진군",
+      "benefit_summary": "고용24에 등재된 직업교육 과정을 수료한 군민에게 연 1회 최대 40만원의 훈련비를 지원합니다.",
+      "age_note": "울진군에 주민등록을 둔 만 19~75세 대상입니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "울진군 주민등록과 고용24 등록 훈련과정 수료",
+        "인정되는 훈련비·결제 및 수료 증빙",
+        "구직 등 상세 선정·제외 기준"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-11-30 23:50입니다. 훈련과정 적합성과 실제 지원 가능액은 추가 확인합니다.",
+      "starts_on": "2026-01-19",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=839",
+          "title": "울진군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=839",
+          "title": "울진군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-GB-837",
+      "title": "울진군 청년 이사비·중개보수 지원",
+      "authority": "울진군",
+      "edition": "2026",
+      "category": "HOUSING",
+      "provinces": [
+        "경북"
+      ],
+      "city": "울진군",
+      "benefit_summary": "이사비와 중개보수를 합해 생애 한 번, 최대 50만원의 실비를 지원합니다. 한 항목당 최대 40만원입니다.",
+      "age_note": "울진군 청년 19~49세 대상입니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "공고상 전입·주택 및 거주 조건",
+        "계약서와 실제 이사·중개 비용 증빙",
+        "생애 1회 수령 여부와 예산"
+      ],
+      "schedule_note": "청년e끌림의 온라인 마감은 2026-12-31 23:40입니다. 가구·주택 요건과 반영되는 실제 비용은 첨부 공고를 확인하세요.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=837",
+          "title": "울진군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=837",
+          "title": "울진군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-YEONGJU-GROW",
+      "title": "영주시 청년성장프로젝트 3기 취업역량 교육",
+      "authority": "동양대학교 산학협력단 영주청년정주지원센터",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경북"
+      ],
+      "city": "영주시",
+      "benefit_summary": "11월 9~13일에 면접, 이력서, 문서 실무, 재무 기초 등 30시간의 취업 준비 교육을 운영합니다.",
+      "age_note": "영주시 거주·생활 청년 15~39세로 미취업이나 쉬었음 등 공고 대상에 해당해야 합니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "영주시 거주·생활권과 미취업 상태",
+        "30시간 일정 참여·20명 선발 여부"
+      ],
+      "schedule_note": "고용24 공식 신청 버튼과 해당 기수의 11월 5일 접수 마감을 확인했습니다.",
+      "starts_on": "2026-10-01",
+      "ends_on": "2026-11-05",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81802609305553",
+          "title": "고용24 영주청년정주지원센터 3기 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청 버튼·모집기간·운영대상·정원·세부 교육 일정"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-DAEGU-DALSEONG-EXAM",
+      "title": "달성군 청년 자격증 응시료 지원",
+      "authority": "달성군 홍보협력과 인구청년정책팀",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "대구"
+      ],
+      "city": "달성군",
+      "benefit_summary": "공고의 어학·한국사·자격시험에 실제 응시한 경우 연 1회 최대 10만원까지 본인 부담 응시료를 지원합니다.",
+      "age_note": "1987~2007년 출생 청년을 대상으로 합니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "신청일 기준 달성군 6개월 이상 주소",
+        "미취업·사업자등록 여부와 단기근로·정부일자리 예외",
+        "2026년 실제 응시한 인정 시험의 결제증빙·선착순 예산"
+      ],
+      "schedule_note": "군청의 지원신청(본인인증) 버튼을 확인했습니다. 잔여 예산과 지급 여부는 군에서 확인하세요.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.dalseong.daegu.kr/index.do?menu_id=00005452",
+          "title": "달성군청 온라인 지원신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "본인 인증을 거쳐 진행하는 개별 신청 버튼"
+        },
+        {
+          "url": "https://www.dalseong.daegu.kr/index.do?menu_id=00005451",
+          "title": "달성군청 자격증 응시료 신청안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "출생연도·주소기간·근로 예외·시험종류·신청기간"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "G116-UISEONG-COUNSEL",
+      "title": "의성군 청년 영글터 1:1 초기 상담",
+      "authority": "의성군청년센터 · 도농순환생명공동체",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경북"
+      ],
+      "city": "의성군",
+      "benefit_summary": "진로·구직 고민을 듣고 참여자의 상황에 맞는 청년 프로그램이나 취업서비스를 연계합니다.",
+      "age_note": "청년카페 참여를 희망하는 지역 청년 또는 부모·보호자입니다.",
+      "income_note": "소득·재산 관련 요건과 증빙은 공식 신청처에서 확인합니다.",
+      "required_checks": [
+        "지역청년 또는 보호자 참여 여부와 대상자 기준",
+        "상담 일정 조율 및 후속 프로그램 연계 여부"
+      ],
+      "schedule_note": "고용24 개별 신청 버튼이 열려 있습니다. 운영은 6월 1일~12월 31일이며 별도 접수 마감일은 명시하지 않았습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81822605063822",
+          "title": "고용24 의성군청년센터 초기상담 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지역청년/보호자 대상·상담 내용·운영 일정·개별 신청 버튼"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "KR-YOUTH-INDEPENDENT-LIVING-KMOOC-2026",
+      "title": "청년의 사회적 자립 지원강좌",
+      "authority": "국가평생교육진흥원 K-MOOC",
+      "edition": "2026년 하반기 온라인 강좌",
+      "category": "EDUCATION",
+      "provinces": [],
+      "city": null,
+      "benefit_summary": "사회초년생을 위한 온라인 교육입니다. 전월세와 근로계약, 자산형성, 세금 등 생활에 필요한 청년정책을 배웁니다.",
+      "age_note": "대학생과 청년을 위한 강좌로 소개합니다. 별도 가입 연령은 추가 확인합니다.",
+      "income_note": "소득이나 자산 조건을 추정하지 않습니다.",
+      "required_checks": [
+        "회원 로그인 및 해당 회차 수강신청",
+        "운영 종료 전 학습 가능 기간과 이수 기준"
+      ],
+      "schedule_note": "강좌 상세의 수강신청기간 2026.09.01~12.31 및 해당 회차의 수강신청 버튼을 확인했습니다.",
+      "starts_on": "2026-09-01",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.kmooc.kr/view/course/detail/21092",
+          "title": "K-MOOC 공식 수강신청 · 청년의 사회적 자립 지원강좌",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "강좌 상세의 수강신청기간 2026.09.01~12.31 및 해당 회차의 수강신청 버튼을 확인했습니다."
+        }
+      ],
+      "aliases": [
+        "사회초년생",
+        "자립 교육",
+        "주거 교육"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GG-YOUTH-CONNECTION-SUPPORT-2026",
+      "title": "경기 고립·은둔청년 일상회복 지원",
+      "authority": "경기도 · 경기도미래세대재단",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "경기"
+      ],
+      "city": null,
+      "benefit_summary": "사람과의 교류나 외출에 어려움을 겪는 청년을 위한 1:1 상담과 일상회복 프로그램입니다. 첫 상담은 전화·온라인으로도 받을 수 있습니다.",
+      "age_note": "신청일 기준 경기도에 주민등록된 19~39세 대상입니다. 공고 FAQ는 1986~2007년생을 함께 명시합니다.",
+      "income_note": "입력한 소득으로 대상 여부를 판정하지 않습니다.",
+      "required_checks": [
+        "신청일 주민등록상 경기도 거주 및 출생 기준",
+        "본인이 희망하는 지원인지, 공식 대상 요건과 필수 초기상담",
+        "모집인원 300명 중 잔여 여부"
+      ],
+      "schedule_note": "경기민원24 서비스 945번: 접수중 표시와 신청하기 버튼, 4월 20일 오전 9시 시작·모집 마감 시 종료를 확인했습니다.",
+      "starts_on": "2026-04-20",
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://gg24.gg.go.kr/svcreqst/selectSvcReqst.do?sch_tab_code=10&svc_seq=945",
+          "title": "경기민원24 공식 접수 · 경기 고립은둔청년 지원 사업",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "경기민원24 서비스 945번: 접수중 표시와 신청하기 버튼, 4월 20일 오전 9시 시작·모집 마감 시 종료를 확인했습니다."
+        }
+      ],
+      "aliases": [
+        "경기청년",
+        "나와봄",
+        "나와 볼만한 세상"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    }
+  ],
+  "intake_verification": {
+    "NOV2-SONGPA-AI-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.songpa.go.kr/www/recptApplStep1.do?recptNo=609&sc3=Y&key=2173",
+      "evidence_excerpt": "송파구 일자리의 접수중 행을 통해 개별 온라인접수와 동의 단계가 열림",
+      "budget_uncertainty": "11월 1일 접수창 기준입니다. 선착순 잔여 인원·개별 승인·예산은 신청처에서 확인하세요."
+    },
+    "NOV2-POCHEON-AI-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://form.naver.com/response/FTGatmvZAu3",
+      "evidence_excerpt": "포천시청 지정 신청 양식이 해당 공고명으로 진행 중(IN_PROGRESS)",
+      "budget_uncertainty": "11월 1일 접수창 기준입니다. 선착순 잔여 인원·개별 승인·예산은 신청처에서 확인하세요."
+    },
+    "NOV2-GURI-NOV-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQPbkmCiifvfe662q8mrkgiO3SM_vXvAdykKVVkm9O2Qt-tw/viewform?usp=send_form",
+      "evidence_excerpt": "11월 양식에 회차별 일정·마감 및 응답을 진행하는 다음 단계 확인",
+      "budget_uncertainty": "11월 1일 접수창 기준입니다. 선착순 잔여 인원·개별 승인·예산은 신청처에서 확인하세요."
+    },
+    "NOV2-GURI-COUNSEL-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81612604141081",
+      "evidence_excerpt": "공고별 고용24 신청 버튼과 상시 접수 순서별 연락 안내",
+      "budget_uncertainty": "11월 1일 접수창 기준입니다. 선착순 잔여 인원·개별 승인·예산은 신청처에서 확인하세요."
+    },
+    "NOV2-PAJU-JOB-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdLNc0ASO0VV7Wcv0mO29afiD7ye7izs8JybfjWquEPruBi0g/viewform",
+      "evidence_excerpt": "파주시 운영팀의 11월 양식에 해당 회차 선택과 다음 버튼이 활성 상태",
+      "budget_uncertainty": "11월 1일 접수창 기준입니다. 선착순 잔여 인원·개별 승인·예산은 신청처에서 확인하세요."
+    },
+    "NOV2-PAJU-HEAL-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdLNc0ASO0VV7Wcv0mO29afiD7ye7izs8JybfjWquEPruBi0g/viewform",
+      "evidence_excerpt": "파주시 운영팀의 11월 양식에 해당 회차 선택과 다음 버튼이 활성 상태",
+      "budget_uncertainty": "11월 1일 접수창 기준입니다. 선착순 잔여 인원·개별 승인·예산은 신청처에서 확인하세요."
+    },
+    "NOV2-GURO-COUNSEL-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81592603279001",
+      "evidence_excerpt": "개별 고용24 신청 링크 및 제공기관의 상시 접수 안내",
+      "budget_uncertainty": "11월 1일 접수창 기준입니다. 선착순 잔여 인원·개별 승인·예산은 신청처에서 확인하세요."
+    },
+    "NOV2-GURO-VR-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81592603278943",
+      "evidence_excerpt": "개별 고용24 신청 링크 및 제공기관의 상시 접수 안내",
+      "budget_uncertainty": "11월 1일 접수창 기준입니다. 선착순 잔여 인원·개별 승인·예산은 신청처에서 확인하세요."
+    },
+    "GAP116-NAJU-ACTIVITY-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.naju.go.kr/najuyouth/policy/index",
+      "evidence_excerpt": "청년활력소득 · 2026.10.07~2026.11.13 · 접수중",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-NAJU-PHOTO-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.naju.go.kr/najuyouth/policy/index",
+      "evidence_excerpt": "꿈이룸서비스 면접사진 · 접수중",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-NAJU-SUIT-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.naju.go.kr/najuyouth/policy/index",
+      "evidence_excerpt": "꿈이룸서비스 정장대여 · 접수중",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-CSPP81882610086579-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81882610086579",
+      "evidence_excerpt": "고용24 해당 회차 신청 버튼 활성",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-CSPP81932603258763-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81932603258763",
+      "evidence_excerpt": "고용24 해당 회차 신청 버튼 활성",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-CSPP81862605114341-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81862605114341",
+      "evidence_excerpt": "고용24 해당 회차 신청 버튼 활성",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-CSPP81842603187841-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842603187841",
+      "evidence_excerpt": "고용24 해당 회차 신청 버튼 활성",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-CSPP81842610289037-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289037",
+      "evidence_excerpt": "고용24 해당 회차 신청 버튼 활성",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-CSPP81842610289054-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289054",
+      "evidence_excerpt": "고용24 해당 회차 신청 버튼 활성",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-CSPP81842610289059-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289059",
+      "evidence_excerpt": "고용24 해당 회차 신청 버튼 활성",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-CSPP81842610289040-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289040",
+      "evidence_excerpt": "고용24 해당 회차 신청 버튼 활성",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-CSPP81842610289036-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289036",
+      "evidence_excerpt": "고용24 해당 회차 신청 버튼 활성",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "GAP116-GWANGJU-SEOGU-VR-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.seogu.gwangju.kr/applyList.es?mid=b70404010100&eas_code=EACD007&eap_code=C04",
+      "evidence_excerpt": "VR체험관 11월 4일 시간별 0/1 예약 현황",
+      "budget_uncertainty": "공개 접수 표시를 확인했으며 신청 직전 정원·예산·최종 선정 여부를 확인해야 합니다."
+    },
+    "G116-GB-885": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=885",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-860": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=860",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-849": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=849",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-848": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=848",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-846": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=846",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-698": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=698",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-546": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=546",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-545": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=545",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-1118": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=1118",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-1113": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=1113",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-841": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=841",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-840": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=840",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-839": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=839",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-GB-837": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=837",
+      "evidence_excerpt": "신청중 필터 결과의 온라인 신청 가능 상태 Y 및 개별 신청바로가기",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-YEONGJU-GROW": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81802609305553",
+      "evidence_excerpt": "해당 기수 신청 버튼 활성",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-DAEGU-DALSEONG-EXAM": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.dalseong.daegu.kr/index.do?menu_id=00005452",
+      "evidence_excerpt": "지원신청(본인인증)",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "G116-UISEONG-COUNSEL": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81822605063822",
+      "evidence_excerpt": "해당 상담 신청 버튼 활성",
+      "budget_uncertainty": "접수 버튼의 노출을 확인했습니다. 잔여 예산·정원·최종 선발 여부는 신청기관에서 확인해야 합니다."
+    },
+    "KR-YOUTH-INDEPENDENT-LIVING-KMOOC-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL_COURSE_APPLICATION",
+      "verified_on": "2026-11-01",
+      "url": "https://www.kmooc.kr/view/course/detail/21092",
+      "evidence_excerpt": "강좌 상세의 수강신청기간 2026.09.01~12.31 및 해당 회차의 수강신청 버튼을 확인했습니다.",
+      "budget_uncertainty": "수강신청 버튼을 확인했습니다. 개인별 신청 완료·이수는 보장하지 않습니다."
+    },
+    "GG-YOUTH-CONNECTION-SUPPORT-2026": {
+      "url": "https://gg24.gg.go.kr/svcreqst/selectSvcReqst.do?sch_tab_code=10&svc_seq=945",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "evidence_excerpt": "경기민원24 서비스 945번: 접수중 표시와 신청하기 버튼, 4월 20일 오전 9시 시작·모집 마감 시 종료를 확인했습니다.",
+      "budget_uncertainty": "모집인원 도달 시 조기 마감할 수 있습니다."
+    }
+  },
+  "rules": [
+    {
+      "program_id": "NOV2-POCHEON-AI-2026",
+      "sources": [
+        {
+          "url": "https://www.pocheon.go.kr/newsvision/selectBbsNttView.do?key=47602&bbsNo=1990&nttNo=805815",
+          "title": "포천시 청년센터 · 취준에 AI 한 스푼",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "대상·무료 제공 서비스·방문 필수·공식 신청 링크"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 34,
+        "older_exception": false,
+        "note": "취업을 준비하는 만 18~34세 청년 100명 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업 상태만으로 참여가 확정되지 않습니다.",
+      "rent_required": false,
+      "rent_note": "월세 여부로 지원 자격을 확정하지 않습니다."
+    },
+    {
+      "program_id": "NOV2-GURI-NOV-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81612610289045",
+          "title": "고용24 · 구리시 11월 청년 프로그램 접수 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 15,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "구리시에 살거나 구리에서 활동하는 만 15~39세 미취업 청년입니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "공식 양식에서 미취업 청년을 대상으로 명시합니다. 자영업 및 개별 예외는 추가 확인합니다.",
+      "rent_required": false,
+      "rent_note": "월세 여부로 지원 자격을 확정하지 않습니다."
+    },
+    {
+      "program_id": "NOV2-GURI-COUNSEL-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81612604141081",
+          "title": "고용24 · 구리시 1대1 진로 초기상담",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 15,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "구리 거주 또는 생활권의 만 15~39세 미취업 청년 대상입니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "공식 양식에서 미취업 청년을 대상으로 명시합니다. 자영업 및 개별 예외는 추가 확인합니다.",
+      "rent_required": false,
+      "rent_note": "월세 여부로 지원 자격을 확정하지 않습니다."
+    },
+    {
+      "program_id": "NOV2-PAJU-JOB-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81692610086575",
+          "title": "고용24 · 파주 청년카페 · 취업저격 4기",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 15,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "공식 신청 양식에 만 15~39세 미취업 청년으로 표시됩니다. 거주·생활권 우선순위는 확인이 필요합니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "공식 양식에서 미취업 청년을 대상으로 명시합니다. 자영업 및 개별 예외는 추가 확인합니다.",
+      "rent_required": false,
+      "rent_note": "월세 여부로 지원 자격을 확정하지 않습니다."
+    },
+    {
+      "program_id": "NOV2-PAJU-HEAL-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81692610137053",
+          "title": "고용24 · 파주 청년카페 · 색과 향기로 만나는 나의 마음",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "운영기관·대상·이용 절차·원문 하단 공고별 신청 버튼"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 15,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "공식 신청 양식에 만 15~39세 미취업 청년으로 표시됩니다. 거주·생활권 우선순위는 확인이 필요합니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "공식 양식에서 미취업 청년을 대상으로 명시합니다. 자영업 및 개별 예외는 추가 확인합니다.",
+      "rent_required": false,
+      "rent_note": "월세 여부로 지원 자격을 확정하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-NAJU-ACTIVITY-2026",
+      "sources": [
+        {
+          "url": "https://www.naju.go.kr/najuyouth/policy/energy/youth",
+          "title": "나주시 청년활력소득 공식 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청 절차 및 대상·분기별 지원액"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "2002-01-01",
+        "birth_end": "2002-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "공고 기준 2002년생입니다. 현재 만 나이로 생년을 확정할 수 없는 경계는 추가 확인합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-NAJU-PHOTO-2026",
+      "sources": [
+        {
+          "url": "https://www.naju.go.kr/najuyouth/policy/dream_room/photo",
+          "title": "나주시 구직 청년 면접사진 촬영 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "온라인 신청, 1981~2008년생, 대상·지원 범위"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1981-01-01",
+        "birth_end": "2008-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "공고상 1981~2008년생을 확인합니다. 나주시 거주 또는 나주 소재 대학교 재학·휴학·졸업한 미취업 구직 청년 대상입니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "공고상 미취업 구직자 대상이며 구직 등록·자격 확인 서류를 센터가 검토합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-NAJU-SUIT-2026",
+      "sources": [
+        {
+          "url": "https://www.naju.go.kr/najuyouth/policy/dream_room/suit",
+          "title": "나주시 구직 청년 면접정장 대여 공식 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "온라인 신청, 1981~2008년생, 대상·지원 범위"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1981-01-01",
+        "birth_end": "2008-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "공고상 1981~2008년생을 확인합니다. 나주시 거주 또는 나주 소재 대학교 재학·휴학·졸업한 미취업 구직 청년 대상입니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "공고상 미취업 구직자 대상이며 구직 등록·자격 확인 서류를 센터가 검토합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-CSPP81882610086579-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81882610086579",
+          "title": "고용24 · 공주시 청년센터 정착나침반 · 공방 창업과 도예",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-CSPP81932603258763-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81932603258763",
+          "title": "고용24 · 제천시 청년센터 1대1 진로 초기상담",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-CSPP81862605114341-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81862605114341",
+          "title": "고용24 · 남원 청년마루 · 청년 커리어 체크인",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-CSPP81842603187841-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842603187841",
+          "title": "고용24 · 장성군 청년카페 아우름 초기상담",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 15,
+        "maximum": 49,
+        "older_exception": false,
+        "note": "장성군에 거주하거나 직장·활동 기반이 있는 15~49세 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289037-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289037",
+          "title": "고용24 · 장성 청년카페 · AI 업무 도우미 만들기",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289054-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289054",
+          "title": "고용24 · 장성 청년카페 · 오늘 배워 바로 쓰는 AI",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289059-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289059",
+          "title": "고용24 · 장성 청년카페 · 방송 소품 제작과 브랜드 창업",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289040-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289040",
+          "title": "고용24 · 장성 청년카페 · 향으로 기분전환 2차",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-CSPP81842610289036-2026",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81842610289036",
+          "title": "고용24 · 장성 청년카페 · 드립 커피 체험",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업별 상세에서 운영기관·세부내용·고유 프로그램 신청 버튼 확인"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "해당 청년센터 사업이며 숫자 나이 경계와 주민등록 필수 여부가 상세화면에 제시되지 않아 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "GAP116-GWANGJU-SEOGU-VR-2026",
+      "sources": [
+        {
+          "url": "https://www.seogu.gwangju.kr/applyList.es?mid=b70404010100&eas_code=EACD007&eap_code=C04",
+          "title": "광주 서구청 VR체험관 실제 예약 달력",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "VR체험관 선택 후 예약일과 시간 슬롯 선택"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "서구청이 운영하는 잡카페입니다. 숫자 연령과 서구 주민등록 필수 여부는 예약 전 확인하세요."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태의 구체적인 적용 여부는 주관 기관에서 확인합니다.",
+      "rent_required": false,
+      "rent_note": "주거 형태를 참여 자격으로 간주하지 않습니다."
+    },
+    {
+      "program_id": "G116-GB-1113",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=1113",
+          "title": "예천군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=1113",
+          "title": "예천군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 49,
+        "older_exception": false,
+        "note": "예천에 주민등록을 둔 만 19~49세 미취업 청년 대상입니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "FAIL",
+      "employment_note": "신청일 현재 미취업이어야 합니다. 세부 고용 형태와 증빙은 추가 확인합니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "G116-GB-840",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=840",
+          "title": "청송군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=840",
+          "title": "청송군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 49,
+        "older_exception": false,
+        "note": "19~49세 청송군 거주 청년이 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업 상태만으로 세부 요건을 확정할 수 없습니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "G116-GB-839",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=839",
+          "title": "울진군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=839",
+          "title": "울진군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 75,
+        "older_exception": false,
+        "note": "울진군에 주민등록을 둔 만 19~75세 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업 상태만으로 세부 요건을 확정할 수 없습니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "G116-GB-837",
+      "sources": [
+        {
+          "url": "https://gbyouth.go.kr/policy/list.tc?mn=2379&pageNo=5069&no=837",
+          "title": "울진군 청년e끌림 개별 신청 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "선택한 시군 정책 상세의 신청기간·운영기관·참여 요건·신청바로가기"
+        },
+        {
+          "url": "https://gbyouth.go.kr/policy/aply/step1.tc?mn=2379&pageNo=5069&no=837",
+          "title": "울진군 본인 로그인 후 온라인 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "같은 사업번호로 연결되는 경북청년포털 본인 로그인 단계"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 49,
+        "older_exception": false,
+        "note": "울진군 청년 19~49세 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업 상태만으로 세부 요건을 확정할 수 없습니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "G116-YEONGJU-GROW",
+      "sources": [
+        {
+          "url": "https://www.work24.go.kr/wk/v/b/1000/youngGrowPgmDetail.do?paramKey1=CSPP81802609305553",
+          "title": "고용24 영주청년정주지원센터 3기 신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청 버튼·모집기간·운영대상·정원·세부 교육 일정"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 15,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "영주시 거주·생활 청년 15~39세로 미취업이나 쉬었음 등 공고 대상에 해당해야 합니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "신청일 현재 미취업이어야 합니다. 세부 고용 형태와 증빙은 추가 확인합니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "G116-DAEGU-DALSEONG-EXAM",
+      "sources": [
+        {
+          "url": "https://www.dalseong.daegu.kr/index.do?menu_id=00005452",
+          "title": "달성군청 온라인 지원신청",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "본인 인증을 거쳐 진행하는 개별 신청 버튼"
+        },
+        {
+          "url": "https://www.dalseong.daegu.kr/index.do?menu_id=00005451",
+          "title": "달성군청 자격증 응시료 신청안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "출생연도·주소기간·근로 예외·시험종류·신청기간"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1987-01-01",
+        "birth_end": "2007-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "1987~2007년 출생 청년을 대상으로 합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "단기근로 또는 정부일자리의 예외가 있어 근로 중 상태만으로 제외할 수 없습니다. 사업자등록은 따로 확인합니다.",
+      "rent_required": false,
+      "rent_note": "현재 월세 거주 여부만으로 사업의 세부 요건을 판정할 수 없습니다."
+    },
+    {
+      "program_id": "GG-YOUTH-CONNECTION-SUPPORT-2026",
+      "sources": [
+        {
+          "url": "https://gg24.gg.go.kr/svcreqst/selectSvcReqst.do?sch_tab_code=10&svc_seq=945",
+          "title": "경기민원24 공식 접수 · 경기 고립은둔청년 지원 사업",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "경기민원24 서비스 945번: 접수중 표시와 신청하기 버튼, 4월 20일 오전 9시 시작·모집 마감 시 종료를 확인했습니다."
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "신청일 기준 경기도에 주민등록된 19~39세 대상입니다. 공고 FAQ는 1986~2007년생을 함께 명시합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "근로 상태로 사회적 관계나 지원 필요성을 추정하지 않습니다.",
+      "rent_required": false,
+      "rent_note": "월세 거주로 프로그램 참여 요건을 판단하지 않습니다."
+    }
+  ],
+  "alternative_region_ids": [
+    "NOV2-SONGPA-AI-2026",
+    "NOV2-POCHEON-AI-2026",
+    "NOV2-GURI-NOV-2026",
+    "NOV2-GURI-COUNSEL-2026",
+    "NOV2-PAJU-JOB-2026",
+    "NOV2-PAJU-HEAL-2026",
+    "NOV2-GURO-COUNSEL-2026",
+    "NOV2-GURO-VR-2026",
+    "GAP116-NAJU-PHOTO-2026",
+    "GAP116-NAJU-SUIT-2026",
+    "GAP116-CSPP81882610086579-2026",
+    "GAP116-CSPP81932603258763-2026",
+    "GAP116-CSPP81862605114341-2026",
+    "GAP116-CSPP81842603187841-2026",
+    "GAP116-CSPP81842610289037-2026",
+    "GAP116-CSPP81842610289054-2026",
+    "GAP116-CSPP81842610289059-2026",
+    "GAP116-CSPP81842610289040-2026",
+    "GAP116-CSPP81842610289036-2026",
+    "GAP116-GWANGJU-SEOGU-VR-2026",
+    "G116-YEONGJU-GROW",
+    "G116-UISEONG-COUNSEL"
+  ]
+}

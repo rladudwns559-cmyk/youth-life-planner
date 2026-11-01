@@ -1,0 +1,222 @@
+{
+  "version": "m38f-study-v2-r2",
+  "frozen_at_date_kst": "2026-10-26",
+  "purpose": "before actual participant evaluation; no responses exist",
+  "files": {
+    "docs/experiments/m3_8f_r2/study_v2/PROTOCOL.md": {
+      "sha256": "e3b1478d1a2ca5b01f68aafb1455d6f0ecb35ef9ca0895cbdde4ed5f1a890e1d",
+      "size": 15216,
+      "mtime_ns": 1792991539904905400
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/index.html": {
+      "sha256": "6cba9b3c0932440577a0aa3395158aa0d051be4778b877c4d7498de6f1b1cffb",
+      "size": 15083,
+      "mtime_ns": 1792991387524685800
+    },
+    "docs/experiments/m3_8f_r2/study_v2/private/allocations.csv": {
+      "sha256": "b798da0adb2ae5e984ebd2f8bbe82273656a93a42c1e9ad1071508f13716f572",
+      "size": 2225,
+      "mtime_ns": 1792991386543397400
+    },
+    "docs/experiments/m3_8f_r2/study_v2/private/study_key.json": {
+      "sha256": "73728469078c55283865c45467d57b884ff741f87fe121343705be2d47f3b53e",
+      "size": 269391,
+      "mtime_ns": 1792991386841472300
+    },
+    "docs/experiments/m3_8f_r2/study_v2/results/initial_summary_real.json": {
+      "sha256": "9dacc86d3908f16aa28cd97cd3410d9ad039f99e54d152f495f5150a6e8aa2dd",
+      "size": 3087,
+      "mtime_ns": 1792991387530686200
+    },
+    "docs/experiments/m3_8f_r2/study_v2/results/initial_summary_real.md": {
+      "sha256": "14bb7fd399bb172bd71f434d97bd8bc7303ee278e3d40472f6a04555afd091ab",
+      "size": 662,
+      "mtime_ns": 1792991387531688700
+    },
+    "docs/experiments/m3_8f_r2/study_v2/results/synthetic_validation_summary.json": {
+      "sha256": "7d2763d322aee606f6b97ec2b3a6362e03b2d1e5bac4d02a67fad418dba2095f",
+      "size": 3011,
+      "mtime_ns": 1792991542068869700
+    },
+    "docs/experiments/m3_8f_r2/study_v2/results/synthetic_validation_summary.md": {
+      "sha256": "c7684e147a57fd614e195cb2bfd4f15b2918b6c9a1acaa0e5dc4c9d6d4ebe293",
+      "size": 563,
+      "mtime_ns": 1792991542069860800
+    },
+    "docs/experiments/m3_8f_r2/study_v2/templates/participants.csv": {
+      "sha256": "c54e80a0516c662bca08faf8ac897d770bedd0835d3fdea3712d5476b9d44b98",
+      "size": 112,
+      "mtime_ns": 1792991386544398900
+    },
+    "docs/experiments/m3_8f_r2/study_v2/templates/responses.csv": {
+      "sha256": "1d6dfee6fbd4baecee6f8636a802295bef4e3a783e502a21b487c5fbd29038c5",
+      "size": 120,
+      "mtime_ns": 1792991386546393800
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P01.json": {
+      "sha256": "a150ff8406e77d13601b746a8582ea8d16431733a2fdfb07194f34826202bfb5",
+      "size": 208914,
+      "mtime_ns": 1792991386869020400
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P02.json": {
+      "sha256": "dd63f6bcc55696208340a7126313b4bfc5b573ef2dac804cfefde0cade955180",
+      "size": 209088,
+      "mtime_ns": 1792991386898542800
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P03.json": {
+      "sha256": "f0d6ef0972114b6ee1988e01faf3ab6fe8890dd6ac5c5dd0025ecc46d1e896e8",
+      "size": 208914,
+      "mtime_ns": 1792991386926542300
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P04.json": {
+      "sha256": "638ca855298510c33e5f186a05159facb819191dce251e4ad57fe3231ff9deba",
+      "size": 209088,
+      "mtime_ns": 1792991386956548600
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P05.json": {
+      "sha256": "40d3e1055364a735c3d9ca2da443b8a35abab30baf48532ec07a7806fed5fe35",
+      "size": 208914,
+      "mtime_ns": 1792991386986662100
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P06.json": {
+      "sha256": "4d43fbba85edbc0cc939b374ded6603a4c807b9ec093d61f4a69c85d3aaaeac9",
+      "size": 209088,
+      "mtime_ns": 1792991387015663800
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P07.json": {
+      "sha256": "322a8409b0c1b3928d6935ce77dbb02720aa9c65c22759066ef359cdb5358106",
+      "size": 208914,
+      "mtime_ns": 1792991387046686400
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P08.json": {
+      "sha256": "9a506c5bcf033b08e1d588f2807ae6dd97260641ba3d96380035f01f6b45a329",
+      "size": 209088,
+      "mtime_ns": 1792991387077678100
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P09.json": {
+      "sha256": "d3da6f6d223e782a81da3ca4d85a19830b0d045ee15aadd19239187091da6c94",
+      "size": 208914,
+      "mtime_ns": 1792991387110212400
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P10.json": {
+      "sha256": "67fc390acd0af01946787aa42039cef91ffa0bafe31b45eef6e6ddd79ab078f3",
+      "size": 209089,
+      "mtime_ns": 1792991387142208700
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P11.json": {
+      "sha256": "c25e0209a09fefc36ea9f08a329f7b793e1baf916b63e62c9f502d89d3abc667",
+      "size": 208915,
+      "mtime_ns": 1792991387177227400
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P12.json": {
+      "sha256": "b261118e8a70570c4bc4e3f044d0ff96e08996f8ae1b67eeed7583e36fdbcf2c",
+      "size": 209089,
+      "mtime_ns": 1792991387212754600
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P13.json": {
+      "sha256": "378294432a9c16fc70e3ef54213449740c5147c4acf0b41e818d1ecf53b8c39a",
+      "size": 208915,
+      "mtime_ns": 1792991387249290000
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P14.json": {
+      "sha256": "cc6659bdfefca3b39ce1788bb0e56592d3d1541906a70a69ffbdf8606af2956c",
+      "size": 209089,
+      "mtime_ns": 1792991387281303100
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P15.json": {
+      "sha256": "54b0266c7906df1414c8aa3c2417da38b92303b2035ab12452d262650e7bc8de",
+      "size": 208915,
+      "mtime_ns": 1792991387309568500
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P16.json": {
+      "sha256": "d8704e85e891073982b653138372b870ea4686e0bed255cbdb21ac427599b954",
+      "size": 209089,
+      "mtime_ns": 1792991387350502200
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P17.json": {
+      "sha256": "62e504e6e032d7ef760c8f309d1a23d0b53870a86126a75f75a39afd24997eaa",
+      "size": 208915,
+      "mtime_ns": 1792991387384149700
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P18.json": {
+      "sha256": "c2b35f46408e0e143539e60707ca19a95a8976fc28f3e20141e449c047ac3467",
+      "size": 209089,
+      "mtime_ns": 1792991387414151500
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P19.json": {
+      "sha256": "bf335b91ffe7ecdde8871f7b5d20a5c9f6124b975946cf13a5c0d787da9a8389",
+      "size": 208915,
+      "mtime_ns": 1792991387444152500
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/P20.json": {
+      "sha256": "edb59f52b7a8fc5bca0879562c2987ed236a406313afff0195b9f6a7825f3f19",
+      "size": 209089,
+      "mtime_ns": 1792991387473160900
+    },
+    "docs/experiments/m3_8f_r2/study_v2/participant/sessions/QA_SYN001.json": {
+      "sha256": "3b7fb1d10c4fd0265ee6b183e0a9f5007a744eed7eaa3595db3865a898800fda",
+      "size": 209043,
+      "mtime_ns": 1792991387522687800
+    },
+    "docs/experiments/m3_8f_r2/study_v2/results/empty_cli_check/summary_real.json": {
+      "sha256": "9dacc86d3908f16aa28cd97cd3410d9ad039f99e54d152f495f5150a6e8aa2dd",
+      "size": 3087,
+      "mtime_ns": 1792991542079855900
+    },
+    "docs/experiments/m3_8f_r2/study_v2/results/empty_cli_check/summary_real.md": {
+      "sha256": "14bb7fd399bb172bd71f434d97bd8bc7303ee278e3d40472f6a04555afd091ab",
+      "size": 662,
+      "mtime_ns": 1792991542080823600
+    },
+    "docs/M3_8F_EXPLANATION_HUMAN_EVALUATION.md": {
+      "sha256": "45aba9ec50f2f011d2cee10672661e5acd98e2fa2dc22780a1bd88a1047a4795",
+      "size": 13798,
+      "mtime_ns": 1792988171521184100
+    },
+    "docs/M3_8F_R1_T08_TIMEOUT_ANALYSIS.md": {
+      "sha256": "15e1cfb44065b567e4f1148c678f4e1f83f14eed21b7d40888c790cd04814a03",
+      "size": 17102,
+      "mtime_ns": 1792989464135890600
+    },
+    "docs/M3_8F_R2_MATCHED_PRELOAD_RETEST.md": {
+      "sha256": "4454989fb361c4e4931915152c0dad932e909900384cf7bb00f724fb4080c265",
+      "size": 14014,
+      "mtime_ns": 1792992383129231800
+    },
+    "docs/experiments/m3_8f/evidence/m38f-combined-actual.json": {
+      "sha256": "377a2532a06ffef42a03c20387648bc8a1490b1219e7314829a951c4a15a0031",
+      "size": 66086,
+      "mtime_ns": 1792985835808126200
+    },
+    "docs/experiments/m3_8f/evidence/m38f-combined-actual-retry.json": {
+      "sha256": "72e3e14511bb49eac654f4c07cc8192bf129e194161b80ec7ca9b9ff0059018c",
+      "size": 65856,
+      "mtime_ns": 1792986079155612700
+    },
+    "docs/experiments/m3_8f_r2/actual_diagnostics.json": {
+      "sha256": "10ac9b16977c07e351895331b1f899616609cddbd2c70112ca08b0e96ac0ec7b",
+      "size": 148665,
+      "mtime_ns": 1792991241188261900
+    },
+    "docs/experiments/m3_8f_r2/t08_accepted_for_study.json": {
+      "sha256": "b00079024c8cddad191d3271f65ac302b63a8bd6198d344985b3e6a89c26a982",
+      "size": 70660,
+      "mtime_ns": 1792991386409526400
+    },
+    "docs/evidence/m3_8e_actual_candidate_evaluation.json": {
+      "sha256": "dff653cfb8b1d8bd612735e033904b72f346abed859888dc21e3dee8af5d650e",
+      "size": 2268649,
+      "mtime_ns": 1792983274342910200
+    },
+    "tools/explanation_study.py": {
+      "sha256": "ba5f07a372802213af6c8ec860e874907d6ea60ba153f102ff4b642e83a48165",
+      "size": 13814,
+      "mtime_ns": 1792986321633309100
+    },
+    "docs/OBSIDIAN_WORKFLOW.md": {
+      "sha256": "e20da676b4d91ba9efd214f02419fb28fa9a2cf3ae84fd3a6014228bda16e1a4",
+      "size": 4027,
+      "mtime_ns": 1792851257890548700
+    }
+  }
+}

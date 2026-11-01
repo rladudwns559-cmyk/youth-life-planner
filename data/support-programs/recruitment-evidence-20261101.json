@@ -1,0 +1,761 @@
+{
+  "verified_on": "2026-11-01",
+  "scope_note": "공식본문 직접 열람.현재 접수중 배지/신청폼/상시안내와 실제접수완료·잔여예산검증을 구분.프로덕션변경·신청제출·로그인·문의 없음.사업기간을 신청기간으로 전용하지 않음.",
+  "programs": [
+    {
+      "program_id": "JB-GUNSAN-YOUTH-INTERVIEW-FEE-2026",
+      "title": "2026 군산 청년 구직자 관내 기업 면접비 지원",
+      "authority": "군산시 청년뜰",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "전북"
+      ],
+      "city": "군산시",
+      "benefit_summary": "군산 소재 사업장 면접에 응시한 청년에게 연1회5만원 면접비를 지원합니다. 면접기업이나 유사사업의 중복 지원은 제한됩니다.",
+      "age_note": "18~39세·1986~2008년생.1986년생은 신청일 생일이 지나지 않은 경우라는 별도 조건이 있어 단순 연나이로 대체하지 않습니다.",
+      "income_note": "소득 상한은 본문 미표시. 국민취업지원제도·청년활력수당 등 구직지원금 수혜는 중복 제한을 확인합니다.",
+      "required_checks": [
+        "군산 사업장 실제 면접·면접일1개월 이내 신청",
+        "면접일2주 이내 발급 면접확인서",
+        "기업 면접비·다른 면접수당·구직지원금 중복",
+        "1986년생 생일 경계·증빙서류",
+        "예산잔여·연1회 이력"
+      ],
+      "schedule_note": "모집2026.1.26~12.31, 본문은 예산소진 시까지. 현재 센터 메인·목록에 접수중 표시와 지원신청 버튼 확인.",
+      "starts_on": "2026-01-26",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gsyouth.or.kr/main/m52/view.do?applyNo=91",
+          "title": "2026 군산 청년 구직자 관내 기업 면접비 지원 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "상세 모집·본문 지원대상/중복제한/면접일기한; 메인 접수중 배지"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "JB-GUNSAN-JOB-SUCCESS-GIFT-2026",
+      "title": "2026 군산 청년 취업자 성공 기념 지원",
+      "authority": "군산시 청년뜰",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "전북"
+      ],
+      "city": "군산시",
+      "benefit_summary": "지정 청년뜰 프로그램·공간 이용 등 자격을 갖추고 올해 취업에 성공한 청년에게1인1회3만원 상당 기프티콘을 제공합니다.",
+      "age_note": "18~39세·1986~2008년생.1986년생은 신청일 생일 경계 조건. 거주지역 무관.",
+      "income_note": "소득 수치 미표시. 지정 인재양성 프로그램 참여 및 공간이용 자격은 공고문 확인이 필요합니다.",
+      "required_checks": [
+        "2025~2026 인재양성 프로그램 참여 조건",
+        "2026 취업 목적 공간 이용 및 취업 성공 증빙",
+        "공고문의 프로그램 참여 AND/OR 관계",
+        "1986년생 생일 경계·1회 지급 이력",
+        "모집50명 잔여예산"
+      ],
+      "schedule_note": "모집2026.3.23~12.31로 표시하며 본문 상시·예산소진형. 현재 센터 메인에 접수중과 상세 지원신청 버튼 확인.",
+      "starts_on": "2026-03-23",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://gsyouth.or.kr/main/m52/view.do?applyNo=100",
+          "title": "2026 군산 청년 취업자 성공 기념 지원 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "상세 모집 및 본문 지원대상·연도기준·지원내용; 센터메인 접수중"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "INCHEON-YEONGJONG-EXAM-FEE-2026",
+      "title": "2026 영종구 청년 자격증 응시료 지원",
+      "authority": "인천광역시·영종구",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "인천"
+      ],
+      "city": "영종구",
+      "benefit_summary": "1인1회 연최대10만원 범위의 실제 응시료를 지원합니다. 여러 건 신청 시 가장 높은1건, 필기·실기 등도1건 인정 안내입니다.",
+      "age_note": "공식1986.1.1~2008.12.31 출생,18~39세. 신청일 영종구 주소·응시일 고용상태를 확인합니다.",
+      "income_note": "별도 소득 상한 미표시. 응시일 미취업 기준과 단기근로·정부직접일자리 예외를 확인합니다.",
+      "required_checks": [
+        "신청일 영종구 주민등록",
+        "2025.12.1 이후 실제 시험 응시",
+        "응시일 미취업 또는 정부직접일자리/주26시간이하/계약3개월이하 예외",
+        "직장건강보험·사업자등록과 예외 증빙",
+        "시험목록·실결제액·기존감면·연1회 이력"
+      ],
+      "schedule_note": "공식신청2026.2.1 09시~11.30 18시. 인천청년포털 목록은 영종구 접수중 표시. 일부 다른 군구는 예산소진 마감이므로 인천 전체로 일반화하지 않습니다.",
+      "starts_on": "2026-02-01",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=467",
+          "title": "2026 영종구 청년 자격증 응시료 지원 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원대상·신청안내·예외/제외·제출서류; 인천정책목록 영종구 접수중"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "INCHEON-BUPYEONG-DREAMUP-2026",
+      "title": "2026 자립준비청년 자립역량 강화 드림업",
+      "authority": "인천광역시·삼산종합사회복지관",
+      "edition": "2026",
+      "category": "LIVING",
+      "provinces": [
+        "인천"
+      ],
+      "city": null,
+      "benefit_summary": "시설 퇴소·예정 자립준비청년의 일상생활교육·취업준비·정서안정·맞춤형 자립 지원 프로그램입니다. 현금 수당으로 표시하지 않습니다.",
+      "age_note": "인천 거주 만18세 이상~만29세 미만, 아동·청소년 복지시설 퇴소 또는 예정 자립준비청년15명.",
+      "income_note": "열람 공식 안내에 소득 수치 미표시.",
+      "required_checks": [
+        "현재 인천 거주",
+        "시설 종류 및 퇴소/예정 자격",
+        "만18세이상29세미만의 기관 기준일",
+        "15명 잔여인원·진행 일정",
+        "외부 복지관 전화 또는 홍보지 신청 링크"
+      ],
+      "schedule_note": "공식 신청기간2026.2.24~12.9. 인천1인가구포털 일정에 접수중·신청하기 연결 확인. 복지관 링크는 읽기 도구 cache miss여서 최종 신청서 상태는 미확인.",
+      "starts_on": "2026-02-24",
+      "ends_on": "2026-12-09",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.incheon.go.kr/1in/OHH020109/view?oneHouseHoldId=A2026022000300200400700315",
+          "title": "2026 자립준비청년 자립역량 강화 드림업 공식 안내",
+          "basis_date": "2026-04-08",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원대상·신청기간·신청방법; 프로그램일정 목록 접수중·신청하기"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "SEOUL-LIFE-PLANNING-STARTER-2026",
+      "title": "2026 청년인생설계학교 스타터코스",
+      "authority": "서울특별시",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "서울"
+      ],
+      "city": null,
+      "benefit_summary": "인생스토리북 제작과 또래·선배와의 자기이해·진로탐색 과정.12월3~4일 두 차례16~18시,10명 선발입니다.",
+      "age_note": "신청일 서울 주민등록, 공식 출생범위2002.1.1~2008.12.31(18~24세). 학교밖청소년 우선선정이며 재학생 모두 배제라는 뜻은 아닙니다.",
+      "income_note": "모집 본문에 소득 상한 미표시.",
+      "required_checks": [
+        "신청일 서울 주민등록",
+        "정확한 출생일",
+        "학교밖청소년 우선선정·공고의 선정기준",
+        "12월3·4일 참여 가능",
+        "모집10명·최종 선정"
+      ],
+      "schedule_note": "실제신청2026.10.26 10시~11.16 17시. 공식메인 모집중 및 신청접수중 정책에 표시.12월 운영기간을 접수기간으로 사용하지 않습니다.",
+      "starts_on": "2026-10-26",
+      "ends_on": "2026-11-16",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.seoul.go.kr/bbs/view.do?key=2303300002&pstSn=2610220002&sc_bbsCtgrySn=2304110001",
+          "title": "2026 청년인생설계학교 스타터코스 공식 안내",
+          "basis_date": "2026-10-22",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "스타터코스 모집개요 신청기간·신청자격·출생범위·선정발표; 공식메인 모집중"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "SEOUL-ISOLATED-YOUTH-SUPPORT-2026",
+      "title": "2026 서울 고립·은둔청년 지원",
+      "authority": "서울특별시·서울청년기지개센터",
+      "edition": "2026",
+      "category": "LIVING",
+      "provinces": [
+        "서울"
+      ],
+      "city": null,
+      "benefit_summary": "개인 심리지원·사회복귀와 진로탐색·관계역량·생활습관 프로그램 및 가족 지원을 제공합니다. 현금 수당이 아닙니다.",
+      "age_note": "서울 거주 청년1986.1.1~2007.12.31 및 가족. 의무복무 제대군인은 최대3년 연장 안내로 일반출생범위 밖도 추가확인합니다.",
+      "income_note": "열람 안내에 소득 상한 미표시.",
+      "required_checks": [
+        "서울 거주 및 생년월일",
+        "고립 또는 은둔 각 정의와6개월 유지",
+        "가족 신청 경로·별도 가족 프로그램 모집",
+        "병역 연령특례",
+        "기관 심사·실제 프로그램 잔여"
+      ],
+      "schedule_note": "정확한 접수시작·종료일 미표시. 공식메인의 ‘신청접수중인 정책’에 표시되고 실제 신청 경로는 로그인 요구로 확인됐습니다. 로그인 후 양식·프로그램 배정은 미수행.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://youth.seoul.go.kr/youthConts.do?key=2310100062&sc_bbsCtgrySn=2310200007&sc_bbsStngSn=2212200001&sc_faqCtgryCd=013&sc_pbancSeCd=008&sc_qnaCtgryCd=",
+          "title": "2026 서울 고립·은둔청년 지원 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원대상자·고립/은둔 기준표·지원내용·신청하기, 공식메인 신청접수중 정책"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "SEOUL-YOUNGTECH-COUNSELING-2026",
+      "title": "2026 서울영테크 무료 재무상담",
+      "authority": "서울특별시",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "서울"
+      ],
+      "city": null,
+      "benefit_summary": "소득·지출 관리와 재무진단 등 무료 재무상담을 제공합니다. 특정 금융상품 가입 권유나 투자종목 추천으로 연결하지 않습니다.",
+      "age_note": "서울 거주 만19~39세, 제대군인은 최대42세까지 가능. 구체적 복무기간별 가산은 추가확인.",
+      "income_note": "열람 안내에 소득 상한 미표시.",
+      "required_checks": [
+        "서울 거주·연령·병역특례",
+        "올해 상담 종료·중복 신청 여부",
+        "실제 선택 가능한 회차·상담사·시간",
+        "운영 상세의 상담방식 차이",
+        "금융교육 별도 회차 신청기간"
+      ],
+      "schedule_note": "공식안내 수시접수·상담신청 연결. 실제 상담목록은 ‘현재 모집중745건’과 동시에‘0건 표시/조건에맞는회차없음’으로 나타나 잔여회차 확인불가.모집확정을 과장하지 않고 UNKNOWN.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://youth.seoul.go.kr/youthConts.do?key=2310100072&sc_bbsCtgrySn=0&sc_bbsStngSn=2310160002&sc_faqCtgryCd=015&sc_pbancSeCd=102&sc_qnaCtgryCd=001",
+          "title": "2026 서울영테크 무료 재무상담 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "영테크 재무상담 신청대상·수시접수·상담신청. 연결된 실제 회차목록의 상충 표시"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "SEOUL-YONGSAN-YOUTH-LIFE-COOKIE-2026",
+      "title": "2026 용산 나의 완벽한 청년생활 · 쫀득쿠키 만들기",
+      "authority": "용산구·위탁운영 이너트립",
+      "edition": "2026",
+      "category": "CULTURE",
+      "provinces": [
+        "서울"
+      ],
+      "city": "용산구",
+      "benefit_summary": "청년 생활문화 프로그램의 요리 체험.11월12일19~21시,정원15명.하나의 생활지원 사업 내 개별 회차이며 전체13개를 별도 정책13개로 세지 않습니다.",
+      "age_note": "19~39세, 용산 거주 또는 용산 기반 직장·학교·활동 청년. 고정 생년월일 기준은 미표시.",
+      "income_note": "공식 안내에 소득 제한 미표시.",
+      "required_checks": [
+        "용산 거주OR직장OR학교/활동 관계",
+        "연령기준일",
+        "신규참여 우대·정원초과 선정",
+        "준비물·참석 가능·무단불참 제한",
+        "선정발표11월2일과 모집마감 구분"
+      ],
+      "schedule_note": "현재 운영사이트 카드 접수중, 상세 실제신청 폼·제출버튼이 표시됩니다.접수시작·마감일 미표시이며11월2일 선정발표를 마감일로 생성하지 않습니다.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "UNKNOWN",
+      "sources": [
+        {
+          "url": "https://yongsanyouth.kr/programs/cookie",
+          "title": "2026 용산 나의 완벽한 청년생활 · 쫀득쿠키 만들기 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "상세 프로그램·연령·신청양식/자기확인; 메인 접수중·용산구 주최/운영표시"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "SEOUL-YANGCHEON-LEATHER-WORKSHOP-2026-11",
+      "title": "2026 서울청년센터 양천 또오리랑 가죽공방 · 11월",
+      "authority": "서울청년센터 양천",
+      "edition": "2026",
+      "category": "CULTURE",
+      "provinces": [
+        "서울"
+      ],
+      "city": null,
+      "benefit_summary": "청년정책 이야기와 가죽 카드지갑 제작·또래 소통 프로그램.회당10명,11월19·20·26·27일 중 회차 확인이 필요합니다.",
+      "age_note": "서울시 생활권 만19~39세. 의무복무 제대군인은 복무기간만큼 연령상한 연장 가능. 신규참여자 우대.",
+      "income_note": "공식 모집본문에 소득 수치 미표시.",
+      "required_checks": [
+        "서울 생활권 거주/직장/학업 등 인정범위",
+        "나이 기준일·군복무 특례",
+        "개별회차·신청내용 기반 선발",
+        "조기마감·선정문자 회신",
+        "무단불참 제한"
+      ],
+      "schedule_note": "신청2026.10.31~11.11 23:59.공식메인 모집중과 상세 구글폼 신청링크 확인.조기마감 가능성이 있으며 폼 제출상태는 확인하지 않았습니다.",
+      "starts_on": "2026-10-31",
+      "ends_on": "2026-11-11",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.seoul.go.kr/infoData/sprtInfo/view.do?key=2309130006&sprtInfoId=75455",
+          "title": "2026 서울청년센터 양천 또오리랑 가죽공방 · 11월 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "모집기간·신청대상·병역특례·운영일시·신청방법"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "INCHEON-GYEYANG-YOUTH-CHALLENGE-2026",
+      "title": "2026 계양구 청년도전지원사업",
+      "authority": "인천광역시 계양구",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "인천"
+      ],
+      "city": "계양구",
+      "benefit_summary": "취업의욕 회복 맞춤 프로그램과 참여유형별 월50만원 참여수당·인센티브. 최대350만원은 이수·취업 등 모든 해당 조건 충족 시 한도입니다.",
+      "age_note": "일반18~34세, 지역특화35~39세 등 유형별 기준. 계양 거주자 우선이며 지역조건·정원별 특례는 기관확인.",
+      "income_note": "소득 수치 제한 미표시. 유사수당·구직급여·국민취업지원 중복 및 종료 후6개월 제한 등 확인.",
+      "required_checks": [
+        "유형별6개월 취창업/교육훈련 이력·문답표21점",
+        "일반·시설퇴소·북한이탈·지역특화OR분기",
+        "고교졸업/예정·대학졸업·재학/휴학 예외와 배제",
+        "6개월내 입대예정·군복무",
+        "현재78명정원 회차별 모집현황"
+      ],
+      "schedule_note": "2026.1.20부터 수시모집·선착순마감.공식신청하기·고용24연결은 확인했으나 현재남은반/인원·전체마감여부는 확정하지 못해 CONTINUOUS 안내 수준입니다.",
+      "starts_on": "2026-01-20",
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://youth.incheon.go.kr/space/gyeyang/challenge/info.jsp",
+          "title": "2026 계양구 청년도전지원사업 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "접수기간·모집개요·유형별 신청자격/제한·고용24신청버튼"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "BUSAN-SAHA-WEBNOVEL-ACADEMY-2026-11",
+      "title": "2026 사하 청년콘텐츠아카데미 · 웹소설 만들기",
+      "authority": "사하구 일자리정책과",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "부산"
+      ],
+      "city": "사하구",
+      "benefit_summary": "무료 웹소설 교육4회:시장 이해·소재발굴·작품 콘셉트/한줄소개.개인노트북이 필요하고11월10·11·17·18일 모두 참여해야 합니다.",
+      "age_note": "공식상세 지원대상은 지역청년. 구체적 나이·주민등록 제한은 미표시로 추가확인.",
+      "income_note": "공식상세에 소득·취업상태 제한 미표시.",
+      "required_checks": [
+        "지역청년의 주소/활동 인정범위·정확한 나이",
+        "4회 연속참여",
+        "개인노트북",
+        "포스터QR신청 및 잔여정원"
+      ],
+      "schedule_note": "공식 부산청년플랫폼 모집중, 실제신청2026.10.30~11.9.교육은11.10~11.18로접수기간과분리합니다.",
+      "starts_on": "2026-10-30",
+      "ends_on": "2026-11-09",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000003980&menuCd=13",
+          "title": "2026 사하 청년콘텐츠아카데미 · 웹소설 만들기 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "모집중·신청기간·지원대상·무료/연속참여·포스터QR 신청방법"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "BUSAN-HAEUNDAE-AI-MARKETING-2026-R2",
+      "title": "2026 해운대 디지털AI 마케팅스쿨 2기",
+      "authority": "해운대 청년JOB카페 드림포트",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "부산"
+      ],
+      "city": null,
+      "benefit_summary": "디지털·AI마케팅 실무교육 총5회20시간,수강료와교재무료.이수조건충족시고용노동부이수증제공안내입니다.",
+      "age_note": "만15~39세졸업예정/졸업자및재직자.재학생은사이버대·방송통신대·야간대등만가능.",
+      "income_note": "소득기준미표시.청년도전지원사업과중복참여불가.",
+      "required_checks": [
+        "현재나이기준일",
+        "졸업/학적·주간대학생배제범위",
+        "청년도전중복참여",
+        "11.9·11·16·18·23참여·결석허용1회",
+        "신청후사전확정연락·장소"
+      ],
+      "schedule_note": "공식현재모집중.제목10.26시작과달리구조화필드및상세접수는2026.10.27~11.6으로일치해이를기록합니다.당일마감시각미표시.",
+      "starts_on": "2026-10-27",
+      "ends_on": "2026-11-06",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000003979&menuCd=13",
+          "title": "2026 해운대 디지털AI 마케팅스쿨 2기 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "모집중·대상·프로그램운영안내접수기간·신청절차·이수조건"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "BUSAN-JINGU-SINGLE-LIFE-CLASS-2026-11",
+      "title": "2026 부산진구 싱글벙글 · 부동산·금융 특강",
+      "authority": "전포종합사회복지관",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "부산"
+      ],
+      "city": null,
+      "benefit_summary": "1인가구청년의전월세·관리비·등기부등본·계약체크리스트와금융기초교육.현금지원이나금융상품가입추천이아닙니다.",
+      "age_note": "공식모집대상1인가구청년20명.나이숫자·거주범위세부조건미표시.",
+      "income_note": "소득·고용상태제한은공식상세미표시.",
+      "required_checks": [
+        "1인가구여부",
+        "나이·지역인정범위",
+        "11월교육일정·장소",
+        "20명잔여정원",
+        "참가비있음/없음기관확인"
+      ],
+      "schedule_note": "공식모집중,신청2026.10.27~11.5 18시.진행11.5~11.10을신청종료기간으로사용하지않음.",
+      "starts_on": "2026-10-27",
+      "ends_on": "2026-11-05",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000003976&menuCd=13",
+          "title": "2026 부산진구 싱글벙글 · 부동산·금융 특강 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "모집중·신청기간·상세18시마감·모집대상·교육주제·구글폼"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "BUSAN-JINGU-MOCK-INTERVIEW-2026-11",
+      "title": "2026 부산진구 청년마루 실전 모의면접",
+      "authority": "부산진구청 일자리산업과·청년마루",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "부산"
+      ],
+      "city": null,
+      "benefit_summary": "면접답변전략·불안감소·그룹모의면접/피드백무료교육.11월20일14~17시부산진구청년마루에서진행합니다.",
+      "age_note": "구조화대상15~39세이하,상세만39세이하청년.정확한연령기준일·거주제한미표시.",
+      "income_note": "소득·현재취업상태제한미표시.",
+      "required_checks": [
+        "연령기준일·지역참여범위",
+        "실제구직/이직준비참여요건",
+        "11월20일참석",
+        "잔여정원·선정연락"
+      ],
+      "schedule_note": "공식모집중,신청2026.10.30~11.19.교육11.20은마감일이아닙니다.",
+      "starts_on": "2026-10-30",
+      "ends_on": "2026-11-19",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000003975&menuCd=13",
+          "title": "2026 부산진구 청년마루 실전 모의면접 공식 안내",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "모집중·신청기간·지원대상·참가비무료·신청URL"
+        }
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "GG-YOUTH-BASIC-INCOME-2026-Q4",
+      "title": "2026 경기도 청년기본소득 · 4분기",
+      "authority": "경기도·경기도미래세대재단·참여시군",
+      "edition": "2026",
+      "category": "LIVING",
+      "provinces": [
+        "경기"
+      ],
+      "city": null,
+      "benefit_summary": "공식4분기안내분기25만원지역화폐.최종선정과참여시군·분기별조건을확인해야하며예산계산에자동가산하지않습니다.",
+      "age_note": "공식포털안내24세경기거주청년.정확한분기생년월일범위·기준일은신청원공고에서추가확인,현재age24로확정하지않음.",
+      "income_note": "공식안내에소득수치미기재.전조건충족으로자동처리하지않음.",
+      "required_checks": [
+        "분기별출생범위·기준일",
+        "신청일경기주민등록",
+        "최근3년계속거주OR합산10년거주공식해석",
+        "시군별참여·제외여부",
+        "기신청·자동신청·소급분기",
+        "최종선정·지역화폐사용"
+      ],
+      "schedule_note": "공식신청2026.11.2 09시~12.1 18시.확인일11.1에는UPCOMING이며접수중아님.잡아바신청링크는방화벽차단으로양식확인불가.",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-12-01",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.gg.go.kr/gg/intro/notice.do?article.offset=330&articleLimit=10&articleNo=10501&mode=view",
+          "title": "2026 경기도 청년기본소득 · 4분기 공식 안내",
+          "basis_date": "2026-10-29",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "4분기모집공고신청기간·대상·3년OR10년·지원내용·잡아바링크"
+        }
+      ],
+      "aliases": []
+    }
+  ],
+  "intake_verification": {
+    "JB-GUNSAN-YOUTH-INTERVIEW-FEE-2026": {
+      "url": "https://gsyouth.or.kr/main/m52/view.do?applyNo=91",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "application_url": "https://gsyouth.or.kr/main/m52/view.do?applyNo=91",
+      "evidence_excerpt": "1회, 5만원 면접비 지원(연간 1인 1회 지원)",
+      "deadline_precision": "DATE_ONLY_WITH_EARLY_BUDGET_CLOSURE",
+      "budget_uncertainty": "접수중 표시를 확인했으나 잔여예산·로그인 후 최종 접수 가능 여부는 미확인"
+    },
+    "JB-GUNSAN-JOB-SUCCESS-GIFT-2026": {
+      "url": "https://gsyouth.or.kr/main/m52/view.do?applyNo=100",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "application_url": "https://gsyouth.or.kr/main/m52/view.do?applyNo=100",
+      "evidence_excerpt": "취업 축하 기념 3만원 상당 기프티콘 제공(1 인 1 회)",
+      "deadline_precision": "DATE_ONLY_WITH_EARLY_BUDGET_CLOSURE",
+      "budget_uncertainty": "50명 예산소진형, 잔여인원 미확인"
+    },
+    "INCHEON-YEONGJONG-EXAM-FEE-2026": {
+      "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=467",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "application_url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyAcptSelfCheckForm.do?poly_seq=412",
+      "evidence_excerpt": "신청일 현재 주민등록상 인천시 영종구 거주자이며, 응시일 현재 미취업자",
+      "deadline_precision": "MINUTE_2026-11-30T18:00+09:00",
+      "budget_uncertainty": "영종구 목록 접수중, 로그인 후 군구 선택·잔여예산 최종 확인은 미수행"
+    },
+    "INCHEON-BUPYEONG-DREAMUP-2026": {
+      "url": "https://www.incheon.go.kr/1in/OHH020109/view?oneHouseHoldId=A2026022000300200400700315",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL_APPLICATION_UNCONFIRMED",
+      "application_url": "https://samsanwelfare.or.kr/menu/index.php?menu_str=0101&page=1&wr_id=632",
+      "evidence_excerpt": "만 18세 이상 ~ 만 29세 미만의 자립준비청년 15명",
+      "deadline_precision": "DATE_ONLY",
+      "budget_uncertainty": "정원15명 잔여인원 및 운영기관 최종 접수 미확인"
+    },
+    "SEOUL-LIFE-PLANNING-STARTER-2026": {
+      "url": "https://youth.seoul.go.kr/bbs/view.do?key=2303300002&pstSn=2610220002&sc_bbsCtgrySn=2304110001",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "application_url": "https://youth.seoul.go.kr/youthConts.do?key=2310200020&sc_bbsCtgrySn=2310200012&sc_bbsStngSn=2212200001&sc_faqCtgryCd=008&sc_pbancSeCd=013&sc_qnaCtgryCd=",
+      "evidence_excerpt": "신청기간 : 2026. 10. 26.(월) 10:00 ~ 11. 16.(월) 17:00",
+      "deadline_precision": "MINUTE_2026-11-16T17:00+09:00",
+      "budget_uncertainty": "정원10명 선발형이며 신청완료·최종선정은 미수행"
+    },
+    "SEOUL-ISOLATED-YOUTH-SUPPORT-2026": {
+      "url": "https://youth.seoul.go.kr/youthConts.do?key=2310100062&sc_bbsCtgrySn=2310200007&sc_bbsStngSn=2212200001&sc_faqCtgryCd=013&sc_pbancSeCd=008&sc_qnaCtgryCd=",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL_LOGIN_GATED",
+      "application_url": "https://youth.seoul.go.kr/isltYouthSprt/step0.do?key=2311050002",
+      "evidence_excerpt": "서울 거주 만19~39세 고립은둔청년 및 가족",
+      "deadline_precision": "NO_DEADLINE_PUBLISHED",
+      "budget_uncertainty": "로그인 이후 실제 배정·잔여인원은 미확인"
+    },
+    "SEOUL-YOUNGTECH-COUNSELING-2026": {
+      "url": "https://youth.seoul.go.kr/youthConts.do?key=2310100072&sc_bbsCtgrySn=0&sc_bbsStngSn=2310160002&sc_faqCtgryCd=015&sc_pbancSeCd=102&sc_qnaCtgryCd=001",
+      "verified_on": "2026-11-01",
+      "explicit_status": "UNKNOWN_CONFLICTING_AVAILABILITY_DISPLAY",
+      "application_url": "https://youth.seoul.go.kr/youngtech/grpFnnc/list",
+      "evidence_excerpt": "현재 모집중인 재무상담 745 건",
+      "deadline_precision": "CONTINUOUS_GUIDANCE_BUT_SESSION_UNCONFIRMED",
+      "budget_uncertainty": "같은 목록에0건 표시가 있어 잔여회차를 확정하지 않음"
+    },
+    "SEOUL-YONGSAN-YOUTH-LIFE-COOKIE-2026": {
+      "url": "https://yongsanyouth.kr/programs/cookie",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL_FORM_VISIBLE_DEADLINE_UNKNOWN",
+      "application_url": "https://yongsanyouth.kr/programs/cookie",
+      "evidence_excerpt": "신청 완료하기",
+      "deadline_precision": "NO_APPLICATION_DEADLINE_PUBLISHED",
+      "budget_uncertainty": "정원15명, 제출·선정 미수행"
+    },
+    "SEOUL-YANGCHEON-LEATHER-WORKSHOP-2026-11": {
+      "url": "https://youth.seoul.go.kr/infoData/sprtInfo/view.do?key=2309130006&sprtInfoId=75455",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL_EXTERNAL_FORM_UNCONFIRMED",
+      "application_url": "https://forms.gle/WV9kbDp1HMMx2jAr9",
+      "evidence_excerpt": "서울시 생활권 만 19~39세 청년 누구나",
+      "deadline_precision": "MINUTE_2026-11-11T23:59+09:00",
+      "budget_uncertainty": "조기마감 가능, 회당10명 잔여정원 미확인"
+    },
+    "INCHEON-GYEYANG-YOUTH-CHALLENGE-2026": {
+      "url": "https://youth.incheon.go.kr/space/gyeyang/challenge/info.jsp",
+      "verified_on": "2026-11-01",
+      "explicit_status": "CONTINUOUS_GUIDANCE_CURRENT_QUOTA_UNCONFIRMED",
+      "application_url": "https://www.work24.go.kr/cm/main.do",
+      "evidence_excerpt": "2026. 1. 20. ~ 수시 모집(선착순 마감)",
+      "deadline_precision": "CONTINUOUS_EARLY_QUOTA_CLOSURE",
+      "budget_uncertainty": "78명 전체 및 차수별 잔여인원 미확인, 상시문구만으로 접수중 확정 금지"
+    },
+    "BUSAN-SAHA-WEBNOVEL-ACADEMY-2026-11": {
+      "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000003980&menuCd=13",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL_QR_DESTINATION_UNCONFIRMED",
+      "application_url": null,
+      "evidence_excerpt": "모집중 [청년콘텐츠아카데미] 웹소설 만들기",
+      "deadline_precision": "DATE_ONLY",
+      "budget_uncertainty": "잔여정원 미표시.포스터QR의실제양식주소미확보"
+    },
+    "BUSAN-HAEUNDAE-AI-MARKETING-2026-R2": {
+      "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000003979&menuCd=13",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL_APPLICATION_LINK_INDIRECT",
+      "application_url": null,
+      "evidence_excerpt": "수강료 전액 무료",
+      "deadline_precision": "DATE_ONLY_START_TITLE_BODY_CONFLICT",
+      "budget_uncertainty": "선착순모집이나잔여정원미확인.정확한신청양식URL미확보"
+    },
+    "BUSAN-JINGU-SINGLE-LIFE-CLASS-2026-11": {
+      "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000003976&menuCd=13",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL_EXTERNAL_FORM_UNCONFIRMED",
+      "application_url": "https://forms.gle/Fju9PowzAM7UPjuf9",
+      "evidence_excerpt": "2026. 11. 5(목) 18:00 까지",
+      "deadline_precision": "MINUTE_2026-11-05T18:00+09:00",
+      "budget_uncertainty": "20명잔여정원및외부폼제출가능여부미확인"
+    },
+    "BUSAN-JINGU-MOCK-INTERVIEW-2026-11": {
+      "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000003975&menuCd=13",
+      "verified_on": "2026-11-01",
+      "explicit_status": "OPEN_OFFICIAL_LABEL_EXTERNAL_FORM_UNCONFIRMED",
+      "application_url": "https://forms.gle/Y3Fi12zMHgoXomTc9",
+      "evidence_excerpt": "참가비 무료",
+      "deadline_precision": "DATE_ONLY",
+      "budget_uncertainty": "정원·잔여인원미표시,외부폼제출미수행"
+    },
+    "GG-YOUTH-BASIC-INCOME-2026-Q4": {
+      "url": "https://youth.gg.go.kr/gg/intro/notice.do?article.offset=330&articleLimit=10&articleNo=10501&mode=view",
+      "verified_on": "2026-11-01",
+      "explicit_status": "UPCOMING_CONFIRMED",
+      "application_url": "https://apply.jobaba.net/special/gibon/main.do",
+      "evidence_excerpt": "2026. 11. 2.(월) 09:00 ~ 12. 1.(화) 18:00",
+      "deadline_precision": "MINUTE_2026-11-02T09:00+09:00__2026-12-01T18:00+09:00",
+      "budget_uncertainty": "접수시작전이며원신청사이트접근불가.참여시군·예산조건최종미확인"
+    }
+  },
+  "matching_notes": {
+    "JB-GUNSAN-YOUTH-INTERVIEW-FEE-2026": "거주지역이 아니라 군산 소재 면접 사업장 조건이다. 사용자의 타지역 주소만으로 FAIL 처리하지 않는다. 현재 employment_status와 과거 면접 당시 조건을 구분. 추가서류는 외부기관 제출용이며 우리사이트 수집 아님.",
+    "JB-GUNSAN-JOB-SUCCESS-GIFT-2026": "지역 무관이므로 군산 주민등록 hard filter 금지. 프로그램참여·공간이용·취업의 정확한 조건 조합을 공고문으로 확인하기 전 UNKNOWN. 본문2626년 오기는 문맥만으로 세부조건을 새로 생성하지 않는다.",
+    "INCHEON-YEONGJONG-EXAM-FEE-2026": "단기근로 예외가 있으므로 employed만으로 FAIL 금지. 신청일 현재 재직하더라도 시험 당시 상태가 별도다. 위 application_url은 전체 인천 공통 신청 채널이며 로그인 필요. 군구별 마감상태를 통합하지 않는다.",
+    "INCHEON-BUPYEONG-DREAMUP-2026": "담당복지관 소재지는 부평이지만 지원대상은 인천시 거주. 부평구 주소로 축소하지 않는다. 연령상한29미만은29이하가 아니다. 시설이력은 추가확인 텍스트로만 제공.",
+    "SEOUL-LIFE-PLANNING-STARTER-2026": "나이는 현재만나이 대신 명시출생범위. 학교밖청소년은 우대조건. 취업상태 hard restriction 본문 미표시. 본문에 현금지원 없음.",
+    "SEOUL-ISOLATED-YOUTH-SUPPORT-2026": "고립과 은둔은OR분기이며 은둔의 경제활동·구직·학업조건을 모든 고립청년에게 일괄 적용하지 않는다. 민감한 건강/고립정보를 우리사이트 입력·저장에 추가하지 않고 전문기관 확인으로 유지.",
+    "SEOUL-YOUNGTECH-COUNSELING-2026": "사업소개1:4그룹 대면과 실제기본상담페이지1:1 문구가 다르다. 상담방식/횟수는 확정표시보류. 일반이용안내와 특정회차 접수상태를 구분한다.",
+    "SEOUL-YONGSAN-YOUTH-LIFE-COOKIE-2026": "거주지만 묻는 프로필이면 용산 외 주소도 직장·학업OR활동 가능성이 있어 지역FAIL 금지. 현재 폼은 읽기만 했고 개인정보입력·동의·제출 안함. 금액·무료 여부가 상세에 명시되지 않아 수강료0원 자동표시 금지.",
+    "SEOUL-YANGCHEON-LEATHER-WORKSHOP-2026-11": "양천구 주소 필수 아님. 서울생활권을 서울주민등록으로 축소하지 않음. 연령초과 제대군인 추가확인. 본문에 비용 수치 없어 무료로 추정하지 않음.",
+    "INCHEON-GYEYANG-YOUTH-CHALLENGE-2026": "미취업/학력/나이 단일AND로평탄화금지. 지역특화에는주30시간미만생계형알바등분기. 상담문답표·시설이력은우리프로필자동판정외추가확인. 고용24 링크의 세부신청코스는 로그인 안함.",
+    "BUSAN-SAHA-WEBNOVEL-ACADEMY-2026-11": "나이19~39를추정입력하지않음.사하구소재교육장이라고사하구주민등록필수로단정하지않음.프로그램본문무료를확인했으므로교육비무료표시는가능.신청버튼대신원문QR안내.",
+    "BUSAN-HAEUNDAE-AI-MARKETING-2026-R2": "employed는지원가능.일반재학생은예외유형외제한이있어student_status단일yes/no로판정불가.해운대주민등록만조건이라고추정하지않음.",
+    "BUSAN-JINGU-SINGLE-LIFE-CLASS-2026-11": "부산진구사업명이지만본문지원대상1인가구청년누구나.부산진구주소필수로단정하지않음.투자방법교육은소개하되우리서비스가투자추천실행을하지않음.",
+    "BUSAN-JINGU-MOCK-INTERVIEW-2026-11": "현재employed라해서이직준비생을자동배제하지않음.부산진구민필수조건을추정하지않음.",
+    "GG-YOUTH-BASIC-INCOME-2026-Q4": "기존안산Q3와동일정책계열의새분기이지새로운정책종류라고부풀리지않음.ResidenceHistory공식해석보류유지,거주기간자동PASS금지.경기도전체시군참여를추정하지않음."
+  },
+  "existing_updates": [
+    {
+      "program_id": "GG-YOUTH-INTERVIEW-ALLOWANCE-2026",
+      "status": "NO_INTAKE_FOR_2026_SECOND_ROUND",
+      "url": "https://youth.gg.go.kr/gg/intro/notice.do?article.offset=330&articleLimit=10&articleNo=10454&mode=view",
+      "basis_date": "2026-10-19",
+      "verified_on": "2026-11-01",
+      "evidence_excerpt": "2026년 경기도 청년 면접수당 2차 모집은 부득이하게 진행되지 않음",
+      "note": "공식10.12추경에따라11월예정모집미운영.과거연간계획·타지역공식요약상시보다후속공지우선."
+    },
+    {
+      "program_id": "SEOUL-YOUTH-CULTURE-PASS-2026",
+      "status": "OPEN_OFFICIAL_HOME_APPLICATION_LABEL",
+      "url": "https://youth.seoul.go.kr/mainA.do",
+      "verified_on": "2026-11-01",
+      "evidence_excerpt": "신청접수중인 정책",
+      "note": "메인해당섹션에청년문화패스가포함.기존현행2002~2005년생및병역특례유지.미확인신청URL를만들지않고기존공식사업안내의신청버튼을사용해야함."
+    },
+    {
+      "program_id": "GYEONGNAM-JINJU-EXAM-FEE-2026",
+      "status": "HOLD_FOR_EXPLICIT_CLOSURE_SIGNAL",
+      "url": "https://young.jinju.go.kr/young/business/list/youth/0?category=youth&showNum=12&sortDir=DESC&sortProp=id&value=",
+      "verified_on": "2026-11-01",
+      "evidence_excerpt": "(마감) 2026년 청년 자격증 응시료 지원사업",
+      "note": "공식검색색인제목은마감이나목록배지는접수중.직접재열람cache miss로최신원문확인보류.OPEN승격금지."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "title": "2026 안산 정신건강 심리상담 바우처",
+      "url": "https://www.ansan.go.kr/health/common/cntnts/selectContents.do?cntnts_id=C0003016",
+      "verified_on": "2026-11-01",
+      "explicit_status": "CLOSED_BUDGET_EXHAUSTED",
+      "evidence_excerpt": "예산소진으로 인해 접수마감",
+      "note": "옛접수시작공지보다현행사업안내마감문구우선."
+    },
+    {
+      "title": "경주청년센터 청년고도 프로그램",
+      "url": "https://godo1539.com/",
+      "note": "공식검색색인접수중은보이나직접홈페이지502/timeout으로이번직접검증채택제외."
+    },
+    {
+      "title": "2026 군산 면접정장 대여",
+      "url": "https://gsyouth.or.kr/main/m52/index.do",
+      "note": "검색색인과과거홈은접수중이지만최신목록은종료·9.7마감.신규OPEN에채택하지않음."
+    },
+    {
+      "title": "성동11월미취업응시료·전입청년생필품",
+      "url": "https://sd.go.kr/booking/bookingOnlineRceptList.do?cpn=1&key=5095&rcpp=9&sc3=202611",
+      "note": "검색색인접수대기/11.1시작,직접timeout.현재접수중을확인하지못해제외."
+    },
+    {
+      "title": "서울청년센터마포 독서동아리",
+      "url": "https://youth.seoul.go.kr/infoData/sprtInfo/view.do?key=2309130006&sprtInfoId=75449",
+      "note": "공식모집중·11.30까지는확인했으나나이/신청채널세부부족으로이번우선목록제외."
+    },
+    {
+      "title": "서울취업날개",
+      "url": "https://www.seoul.go.kr/news/news_report.do?nttNo=453766&tr_code=snews",
+      "note": "2026대상·횟수·운영보도확인.현재개별예약가능상태미확인으로접수중검증목록에는미편입."
+    }
+  ]
+}

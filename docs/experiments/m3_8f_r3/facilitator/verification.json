@@ -1,0 +1,17 @@
+{
+  "frozen_version": "m38f-study-v2-r2",
+  "task_pairs": 8,
+  "source_files_hashed": 43,
+  "participant_packets": 5,
+  "packet_html_and_session_bytes_identical": true,
+  "planned_assignments": 40,
+  "planned_A": 20,
+  "planned_B": 20,
+  "questions_scoring_assignments_unchanged": true,
+  "actual_participants": 0,
+  "actual_consents": 0,
+  "actual_task_responses": 0,
+  "real_statistics_generated": false,
+  "model_runs": 0,
+  "private_raw_directory": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\study-responses\\m3.8f-r3\\raw_sessions"
+}

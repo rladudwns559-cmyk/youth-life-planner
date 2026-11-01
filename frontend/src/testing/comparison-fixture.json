@@ -1,0 +1,865 @@
+{
+  "synthetic": true,
+  "test_only": true,
+  "before": {
+    "synthetic": true,
+    "test_only": true,
+    "dataset_version": "synthetic-v1",
+    "evaluation_date": "2026-10-20",
+    "input_summary": {
+      "age": 24,
+      "region": "안산시",
+      "student_status": true,
+      "employment_status": "unemployed",
+      "monthly_income": 1500000,
+      "monthly_rent": 450000,
+      "monthly_fixed_expenses": 200000,
+      "other_monthly_expenses": 350000,
+      "user_savings_capacity": 300000
+    },
+    "policies": [
+      {
+        "policy_id": "SAMPLE-001",
+        "overall_status": "PASS",
+        "rule_results": [
+          {
+            "rule_id": "S001-ALL",
+            "status": "PASS",
+            "reason_code": "ALL_PASS",
+            "evaluated_value": null,
+            "expected_condition": {
+              "operator": "ALL",
+              "child_ids": [
+                "S001-AGE-MIN",
+                "S001-AGE-MAX",
+                "S001-REGION"
+              ]
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          {
+            "rule_id": "S001-AGE-MIN",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": 24,
+            "expected_condition": {
+              "field": "age",
+              "operator": "gte",
+              "value": 19,
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          {
+            "rule_id": "S001-AGE-MAX",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": 24,
+            "expected_condition": {
+              "field": "age",
+              "operator": "lte",
+              "value": 34,
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          {
+            "rule_id": "S001-REGION",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "안산시",
+            "expected_condition": {
+              "field": "region",
+              "operator": "eq",
+              "value": "안산시",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          }
+        ],
+        "missing_fields": [],
+        "reason_codes": [
+          "ALL_PASS",
+          "CONDITION_MET"
+        ],
+        "context": {
+          "as_of": "2026-10-20",
+          "dataset_version": "synthetic-v1",
+          "engine_version": "m1.0"
+        },
+        "rule_version": "1",
+        "display_status": "이용 가능성 높음",
+        "policy_name": "합성 테스트 001"
+      },
+      {
+        "policy_id": "SAMPLE-002",
+        "overall_status": "PASS",
+        "rule_results": [
+          {
+            "rule_id": "S002-EMPLOYMENT",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "unemployed",
+            "expected_condition": {
+              "field": "employment_status",
+              "operator": "eq",
+              "value": "unemployed",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-002"
+            ]
+          }
+        ],
+        "missing_fields": [],
+        "reason_codes": [
+          "CONDITION_MET"
+        ],
+        "context": {
+          "as_of": "2026-10-20",
+          "dataset_version": "synthetic-v1",
+          "engine_version": "m1.0"
+        },
+        "rule_version": "1",
+        "display_status": "이용 가능성 높음",
+        "policy_name": "합성 테스트 002"
+      },
+      {
+        "policy_id": "SAMPLE-003",
+        "overall_status": "UNKNOWN",
+        "rule_results": [
+          {
+            "rule_id": "S003-ALL",
+            "status": "UNKNOWN",
+            "reason_code": "ALL_UNKNOWN",
+            "evaluated_value": null,
+            "expected_condition": {
+              "operator": "ALL",
+              "child_ids": [
+                "S003-REGION",
+                "S003-INCOME"
+              ]
+            },
+            "missing_fields": [
+              "household_income"
+            ],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          },
+          {
+            "rule_id": "S003-REGION",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "안산시",
+            "expected_condition": {
+              "field": "region",
+              "operator": "eq",
+              "value": "안산시",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          },
+          {
+            "rule_id": "S003-INCOME",
+            "status": "UNKNOWN",
+            "reason_code": "MISSING_FIELD",
+            "evaluated_value": null,
+            "expected_condition": {
+              "field": "household_income",
+              "operator": "lte",
+              "value": 3000000,
+              "fact_basis": {
+                "basis": "synthetic_gross",
+                "subject": "household",
+                "period": "monthly",
+                "reference_year": 2026,
+                "unit": "KRW"
+              }
+            },
+            "missing_fields": [
+              "household_income"
+            ],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          }
+        ],
+        "missing_fields": [
+          "household_income"
+        ],
+        "reason_codes": [
+          "ALL_UNKNOWN",
+          "CONDITION_MET",
+          "MISSING_FIELD"
+        ],
+        "context": {
+          "as_of": "2026-10-20",
+          "dataset_version": "synthetic-v1",
+          "engine_version": "m1.0"
+        },
+        "rule_version": "1",
+        "display_status": "추가 확인 필요",
+        "policy_name": "합성 테스트 003"
+      }
+    ],
+    "cashflow": {
+      "monthly_income": 1500000,
+      "essential_monthly_expenses": 650000,
+      "other_monthly_expenses": 350000,
+      "total_monthly_expenses": 1000000,
+      "policy_benefit_applied": 0,
+      "total_monthly_income": 1500000,
+      "disposable_before_policy": 500000,
+      "disposable_after_policy": 500000,
+      "user_savings_capacity": 300000,
+      "savable_amount": 300000
+    }
+  },
+  "after": {
+    "synthetic": true,
+    "test_only": true,
+    "dataset_version": "synthetic-v1",
+    "evaluation_date": "2026-10-20",
+    "input_summary": {
+      "age": 24,
+      "region": "안산시",
+      "student_status": true,
+      "employment_status": "employed",
+      "monthly_income": 1800000,
+      "monthly_rent": 550000,
+      "monthly_fixed_expenses": 200000,
+      "other_monthly_expenses": 350000,
+      "user_savings_capacity": 500000
+    },
+    "policies": [
+      {
+        "policy_id": "SAMPLE-001",
+        "overall_status": "PASS",
+        "rule_results": [
+          {
+            "rule_id": "S001-ALL",
+            "status": "PASS",
+            "reason_code": "ALL_PASS",
+            "evaluated_value": null,
+            "expected_condition": {
+              "operator": "ALL",
+              "child_ids": [
+                "S001-AGE-MIN",
+                "S001-AGE-MAX",
+                "S001-REGION"
+              ]
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          {
+            "rule_id": "S001-AGE-MIN",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": 24,
+            "expected_condition": {
+              "field": "age",
+              "operator": "gte",
+              "value": 19,
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          {
+            "rule_id": "S001-AGE-MAX",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": 24,
+            "expected_condition": {
+              "field": "age",
+              "operator": "lte",
+              "value": 34,
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          {
+            "rule_id": "S001-REGION",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "안산시",
+            "expected_condition": {
+              "field": "region",
+              "operator": "eq",
+              "value": "안산시",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          }
+        ],
+        "missing_fields": [],
+        "reason_codes": [
+          "ALL_PASS",
+          "CONDITION_MET"
+        ],
+        "context": {
+          "as_of": "2026-10-20",
+          "dataset_version": "synthetic-v1",
+          "engine_version": "m1.0"
+        },
+        "rule_version": "1",
+        "display_status": "이용 가능성 높음",
+        "policy_name": "합성 테스트 001"
+      },
+      {
+        "policy_id": "SAMPLE-002",
+        "overall_status": "FAIL",
+        "rule_results": [
+          {
+            "rule_id": "S002-EMPLOYMENT",
+            "status": "FAIL",
+            "reason_code": "CONDITION_NOT_MET",
+            "evaluated_value": "employed",
+            "expected_condition": {
+              "field": "employment_status",
+              "operator": "eq",
+              "value": "unemployed",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-002"
+            ]
+          }
+        ],
+        "missing_fields": [],
+        "reason_codes": [
+          "CONDITION_NOT_MET"
+        ],
+        "context": {
+          "as_of": "2026-10-20",
+          "dataset_version": "synthetic-v1",
+          "engine_version": "m1.0"
+        },
+        "rule_version": "1",
+        "display_status": "현재 조건과 맞지 않음",
+        "policy_name": "합성 테스트 002"
+      },
+      {
+        "policy_id": "SAMPLE-003",
+        "overall_status": "UNKNOWN",
+        "rule_results": [
+          {
+            "rule_id": "S003-ALL",
+            "status": "UNKNOWN",
+            "reason_code": "ALL_UNKNOWN",
+            "evaluated_value": null,
+            "expected_condition": {
+              "operator": "ALL",
+              "child_ids": [
+                "S003-REGION",
+                "S003-INCOME"
+              ]
+            },
+            "missing_fields": [
+              "household_income"
+            ],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          },
+          {
+            "rule_id": "S003-REGION",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "안산시",
+            "expected_condition": {
+              "field": "region",
+              "operator": "eq",
+              "value": "안산시",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          },
+          {
+            "rule_id": "S003-INCOME",
+            "status": "UNKNOWN",
+            "reason_code": "MISSING_FIELD",
+            "evaluated_value": null,
+            "expected_condition": {
+              "field": "household_income",
+              "operator": "lte",
+              "value": 3000000,
+              "fact_basis": {
+                "basis": "synthetic_gross",
+                "subject": "household",
+                "period": "monthly",
+                "reference_year": 2026,
+                "unit": "KRW"
+              }
+            },
+            "missing_fields": [
+              "household_income"
+            ],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          }
+        ],
+        "missing_fields": [
+          "household_income"
+        ],
+        "reason_codes": [
+          "ALL_UNKNOWN",
+          "CONDITION_MET",
+          "MISSING_FIELD"
+        ],
+        "context": {
+          "as_of": "2026-10-20",
+          "dataset_version": "synthetic-v1",
+          "engine_version": "m1.0"
+        },
+        "rule_version": "1",
+        "display_status": "추가 확인 필요",
+        "policy_name": "합성 테스트 003"
+      }
+    ],
+    "cashflow": {
+      "monthly_income": 1800000,
+      "essential_monthly_expenses": 750000,
+      "other_monthly_expenses": 350000,
+      "total_monthly_expenses": 1100000,
+      "policy_benefit_applied": 0,
+      "total_monthly_income": 1800000,
+      "disposable_before_policy": 700000,
+      "disposable_after_policy": 700000,
+      "user_savings_capacity": 500000,
+      "savable_amount": 500000
+    }
+  },
+  "numeric_deltas": {
+    "monthly_income": 300000,
+    "monthly_rent": 100000,
+    "monthly_fixed_expenses": 0,
+    "other_monthly_expenses": 0,
+    "total_monthly_income": 300000,
+    "total_monthly_expenses": 100000,
+    "disposable_before_policy": 200000,
+    "disposable_after_policy": 200000,
+    "savable_amount": 200000,
+    "policy_benefit_applied": 0,
+    "user_savings_capacity": 200000
+  },
+  "policy_transitions": [
+    {
+      "policy_id": "SAMPLE-001",
+      "policy_name": "합성 테스트 001",
+      "before_status": "PASS",
+      "after_status": "PASS",
+      "status_changed": false,
+      "rules": [
+        {
+          "rule_id": "S001-AGE-MIN",
+          "field": "age",
+          "before": {
+            "rule_id": "S001-AGE-MIN",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": 24,
+            "expected_condition": {
+              "field": "age",
+              "operator": "gte",
+              "value": 19,
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          "after": {
+            "rule_id": "S001-AGE-MIN",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": 24,
+            "expected_condition": {
+              "field": "age",
+              "operator": "gte",
+              "value": 19,
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          "input_changed": false,
+          "status_changed": false,
+          "explanation": "만 나이 조건: 충족 → 충족."
+        },
+        {
+          "rule_id": "S001-AGE-MAX",
+          "field": "age",
+          "before": {
+            "rule_id": "S001-AGE-MAX",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": 24,
+            "expected_condition": {
+              "field": "age",
+              "operator": "lte",
+              "value": 34,
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          "after": {
+            "rule_id": "S001-AGE-MAX",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": 24,
+            "expected_condition": {
+              "field": "age",
+              "operator": "lte",
+              "value": 34,
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          "input_changed": false,
+          "status_changed": false,
+          "explanation": "만 나이 조건: 충족 → 충족."
+        },
+        {
+          "rule_id": "S001-REGION",
+          "field": "region",
+          "before": {
+            "rule_id": "S001-REGION",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "안산시",
+            "expected_condition": {
+              "field": "region",
+              "operator": "eq",
+              "value": "안산시",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          "after": {
+            "rule_id": "S001-REGION",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "안산시",
+            "expected_condition": {
+              "field": "region",
+              "operator": "eq",
+              "value": "안산시",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-001"
+            ]
+          },
+          "input_changed": false,
+          "status_changed": false,
+          "explanation": "거주 지역 조건: 충족 → 충족."
+        }
+      ],
+      "explanation": "이 정책에서 평가한 입력 조건의 변화는 없습니다."
+    },
+    {
+      "policy_id": "SAMPLE-002",
+      "policy_name": "합성 테스트 002",
+      "before_status": "PASS",
+      "after_status": "FAIL",
+      "status_changed": true,
+      "rules": [
+        {
+          "rule_id": "S002-EMPLOYMENT",
+          "field": "employment_status",
+          "before": {
+            "rule_id": "S002-EMPLOYMENT",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "unemployed",
+            "expected_condition": {
+              "field": "employment_status",
+              "operator": "eq",
+              "value": "unemployed",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-002"
+            ]
+          },
+          "after": {
+            "rule_id": "S002-EMPLOYMENT",
+            "status": "FAIL",
+            "reason_code": "CONDITION_NOT_MET",
+            "evaluated_value": "employed",
+            "expected_condition": {
+              "field": "employment_status",
+              "operator": "eq",
+              "value": "unemployed",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-002"
+            ]
+          },
+          "input_changed": true,
+          "status_changed": true,
+          "explanation": "취업상태 입력이 미취업에서 취업으로 바뀌었습니다. 취업상태 조건: 충족 → 미충족."
+        }
+      ],
+      "explanation": "취업상태 입력이 미취업에서 취업으로 바뀌었습니다. 취업상태 조건: 충족 → 미충족."
+    },
+    {
+      "policy_id": "SAMPLE-003",
+      "policy_name": "합성 테스트 003",
+      "before_status": "UNKNOWN",
+      "after_status": "UNKNOWN",
+      "status_changed": false,
+      "rules": [
+        {
+          "rule_id": "S003-REGION",
+          "field": "region",
+          "before": {
+            "rule_id": "S003-REGION",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "안산시",
+            "expected_condition": {
+              "field": "region",
+              "operator": "eq",
+              "value": "안산시",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          },
+          "after": {
+            "rule_id": "S003-REGION",
+            "status": "PASS",
+            "reason_code": "CONDITION_MET",
+            "evaluated_value": "안산시",
+            "expected_condition": {
+              "field": "region",
+              "operator": "eq",
+              "value": "안산시",
+              "fact_basis": null
+            },
+            "missing_fields": [],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          },
+          "input_changed": false,
+          "status_changed": false,
+          "explanation": "거주 지역 조건: 충족 → 충족."
+        },
+        {
+          "rule_id": "S003-INCOME",
+          "field": "household_income",
+          "before": {
+            "rule_id": "S003-INCOME",
+            "status": "UNKNOWN",
+            "reason_code": "MISSING_FIELD",
+            "evaluated_value": null,
+            "expected_condition": {
+              "field": "household_income",
+              "operator": "lte",
+              "value": 3000000,
+              "fact_basis": {
+                "basis": "synthetic_gross",
+                "subject": "household",
+                "period": "monthly",
+                "reference_year": 2026,
+                "unit": "KRW"
+              }
+            },
+            "missing_fields": [
+              "household_income"
+            ],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          },
+          "after": {
+            "rule_id": "S003-INCOME",
+            "status": "UNKNOWN",
+            "reason_code": "MISSING_FIELD",
+            "evaluated_value": null,
+            "expected_condition": {
+              "field": "household_income",
+              "operator": "lte",
+              "value": 3000000,
+              "fact_basis": {
+                "basis": "synthetic_gross",
+                "subject": "household",
+                "period": "monthly",
+                "reference_year": 2026,
+                "unit": "KRW"
+              }
+            },
+            "missing_fields": [
+              "household_income"
+            ],
+            "evidence_refs": [
+              "data/synthetic/README.md#sample-003"
+            ]
+          },
+          "input_changed": false,
+          "status_changed": false,
+          "explanation": "정책 기준의 가구소득 조건: 추가 확인 필요 → 추가 확인 필요. 추가 확인: 정책 기준의 가구소득."
+        }
+      ],
+      "explanation": "이 정책에서 평가한 입력 조건의 변화는 없습니다. 변경 후에도 추가 확인할 정보: 정책 기준의 가구소득."
+    }
+  ],
+  "changed_input_fields": [
+    {
+      "field": "employment_status",
+      "before": "unemployed",
+      "after": "employed"
+    },
+    {
+      "field": "monthly_income",
+      "before": 1500000,
+      "after": 1800000
+    },
+    {
+      "field": "monthly_rent",
+      "before": 450000,
+      "after": 550000
+    },
+    {
+      "field": "user_savings_capacity",
+      "before": 300000,
+      "after": 500000
+    }
+  ],
+  "explanation_facts": {
+    "cashflow": {
+      "before": {
+        "monthly_income": 1500000,
+        "essential_monthly_expenses": 650000,
+        "other_monthly_expenses": 350000,
+        "total_monthly_expenses": 1000000,
+        "policy_benefit_applied": 0,
+        "total_monthly_income": 1500000,
+        "disposable_before_policy": 500000,
+        "disposable_after_policy": 500000,
+        "user_savings_capacity": 300000,
+        "savable_amount": 300000
+      },
+      "after": {
+        "monthly_income": 1800000,
+        "essential_monthly_expenses": 750000,
+        "other_monthly_expenses": 350000,
+        "total_monthly_expenses": 1100000,
+        "policy_benefit_applied": 0,
+        "total_monthly_income": 1800000,
+        "disposable_before_policy": 700000,
+        "disposable_after_policy": 700000,
+        "user_savings_capacity": 500000,
+        "savable_amount": 500000
+      },
+      "numeric_deltas": {
+        "monthly_income": 300000,
+        "monthly_rent": 100000,
+        "monthly_fixed_expenses": 0,
+        "other_monthly_expenses": 0,
+        "total_monthly_income": 300000,
+        "total_monthly_expenses": 100000,
+        "disposable_before_policy": 200000,
+        "disposable_after_policy": 200000,
+        "savable_amount": 200000,
+        "policy_benefit_applied": 0,
+        "user_savings_capacity": 200000
+      }
+    },
+    "policy_rule_refs": [
+      {
+        "policy_id": "SAMPLE-001",
+        "rule_ids": []
+      },
+      {
+        "policy_id": "SAMPLE-002",
+        "rule_ids": [
+          "S002-EMPLOYMENT"
+        ]
+      },
+      {
+        "policy_id": "SAMPLE-003",
+        "rule_ids": []
+      }
+    ],
+    "method": "DETERMINISTIC_CORE_RESULT_COMPARISON",
+    "benefit_applied_krw": 0
+  },
+  "explanations": [
+    "월소득이 300,000원 증가했습니다.",
+    "월세가 100,000원 증가했습니다.",
+    "월 여유자금이 200,000원 증가했습니다.",
+    "저축 투입 상한이 200,000원 증가했습니다.",
+    "사용자 저축 상한의 미입력은 별도 상한 없음, 0원은 저축하지 않음을 뜻합니다. 저축 투입 상한은 각 상황의 여유자금과 입력한 상한을 함께 반영한 금액입니다.",
+    "생활비 소득은 정책 기준의 가구소득을 대신하지 않습니다. 정책 지원금 반영은 전후 모두 0원입니다."
+  ],
+  "unknown_information": [
+    {
+      "policy_id": "SAMPLE-003",
+      "before_status": "UNKNOWN",
+      "after_status": "UNKNOWN",
+      "before_missing_fields": [
+        "household_income"
+      ],
+      "after_missing_fields": [
+        "household_income"
+      ]
+    }
+  ],
+  "benefit_applied_krw": 0,
+  "disclaimer": "합성 데이터 비교입니다. 실제 정책 승인·지원금 수령 또는 미래 금융수익을 보장하지 않습니다. 정책 지원금은 0원만 반영합니다."
+}

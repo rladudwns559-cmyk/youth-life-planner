@@ -1,0 +1,226 @@
+{
+  "schema_version": "m3.3",
+  "dataset_version": "IBK-20251231-VERIFIED-20261025-V1",
+  "sources": [
+    {
+      "source_id": "IBK-PUBLIC-20251231",
+      "title": "중소기업은행_금리 정보_20251231",
+      "provider": "중소기업은행",
+      "official_url": "https://www.data.go.kr/data/15011687/fileData.do",
+      "document_id": "공공데이터포털 15011687 / 개인수신부문 금리 현황 및 주요정보 (2025.12.31)",
+      "source_date": "2025-12-31",
+      "verified_on": "2026-10-25",
+      "license_url": "https://www.data.go.kr/ugs/selectPortalPolicyView.do",
+      "license_label": "이용허락범위 제한 없음",
+      "reuse_status": "UNRESTRICTED",
+      "raw_filename": "ibk-rates-20251231.xlsx",
+      "raw_sha256": "bc2e9bad92cb2effaf23296e49ff1eae385848c4198f6929057c4af094d26113"
+    }
+  ],
+  "products": [
+    {
+      "product_id": "IBK-WORKER-SAVINGS",
+      "snapshot_version": "1.0.0",
+      "product_name": "IBK중기근로자우대적금",
+      "institution": "IBK기업은행(중소기업은행)",
+      "product_type": "RECURRING_SAVINGS",
+      "source_id": "IBK-PUBLIC-20251231",
+      "evidence_locator": "적립식!C6:C25",
+      "basis_date": "2025-12-31",
+      "collected_on": "2026-10-25",
+      "verified_on": "2026-10-25",
+      "official_material_status": "CONFIRMED",
+      "key_fields_status": "PARTIAL",
+      "subscription_status": "UNCONFIRMED",
+      "target": "실명의 개인 (개인사업자 제외), 1인1계좌",
+      "term_description": "공시 금리 구간: 12개월. 그 밖의 기간은 원문에서 미제공.",
+      "minimum_monthly_payment": 10000,
+      "maximum_monthly_payment": 1000000,
+      "payment_step": 10000,
+      "rate_options": [
+        {
+          "min_months": 12,
+          "max_months": 12,
+          "base_rate_percent": "2.50",
+          "max_total_rate_percent": "4.70",
+          "evidence_locator": "적립식!C7,C10"
+        }
+      ],
+      "max_preferential_bonus_percentage_points": "2.20",
+      "preferential_conditions": [
+        "① 중소기업 근로자로 확인된 경우 : 가입시점 재직기간",
+        "• 5년 미만 연 0.50",
+        "• 5년 이상 10년 미만 연 0.8",
+        "• 10년 이상 15년 미만 연 1.0",
+        "• 15년 이상 연 1.20%p",
+        "② 당행 급여이체 실적(월 50만원 이상) 6개월 이상인 경우",
+        ": 연 1.00"
+      ],
+      "accumulation_method": "FLEXIBLE",
+      "rate_type": "UNKNOWN",
+      "interest_method": "UNKNOWN",
+      "deposit_timing": "UNKNOWN",
+      "date_basis": "UNKNOWN",
+      "rounding_method": "UNKNOWN",
+      "calculation_evidence_locator": null,
+      "enrollment_method": null,
+      "product_detail_url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&i_trns_biz_kncd=IBK%EC%A4%91%EA%B8%B0%EA%B7%BC%EB%A1%9C%EC%9E%90%EC%9A%B0%EB%8C%80%EC%A0%81%EA%B8%88&lncd=01&pdcd=0122&tmcd=121&wvcd=***********",
+      "unknown_fields": [
+        "현재 신규 가입 가능 여부",
+        "사용자의 실제 가입 자격",
+        "정식 가입기간·납입 날짜 세칙",
+        "고정금리 계약 대응",
+        "단리/복리 및 일수 계산 방식",
+        "매월 초 동일 납입 대응",
+        "총이자 원 단위 반올림 방식",
+        "공식 가입 방법(이 XLSX에 미제공)"
+      ],
+      "cross_check_notes": [
+        "적립식!C13에는 중소기업 근로자 전용, C14에는 실명의 개인으로 기재되어 가입 대상 설명 범위가 다릅니다. 별도 자격을 확정하지 않습니다.",
+        "2026-10-23 기준 은행 상세 페이지와 자유적립식/금리 구조를 교차 확인했습니다. 다른 기준일이므로 과거 XLSX 값을 최신값으로 승격하지 않습니다. 약관·설명서 다운로드는 조회 도구 오류로 원문 미확보."
+      ]
+    },
+    {
+      "product_id": "IBK-DDAY-SAVINGS",
+      "snapshot_version": "1.0.0",
+      "product_name": "IBK D-DAY적금",
+      "institution": "IBK기업은행(중소기업은행)",
+      "product_type": "RECURRING_SAVINGS",
+      "source_id": "IBK-PUBLIC-20251231",
+      "evidence_locator": "적립식!D6:D25",
+      "basis_date": "2025-12-31",
+      "collected_on": "2026-10-25",
+      "verified_on": "2026-10-25",
+      "official_material_status": "CONFIRMED",
+      "key_fields_status": "PARTIAL",
+      "subscription_status": "UNCONFIRMED",
+      "target": "실명의 개인 (개인사업자 제외)",
+      "term_description": "공시 금리 구간: 1개월 이상 12개월 이하. 정수 개월별 금리 정보이며 실제 일 단위 계약과 구분합니다.",
+      "minimum_monthly_payment": 10000,
+      "maximum_monthly_payment": 200000,
+      "payment_step": 1000,
+      "rate_options": [
+        {
+          "min_months": 1,
+          "max_months": 5,
+          "base_rate_percent": "2.45",
+          "max_total_rate_percent": "3.95",
+          "evidence_locator": "적립식!D7,D10"
+        },
+        {
+          "min_months": 6,
+          "max_months": 11,
+          "base_rate_percent": "2.65",
+          "max_total_rate_percent": "4.15",
+          "evidence_locator": "적립식!D8,D11"
+        },
+        {
+          "min_months": 12,
+          "max_months": 12,
+          "base_rate_percent": "2.85",
+          "max_total_rate_percent": "4.35",
+          "evidence_locator": "적립식!D9,D12"
+        }
+      ],
+      "max_preferential_bonus_percentage_points": "1.50",
+      "preferential_conditions": [
+        "① 목표달성 축하금리: 연 1.00\n• 자행 입출금식 계좌에서 이 적금으로 자동이체를 통해 3회 이상 납입하고 만기일 전일까지 목표금액 이상 납입하는 경우",
+        "② 최초고객 우대금리: 연 0.50",
+        "(가입시점에 1가지 이상 충족 시)",
+        "• 가입시점에 실명등록일로부터 3개월 이내",
+        "• 가입일 직전월 기준 6개월간 총수신평잔 0원"
+      ],
+      "accumulation_method": "FLEXIBLE",
+      "rate_type": "UNKNOWN",
+      "interest_method": "UNKNOWN",
+      "deposit_timing": "UNKNOWN",
+      "date_basis": "UNKNOWN",
+      "rounding_method": "UNKNOWN",
+      "calculation_evidence_locator": null,
+      "enrollment_method": null,
+      "product_detail_url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0113&tmcd=121",
+      "unknown_fields": [
+        "현재 신규 가입 가능 여부",
+        "사용자의 실제 가입 자격",
+        "정식 가입기간·납입 날짜 세칙",
+        "고정금리 계약 대응",
+        "단리/복리 및 일수 계산 방식",
+        "매월 초 동일 납입 대응",
+        "총이자 원 단위 반올림 방식",
+        "공식 가입 방법(이 XLSX에 미제공)"
+      ],
+      "cross_check_notes": [
+        "2026-10-24 기준 은행 상세 페이지는 자유적립식·일 단위 만기 및 12개월 기본 3.10%를 안내합니다. 2025-12-31 원문 2.85%와 기준일이 달라 합치지 않습니다.",
+        "현재 가입 가능성을 별도 확인하지 않았습니다. 공식 상세 링크는 확인했으나 설명서/약관 원문 및 재사용 허락은 별도 확보하지 않았습니다."
+      ]
+    },
+    {
+      "product_id": "IBK-MOUGI-SAVINGS",
+      "snapshot_version": "1.0.0",
+      "product_name": "IBK모으기통장",
+      "institution": "IBK기업은행(중소기업은행)",
+      "product_type": "RECURRING_SAVINGS",
+      "source_id": "IBK-PUBLIC-20251231",
+      "evidence_locator": "적립식!E6:E25",
+      "basis_date": "2025-12-31",
+      "collected_on": "2026-10-25",
+      "verified_on": "2026-10-25",
+      "official_material_status": "CONFIRMED",
+      "key_fields_status": "PARTIAL",
+      "subscription_status": "UNCONFIRMED",
+      "target": "실명의 개인 (개인사업자 제외), 1인 5계좌",
+      "term_description": "공시 금리 구간: 6개월 이상 36개월 이하. 계약기간 세부 단위는 미확인.",
+      "minimum_monthly_payment": 1000,
+      "maximum_monthly_payment": 3000000,
+      "payment_step": 1000,
+      "rate_options": [
+        {
+          "min_months": 6,
+          "max_months": 11,
+          "base_rate_percent": "2.45",
+          "max_total_rate_percent": "2.65",
+          "evidence_locator": "적립식!E7,E10"
+        },
+        {
+          "min_months": 12,
+          "max_months": 36,
+          "base_rate_percent": "2.55",
+          "max_total_rate_percent": "2.75",
+          "evidence_locator": "적립식!E8,E11"
+        }
+      ],
+      "max_preferential_bonus_percentage_points": "0.20",
+      "preferential_conditions": [
+        "계약기간 별 자동이체 횟수 충족한 경우 : 연 0.20",
+        "• 6개월 이상 12개월 미만 : 3회",
+        "• 12개월 이상 24개월 미만 : 6회",
+        "• 24개월 이상 36개월 미만 : 12회",
+        "• 36개월  : 18회"
+      ],
+      "accumulation_method": "FLEXIBLE",
+      "rate_type": "UNKNOWN",
+      "interest_method": "UNKNOWN",
+      "deposit_timing": "UNKNOWN",
+      "date_basis": "UNKNOWN",
+      "rounding_method": "UNKNOWN",
+      "calculation_evidence_locator": null,
+      "enrollment_method": null,
+      "product_detail_url": null,
+      "unknown_fields": [
+        "현재 신규 가입 가능 여부",
+        "사용자의 실제 가입 자격",
+        "정식 가입기간·납입 날짜 세칙",
+        "고정금리 계약 대응",
+        "단리/복리 및 일수 계산 방식",
+        "매월 초 동일 납입 대응",
+        "총이자 원 단위 반올림 방식",
+        "공식 가입 방법(이 XLSX에 미제공)"
+      ],
+      "cross_check_notes": [
+        "원문의 최소 납입액은 1천원원으로 중복 표기되어 있습니다. 천원 단위/최소1천원이라는 표를 보존하며 원문 오타 사실을 기록합니다.",
+        "은행 공식 상품 목록에서 상품 존재와 자유적립식을 교차 확인했습니다. 이 목록 URL은 특정 상품 상세 URL이 아니므로 product_detail_url은 미확인으로 둡니다.",
+        "공식 목록은 다른 기준일의 금리이므로 과거 스냅샷의 수치와 합치지 않습니다."
+      ]
+    }
+  ]
+}

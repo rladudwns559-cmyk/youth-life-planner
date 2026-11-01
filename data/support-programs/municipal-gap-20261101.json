@@ -1,0 +1,1648 @@
+{
+  "programs": [
+    {
+      "program_id": "GAP-MICHUHOL-INTERVIEW-2026",
+      "title": "미추홀구 청년 면접수당",
+      "authority": "미추홀구 일자리정책과",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "인천"
+      ],
+      "city": "미추홀구",
+      "benefit_summary": "대상 채용 면접의 증빙을 제출하면 회당 5만원, 최대 2회까지 지원합니다.",
+      "age_note": "18~39세 미추홀구 주민등록 미취업 청년이 대상입니다.",
+      "income_note": "공식 안내에 제시된 대상과 제출서류로 확인하세요. 입력한 월소득이나 자산만으로 자격을 확정하지 않습니다.",
+      "required_checks": [
+        "미추홀구 주민등록과 면접 당시 지원 요건",
+        "수도권 사업장·공공기관 등 실제 채용 면접 여부와 제외되는 면접",
+        "직장가입·사업자등록·유사사업 중복 및 근로계약 조건",
+        "채용공고·면접확인서와 지급 한도"
+      ],
+      "schedule_note": "인천청년포털의 11월 달력에서 접수중을 확인했습니다. 예산 소진 시 일찍 마감합니다.",
+      "starts_on": "2026-01-26",
+      "ends_on": "2026-12-11",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=397",
+          "title": "인천청년포털 미추홀구 면접수당",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원내용·대상, 제외 기준, 신청기간과 제출서류"
+        },
+        {
+          "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoCalendar.do?policy_ym=2026-11",
+          "title": "인천청년포털 11월 정책캘린더",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "해당 군·구 사업명, 접수중 배지 및 사업안내 링크"
+        }
+      ],
+      "aliases": [
+        "면접비"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP-ONGJIN-EXAM-2026",
+      "title": "옹진군 청년 자격증 응시료 지원",
+      "authority": "옹진군 행정자치과",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "인천"
+      ],
+      "city": "옹진군",
+      "benefit_summary": "인정되는 자격·어학·한국사 시험의 본인 부담 응시료를 연 1회 최대 10만원까지 지원합니다.",
+      "age_note": "공고의 출생 범위는 1976년 1월 1일~2008년 12월 31일입니다. 신청일 옹진군 주민등록과 시험일 당시 미취업 여부를 확인합니다.",
+      "income_note": "공식 안내에 제시된 대상과 제출서류로 확인하세요. 입력한 월소득이나 자산만으로 자격을 확정하지 않습니다.",
+      "required_checks": [
+        "신청일 옹진군 주민등록 및 정확한 출생일",
+        "2025년 12월 1일 이후 응시한 시험과 시험일의 미취업 증빙",
+        "응시 확인·본인 결제·기타 감면 차액",
+        "29명 규모의 잔여 예산과 기존 지원 이력"
+      ],
+      "schedule_note": "11월 달력에서 접수중을 확인했습니다. 공고의 신청 마감은 11월 30일 18시입니다.",
+      "starts_on": "2026-02-01",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=407",
+          "title": "인천청년포털 옹진군 응시료",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원대상 출생범위, 사업 규모, 실비 한도, 접수 마감과 증빙"
+        },
+        {
+          "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoCalendar.do?policy_ym=2026-11",
+          "title": "인천청년포털 11월 정책캘린더",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "해당 군·구 사업명, 접수중 배지 및 사업안내 링크"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP-DOBONG-NCS-2026",
+      "title": "도봉구 취업준비 청년 NCS 문제풀이 특강",
+      "authority": "도봉구청 청년미래과",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "서울"
+      ],
+      "city": "도봉구",
+      "benefit_summary": "의사소통·수리·문제해결·자원관리의 NCS 문제풀이를 배우는 무료 강좌입니다.",
+      "age_note": "도봉구 취업준비 청년이 대상입니다. 공고에 수치 연령이 표시되지 않아 확인이 필요합니다.",
+      "income_note": "공식 안내에 제시된 대상과 제출서류로 확인하세요. 입력한 월소득이나 자산만으로 자격을 확정하지 않습니다.",
+      "required_checks": [
+        "도봉구 취업준비 청년의 인정 범위",
+        "최대 40명 선발 여부와 선정 문자",
+        "11월 24·26일, 12월 1·3일 강의 시간과 참석 가능 여부"
+      ],
+      "schedule_note": "도봉복지로에 접수중으로 표시됩니다. 상단 신청정보와 포스터 마감일이 달라 본문과 포스터의 이른 기한인 11월 12일을 안내합니다.",
+      "starts_on": "2026-10-29",
+      "ends_on": "2026-11-12",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://welfare.dobong.go.kr/dobongBokji/pgm/progrmReqst/view.do?menuNo=&reqstId=567",
+          "title": "도봉복지로 2027 NCS 특강",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "접수중 표시, 참여비·인원, 본문 및 포스터 기한과 상단 접수 정보"
+        }
+      ],
+      "aliases": [
+        "공기업 필기"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP-NOWON-GROWTH-NOV-2026",
+      "title": "노원 청년성장프로젝트 11월 상담·진로 프로그램",
+      "authority": "노원청년정책거버넌스센터",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "서울"
+      ],
+      "city": "노원구",
+      "benefit_summary": "집단 심리상담과 진로 탐색 프로그램을 운영합니다. 과정별 1·2회차 모두 참여해야 합니다.",
+      "age_note": "만 19~39세 청년으로 관외 거주자도 신청할 수 있습니다.",
+      "income_note": "공식 안내에 제시된 대상과 제출서류로 확인하세요. 입력한 월소득이나 자산만으로 자격을 확정하지 않습니다.",
+      "required_checks": [
+        "회차별 참석 가능 여부와 약 20명 선발",
+        "청년도전지원사업 등 중복 참여 제한",
+        "센터 신청 양식의 접수 상태"
+      ],
+      "schedule_note": "10월 22일~11월 10일 모집 공고입니다. 센터의 최종 모집 여부와 잔여 정원을 확인하세요.",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-11-10",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://nowon.kr/youth/user/cop/bbs/selectBoawrdArticle.do?bbsId=BBSMSTR_000000000011&nttId=249",
+          "title": "노원청년포털 청년성장프로젝트 11월 모집",
+          "basis_date": "2026-10-21",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "모집기간, 지원대상·관외 거주, 회차별 출석 조건"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP-SEONGDONG-EXAM-NOV-2026",
+      "title": "성동구 미취업 청년 응시료 지원 · 11월 접수",
+      "authority": "성동구청 아동청년과",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "서울"
+      ],
+      "city": "성동구",
+      "benefit_summary": "인정 시험의 본인 부담 응시료를 생애 누적 10만원 범위에서 지원합니다.",
+      "age_note": "1987~2007년생. 신청일 기준 3개월 이상 성동구에 계속 주민등록을 둔 미취업·미창업 청년입니다.",
+      "income_note": "공식 안내에 제시된 대상과 제출서류로 확인하세요. 입력한 월소득이나 자산만으로 자격을 확정하지 않습니다.",
+      "required_checks": [
+        "3개월 이상 주민등록 및 출생일",
+        "단기근로 예외와 사업자등록 여부",
+        "2025년 12월 이후 시험 응시확인·결제 영수증",
+        "생애 한도와 국민취업제도·서울시 청년수당·다른 지자체 중복 제한"
+      ],
+      "schedule_note": "공식 안내의 월별 접수기간(11월 1~15일)을 적용했습니다. 선착순 마감 여부는 구청 접수창에서 확인하세요.",
+      "starts_on": "2026-11-01",
+      "ends_on": "2026-11-15",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://youth.seoul.go.kr/infoData/sprtInfo/view.do?key=2309130006&sprtInfoId=67147",
+          "title": "청년몽땅정보통 성동구 미취업 청년 응시료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "월별 접수일, 2026년 출생 범위, 단기 근로 예외와 누적한도"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP-GWACHEON-INTERVIEW-2026",
+      "title": "과천 청년 면접 모두드림",
+      "authority": "과천시",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "과천시",
+      "benefit_summary": "면접 정장은 연 5회, 헤어·메이크업은 연 2회(회당 최대 3만원), 이력서 사진은 연 1회(최대 2만원) 지원합니다.",
+      "age_note": "신청일 현재 주민등록상 과천시에 거주하는 19~39세 청년이 대상입니다.",
+      "income_note": "공식 안내에 제시된 대상과 제출서류로 확인하세요. 입력한 월소득이나 자산만으로 자격을 확정하지 않습니다.",
+      "required_checks": [
+        "주민등록초본 발급일과 과천 거주",
+        "면접 또는 구직등록 증빙",
+        "항목별 연간 이용 이력·협약 업체·잔여 예산"
+      ],
+      "schedule_note": "시 청년포털 안내 기간은 1월 2일~12월 18일입니다. 예산이 소진되면 종료합니다.",
+      "starts_on": "2026-01-02",
+      "ends_on": "2026-12-18",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.gccity.go.kr/gcyouth/contents.do?mId=0201050000",
+          "title": "과천시 청년포털 청년 면접 모두드림",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청일 현재 거주·연령, 지원 기간, 항목별 지원·증빙"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GAP-GOYANG-INTERVIEW-SUIT-2026",
+      "title": "고양청년 희망나래 면접정장 무료 대여",
+      "authority": "고양시",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "경기"
+      ],
+      "city": "고양시",
+      "benefit_summary": "면접 정장과 소품을 1인당 연 5회까지 대여할 수 있습니다.",
+      "age_note": "고양 거주 만 18~39세 청년 외에도 관내 대학 재학·휴학생이나 원흥동 대학생연합생활관 입주생 경로가 있습니다.",
+      "income_note": "공식 안내에 제시된 대상과 제출서류로 확인하세요. 입력한 월소득이나 자산만으로 자격을 확정하지 않습니다.",
+      "required_checks": [
+        "본인에게 해당하는 거주·학적·생활관 입주 경로",
+        "면접 증빙·예약 가능 여부와 연간 이용 이력",
+        "예산이 남아 있는지 운영처 확인"
+      ],
+      "schedule_note": "고양시의 예산 소진 시까지 신청 안내입니다. 신청일과 잔여 물량은 잡아바와 대여 운영처에서 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.goyang.go.kr/www/www03/www03_8/www03_8_14/www03_8_14_tab2.jsp",
+          "title": "고양특례시 청년 일자리",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "희망나래 사업의 대상별 참여 경로·신청기간·신청방법"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CB-EUMSEONG-JOB-PHOTO-2026",
+      "title": "음성군 청년 취업 증명사진 촬영비",
+      "authority": "음성군 청년센터 청년대로",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "충북"
+      ],
+      "city": "음성군",
+      "benefit_summary": "취업 이력서용 증명사진 비용을 1인 1회, 최대 2만원까지 지원합니다.",
+      "age_note": "음성군 주소를 둔 1986~2007년생 청년 대상입니다.",
+      "income_note": "공개 안내에서 별도 소득 상한은 확인되지 않았습니다.",
+      "required_checks": [
+        "취업용 사진 인정 범위와 영수증",
+        "연도 내 지급 이력·잔여 예산"
+      ],
+      "schedule_note": "12월 11일 20시까지 접수 안내입니다. 정원과 비용 지급 요건을 신청 전 확인하세요.",
+      "starts_on": "2026-03-09",
+      "ends_on": "2026-12-11",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.es2030.net/bsnsProgram/list.do?key=2004215755716",
+          "title": "음성군 청년센터 청년대로 · 음성군 청년 취업 증명사진 촬영비",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업 공고 목록의 개별 사업명·신청가능 표시·신청기간"
+        },
+        {
+          "url": "https://www.es2030.net/bsnsPlan/list.do?key=2004215739027",
+          "title": "음성군 청년센터 사업소개",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "청년 면접복장 지원사업의 거주·출생연도와 비용 한도"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CB-EUMSEONG-INTERVIEW-STYLING-2026",
+      "title": "음성군 청년 면접 헤어·메이크업 비용 지원",
+      "authority": "음성군 청년센터 청년대로",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "충북"
+      ],
+      "city": "음성군",
+      "benefit_summary": "취업 면접을 위한 헤어·메이크업 비용은 1회 5만원, 최대 3회까지 지원합니다.",
+      "age_note": "음성군 주소를 둔 1986~2007년생 청년 대상입니다.",
+      "income_note": "공개 안내에서 별도 소득 상한은 확인되지 않았습니다.",
+      "required_checks": [
+        "면접 증빙과 인정되는 비용",
+        "지원 회수와 예산 잔여"
+      ],
+      "schedule_note": "12월 11일 20시까지 접수 안내입니다. 정원과 비용 지급 요건을 신청 전 확인하세요.",
+      "starts_on": "2026-03-09",
+      "ends_on": "2026-12-11",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.es2030.net/bsnsProgram/list.do?key=2004215755716",
+          "title": "음성군 청년센터 청년대로 · 음성군 청년 면접 헤어·메이크업 비용 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업 공고 목록의 개별 사업명·신청가능 표시·신청기간"
+        },
+        {
+          "url": "https://www.es2030.net/bsnsPlan/list.do?key=2004215739027",
+          "title": "음성군 청년센터 사업소개",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "청년 면접복장 지원사업의 거주·출생연도와 비용 한도"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CB-EUMSEONG-APPLIANCE-2026",
+      "title": "음성군 전입 청년 가전 구독료 지원",
+      "authority": "음성군 청년센터 청년대로",
+      "edition": "2026년 모집",
+      "category": "LIVING",
+      "provinces": [
+        "충북"
+      ],
+      "city": "음성군",
+      "benefit_summary": "기본 가전 구독·렌탈료를 최장 12개월 지원합니다. 생애 한 번, 최대 3개 품목에 품목당 12만원, 연간 총 36만원까지입니다.",
+      "age_note": "음성군으로 전입한 1986~2007년생이 대상이며 공고일 기준 최근 1년 내 전입 여부를 확인합니다.",
+      "income_note": "공개 안내에서 별도 소득 상한은 확인되지 않았습니다.",
+      "required_checks": [
+        "공고일을 기준으로 한 전입일",
+        "가전 품목·렌탈 계약과 납부 증빙",
+        "생애 첫 지원 및 남은 예산"
+      ],
+      "schedule_note": "온라인 신청은 12월 10일 18시까지이며 예산이 소진되면 일찍 끝납니다.",
+      "starts_on": "2026-03-01",
+      "ends_on": "2026-12-10",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.es2030.net/bsnsProgram/view.do?bsnsProgramSn=41&key=2004215755716",
+          "title": "음성군 청년센터 청년대로 · 음성군 전입 청년 가전 구독료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업 상세의 상태·접수기간·공고문"
+        },
+        {
+          "url": "https://www.es2030.net/bsnsPlan/list.do?key=2004215739027",
+          "title": "음성군 청년센터 사업소개",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "청년 가전 지원사업의 전입 기준과 품목별 한도"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CN-ASAN-YOUTH-JOB-FAIR-NOV-2026",
+      "title": "아산 청년취업 JOB아유 · 미니취업박람회",
+      "authority": "아산시 청년아지트 나와유",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "충남"
+      ],
+      "city": "아산시",
+      "benefit_summary": "11월 4일 온양점에서 아산 기업 채용 상담, 현직자 취업 토크쇼와 체험 부스를 운영합니다. 박람회와 개별 체험 부스 신청은 구분해 확인하세요.",
+      "age_note": "공식 행사 대상은 만 18~39세 아산시 청년입니다. 세부 연령 기준일은 기관에 확인하세요.",
+      "income_note": "공개 안내에서 별도 소득 상한은 확인되지 않았습니다.",
+      "required_checks": [
+        "아산시 청년 인정 기준과 잔여 정원",
+        "행사 참가 등록 시간과 현장 체험 신청 방식"
+      ],
+      "schedule_note": "11월 3일까지 신청하며 정원 마감 시 종료됩니다. 박람회 운영일은 11월 4일입니다.",
+      "starts_on": "2026-10-15",
+      "ends_on": "2026-11-03",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.asan.go.kr/naeil/regular_programs/?m_mode=view&pds_no=2026101519232710241",
+          "title": "아산시 청년아지트 나와유 · 아산 청년취업 JOB아유 · 미니취업박람회",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청가능 표시·대상·정원·일정 및 1부 박람회 안내"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "JB-JINAN-YOUTH-STUDY-VISIT-2026",
+      "title": "진안군 청년센터 공주 견학 참여자 모집",
+      "authority": "진안군 청년센터 월랑",
+      "edition": "2026년 모집",
+      "category": "EDUCATION",
+      "provinces": [
+        "전북"
+      ],
+      "city": "진안군",
+      "benefit_summary": "11월 14일 공주 청년센터의 정책과 운영 사례를 살펴보는 무료 견학을 진행합니다.",
+      "age_note": "진안군에 거주하는 18~45세 청년 대상입니다. 행사 장소는 공주시입니다.",
+      "income_note": "공개 안내에서 별도 소득 상한은 확인되지 않았습니다.",
+      "required_checks": [
+        "진안군 거주·연령 기준",
+        "선착순 20명 모집의 남은 정원",
+        "공고 신청 QR과 당일 참여 일정"
+      ],
+      "schedule_note": "11월 6일 18시까지 선착순 모집하며 정원이 차면 마감될 수 있습니다.",
+      "starts_on": "2026-10-01",
+      "ends_on": "2026-11-06",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://jinanyouth.kr/program/center/23",
+          "title": "진안군 청년센터 월랑 · 진안군 청년센터 공주 견학 참여자 모집",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청중 표시·접수기간·대상과 모집 방법"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "JB-JEONGEUP-JOB-START-2026",
+      "title": "정읍시 고등학교 졸업 청년 구직지원금",
+      "authority": "정읍시 일자리경제과",
+      "edition": "2026년 모집",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "전북"
+      ],
+      "city": "정읍시",
+      "benefit_summary": "대학에 진학하지 않고 취업·구직 등을 준비하는 해당 졸업생에게 1인당 100만원을 지원합니다. 재수생도 공고 대상에 포함됩니다.",
+      "age_note": "2025년 12월 31일 기준 45세 이하이며 2026년 고교 졸업 또는 2025년 고졸 검정고시 합격 요건이 있습니다.",
+      "income_note": "공개 안내에서 별도 소득 상한은 확인되지 않았습니다.",
+      "required_checks": [
+        "본인과 부모 중 한 명의 공고일 기준 정읍 연속 1년 이상 주민등록",
+        "대학 비진학·졸업 요건과 예외 증빙",
+        "본인 또는 부모의 주소지 주민센터 방문 접수 가능 여부"
+      ],
+      "schedule_note": "공고상 접수는 12월 11일까지입니다. 주소지 주민센터의 실제 운영 시간과 잔여 예산을 확인하세요.",
+      "starts_on": "2026-01-12",
+      "ends_on": "2026-12-11",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1396426&orderBy=REGISTER_DATE+DESC&paging=ok&startPage=1",
+          "title": "정읍시 일자리경제과 · 정읍시 고등학교 졸업 청년 구직지원금",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "일자리경제과 1월 2일 공고의 신청자격·방문 접수기간"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CB-CHUNGJU-STUDY-COST-2026",
+      "title": "충주시 미취업 청년 어학·자격증 수강료 지원",
+      "authority": "충주시 기획예산과 · 충북청년포털",
+      "edition": "2026년 모집",
+      "category": "EDUCATION",
+      "provinces": [
+        "충북"
+      ],
+      "city": "충주시",
+      "benefit_summary": "인정 시험과 관련한 수강료 실비를 연간 최대 30만원, 최대 두 번까지 지원합니다. 시험 응시료와는 다른 항목입니다.",
+      "age_note": "충주 거주 19~39세 미취업 청년 대상입니다. 고용 상태는 수강 시작일부터 완료일까지 별도로 확인합니다.",
+      "income_note": "공개 안내에서 별도 소득 상한은 확인되지 않았습니다.",
+      "required_checks": [
+        "신청일 기준 충주시 주민등록 1년 이상",
+        "2026년 1월 1일~11월 30일 사이 수강 시작·완료",
+        "인정 수강 분야·실제 납부 금액·수강기간 미취업"
+      ],
+      "schedule_note": "11월 30일까지 신청 안내입니다. 실제 접수 가능 여부와 인정 강좌를 확인하세요.",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.chungbuk.go.kr/young/contents.do?key=5483",
+          "title": "충주시 기획예산과 · 충북청년포털 · 충주시 미취업 청년 어학·자격증 수강료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "충주시 사업대상·지원분야·신청시기 및 방법"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "CB-BOEUN-CREDENTIAL-2026",
+      "title": "보은군 청년 자격증 응시료 지원",
+      "authority": "보은군 경제정책실 · 충북청년포털",
+      "edition": "2026년 모집",
+      "category": "EDUCATION",
+      "provinces": [
+        "충북"
+      ],
+      "city": "보은군",
+      "benefit_summary": "2026년 1월 1일 이후 실제 응시한 자격시험 비용을 1인 1회, 최대 10만원까지 지원합니다.",
+      "age_note": "보은군에 주민등록한 1981~2008년생 미취업 청년입니다.",
+      "income_note": "공개 안내에서 별도 소득 상한은 확인되지 않았습니다.",
+      "required_checks": [
+        "보은군 주민등록과 취업 상태 기준일",
+        "실제 응시 및 비용 납부 증빙",
+        "총 50건 예산의 잔여 여부"
+      ],
+      "schedule_note": "2월부터 예산 소진 시까지 보은군일자리종합지원센터 방문 접수 안내입니다. 잔여 예산은 센터에 확인하세요.",
+      "starts_on": null,
+      "ends_on": null,
+      "intake_mode": "CONTINUOUS",
+      "sources": [
+        {
+          "url": "https://www.chungbuk.go.kr/young/contents.do?key=5511",
+          "title": "보은군 경제정책실 · 충북청년포털 · 보은군 청년 자격증 응시료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "보은군 지원요건·50건 예산과 방문 신청 안내"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GW-SAMCHEOK-EXAM-FEE-2026",
+      "title": "삼척시 미취업 청년 자격증 응시료 지원",
+      "authority": "삼척시 경제과 · 강원청년포털",
+      "edition": "2026년 모집",
+      "category": "EDUCATION",
+      "provinces": [
+        "강원"
+      ],
+      "city": "삼척시",
+      "benefit_summary": "실제로 응시한 인정 시험의 응시료를 1인당 최대 10만원까지 지원합니다.",
+      "age_note": "신청일 기준 만 18~49세이며 삼척시에 6개월 이상 주민등록한 청년이 대상입니다.",
+      "income_note": "공개 안내에서 별도 소득 상한은 확인되지 않았습니다.",
+      "required_checks": [
+        "미취업·사업자등록과 공공근로·단기근로 예외",
+        "2025년 12월 1일~2026년 11월 30일 실제 응시 및 결제 증빙",
+        "동일·유사사업 중복수혜·잔여예산"
+      ],
+      "schedule_note": "11월 30일 18시까지 안내하며 예산에 따라 조기 마감됩니다. 온라인 정부24 또는 평일 삼척시 경제과에 방문해 신청합니다.",
+      "starts_on": "2026-01-02",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://job.gwd.go.kr/youth/policies/search/gangwon_policies?mode=gw&bizId=A2025122600300200900700001",
+          "title": "삼척시 경제과 · 강원청년포털 · 삼척시 미취업 청년 자격증 응시료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "삼척시 2026년 공고의 신청기간·신청일 기준 연령, 소득·거주·근로 요건, 지원내용"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "GW-SOKCHO-MOVE-2026",
+      "title": "속초시 청년 이사비용 지원",
+      "authority": "속초시 지역경제과 · 강원청년포털",
+      "edition": "2026년 모집",
+      "category": "HOUSING",
+      "provinces": [
+        "강원"
+      ],
+      "city": "속초시",
+      "benefit_summary": "속초로 전입하거나 속초 안에서 이사한 청년에게 인정 이사비를 생애 한 번, 최대 50만원까지 지원합니다.",
+      "age_note": "속초에 전입한 18~45세 무주택 청년 가구가 대상입니다.",
+      "income_note": "청년 가구 기준중위소득 150% 이하 요건을 기관 서류로 확인합니다.",
+      "required_checks": [
+        "청년 본인 무주택·세대주·전월세 계약자 여부",
+        "보증금 1억5천만원 이하·월세 100만원 이하 및 실제 거주",
+        "소득 증빙·주거급여와 중복지원·임대인과 친족 관계",
+        "이사비 지출 증빙과 생애 1회 이력"
+      ],
+      "schedule_note": "12월 31일까지 예산 범위 내 선착순 방문 접수 안내입니다. 신청 전에 속초시 지역경제과에 잔여 예산을 확인하세요.",
+      "starts_on": "2026-01-06",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://job.gwd.go.kr/youth/policies/search/gangwon_policies?mode=gw&bizId=A2026010600300200900600002",
+          "title": "속초시 지역경제과 · 강원청년포털 · 속초시 청년 이사비용 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "속초시 청년 이사비용의 연령·대상·집 조건·기간 및 방문 접수"
+        }
+      ],
+      "aliases": [],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "FILL-SANGJU-EXAM-EXTRA-2026",
+      "title": "상주시 청년 구직자 자격증 취득 지원 · 추가모집",
+      "authority": "상주시 인구정책실",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "경북"
+      ],
+      "city": "상주시",
+      "benefit_summary": "자격시험 응시료를 1회 최대 5만원까지 실비 지원합니다. 해당 종목의 최종 합격자는 추가 지원을 신청할 수 있습니다.",
+      "age_note": "상주에 주소를 둔 19~45세 미취업·미창업 청년.",
+      "income_note": "확인한 안내 본문에 별도의 소득 상한은 명시되지 않았습니다. 공고의 서류·중복수혜 조건을 확인하세요.",
+      "required_checks": [
+        "결과 발표 후 한 달 내 증빙 제출",
+        "국민취업지원제도·구직활동지원금·실업급여·동일 사업 참여 여부",
+        "지원 시험 목록과 어학시험의 합격 추가지원 제외",
+        "추가모집 40명 중 잔여예산"
+      ],
+      "schedule_note": "8월 27일~12월 11일 추가모집. 청년센터 온라인접수중 목록에서 사업명을 확인했습니다. 예산이 소진되면 일찍 끝납니다.",
+      "starts_on": "2026-08-27",
+      "ends_on": "2026-12-11",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.sangju.go.kr/opencenter/youthpolicy/view.tc?mn=6044&pageIndex=&pageSeq=6042&policyNo=109&schKeyword=&selPolicyNo1=&selPolicyNo2=",
+          "title": "상주시 청년센터 · 자격증 취득 지원 추가모집",
+          "basis_date": "2026-08-27",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "2026년 8월 추가모집 상세 및 접수하기"
+        },
+        {
+          "url": "https://www.sangju.go.kr/opencenter/jfile/readFile.tc?fileId=JF00000001943&fileSeq=1",
+          "title": "상주시 공고 제2026-1287호",
+          "basis_date": "2026-08-27",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "추가모집 공고 1~4쪽. 자격·제외·서류·기한"
+        },
+        {
+          "url": "https://www.sangju.go.kr/opencenter/youthpolicy/compare.tc?mn=6044&pageSeq=6042",
+          "title": "상주시 청년센터 · 현재 신청 목록",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "온라인접수중 목록의 2026년 청년 구직자 자격증 취득 지원"
+        }
+      ],
+      "aliases": [
+        "청년",
+        "상주시",
+        "시험"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "FILL-GIJANG-INTERVIEW-2026",
+      "title": "기장군 청년 면접수당",
+      "authority": "기장군 일자리경제과",
+      "edition": "2026",
+      "category": "EMPLOYMENT",
+      "provinces": [
+        "부산"
+      ],
+      "city": "기장군",
+      "benefit_summary": "채용 면접 1회에 5만원, 연 2회까지 지원합니다.",
+      "age_note": "1982~2007년생. 신청일 기장군 주민등록, 면접 응시일의 미취업·미창업 요건이 있습니다.",
+      "income_note": "확인한 안내 본문에 별도의 소득 상한은 명시되지 않았습니다. 공고의 서류·중복수혜 조건을 확인하세요.",
+      "required_checks": [
+        "2026년 이후 실제 면접 참여 증빙",
+        "주 30시간 이상·3개월 이상 근무하는 일자리의 면접",
+        "신청일과 면접일의 서로 다른 요건",
+        "선착순 잔여예산"
+      ],
+      "schedule_note": "공식 모집중 표시를 확인했습니다. 2월 2일~12월 10일 기장군청 홈페이지에서 신청하며 선착순으로 마감될 수 있습니다.",
+      "starts_on": "2026-02-02",
+      "ends_on": "2026-12-10",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000002753&menuCd=13",
+          "title": "부산청년플랫폼 · 기장군 청년 면접수당",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "원문 모집중 표시와 신청기간·청년 기준·면접 조건·수당"
+        }
+      ],
+      "aliases": [
+        "청년",
+        "기장군",
+        "취업"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "FILL-GEOJE-SPEC-UP-2026",
+      "title": "거제 청년 스펙-UP 자격시험 응시료",
+      "authority": "거제시 민생경제과",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "경남"
+      ],
+      "city": "거제시",
+      "benefit_summary": "대상 자격·어학 시험에 실제로 지불한 응시료를 1인 10만원까지 지원합니다.",
+      "age_note": "공고는 19~39세(1986~2007년생)로 안내합니다. 시험일부터 신청일까지 거제시에 주소를 둬야 합니다.",
+      "income_note": "확인한 안내 본문에 별도의 소득 상한은 명시되지 않았습니다. 공고의 서류·중복수혜 조건을 확인하세요.",
+      "required_checks": [
+        "응시일 당시 미취업 또는 공고가 인정하는 비정규직 증빙",
+        "2026년 실제 응시한 시험과 결제 영수증",
+        "국민취업지원제도·다른 지자체 유사 지원 참여 여부",
+        "잔여예산 및 정부24 접수 상태"
+      ],
+      "schedule_note": "공고상 1월 7일~12월 10일 정부24에서 신청합니다. 예산 소진 여부는 공식 접수처에서 확인하세요.",
+      "starts_on": "2026-01-07",
+      "ends_on": "2026-12-10",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.geoje.go.kr/index.geoje?DEP_NM=&NOT_ANCMT_CN=&NOT_ANCMT_SJ=&idx=66850&keyword=&m=D&menuCd=DOM_000008902001002001&searchType=&startPage=1",
+          "title": "거제시 공고 제2026-69호",
+          "basis_date": "2026-01-07",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "신청기간, 지원대상 3항, 지원내용 4항, 접수처"
+        }
+      ],
+      "aliases": [
+        "청년",
+        "거제시",
+        "시험"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "FILL-YEONGDO-EXAM-2026",
+      "title": "영도 청년 자격증 응시료 지원",
+      "authority": "영도구 신성장전략과",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "부산"
+      ],
+      "city": "영도구",
+      "benefit_summary": "2026년 응시한 어학·국가기술 시험 비용을 횟수 제한 없이 1인 합계 10만원까지 지원합니다.",
+      "age_note": "1987~2007년생 미취업 청년. 신청일 기준 영도구에 1년 이상 연속 주민등록해야 합니다.",
+      "income_note": "확인한 안내 본문에 별도의 소득 상한은 명시되지 않았습니다. 공고의 서류·중복수혜 조건을 확인하세요.",
+      "required_checks": [
+        "주 30시간 미만 임금근로자 예외는 근로계약서 확인",
+        "국가전문자격·공인민간자격·운전면허 제외",
+        "실제 응시·납부 자료와 건강보험·사업자등록 사실 자료",
+        "신청순 지원, 현재 남은 예산 및 접수 가능 여부"
+      ],
+      "schedule_note": "1월 5일~12월 31일 온라인 게시판 접수 안내입니다. 지급은 서류 심사 후 진행합니다.",
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.yeongdo.go.kr/00672/04452/04144.web",
+          "title": "영도구청 · 영도 청년 자격증 응시료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원사업 본문의 2026년 신청기간·지원종목·연령·근로 예외"
+        }
+      ],
+      "aliases": [
+        "청년",
+        "영도구",
+        "시험"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "FILL-DAEGU-NAMGU-EXAM-2026",
+      "title": "대구 남구 미취업청년 자격증 응시료 지원",
+      "authority": "대구 남구 인구총괄과",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "대구"
+      ],
+      "city": "남구",
+      "benefit_summary": "남구에 거주하는 미취업 청년의 자격시험 응시 비용을 서류 심사 후 지원합니다. 대상 종목은 구의 공고 첨부 목록에서 확인하세요.",
+      "age_note": "남구 거주 미취업청년. 정확한 연령 기준과 근로계약 예외는 첨부 공고 확인이 필요합니다.",
+      "income_note": "확인한 안내 본문에 별도의 소득 상한은 명시되지 않았습니다. 공고의 서류·중복수혜 조건을 확인하세요.",
+      "required_checks": [
+        "실제 응시 증빙 및 결제 영수증",
+        "공고의 지원대상 국가자격증 목록",
+        "근로계약서 해당 여부와 지원금 한도",
+        "대구 민원서비스 접수 결과·잔여예산"
+      ],
+      "schedule_note": "온라인 민원 안내의 신청기간은 2월 2일~11월 30일 23:59입니다. 제출 뒤에는 민원신청 결과에서 접수를 확인하세요.",
+      "starts_on": "2026-02-02",
+      "ends_on": "2026-11-30",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://minwon.daegu.go.kr/cvpl/AUTN-020/info",
+          "title": "대구시 민원 공모 홈서비스 · 남구 자격증 응시료",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "민원사무 대상·접수기간·구비서류 및 공고 첨부"
+        }
+      ],
+      "aliases": [
+        "청년",
+        "남구",
+        "시험"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "FILL-GEOC-HANG-EXAM-2026",
+      "title": "거창군 청년 구직자 자격증 취득 응시료",
+      "authority": "거창군 경제기업과",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "경남"
+      ],
+      "city": "거창군",
+      "benefit_summary": "어학·한국사·국가공인 자격 시험 응시료 실비를 1인당 최대 10만원까지 지원합니다. 한도 내 횟수 제한은 없습니다.",
+      "age_note": "대상은 19~45세 미취업 청년이며 거주·응시 기준일은 군 공고의 세부 요건을 확인하세요.",
+      "income_note": "확인한 안내 본문에 별도의 소득 상한은 명시되지 않았습니다. 공고의 서류·중복수혜 조건을 확인하세요.",
+      "required_checks": [
+        "공고의 거창군 주소 요건·연령 기준일",
+        "인정 자격시험과 응시 증명",
+        "취업·사업자 상태 증빙",
+        "지원규모 100명 중 남은 인원"
+      ],
+      "schedule_note": "1월 8일~12월 25일 공고입니다. 지원 규모는 100명이며 현재 잔여 인원은 확인해야 합니다.",
+      "starts_on": "2026-01-08",
+      "ends_on": "2026-12-25",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.geochang.go.kr/00445/00450.web?amode=view&artiSno=&gcode=1002&idx=15008945",
+          "title": "거창군 경제기업과 · 2026 청년 구직자 자격증 취득 응시료",
+          "basis_date": "2026-01-07",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "군청 공고의 대상·기간·지원규모·첨부 공고문"
+        }
+      ],
+      "aliases": [
+        "청년",
+        "거창군",
+        "시험"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    },
+    {
+      "program_id": "FILL-UIRYEONG-EXAM-2026",
+      "title": "의령군 청년 시험응시료 지원",
+      "authority": "의령군 소멸위기대응추진단",
+      "edition": "2026",
+      "category": "EDUCATION",
+      "provinces": [
+        "경남"
+      ],
+      "city": "의령군",
+      "benefit_summary": "시험응시료를 연 2회, 합계 20만원까지 모바일 의령사랑상품권으로 지원합니다.",
+      "age_note": "의령군에 주소를 둔 18~49세 미취업 청년입니다.",
+      "income_note": "확인한 안내 본문에 별도의 소득 상한은 명시되지 않았습니다. 공고의 서류·중복수혜 조건을 확인하세요.",
+      "required_checks": [
+        "2025년 7월 1일 이후 실시한 국가기술·전문자격, 어학 또는 한국사 시험",
+        "공고문 거주·미취업 요건 및 응시 증빙",
+        "모바일 상품권 수령 조건",
+        "예산 내 선착순 선정, 잔여 여부 확인"
+      ],
+      "schedule_note": "1월 12일~12월 18일 공고입니다. 신청자의 서류를 확인한 뒤 예산 범위 내에서 선착순 선정합니다.",
+      "starts_on": "2026-01-12",
+      "ends_on": "2026-12-18",
+      "intake_mode": "WINDOW",
+      "sources": [
+        {
+          "url": "https://www.uiryeong.go.kr/board/view.uiryeong?boardId=BBS_0000070&dataSid=316445&gosiNo=34914&menuCd=DOM_000000203003001001&startPage=1",
+          "title": "의령군 공고 제2026-38호 · 청년 시험응시료",
+          "basis_date": "2026-01-12",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "군 공고의 신청 대상·지원액·시행 기간 및 첨부 서류"
+        }
+      ],
+      "aliases": [
+        "청년",
+        "의령군",
+        "시험"
+      ],
+      "data_status": "DRAFT",
+      "coverage": "CONDITION_SLICE",
+      "eligibility": "UNKNOWN",
+      "benefit_applied_krw": 0
+    }
+  ],
+  "intake_verification": {
+    "GAP-MICHUHOL-INTERVIEW-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoCalendar.do?policy_ym=2026-11",
+      "evidence_excerpt": "미추홀구 면접수당 공식 달력 접수중. 예산 소진 시 조기 마감.",
+      "budget_uncertainty": "접수 완료·선정·잔여 예산·정원은 운영기관에 확인해야 합니다."
+    },
+    "GAP-ONGJIN-EXAM-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoCalendar.do?policy_ym=2026-11",
+      "evidence_excerpt": "옹진군 자격증 응시료 공식 달력 접수중.",
+      "budget_uncertainty": "접수 완료·선정·잔여 예산·정원은 운영기관에 확인해야 합니다."
+    },
+    "GAP-DOBONG-NCS-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://welfare.dobong.go.kr/dobongBokji/pgm/progrmReqst/view.do?menuNo=&reqstId=567",
+      "evidence_excerpt": "도봉구 안내 페이지에 접수중으로 표시. 본문 마감 11월 12일.",
+      "budget_uncertainty": "접수 완료·선정·잔여 예산·정원은 운영기관에 확인해야 합니다."
+    },
+    "GAP-NOWON-GROWTH-NOV-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://nowon.kr/youth/user/cop/bbs/selectBoawrdArticle.do?bbsId=BBSMSTR_000000000011&nttId=249",
+      "evidence_excerpt": "10월 22일~11월 10일 모집 공고입니다. 센터의 최종 모집 여부와 잔여 정원을 확인하세요.",
+      "budget_uncertainty": "접수 완료·선정·잔여 예산·정원은 운영기관에 확인해야 합니다."
+    },
+    "GAP-SEONGDONG-EXAM-NOV-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://youth.seoul.go.kr/infoData/sprtInfo/view.do?key=2309130006&sprtInfoId=67147",
+      "evidence_excerpt": "공식 안내의 월별 접수기간(11월 1~15일)을 적용했습니다. 선착순 마감 여부는 구청 접수창에서 확인하세요.",
+      "budget_uncertainty": "접수 완료·선정·잔여 예산·정원은 운영기관에 확인해야 합니다."
+    },
+    "GAP-GWACHEON-INTERVIEW-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.gccity.go.kr/gcyouth/contents.do?mId=0201050000",
+      "evidence_excerpt": "시 청년포털 안내 기간은 1월 2일~12월 18일입니다. 예산이 소진되면 종료합니다.",
+      "budget_uncertainty": "접수 완료·선정·잔여 예산·정원은 운영기관에 확인해야 합니다."
+    },
+    "GAP-GOYANG-INTERVIEW-SUIT-2026": {
+      "explicit_status": "CONTINUOUS_GUIDANCE",
+      "verified_on": "2026-11-01",
+      "url": "https://www.goyang.go.kr/www/www03/www03_8/www03_8_14/www03_8_14_tab2.jsp",
+      "evidence_excerpt": "고양시의 예산 소진 시까지 신청 안내입니다. 신청일과 잔여 물량은 잡아바와 대여 운영처에서 확인하세요.",
+      "budget_uncertainty": "접수 완료·선정·잔여 예산·정원은 운영기관에 확인해야 합니다."
+    },
+    "CB-EUMSEONG-JOB-PHOTO-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.es2030.net/bsnsProgram/list.do?key=2004215755716",
+      "evidence_excerpt": "취업 증명사진 촬영비 신청가능",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "CB-EUMSEONG-INTERVIEW-STYLING-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.es2030.net/bsnsProgram/list.do?key=2004215755716",
+      "evidence_excerpt": "헤어, 메이크업 비용지원 신청가능",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "CB-EUMSEONG-APPLIANCE-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.es2030.net/bsnsProgram/view.do?bsnsProgramSn=41&key=2004215755716",
+      "evidence_excerpt": "가전지원사업 신청가능",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "CN-ASAN-YOUTH-JOB-FAIR-NOV-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.asan.go.kr/naeil/regular_programs/?m_mode=view&pds_no=2026101519232710241",
+      "evidence_excerpt": "미니취업박람회 참여자 모집 신청가능",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "JB-JINAN-YOUTH-STUDY-VISIT-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://jinanyouth.kr/program/center/23",
+      "evidence_excerpt": "진안군 청년 견학 신청중",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "JB-JEONGEUP-JOB-START-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.jeongeup.go.kr/board/view.jeongeup?boardId=BBS_0000012&dataSid=1396426&orderBy=REGISTER_DATE+DESC&paging=ok&startPage=1",
+      "evidence_excerpt": "2026년 1월 12일~12월 11일 접수 안내",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "CB-CHUNGJU-STUDY-COST-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.chungbuk.go.kr/young/contents.do?key=5483",
+      "evidence_excerpt": "2026년 1월 1일~11월 30일 방문 또는 온라인 신청",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "CB-BOEUN-CREDENTIAL-2026": {
+      "explicit_status": "CONTINUOUS_GUIDANCE",
+      "verified_on": "2026-11-01",
+      "url": "https://www.chungbuk.go.kr/young/contents.do?key=5511",
+      "evidence_excerpt": "2026년 2월부터 예산 소진 시까지",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "GW-SAMCHEOK-EXAM-FEE-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://job.gwd.go.kr/youth/policies/search/gangwon_policies?mode=gw&bizId=A2025122600300200900700001",
+      "evidence_excerpt": "11월 30일 18시까지 접수 안내",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "GW-SOKCHO-MOVE-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://job.gwd.go.kr/youth/policies/search/gangwon_policies?mode=gw&bizId=A2026010600300200900600002",
+      "evidence_excerpt": "1월 6일~12월 31일 신청 안내",
+      "budget_uncertainty": "남은 예산·정원과 최종 선정은 운영기관 확인이 필요합니다."
+    },
+    "FILL-SANGJU-EXAM-EXTRA-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://www.sangju.go.kr/opencenter/youthpolicy/compare.tc?mn=6044&pageSeq=6042",
+      "evidence_excerpt": "공식 접수 화면에서 해당 사업명과 모집중 표시 확인",
+      "budget_uncertainty": "추가모집 40명 중 잔여예산"
+    },
+    "FILL-GIJANG-INTERVIEW-2026": {
+      "explicit_status": "OPEN_OFFICIAL_LABEL",
+      "verified_on": "2026-11-01",
+      "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000002753&menuCd=13",
+      "evidence_excerpt": "공식 접수 화면에서 해당 사업명과 모집중 표시 확인",
+      "budget_uncertainty": "선착순 잔여예산"
+    },
+    "FILL-GEOJE-SPEC-UP-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.geoje.go.kr/index.geoje?DEP_NM=&NOT_ANCMT_CN=&NOT_ANCMT_SJ=&idx=66850&keyword=&m=D&menuCd=DOM_000008902001002001&searchType=&startPage=1",
+      "evidence_excerpt": "공고상 신청기간 2026-01-07~2026-12-10",
+      "budget_uncertainty": "잔여예산 및 정부24 접수 상태"
+    },
+    "FILL-YEONGDO-EXAM-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.yeongdo.go.kr/00672/04452/04144.web",
+      "evidence_excerpt": "공고상 신청기간 2026-01-05~2026-12-31",
+      "budget_uncertainty": "신청순 지원, 현재 남은 예산 및 접수 가능 여부"
+    },
+    "FILL-DAEGU-NAMGU-EXAM-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://minwon.daegu.go.kr/cvpl/AUTN-020/info",
+      "evidence_excerpt": "공고상 신청기간 2026-02-02~2026-11-30",
+      "budget_uncertainty": "대구 민원서비스 접수 결과·잔여예산"
+    },
+    "FILL-GEOC-HANG-EXAM-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.geochang.go.kr/00445/00450.web?amode=view&artiSno=&gcode=1002&idx=15008945",
+      "evidence_excerpt": "공고상 신청기간 2026-01-08~2026-12-25",
+      "budget_uncertainty": "지원규모 100명 중 남은 인원"
+    },
+    "FILL-UIRYEONG-EXAM-2026": {
+      "explicit_status": "PUBLISHED_WINDOW",
+      "verified_on": "2026-11-01",
+      "url": "https://www.uiryeong.go.kr/board/view.uiryeong?boardId=BBS_0000070&dataSid=316445&gosiNo=34914&menuCd=DOM_000000203003001001&startPage=1",
+      "evidence_excerpt": "공고상 신청기간 2026-01-12~2026-12-18",
+      "budget_uncertainty": "예산 내 선착순 선정, 잔여 여부 확인"
+    }
+  },
+  "alternative_region_ids": [
+    "GAP-NOWON-GROWTH-NOV-2026",
+    "GAP-GOYANG-INTERVIEW-SUIT-2026"
+  ],
+  "rules": [
+    {
+      "program_id": "GAP-ONGJIN-EXAM-2026",
+      "sources": [
+        {
+          "url": "https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=407",
+          "title": "인천청년포털 옹진군 응시료",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원대상 출생범위, 사업 규모, 실비 한도, 접수 마감과 증빙"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1976-01-01",
+        "birth_end": "2008-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "공고의 출생 범위는 1976년 1월 1일~2008년 12월 31일입니다. 신청일 옹진군 주민등록과 시험일 당시 미취업 여부를 확인합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "응시일 당시의 미취업 여부가 기준이므로 현재 고용 입력만으로 판정하지 않습니다.",
+      "rent_required": false,
+      "rent_note": "입력한 월세 여부로 참여 대상임을 확정하지 않습니다."
+    },
+    {
+      "program_id": "GAP-SEONGDONG-EXAM-NOV-2026",
+      "sources": [
+        {
+          "url": "https://youth.seoul.go.kr/infoData/sprtInfo/view.do?key=2309130006&sprtInfoId=67147",
+          "title": "청년몽땅정보통 성동구 미취업 청년 응시료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "월별 접수일, 2026년 출생 범위, 단기 근로 예외와 누적한도"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1987-01-01",
+        "birth_end": "2007-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "1987~2007년생. 신청일 기준 3개월 이상 성동구에 계속 주민등록을 둔 미취업·미창업 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "미취업 요건과 비교합니다. 주 30시간 이하 또는 3개월 이하 단기근로는 증빙에 따라 예외가 있고, 사업자등록 여부는 추가 확인합니다.",
+      "rent_required": false,
+      "rent_note": "입력한 월세 여부로 참여 대상임을 확정하지 않습니다."
+    },
+    {
+      "program_id": "GAP-GWACHEON-INTERVIEW-2026",
+      "sources": [
+        {
+          "url": "https://www.gccity.go.kr/gcyouth/contents.do?mId=0201050000",
+          "title": "과천시 청년포털 청년 면접 모두드림",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "신청일 현재 거주·연령, 지원 기간, 항목별 지원·증빙"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 39,
+        "older_exception": false,
+        "note": "신청일 현재 주민등록상 과천시에 거주하는 19~39세 청년이 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "공고의 구직·근로 요건은 신청 시 증빙을 확인해야 합니다.",
+      "rent_required": false,
+      "rent_note": "입력한 월세 여부로 참여 대상임을 확정하지 않습니다."
+    },
+    {
+      "program_id": "CB-EUMSEONG-JOB-PHOTO-2026",
+      "sources": [
+        {
+          "url": "https://www.es2030.net/bsnsProgram/list.do?key=2004215755716",
+          "title": "음성군 청년센터 청년대로 · 음성군 청년 취업 증명사진 촬영비",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업 공고 목록의 개별 사업명·신청가능 표시·신청기간"
+        },
+        {
+          "url": "https://www.es2030.net/bsnsPlan/list.do?key=2004215739027",
+          "title": "음성군 청년센터 사업소개",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "청년 면접복장 지원사업의 거주·출생연도와 비용 한도"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1986-01-01",
+        "birth_end": "2007-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "음성군 주소를 둔 1986~2007년생 청년 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태가 필수 조건인지 또는 기준일의 상태를 별도로 확인하세요.",
+      "rent_required": false,
+      "rent_note": "월세 여부만으로 자격을 판정하지 않습니다."
+    },
+    {
+      "program_id": "CB-EUMSEONG-INTERVIEW-STYLING-2026",
+      "sources": [
+        {
+          "url": "https://www.es2030.net/bsnsProgram/list.do?key=2004215755716",
+          "title": "음성군 청년센터 청년대로 · 음성군 청년 면접 헤어·메이크업 비용 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업 공고 목록의 개별 사업명·신청가능 표시·신청기간"
+        },
+        {
+          "url": "https://www.es2030.net/bsnsPlan/list.do?key=2004215739027",
+          "title": "음성군 청년센터 사업소개",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "청년 면접복장 지원사업의 거주·출생연도와 비용 한도"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1986-01-01",
+        "birth_end": "2007-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "음성군 주소를 둔 1986~2007년생 청년 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태가 필수 조건인지 또는 기준일의 상태를 별도로 확인하세요.",
+      "rent_required": false,
+      "rent_note": "월세 여부만으로 자격을 판정하지 않습니다."
+    },
+    {
+      "program_id": "CB-EUMSEONG-APPLIANCE-2026",
+      "sources": [
+        {
+          "url": "https://www.es2030.net/bsnsProgram/view.do?bsnsProgramSn=41&key=2004215755716",
+          "title": "음성군 청년센터 청년대로 · 음성군 전입 청년 가전 구독료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "사업 상세의 상태·접수기간·공고문"
+        },
+        {
+          "url": "https://www.es2030.net/bsnsPlan/list.do?key=2004215739027",
+          "title": "음성군 청년센터 사업소개",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "청년 가전 지원사업의 전입 기준과 품목별 한도"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1986-01-01",
+        "birth_end": "2007-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "음성군으로 전입한 1986~2007년생이 대상이며 공고일 기준 최근 1년 내 전입 여부를 확인합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "취업 상태가 필수 조건인지 또는 기준일의 상태를 별도로 확인하세요.",
+      "rent_required": false,
+      "rent_note": "월세 여부만으로 자격을 판정하지 않습니다."
+    },
+    {
+      "program_id": "CB-BOEUN-CREDENTIAL-2026",
+      "sources": [
+        {
+          "url": "https://www.chungbuk.go.kr/young/contents.do?key=5511",
+          "title": "보은군 경제정책실 · 충북청년포털 · 보은군 청년 자격증 응시료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "보은군 지원요건·50건 예산과 방문 신청 안내"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1981-01-01",
+        "birth_end": "2008-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "보은군에 주민등록한 1981~2008년생 미취업 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 미취업 여부는 일부 조건입니다. 사업자등록과 근로 이력·예외는 별도 확인합니다.",
+      "rent_required": false,
+      "rent_note": "월세 여부만으로 자격을 판정하지 않습니다."
+    },
+    {
+      "program_id": "GW-SAMCHEOK-EXAM-FEE-2026",
+      "sources": [
+        {
+          "url": "https://job.gwd.go.kr/youth/policies/search/gangwon_policies?mode=gw&bizId=A2025122600300200900700001",
+          "title": "삼척시 경제과 · 강원청년포털 · 삼척시 미취업 청년 자격증 응시료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "삼척시 2026년 공고의 신청기간·신청일 기준 연령, 소득·거주·근로 요건, 지원내용"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 18,
+        "maximum": 49,
+        "older_exception": false,
+        "note": "신청일 기준 만 18~49세이며 삼척시에 6개월 이상 주민등록한 청년이 대상입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 미취업 여부는 일부 조건입니다. 사업자등록과 근로 이력·예외는 별도 확인합니다.",
+      "rent_required": false,
+      "rent_note": "월세 여부만으로 자격을 판정하지 않습니다."
+    },
+    {
+      "program_id": "FILL-SANGJU-EXAM-EXTRA-2026",
+      "sources": [
+        {
+          "url": "https://www.sangju.go.kr/opencenter/youthpolicy/view.tc?mn=6044&pageIndex=&pageSeq=6042&policyNo=109&schKeyword=&selPolicyNo1=&selPolicyNo2=",
+          "title": "상주시 청년센터 · 자격증 취득 지원 추가모집",
+          "basis_date": "2026-08-27",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "2026년 8월 추가모집 상세 및 접수하기"
+        },
+        {
+          "url": "https://www.sangju.go.kr/opencenter/jfile/readFile.tc?fileId=JF00000001943&fileSeq=1",
+          "title": "상주시 공고 제2026-1287호",
+          "basis_date": "2026-08-27",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "추가모집 공고 1~4쪽. 자격·제외·서류·기한"
+        },
+        {
+          "url": "https://www.sangju.go.kr/opencenter/youthpolicy/compare.tc?mn=6044&pageSeq=6042",
+          "title": "상주시 청년센터 · 현재 신청 목록",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "온라인접수중 목록의 2026년 청년 구직자 자격증 취득 지원"
+        }
+      ],
+      "age": {
+        "kind": "CURRENT",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": 19,
+        "maximum": 45,
+        "older_exception": false,
+        "note": "신청 시점의 19~45세 구직자를 대상으로 한 공고입니다."
+      },
+      "employed": "FAIL",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "신청일 기준 미취업·미창업 모두 필요합니다. 재직자는 제외되며, 현재 미취업이어도 미창업 증빙은 별도로 확인하세요.",
+      "rent_required": false,
+      "rent_note": "거주지역 외 월세 형태가 필수인지는 확인되지 않았습니다."
+    },
+    {
+      "program_id": "FILL-GIJANG-INTERVIEW-2026",
+      "sources": [
+        {
+          "url": "https://young.busan.go.kr/policySupport/view.nm?bizSid=SUP0000002753&menuCd=13",
+          "title": "부산청년플랫폼 · 기장군 청년 면접수당",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "원문 모집중 표시와 신청기간·청년 기준·면접 조건·수당"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1982-01-01",
+        "birth_end": "2007-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "공고가 정한 1982~2007년생에 해당하는지 비교합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "미취업·미창업 기준일은 면접 응시일입니다. 현재 상태만으로 확정하지 않습니다.",
+      "rent_required": false,
+      "rent_note": "거주지역 외 월세 형태가 필수인지는 확인되지 않았습니다."
+    },
+    {
+      "program_id": "FILL-GEOJE-SPEC-UP-2026",
+      "sources": [
+        {
+          "url": "https://www.geoje.go.kr/index.geoje?DEP_NM=&NOT_ANCMT_CN=&NOT_ANCMT_SJ=&idx=66850&keyword=&m=D&menuCd=DOM_000008902001002001&searchType=&startPage=1",
+          "title": "거제시 공고 제2026-69호",
+          "basis_date": "2026-01-07",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "신청기간, 지원대상 3항, 지원내용 4항, 접수처"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1986-01-01",
+        "birth_end": "2007-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "공고의 1986~2007년 출생 범위를 비교합니다. 정확한 생일 경계는 추가 확인합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "UNKNOWN",
+      "self_employed": "UNKNOWN",
+      "employment_note": "미취업·비정규직 여부는 시험 응시일 기준이며 이후 취업자는 자동 제외하지 않습니다.",
+      "rent_required": false,
+      "rent_note": "거주지역 외 월세 형태가 필수인지는 확인되지 않았습니다."
+    },
+    {
+      "program_id": "FILL-YEONGDO-EXAM-2026",
+      "sources": [
+        {
+          "url": "https://www.yeongdo.go.kr/00672/04452/04144.web",
+          "title": "영도구청 · 영도 청년 자격증 응시료 지원",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "지원사업 본문의 2026년 신청기간·지원종목·연령·근로 예외"
+        }
+      ],
+      "age": {
+        "kind": "BIRTH_RANGE",
+        "birth_start": "1987-01-01",
+        "birth_end": "2007-12-31",
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "공고에 명시한 출생연도 범위입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "미취업 대상이며 주 30시간 미만 임금근로자는 증빙에 따라 지원될 수 있습니다.",
+      "rent_required": false,
+      "rent_note": "거주지역 외 월세 형태가 필수인지는 확인되지 않았습니다."
+    },
+    {
+      "program_id": "FILL-DAEGU-NAMGU-EXAM-2026",
+      "sources": [
+        {
+          "url": "https://minwon.daegu.go.kr/cvpl/AUTN-020/info",
+          "title": "대구시 민원 공모 홈서비스 · 남구 자격증 응시료",
+          "basis_date": null,
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_PAGE",
+          "locator": "민원사무 대상·접수기간·구비서류 및 공고 첨부"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "남구 거주 미취업청년. 정확한 연령 기준과 근로계약 예외는 첨부 공고 확인이 필요합니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업상태와 공고의 기준일 및 증빙을 함께 확인하세요.",
+      "rent_required": false,
+      "rent_note": "거주지역 외 월세 형태가 필수인지는 확인되지 않았습니다."
+    },
+    {
+      "program_id": "FILL-GEOC-HANG-EXAM-2026",
+      "sources": [
+        {
+          "url": "https://www.geochang.go.kr/00445/00450.web?amode=view&artiSno=&gcode=1002&idx=15008945",
+          "title": "거창군 경제기업과 · 2026 청년 구직자 자격증 취득 응시료",
+          "basis_date": "2026-01-07",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "군청 공고의 대상·기간·지원규모·첨부 공고문"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "대상은 19~45세 미취업 청년이며 거주·응시 기준일은 군 공고의 세부 요건을 확인하세요."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업상태와 공고의 기준일 및 증빙을 함께 확인하세요.",
+      "rent_required": false,
+      "rent_note": "거주지역 외 월세 형태가 필수인지는 확인되지 않았습니다."
+    },
+    {
+      "program_id": "FILL-UIRYEONG-EXAM-2026",
+      "sources": [
+        {
+          "url": "https://www.uiryeong.go.kr/board/view.uiryeong?boardId=BBS_0000070&dataSid=316445&gosiNo=34914&menuCd=DOM_000000203003001001&startPage=1",
+          "title": "의령군 공고 제2026-38호 · 청년 시험응시료",
+          "basis_date": "2026-01-12",
+          "verified_on": "2026-11-01",
+          "evidence": "OFFICIAL_NOTICE",
+          "locator": "군 공고의 신청 대상·지원액·시행 기간 및 첨부 서류"
+        }
+      ],
+      "age": {
+        "kind": "UNKNOWN",
+        "birth_start": null,
+        "birth_end": null,
+        "minimum": null,
+        "maximum": null,
+        "older_exception": false,
+        "note": "의령군에 주소를 둔 18~49세 미취업 청년입니다."
+      },
+      "employed": "UNKNOWN",
+      "unemployed": "PASS",
+      "self_employed": "UNKNOWN",
+      "employment_note": "현재 취업상태와 공고의 기준일 및 증빙을 함께 확인하세요.",
+      "rent_required": false,
+      "rent_note": "거주지역 외 월세 형태가 필수인지는 확인되지 않았습니다."
+    }
+  ]
+}

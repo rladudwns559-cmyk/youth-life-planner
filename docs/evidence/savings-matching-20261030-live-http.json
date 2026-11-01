@@ -1,0 +1,79 @@
+{
+  "origin": "http://127.0.0.1:8100",
+  "fetch_mock": false,
+  "synthetic_profiles": true,
+  "cases": [
+    {
+      "case": "300k-12m",
+      "matches": 4,
+      "monthly_amount": 300000,
+      "ids": [
+        "KAKAO-FREE-SAVINGS",
+        "KBANK-PRIMARY-SAVINGS",
+        "KBANK-CODEK-SAVINGS",
+        "TOSS-FREE-SAVINGS"
+      ]
+    },
+    {
+      "case": "300k-18m",
+      "matches": 3,
+      "monthly_amount": 300000,
+      "ids": [
+        "KAKAO-FREE-SAVINGS",
+        "KBANK-PRIMARY-SAVINGS",
+        "TOSS-FREE-SAVINGS"
+      ]
+    },
+    {
+      "case": "300k-3m",
+      "matches": 2,
+      "monthly_amount": 300000,
+      "ids": [
+        "KBANK-CODEK-SAVINGS",
+        "TOSS-FREE-SAVINGS"
+      ]
+    },
+    {
+      "case": "500k-12m",
+      "matches": 3,
+      "monthly_amount": 500000,
+      "ids": [
+        "KAKAO-FREE-SAVINGS",
+        "KBANK-PRIMARY-SAVINGS",
+        "TOSS-FREE-SAVINGS"
+      ]
+    },
+    {
+      "case": "zero",
+      "matches": 0,
+      "monthly_amount": 0,
+      "ids": []
+    },
+    {
+      "case": "deficit",
+      "matches": 0,
+      "monthly_amount": 0,
+      "ids": []
+    },
+    {
+      "case": "before-after",
+      "before": 4,
+      "after": 3,
+      "changes": {
+        "added": [],
+        "removed": [
+          "KBANK-CODEK-SAVINGS"
+        ],
+        "retained": [
+          "KAKAO-FREE-SAVINGS",
+          "KBANK-PRIMARY-SAVINGS",
+          "TOSS-FREE-SAVINGS"
+        ]
+      }
+    },
+    {
+      "case": "client-override",
+      "status": 422
+    }
+  ]
+}

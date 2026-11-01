@@ -1,0 +1,71 @@
+{
+  "schema_version": "source-registry-1.0",
+  "sources": [
+    {
+      "source_document_id": "SYNTH-SOURCE-001",
+      "document_version": "d0001",
+      "source_type": "OFFICIAL_NOTICE",
+      "issuer": "SYNTHETIC_AUTHORITY_TEST_ONLY",
+      "title": "Synthetic test_only policy notice",
+      "notice_number": "SYNTH-NOTICE-001",
+      "official_url": "https://policy.example.invalid/synthetic/notice/1",
+      "attachment_url": "https://policy.example.invalid/synthetic/file/1",
+      "previous_urls": [],
+      "publication_date": "2026-01-01",
+      "effective_from": null,
+      "effective_to": null,
+      "verified_at": "2026-01-10",
+      "verification_status": "VERIFIED",
+      "status": "ACTIVE",
+      "supersedes": [],
+      "content_sha256": null,
+      "locators": [
+        {
+          "locator_id": "eligibility-residence",
+          "section": "합성 조건 / 지역",
+          "page": 1,
+          "table_position": null,
+          "meaning_summary": "합성 test_only 지역 조건의 근거 위치",
+          "applicable_policy_ids": ["SYNTH-POLICY-001"],
+          "verified_at": "2026-01-10",
+          "verification_status": "VERIFIED",
+          "status": "ACTIVE"
+        },
+        {
+          "locator_id": "application-period",
+          "section": "합성 안내 / 기간",
+          "page": null,
+          "table_position": "합성 표 첫 행",
+          "meaning_summary": "합성 test_only 신청기간 안내 위치. 기간 판정은 하지 않음",
+          "applicable_policy_ids": ["SYNTH-POLICY-001"],
+          "verified_at": "2026-01-10",
+          "verification_status": "VERIFIED",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "source_document_id": "SYNTH-SOURCE-002",
+      "document_version": "d0001",
+      "source_type": "OFFICIAL_POLICY_PAGE",
+      "issuer": "SYNTHETIC_AUTHORITY_TEST_ONLY",
+      "title": "Synthetic test_only policy page",
+      "official_url": "https://policy.example.invalid/synthetic/page/2",
+      "publication_date": null,
+      "verified_at": null,
+      "verification_status": "DRAFT",
+      "status": "ACTIVE",
+      "locators": [
+        {
+          "locator_id": "eligibility-residence",
+          "section": "합성 미검토 조건",
+          "meaning_summary": "합성 test_only 미검토 자료의 보존 사례",
+          "applicable_policy_ids": ["SYNTH-POLICY-002"],
+          "verified_at": null,
+          "verification_status": "DRAFT",
+          "status": "ACTIVE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "schema_version": "m3.4-review-1",
+  "review_id": "IBK-FIXED-0001-REVIEW-20261025",
+  "checked_on": "2026-10-25",
+  "candidate": {
+    "institution": "IBK기업은행",
+    "product_name": "정기적금 [정액적금]",
+    "product_url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?MENU_DIV=GNB&grcd=21&lncd=01&pdcd=0001&tmcd=121",
+    "official_url_parameters": {
+      "grcd": "21",
+      "lncd": "01",
+      "pdcd": "0001",
+      "tmcd": "121"
+    },
+    "marketed_product_type": "정액적립식",
+    "service_product_id": null
+  },
+  "scope": "RESEARCH_ONLY_NOT_SERVICE_CATALOG",
+  "sources": [
+    {
+      "source_id": "PRODUCT-PAGE",
+      "title": "정기적금 [정액적금] 공식 상세",
+      "official_url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?MENU_DIV=GNB&grcd=21&lncd=01&pdcd=0001&tmcd=121",
+      "document_as_of": "2026-10-23",
+      "checked_on": "2026-10-25",
+      "date_basis": "조회도구에 표시된 페이지 기준일; 현재 금리 검증일이 아님"
+    },
+    {
+      "source_id": "INSTALLMENT-TERMS",
+      "title": "적립식예금약관",
+      "official_url": "https://www.ibk.co.kr/fup/customer/form/2025082212224211645643595611066.pdf",
+      "document_as_of": null,
+      "checked_on": "2026-10-25",
+      "sha256": "0bb40f25422c84f46de018013d29beaa3b8b10b40e17e7a3b9eaf3abdd7c7576",
+      "page_count": 2,
+      "main_locator": "제3조·제4조",
+      "date_basis": "본문 시행일 미확인; 파일경로 날짜를 시행일로 사용하지 않음"
+    },
+    {
+      "source_id": "BASIC-TERMS",
+      "title": "예금거래기본약관",
+      "official_url": "https://www.ibk.co.kr/fup/customer/form/2026040617314631276989664590757.pdf",
+      "document_as_of": null,
+      "checked_on": "2026-10-25",
+      "sha256": "262f2afe0ff0643668e95604dc45ada116f8d70829b9d616ad1c9236900d7bd9",
+      "page_count": 10,
+      "main_locator": "제7조·제9조·제22조",
+      "date_basis": "본문 시행일 미확인; 파일경로 날짜를 시행일로 사용하지 않음"
+    },
+    {
+      "source_id": "DESCRIPTION",
+      "title": "정기적금 상품설명서",
+      "official_url": "https://www.ibk.co.kr/fup/customer/form/202609031854581017151883581128.pdf",
+      "document_as_of": "2026-09-07",
+      "checked_on": "2026-10-25",
+      "sha256": "264dc55beb91b868feabd903d219061e399fb8248e1477139493cb68fefee087",
+      "page_count": 6,
+      "main_locator": "2쪽 기본이자율/만기이자 산출근거",
+      "date_basis": "설명서1쪽 거래조건 현재 기준일"
+    }
+  ],
+  "facts": [
+    {
+      "field": "accumulation_method",
+      "status": "CONFIRMED",
+      "value": "FIXED_MONTHLY",
+      "source_id": "DESCRIPTION",
+      "locator": "1쪽 상품유형",
+      "m32_compatibility": "MATCH"
+    },
+    {
+      "field": "minimum_monthly_payment",
+      "status": "CONFIRMED",
+      "value": 10000,
+      "source_id": "DESCRIPTION",
+      "locator": "1쪽 가입금액",
+      "m32_compatibility": "MATCH"
+    },
+    {
+      "field": "maximum_monthly_payment",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "DESCRIPTION",
+      "locator": "1쪽 가입금액에 최대 월 납입액 미기재",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "manual_payment_step",
+      "status": "CONFIRMED",
+      "value": 1,
+      "source_id": "DESCRIPTION",
+      "locator": "1쪽 가입금액 원 단위",
+      "m32_compatibility": "MATCH"
+    },
+    {
+      "field": "auto_transfer_step",
+      "status": "CONFIRMED",
+      "value": 1000,
+      "source_id": "DESCRIPTION",
+      "locator": "2쪽 자동이체 유의사항",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "contract_months",
+      "status": "CONFIRMED",
+      "value": {
+        "min": 1,
+        "max": 72
+      },
+      "source_id": "DESCRIPTION",
+      "locator": "1쪽 계약기간",
+      "m32_compatibility": "MATCH"
+    },
+    {
+      "field": "base_rate",
+      "status": "CONFIRMED",
+      "value": {
+        "percent": "2.40",
+        "min_months": 12,
+        "max_months": 23,
+        "as_of": "2026-09-07"
+      },
+      "source_id": "DESCRIPTION",
+      "locator": "1쪽 기준일 및2쪽 기본이자율",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "rate_fixing",
+      "status": "CONFIRMED",
+      "value": "가입 당시 계약기간별 고시금리; 3년 초과 상품은 3년 후 잔여기간별 금리로 변경",
+      "source_id": "DESCRIPTION",
+      "locator": "2쪽 기본이자율 및 각주",
+      "m32_compatibility": "MISMATCH_FOR_TERMS_OVER_36"
+    },
+    {
+      "field": "agreed_payment_day",
+      "status": "CONFIRMED",
+      "value": "매월 약정한 날짜; 매월 1일로 고정하지 않음",
+      "source_id": "INSTALLMENT-TERMS",
+      "locator": "제3조·제4조1항",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "first_installment_date",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "PRODUCT-PAGE",
+      "locator": "상품요약의 공식 예시에 시작일 미기재",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "last_installment_date",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "PRODUCT-PAGE",
+      "locator": "상품요약의 공식 예시에 최종 회차 날짜 미기재",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "initial_maturity_date",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "DESCRIPTION",
+      "locator": "개별 계약상 만기일 산정 세칙 전체 미확인",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "late_payment",
+      "status": "CONFIRMED",
+      "value": "지연이율에 따른 차감 또는 순지연일수/계약월수만큼 만기 이연 가능",
+      "source_id": "INSTALLMENT-TERMS",
+      "locator": "제4조3항·4항",
+      "m32_compatibility": "MISMATCH"
+    },
+    {
+      "field": "holiday_payment",
+      "status": "CONFIRMED",
+      "value": "자동이체는 다음 영업일; 지정한 날이 없는 월은 마지막 영업일",
+      "source_id": "DESCRIPTION",
+      "locator": "2쪽 자동이체 유의사항",
+      "m32_compatibility": "MISMATCH"
+    },
+    {
+      "field": "holiday_maturity",
+      "status": "CONFIRMED",
+      "value": "직전 영업일부터 만기 전일까지 만기해지 적용 가능; 실제 일수 이자",
+      "source_id": "DESCRIPTION",
+      "locator": "4쪽 계약해지방법",
+      "m32_compatibility": "MISMATCH"
+    },
+    {
+      "field": "interest_formula",
+      "status": "CONFIRMED",
+      "value": "입금액별 약정연이율×실제 예치일수/365를 합산",
+      "source_id": "DESCRIPTION",
+      "locator": "2쪽 만기이자 산출근거",
+      "m32_compatibility": "MISMATCH"
+    },
+    {
+      "field": "day_count_basis",
+      "status": "CONFIRMED",
+      "value": "ACTUAL_DAYS_DENOMINATOR_365",
+      "source_id": "DESCRIPTION",
+      "locator": "2쪽 만기이자 산출근거",
+      "m32_compatibility": "MISMATCH"
+    },
+    {
+      "field": "leap_year_special_rule",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "DESCRIPTION",
+      "locator": "2쪽은365를 명시하지만 윤년 별도 예외/처리 세칙은 미기재",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "whole_interest_won_treatment",
+      "status": "CONFIRMED",
+      "value": "SUM_THEN_TRUNCATE_KRW",
+      "source_id": "DESCRIPTION",
+      "locator": "2쪽 만기이자 산출근거 및 합산 도식",
+      "m32_compatibility": "MISMATCH"
+    },
+    {
+      "field": "installment_intermediate_rounding",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "DESCRIPTION",
+      "locator": "회차별 중간 정밀도/절사 여부 별도 상세는 미기재",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "tax_basis",
+      "status": "CONFIRMED",
+      "value": "PRE_TAX",
+      "source_id": "DESCRIPTION",
+      "locator": "1쪽 거래조건 기준 및 공식 페이지 예시",
+      "m32_compatibility": "MATCH"
+    },
+    {
+      "field": "preferential_rate",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "DESCRIPTION",
+      "locator": "이 설명서에 별도 우대조건/가산율 미제공;0%로 대체하지 않음",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "current_base_rate",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "PRODUCT-PAGE",
+      "locator": "실시간 브라우저가 보안프로그램 설치 안내로 전환; 설치하지 않고 중단",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "current_subscription",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "PRODUCT-PAGE",
+      "locator": "상품안내/가입링크 존재와 신규가입 절차 완료는 구분",
+      "m32_compatibility": "UNKNOWN"
+    },
+    {
+      "field": "user_eligibility",
+      "status": "UNKNOWN",
+      "value": null,
+      "source_id": "PRODUCT-PAGE",
+      "locator": "가입대상 제한없음 표기만으로 고객확인·계약 요건 검증을 대체하지 않음",
+      "m32_compatibility": "UNKNOWN"
+    }
+  ],
+  "official_example": {
+    "source_id": "PRODUCT-PAGE",
+    "locator": "상품요약 > 만기시 예상 수취 이자액",
+    "monthly_payment_krw": 500000,
+    "term_months": 12,
+    "annual_rate_percent": "2.40",
+    "official_interest_before_tax_krw": 78000,
+    "example_schedule_status": "UNKNOWN",
+    "rate_kind": "ILLUSTRATIVE_NOT_VERIFIED_CURRENT_RATE"
+  },
+  "independent_results": {
+    "official_example_numerically_reproduced": true,
+    "full_contract_matches_m32": false,
+    "current_rate_verified": false,
+    "user_conditions_verified": false
+  },
+  "decision": {
+    "compatibility_case": "C",
+    "personalized_calculation_approved": false,
+    "served_in_catalog": false,
+    "actual_calculation_count": 0,
+    "verdict": "M3_OFFICIAL_SAVINGS_CALCULATION_BLOCKED",
+    "blocking_codes": [
+      "ACTUAL_DAYS_VS_INTEGER_MONTHS",
+      "TRUNCATION_VS_HALF_UP",
+      "PAYMENT_CALENDAR_NOT_MODELLED",
+      "REMAINING_UNKNOWN_CONDITIONS"
+    ]
+  },
+  "reuse": {
+    "bank_material_republication_permission": "UNKNOWN",
+    "handling": "공개 원문은 임시 연구 폴더에서만 읽고, 저장소/Vault에는 근거 URL·최소 사실·위치·해시와 검증 결과를 기록. 원문/이미지 전문 재배포 없음. 기존 공공데이터의 재사용 허락을 이 은행 PDF에 확장하지 않음."
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "dataset_version": "OFFICIAL-SAVINGS-20261030-V1",
+  "evaluated_on": "2026-10-30",
+  "review_after_days": 7,
+  "current": {
+    "monthly_amount": 300000,
+    "term_months": 12,
+    "matches": [
+      {
+        "product": {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "bank_id": "KAKAO",
+          "institution": "카카오뱅크",
+          "product_name": "카카오뱅크 자유적금",
+          "source_id": "KAKAO-20261030",
+          "minimum_monthly_payment": 1000,
+          "maximum_monthly_payment": 3000000,
+          "payment_step": null,
+          "min_months": 6,
+          "max_months": 36,
+          "allowed_months": null,
+          "rate_options": [
+            {
+              "min_months": 6,
+              "max_months": 11,
+              "base_rate_percent": "3.70",
+              "max_total_rate_percent": "3.90",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 12,
+              "max_months": 23,
+              "base_rate_percent": "3.85",
+              "max_total_rate_percent": "4.05",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 24,
+              "max_months": 36,
+              "base_rate_percent": "3.20",
+              "max_total_rate_percent": "3.40",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            }
+          ],
+          "preferential_conditions": [
+            "계약월수 절반 이상을 매월 자동이체로 납입하고 만기 해지 시 연 0.20%p 우대. 자동연장 원리금 제외."
+          ],
+          "rate_note": "표시 최고금리는 기본금리에 공개된 자동이체 우대 0.20%p를 더한 조건부 값입니다. 개별 쿠폰 제외.",
+          "eligibility_note": "개인별 가입 가능 여부와 계좌 개설 조건은 은행에서 별도 확인합니다.",
+          "term_note": "공식 가입기간 6~36개월(월·일 단위). 여기서는 정수 개월 조건만 비교합니다.",
+          "unknown_fields": [
+            "사용자의 실제 가입 자격",
+            "우대조건 실제 충족 여부",
+            "검증된 날짜별 만기 계산 계약",
+            "납입 단위 세칙"
+          ],
+          "publication_status": "LISTED",
+          "calculation_status": "NOT_VERIFIED"
+        },
+        "source": {
+          "source_id": "KAKAO-20261030",
+          "bank_id": "KAKAO",
+          "official_url": "https://www.kakaobank.com/products/savings",
+          "document_url": null,
+          "document_name": "카카오뱅크 자유적금 공식 상품 페이지",
+          "document_sha256": null,
+          "rate_basis_date": "2026-10-30",
+          "verified_on": "2026-10-30",
+          "evidence_locator": "가입기간·가입금액 FAQ; 기본금리 표; 자동이체 우대금리",
+          "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+        },
+        "selected_base_rate_percent": "3.85",
+        "selected_max_rate_percent": "4.05",
+        "reason_codes": [],
+        "reasons": [],
+        "user_eligibility": "NOT_EVALUATED",
+        "preferential_conditions_met": "UNCONFIRMED",
+        "calculation": null,
+        "match_basis": "MONTHLY_AMOUNT_AND_TERM_ONLY"
+      },
+      {
+        "product": {
+          "product_id": "KBANK-PRIMARY-SAVINGS",
+          "bank_id": "KBANK",
+          "institution": "케이뱅크",
+          "product_name": "주거래우대 자유적금",
+          "source_id": "KBANK-PRIMARY-20261030",
+          "minimum_monthly_payment": 1000,
+          "maximum_monthly_payment": 3000000,
+          "payment_step": null,
+          "min_months": 6,
+          "max_months": 36,
+          "allowed_months": null,
+          "rate_options": [
+            {
+              "min_months": 6,
+              "max_months": 11,
+              "base_rate_percent": "3.30",
+              "max_total_rate_percent": "3.90",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 12,
+              "max_months": 23,
+              "base_rate_percent": "3.70",
+              "max_total_rate_percent": "4.30",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 24,
+              "max_months": 36,
+              "base_rate_percent": "3.50",
+              "max_total_rate_percent": "4.10",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            }
+          ],
+          "preferential_conditions": [
+            "급여이체 또는 지정 통신비 자동이체 실적 3개월 이상: 연 0.30%p.",
+            "케이뱅크 체크카드 월 20만원 이상 실적 3개월 이상: 연 0.30%p. 실적 인정기간 등 세부 조건 및 만기 해지 필요."
+          ],
+          "rate_note": "정수 개월 구간에 해당하는 공시 기본·최고금리를 안내하며 실제 날짜별 금액은 계산하지 않습니다.",
+          "eligibility_note": "공식 대상은 만 17세 이상 실명의 개인·개인사업자. 본인 명의 케이뱅크 입출금통장 필요. 실제 가입 자격 미판정.",
+          "term_note": "6~36개월. 실제 금리는 계약 일수(180/365/730/1095일)로 판정하므로 은행에서 계약일수를 재확인하세요.",
+          "unknown_fields": [
+            "사용자의 실제 가입 자격",
+            "우대조건 실제 충족 여부",
+            "검증된 날짜별 만기 계산 계약",
+            "납입 단위 세칙",
+            "실제 계약 일수"
+          ],
+          "publication_status": "LISTED",
+          "calculation_status": "NOT_VERIFIED"
+        },
+        "source": {
+          "source_id": "KBANK-PRIMARY-20261030",
+          "bank_id": "KBANK",
+          "official_url": "https://www.kbanknow.com/web/product/deposit/primary-saving",
+          "document_url": null,
+          "document_name": "주거래우대 자유적금 공식 상품 페이지",
+          "document_sha256": null,
+          "rate_basis_date": "2026-10-27",
+          "verified_on": "2026-10-30",
+          "evidence_locator": "상품요약; 우대조건; 기간별 금리안내 및 일수 기준 주의문",
+          "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+        },
+        "selected_base_rate_percent": "3.70",
+        "selected_max_rate_percent": "4.30",
+        "reason_codes": [],
+        "reasons": [],
+        "user_eligibility": "NOT_EVALUATED",
+        "preferential_conditions_met": "UNCONFIRMED",
+        "calculation": null,
+        "match_basis": "MONTHLY_AMOUNT_AND_TERM_ONLY"
+      },
+      {
+        "product": {
+          "product_id": "KBANK-CODEK-SAVINGS",
+          "bank_id": "KBANK",
+          "institution": "케이뱅크",
+          "product_name": "코드K 자유적금",
+          "source_id": "KBANK-CODEK-20261030",
+          "minimum_monthly_payment": 1000,
+          "maximum_monthly_payment": 300000,
+          "payment_step": 1,
+          "min_months": 1,
+          "max_months": 36,
+          "allowed_months": [
+            1,
+            3,
+            6,
+            12,
+            24,
+            36
+          ],
+          "rate_options": [
+            {
+              "min_months": 1,
+              "max_months": 1,
+              "base_rate_percent": "2.90",
+              "max_total_rate_percent": "2.90",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 3,
+              "max_months": 3,
+              "base_rate_percent": "3.10",
+              "max_total_rate_percent": "3.10",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 6,
+              "max_months": 6,
+              "base_rate_percent": "3.60",
+              "max_total_rate_percent": "3.60",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 12,
+              "max_months": 12,
+              "base_rate_percent": "3.80",
+              "max_total_rate_percent": "3.80",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 24,
+              "max_months": 24,
+              "base_rate_percent": "3.20",
+              "max_total_rate_percent": "3.20",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 36,
+              "max_months": 36,
+              "base_rate_percent": "3.20",
+              "max_total_rate_percent": "3.20",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            }
+          ],
+          "preferential_conditions": [
+            "이벤트 우대코드는 진행 여부·개인 코드가 확인되지 않아 표시 최고금리에 반영하지 않습니다."
+          ],
+          "rate_note": "공식 기간별 기본금리를 표시합니다. 개별 우대코드 가산은 미반영.",
+          "eligibility_note": "공식 대상은 만 17세 이상 실명의 개인·개인사업자, 본인 명의 케이뱅크 입출금통장을 통해 납입. 실제 가입 자격 미판정.",
+          "term_note": "공식 가입기간은 1·3·6·12·24·36개월입니다. 1~36개월의 모든 개월 수로 확대하지 않습니다.",
+          "unknown_fields": [
+            "사용자의 실제 가입 자격",
+            "우대조건 실제 충족 여부",
+            "검증된 날짜별 만기 계산 계약"
+          ],
+          "publication_status": "LISTED",
+          "calculation_status": "NOT_VERIFIED"
+        },
+        "source": {
+          "source_id": "KBANK-CODEK-20261030",
+          "bank_id": "KBANK",
+          "official_url": "https://www.kbanknow.com/web/product/deposit/codek-saving",
+          "document_url": null,
+          "document_name": "코드K 자유적금 공식 상품 페이지",
+          "document_sha256": null,
+          "rate_basis_date": "2026-10-27",
+          "verified_on": "2026-10-30",
+          "evidence_locator": "상품요약; 월 적립한도; 금리안내 조회기준일 2026.10.27",
+          "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+        },
+        "selected_base_rate_percent": "3.80",
+        "selected_max_rate_percent": "3.80",
+        "reason_codes": [],
+        "reasons": [],
+        "user_eligibility": "NOT_EVALUATED",
+        "preferential_conditions_met": "UNCONFIRMED",
+        "calculation": null,
+        "match_basis": "MONTHLY_AMOUNT_AND_TERM_ONLY"
+      },
+      {
+        "product": {
+          "product_id": "TOSS-FREE-SAVINGS",
+          "bank_id": "TOSS",
+          "institution": "토스뱅크",
+          "product_name": "토스뱅크 자유적금",
+          "source_id": "TOSS-FREE-20261030",
+          "minimum_monthly_payment": 1,
+          "maximum_monthly_payment": 3000000,
+          "payment_step": 1,
+          "min_months": 3,
+          "max_months": 36,
+          "allowed_months": null,
+          "rate_options": [
+            {
+              "min_months": 3,
+              "max_months": 5,
+              "base_rate_percent": "2.60",
+              "max_total_rate_percent": "3.10",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 6,
+              "max_months": 11,
+              "base_rate_percent": "2.90",
+              "max_total_rate_percent": "3.40",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 12,
+              "max_months": 23,
+              "base_rate_percent": "3.25",
+              "max_total_rate_percent": "3.75",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 24,
+              "max_months": 36,
+              "base_rate_percent": "2.50",
+              "max_total_rate_percent": "3.00",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            }
+          ],
+          "preferential_conditions": [
+            "계약월수의 절반 이상 자동이체 성공 및 만기 해지 시 연 0.50%p 우대. 홀수 개월 수는 공식 반올림 조건 적용."
+          ],
+          "rate_note": "2026.10.27 공식 설명서의 기간별 기본금리와 우대 가산 0.50%p를 사용합니다. 과거 안내 글의 금리는 사용하지 않습니다.",
+          "eligibility_note": "실명의 개인, 본인 명의 토스뱅크 통장 또는 서브 통장 필요. 월 자동이체 필수(1원~300만원). 실제 가입 자격 미판정.",
+          "term_note": "3~36개월, 월 단위. 최초 가입금액 0원과 매월 계획 납입액 최소 1원을 구분합니다.",
+          "unknown_fields": [
+            "사용자의 실제 가입 자격",
+            "우대조건 실제 충족 여부",
+            "검증된 날짜별 만기 계산 계약"
+          ],
+          "publication_status": "LISTED",
+          "calculation_status": "NOT_VERIFIED"
+        },
+        "source": {
+          "source_id": "TOSS-FREE-20261030",
+          "bank_id": "TOSS",
+          "official_url": "https://www.tossbank.com/product-service/savings/savings-freedom",
+          "document_url": "https://www.tossbank.com/customer/product-disclosure?tab=PRODUCT_DISCLOSURE",
+          "document_name": "토스뱅크 자유 적금 상품설명서 (2026.10.27)",
+          "document_sha256": "87e22af9508a4829b57f8cf39b49b29cd0e192a309bfb4d3e3104ddcd138c59c",
+          "rate_basis_date": "2026-10-27",
+          "verified_on": "2026-10-30",
+          "evidence_locator": "공식 상품공시실 > 토스뱅크 자유 적금 > 상품설명서; 1~3쪽; 기본정보/자동이체/기간별 금리",
+          "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+        },
+        "selected_base_rate_percent": "3.25",
+        "selected_max_rate_percent": "3.75",
+        "reason_codes": [],
+        "reasons": [],
+        "user_eligibility": "NOT_EVALUATED",
+        "preferential_conditions_met": "UNCONFIRMED",
+        "calculation": null,
+        "match_basis": "MONTHLY_AMOUNT_AND_TERM_ONLY"
+      }
+    ],
+    "excluded": [],
+    "review_required": [],
+    "matched_count": 4,
+    "excluded_count": 0,
+    "review_count": 0,
+    "total_count": 4
+  },
+  "after": null,
+  "changes": null,
+  "actual_product_calculation_count": 0,
+  "ranking": null,
+  "external_transmission": false,
+  "disclaimer": "공식 확인 자료 중 월 저축액과 기간이 맞는 상품입니다. 가입 자격·우대금리·향후 금리를 보장하지 않으며 실제 만기금액은 계산하지 않습니다. 실시간 조회가 아닌 확인일 기준 자료입니다.",
+  "after_example": {
+    "monthly_amount": 500000,
+    "term_months": 12,
+    "matches": [
+      {
+        "product": {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "bank_id": "KAKAO",
+          "institution": "카카오뱅크",
+          "product_name": "카카오뱅크 자유적금",
+          "source_id": "KAKAO-20261030",
+          "minimum_monthly_payment": 1000,
+          "maximum_monthly_payment": 3000000,
+          "payment_step": null,
+          "min_months": 6,
+          "max_months": 36,
+          "allowed_months": null,
+          "rate_options": [
+            {
+              "min_months": 6,
+              "max_months": 11,
+              "base_rate_percent": "3.70",
+              "max_total_rate_percent": "3.90",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 12,
+              "max_months": 23,
+              "base_rate_percent": "3.85",
+              "max_total_rate_percent": "4.05",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 24,
+              "max_months": 36,
+              "base_rate_percent": "3.20",
+              "max_total_rate_percent": "3.40",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            }
+          ],
+          "preferential_conditions": [
+            "계약월수 절반 이상을 매월 자동이체로 납입하고 만기 해지 시 연 0.20%p 우대. 자동연장 원리금 제외."
+          ],
+          "rate_note": "표시 최고금리는 기본금리에 공개된 자동이체 우대 0.20%p를 더한 조건부 값입니다. 개별 쿠폰 제외.",
+          "eligibility_note": "개인별 가입 가능 여부와 계좌 개설 조건은 은행에서 별도 확인합니다.",
+          "term_note": "공식 가입기간 6~36개월(월·일 단위). 여기서는 정수 개월 조건만 비교합니다.",
+          "unknown_fields": [
+            "사용자의 실제 가입 자격",
+            "우대조건 실제 충족 여부",
+            "검증된 날짜별 만기 계산 계약",
+            "납입 단위 세칙"
+          ],
+          "publication_status": "LISTED",
+          "calculation_status": "NOT_VERIFIED"
+        },
+        "source": {
+          "source_id": "KAKAO-20261030",
+          "bank_id": "KAKAO",
+          "official_url": "https://www.kakaobank.com/products/savings",
+          "document_url": null,
+          "document_name": "카카오뱅크 자유적금 공식 상품 페이지",
+          "document_sha256": null,
+          "rate_basis_date": "2026-10-30",
+          "verified_on": "2026-10-30",
+          "evidence_locator": "가입기간·가입금액 FAQ; 기본금리 표; 자동이체 우대금리",
+          "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+        },
+        "selected_base_rate_percent": "3.85",
+        "selected_max_rate_percent": "4.05",
+        "reason_codes": [],
+        "reasons": [],
+        "user_eligibility": "NOT_EVALUATED",
+        "preferential_conditions_met": "UNCONFIRMED",
+        "calculation": null,
+        "match_basis": "MONTHLY_AMOUNT_AND_TERM_ONLY"
+      },
+      {
+        "product": {
+          "product_id": "KBANK-PRIMARY-SAVINGS",
+          "bank_id": "KBANK",
+          "institution": "케이뱅크",
+          "product_name": "주거래우대 자유적금",
+          "source_id": "KBANK-PRIMARY-20261030",
+          "minimum_monthly_payment": 1000,
+          "maximum_monthly_payment": 3000000,
+          "payment_step": null,
+          "min_months": 6,
+          "max_months": 36,
+          "allowed_months": null,
+          "rate_options": [
+            {
+              "min_months": 6,
+              "max_months": 11,
+              "base_rate_percent": "3.30",
+              "max_total_rate_percent": "3.90",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 12,
+              "max_months": 23,
+              "base_rate_percent": "3.70",
+              "max_total_rate_percent": "4.30",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 24,
+              "max_months": 36,
+              "base_rate_percent": "3.50",
+              "max_total_rate_percent": "4.10",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            }
+          ],
+          "preferential_conditions": [
+            "급여이체 또는 지정 통신비 자동이체 실적 3개월 이상: 연 0.30%p.",
+            "케이뱅크 체크카드 월 20만원 이상 실적 3개월 이상: 연 0.30%p. 실적 인정기간 등 세부 조건 및 만기 해지 필요."
+          ],
+          "rate_note": "정수 개월 구간에 해당하는 공시 기본·최고금리를 안내하며 실제 날짜별 금액은 계산하지 않습니다.",
+          "eligibility_note": "공식 대상은 만 17세 이상 실명의 개인·개인사업자. 본인 명의 케이뱅크 입출금통장 필요. 실제 가입 자격 미판정.",
+          "term_note": "6~36개월. 실제 금리는 계약 일수(180/365/730/1095일)로 판정하므로 은행에서 계약일수를 재확인하세요.",
+          "unknown_fields": [
+            "사용자의 실제 가입 자격",
+            "우대조건 실제 충족 여부",
+            "검증된 날짜별 만기 계산 계약",
+            "납입 단위 세칙",
+            "실제 계약 일수"
+          ],
+          "publication_status": "LISTED",
+          "calculation_status": "NOT_VERIFIED"
+        },
+        "source": {
+          "source_id": "KBANK-PRIMARY-20261030",
+          "bank_id": "KBANK",
+          "official_url": "https://www.kbanknow.com/web/product/deposit/primary-saving",
+          "document_url": null,
+          "document_name": "주거래우대 자유적금 공식 상품 페이지",
+          "document_sha256": null,
+          "rate_basis_date": "2026-10-27",
+          "verified_on": "2026-10-30",
+          "evidence_locator": "상품요약; 우대조건; 기간별 금리안내 및 일수 기준 주의문",
+          "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+        },
+        "selected_base_rate_percent": "3.70",
+        "selected_max_rate_percent": "4.30",
+        "reason_codes": [],
+        "reasons": [],
+        "user_eligibility": "NOT_EVALUATED",
+        "preferential_conditions_met": "UNCONFIRMED",
+        "calculation": null,
+        "match_basis": "MONTHLY_AMOUNT_AND_TERM_ONLY"
+      },
+      {
+        "product": {
+          "product_id": "TOSS-FREE-SAVINGS",
+          "bank_id": "TOSS",
+          "institution": "토스뱅크",
+          "product_name": "토스뱅크 자유적금",
+          "source_id": "TOSS-FREE-20261030",
+          "minimum_monthly_payment": 1,
+          "maximum_monthly_payment": 3000000,
+          "payment_step": 1,
+          "min_months": 3,
+          "max_months": 36,
+          "allowed_months": null,
+          "rate_options": [
+            {
+              "min_months": 3,
+              "max_months": 5,
+              "base_rate_percent": "2.60",
+              "max_total_rate_percent": "3.10",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 6,
+              "max_months": 11,
+              "base_rate_percent": "2.90",
+              "max_total_rate_percent": "3.40",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 12,
+              "max_months": 23,
+              "base_rate_percent": "3.25",
+              "max_total_rate_percent": "3.75",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 24,
+              "max_months": 36,
+              "base_rate_percent": "2.50",
+              "max_total_rate_percent": "3.00",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            }
+          ],
+          "preferential_conditions": [
+            "계약월수의 절반 이상 자동이체 성공 및 만기 해지 시 연 0.50%p 우대. 홀수 개월 수는 공식 반올림 조건 적용."
+          ],
+          "rate_note": "2026.10.27 공식 설명서의 기간별 기본금리와 우대 가산 0.50%p를 사용합니다. 과거 안내 글의 금리는 사용하지 않습니다.",
+          "eligibility_note": "실명의 개인, 본인 명의 토스뱅크 통장 또는 서브 통장 필요. 월 자동이체 필수(1원~300만원). 실제 가입 자격 미판정.",
+          "term_note": "3~36개월, 월 단위. 최초 가입금액 0원과 매월 계획 납입액 최소 1원을 구분합니다.",
+          "unknown_fields": [
+            "사용자의 실제 가입 자격",
+            "우대조건 실제 충족 여부",
+            "검증된 날짜별 만기 계산 계약"
+          ],
+          "publication_status": "LISTED",
+          "calculation_status": "NOT_VERIFIED"
+        },
+        "source": {
+          "source_id": "TOSS-FREE-20261030",
+          "bank_id": "TOSS",
+          "official_url": "https://www.tossbank.com/product-service/savings/savings-freedom",
+          "document_url": "https://www.tossbank.com/customer/product-disclosure?tab=PRODUCT_DISCLOSURE",
+          "document_name": "토스뱅크 자유 적금 상품설명서 (2026.10.27)",
+          "document_sha256": "87e22af9508a4829b57f8cf39b49b29cd0e192a309bfb4d3e3104ddcd138c59c",
+          "rate_basis_date": "2026-10-27",
+          "verified_on": "2026-10-30",
+          "evidence_locator": "공식 상품공시실 > 토스뱅크 자유 적금 > 상품설명서; 1~3쪽; 기본정보/자동이체/기간별 금리",
+          "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+        },
+        "selected_base_rate_percent": "3.25",
+        "selected_max_rate_percent": "3.75",
+        "reason_codes": [],
+        "reasons": [],
+        "user_eligibility": "NOT_EVALUATED",
+        "preferential_conditions_met": "UNCONFIRMED",
+        "calculation": null,
+        "match_basis": "MONTHLY_AMOUNT_AND_TERM_ONLY"
+      }
+    ],
+    "excluded": [
+      {
+        "product": {
+          "product_id": "KBANK-CODEK-SAVINGS",
+          "bank_id": "KBANK",
+          "institution": "케이뱅크",
+          "product_name": "코드K 자유적금",
+          "source_id": "KBANK-CODEK-20261030",
+          "minimum_monthly_payment": 1000,
+          "maximum_monthly_payment": 300000,
+          "payment_step": 1,
+          "min_months": 1,
+          "max_months": 36,
+          "allowed_months": [
+            1,
+            3,
+            6,
+            12,
+            24,
+            36
+          ],
+          "rate_options": [
+            {
+              "min_months": 1,
+              "max_months": 1,
+              "base_rate_percent": "2.90",
+              "max_total_rate_percent": "2.90",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 3,
+              "max_months": 3,
+              "base_rate_percent": "3.10",
+              "max_total_rate_percent": "3.10",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 6,
+              "max_months": 6,
+              "base_rate_percent": "3.60",
+              "max_total_rate_percent": "3.60",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 12,
+              "max_months": 12,
+              "base_rate_percent": "3.80",
+              "max_total_rate_percent": "3.80",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 24,
+              "max_months": 24,
+              "base_rate_percent": "3.20",
+              "max_total_rate_percent": "3.20",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            },
+            {
+              "min_months": 36,
+              "max_months": 36,
+              "base_rate_percent": "3.20",
+              "max_total_rate_percent": "3.20",
+              "evidence_locator": "공식 금리표 및 명시된 우대 가산 조건"
+            }
+          ],
+          "preferential_conditions": [
+            "이벤트 우대코드는 진행 여부·개인 코드가 확인되지 않아 표시 최고금리에 반영하지 않습니다."
+          ],
+          "rate_note": "공식 기간별 기본금리를 표시합니다. 개별 우대코드 가산은 미반영.",
+          "eligibility_note": "공식 대상은 만 17세 이상 실명의 개인·개인사업자, 본인 명의 케이뱅크 입출금통장을 통해 납입. 실제 가입 자격 미판정.",
+          "term_note": "공식 가입기간은 1·3·6·12·24·36개월입니다. 1~36개월의 모든 개월 수로 확대하지 않습니다.",
+          "unknown_fields": [
+            "사용자의 실제 가입 자격",
+            "우대조건 실제 충족 여부",
+            "검증된 날짜별 만기 계산 계약"
+          ],
+          "publication_status": "LISTED",
+          "calculation_status": "NOT_VERIFIED"
+        },
+        "source": {
+          "source_id": "KBANK-CODEK-20261030",
+          "bank_id": "KBANK",
+          "official_url": "https://www.kbanknow.com/web/product/deposit/codek-saving",
+          "document_url": null,
+          "document_name": "코드K 자유적금 공식 상품 페이지",
+          "document_sha256": null,
+          "rate_basis_date": "2026-10-27",
+          "verified_on": "2026-10-30",
+          "evidence_locator": "상품요약; 월 적립한도; 금리안내 조회기준일 2026.10.27",
+          "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+        },
+        "selected_base_rate_percent": "3.80",
+        "selected_max_rate_percent": "3.80",
+        "reason_codes": [
+          "ABOVE_MAXIMUM"
+        ],
+        "reasons": [
+          "월 저축액 전체가 상품 납입한도를 초과합니다."
+        ],
+        "user_eligibility": "NOT_EVALUATED",
+        "preferential_conditions_met": "UNCONFIRMED",
+        "calculation": null,
+        "match_basis": "MONTHLY_AMOUNT_AND_TERM_ONLY"
+      }
+    ],
+    "review_required": [],
+    "matched_count": 3,
+    "excluded_count": 1,
+    "review_count": 0,
+    "total_count": 4
+  }
+}

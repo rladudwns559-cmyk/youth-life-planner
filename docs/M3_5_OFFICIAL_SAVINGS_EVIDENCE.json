@@ -1,0 +1,502 @@
+{
+  "milestone": "M3.5",
+  "classification": "RESEARCH_ONLY_NOT_SERVICE_CATALOG",
+  "checked_on": "2026-10-25",
+  "verdict": "M3_OFFICIAL_SAVINGS_RULES_VERIFIED_EXAMPLE_MISSING",
+  "official_dated_case_complete": false,
+  "official_dated_expected_interest_won": null,
+  "independent_interest_for_official_dated_case_won": null,
+  "difference_for_official_dated_case_won": null,
+  "evidence_classes": {
+    "A": "은행이 게시한 날짜/금액. 현재 IBK 날짜 누락; 카카오 일부 정보만 확보.",
+    "B": "우리 가상 날짜·가정 검산. 은행 공식 정답 아님.",
+    "C": "IBK 공개 계산기 실제 실행; 날짜 입력 없는 결과.",
+    "D": "담당자 답변 미확보. 문의 미전송."
+  },
+  "sources": [
+    {
+      "id": "IBK-PRODUCT",
+      "institution": "IBK기업은행",
+      "product": "정기적금 [정액적금]",
+      "official_url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?MENU_DIV=GNB&grcd=21&lncd=01&pdcd=0001&tmcd=121",
+      "as_of": "2026-10-25",
+      "checked_on": "2026-10-25",
+      "position": "상품요약 > 만기시 예상 수취 이자액; 기타; 페이지 하단",
+      "evidence_class": "A_PARTIAL_UNDATED",
+      "observed": {
+        "monthly_won": 500000,
+        "months": 12,
+        "annual_percent": "2.40",
+        "pretax_interest_won": 78000,
+        "signup_date": null,
+        "maturity_date": null
+      },
+      "limitation": "은행이 게시한 금액은 있으나 그 금액에 대응하는 날짜가 없다. 실행 당일 페이지 표시일은 2026-10-25; M3.4의 캐시 표시일 2026-10-23과 구분."
+    },
+    {
+      "id": "IBK-DESCRIPTION",
+      "institution": "IBK기업은행",
+      "official_url": "https://www.ibk.co.kr/fup/customer/form/202609031854581017151883581128.pdf",
+      "as_of": "2026-09-07",
+      "approval_on": "2026-09-03",
+      "checked_on": "2026-10-25",
+      "position": "1쪽 기준일, 2쪽 만기이자 산출근거/자동이체, 3쪽 지연, 4쪽 휴일 만기",
+      "evidence_class": "OFFICIAL_RULES",
+      "rules": [
+        "입금일부터 만기 전일까지",
+        "입금건별 입금액×약정연이율×예치일수/365",
+        "이자 합계 원 미만 절사"
+      ],
+      "limitations": [
+        "중간 절사·내부 정밀도 미확인",
+        "일정별 독립 공식 기대금액 없음",
+        "윤년 별도 특례·최초 만기일 산정 세칙 미확인"
+      ]
+    },
+    {
+      "id": "IBK-INSTALLMENT-TERMS",
+      "institution": "IBK기업은행",
+      "official_url": "https://www.ibk.co.kr/fup/customer/form/2025082212224211645643595611066.pdf",
+      "as_of": null,
+      "checked_on": "2026-10-25",
+      "position": "제3조; 제4조(1)~(4); 제5조; 제6조",
+      "evidence_class": "OFFICIAL_RULES",
+      "limitation": "파일명에서 시행일을 추정하지 않음; 지연·선납의 상세 적용일수 사례 없음"
+    },
+    {
+      "id": "IBK-BASIC-TERMS",
+      "institution": "IBK기업은행",
+      "official_url": "https://www.ibk.co.kr/fup/customer/form/2026040617314631276989664590757.pdf",
+      "as_of": null,
+      "checked_on": "2026-10-25",
+      "position": "제7조; 제9조; 제22조",
+      "evidence_class": "OFFICIAL_RULES",
+      "limitation": "실행 기준일·계약 체결일·약관 시행일은 서로 다름"
+    },
+    {
+      "id": "IBK-CALCULATOR",
+      "institution": "IBK기업은행",
+      "official_url": "https://www.ibk.co.kr/calculator/depoGather1Calc.ibk?smn=0101",
+      "as_of": null,
+      "checked_on": "2026-10-25",
+      "observed_at": "2026-10-25T02:42:20+09:00",
+      "evidence_class": "C_UNDATED",
+      "tool": "목돈모으기(월적립액기준)",
+      "inputs": {
+        "monthly_won": 500000,
+        "months": 12,
+        "annual_percent": "2.40"
+      },
+      "outputs": {
+        "principal_won": 6000000,
+        "pretax_interest_won": 78000,
+        "general_tax_net_interest_won": 65988,
+        "general_tax_maturity_won": 6065988,
+        "tax_free_maturity_won": 6078000
+      },
+      "date_inputs_present": false,
+      "product_specific_contract": false,
+      "limitation": "공개 일반 계산기. 금리 수동 입력. 날짜·회차별 일수·상품 선택 없음. 실행일을 가입일로 간주하지 않음. 세후/세금우대 표시는 관찰값이며 현재 세제나 사용자 자격을 검증한 것이 아님."
+    },
+    {
+      "id": "IBK-BLOG",
+      "institution": "IBK기업은행",
+      "official_url": "https://blog.ibk.co.kr/569686",
+      "published_on": "2026-08-21",
+      "checked_on": "2026-10-25",
+      "position": "1) 이자 적용 기간; 2) 공식; 가정 예시 유의문구",
+      "evidence_class": "OFFICIAL_EDUCATIONAL_UNDATED",
+      "limitation": "12개월 단순화 교육 예시. 정액적금의 날짜별 지급 계약으로 대체하지 않음; D-Day 상품은 조사 상품으로 채택하지 않음"
+    },
+    {
+      "id": "KAKAO-26W",
+      "institution": "카카오뱅크",
+      "product": "26주적금",
+      "official_url": "https://blog.kakaobank.com/posts/saving-26weeks-savings",
+      "published_on": "2025-12-29",
+      "rate_as_of": "2025-11-17",
+      "checked_on": "2026-10-25",
+      "position": "26주 적금 금리, 100% 활용하는 방법?; 만기일 예시 표; 하단 상품 고지",
+      "evidence_class": "A_PARTIAL_MULTI_ACCOUNT",
+      "observed": {
+        "windmill_start_date": "2025-11-13",
+        "aggregate_pretax_interest_won": 96147,
+        "single_account_example_interest_won": 3093,
+        "single_account_example_start_date": null,
+        "illustration_first_signup_month_day": "01-01",
+        "illustration_first_maturity_month_day": "07-01",
+        "illustration_year": null
+      },
+      "limitation": "날짜가 있는 96,147원은 26계좌 풍차돌리기 합계. 이미지의 1/1~7/1 예시와 시작일 11/13을 합치지 않음. 한 계좌별 날짜·예치일수·기대이자 및 절사 세칙을 확보하지 못해 검산 oracle 미채택. 2025-11-17 고지 금리를 11/13 확정 금리로 소급하지 않음; IBK 계약에 적용 안 함."
+    }
+  ],
+  "reused_pdfs": [
+    {
+      "filename": "installment-terms.pdf",
+      "title": "적립식예금약관",
+      "official_url": "https://www.ibk.co.kr/fup/customer/form/2025082212224211645643595611066.pdf",
+      "checked_on": "2026-10-25",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "size": 58252,
+      "sha256": "0bb40f25422c84f46de018013d29beaa3b8b10b40e17e7a3b9eaf3abdd7c7576",
+      "reused_from": "M3.4",
+      "rechecked_link_on": "2026-10-25",
+      "download_reexecuted_in_m35": false
+    },
+    {
+      "filename": "deposit-basic-terms.pdf",
+      "title": "예금거래기본약관",
+      "official_url": "https://www.ibk.co.kr/fup/customer/form/2026040617314631276989664590757.pdf",
+      "checked_on": "2026-10-25",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "size": 147930,
+      "sha256": "262f2afe0ff0643668e95604dc45ada116f8d70829b9d616ad1c9236900d7bd9",
+      "reused_from": "M3.4",
+      "rechecked_link_on": "2026-10-25",
+      "download_reexecuted_in_m35": false
+    },
+    {
+      "filename": "fixed-savings-description.pdf",
+      "title": "정기적금 상품설명서",
+      "official_url": "https://www.ibk.co.kr/fup/customer/form/202609031854581017151883581128.pdf",
+      "checked_on": "2026-10-25",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "size": 252568,
+      "sha256": "264dc55beb91b868feabd903d219061e399fb8248e1477139493cb68fefee087",
+      "reused_from": "M3.4",
+      "rechecked_link_on": "2026-10-25",
+      "download_reexecuted_in_m35": false
+    }
+  ],
+  "download_audit": [
+    {
+      "filename": "kakao-26weeks-blog.html",
+      "official_url": "https://blog.kakaobank.com/posts/saving-26weeks-savings",
+      "checked_at": "2026-10-24T17:43:00.137336+00:00",
+      "http_status": 200,
+      "final_url": "https://blog.kakaobank.com/posts/saving-26weeks-savings",
+      "content_type": "text/html; charset=utf-8",
+      "size": 83480,
+      "sha256": "1d653e3538b45e914f186368866ed7047958c01cdb4d30b979cfb4671f1bcc67"
+    },
+    {
+      "filename": "kakao-maturity-table.png",
+      "official_url": "https://blog.kakaobank.com/images/content/post/detail/contents12-img02.png",
+      "checked_at": "2026-10-24T17:43:00.598444+00:00",
+      "http_status": 200,
+      "final_url": "https://blog.kakaobank.com/images/content/post/detail/contents12-img02.png",
+      "content_type": "image/png",
+      "size": 65680,
+      "sha256": "4c345c3cd856cdc75da3fd2d841002f4563702b266525a8457a5bdc28b39559e"
+    },
+    {
+      "filename": "ibk-calculator.html",
+      "official_url": "https://www.ibk.co.kr/calculator/depoGather1Calc.ibk?smn=0101",
+      "checked_at": "2026-10-24T17:43:00.905304+00:00",
+      "http_status": 200,
+      "final_url": "https://www.ibk.co.kr/calculator/depoGather1Calc.ibk?smn=0101",
+      "content_type": "text/html;charset=utf-8",
+      "size": 142690,
+      "sha256": "efd8aa89931c7cd6db11deca219b4b3581e8d78f2f44c77302201a479ade9b88"
+    },
+    {
+      "filename": "ibk-simple-explanation.html",
+      "official_url": "https://blog.ibk.co.kr/569686",
+      "checked_at": "2026-10-24T17:43:01.260247+00:00",
+      "http_status": 200,
+      "final_url": "https://blog.ibk.co.kr/569686",
+      "content_type": "text/html;charset=UTF-8",
+      "size": 91119,
+      "sha256": "b126f50b580442d50b406845ce41f341d2a113c0149c5af85ecc9eefae32be36"
+    }
+  ],
+  "local_evidence": [
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\download-audit-first-attempt.json",
+      "sha256": "0471bd43f752d348ec877c770bd3cd37979a89b830af8e76ef3dfac59c687214",
+      "size": 1147,
+      "mtime_ns": 1792863767097061700
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\download-audit.json",
+      "sha256": "3647af35d78fc3b81321d6523b25787efbad56a57077ad44d5aaf90c1e1a267d",
+      "size": 1758,
+      "mtime_ns": 1792863782213717100
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\ibk-calculator-ax.txt",
+      "sha256": "44bd6438a9d2684dc64d8796320d64513452e3a7d843a574c15ba327950cf421",
+      "size": 5897,
+      "mtime_ns": 1792863740772026600
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\ibk-calculator-result.png",
+      "sha256": "cef1df130788f56d018c44977063c4731d74fabe8c7bfa9421700179b10ee47d",
+      "size": 60150,
+      "mtime_ns": 1792863676669588000
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\ibk-calculator.html",
+      "sha256": "efd8aa89931c7cd6db11deca219b4b3581e8d78f2f44c77302201a479ade9b88",
+      "size": 142690,
+      "mtime_ns": 1792863781260247900
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\ibk-finance-menu-ax.txt",
+      "sha256": "496912eff47d47990e7bd1022038660e639520d0c18dd370dbefb9c41375cdf9",
+      "size": 11655,
+      "mtime_ns": 1792863659326244600
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\ibk-product-ax.txt",
+      "sha256": "935fcb7cf9db047334be46d4a26a7bbe2c3ebd3eeca3dc449d47643d302c45a1",
+      "size": 533,
+      "mtime_ns": 1792863589619344700
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\ibk-product-page.png",
+      "sha256": "98e375c13370de7779f149b896225ab005a85909dd4f78d92e851265f88f0dde",
+      "size": 70486,
+      "mtime_ns": 1792863589297483800
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\ibk-simple-explanation.html",
+      "sha256": "b126f50b580442d50b406845ce41f341d2a113c0149c5af85ecc9eefae32be36",
+      "size": 91119,
+      "mtime_ns": 1792863782212761800
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\kakao-26weeks-blog.html",
+      "sha256": "1d653e3538b45e914f186368866ed7047958c01cdb4d30b979cfb4671f1bcc67",
+      "size": 83480,
+      "mtime_ns": 1792863780598444000
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\kakao-maturity-table.png",
+      "sha256": "4c345c3cd856cdc75da3fd2d841002f4563702b266525a8457a5bdc28b39559e",
+      "size": 65680,
+      "mtime_ns": 1792863780905304200
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m35-evidence\\synthetic-calendar-check.json",
+      "sha256": "7340e529d25ede7ff745b10be4c54f40045f07bb55fc3f1f98359c570c3d1796",
+      "size": 3872,
+      "mtime_ns": 1792863776586215900
+    }
+  ],
+  "synthetic_arithmetic": {
+    "evidence_class": "B",
+    "status": "SYNTHETIC_ARITHMETIC_ONLY_NOT_BANK_VALIDATION",
+    "signup_date_assumption": "2025-01-15",
+    "first_payment_date_assumption": "2025-01-15",
+    "maturity_date_assumption": "2026-01-15",
+    "assumptions": [
+      "All 12 listed dates are artificially specified actual deposit dates; holidays and transfers are not modeled.",
+      "The example rate 2.40% is a hypothetical fixed rate, not a verified historical/current bank quote.",
+      "Deposit day included; maturity excluded; 365 denominator; truncate total once; no intermediate truncation in this artificial exercise."
+    ],
+    "rows": [
+      {
+        "installment": 1,
+        "paid_on": "2025-01-15",
+        "deposit_days": 365,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "12000.000"
+      },
+      {
+        "installment": 2,
+        "paid_on": "2025-02-15",
+        "deposit_days": 334,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "10980.821917808219178082191780821917808219178082192"
+      },
+      {
+        "installment": 3,
+        "paid_on": "2025-03-15",
+        "deposit_days": 306,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "10060.273972602739726027397260273972602739726027397"
+      },
+      {
+        "installment": 4,
+        "paid_on": "2025-04-15",
+        "deposit_days": 275,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "9041.0958904109589041095890410958904109589041095890"
+      },
+      {
+        "installment": 5,
+        "paid_on": "2025-05-15",
+        "deposit_days": 245,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "8054.7945205479452054794520547945205479452054794521"
+      },
+      {
+        "installment": 6,
+        "paid_on": "2025-06-15",
+        "deposit_days": 214,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "7035.6164383561643835616438356164383561643835616438"
+      },
+      {
+        "installment": 7,
+        "paid_on": "2025-07-15",
+        "deposit_days": 184,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "6049.3150684931506849315068493150684931506849315068"
+      },
+      {
+        "installment": 8,
+        "paid_on": "2025-08-15",
+        "deposit_days": 153,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "5030.1369863013698630136986301369863013698630136986"
+      },
+      {
+        "installment": 9,
+        "paid_on": "2025-09-15",
+        "deposit_days": 122,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "4010.9589041095890410958904109589041095890410958904"
+      },
+      {
+        "installment": 10,
+        "paid_on": "2025-10-15",
+        "deposit_days": 92,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "3024.6575342465753424657534246575342465753424657534"
+      },
+      {
+        "installment": 11,
+        "paid_on": "2025-11-15",
+        "deposit_days": 61,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "2005.4794520547945205479452054794520547945205479452"
+      },
+      {
+        "installment": 12,
+        "paid_on": "2025-12-15",
+        "deposit_days": 31,
+        "principal_won": 500000,
+        "interest_unrounded_decimal": "1019.1780821917808219178082191780821917808219178082"
+      }
+    ],
+    "deposit_days_sum": 2382,
+    "principal_won": 6000000,
+    "total_interest_unrounded_decimal": "78312.328767123287671232876712328767123287671232876",
+    "exact_rational_numerator": 5716800,
+    "exact_rational_denominator": 73,
+    "synthetic_interest_won": 78312,
+    "official_dated_expected_interest_won": null,
+    "difference_to_official_dated_expected_won": null,
+    "arithmetic_crosscheck": "Decimal precision 50 agrees with exact Fraction floor; ordinal/calendar difference agrees",
+    "caveat": "Not compared to undated 78000 as if dates were the same; no bank product calculation enabled."
+  },
+  "regression": {
+    "new_pytest_tests": 0,
+    "backend_reexecuted": false,
+    "frontend_reexecuted": false,
+    "previous_backend": {
+      "passed": 11600,
+      "skipped": 1,
+      "warnings": 1,
+      "seconds": "71.54"
+    },
+    "previous_frontend": {
+      "passed": 97,
+      "seconds": "14.59"
+    },
+    "reason": "문서 조사만 수행; 코드·테스트·fixture 전부 불변. 기존 실행 로그 재확인 및 SHA256/크기/mtime 감사로 보호 상태 확인."
+  },
+  "real_product_information_count": 3,
+  "real_product_calculation_count": 0,
+  "benefit_cashflow_won": 0,
+  "inquiry_sent": false,
+  "limitations": [
+    "공식 날짜별 기대금액 없음",
+    "알려진 핵심 규칙과 모든 예외의 검증을 구분",
+    "공식 계산기 관찰을 특정 상품 계약 승인으로 승격하지 않음",
+    "Obsidian GUI 미검증"
+  ],
+  "search_boundary": {
+    "primary_product": "IBK기업은행 정기적금 [정액적금]",
+    "additional_product_count": 1,
+    "additional_product": "카카오뱅크 26주적금",
+    "additional_candidates_not_adopted": "KB 공개 계산기 검색 결과는 날짜별 상품 사례로 채택하지 않음; 추가 상품 약관 조사로 확대하지 않음.",
+    "fss": "공식 도메인 검색에서 해당 날짜별 정답 사례를 확보하지 못함. 해당 기관에 자료가 없다고 단정하지 않음.",
+    "stop_reason": "IBK 3개 기존 공식 원문·상품 상세·현재 공개 계산기, 보완 상품 1개까지 검토 후 종료. 계정/앱 설치/로그인/문의 전송 없음."
+  },
+  "preservation_audit": {
+    "existing_files": 274,
+    "unchanged": 274,
+    "changed_existing": [],
+    "new_files": [
+      "docs/M3_5_IBK_INQUIRY_DRAFT.md",
+      "docs/M3_5_OFFICIAL_DATED_SAVINGS_VERIFICATION.md",
+      "docs/M3_5_OFFICIAL_SAVINGS_EVIDENCE.json"
+    ],
+    "production_code_tests_fixtures_and_catalog_unchanged": true,
+    "m32_contract_unchanged": true,
+    "actual_product_calculation_count": 0,
+    "official_product_information_count": 3,
+    "benefit_cashflow_won": 0,
+    "release_sha256": {
+      "data/releases/ansan-youth-2026-10-20-001/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json": "9c6e22ddc1c936e365ecb9b3be355a73f8cfbdc6f02f99d66e2fb843e0187025",
+      "data/releases/ansan-youth-2026-10-20-001/README.md": "4183c73c37d3cb7ec76bad21656b50a2c41b064e1298c2d4934db0d4e536a09f",
+      "data/releases/ansan-youth-2026-10-20-001/sources.json": "a47e53da0b298c93c1ad04480e8c7fed96f2e45144ad4d58991c9ec86aaa9e3b",
+      "data/releases/ansan-youth-2026-10-20-002/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json": "d4aaa62f1a1c46392af213c05c6e24ff59e44f17333f3b3785bde2d4b3161e92",
+      "data/releases/ansan-youth-2026-10-20-002/README.md": "8955e554cd484240f0d8dddffec5494d342c2b5732e789666b45eb261b58ca99",
+      "data/releases/ansan-youth-2026-10-20-002/sources.json": "711f1e3bbb8ddb4bcbaaddd189b6f35f7c9a6ef8b4a81f0208e4dd818629e620"
+    },
+    "golden": "GV01~GV15/BV01~BV16 bytes preserved",
+    "coverage_freeze": "UNCHANGED",
+    "backend_reexecuted": false,
+    "frontend_reexecuted": false,
+    "last_executed_backend": "11600 passed, 1 skipped, 1 warning",
+    "last_executed_frontend": "97 passed"
+  },
+  "obsidian_audit": {
+    "markdown": 62,
+    "bases": 1,
+    "canvases": 1,
+    "content_folders": 11,
+    "wikilinks": 413,
+    "heading_links": 4,
+    "block_links": 1,
+    "source_paths": 191,
+    "external_local_links": 24,
+    "broken_links": 0,
+    "bookmark_groups": 4,
+    "bookmarks": 13,
+    "templates": 5,
+    "changed_existing": 13,
+    "new_notes": 1,
+    "config_files_unchanged": true,
+    "gui": "UNVERIFIED",
+    "milestone_status": "blocked",
+    "verdict": "M3_OFFICIAL_SAVINGS_RULES_VERIFIED_EXAMPLE_MISSING"
+  },
+  "previous_execution_logs": [
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m34-pytest-after.txt",
+      "sha256": "e9c0922ab2b8911b9b51e8d0ccc5c15ab3fdf6bdbd03dee536d9ea41552586f4",
+      "size": 13889,
+      "mtime_ns": 1792862670481753000
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m34-frontend.txt",
+      "sha256": "7cc7d20dd5070302460d7114ba748d168b66d58d1c508157ff910ebac7edff74",
+      "size": 2350,
+      "mtime_ns": 1792862401609415700
+    },
+    {
+      "path": "C:\\Users\\김영준\\Documents\\ChatGPT\\AI+X채팅\\tmp\\m34-build.txt",
+      "sha256": "069cd182617a0db3659e9aace35e89743ff9a22cf0cf200a33eccaeb0fbf6b9c",
+      "size": 370,
+      "mtime_ns": 1792862398932093800
+    }
+  ]
+}

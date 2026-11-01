@@ -1,0 +1,47 @@
+{
+  "schema_version": "m1.1",
+  "dataset_version": "synthetic-birth-loader-001",
+  "synthetic": true,
+  "test_only": true,
+  "policies": [
+    {
+      "policy_id": "SYNTH-BIRTH-POLICY-001",
+      "policy_name": "합성 test_only 생년월일 혼합 정책",
+      "rule_version": "r0001",
+      "synthetic": true,
+      "test_only": true,
+      "root": {
+        "kind": "group",
+        "rule_id": "SYNTH-BIRTH-ROOT",
+        "operator": "ALL",
+        "children": [
+          {
+            "kind": "rule",
+            "rule_type": "atomic",
+            "rule_id": "SYNTH-BIRTH-AGE",
+            "field": "age",
+            "operator": "gte",
+            "value": 19,
+            "evidence_refs": ["SYNTH-SOURCE-001#application-period"]
+          },
+          {
+            "kind": "rule",
+            "rule_type": "resident_registration",
+            "rule_id": "SYNTH-BIRTH-RESIDENT",
+            "required_region": {"sido": "SEOUL", "sigungu": "JONGNO"},
+            "reference_date_source": "APPLICATION_DATE",
+            "evidence_refs": ["SYNTH-SOURCE-001#eligibility-residence"]
+          },
+          {
+            "kind": "rule",
+            "rule_type": "birth_date",
+            "rule_id": "SYNTH-BIRTH-RANGE",
+            "min_birth_date": "1998-01-10",
+            "max_birth_date": "1999-01-09",
+            "evidence_refs": ["SYNTH-BIRTH-SOURCE-001#birth-date-range"]
+          }
+        ]
+      }
+    }
+  ]
+}

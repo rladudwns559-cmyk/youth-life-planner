@@ -1,0 +1,547 @@
+[
+  {
+    "province": "강원",
+    "city": "동해시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-DONGHAE-YOGA-2026",
+      "NOV-DONGHAE-ART-2026"
+    ]
+  },
+  {
+    "province": "강원",
+    "city": "횡성군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-HOENGSEONG-KNITTING-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "가평군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-GG-3061-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "군포시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-GG-2379-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "남양주시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-GG-2413-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "동두천시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-GG-2408-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "부천시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-GG-3011-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "부천시 소사구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-GG-3011-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "부천시 오정구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-GG-3011-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "부천시 원미구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-GG-3011-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "안성시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-GG-2442-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "오산시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-GG-2422-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "이천시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-GG-2475-2026"
+    ]
+  },
+  {
+    "province": "경기",
+    "city": "하남시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-GG-2410-2026",
+      "NOV-GG-2441-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "김해시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "OPEN-GIMHAE-AI-DESIGN-2026",
+      "OPEN-GIMHAE-GAYA-2026",
+      "OPEN-GIMHAE-TIME-2026",
+      "OPEN-GIMHAE-CHALLENGE-2026",
+      "OPEN-GIMHAE-RPG-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "밀양시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-MIRYANG-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "산청군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-SANCHEONG-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "양산시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-YANGSAN-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "창녕군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-CHANGNYEONG-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "창원시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-CHANGWON-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "창원시 마산합포구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-CHANGWON-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "창원시 마산회원구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-CHANGWON-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "창원시 성산구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-CHANGWON-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "창원시 의창구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-CHANGWON-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "창원시 진해구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-CHANGWON-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "통영시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-TONGYEONG-GUARANTEE-2026"
+    ]
+  },
+  {
+    "province": "경남",
+    "city": "합천군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "OPEN-HAPCHEON-RENT-INTEREST-2026"
+    ]
+  },
+  {
+    "province": "광주",
+    "city": "남구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-GJ-NAMGU-FINANCE-2026",
+      "NOV-GJ-NAMGU-KITCHEN-2026"
+    ]
+  },
+  {
+    "province": "대구",
+    "city": "동구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "OPEN-DAEGU-DONG-RUNNING-2026"
+    ]
+  },
+  {
+    "province": "대전",
+    "city": "대덕구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-DAEDEOK-HOME-2026"
+    ]
+  },
+  {
+    "province": "대전",
+    "city": "서구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-DJ-SEOGU-AI-2026",
+      "NOV-DJ-SEOGU-MENTOR-2026"
+    ]
+  },
+  {
+    "province": "부산",
+    "city": "동래구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "OPEN-DONGNAE-COUNCIL-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "강북구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-SEOUL-75368-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "강서구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-SEOUL-GANGSEO-DAY-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "관악구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-SEOUL-75373-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "광진구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-SEOUL-75232-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "금천구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-SEOUL-75206-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "동대문구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-SEOUL-75223-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "마포구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-SEOUL-75243-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "성북구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-SEOUL-75380-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "양천구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-SEOUL-75455-2026",
+      "NOV-YANGCHEON-HOUSING-2026",
+      "NOV-YANGCHEON-DEFENSE-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "영등포구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-SEOUL-YEONGDEUNGPO-TALK-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "은평구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-SEOUL-EUNPYEONG-ROOM-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "중구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-SEOUL-75083-2026"
+    ]
+  },
+  {
+    "province": "서울",
+    "city": "중랑구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-SEOUL-JUNGNANG-RESERVIST-2026"
+    ]
+  },
+  {
+    "province": "울산",
+    "city": "울주군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "OPEN-ULJU-201-2026",
+      "OPEN-ULJU-195-2026",
+      "OPEN-ULJU-191-2026"
+    ]
+  },
+  {
+    "province": "인천",
+    "city": "남동구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-GG-IC2270-2026"
+    ]
+  },
+  {
+    "province": "인천",
+    "city": "서해구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-GG-IC2259-2026"
+    ]
+  },
+  {
+    "province": "인천",
+    "city": "연수구",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-GG-IC2252-2026",
+      "NOV-GG-IC2231-2026"
+    ]
+  },
+  {
+    "province": "전남",
+    "city": "화순군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-HWASUN-SUIT-2026",
+      "NOV-HWASUN-CAREER-2026",
+      "NOV-HWASUN-WINE-2026"
+    ]
+  },
+  {
+    "province": "전북",
+    "city": "김제시",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-GIMJE-INCUBATOR-2026"
+    ]
+  },
+  {
+    "province": "충남",
+    "city": "홍성군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 0,
+    "allowed": [
+      "NOV-HONGSEONG-MEAL-2026"
+    ]
+  },
+  {
+    "province": "충북",
+    "city": "증평군",
+    "age": 25,
+    "employment": "unemployed",
+    "score": 1,
+    "allowed": [
+      "NOV-JEUNGPYEONG-CONNECT-2026"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "record_kind": "PLANNED_NOT_OBSERVED",
+  "planned_people": 5,
+  "planned_trials": 40,
+  "planned_objective_items": 160,
+  "total_condition_trials": {
+    "A": 20,
+    "B": 20
+  },
+  "per_task": {
+    "T01": {
+      "A": 3,
+      "B": 2
+    },
+    "T02": {
+      "A": 2,
+      "B": 3
+    },
+    "T03": {
+      "A": 3,
+      "B": 2
+    },
+    "T04": {
+      "A": 2,
+      "B": 3
+    },
+    "T05": {
+      "A": 3,
+      "B": 2
+    },
+    "T06": {
+      "A": 2,
+      "B": 3
+    },
+    "T07": {
+      "A": 3,
+      "B": 2
+    },
+    "T08": {
+      "A": 2,
+      "B": 3
+    }
+  },
+  "planned_item_categories": {
+    "A": {
+      "money": 23,
+      "policy": 20,
+      "certainty": 5,
+      "confirmation": 20,
+      "unknown": 5,
+      "reason": 7
+    },
+    "B": {
+      "money": 22,
+      "policy": 20,
+      "reason": 8,
+      "confirmation": 20,
+      "unknown": 5,
+      "certainty": 5
+    }
+  },
+  "note": "과제별3:2또는2:3.5명에서는 순서도 완전 균등하지 않다."
+}

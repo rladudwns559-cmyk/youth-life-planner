@@ -1,0 +1,49 @@
+{
+  "schema_version": "m1.0",
+  "dataset_version": "synthetic-v1",
+  "synthetic": true,
+  "test_only": true,
+  "policies": [
+    {
+      "policy_id": "SAMPLE-001",
+      "policy_name": "합성 테스트 001",
+      "rule_version": "1",
+      "synthetic": true,
+      "test_only": true,
+      "root": {
+        "kind": "group", "rule_id": "S001-ALL", "operator": "ALL",
+        "children": [
+          {"kind": "rule", "rule_id": "S001-AGE-MIN", "field": "age", "operator": "gte", "value": 19, "evidence_refs": ["data/synthetic/README.md#sample-001"]},
+          {"kind": "rule", "rule_id": "S001-AGE-MAX", "field": "age", "operator": "lte", "value": 34, "evidence_refs": ["data/synthetic/README.md#sample-001"]},
+          {"kind": "rule", "rule_id": "S001-REGION", "field": "region", "operator": "eq", "value": "안산시", "evidence_refs": ["data/synthetic/README.md#sample-001"]}
+        ]
+      }
+    },
+    {
+      "policy_id": "SAMPLE-002",
+      "policy_name": "합성 테스트 002",
+      "rule_version": "1",
+      "synthetic": true,
+      "test_only": true,
+      "root": {"kind": "rule", "rule_id": "S002-EMPLOYMENT", "field": "employment_status", "operator": "eq", "value": "unemployed", "evidence_refs": ["data/synthetic/README.md#sample-002"]}
+    },
+    {
+      "policy_id": "SAMPLE-003",
+      "policy_name": "합성 테스트 003",
+      "rule_version": "1",
+      "synthetic": true,
+      "test_only": true,
+      "root": {
+        "kind": "group", "rule_id": "S003-ALL", "operator": "ALL",
+        "children": [
+          {"kind": "rule", "rule_id": "S003-REGION", "field": "region", "operator": "eq", "value": "안산시", "evidence_refs": ["data/synthetic/README.md#sample-003"]},
+          {
+            "kind": "rule", "rule_id": "S003-INCOME", "field": "household_income", "operator": "lte", "value": 3000000,
+            "fact_basis": {"basis": "synthetic_gross", "subject": "household", "period": "monthly", "reference_year": 2026, "unit": "KRW"},
+            "evidence_refs": ["data/synthetic/README.md#sample-003"]
+          }
+        ]
+      }
+    }
+  ]
+}

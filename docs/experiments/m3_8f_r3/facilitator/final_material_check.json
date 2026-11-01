@@ -1,0 +1,19 @@
+{
+  "frozen_source_files": 43,
+  "all_frozen_metadata_identical": true,
+  "task_pairs": 8,
+  "participant_packets": 5,
+  "packet_bytes_equal_to_study_v2": true,
+  "zip_payloads_checked": 5,
+  "participant_packets_exclude_keys_other_ids_and_QA": true,
+  "planned_A": 20,
+  "planned_B": 20,
+  "consent_rows": 0,
+  "real_response_files": 0,
+  "real_task_responses": 0,
+  "real_statistics_generated": false,
+  "existing_related_tests": "123 passed in 1.38s",
+  "full_regression_rerun": false,
+  "model_runs": 0,
+  "verdict": "M3_EXPLANATION_EVALUATION_PARTICIPANTS_PENDING"
+}

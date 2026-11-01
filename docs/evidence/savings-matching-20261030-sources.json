@@ -1,0 +1,69 @@
+{
+  "verified_on": "2026-10-30",
+  "primary_sources": [
+    {
+      "source_id": "KAKAO-20261030",
+      "bank_id": "KAKAO",
+      "official_url": "https://www.kakaobank.com/products/savings",
+      "document_url": null,
+      "document_name": "카카오뱅크 자유적금 공식 상품 페이지",
+      "document_sha256": null,
+      "rate_basis_date": "2026-10-30",
+      "verified_on": "2026-10-30",
+      "evidence_locator": "가입기간·가입금액 FAQ; 기본금리 표; 자동이체 우대금리",
+      "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+    },
+    {
+      "source_id": "KBANK-CODEK-20261030",
+      "bank_id": "KBANK",
+      "official_url": "https://www.kbanknow.com/web/product/deposit/codek-saving",
+      "document_url": null,
+      "document_name": "코드K 자유적금 공식 상품 페이지",
+      "document_sha256": null,
+      "rate_basis_date": "2026-10-27",
+      "verified_on": "2026-10-30",
+      "evidence_locator": "상품요약; 월 적립한도; 금리안내 조회기준일 2026.10.27",
+      "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+    },
+    {
+      "source_id": "KBANK-PRIMARY-20261030",
+      "bank_id": "KBANK",
+      "official_url": "https://www.kbanknow.com/web/product/deposit/primary-saving",
+      "document_url": null,
+      "document_name": "주거래우대 자유적금 공식 상품 페이지",
+      "document_sha256": null,
+      "rate_basis_date": "2026-10-27",
+      "verified_on": "2026-10-30",
+      "evidence_locator": "상품요약; 우대조건; 기간별 금리안내 및 일수 기준 주의문",
+      "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+    },
+    {
+      "source_id": "TOSS-FREE-20261030",
+      "bank_id": "TOSS",
+      "official_url": "https://www.tossbank.com/product-service/savings/savings-freedom",
+      "document_url": "https://www.tossbank.com/customer/product-disclosure?tab=PRODUCT_DISCLOSURE",
+      "document_name": "토스뱅크 자유 적금 상품설명서 (2026.10.27)",
+      "document_sha256": "87e22af9508a4829b57f8cf39b49b29cd0e192a309bfb4d3e3104ddcd138c59c",
+      "rate_basis_date": "2026-10-27",
+      "verified_on": "2026-10-30",
+      "evidence_locator": "공식 상품공시실 > 토스뱅크 자유 적금 > 상품설명서; 1~3쪽; 기본정보/자동이체/기간별 금리",
+      "reuse_scope": "FACTS_ONLY_WITH_ATTRIBUTION"
+    }
+  ],
+  "private_capture_sha256": {
+    "KAKAO-SAVINGS": "26be4f2185ce01b716adc2d5f37ed5996a99acb6172785f68de920d815e40710",
+    "KBANK-CODEK": "5f98bca07b24d0a1197c146a6ca08d9b9530a03563d15d15b7c0ab4d01a5050c",
+    "KBANK-PRIMARY": "e513290283f0b2c0f37d5a2496ef32a60569fd71c59284433764c70ee13359eb",
+    "TOSS-FREE": "87e22af9508a4829b57f8cf39b49b29cd0e192a309bfb4d3e3104ddcd138c59c"
+  },
+  "limitations": [
+    "수동 확인한 공식 자료의 스냅샷이며 실시간 API가 아니다.",
+    "공식 페이지 전문·로고·PDF를 서비스에 재배포하지 않는다.",
+    "금리·한도·기간 등 사실과 출처만 저장한다.",
+    "기존 IBK 과거 스냅샷은 변경하지 않고 자동 매칭 대상에서 분리한다."
+  ],
+  "discarded_sources": [
+    "카카오뱅크 검색 캐시의 2026.09.11 금리: 직접 확인한 2026.10.30 금리로 교체.",
+    "토스뱅크 2026.08.28 안내 글: 최신 설명서 2026.10.27과 금리·우대조건이 달라 미채택."
+  ]
+}

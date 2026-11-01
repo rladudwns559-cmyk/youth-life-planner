@@ -1,0 +1,2056 @@
+{
+  "milestone": "M3.8F-R1",
+  "mode": "OFFLINE_ONLY",
+  "new_model_runs": 0,
+  "actual_participants": 0,
+  "real_responses": 0,
+  "t08": {
+    "case_id": "FU01",
+    "changed_input_fields": [
+      "employment_status",
+      "monthly_income",
+      "monthly_rent"
+    ],
+    "summary_family": "S3",
+    "slot_order": [
+      "p01",
+      "p02",
+      "p03"
+    ],
+    "policy_families": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "options_per_field": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "combinations": 16,
+    "wire_bytes": 2105,
+    "wire_sha256": "ec34c962b55680973a7ccc413bcd414cab0c7afe0deda1df808c376e22d80361",
+    "context_bytes": 561,
+    "system_prompt_bytes": 360,
+    "system_prompt_chars": 162,
+    "message_content_bytes": 921,
+    "schema_bytes": 922,
+    "inner_output_utf8_min": 269,
+    "inner_output_utf8_max": 286,
+    "inner_outputs_validated": 16,
+    "token_count_offline": null,
+    "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+    "options": {
+      "temperature": 0,
+      "num_predict": 256,
+      "num_ctx": 16384
+    },
+    "stream": false,
+    "shift": false,
+    "truncate": false,
+    "python_result_sha256": "256a3853e4c27719239fa6e6aad6c5377df1d4017fd41aa81c421b16236d5cb6",
+    "facts_sha256": "ca18318591ca7e44541824cfb8cf9d3e983be0f590b28c0b4268ecd3a2d7705f",
+    "canonical_sha256": "a1e90a861430be61eab9cab89e0dafd0b41d1733857c8c635758a0619152ffd6"
+  },
+  "historical_attempts": [
+    {
+      "case_id": "FU01",
+      "preload": {
+        "request": {
+          "model": "qwen3:4b-instruct-2507-q4_K_M",
+          "messages": [],
+          "stream": false,
+          "options": {
+            "num_ctx": 16384
+          }
+        },
+        "text_generation": false,
+        "response": {
+          "model": "qwen3:4b-instruct-2507-q4_K_M",
+          "created_at": "2026-10-26T03:37:09.668008Z",
+          "message": {
+            "role": "assistant",
+            "content": ""
+          },
+          "done": true,
+          "done_reason": "load"
+        },
+        "elapsed_ms": 5468.08
+      },
+      "provider_post_attempts": 1,
+      "wire_bytes": 2105,
+      "context_bytes": 561,
+      "transport_ms": 6021.0,
+      "service_ms": 6065.73,
+      "post_error_type": "TimeoutError",
+      "envelope_bytes": null,
+      "model_metrics": {},
+      "completion_reason": null,
+      "source": "deterministic_fallback",
+      "fallback_reason": "TIMEOUT",
+      "structure_valid": null,
+      "exact_candidate_match": null,
+      "raw_model_output_available": false,
+      "strict_equivalent_preload": false,
+      "official_generation_token_count": null
+    },
+    {
+      "case_id": "FU01",
+      "preload": {
+        "request": {
+          "model": "qwen3:4b-instruct-2507-q4_K_M",
+          "messages": [],
+          "stream": false,
+          "options": {
+            "num_ctx": 16384
+          }
+        },
+        "text_generation": false,
+        "error": "TimeoutError",
+        "elapsed_ms": 6046.39
+      },
+      "provider_post_attempts": 1,
+      "wire_bytes": 2105,
+      "context_bytes": 561,
+      "transport_ms": 6034.54,
+      "service_ms": 6064.52,
+      "post_error_type": "TimeoutError",
+      "envelope_bytes": null,
+      "model_metrics": {},
+      "completion_reason": null,
+      "source": "deterministic_fallback",
+      "fallback_reason": "TIMEOUT",
+      "structure_valid": null,
+      "exact_candidate_match": null,
+      "raw_model_output_available": false,
+      "strict_equivalent_preload": false,
+      "official_generation_token_count": null
+    }
+  ],
+  "most_complex_definition": "wire UTF8 bytes 최대, 동률이면 context bytes/ID. tokenizer 토큰 순위와 구분.",
+  "largest_fixed30": {
+    "case_id": "EX06",
+    "changed_input_fields": [
+      "employment_status"
+    ],
+    "summary_family": "S4",
+    "slot_order": [
+      "p01",
+      "p02",
+      "p03"
+    ],
+    "policy_families": [
+      "P1",
+      "P6",
+      "P3"
+    ],
+    "options_per_field": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "combinations": 16,
+    "wire_bytes": 2201,
+    "wire_sha256": "1bc1c341c8d9e55d6c720ba545dac4ad8f156203a57bbd3f668c021554b28e6d",
+    "context_bytes": 609,
+    "system_prompt_bytes": 360,
+    "system_prompt_chars": 162,
+    "message_content_bytes": 969,
+    "schema_bytes": 970,
+    "inner_output_utf8_min": 291,
+    "inner_output_utf8_max": 312,
+    "inner_outputs_validated": 16,
+    "token_count_offline": null,
+    "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+    "options": {
+      "temperature": 0,
+      "num_predict": 256,
+      "num_ctx": 16384
+    },
+    "stream": false,
+    "shift": false,
+    "truncate": false,
+    "python_result_sha256": "29575b063ee68191486679af66b1743f83aa772f0982e8b350e2ab2472c38fa2",
+    "facts_sha256": "35a54732c2a754f4c0fa985acb34ac0e109ba39e525eb83de0800ed7caaea1c6",
+    "canonical_sha256": "8671d09774c0ab7639cbdb394dfd445782556e0d04f50507e99afec67f206e97",
+    "actual_model_metrics": {
+      "total_duration": 1768520600,
+      "load_duration": 7601600,
+      "prompt_eval_count": 266,
+      "prompt_eval_cached_count": 145,
+      "prompt_eval_duration": 53521000,
+      "eval_count": 106,
+      "eval_duration": 1653822000
+    },
+    "client_ms": 1816.71,
+    "accepted": true
+  },
+  "fixed30": [
+    {
+      "case_id": "EX01",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1675335000,
+        "load_duration": 14639100,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 190795000,
+        "eval_count": 98,
+        "eval_duration": 1461210000
+      },
+      "client_ms": 1728.4,
+      "accepted": true
+    },
+    {
+      "case_id": "EX02",
+      "changed_input_fields": [
+        "employment_status"
+      ],
+      "summary_family": "S4",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2061,
+      "wire_sha256": "4a96ce3d201cacd07f6387b6375aafe667f27645837245a53c11d7b4a793f837",
+      "context_bytes": 539,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 899,
+      "schema_bytes": 900,
+      "inner_output_utf8_min": 258,
+      "inner_output_utf8_max": 275,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "1cdb78e778d816b86e319a3a14820df988c91f4e86c53fb357f2e30b78cfb920",
+      "facts_sha256": "bc997f68743bb78248178ad222413ed6c249c578dc5fa7fcaf5f0c7309931980",
+      "canonical_sha256": "24185635914fa5e43e286a06b8afd379b73c28546cc87b8c1b11244b7fff01d1",
+      "actual_model_metrics": {
+        "total_duration": 1544878300,
+        "load_duration": 12437400,
+        "prompt_eval_count": 246,
+        "prompt_eval_cached_count": 146,
+        "prompt_eval_duration": 48722000,
+        "eval_count": 96,
+        "eval_duration": 1439455000
+      },
+      "client_ms": 1593.73,
+      "accepted": true
+    },
+    {
+      "case_id": "EX03",
+      "changed_input_fields": [
+        "employment_status"
+      ],
+      "summary_family": "S4",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2061,
+      "wire_sha256": "4a96ce3d201cacd07f6387b6375aafe667f27645837245a53c11d7b4a793f837",
+      "context_bytes": 539,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 899,
+      "schema_bytes": 900,
+      "inner_output_utf8_min": 258,
+      "inner_output_utf8_max": 275,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "4091347cc99cc2b88227918d8ddda699790eb566cdb7551bea8ea467e4b2d2b9",
+      "facts_sha256": "fa622560e034663a5084b4f2d1233143162872af831520c2dec41ca2e184090f",
+      "canonical_sha256": "ea1e911df1eb2e84b8accc74bfc94f4fa1b853194ce6eb8b127084451c9c4e40",
+      "actual_model_metrics": {
+        "total_duration": 1484006800,
+        "load_duration": 16143600,
+        "prompt_eval_count": 246,
+        "prompt_eval_cached_count": 245,
+        "prompt_eval_duration": 22029000,
+        "eval_count": 96,
+        "eval_duration": 1437895000
+      },
+      "client_ms": 1537.29,
+      "accepted": true
+    },
+    {
+      "case_id": "EX04",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P3",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2185,
+      "wire_sha256": "5441807bbfb05e68c83b39aa7ae53db36622aa7c69a3995aa9e7742483fe9e5c",
+      "context_bytes": 601,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 961,
+      "schema_bytes": 962,
+      "inner_output_utf8_min": 288,
+      "inner_output_utf8_max": 307,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "548e89abed54e79ac92b195be5cb89058bc9d0af0d0410818c63ef459cde158c",
+      "facts_sha256": "fdfe7743be3b6f94c8b2962626f7e6ee33756f0c8bfd2d23ae3a14adfa439618",
+      "canonical_sha256": "5a667e140d03a2e5822ece39d774d259b422d5bc715b5c74ebef8215a93fd57f",
+      "actual_model_metrics": {
+        "total_duration": 1671409500,
+        "load_duration": 9502500,
+        "prompt_eval_count": 259,
+        "prompt_eval_cached_count": 138,
+        "prompt_eval_duration": 47824000,
+        "eval_count": 103,
+        "eval_duration": 1563804000
+      },
+      "client_ms": 1734.69,
+      "accepted": true
+    },
+    {
+      "case_id": "EX05",
+      "changed_input_fields": [
+        "employment_status"
+      ],
+      "summary_family": "S4",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P4",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2165,
+      "wire_sha256": "8e1573cf624ce052682d77a931be681c4e80eba9f59ee9b5f2b4be9b006086ef",
+      "context_bytes": 591,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 951,
+      "schema_bytes": 952,
+      "inner_output_utf8_min": 282,
+      "inner_output_utf8_max": 303,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "bc3d0f32031bdc58ce5a00d11e76934249351e89d6c47c8a47adbd1f413e3b3c",
+      "facts_sha256": "810f73eac375c53ce29cb6de1645de73b51f4eecdce8f3707572b04c1f5bab7a",
+      "canonical_sha256": "561cf76bced0abff1771ba80a2e36f36ee6097976d0021318fca29d6201256e2",
+      "actual_model_metrics": {
+        "total_duration": 1651468700,
+        "load_duration": 9223800,
+        "prompt_eval_count": 259,
+        "prompt_eval_cached_count": 142,
+        "prompt_eval_duration": 47092000,
+        "eval_count": 103,
+        "eval_duration": 1550683000
+      },
+      "client_ms": 1701.35,
+      "accepted": true
+    },
+    {
+      "case_id": "EX06",
+      "changed_input_fields": [
+        "employment_status"
+      ],
+      "summary_family": "S4",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P6",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2201,
+      "wire_sha256": "1bc1c341c8d9e55d6c720ba545dac4ad8f156203a57bbd3f668c021554b28e6d",
+      "context_bytes": 609,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 969,
+      "schema_bytes": 970,
+      "inner_output_utf8_min": 291,
+      "inner_output_utf8_max": 312,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "29575b063ee68191486679af66b1743f83aa772f0982e8b350e2ab2472c38fa2",
+      "facts_sha256": "35a54732c2a754f4c0fa985acb34ac0e109ba39e525eb83de0800ed7caaea1c6",
+      "canonical_sha256": "8671d09774c0ab7639cbdb394dfd445782556e0d04f50507e99afec67f206e97",
+      "actual_model_metrics": {
+        "total_duration": 1768520600,
+        "load_duration": 7601600,
+        "prompt_eval_count": 266,
+        "prompt_eval_cached_count": 145,
+        "prompt_eval_duration": 53521000,
+        "eval_count": 106,
+        "eval_duration": 1653822000
+      },
+      "client_ms": 1816.71,
+      "accepted": true
+    },
+    {
+      "case_id": "EX07",
+      "changed_input_fields": [
+        "monthly_income"
+      ],
+      "summary_family": "S2",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2099,
+      "wire_sha256": "3f34a2439bee755bb67e80a3d50154e4d8a57552ac6dccd8e7c7dc13996c659e",
+      "context_bytes": 558,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 918,
+      "schema_bytes": 919,
+      "inner_output_utf8_min": 266,
+      "inner_output_utf8_max": 286,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "7546f92eaa4c8a2ae823e6a65ee58b13dc03cae31acebea0a3f620d1e5b0e68a",
+      "facts_sha256": "46780e4705f2d63d849fcc9f8c2d7e33243765f999068e5b8eb00da8ad2f794a",
+      "canonical_sha256": "128eb7a97649ee69ae00a62e16456d44bdac74d991d22b59982fef9fe8e60781",
+      "actual_model_metrics": {
+        "total_duration": 1685518200,
+        "load_duration": 11035500,
+        "prompt_eval_count": 262,
+        "prompt_eval_cached_count": 214,
+        "prompt_eval_duration": 33545000,
+        "eval_count": 105,
+        "eval_duration": 1580206000
+      },
+      "client_ms": 1735.12,
+      "accepted": true
+    },
+    {
+      "case_id": "EX08",
+      "changed_input_fields": [
+        "monthly_income"
+      ],
+      "summary_family": "S2",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2099,
+      "wire_sha256": "7ab4b409a0a9b3a355e436b3841df18187b4f1e349c6c21acfc6b60ff15175b4",
+      "context_bytes": 558,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 918,
+      "schema_bytes": 919,
+      "inner_output_utf8_min": 266,
+      "inner_output_utf8_max": 286,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "0dc432bb62cf6fde25021db62e6f15e3aee15804f13e3bdbd500e6ba0b406ec4",
+      "facts_sha256": "fc59ce475653e631f004b6ca4a8d0a9b03059236e6f66fbcba06084d2d7ebb2b",
+      "canonical_sha256": "32b808abaa44a20f31a3177cad6ece9b579c31b56d093300937035c0145f6cfc",
+      "actual_model_metrics": {
+        "total_duration": 1671370700,
+        "load_duration": 9394500,
+        "prompt_eval_count": 262,
+        "prompt_eval_cached_count": 218,
+        "prompt_eval_duration": 29612000,
+        "eval_count": 105,
+        "eval_duration": 1623794000
+      },
+      "client_ms": 1737.93,
+      "accepted": true
+    },
+    {
+      "case_id": "EX09",
+      "changed_input_fields": [
+        "monthly_rent"
+      ],
+      "summary_family": "S2",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2087,
+      "wire_sha256": "4492f600357e94dda1ac7afd91980e1cfe9e68bfd56e12783766233bf45dda34",
+      "context_bytes": 552,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 912,
+      "schema_bytes": 913,
+      "inner_output_utf8_min": 263,
+      "inner_output_utf8_max": 283,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "3bfacb25ccd74830060e05bdefd7fb2189e8bba08e76bc30071cd579f6e42fec",
+      "facts_sha256": "3bf93bb03ed2a6a4c5c74f57a0dbff18b8465fce1b4a8709285e8bd07880a919",
+      "canonical_sha256": "a5c227f93f64023afdb686a1f94f837599c6c5a9d50f3b180fbb1deb45f19430",
+      "actual_model_metrics": {
+        "total_duration": 1591819000,
+        "load_duration": 10993200,
+        "prompt_eval_count": 260,
+        "prompt_eval_cached_count": 215,
+        "prompt_eval_duration": 30337000,
+        "eval_count": 104,
+        "eval_duration": 1544499000
+      },
+      "client_ms": 1645.73,
+      "accepted": true
+    },
+    {
+      "case_id": "EX10",
+      "changed_input_fields": [
+        "monthly_rent"
+      ],
+      "summary_family": "S2",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2087,
+      "wire_sha256": "fb590c9b11fceb8c3d829a7af43192a46459e46de6ed077a077ef3501c2fa030",
+      "context_bytes": 552,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 912,
+      "schema_bytes": 913,
+      "inner_output_utf8_min": 263,
+      "inner_output_utf8_max": 283,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "9f47f77e4b1b7533b1337d02c1e2c59847170b9cda74d7b8be8d9e6cd771e63b",
+      "facts_sha256": "d8583736b5598d66b26c9d027d0b5f2a853863a263bec80d68acefecbe55093b",
+      "canonical_sha256": "a7fa476c007ded59da6b65e08b9ff46c804e10a017a0558c9bb5c35deb24ab3b",
+      "actual_model_metrics": {
+        "total_duration": 1624390300,
+        "load_duration": 9446500,
+        "prompt_eval_count": 260,
+        "prompt_eval_cached_count": 217,
+        "prompt_eval_duration": 30572000,
+        "eval_count": 104,
+        "eval_duration": 1576547000
+      },
+      "client_ms": 1700.92,
+      "accepted": true
+    },
+    {
+      "case_id": "EX11",
+      "changed_input_fields": [
+        "user_savings_capacity"
+      ],
+      "summary_family": "S1",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2079,
+      "wire_sha256": "dc6854ac3b5c7da1c19d02800d20ea239813216ab8fbd8bd3b09fd2dcc22e9b9",
+      "context_bytes": 548,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 908,
+      "schema_bytes": 909,
+      "inner_output_utf8_min": 256,
+      "inner_output_utf8_max": 286,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "ac5e070e7859bdcb0a0e8259b1b166b8e3e1d834e391024469ccff5f3da4bf96",
+      "facts_sha256": "cde22be10c50494e7260aa934e15a65b1b5718e0255e3d268a140dc017511390",
+      "canonical_sha256": "2829cd76aa08bbf4dbae8bf797eac21df6a48a641b5d24af39acabedf2850bcf",
+      "actual_model_metrics": {
+        "total_duration": 1525194600,
+        "load_duration": 9595900,
+        "prompt_eval_count": 249,
+        "prompt_eval_cached_count": 214,
+        "prompt_eval_duration": 29562000,
+        "eval_count": 99,
+        "eval_duration": 1479498000
+      },
+      "client_ms": 1579.19,
+      "accepted": true
+    },
+    {
+      "case_id": "EX12",
+      "changed_input_fields": [
+        "monthly_income"
+      ],
+      "summary_family": "S2",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2099,
+      "wire_sha256": "7ab4b409a0a9b3a355e436b3841df18187b4f1e349c6c21acfc6b60ff15175b4",
+      "context_bytes": 558,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 918,
+      "schema_bytes": 919,
+      "inner_output_utf8_min": 266,
+      "inner_output_utf8_max": 286,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "443b21e670644d0bb0f1b6aba63a5b6d1576371e85b9e73726e8aac6faf7597d",
+      "facts_sha256": "a1267c153baf809e626e5fc1be4646adb6bd8ee53a688b98968288c1e3a5f394",
+      "canonical_sha256": "84bf5151860a1a9c09570e667a029769f05f3449d4574d3e045252b536ed387f",
+      "actual_model_metrics": {
+        "total_duration": 1634398900,
+        "load_duration": 9493300,
+        "prompt_eval_count": 262,
+        "prompt_eval_cached_count": 214,
+        "prompt_eval_duration": 32326000,
+        "eval_count": 105,
+        "eval_duration": 1583920000
+      },
+      "client_ms": 1685.24,
+      "accepted": true
+    },
+    {
+      "case_id": "EX13",
+      "changed_input_fields": [
+        "age"
+      ],
+      "summary_family": "S4",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P4",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2157,
+      "wire_sha256": "ab97e74727bc64e66024ff02bce53a138c153782894d6c2fbfc4a94acb074601",
+      "context_bytes": 587,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 947,
+      "schema_bytes": 948,
+      "inner_output_utf8_min": 280,
+      "inner_output_utf8_max": 301,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "165aea75e2d97164c92bd874b463c91861b04cb5535c2182a8a2c0ad48079d5c",
+      "facts_sha256": "787b0c328af2c4f7437889b64ee464a613f21389234ea4c8bb0c6b037e50f7e4",
+      "canonical_sha256": "fb4b80a562d3780133abd297dad526ccc8e105b5f5545eccd81c7a9ca1bb19d3",
+      "actual_model_metrics": {
+        "total_duration": 1683342600,
+        "load_duration": 11750100,
+        "prompt_eval_count": 257,
+        "prompt_eval_cached_count": 106,
+        "prompt_eval_duration": 62428000,
+        "eval_count": 102,
+        "eval_duration": 1544901000
+      },
+      "client_ms": 1739.48,
+      "accepted": true
+    },
+    {
+      "case_id": "EX14",
+      "changed_input_fields": [
+        "region"
+      ],
+      "summary_family": "S4",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P4",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2169,
+      "wire_sha256": "6de7cfeae3b0741a93636fe94be328188c8d3dcc27616776cccb7ae096af48dc",
+      "context_bytes": 593,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 953,
+      "schema_bytes": 954,
+      "inner_output_utf8_min": 283,
+      "inner_output_utf8_max": 304,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "78dce553933f8e448d619eec61ec67d4808604a8cf611c4f5b5a56f31802e21b",
+      "facts_sha256": "1aa42cdc6f2d1411899858bcd0bfd8ff3d9d5773a9e2bf08a2616a8b4ae3d31d",
+      "canonical_sha256": "89c10c1333d769bc278e8f278ec841cf1110713109b72a6ad32c468023999e1c",
+      "actual_model_metrics": {
+        "total_duration": 1594479200,
+        "load_duration": 9668100,
+        "prompt_eval_count": 257,
+        "prompt_eval_cached_count": 229,
+        "prompt_eval_duration": 27714000,
+        "eval_count": 102,
+        "eval_duration": 1550796000
+      },
+      "client_ms": 1652.64,
+      "accepted": true
+    },
+    {
+      "case_id": "EX15",
+      "changed_input_fields": [
+        "student_status"
+      ],
+      "summary_family": "S4",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2053,
+      "wire_sha256": "d2ecc0e6b2bd77d3b400e83f70ef4f1da2c8ffaa74be4adca3af60348f1a0af3",
+      "context_bytes": 535,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 895,
+      "schema_bytes": 896,
+      "inner_output_utf8_min": 253,
+      "inner_output_utf8_max": 276,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "da71b801c7a9e51a949849d0c75a6b4ef4f27651ddc0bcdfec43caf8b0600855",
+      "facts_sha256": "54885f30a9faed4dc161b9c2c9d7f82a177afda419b795b67f2e77eeb70b2433",
+      "canonical_sha256": "f64d17639c62fe828d43cfd7d8cc73401778e23197fa35abf0748b0e7a0678f2",
+      "actual_model_metrics": {
+        "total_duration": 1597563100,
+        "load_duration": 11296600,
+        "prompt_eval_count": 242,
+        "prompt_eval_cached_count": 214,
+        "prompt_eval_duration": 29252000,
+        "eval_count": 95,
+        "eval_duration": 1494626000
+      },
+      "client_ms": 1654.52,
+      "accepted": true
+    },
+    {
+      "case_id": "EX16",
+      "changed_input_fields": [
+        "user_savings_capacity"
+      ],
+      "summary_family": "S1",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2079,
+      "wire_sha256": "dc6854ac3b5c7da1c19d02800d20ea239813216ab8fbd8bd3b09fd2dcc22e9b9",
+      "context_bytes": 548,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 908,
+      "schema_bytes": 909,
+      "inner_output_utf8_min": 256,
+      "inner_output_utf8_max": 286,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "0e52350af3b182c184faaa7a5eed1ef4a65f6ff541ae0f454290cc3ddade8be6",
+      "facts_sha256": "514b19fa302c87e80c92bb3ca572cef38cf0d74c950a89b39b81cd1bf91d799c",
+      "canonical_sha256": "ca73523b55fb7ec4a67a311aed5421510fbbfbc0a2a59db9a310a9cf9dc699ed",
+      "actual_model_metrics": {
+        "total_duration": 1566198500,
+        "load_duration": 9216500,
+        "prompt_eval_count": 249,
+        "prompt_eval_cached_count": 214,
+        "prompt_eval_duration": 31042000,
+        "eval_count": 99,
+        "eval_duration": 1513442000
+      },
+      "client_ms": 1619.14,
+      "accepted": true
+    },
+    {
+      "case_id": "EX17",
+      "changed_input_fields": [
+        "user_savings_capacity"
+      ],
+      "summary_family": "S1",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2079,
+      "wire_sha256": "dc6854ac3b5c7da1c19d02800d20ea239813216ab8fbd8bd3b09fd2dcc22e9b9",
+      "context_bytes": 548,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 908,
+      "schema_bytes": 909,
+      "inner_output_utf8_min": 256,
+      "inner_output_utf8_max": 286,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "754fafb57c99dae6282c75e63e45b717590de2b0c2dd5636e7c658350a027c3e",
+      "facts_sha256": "93767f965115c89f75374c9141fa5a0cceb5f5ce4212f2c19626cc4721c7e30b",
+      "canonical_sha256": "f9d36121de76154263e2a5b505f490e1b9bdc4f646e3c0f419032e5bbb330c61",
+      "actual_model_metrics": {
+        "total_duration": 1564349100,
+        "load_duration": 9870800,
+        "prompt_eval_count": 249,
+        "prompt_eval_cached_count": 248,
+        "prompt_eval_duration": 20984000,
+        "eval_count": 99,
+        "eval_duration": 1524968000
+      },
+      "client_ms": 1619.84,
+      "accepted": true
+    },
+    {
+      "case_id": "EX18",
+      "changed_input_fields": [
+        "age"
+      ],
+      "summary_family": "S4",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P2",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2053,
+      "wire_sha256": "3ab6d6cd51581ac2d231d8ee516828fd1a42a78c0b2927af5832e9f06d21bc9f",
+      "context_bytes": 535,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 895,
+      "schema_bytes": 896,
+      "inner_output_utf8_min": 256,
+      "inner_output_utf8_max": 273,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "a2c51c606c40a9c72d5c69c08e5e9f9dbc5378cb2ae5483fea20af6889d12c4c",
+      "facts_sha256": "14a1b161bf825505f5eeb9d199b6a943539132e5c846ac1b13ce05996ad3b711",
+      "canonical_sha256": "6e3f243cce26c90e8f0ca43b9336f10b75cfc4d282ace18f80155b3846c03e96",
+      "actual_model_metrics": {
+        "total_duration": 1564830800,
+        "load_duration": 8184700,
+        "prompt_eval_count": 244,
+        "prompt_eval_cached_count": 114,
+        "prompt_eval_duration": 60091000,
+        "eval_count": 96,
+        "eval_duration": 1458662000
+      },
+      "client_ms": 1653.73,
+      "accepted": true
+    },
+    {
+      "case_id": "EX19",
+      "changed_input_fields": [
+        "region"
+      ],
+      "summary_family": "S4",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P2",
+        "P1",
+        "P4"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2071,
+      "wire_sha256": "a1fbe01f2a38a62f589a0e6fb45175832e6338f46d401c71887aa7350ca267bc",
+      "context_bytes": 544,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 904,
+      "schema_bytes": 905,
+      "inner_output_utf8_min": 261,
+      "inner_output_utf8_max": 277,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "788ee37bf2b18c734df5a4f7b164d5c641864fa176d1a06c0f38a2c76925d83b",
+      "facts_sha256": "e3401695eea5cddcd01544955595545c57c91c0a70b9ad22bc5faf63ecd9c72b",
+      "canonical_sha256": "21dca4a9ca246e2cc8ad199f9e2d347ad20d786fa7c06c8e16fa39dfc033eede",
+      "actual_model_metrics": {
+        "total_duration": 1604597000,
+        "load_duration": 14503400,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 176,
+        "prompt_eval_duration": 36759000,
+        "eval_count": 97,
+        "eval_duration": 1546186000
+      },
+      "client_ms": 1683.19,
+      "accepted": true
+    },
+    {
+      "case_id": "EX20",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "97e4467761d818e1edccb4beb70d54de5d090328db361f97f1a7a26c4a744586",
+      "facts_sha256": "f50a3eaca09476d7de168cd6b46b31e28c2e4d734120e472fe84977b2eca58f8",
+      "canonical_sha256": "8434420feede1e507ce8d81124a2466bd23a08d659561fed1a7a41ae8448a4ed",
+      "actual_model_metrics": {
+        "total_duration": 1558362000,
+        "load_duration": 10550900,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 214,
+        "prompt_eval_duration": 31437000,
+        "eval_count": 98,
+        "eval_duration": 1465114000
+      },
+      "client_ms": 1617.95,
+      "accepted": true
+    },
+    {
+      "case_id": "EX21",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1509484600,
+        "load_duration": 10679300,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 27625000,
+        "eval_count": 98,
+        "eval_duration": 1464438000
+      },
+      "client_ms": 1565.03,
+      "accepted": true
+    },
+    {
+      "case_id": "EX22",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1518085500,
+        "load_duration": 12036100,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 30245000,
+        "eval_count": 98,
+        "eval_duration": 1468267000
+      },
+      "client_ms": 1602.76,
+      "accepted": true
+    },
+    {
+      "case_id": "EX23",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1515206100,
+        "load_duration": 8489500,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 23802000,
+        "eval_count": 98,
+        "eval_duration": 1472705000
+      },
+      "client_ms": 1591.87,
+      "accepted": true
+    },
+    {
+      "case_id": "EX24",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1582068700,
+        "load_duration": 18888300,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 27802000,
+        "eval_count": 98,
+        "eval_duration": 1526933000
+      },
+      "client_ms": 1636.02,
+      "accepted": true
+    },
+    {
+      "case_id": "EX25",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1508830200,
+        "load_duration": 8085600,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 24825000,
+        "eval_count": 98,
+        "eval_duration": 1467853000
+      },
+      "client_ms": 1591.1,
+      "accepted": true
+    },
+    {
+      "case_id": "EX26",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1533627400,
+        "load_duration": 8802800,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 22593000,
+        "eval_count": 98,
+        "eval_duration": 1495887000
+      },
+      "client_ms": 1582.28,
+      "accepted": true
+    },
+    {
+      "case_id": "EX27",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1535279300,
+        "load_duration": 9447200,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 20802000,
+        "eval_count": 98,
+        "eval_duration": 1494463000
+      },
+      "client_ms": 1585.97,
+      "accepted": true
+    },
+    {
+      "case_id": "EX28",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1565093300,
+        "load_duration": 13349600,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 21548000,
+        "eval_count": 98,
+        "eval_duration": 1523663000
+      },
+      "client_ms": 1616.89,
+      "accepted": true
+    },
+    {
+      "case_id": "EX29",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1501824400,
+        "load_duration": 9252500,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 24548000,
+        "eval_count": 98,
+        "eval_duration": 1461598000
+      },
+      "client_ms": 1550.36,
+      "accepted": true
+    },
+    {
+      "case_id": "EX30",
+      "changed_input_fields": [],
+      "summary_family": "S5",
+      "slot_order": [
+        "p01",
+        "p02",
+        "p03"
+      ],
+      "policy_families": [
+        "P1",
+        "P1",
+        "P3"
+      ],
+      "options_per_field": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "combinations": 16,
+      "wire_bytes": 2075,
+      "wire_sha256": "42bcf3cff3d40c597e687c2b3a59cf21b3103f86757aad31fbdaa301abc7baf2",
+      "context_bytes": 546,
+      "system_prompt_bytes": 360,
+      "system_prompt_chars": 162,
+      "message_content_bytes": 906,
+      "schema_bytes": 907,
+      "inner_output_utf8_min": 260,
+      "inner_output_utf8_max": 280,
+      "inner_outputs_validated": 16,
+      "token_count_offline": null,
+      "token_count_note": "UTF8 byte/문자 수를 tokenizer 토큰 수라고 부르지 않는다. schema 문법 처리 비용은 별도 미측정.",
+      "options": {
+        "temperature": 0,
+        "num_predict": 256,
+        "num_ctx": 16384
+      },
+      "stream": false,
+      "shift": false,
+      "truncate": false,
+      "python_result_sha256": "67d46bdedc46bc0dcd38fc1733bbf934d45f2926d64a3fb63131d5e66ef31448",
+      "facts_sha256": "510949857b3f56146d56b0a9e4e4da52be0dbc259265cf90f677bb8a4701d6b6",
+      "canonical_sha256": "19dc5b4fb4e6194354ae0693f6f237515083f6e6a200b26f1e9dfe793fc001e2",
+      "actual_model_metrics": {
+        "total_duration": 1547724900,
+        "load_duration": 9907400,
+        "prompt_eval_count": 247,
+        "prompt_eval_cached_count": 246,
+        "prompt_eval_duration": 32711000,
+        "eval_count": 98,
+        "eval_duration": 1495172000
+      },
+      "client_ms": 1610.01,
+      "accepted": true
+    }
+  ],
+  "wire_delta_t08_minus_largest": -96,
+  "native_log": {
+    "runner_starts": [
+      {
+        "line": 11,
+        "timestamp": "2026-10-26T12:37:05.325+09:00",
+        "port": 62254,
+        "context_shift": true
+      },
+      {
+        "line": 237,
+        "timestamp": "2026-10-26T12:37:12.256+09:00",
+        "port": 62279,
+        "context_shift": false
+      },
+      {
+        "line": 437,
+        "timestamp": "2026-10-26T12:40:58.001+09:00",
+        "port": 60854,
+        "context_shift": true
+      },
+      {
+        "line": 599,
+        "timestamp": "2026-10-26T12:41:14.090+09:00",
+        "port": 60901,
+        "context_shift": false
+      }
+    ],
+    "events": [
+      {
+        "line": 230,
+        "timestamp": "2026-10-26T12:37:09.663+09:00",
+        "event": "runner_ready",
+        "runner_port": 62254
+      },
+      {
+        "line": 234,
+        "timestamp": "2026-10-26T12:37:09.668+09:00",
+        "event": "runner_ready",
+        "runner_port": 62254
+      },
+      {
+        "line": 433,
+        "timestamp": "2026-10-26T12:37:15.799+09:00",
+        "event": "client_closed_during_load",
+        "runner_port": 62279
+      },
+      {
+        "line": 434,
+        "timestamp": "2026-10-26T12:37:15.799+09:00",
+        "event": "load_failed_context_cancelled",
+        "runner_port": 62279
+      },
+      {
+        "line": 595,
+        "timestamp": "2026-10-26T12:41:02.555+09:00",
+        "event": "client_closed_during_load",
+        "runner_port": 60854
+      },
+      {
+        "line": 596,
+        "timestamp": "2026-10-26T12:41:02.555+09:00",
+        "event": "load_failed_context_cancelled",
+        "runner_port": 60854
+      },
+      {
+        "line": 818,
+        "timestamp": "2026-10-26T12:41:17.631+09:00",
+        "event": "runner_ready",
+        "runner_port": 60901
+      },
+      {
+        "line": 822,
+        "timestamp": "2026-10-26T12:41:17.633+09:00",
+        "event": "runner_ready",
+        "runner_port": 60901
+      },
+      {
+        "line": 836,
+        "timestamp": null,
+        "event": "task_started",
+        "runner_port": 60901
+      },
+      {
+        "line": 837,
+        "timestamp": null,
+        "event": "prompt_started",
+        "runner_port": 60901,
+        "prompt_tokens": 250
+      },
+      {
+        "line": 840,
+        "timestamp": null,
+        "event": "task_cancelled",
+        "runner_port": 60901
+      },
+      {
+        "line": 841,
+        "timestamp": null,
+        "event": "slot_released",
+        "runner_port": 60901,
+        "slot_n_tokens": 342,
+        "official_eval_count": null
+      }
+    ],
+    "source_sha256": "8e759ede11abe637f89931f7d752b904238ec0a9e31b4bc5d2a7bb1a3c0db994",
+    "note": "네이티브 무타임스탬프 줄은 직전 runner 구간에만 대응. HTTP 요청 ID가 없어 정밀 요청 시각/생성 토큰 수를 복원하지 않는다."
+  },
+  "confirmed": [
+    "preload omitted shift, actual catalog request uses shift=false",
+    "native runner starts alternate context-shift on/off",
+    "first actual call cancelled while replacement runner loading",
+    "second actual call reached a fresh runner and a 250-token prompt before cancellation"
+  ],
+  "unconfirmed": [
+    "equal-configuration warm T08 completion within6s",
+    "schema/grammar or generation latency contribution",
+    "network connect versus first-byte/read breakdown",
+    "official eval_count for both failed requests",
+    "RAM pressure as causal factor",
+    "whether fixing preload alone resolves second timeout"
+  ],
+  "limits": {
+    "provider_seconds": 6,
+    "service_seconds": 8,
+    "ui_seconds": 12,
+    "envelope_bytes": 32768,
+    "request_bytes": 8192,
+    "inner_bytes": 4096
+  },
+  "root_cause_status": "PARTIAL_CAUSAL_EVIDENCE_FULL_LATENCY_CAUSE_UNCONFIRMED",
+  "verdict": "M3_T08_LIVE_RETEST_APPROVAL_REQUIRED",
+  "source_files": {
+    "m3_8e_actual_candidate_evaluation.json": {
+      "sha256": "dff653cfb8b1d8bd612735e033904b72f346abed859888dc21e3dee8af5d650e",
+      "bytes": 2268649
+    },
+    "m38f-combined-actual.json": {
+      "sha256": "377a2532a06ffef42a03c20387648bc8a1490b1219e7314829a951c4a15a0031",
+      "bytes": 66086
+    },
+    "m38f-combined-actual-retry.json": {
+      "sha256": "72e3e14511bb49eac654f4c07cc8192bf129e194161b80ec7ca9b9ff0059018c",
+      "bytes": 65856
+    },
+    "m38f-ollama-server.txt": {
+      "sha256": "ed6af194eabd0a144e1932c80437a7c7d44af304c9b1d2cc8c11d8d455c491cc",
+      "bytes": 67965
+    }
+  }
+}

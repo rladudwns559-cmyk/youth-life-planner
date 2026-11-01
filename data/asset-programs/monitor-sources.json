@@ -1,0 +1,216 @@
+{
+  "schema_version": "asset-monitor-v1",
+  "hosts": [
+    "account.gfgf.kr",
+    "daejeonyouthportal.kr",
+    "double.jb2030.or.kr",
+    "news.seoul.go.kr",
+    "obank.kbstar.com",
+    "www.bokjiro.go.kr",
+    "www.korea.kr",
+    "www.modadream.kr",
+    "young.busan.go.kr",
+    "youth.incheon.go.kr"
+  ],
+  "programs": [
+    {
+      "program_id": "KR-YOUTH-FUTURE",
+      "title": "청년미래적금",
+      "regions": [],
+      "aliases": [
+        "청년 미래 적금"
+      ]
+    },
+    {
+      "program_id": "KR-YOUTH-TOMORROW",
+      "title": "청년내일저축계좌",
+      "regions": [],
+      "aliases": [
+        "청년 내일 저축 계좌"
+      ]
+    },
+    {
+      "program_id": "KR-YOUTH-HOUSING",
+      "title": "청년 주택드림 청약통장",
+      "regions": [],
+      "aliases": []
+    },
+    {
+      "program_id": "GG-YOUTH-WORKER",
+      "title": "경기도 청년 노동자 통장",
+      "regions": [
+        "경기"
+      ],
+      "aliases": [
+        "경기도청년노동자통장",
+        "경기도 청년노동자통장"
+      ]
+    },
+    {
+      "program_id": "SEOUL-HOPE-DOUBLE",
+      "title": "희망두배 청년통장",
+      "regions": [
+        "서울"
+      ],
+      "aliases": [
+        "희망두배",
+        "희망 두배"
+      ]
+    },
+    {
+      "program_id": "BUSAN-JOY-DOUBLE",
+      "title": "부산청년 기쁨두배통장",
+      "regions": [
+        "부산"
+      ],
+      "aliases": [
+        "기쁨두배",
+        "기쁨 두배"
+      ]
+    },
+    {
+      "program_id": "INCHEON-DREAM-FOR",
+      "title": "드림For 청년통장",
+      "regions": [
+        "인천"
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "GN-MODADREAM",
+      "title": "모다드림 청년통장",
+      "regions": [
+        "경남"
+      ],
+      "aliases": [
+        "모다드림"
+      ]
+    },
+    {
+      "program_id": "DAEJEON-FUTURE-DOUBLE",
+      "title": "미래두배 청년통장",
+      "regions": [
+        "대전"
+      ],
+      "aliases": []
+    },
+    {
+      "program_id": "JB-TOGETHER-DOUBLE",
+      "title": "전북청년 함께 두배적금",
+      "regions": [
+        "전북"
+      ],
+      "aliases": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "future",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972819",
+      "selector": ".view_cont",
+      "reference_sha256": "d1649cd621d300140b1b8da5adf1d2375e991f7834415512fcbea3f30fc01fc0"
+    },
+    {
+      "id": "tomorrow",
+      "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/customer/notice/1309680_1141.html",
+      "selector": "#contents",
+      "reference_sha256": "cde490c1f6ea2ca6f0de1a9f45191afab18b7e6d35e840b34825527b584a80ae"
+    },
+    {
+      "id": "housing-change",
+      "url": "https://www.korea.kr/common/download.do?fileId=198568323&tblKey=GMN",
+      "selector": null,
+      "reference_sha256": "7e8d4a8747c2c2175071b4ce5620178215181c4453e66100685202624a5dba5a"
+    },
+    {
+      "id": "housing-bank",
+      "url": "https://obank.kbstar.com/quics?cc=b061496:b061645&isNew=Y&page=C016613&prcode=DP01000935",
+      "selector": "#uiProTabCon1,#uiProTabCon3",
+      "reference_sha256": "b77490dfebb9f4d12acc44db9cad225582fbbfb2c3a05298724cadfe9900eeed"
+    },
+    {
+      "id": "gg",
+      "url": "https://account.gfgf.kr/hpdsk/ntc/list.do?mode=list&searchBbsSeCd=01&searchOpnpYn=Y",
+      "selector": "table.col-tbst1",
+      "reference_sha256": "c8fd0d7387c31b31c561f8c5d9a1be6b0838ec0dd6e4fb4343b20bc3c54e27ce",
+      "listing": true
+    },
+    {
+      "id": "seoul",
+      "url": "https://news.seoul.go.kr/welfare/archives/581505?listPage=1",
+      "selector": "#post_content",
+      "reference_sha256": "b1271c78474b262cc921b9a5efd35d3ce1e6d319cd62e30a5e1be769ec9982b8"
+    },
+    {
+      "id": "busan",
+      "url": "https://young.busan.go.kr/index.nm?menuCd=53",
+      "selector": "#container",
+      "reference_sha256": "47dd73556ccec1f118a802f5e82746d1109991b222824317ba57f4736bd81e78"
+    },
+    {
+      "id": "incheon",
+      "url": "https://youth.incheon.go.kr/financial/dreamfor.jsp",
+      "selector": "#contents",
+      "reference_sha256": "408c3a4252faa49d565d0447c232fc502d839fef4f298d18a36a007f6a98ab43"
+    },
+    {
+      "id": "gyeongnam",
+      "url": "https://www.modadream.kr/upload/board/20260727092534-77423622.pdf",
+      "selector": null,
+      "reference_sha256": "258926d5f69d6887bac90a417a26b93a80823cdbc7395480adfd776901299749"
+    },
+    {
+      "id": "daejeon",
+      "url": "https://daejeonyouthportal.kr/content/CT_000000000067/cntPage.do?commonMenuNo=&dpmSectionFst=1&dpmSectionScd=16",
+      "selector": "#txt",
+      "reference_sha256": "c744a8dfe5c6afec74a3ab703b11607d7e8f677b41cb96b519de7ca9f8bfd852"
+    },
+    {
+      "id": "jeonbuk",
+      "url": "https://double.jb2030.or.kr/sub/2024_data.html",
+      "selector": "#container",
+      "reference_sha256": "413799c88413a67331a11adb6aa7c874042bcc7df74d01593bf54d16134feffd"
+    },
+    {
+      "id": "tomorrow-rules",
+      "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/news/1309724_1114.html",
+      "selector": "#contents",
+      "reference_sha256": "1ab94221513246e08e86647b0105a9022f1ff0dc68456214c6e305c3581ed73d"
+    },
+    {
+      "id": "national-news",
+      "url": "https://www.korea.kr/news/policyNewsList.do",
+      "listing": true
+    },
+    {
+      "id": "seoul-notices",
+      "url": "https://news.seoul.go.kr/welfare/archives/tag/%ec%b2%ad%eb%85%84%ed%86%b5%ec%9e%a5",
+      "listing": true
+    },
+    {
+      "id": "busan-notices",
+      "url": "https://young.busan.go.kr/article/list.nm?menuCd=153",
+      "listing": true
+    },
+    {
+      "id": "incheon-notices",
+      "url": "https://youth.incheon.go.kr/financial/dreamfor_notice.jsp",
+      "listing": true
+    },
+    {
+      "id": "gyeongnam-notices",
+      "url": "https://www.modadream.kr/board/notice/list/0",
+      "listing": true
+    },
+    {
+      "id": "daejeon-notices",
+      "url": "https://daejeonyouthportal.kr/board/BBSMSTR_000000000239/articleList.do?commonMenuNo=506_424",
+      "listing": true
+    },
+    {
+      "id": "jeonbuk-notices",
+      "url": "https://double.jb2030.or.kr/sub/notice.html",
+      "listing": true
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "milestone": "M3.8C",
+  "verification_kind": "DOCUMENT_EXAMPLES_ONLY_NOT_V2_IMPLEMENTATION",
+  "json_examples": 2,
+  "policy_candidate_texts_checked": 12,
+  "max_policy_candidate_codepoints": 34,
+  "summary_literals_checked": 11,
+  "max_summary_literal_codepoints": 26,
+  "context_example_bytes": 552,
+  "full_request_example_bytes": 2087,
+  "response_example_bytes": 272,
+  "note": "바이트는 수작업 설계 예시1건이다. 미래 catalog 생성기·membership gate/실제모델·전체성능 검증 아님. schema는 문서 크기 확인용 메모리 객체이며 저장소 구현에 등록하지 않았다.",
+  "no_actual_llm_calls": true,
+  "no_network_calls": true,
+  "new_product_tests": 0,
+  "full_regression": "NOT_RUN_DESIGN_ONLY",
+  "human_reviews": 0,
+  "examples": [
+    {
+      "case_id": "EX02",
+      "manually_authored_design_example": {
+        "summary": "취업상태 입력이 바뀐 비교예요.",
+        "policy_texts": {
+          "p01": "이 정책의 종합 판정은 같아요.",
+          "p02": "이 정책의 종합 판정이 달라졌어요.",
+          "p03": "종합 판정은 같아요. 더 확인할 조건이 남아 있어요."
+        }
+      },
+      "existing_v1_parser_assembly_legacy_validator": "PASS",
+      "canonical_non_text_fields_unchanged": true,
+      "future_catalog_membership_implementation_test": false,
+      "human_semantic_review": false
+    },
+    {
+      "case_id": "EX06",
+      "manually_authored_design_example": {
+        "summary": "취업상태 입력의 변화를 비교했어요.",
+        "policy_texts": {
+          "p01": "이 정책의 종합 판정은 같아요.",
+          "p02": "종합 판정이 바뀌고, 비교한 조건의 미확인 표시가 해소됐어요.",
+          "p03": "종합 판정은 같아요. 더 확인할 조건이 남아 있어요."
+        }
+      },
+      "existing_v1_parser_assembly_legacy_validator": "PASS",
+      "canonical_non_text_fields_unchanged": true,
+      "future_catalog_membership_implementation_test": false,
+      "human_semantic_review": false
+    },
+    {
+      "case_id": "EX07",
+      "manually_authored_design_example": {
+        "summary": "월소득은 늘었고, 월 여유자금은 늘었어요.",
+        "policy_texts": {
+          "p01": "이 정책의 종합 판정은 같아요.",
+          "p02": "이 정책의 종합 판정은 같아요.",
+          "p03": "종합 판정은 같아요. 더 확인할 조건이 남아 있어요."
+        }
+      },
+      "existing_v1_parser_assembly_legacy_validator": "PASS",
+      "canonical_non_text_fields_unchanged": true,
+      "future_catalog_membership_implementation_test": false,
+      "human_semantic_review": false
+    },
+    {
+      "case_id": "EX10",
+      "manually_authored_design_example": {
+        "summary": "월세는 줄었으며, 월 여유자금은 늘었어요.",
+        "policy_texts": {
+          "p01": "이 정책의 종합 판정은 같아요.",
+          "p02": "이 정책의 종합 판정은 그대로예요.",
+          "p03": "종합 판정은 같아요. 더 확인할 조건이 남아 있어요."
+        }
+      },
+      "existing_v1_parser_assembly_legacy_validator": "PASS",
+      "canonical_non_text_fields_unchanged": true,
+      "future_catalog_membership_implementation_test": false,
+      "human_semantic_review": false
+    },
+    {
+      "case_id": "EX19",
+      "manually_authored_design_example": {
+        "summary": "거주 지역 입력이 바뀐 비교예요.",
+        "policy_texts": {
+          "p01": "이 정책의 종합 판정이 달라졌어요.",
+          "p02": "이 정책의 종합 판정은 같아요.",
+          "p03": "종합 판정이 바뀌었어요. 더 확인할 조건이 남아 있어요."
+        }
+      },
+      "existing_v1_parser_assembly_legacy_validator": "PASS",
+      "canonical_non_text_fields_unchanged": true,
+      "future_catalog_membership_implementation_test": false,
+      "human_semantic_review": false
+    }
+  ],
+  "prior_m38b_regression": {
+    "backend": "11940 passed, 1 skipped, 1 warning",
+    "frontend": "115 passed / TypeScript+build passed",
+    "source": "M3.8B previous result, not executed this milestone"
+  },
+  "preservation_audit": {
+    "milestone": "M3.8C",
+    "baseline_files": 315,
+    "all_existing_repository_files_unchanged": true,
+    "new_documentation_files": [
+      "docs/M3_8C_SEMANTIC_EXPLANATION_CONTRACT_DESIGN.md",
+      "docs/evidence/m3_8c_design_example_checks.json"
+    ],
+    "release_sha256": {
+      "data/releases/ansan-youth-2026-10-20-001/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json": "9c6e22ddc1c936e365ecb9b3be355a73f8cfbdc6f02f99d66e2fb843e0187025",
+      "data/releases/ansan-youth-2026-10-20-001/README.md": "4183c73c37d3cb7ec76bad21656b50a2c41b064e1298c2d4934db0d4e536a09f",
+      "data/releases/ansan-youth-2026-10-20-001/sources.json": "a47e53da0b298c93c1ad04480e8c7fed96f2e45144ad4d58991c9ec86aaa9e3b",
+      "data/releases/ansan-youth-2026-10-20-002/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json": "d4aaa62f1a1c46392af213c05c6e24ff59e44f17333f3b3785bde2d4b3161e92",
+      "data/releases/ansan-youth-2026-10-20-002/README.md": "8955e554cd484240f0d8dddffec5494d342c2b5732e789666b45eb261b58ca99",
+      "data/releases/ansan-youth-2026-10-20-002/sources.json": "711f1e3bbb8ddb4bcbaaddd189b6f35f7c9a6ef8b4a81f0208e4dd818629e620"
+    },
+    "production_implementation_changes": 0,
+    "new_product_tests": 0,
+    "actual_llm_requests_this_milestone": 0,
+    "full_regression_this_milestone": "NOT_RUN_DESIGN_ONLY",
+    "coverage_freeze": "UNCHANGED",
+    "gui_obsidian": "UNVERIFIED"
+  },
+  "obsidian_audit": {
+    "markdown": 72,
+    "bases": 1,
+    "canvases": 1,
+    "content_folders": 11,
+    "wikilinks": 624,
+    "heading_links": 15,
+    "block_links": 1,
+    "source_paths": 356,
+    "external_local_links": 63,
+    "broken_links": 0,
+    "bookmark_groups": 4,
+    "bookmarks": 13,
+    "templates": 5,
+    "changed_existing_notes": 13,
+    "new_notes": 1,
+    "config_files_unchanged": true,
+    "gui": "UNVERIFIED",
+    "bookmark_latest_target": "M3.1 (stale; unchanged)",
+    "actual_generation_requests_this_milestone": 0,
+    "verdict": "M3_SEMANTIC_EXPLANATION_CONTRACT_DESIGN_READY",
+    "implementation": "NOT_IMPLEMENTED_DESIGN_ONLY"
+  },
+  "documentation_check_history": [
+    "초기 예시 문법/문구/기존 parser 호환성 검사 통과",
+    "최종 링크 추가 후 게시 전 자기 참조를 원본 경로에서만 검사해1회 실패",
+    "staging/원본 경로 존재 확인으로 문서 검사 도구를 보완 후 재실행 통과; 제품 코드 수정0"
+  ]
+}

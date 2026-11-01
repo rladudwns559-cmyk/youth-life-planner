@@ -1,0 +1,20 @@
+// 실제 API 함수로 실제 HTTP 요청을 보낸다. mock 응답을 사용하지 않는다.
+import assert from 'node:assert/strict';
+import { compare } from '../src/comparison-api.ts';
+const base=process.env.SIMULATION_API_ORIGIN??'http://127.0.0.1:8100';
+const before={age:24,region:'안산시',student_status:true,employment_status:'unemployed' as const,monthly_income:1500000,monthly_rent:450000,monthly_fixed_expenses:200000,other_monthly_expenses:350000,user_savings_capacity:300000};
+const after={...before,employment_status:'employed' as const,monthly_income:1800000,monthly_rent:550000,user_savings_capacity:500000};
+const result=await compare(before,after,undefined,base);
+assert.equal(result.before.cashflow.disposable_after_policy,500000);
+assert.equal(result.after.cashflow.disposable_after_policy,700000);
+assert.equal(result.numeric_deltas.disposable_after_policy,200000);
+assert.equal(result.numeric_deltas.savable_amount,200000);
+assert.deepEqual(result.policy_transitions.map(p=>[p.before_status,p.after_status]),[['PASS','PASS'],['PASS','FAIL'],['UNKNOWN','UNKNOWN']]);
+assert.equal(result.changed_input_fields.length,4);
+assert.equal(result.benefit_applied_krw,0);
+const same=await compare(before,before,undefined,base);
+assert.equal(same.numeric_deltas.disposable_after_policy,0);assert.equal(same.changed_input_fields.length,0);
+const deficit=await compare(before,{...before,monthly_income:100000,user_savings_capacity:null},undefined,base);
+assert.equal(deficit.after.cashflow.disposable_after_policy,-900000);assert.equal(deficit.numeric_deltas.disposable_after_policy,-1400000);
+await assert.rejects(()=>compare(before,{...after,monthly_income:-1},undefined,base),/비교 입력/);
+console.log('M3.1 실제 HTTP: 네 변수 변경, 동일 입력, 적자·None, 422 검증 통과 (fetch mock 없음)');

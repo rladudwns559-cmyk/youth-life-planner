@@ -1,0 +1,19 @@
+{
+  "checked_at_kst": "2026-10-26T13:28:34.3154170+09:00",
+  "os": {
+    "Caption": "Microsoft Windows 11 Home",
+    "Version": "10.0.26300",
+    "OSArchitecture": "64비트",
+    "TotalVisibleMemorySize": 16052788,
+    "FreePhysicalMemory": 2916400
+  },
+  "cpu": {
+    "Name": "AMD Ryzen 7 260 w/ Radeon 780M Graphics        ",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "model_processes": [],
+  "python": "3.12.14",
+  "new_model_runs": 0,
+  "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU, 572.97, 8151 MiB, 0 MiB"
+}

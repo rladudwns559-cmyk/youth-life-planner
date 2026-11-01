@@ -1,0 +1,46 @@
+{
+  "schema_version": "m1.1",
+  "dataset_version": "synthetic-routing-1",
+  "synthetic": true,
+  "test_only": true,
+  "policies": [
+    {
+      "policy_id": "SYN_MIX",
+      "policy_name": "합성 혼합 트리",
+      "rule_version": "synthetic-1",
+      "synthetic": true,
+      "test_only": true,
+      "root": {
+        "kind": "group", "rule_id": "ROOT", "operator": "ALL",
+        "children": [
+          {
+            "kind": "rule", "rule_type": "atomic", "rule_id": "AGE",
+            "field": "age", "operator": "gte", "value": 19,
+            "evidence_refs": ["synthetic:AGE"]
+          },
+          {
+            "kind": "rule", "rule_type": "resident_registration", "rule_id": "RESIDENT",
+            "required_region": {"sido": "GYEONGGI", "sigungu": "ANSAN"},
+            "reference_date_source": "APPLICATION_DATE",
+            "evidence_refs": ["synthetic:resident"]
+          },
+          {
+            "kind": "group", "rule_id": "LIFE", "operator": "ANY",
+            "children": [
+              {
+                "kind": "rule", "rule_type": "atomic", "rule_id": "STUDENT",
+                "field": "student_status", "operator": "eq", "value": true,
+                "evidence_refs": ["synthetic:STUDENT"]
+              },
+              {
+                "kind": "rule", "rule_type": "atomic", "rule_id": "UNEMPLOYED",
+                "field": "employment_status", "operator": "eq", "value": "unemployed",
+                "evidence_refs": ["synthetic:UNEMPLOYED"]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
