@@ -5,7 +5,7 @@ import {beforeEach,afterEach,describe,it,expect,vi} from 'vitest';
 import ProductExplorer,{readPreparedDecision} from './ProductExplorer';
 import prepared from './public-data/product-expanded.json';
 
-beforeEach(()=>{vi.useFakeTimers({toFake:['Date']});vi.setSystemTime(new Date('2026-11-02T03:00:00Z'));localStorage.clear();vi.stubGlobal('fetch',vi.fn(()=>{throw new Error('No network allowed for discovery');}));});
+beforeEach(()=>{vi.useFakeTimers({toFake:['Date']});vi.setSystemTime(new Date('2026-11-03T03:00:00Z'));localStorage.clear();vi.stubGlobal('fetch',vi.fn(()=>{throw new Error('No network allowed for discovery');}));});
 afterEach(()=>vi.useRealTimers());
 function renderExplorer(view:ReactElement,all=false){const result=render(view);if(all)fireEvent.change(screen.getByLabelText('표시 개수'),{target:{value:'0'}});return result;}
 // Keep per-product assertions on the actual search path instead of rendering74hidden-detail cards for every input edit.
@@ -15,7 +15,7 @@ async function apply(monthly='300000',months='12',lump=''){edit('매월 저축�
 
 describe('free public product discovery',()=>{
   it('shows the expanded catalog before any profile or server request',()=>{
-    renderExplorer(<ProductExplorer/>,true);expect(screen.getAllByTestId('discovery-card')).toHaveLength(prepared.catalog.products.length);expect(screen.getByText('28개 은행 · 153개 상품')).toBeVisible();
+    renderExplorer(<ProductExplorer/>,true);expect(screen.getAllByTestId('discovery-card')).toHaveLength(prepared.catalog.products.length);expect(screen.getByText('38개 은행 · 256개 상품')).toBeVisible();
     expect(screen.getByText(/국내 모든 은행·저축은행·특판을 전수 수집한 목록이 아닙/)).toBeVisible();expect(fetch).not.toHaveBeenCalled();
     expect(screen.getByLabelText('매월 저축할 금액')).toHaveValue('');expect(within(card('KAKAO-FREE-SAVINGS')).queryByText('금액·기간 비교 가능')).not.toBeInTheDocument();
   });
@@ -76,7 +76,7 @@ describe('free public product discovery',()=>{
     expect(screen.queryByTestId('savings-maturity')).not.toBeInTheDocument();
   });
   it('suppresses positive comparisons after the immutable review window',async()=>{
-    vi.setSystemTime(new Date('2026-11-08T03:00:00Z'));renderExplorer(<ProductExplorer/>,true);await apply();
+    vi.setSystemTime(new Date('2026-11-08T03:00:00Z'));renderExplorer(<ProductExplorer/>);await apply();edit('표시 개수','0');
     expect(document.querySelector('.code-fit')).not.toBeInTheDocument();expect(document.querySelector('.code-partial')).not.toBeInTheDocument();expect(screen.getAllByTestId('discovery-card')).toHaveLength(prepared.catalog.products.length);
   });
   it('prefills only the Python-provided budget and uses Python What-if values',async()=>{
@@ -86,6 +86,6 @@ describe('free public product discovery',()=>{
   });
   it('reads the prepared table at the exact cap boundary rather than deriving a new formula',()=>{
     const p=prepared.catalog.products.find(p=>p.product_id==='KB-CLEAR-SKY')!;
-    expect(readPreparedDecision(p,1000000,12,'2026-11-02')).toBe('FIT');expect(readPreparedDecision(p,1000001,12,'2026-11-02')).toBe('PARTIAL');expect(readPreparedDecision(p,10000,13,'2026-11-02')).toBe('TERM');
+    expect(readPreparedDecision(p,1000000,12,'2026-11-03')).toBe('FIT');expect(readPreparedDecision(p,1000001,12,'2026-11-03')).toBe('PARTIAL');expect(readPreparedDecision(p,10000,13,'2026-11-03')).toBe('TERM');
   });
 });

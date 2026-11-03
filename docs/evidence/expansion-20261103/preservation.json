@@ -1,0 +1,26 @@
+{
+  "baseline_files": 443,
+  "changed_baseline": [
+    "backend/finance/discovery.py",
+    "backend/opportunities/current_discovery.py",
+    "tests/test_current_discovery.py"
+  ],
+  "allowed_changes": [
+    "backend/finance/discovery.py",
+    "backend/opportunities/current_discovery.py",
+    "tests/test_current_discovery.py"
+  ],
+  "unexpected_changes": [],
+  "release_files_checked": 6,
+  "release_paths": [
+    "data/releases/ansan-youth-2026-10-20-001/README.md",
+    "data/releases/ansan-youth-2026-10-20-001/sources.json",
+    "data/releases/ansan-youth-2026-10-20-002/README.md",
+    "data/releases/ansan-youth-2026-10-20-002/sources.json",
+    "data/releases/ansan-youth-2026-10-20-001/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json",
+    "data/releases/ansan-youth-2026-10-20-002/policies/KR-GG-ANSAN-YOUTH-BASIC-INCOME__2026.json"
+  ],
+  "release_unchanged": true,
+  "golden_fingerprint_files_checked": 7,
+  "golden_fingerprint_unchanged": true
+}

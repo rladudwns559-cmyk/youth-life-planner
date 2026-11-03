@@ -1,0 +1,17 @@
+{
+  "id": "appgprj_6ae4993139c08191975b01a22068da5c~appgver_163e9d9af71c8191be742d39ed3b0227",
+  "project_id": "appgprj_6ae4993139c08191975b01a22068da5c",
+  "version_number": 22,
+  "source": {
+    "commit_sha": "6f8e90df12b760e6f3c0bcd1f9cb613bc912f9c2"
+  },
+  "archive_storage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000f54c8209ad0118c8404aa796",
+    "content_hash": "sha256:9647287e08cb6697aa43f3f6dd4a0d84b6ac504e51c85461a74285f240d3d8ed",
+    "size_bytes": 3921920,
+    "file_count": 10
+  },
+  "screenshot_url": null,
+  "deployment_id": null
+}

@@ -33,3 +33,10 @@ local-runtime 모델·실행파일, node_modules, .venv, tmp, output, SQLite 및
 ## 2026-11-02 추천 및 공식 정보 확대
 
 공개v21의 추천 기능과 40개 금융상품/20개 지원카드를 원본에서 선택 복사했다. 최신 원본 전체 검증은 Backend12780 passed/1 skipped/1 warning,Frontend386 passed이며 공개5입력의 추천 ID를 Python과 대조했다. 상세 결과는 PRODUCT_RECOMMENDATIONS_AND_EXPANSION.md에 기록한다. 이 전체 수치는 원본의 실행 결과이고 공개 복사본 전체 회귀 재실행 실적이 아니다. 원본 은행 HTML·모델·비밀키·사용자 경제 입력은 추가하지 않았다.
+
+
+## 2026-11-03 추가 공식 정보 확대
+
+공개v22 금융103개/지원65카드 추가분을 선택 복사했다. 총256개 상품·가입유형/38개 회사,지원344카드이며 11월3일 공식접수 확인219개다. 원본 전체 검증 Backend12795 passed/1 skipped/1 warning,Frontend386 passed,TypeScript/Vite build 성공. 공개5입력 추천ID/기본금리가 Python과 일치하고 지역사업의 나이 경계/UNKNOWN도 직접 확인했다. 원본 검증 전체 수치와 공개 복사본 검증은 구분한다. 세부 근거·첫 실패와 최종 재실행 이력은 OFFICIAL_CATALOG_EXPANSION_20261103.md와 해당 evidence 폴더에 보존한다. 실제 은행 HTML·모델·실제 사용자 응답·비밀키는 추가하지 않았다. 실제 상품계산0개·지원금0원·스냅샷유효11월6일·실시간운영 미완료 한계 유지.
+
+공개 복사본 추가 확인: 새 경계검증/현재 데이터 관련35 passed,이전 pytest cache 쓰기 경고1건. assertion 실패 없음. 공개 전체 회귀를 새로 실행한 수치로 주장하지 않는다.

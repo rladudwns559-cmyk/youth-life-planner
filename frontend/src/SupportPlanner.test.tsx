@@ -13,7 +13,7 @@ it('prioritizes verified recruitment and hides closed rounds by default',()=>{
  change('모집 상태','CLOSED');expect(screen.getAllByRole('article')[0]).toHaveTextContent(/마감|미운영/);
 });
 it('keeps expired source evidence from appearing as current OPEN',()=>{
- vi.setSystemTime(new Date('2026-11-10T03:00:00Z'));render(<RegionalPrograms/>);change('모집 상태','OPEN');
+ vi.setSystemTime(new Date('2026-11-11T03:00:00Z'));render(<RegionalPrograms/>);change('모집 상태','OPEN');
  expect(screen.queryAllByRole('article')).toHaveLength(0);expect(screen.getByText(/실제 지원사업이 없다는 뜻/)).toBeVisible();
 });
 it('updates dates on tab focus without reloading the page',()=>{

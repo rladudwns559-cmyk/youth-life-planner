@@ -5,7 +5,7 @@ vi.hoisted(()=>vi.stubEnv('VITE_PUBLIC_BACKEND_PENDING','true'));
 vi.mock('./RegionalPrograms',()=>({default:()=> <h2>공식 청년 지원사업</h2>}));
 import App from './App';
 
-beforeEach(()=>{window.history.replaceState(null,'','/#/');vi.useFakeTimers({toFake:['Date']});vi.setSystemTime(new Date('2026-11-02T03:00:00Z'));vi.stubGlobal('fetch',vi.fn(()=>{throw new Error('Public product inputs must stay local');}));});
+beforeEach(()=>{window.history.replaceState(null,'','/#/');vi.useFakeTimers({toFake:['Date']});vi.setSystemTime(new Date('2026-11-03T03:00:00Z'));vi.stubGlobal('fetch',vi.fn(()=>{throw new Error('Public product inputs must stay local');}));});
 afterEach(()=>vi.useRealTimers());
 describe('coherent free public site',()=>{
   it('links the home to usable condition search without dead budget or alert menus',async()=>{

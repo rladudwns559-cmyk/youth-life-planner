@@ -26,6 +26,7 @@ export function readPreparedDecision(p:Product,amount:number|null,months:number,
 }
 const strength:Record<Code,number>={FIT:0,PARTIAL:1,UNSET:2,INPUT:3,SCHEDULE:4,TERM:5,BUDGET:6,MISSING:7,REVIEW:8,STALE:9};
 function payment(p:Product){
+  if(p.minimum===null)return p.payment_note;
   if(p.schedule==='QUARTERLY')return '분기 '+money(p.minimum)+' ~ '+money(p.maximum);
   if(p.schedule==='WEEKLY_STEP')return '매주 증액 · 시작액 1천~1만원';
   if(p.schedule==='DAILY')return '하루 '+money(p.minimum)+' ~ '+money(p.maximum);

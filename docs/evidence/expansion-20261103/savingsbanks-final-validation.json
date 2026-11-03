@@ -1,0 +1,46 @@
+{
+  "validated": 75,
+  "new_source_hosts": [
+    "m.kbsavings.com",
+    "m.moasb.co.kr",
+    "www.angukbank.co.kr",
+    "www.bulimbank.co.kr",
+    "www.daehanbank.co.kr",
+    "www.dysbank.com",
+    "www.mkb.co.kr",
+    "www.moasb.co.kr",
+    "www.ptbank.co.kr",
+    "www.samhosb.co.kr",
+    "www.smartbank.co.kr",
+    "www.ycbank.co.kr"
+  ],
+  "rate_rows": 298,
+  "exclusions": 34,
+  "new_current_recommendable_at_12m": {
+    "SAVINGS": [
+      {
+        "id": "NOV3-SB-BULIM-TOK-SAVE",
+        "code": "FIT",
+        "base": "4.20"
+      },
+      {
+        "id": "NOV3-SB-MOA-E-SAVE",
+        "code": "FIT",
+        "base": "4.00"
+      }
+    ],
+    "DEPOSIT": [
+      {
+        "id": "NOV3-SB-MOA-DEPOSIT",
+        "code": "FIT",
+        "base": "3.85"
+      },
+      {
+        "id": "NOV3-SB-MOA-E-DEPOSIT",
+        "code": "FIT",
+        "base": "3.85"
+      }
+    ]
+  },
+  "production_changed": false
+}
