@@ -15,7 +15,7 @@ ALTERNATIVE_REGION={
 
 def load_municipal_batches():
     batches = [read_json(ROOT / 'data/support-programs' / filename) for filename in (
-        'municipal-gap-20261101.json', 'municipal-open-gap-20261101.json', 'municipal-intakes-20261101.json', 'verified-intakes-next-20261101.json', 'verified-intakes-gap95-20261101.json', 'verified-intakes-gap73-20261101.json', 'recommendation-intakes-20261102.json', 'verified-expansion-20261103.json')]
+        'municipal-gap-20261101.json', 'municipal-open-gap-20261101.json', 'municipal-intakes-20261101.json', 'verified-intakes-next-20261101.json', 'verified-intakes-gap95-20261101.json', 'verified-intakes-gap73-20261101.json', 'recommendation-intakes-20261102.json', 'verified-expansion-20261103.json', 'verified-extension-20261103.json')]
     return {
         'programs': [record for batch in batches for record in batch['programs']],
         'rules': [rule for batch in batches for rule in batch['rules']],

@@ -1,0 +1,46 @@
+{
+  "products": 20,
+  "institutions": 3,
+  "duplicates_vs_existing_285": 0,
+  "strict_models_valid": true,
+  "new_rate_rows": 100,
+  "recommendation_exclusions": 7,
+  "ad_hoc_boundary_checks": [
+    {
+      "amount": 9999,
+      "months": 12,
+      "actual": "BUDGET"
+    },
+    {
+      "amount": 10000,
+      "months": 12,
+      "actual": "FIT"
+    },
+    {
+      "amount": 5000000,
+      "months": 12,
+      "actual": "FIT"
+    },
+    {
+      "amount": 5000001,
+      "months": 12,
+      "actual": "PARTIAL"
+    },
+    {
+      "amount": 300000,
+      "months": 11,
+      "actual": "TERM"
+    },
+    {
+      "amount": 300000,
+      "months": 36,
+      "actual": "FIT"
+    },
+    {
+      "amount": 300000,
+      "months": 37,
+      "actual": "TERM"
+    }
+  ],
+  "pytest_added": 0
+}

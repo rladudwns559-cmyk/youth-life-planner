@@ -1,0 +1,673 @@
+[
+  {
+    "monthly": 300000,
+    "months": 12,
+    "lump": null,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "4.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+                "title": "부림저축은행 톡톡 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV3-SB-MOA-E-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "4.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+                "title": "모아저축은행 e-모아 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              },
+              {
+                "url": "https://m.moasb.co.kr/dgd/deposit/DGD_EMI_DT3_010.do",
+                "title": "모아저축은행 e-모아 정기적금 공식 모바일 상세",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "직접HTTP200. 상품명 e-모아 정기적금, 정액적립식,12~36개월,월1만원이상,19세이상내국인. 2026.07.22신규적용 금리12~23개월4.00/24~35개월3.80/36개월3.50으로 데스크톱rnum34와동일. 색인옛3.50과구분."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": "4.05",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.kakaobank.com/products/savings",
+                "title": "카카오뱅크 자유적금 공식 상품 페이지",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.11.02 계약기간별 기본금리와 자동이체 우대0.20%p. 12개월3.85%. 쿠폰은 미반영."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": []
+    }
+  },
+  {
+    "monthly": 300000,
+    "months": 12,
+    "lump": 10000000,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "4.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+                "title": "부림저축은행 톡톡 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV3-SB-MOA-E-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "4.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+                "title": "모아저축은행 e-모아 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              },
+              {
+                "url": "https://m.moasb.co.kr/dgd/deposit/DGD_EMI_DT3_010.do",
+                "title": "모아저축은행 e-모아 정기적금 공식 모바일 상세",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "직접HTTP200. 상품명 e-모아 정기적금, 정액적립식,12~36개월,월1만원이상,19세이상내국인. 2026.07.22신규적용 금리12~23개월4.00/24~35개월3.80/36개월3.50으로 데스크톱rnum34와동일. 색인옛3.50과구분."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": "4.05",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.kakaobank.com/products/savings",
+                "title": "카카오뱅크 자유적금 공식 상품 페이지",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.11.02 계약기간별 기본금리와 자동이체 우대0.20%p. 12개월3.85%. 쿠폰은 미반영."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": [
+        {
+          "product_id": "PEPPER-TERM-DEPOSIT",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.95",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+                "title": "페퍼저축은행 정기예금 공식 상세",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-10-30",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.10.30 공식 단리 연이율 열. 12~18개월미만3.95%. 복리수익률4.02%와 구분."
+              }
+            ]
+          },
+          "allocation": 10000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "PEPPERS-TERM-DEPOSIT",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.95",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+                "title": "페퍼저축은행 페퍼스 정기예금 공식 상세",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-10-30",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.10.30 공식 단리 연이율 열. 12~18개월미만3.95%. 복리수익률4.02%와 구분."
+              }
+            ]
+          },
+          "allocation": 10000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV2-SH-HEY-DEPOSIT",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.91",
+            "max_total_rate_percent": "3.91",
+            "evidence_locator": "공식 금리안내의 세전 연 기본금리, 우대는 조건 충족 시에만 적용",
+            "sources": [
+              {
+                "url": "https://www.suhyup-bank.com/ib20/mnu/FPD00124?ib20_wc=WID05027%3AWID04702&productCode=D00175",
+                "title": "Sh수협은행 헤이(Hey)정기예금 공식 상품 안내",
+                "reviewed_on": "2026-11-02",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 금융상품몰 상품목록의 공개 상세보기 POST productCode=D00175 응답의 가입대상·가입금액·계약기간·금리·우대 표.원문HTML별도보존"
+              }
+            ]
+          },
+          "allocation": 10000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ]
+    }
+  },
+  {
+    "monthly": 3000000,
+    "months": 12,
+    "lump": null,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "4.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+                "title": "부림저축은행 톡톡 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              }
+            ]
+          },
+          "allocation": 3000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV3-SB-MOA-E-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "4.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+                "title": "모아저축은행 e-모아 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              },
+              {
+                "url": "https://m.moasb.co.kr/dgd/deposit/DGD_EMI_DT3_010.do",
+                "title": "모아저축은행 e-모아 정기적금 공식 모바일 상세",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "직접HTTP200. 상품명 e-모아 정기적금, 정액적립식,12~36개월,월1만원이상,19세이상내국인. 2026.07.22신규적용 금리12~23개월4.00/24~35개월3.80/36개월3.50으로 데스크톱rnum34와동일. 색인옛3.50과구분."
+              }
+            ]
+          },
+          "allocation": 3000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": "4.05",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.kakaobank.com/products/savings",
+                "title": "카카오뱅크 자유적금 공식 상품 페이지",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.11.02 계약기간별 기본금리와 자동이체 우대0.20%p. 12개월3.85%. 쿠폰은 미반영."
+              }
+            ]
+          },
+          "allocation": 3000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": []
+    }
+  },
+  {
+    "monthly": 300000,
+    "months": 36,
+    "lump": null,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "NOV3-SB-MOA-E-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+                "title": "모아저축은행 e-모아 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              },
+              {
+                "url": "https://m.moasb.co.kr/dgd/deposit/DGD_EMI_DT3_010.do",
+                "title": "모아저축은행 e-모아 정기적금 공식 모바일 상세",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "직접HTTP200. 상품명 e-모아 정기적금, 정액적립식,12~36개월,월1만원이상,19세이상내국인. 2026.07.22신규적용 금리12~23개월4.00/24~35개월3.80/36개월3.50으로 데스크톱rnum34와동일. 색인옛3.50과구분."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV3B-SB-HB-E-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기본 명목 연이율·세전. 복리 연평균수익률과 구별하며 임의 구간 보간 없음.",
+            "sources": [
+              {
+                "url": "https://hbsb.co.kr/deposit/online-fixed-deposit",
+                "title": "HB저축은행 비대면 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-01-01",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "직접HTTPS HTTP200으로 본문 가입대상·납입금액·기간·금리표를 확인. 확인일과 원문 금리기준일/심의기간을 구분. 단리/복리 선택지를 같은 상품으로 묶음."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV3B-SB-HB-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기본 명목 연이율·세전. 복리 연평균수익률과 구별하며 임의 구간 보간 없음.",
+            "sources": [
+              {
+                "url": "https://hbsb.co.kr/deposit/fixed-deposit",
+                "title": "HB저축은행 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-01-01",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "직접HTTPS HTTP200으로 본문 가입대상·납입금액·기간·금리표를 확인. 확인일과 원문 금리기준일/심의기간을 구분. 단리/복리 선택지를 같은 상품으로 묶음."
+              }
+            ]
+          },
+          "allocation": 300000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": []
+    }
+  },
+  {
+    "monthly": 0,
+    "months": 12,
+    "lump": null,
+    "recommended": {
+      "SAVINGS": [],
+      "DEPOSIT": []
+    }
+  },
+  {
+    "monthly": 1000001,
+    "months": 12,
+    "lump": null,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "4.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+                "title": "부림저축은행 톡톡 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              }
+            ]
+          },
+          "allocation": 1000001,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV3-SB-MOA-E-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "4.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+                "title": "모아저축은행 e-모아 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              },
+              {
+                "url": "https://m.moasb.co.kr/dgd/deposit/DGD_EMI_DT3_010.do",
+                "title": "모아저축은행 e-모아 정기적금 공식 모바일 상세",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "직접HTTP200. 상품명 e-모아 정기적금, 정액적립식,12~36개월,월1만원이상,19세이상내국인. 2026.07.22신규적용 금리12~23개월4.00/24~35개월3.80/36개월3.50으로 데스크톱rnum34와동일. 색인옛3.50과구분."
+              }
+            ]
+          },
+          "allocation": 1000001,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "KAKAO-FREE-SAVINGS",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": "4.05",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.kakaobank.com/products/savings",
+                "title": "카카오뱅크 자유적금 공식 상품 페이지",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.11.02 계약기간별 기본금리와 자동이체 우대0.20%p. 12개월3.85%. 쿠폰은 미반영."
+              }
+            ]
+          },
+          "allocation": 1000001,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": []
+    }
+  },
+  {
+    "monthly": 5000000,
+    "months": 36,
+    "lump": 300000001,
+    "recommended": {
+      "SAVINGS": [
+        {
+          "product_id": "NOV3-SB-MOA-E-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+                "title": "모아저축은행 e-모아 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              },
+              {
+                "url": "https://m.moasb.co.kr/dgd/deposit/DGD_EMI_DT3_010.do",
+                "title": "모아저축은행 e-모아 정기적금 공식 모바일 상세",
+                "reviewed_on": "2026-11-03",
+                "basis_date": "2026-07-22",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "직접HTTP200. 상품명 e-모아 정기적금, 정액적립식,12~36개월,월1만원이상,19세이상내국인. 2026.07.22신규적용 금리12~23개월4.00/24~35개월3.80/36개월3.50으로 데스크톱rnum34와동일. 색인옛3.50과구분."
+              }
+            ]
+          },
+          "allocation": 5000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.40",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정.",
+            "sources": [
+              {
+                "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+                "title": "부림저축은행 톡톡 정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "공식 상품 상세의 상품개요·가입대상·가입금액·계약기간·현재 게시 기본금리 표. 확인일과 원문 시행일 분리."
+              }
+            ]
+          },
+          "allocation": 5000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "NOV3B-SB-DM-DREAM-SAVE",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.05",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기본 명목 연이율·세전. 복리 연평균수익률과 구별하며 임의 구간 보간 없음.",
+            "sources": [
+              {
+                "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=44",
+                "title": "대명저축은행 더드림정기적금 공식 상품 안내",
+                "reviewed_on": "2026-11-03",
+                "basis_date": null,
+                "mode": "OFFICIAL_PAGE",
+                "locator": "직접HTTPS HTTP200으로 본문 가입대상·납입금액·기간·금리표를 확인. 확인일과 원문 금리기준일/심의기간을 구분. 단리/복리 선택지를 같은 상품으로 묶음."
+              }
+            ]
+          },
+          "allocation": 5000000,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ],
+      "DEPOSIT": [
+        {
+          "product_id": "KAKAO-DEPOSIT",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": "3.20",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.kakaobank.com/products/deposit",
+                "title": "카카오뱅크 정기예금 상품 안내",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-11-02",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "정기예금 기본금리 표, 2026.11.02 기준. 정수개월별 명시 구간만 반영."
+              }
+            ]
+          },
+          "allocation": 300000001,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "PEPPER-FREE-EXIT-DEPOSIT",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": "2.50",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=18",
+                "title": "페퍼저축은행 페퍼루 중도해지 FREE 정기예금 공식 상세",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-02-26",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "현재 게시 적용금리2.50%, 가입기간3년. 중도해지FREE의 별도 보유기간·해지조건 확인 필요. 원문표기 기준일과 조회일 구분."
+              }
+            ]
+          },
+          "allocation": 300000001,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        },
+        {
+          "product_id": "PEPPER-TERM-DEPOSIT",
+          "code": "FIT",
+          "rate": {
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": "2.50",
+            "evidence_locator": "공식 세전 기본 연이율 표",
+            "sources": [
+              {
+                "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+                "title": "페퍼저축은행 정기예금 공식 상세",
+                "reviewed_on": "2026-11-02",
+                "basis_date": "2026-10-30",
+                "mode": "OFFICIAL_PAGE",
+                "locator": "2026.10.30 공식 단리 연이율 열. 12~18개월미만3.95%. 복리수익률4.02%와 구분."
+              }
+            ]
+          },
+          "allocation": 300000001,
+          "unallocated": 0,
+          "eligibility": "UNKNOWN",
+          "calculation": null
+        }
+      ]
+    }
+  }
+]

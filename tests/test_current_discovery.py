@@ -33,7 +33,7 @@ def test_guidance_and_conflicting_display_are_not_open(support):
 
 def test_current_snapshot_preserves_uncertainty_and_alternative_residence():
     d=json.loads((ROOT/'frontend/src/public-data/current-support.json').read_text(encoding='utf-8'))
-    assert len(d['programs'])==344
+    assert len(d['programs'])==416
     for i,p in enumerate(d['programs']):
         assert p['eligibility']=='UNKNOWN' and p['benefit_applied_krw']==0
         if p['program_id'] in ALTERNATIVE_REGION:assert d['regions']['제주'][i]!='FAIL'

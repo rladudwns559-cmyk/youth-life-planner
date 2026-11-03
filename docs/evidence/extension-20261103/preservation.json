@@ -1,0 +1,13 @@
+{
+  "baseline_files": 542,
+  "changed_baseline": [
+    "backend/finance/discovery.py",
+    "backend/opportunities/current_discovery.py",
+    "tests/test_current_discovery.py"
+  ],
+  "unapproved_changes": [],
+  "release_files_checked": 6,
+  "release_unchanged": true,
+  "golden_fingerprint_files_checked": 7,
+  "golden_fingerprint_unchanged": true
+}

@@ -1,0 +1,16 @@
+
+ RUN  v3.2.7 C:/Users/김영준/Documents/ChatGPT/ai+x/frontend
+
+ ✓ src/ProductRecommendations.test.tsx (6 tests) 2214ms
+   ✓ shows a visible savings top three using verified basic rates rather than conditional maxima  702ms
+   ✓ separates deposits from savings and applies no monthly budget to a missing lump sum  359ms
+   ✓ hides previous recommendation cards while an edited input is not applied  308ms
+   ✓ opens the chosen recommendation details without changing applied money  337ms
+ ✓ src/OfficialExtensionRanking.test.tsx (4 tests) 1211ms
+   ✓ ranks current matching new support before alternatives for '광주시' in both views  551ms
+
+ Test Files  2 passed (2)
+      Tests  10 passed (10)
+   Start at  14:45:20
+   Duration  45.41s (transform 625ms, setup 11.70s, collect 1.48s, tests 3.42s, environment 26.76s, prepare 1.23s)
+

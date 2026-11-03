@@ -1,0 +1,182 @@
+{
+  "ad_hoc_checks": 22,
+  "pytest_tests_added": 0,
+  "results": [
+    {
+      "product_id": "HB-SAVE",
+      "amount": 9999,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "BUDGET",
+      "actual": "BUDGET"
+    },
+    {
+      "product_id": "HB-SAVE",
+      "amount": 10000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "FIT",
+      "actual": "FIT"
+    },
+    {
+      "product_id": "HB-SAVE",
+      "amount": 1000000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "FIT",
+      "actual": "FIT"
+    },
+    {
+      "product_id": "HB-SAVE",
+      "amount": 1000001,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "PARTIAL",
+      "actual": "PARTIAL"
+    },
+    {
+      "product_id": "HB-SAVE",
+      "amount": 300000,
+      "months": 11,
+      "as_of": "2026-11-03",
+      "expected": "TERM",
+      "actual": "TERM"
+    },
+    {
+      "product_id": "HB-SAVE",
+      "amount": 0,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "BUDGET",
+      "actual": "BUDGET"
+    },
+    {
+      "product_id": "HB-SAVE",
+      "amount": 300000,
+      "months": 12,
+      "as_of": "2026-11-11",
+      "expected": "STALE",
+      "actual": "STALE"
+    },
+    {
+      "product_id": "HB-E-SAVE",
+      "amount": 9999,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "BUDGET",
+      "actual": "BUDGET"
+    },
+    {
+      "product_id": "HB-E-SAVE",
+      "amount": 10000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "FIT",
+      "actual": "FIT"
+    },
+    {
+      "product_id": "HB-E-SAVE",
+      "amount": 1000000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "FIT",
+      "actual": "FIT"
+    },
+    {
+      "product_id": "HB-E-SAVE",
+      "amount": 1000001,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "PARTIAL",
+      "actual": "PARTIAL"
+    },
+    {
+      "product_id": "HB-E-SAVE",
+      "amount": 300000,
+      "months": 11,
+      "as_of": "2026-11-03",
+      "expected": "TERM",
+      "actual": "TERM"
+    },
+    {
+      "product_id": "HB-E-SAVE",
+      "amount": 0,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "BUDGET",
+      "actual": "BUDGET"
+    },
+    {
+      "product_id": "HB-E-SAVE",
+      "amount": 300000,
+      "months": 12,
+      "as_of": "2026-11-11",
+      "expected": "STALE",
+      "actual": "STALE"
+    },
+    {
+      "product_id": "SNT-E-DEPOSIT",
+      "amount": 100000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "FIT",
+      "actual": "FIT"
+    },
+    {
+      "product_id": "SNT-E-DEPOSIT",
+      "amount": 300000000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "FIT",
+      "actual": "FIT"
+    },
+    {
+      "product_id": "SNT-E-DEPOSIT",
+      "amount": 300000001,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "PARTIAL",
+      "actual": "PARTIAL"
+    },
+    {
+      "product_id": "SNT-SAVE",
+      "amount": 300000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "MISSING",
+      "actual": "MISSING"
+    },
+    {
+      "product_id": "INSUNG-SAVE",
+      "amount": 300000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "MISSING",
+      "actual": "MISSING"
+    },
+    {
+      "product_id": "DH-E-SAVE",
+      "amount": 300000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "MISSING",
+      "actual": "MISSING"
+    },
+    {
+      "product_id": "UNION-DEPOSIT",
+      "amount": 10000000,
+      "months": 12,
+      "as_of": "2026-11-03",
+      "expected": "FIT",
+      "actual": "FIT"
+    },
+    {
+      "product_id": "UNION-ROTATE",
+      "amount": 10000000,
+      "months": 36,
+      "as_of": "2026-11-03",
+      "expected": "MISSING",
+      "actual": "MISSING"
+    }
+  ]
+}

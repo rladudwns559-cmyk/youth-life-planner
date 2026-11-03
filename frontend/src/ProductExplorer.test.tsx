@@ -15,7 +15,7 @@ async function apply(monthly='300000',months='12',lump=''){edit('매월 저축�
 
 describe('free public product discovery',()=>{
   it('shows the expanded catalog before any profile or server request',()=>{
-    renderExplorer(<ProductExplorer/>,true);expect(screen.getAllByTestId('discovery-card')).toHaveLength(prepared.catalog.products.length);expect(screen.getByText('38개 은행 · 256개 상품')).toBeVisible();
+    renderExplorer(<ProductExplorer/>,true);expect(screen.getAllByTestId('discovery-card')).toHaveLength(prepared.catalog.products.length);expect(screen.getByText('46개 은행 · 326개 상품')).toBeVisible();
     expect(screen.getByText(/국내 모든 은행·저축은행·특판을 전수 수집한 목록이 아닙/)).toBeVisible();expect(fetch).not.toHaveBeenCalled();
     expect(screen.getByLabelText('매월 저축할 금액')).toHaveValue('');expect(within(card('KAKAO-FREE-SAVINGS')).queryByText('금액·기간 비교 가능')).not.toBeInTheDocument();
   });

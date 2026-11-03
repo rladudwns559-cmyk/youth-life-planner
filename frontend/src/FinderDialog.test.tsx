@@ -23,7 +23,7 @@ it('opens an empty comparison with a path to choose programs, then searches savi
   const d=within(screen.getByRole('dialog'));expect(d.getByText('어떤 사업을 비교할까요?')).toBeVisible();
   fireEvent.click(d.getByRole('button',{name:'적금·예금 찾기'}));
   fireEvent.change(d.getByLabelText('월 납입액 (원)'),{target:{value:'200000'}});
-  expect(d.getByRole('status')).toHaveTextContent('69개');
+  expect(d.getByRole('status')).toHaveTextContent('78개');
   fireEvent.change(d.getByLabelText('저축 방식'),{target:{value:'DEPOSIT'}});
   expect(d.getByLabelText('예치할 목돈 (원)')).toHaveValue('');
 });

@@ -1,0 +1,222 @@
+{
+  "products": 29,
+  "institutions": 5,
+  "strict_models_valid": true,
+  "duplicates_vs_existing": 0,
+  "new_rate_rows": 107,
+  "unknown_eligibility_all": true,
+  "calculation_none_all": true,
+  "hosts": [
+    "www.insungsavingsbank.co.kr",
+    "www.dhsavingsbank.co.kr",
+    "hisntm.com",
+    "hbsb.co.kr",
+    "www.kusb.co.kr"
+  ],
+  "recommendation_exclusions": 14,
+  "checks": [
+    {
+      "product_id": "NOV3B-SB-INSUNG-DEPOSIT",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 7,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-INSUNG-E-DEPOSIT",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 7,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-INSUNG-SAVE",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 5,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-INSUNG-E-SAVE",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 5,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-INSUNG-FREE",
+      "code_300k_12": "SCHEDULE",
+      "code_10m_12": "SCHEDULE",
+      "rate_rows": 6,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-INSUNG-ROTATE",
+      "code_300k_12": "TERM",
+      "code_10m_12": "TERM",
+      "rate_rows": 1,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-INSUNG-E-ROTATE",
+      "code_300k_12": "TERM",
+      "code_10m_12": "TERM",
+      "rate_rows": 1,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-DH-DEPOSIT",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 5,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-DH-E-DEPOSIT",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 4,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-DH-SAVE",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 3,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-DH-E-SAVE",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 3,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-DH-FREE",
+      "code_300k_12": "SCHEDULE",
+      "code_10m_12": "SCHEDULE",
+      "rate_rows": 4,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-SNT-DEPOSIT",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 5,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-SNT-E-DEPOSIT",
+      "code_300k_12": "FIT",
+      "code_10m_12": "FIT",
+      "rate_rows": 5,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-SNT-SAVE",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 3,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-SNT-E-SAVE",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 3,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-SNT-FREE",
+      "code_300k_12": "SCHEDULE",
+      "code_10m_12": "SCHEDULE",
+      "rate_rows": 0,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-HB-SAVE",
+      "code_300k_12": "FIT",
+      "code_10m_12": "PARTIAL",
+      "rate_rows": 3,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-HB-E-SAVE",
+      "code_300k_12": "FIT",
+      "code_10m_12": "PARTIAL",
+      "rate_rows": 3,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-HB-DEPOSIT",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 6,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-HB-E-DEPOSIT",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 6,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-HB-ROTATE",
+      "code_300k_12": "TERM",
+      "code_10m_12": "TERM",
+      "rate_rows": 1,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-HB-6M-ROTATE",
+      "code_300k_12": "TERM",
+      "code_10m_12": "TERM",
+      "rate_rows": 1,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-HB-E-ROTATE",
+      "code_300k_12": "TERM",
+      "code_10m_12": "TERM",
+      "rate_rows": 1,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-HB-E-6M-ROTATE",
+      "code_300k_12": "TERM",
+      "code_10m_12": "TERM",
+      "rate_rows": 1,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-UNION-DEPOSIT",
+      "code_300k_12": "FIT",
+      "code_10m_12": "FIT",
+      "rate_rows": 5,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-UNION-SAVE",
+      "code_300k_12": "MISSING",
+      "code_10m_12": "MISSING",
+      "rate_rows": 6,
+      "excluded_from_rate_recommendation": false
+    },
+    {
+      "product_id": "NOV3B-SB-UNION-FREE",
+      "code_300k_12": "SCHEDULE",
+      "code_10m_12": "SCHEDULE",
+      "rate_rows": 5,
+      "excluded_from_rate_recommendation": true
+    },
+    {
+      "product_id": "NOV3B-SB-UNION-ROTATE",
+      "code_300k_12": "TERM",
+      "code_10m_12": "TERM",
+      "rate_rows": 2,
+      "excluded_from_rate_recommendation": true
+    }
+  ]
+}

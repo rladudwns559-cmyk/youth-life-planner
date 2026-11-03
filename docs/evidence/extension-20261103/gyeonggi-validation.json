@@ -1,0 +1,347 @@
+{
+  "count": 34,
+  "rows": [
+    {
+      "program_id": "EXT3-GG-12405",
+      "title": "부천 오정청년공간 크리스마스 트리 만들기",
+      "city": "부천시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12405&pager.offset=0&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-11"
+    },
+    {
+      "program_id": "EXT3-GG-12404",
+      "title": "성남 청년 마인드톡톡 · 11월 상담",
+      "city": "성남시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12404&pager.offset=0&pagerLimit=8",
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSf1b10yuEdl_qIs8G_x1O49xPnNf-fEi1zB_HSMI7AgZLZpqA/viewform?usp=send_form",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-11"
+    },
+    {
+      "program_id": "EXT3-GG-12403",
+      "title": "수원 드림 플라워 박스 원데이클래스",
+      "city": "수원시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12403&pager.offset=0&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-11-03",
+      "ends_on": "2026-11-11"
+    },
+    {
+      "program_id": "EXT3-GG-12402",
+      "title": "용인 제7기 청년정책네트워크 위원 모집",
+      "city": "용인시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12402&pager.offset=0&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-30"
+    },
+    {
+      "program_id": "EXT3-GG-12401",
+      "title": "파주 원데이 진로캠프 · 11월",
+      "city": "파주시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12401&pager.offset=0&pagerLimit=8",
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLScnqiflpB58jKllXDxIpJ_qCvaN56gorHThXApFtUjs0rxeuQ/viewform?usp=send_form",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-17"
+    },
+    {
+      "program_id": "EXT3-GG-12400",
+      "title": "평택 청년 CED 스케일업 창업 교육",
+      "city": "평택시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12400&pager.offset=0&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-27"
+    },
+    {
+      "program_id": "EXT3-GG-12398",
+      "title": "하남 청년정책위원회 청년위원 공개 모집",
+      "city": "하남시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12398&pager.offset=0&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-11-20"
+    },
+    {
+      "program_id": "EXT3-GG-12397",
+      "title": "용인 TCI 자기이해 검사 워크숍",
+      "city": "용인시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12397&pager.offset=8&pagerLimit=8",
+      "application_url": "https://youth.yongin.go.kr/web/main/program/open/1077?cp=2&pageSize=8&programStatus=program_recruit_ing&programIsPosted=true&fromList=openList",
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-11-16"
+    },
+    {
+      "program_id": "EXT3-GG-12395",
+      "title": "수원 삼성전기 엔지니어 현직자 멘토링",
+      "city": "수원시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12395&pager.offset=8&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-10-31",
+      "ends_on": "2026-11-06"
+    },
+    {
+      "program_id": "EXT3-GG-12394",
+      "title": "성남 은행유스센터 면접 한 끗",
+      "city": "성남시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12394&pager.offset=8&pagerLimit=8",
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSewuSlwyNB3vOheyx2S4ZztQoNuS4RH0UJVzElEnoEVBpKrkg/viewform",
+      "starts_on": "2026-10-28",
+      "ends_on": "2026-11-11"
+    },
+    {
+      "program_id": "EXT3-GG-12393",
+      "title": "용인 NCS 직업기초능력 대비반 · 2회차",
+      "city": "용인시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12393&pager.offset=8&pagerLimit=8",
+      "application_url": "https://youth.yongin.go.kr/web/main/program/open/1079?cp=1&pageSize=8&programStatus=program_recruit_ing&programIsPosted=true&fromList=openList",
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-11-09"
+    },
+    {
+      "program_id": "EXT3-GG-12391",
+      "title": "광주시 청년 마인드 톡톡 · 11월",
+      "city": "광주시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12391&pager.offset=8&pagerLimit=8",
+      "application_url": "https://www.gj-youth.or.kr/bbs/board.php?bo_table=table42&wr_id=885",
+      "starts_on": "2026-11-01",
+      "ends_on": "2026-11-15"
+    },
+    {
+      "program_id": "EXT3-GG-12390",
+      "title": "시흥 한 코 한 코 뜨개지갑",
+      "city": "시흥시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12390&pager.offset=8&pagerLimit=8",
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSfCAfEmcqFngAkYojHiaPwTuOzJE3nZGGo0IBcnv5KQ8CUo6g/closedform",
+      "starts_on": "2026-10-30",
+      "ends_on": "2026-11-14"
+    },
+    {
+      "program_id": "EXT3-GG-12389",
+      "title": "시흥 수리수리 셀프 집수리 · 수전과 LED",
+      "city": "시흥시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12389&pager.offset=16&pagerLimit=8",
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSfCAfEmcqFngAkYojHiaPwTuOzJE3nZGGo0IBcnv5KQ8CUo6g/closedform",
+      "starts_on": "2026-10-30",
+      "ends_on": "2026-11-17"
+    },
+    {
+      "program_id": "EXT3-GG-12387",
+      "title": "성남 청년의 시간 · 정책포럼 참가팀",
+      "city": "성남시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12387&pager.offset=16&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-10-30",
+      "ends_on": "2026-11-22"
+    },
+    {
+      "program_id": "EXT3-GG-12385",
+      "title": "용인 청년 이벤트DAY · 겉절이와 수육",
+      "city": "용인시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12385&pager.offset=16&pagerLimit=8",
+      "application_url": "https://youth.yongin.go.kr/web/main/program/open/1086?cp=1&pageSize=8&programStatus=program_recruit_ing&programIsPosted=true&fromList=openList",
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-11-09"
+    },
+    {
+      "program_id": "EXT3-GG-12382",
+      "title": "용인 재직자를 위한 실무 PPT 클래스",
+      "city": "용인시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12382&pager.offset=16&pagerLimit=8",
+      "application_url": "https://youth.yongin.go.kr/web/main/program/open/1085?cp=1&pageSize=8&programStatus=program_recruit_ing&programIsPosted=true&fromList=openList",
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-11-09"
+    },
+    {
+      "program_id": "EXT3-GG-12381",
+      "title": "군포 마음든든 첫만남 · 육아 청년 프로그램",
+      "city": "군포시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12381&pager.offset=24&pagerLimit=8",
+      "application_url": "https://www.gunpoycf.or.kr/program/152",
+      "starts_on": "2026-10-28",
+      "ends_on": "2026-11-17"
+    },
+    {
+      "program_id": "EXT3-GG-12379",
+      "title": "부천 청·소·부 축제 · 소통과 취업역량",
+      "city": "부천시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12379&pager.offset=24&pagerLimit=8",
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSdypKNfUUr5t3sePbPE8Zu-_uZaMR9mbVyIzSujM2hqtGxCpQ/viewform?usp=send_form",
+      "starts_on": "2026-10-07",
+      "ends_on": "2026-11-08"
+    },
+    {
+      "program_id": "EXT3-GG-12376",
+      "title": "양주 Level-UP 창업컨설팅 · 11월",
+      "city": "양주시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12376&pager.offset=24&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-10-30",
+      "ends_on": "2026-11-12"
+    },
+    {
+      "program_id": "EXT3-GG-12374",
+      "title": "용인 코바늘 카드지갑 만들기",
+      "city": "용인시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12374&pager.offset=24&pagerLimit=8",
+      "application_url": "https://youth.yongin.go.kr/web/main/program/open/1075?cp=2&pageSize=8&programStatus=program_recruit_ing&programIsPosted=true&fromList=openList",
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-11-09"
+    },
+    {
+      "program_id": "EXT3-GG-12372",
+      "title": "광명 청년공론장 · 로컬 액션 커뮤니티",
+      "city": "광명시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12372&pager.offset=32&pagerLimit=8",
+      "application_url": "https://gmyouthstorage.org/program/apply.php?pmode=view&idx=110&st=&sk=&offset=",
+      "starts_on": null,
+      "ends_on": "2026-11-06"
+    },
+    {
+      "program_id": "EXT3-GG-12367",
+      "title": "양평 내일스퀘어 · 11월 청년 프로그램",
+      "city": "양평군",
+      "status": "CONTINUOUS_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12367&pager.offset=32&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-10-27",
+      "ends_on": null
+    },
+    {
+      "program_id": "EXT3-GG-12365",
+      "title": "용인 AI 활용 자기소개서 작성법",
+      "city": "용인시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12365&pager.offset=40&pagerLimit=8",
+      "application_url": "https://youth.yongin.go.kr/web/main/program/open/1080?cp=1&pageSize=8&programStatus=program_recruit_ing&programIsPosted=true&fromList=openList",
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-11-09"
+    },
+    {
+      "program_id": "EXT3-GG-12363",
+      "title": "평택 쉼표한조각 · 반려견 간식 만들기",
+      "city": "평택시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12363&pager.offset=40&pagerLimit=8",
+      "application_url": "https://www.pyeongtaek.go.kr/ptyc/portal/youthSupport/program/view.do?mId=0401000000&idx=378",
+      "starts_on": "2026-10-28",
+      "ends_on": "2026-11-10"
+    },
+    {
+      "program_id": "EXT3-GG-12361",
+      "title": "화성 청년 테라리움 클래스",
+      "city": "화성시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12361&pager.offset=40&pagerLimit=8",
+      "application_url": "https://hey.hscity.go.kr/base/hsyouth/program/read?programManagementNo=1&programNo=399&menuLevel=2&menuNo=67&page=&programTypeArray=&programCategoryArray=",
+      "starts_on": "2026-10-27",
+      "ends_on": "2026-11-10"
+    },
+    {
+      "program_id": "EXT3-GG-12353",
+      "title": "여주 마음찾기 · 11월 자기돌봄",
+      "city": "여주시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12353&pager.offset=48&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-10-26",
+      "ends_on": "2026-11-08"
+    },
+    {
+      "program_id": "EXT3-GG-12351",
+      "title": "용인 농문화와 기초 수어 클래스",
+      "city": "용인시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12351&pager.offset=48&pagerLimit=8",
+      "application_url": "https://youth.yongin.go.kr/web/main/program/open/1081?cp=1&pageSize=8&programStatus=program_recruit_ing&programIsPosted=true&fromList=openList",
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-11-16"
+    },
+    {
+      "program_id": "EXT3-GG-12349",
+      "title": "여주 청년 신혼부부 전세자금 대출이자 지원 · 추가 모집",
+      "city": "여주시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12349&pager.offset=56&pagerLimit=8",
+      "application_url": "https://apply.jobaba.net/bsns/bsnsDetailView.do?bsnsSeq=5961",
+      "starts_on": "2026-10-21",
+      "ends_on": "2026-11-20"
+    },
+    {
+      "program_id": "EXT3-GG-12348",
+      "title": "이천 청년 신혼부부 전·월세자금 대출이자 지원",
+      "city": "이천시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12348&pager.offset=56&pagerLimit=8",
+      "application_url": "https://apply.jobaba.net/bsns/bsnsDetailView.do?bsnsSeq=5963",
+      "starts_on": "2026-10-27",
+      "ends_on": "2026-11-10"
+    },
+    {
+      "program_id": "EXT3-GG-12347",
+      "title": "경기도기술학교 북부캠퍼스 AI-POT 자격증 과정",
+      "city": null,
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12347&pager.offset=56&pagerLimit=8",
+      "application_url": "https://apply.jobaba.net/bsns/bsnsDetailView.do?bsnsSeq=5951",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-11-06"
+    },
+    {
+      "program_id": "EXT3-GG-12345",
+      "title": "고양 대학생 드론 촬영·AI 편집 아카데미",
+      "city": "고양시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12345&pager.offset=56&pagerLimit=8",
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSfj6XMm20Je0KDEKr-oXBYmmb8zTbt90TEwGPRQeVjB-yoMBg/viewform",
+      "starts_on": "2026-10-23",
+      "ends_on": "2026-11-05"
+    },
+    {
+      "program_id": "EXT3-GG-12344",
+      "title": "광주시 AI 취업코칭 · 11월 이용권",
+      "city": "광주시",
+      "status": "VERIFIED_OPEN",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12344&pager.offset=56&pagerLimit=8",
+      "application_url": "https://www.gj-youth.or.kr/bbs/board.php?bo_table=table41&wr_id=628",
+      "starts_on": "2026-11-01",
+      "ends_on": "2026-11-30"
+    },
+    {
+      "program_id": "EXT3-GG-12343",
+      "title": "남양주 마음행복 가을 김장 체험",
+      "city": "남양주시",
+      "status": "WINDOW_GUIDANCE",
+      "official_url": "https://youth.gg.go.kr/gg/info/archive-policy-search-map.do?mode=view&arcNo=12343&pager.offset=56&pagerLimit=8",
+      "application_url": null,
+      "starts_on": "2026-10-16",
+      "ends_on": "2026-11-19"
+    }
+  ],
+  "models_validated": 34,
+  "verified_on": "2026-11-03"
+}

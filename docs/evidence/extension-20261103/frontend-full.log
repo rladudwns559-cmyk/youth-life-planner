@@ -1,0 +1,148 @@
+
+ RUN  v3.2.7 C:/Users/김영준/Documents/ChatGPT/ai+x/frontend
+
+ ✓ src/RegionalPrograms.test.tsx (8 tests) 21753ms
+   ✓ regional grants beyond savings > shows the current catalog and all17region choices without transmitting input  843ms
+   ✓ regional grants beyond savings > combines national,province,city for Ansan and excludes Seoul  1259ms
+   ✓ regional grants beyond savings > keeps municipality unknown until selected and resets it on province change  561ms
+   ✓ regional grants beyond savings > does not pretend a different unregistered city has Ansan local benefits  553ms
+   ✓ regional grants beyond savings > searches non-savings benefits and provides a meaningful empty result  1054ms
+   ✓ regional grants beyond savings > distinguishes closed and unknown even inside annual business periods  684ms
+   ✓ regional grants beyond savings > pages through all records without losing state or duplicating IDs  16792ms
+ ✓ src/NovRegionalRanking.test.tsx (53 tests) 14127ms
+   ✓ prioritises an open, best-matching local notice for '강원' '동해시' in both views  695ms
+   ✓ prioritises an open, best-matching local notice for '강원' '횡성군' in both views  377ms
+   ✓ prioritises an open, best-matching local notice for '경기' '가평군' in both views  398ms
+   ✓ prioritises an open, best-matching local notice for '경기' '군포시' in both views  333ms
+   ✓ prioritises an open, best-matching local notice for '경기' '부천시' in both views  317ms
+   ✓ prioritises an open, best-matching local notice for '경기' '부천시 소사구' in both views  339ms
+   ✓ prioritises an open, best-matching local notice for '경기' '부천시 오정구' in both views  328ms
+   ✓ prioritises an open, best-matching local notice for '경기' '부천시 원미구' in both views  301ms
+   ✓ prioritises an open, best-matching local notice for '경기' '오산시' in both views  307ms
+   ✓ prioritises an open, best-matching local notice for '경기' '이천시' in both views  310ms
+   ✓ prioritises an open, best-matching local notice for '경기' '하남시' in both views  301ms
+ ✓ src/ProductExplorer.test.tsx (19 tests) 14789ms
+   ✓ free public product discovery > shows the expanded catalog before any profile or server request  4822ms
+   ✓ free public product discovery > compares supplied money and period while preserving unknown eligibility  388ms
+   ✓ free public product discovery > does not borrow monthly saving capacity as an existing deposit balance  521ms
+   ✓ free public product discovery > allows deposit-only comparison without inventing a monthly budget  313ms
+   ✓ free public product discovery > preserves discrete periods, quarterly caps and historical evidence boundaries  544ms
+   ✓ free public product discovery > keeps daily and stepped weekly schedules out of monthly fits  515ms
+   ✓ free public product discovery > searches across banks and types and restores all results  4171ms
+   ✓ free public product discovery > uses an explicit fit-only switch without hiding all other products by default  334ms
+   ✓ free public product discovery > provides at most three comparison alternatives and no joint budget allocation  572ms
+   ✓ free public product discovery > suppresses positive comparisons after the immutable review window  856ms
+ ❯ src/ProductExplorerExpansion.test.tsx (10 tests | 1 failed) 10275ms
+   ✓ expanded product discovery > paginates without dropping searchable products  1385ms
+   ✓ expanded product discovery > stores only an explicitly favorited product ID and restores it after remount  443ms
+   ✓ expanded product discovery > ignores malformed or unknown favorite IDs without crashing or fetching 159ms
+   ✓ expanded product discovery > falls back to memory if browser storage is denied 189ms
+   ✓ expanded product discovery > filters only explicitly verified channels and payment schedules  817ms
+   × expanded product discovery > sorts by name and minimum amount without ranking unsupported yields 5674ms
+     → Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+   ✓ expanded product discovery > clearly separates draft input from the applied comparison  429ms
+   ✓ expanded product discovery > describes a deposit partial allocation as a deposit rather than a monthly cap 186ms
+   ✓ expanded product discovery > holds unsupported increments and combined schedules instead of claiming a fit  300ms
+   ✓ expanded product discovery > opens the broad disclosure directory without sending the entered amount  692ms
+ ✓ src/ProductComparisonPanel.test.tsx (27 tests) 6538ms
+   ✓ official snapshot comparison > lists three real historical products with distinct dates, rates and sources  636ms
+   ✓ official snapshot comparison > sends selected IDs, current profile and exact contribution without a rate override  330ms
+   ✓ official snapshot comparison > requires a product selection  399ms
+   ✓ official snapshot comparison > integrates existing What-if result into product comparison without recalculating budgets in React  1682ms
+ ✓ src/RegionalGap116Ranking.test.tsx (21 tests) 5810ms
+   ✓ prioritises an open, best-matching local notice for '경기' '구리시' in both views  535ms
+   ✓ prioritises an open, best-matching local notice for '경기' '파주시' in both views  309ms
+   ✓ prioritises an open, best-matching local notice for '경기' '포천시' in both views  303ms
+   ✓ prioritises an open, best-matching local notice for '서울' '송파구' in both views  353ms
+ ✓ src/PersonalPrograms.test.tsx (9 tests) 5714ms
+   ✓ automatically changes housing candidates with rent, keeping jeonse moving assistance  1827ms
+   ✓ filters worker-only current relevance while preserving exam and short-worker exceptions  952ms
+   ✓ never infers household income, assets or overall eligibility from matched inputs  429ms
+   ✓ missing and invalid fields remain unknown and reset clears every personal field  1068ms
+   ✓ exposes official evidence and reason for the current condition comparison  697ms
+   ✓ shows new official programs without reopening closed intake or proving eligibility  732ms
+ ✓ src/WhatIf.test.tsx (24 tests) 4437ms
+   ✓ What-if actual input path > starts from current values without sending HTTP until submitted  367ms
+   ✓ What-if actual input path > resets only After values and clears comparison  311ms
+   ✓ What-if actual input path > distinguishes blank savings cap and zero and independently edits student status  309ms
+   ✓ What-if actual input path > integrates with M3.0 and closes comparison when current input changes  439ms
+ ✓ src/RegionalGap95Ranking.test.tsx (22 tests) 4144ms
+   ✓ prioritises an open, best-matching local notice for '경기' '양평군' in both views  496ms
+ ✓ src/Portal.test.tsx (25 tests) 3214ms
+   ✓ separate portal pages and motion > keeps the home clean and ends the copy with the budget entry  303ms
+   ✓ separate portal pages and motion > retains inputs in memory across menu visits without saving income  304ms
+   ✓ separate portal pages and motion > retains server results when returning from home and savings  552ms
+   ✓ separate portal pages and motion > does not create duplicate page heading identifiers after visiting every section  358ms
+ ✓ src/DisclosurePromotion.test.tsx (6 tests) 2900ms
+   ✓ verified disclosure promotion to real product comparison > shows all thirteen new alternatives through actual prepared Python decisions  694ms
+   ✓ verified disclosure promotion to real product comparison > honors a published minimum and never changes individual eligibility  355ms
+   ✓ verified disclosure promotion to real product comparison > links the original disclosure to one verified product while retaining applied inputs  1514ms
+ ✓ src/AssetPrograms.test.tsx (17 tests) 2797ms
+   ✓ official government asset-building discovery > loads public information without transmitting a profile  344ms
+   ✓ official government asset-building discovery > shows all ten distinct programs on demand  392ms
+   ✓ official government asset-building discovery > searches official titles and regions and offers an empty state  311ms
+   ✓ official government asset-building discovery > applies optional facts only after explicit submit and does not save them  383ms
+   ✓ official government asset-building discovery > integrates public discovery and actual personal recommendation in App  362ms
+ ✓ src/SavingsPanel.test.tsx (30 tests) 2609ms
+   ✓ synthetic recurring savings > integrates into existing current-input flow without an extra automatic request  486ms
+ ✓ src/SupportPlanner.test.tsx (9 tests) 2628ms
+   ✓ prioritizes verified recruitment and hides closed rounds by default  561ms
+   ✓ caps comparison at three and preserves selection across filters  773ms
+   ✓ stores only selected IDs, never profile, and supports deletion  880ms
+ ✓ src/ProductRecommendations.test.tsx (6 tests) 1851ms
+   ✓ shows a visible savings top three using verified basic rates rather than conditional maxima  604ms
+   ✓ separates deposits from savings and applies no monthly budget to a missing lump sum  330ms
+ ✓ src/LocalRelease.test.tsx (2 tests) 2402ms
+   ✓ puts a newly covered district ahead of broader open notices, even if broader notices match more profile fields  1474ms
+   ✓ hides an open local notice when its explicit age criterion fails  926ms
+ ✓ src/FinderDialog.test.tsx (3 tests) 2060ms
+   ✓ opens the public finder with applied conditions and shares the comparison selection  1120ms
+   ✓ opens an empty comparison with a path to choose programs, then searches savings with separate inputs  400ms
+   ✓ maps an administrative ward to a city-wide notice, without leaking it to a different city  539ms
+ ✓ src/ExplanationPanel.test.tsx (18 tests) 1829ms
+ ✓ src/SavingsMatches.test.tsx (16 tests) 1564ms
+   ✓ official savings automatic amount/term matching > integrates goal input without changing the policy/cashflow profile  498ms
+ ✓ src/AreaScopeFallback.test.tsx (3 tests) 1006ms
+   ✓ keeps the Ansan zero independent of wider notices and ranks both broader scopes before outside alternatives  648ms
+ ✓ src/OfficialExtensionRanking.test.tsx (4 tests) 1238ms
+   ✓ ranks current matching new support before alternatives for '광주시' in both views  589ms
+ ✓ src/SupportCatalogNavigation.test.tsx (1 test) 1580ms
+   ✓ separates the catalog from matching and carries the profile into the list and back  1578ms
+ ✓ src/RegionalGap73Ranking.test.tsx (5 tests) 1524ms
+   ✓ prioritises an open, best-matching local notice for '경기' '의정부시' in both views  639ms
+ ✓ src/GroupedInput.test.tsx (6 tests) 1140ms
+   ✓ types, pastes and clears formatted money while emitting raw values  460ms
+   ✓ can backspace and delete across grouping separators without getting stuck  309ms
+ ✓ src/DisclosureDirectory.test.tsx (4 tests) 1125ms
+   ✓ dated official-republished disclosure directory > distinguishes source rows from products and personal comparisons  344ms
+   ✓ dated official-republished disclosure directory > filters institution and sector, resets incompatible institution, and paginates  384ms
+ ✓ src/AssetAlerts.test.tsx (13 tests) 1230ms
+ ✓ src/App.test.tsx (16 tests) 1155ms
+ ✓ src/SupportSearchAndPrompt.test.tsx (4 tests) 1038ms
+   ✓ requires at least one personal or region condition at 내 조건으로 찾기 →  420ms
+   ✓ searches the dedicated catalog with multiple terms and preserves profile and category  378ms
+ ✓ src/PublicPortal.test.tsx (3 tests) 953ms
+   ✓ coherent free public site > links the home to usable condition search without dead budget or alert menus  767ms
+ ✓ src/PublicAssetPrograms.test.tsx (2 tests) 550ms
+   ✓ public government information scope > does not advertise a profile recommendation link that routes to bank-only discovery  436ms
+ ✓ src/RegionalGap95Conditions.test.tsx (1 test) 479ms
+   ✓ re-ranks for a change in employment and does not infer household type from rent  478ms
+ ✓ src/RegionalGap73Conditions.test.ts (3 tests) 5ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/ProductExplorerExpansion.test.tsx > expanded product discovery > sorts by name and minimum amount without ranking unsupported yields
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/ProductExplorerExpansion.test.tsx:37:2
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 31 passed (32)
+      Tests  1 failed | 389 passed (390)
+   Start at  14:47:06
+   Duration  195.98s (transform 1.92s, setup 11.82s, collect 13.16s, tests 124.47s, environment 34.29s, prepare 3.96s)
+

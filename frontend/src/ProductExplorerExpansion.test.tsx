@@ -34,9 +34,15 @@ describe('expanded product discovery',()=>{
   expect(channelMatches(prepared.catalog.products.find(p=>p.product_id==='KAKAO-FREE-SAVINGS')!,'ONLINE')).toBe(false);
   edit('납입 방식','DAILY');edit('가입방법','ALL');expect(screen.getAllByTestId('discovery-card')).toHaveLength(3);expect(document.querySelector('.code-fit')).not.toBeInTheDocument();
  });
- it('sorts by name and minimum amount without ranking unsupported yields',async()=>{
-  render(<ProductExplorer/>);edit('정렬','MINIMUM');all();let cards=screen.getAllByTestId('discovery-card');const mins=cards.map(c=>prepared.catalog.products.find(p=>p.product_id===c.getAttribute('data-product-id'))!.minimum??Infinity);expect(mins).toEqual([...mins].sort((a,b)=>a-b));
-  edit('정렬','NAME');cards=screen.getAllByTestId('discovery-card');const names=cards.map(c=>c.querySelector('h3')!.textContent!);expect(names).toEqual([...names].sort((a,b)=>a.localeCompare(b,'ko')));expect(within(screen.getByLabelText('정렬')).queryByRole('option',{name:/최고금리/})).not.toBeInTheDocument();
+ it.each(['MINIMUM','NAME'] as const)('sorts all registered products by %s without unsupported yield ranking',order=>{
+  render(<ProductExplorer/>);const sort=screen.getByLabelText('정렬');fireEvent.change(sort,{target:{value:order}});all();
+  const cards=screen.getAllByTestId('discovery-card');expect(cards).toHaveLength(prepared.catalog.products.length);
+  if(order==='MINIMUM'){
+   const mins=cards.map(c=>prepared.catalog.products.find(p=>p.product_id===c.getAttribute('data-product-id'))!.minimum??Infinity);expect(mins).toEqual([...mins].sort((a,b)=>a-b));
+  }else{
+   const names=cards.map(c=>c.querySelector('h3')!.textContent!);expect(names).toEqual([...names].sort((a,b)=>a.localeCompare(b,'ko')));
+  }
+  expect(within(sort).queryByRole('option',{name:/최고금리/})).not.toBeInTheDocument();
  });
  it('clearly separates draft input from the applied comparison',async()=>{
   render(<ProductExplorer/>);edit('매월 저축할 금액','300000');await userEvent.click(within(screen.getByLabelText('매월 저축할 금액').closest('form')!).getByRole('button',{name:'추천 상품 보기'}));edit('매월 저축할 금액','500000');

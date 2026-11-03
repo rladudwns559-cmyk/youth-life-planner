@@ -1,0 +1,103 @@
+{
+  "count": 21,
+  "strict_validated": 21,
+  "old_id_duplicates": 0,
+  "old_name_duplicates": 0,
+  "rate_rows": 60,
+  "recommendation_exclusions": {
+    "NOV3X-BUSAN-0093": "법정 복지대상 증빙 미확인: 일반 성인 금리 추천에서 제외",
+    "NOV3X-BUSAN-0160": "공식 목록12개월 기본2.20%와 공시 설명서2.10% 충돌: 금리 추천 제외",
+    "NOV3X-BUSAN-0197": "만18세 이하 미성년자 전용: 일반 성인 추천에서 제외"
+  },
+  "reference_only": [
+    "NOV3X-BUSAN-0037",
+    "NOV3X-BUSAN-0134"
+  ],
+  "monthly300k12": [
+    {
+      "product_id": "NOV3X-BUSAN-0028",
+      "code": "FIT"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0029",
+      "code": "MISSING"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0031",
+      "code": "MISSING"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0037",
+      "code": "REVIEW"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0050",
+      "code": "MISSING"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0053",
+      "code": "MISSING"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0060",
+      "code": "FIT"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0093",
+      "code": "PARTIAL"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0134",
+      "code": "REVIEW"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0160",
+      "code": "FIT"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0168",
+      "code": "MISSING"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0174",
+      "code": "MISSING"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0175",
+      "code": "MISSING"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0191",
+      "code": "FIT"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0197",
+      "code": "TERM"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0200",
+      "code": "FIT"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0201",
+      "code": "FIT"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0202",
+      "code": "FIT"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0207",
+      "code": "FIT"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0219",
+      "code": "PARTIAL"
+    },
+    {
+      "product_id": "NOV3X-BUSAN-0229",
+      "code": "FIT"
+    }
+  ],
+  "sha256": "fa3090eea2860e91e9c819a4f7f2b7263104875bf5dabf05b53f55d340b1c38b"
+}
