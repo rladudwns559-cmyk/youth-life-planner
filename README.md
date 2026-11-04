@@ -6,6 +6,8 @@
 
 초기 검증 지역은 안산이며 서비스 대상은 전국 청년입니다. 기존 AI+X 프로젝트의 현재 구현을 팀원들이 실행할 수 있도록 정리한 공개 복사본입니다.
 
+**디자인을 수정하려면 [프런트엔드 디자인 작업 안내](docs/FRONTEND_DESIGN_HANDOFF.md)부터 읽어 주세요.** Python·LLM 설치 없이 공개 화면을 실행하는 방법, 화면별 수정 파일, 확인 순서를 정리했습니다.
+
 ## 현재 구현
 
 - 268개 지역 선택지, 지역·나이·취업·월세 조건별 지원사업 탐색
@@ -67,7 +69,7 @@ corepack pnpm dev
 ~~~powershell
 .\.venv\Scripts\python.exe -m pytest -q
 cd frontend
-corepack pnpm test --maxWorkers=2
+corepack pnpm test --maxWorkers=1
 corepack pnpm build
 ~~~
 
