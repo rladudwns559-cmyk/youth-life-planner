@@ -1,0 +1,21 @@
+{
+  "baseline_files": 709,
+  "changed_baseline": [
+    "frontend/src/DataFreshness.tsx",
+    "frontend/src/FinderDialog.tsx",
+    "frontend/src/ProductExplorer.test.tsx",
+    "frontend/src/ProductExplorer.tsx",
+    "frontend/src/ProductQuality.test.tsx",
+    "frontend/src/ProductRecommendations.test.tsx",
+    "frontend/src/RecommendationShelf.tsx",
+    "frontend/src/data-freshness.css",
+    "frontend/src/product-explorer.css",
+    "frontend/vite.config.ts"
+  ],
+  "release_files": 6,
+  "release_unchanged": true,
+  "golden_fingerprint_files": 7,
+  "golden_unchanged": true,
+  "old_backend_data_python_tests_unchanged": true,
+  "original_frontend_snapshot_data_unchanged": true
+}

@@ -2,6 +2,8 @@ import type {ReactElement} from 'react';
 import {fireEvent,render,screen,within} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import {beforeEach,afterEach,describe,it,expect,vi} from 'vitest';
+// Keep historical Nov 3 table assertions independent of later official rechecks.
+vi.mock('./public-data/financial-renewals.json',()=>({default:{built_on:'2026-11-06',records:{},recommendations:{rate_by_product:{},order_calendar:{},order_pool:[]}}}));
 import ProductExplorer,{readPreparedDecision} from './ProductExplorer';
 import prepared from './public-data/product-expanded.json';
 

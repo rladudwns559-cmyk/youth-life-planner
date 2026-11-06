@@ -2,6 +2,8 @@
 
 2026-11-06 갱신. 현재 공개 화면을 로컬에서 실행하고 디자인을 수정하기 위한 안내입니다. 최근 변경은 [제품 품질 검토](PRODUCT_QUALITY_REVIEW_20261106.md)를 참고하세요.
 
+2026-11-07 금융자료 재확인: [공식 금융 재검증](FINANCIAL_RECHECK_20261106.md). 날짜별 조회는 `financial-snapshots.ts`, 새 자료는 `public-data/financial-renewals.json`입니다. 기존11월3일 JSON은 역사 자료로 보존합니다. 갱신 기한을 CSS/문구 수정으로 늘리지 않습니다. 최신 전체 UI 검증은414 passed입니다.
+
 - 저장소: https://github.com/rladudwns559-cmyk/youth-life-planner
 - 공개 사이트: https://youth-life-planner.rladudwns559.chatgpt.site/
 - 구성: React + TypeScript + Vite, 일반 CSS

@@ -1,0 +1,488 @@
+[
+  {
+    "url": "https://banking.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455927_115157.jsp",
+    "status": 200,
+    "key": "bank-b31986e6d10e",
+    "length": 354387,
+    "text_chars": 17863,
+    "sha256": "d038e70b2b89e122fb19935dc59b6aa865a8bd1475a8c1504470ddfaffe106b3"
+  },
+  {
+    "url": "https://blog.ibk.co.kr/569728",
+    "status": 200,
+    "key": "bank-9c66632401f0",
+    "length": 78547,
+    "text_chars": 5872,
+    "sha256": "ec7f321cd9b704d0a2cd88e5278b96cd275d97fdc918ab1e90325f5e4bbfed6e"
+  },
+  {
+    "url": "https://image.kebhana.com/cont/download/documents/manual/0100272000301_20250728_m.pdf",
+    "status": 200,
+    "key": "bank-c5ebd42bfeb2",
+    "length": 521923,
+    "text_chars": 3,
+    "sha256": "44ee7754e764509f8e7144ba8cf7cc219476f72ecc58f37c509437f78350d7bb"
+  },
+  {
+    "url": "https://kbthink.com/saving-guide/kb-running-savings.html",
+    "status": 200,
+    "key": "bank-4bd46c6b4473",
+    "length": 103001,
+    "text_chars": 6436,
+    "sha256": "7dd4cf8565fd20d232cb7114cd608f12aaeecdab78adcc994fde4586e022db8c"
+  },
+  {
+    "url": "https://kbthink.com/savings/basics/principal-guaranteed.html",
+    "status": 200,
+    "key": "bank-42967929e0c9",
+    "length": 145670,
+    "text_chars": 19738,
+    "sha256": "cc79c02193e96e2f35a7ba2efc4b405cea3f569fdc68f7f0b1e0155c4e7af4cb"
+  },
+  {
+    "url": "https://m.kebhana.com/cont/product/s_product02/1491065_154033.jsp",
+    "status": 200,
+    "key": "bank-f94802310f9e",
+    "length": 117553,
+    "text_chars": 4117,
+    "sha256": "450aea3141411831d3999820f4563b820be699eb87f75bad70647d088bbc32b1"
+  },
+  {
+    "url": "https://m.kebhana.com/cont/product/s_product02/1491081_154033.jsp",
+    "status": 200,
+    "key": "bank-0cfeaae3fc6a",
+    "length": 187571,
+    "text_chars": 6003,
+    "sha256": "f97b4ccd76e0436d8fd39c3cfb5b2a20acd286d2a2454e67182170c62cf48f38"
+  },
+  {
+    "url": "https://m.kebhana.com/cont/product/s_product02/1491086_154033.jsp",
+    "status": 200,
+    "key": "bank-cdd1d247b996",
+    "length": 127279,
+    "text_chars": 9626,
+    "sha256": "7531acae32f8f18e985da94e5a762d727ffab5e8bd05b6cbaa8570887ab3a08d"
+  },
+  {
+    "url": "https://m.kebhana.com/cont/product/s_product02/1496576_154033.jsp",
+    "status": 200,
+    "key": "bank-3474689e6dda",
+    "length": 108949,
+    "text_chars": 2863,
+    "sha256": "d00ee3daaba6c298ec8113a94d6c7e13e3647ff3fa742c87df903649e65938ff"
+  },
+  {
+    "url": "https://m.kebhana.com/cont/product/s_product02/1504021_154033.jsp",
+    "status": 200,
+    "key": "bank-fbff661760dc",
+    "length": 116922,
+    "text_chars": 3831,
+    "sha256": "450d929f02355ed644c4ae423124c70b1a38de062420f6c84d8fa1f6178446ce"
+  },
+  {
+    "url": "https://m.kebhana.com/cont/product/s_product02/1510354_154033.jsp",
+    "status": 200,
+    "key": "bank-1df0dcdae122",
+    "length": 68714,
+    "text_chars": 2429,
+    "sha256": "4c138448c827285e86c91f3bad7a42ae143fd6b6b4615438000a189d7a272dc3"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?MENU_DIV=GNB&grcd=21&lncd=01&p_code=01211310142%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A&pdcd=0142&tmcd=131",
+    "error": "ReadTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Read timed out. (read timeout=25)",
+    "key": "bank-648c8c7b9785"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0003&tmcd=131",
+    "error": "ReadTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Read timed out. (read timeout=25)",
+    "key": "bank-f0d7920a09e9"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0068&tmcd=121",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-a013814c1f93"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0095&tmcd=121",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-bbb13bbd5d12"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0103&tmcd=121",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-203f0c101b5f"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0116&tmcd=121",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-d1dbd4c11a0d"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0121&tmcd=131",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-2457d81c7730"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0122&tmcd=121",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-03556d898ce2"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0124&tmcd=121",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-77560fe24008"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0130&tmcd=131",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-32dd2af3b95b"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0140&tmcd=131",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-b396e00b5a1b"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&tmcd=121&pdcd=0113",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-b9b1c1a7ddfc"
+  },
+  {
+    "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&tmcd=121&pdcd=0121",
+    "error": "ConnectTimeout",
+    "message": "HTTPSConnectionPool(host='mybank.ibk.co.kr', port=443): Max retries exceeded with url: /ui",
+    "key": "bank-65654b15538d"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01000938",
+    "status": 200,
+    "key": "bank-8989afa61c1e",
+    "length": 374745,
+    "text_chars": 11106,
+    "sha256": "d0c66b78724817f66fcf53aee7c2363a2768424be8d72d0b17486dc6fba888ee"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01001668",
+    "status": 200,
+    "key": "bank-5667f1696191",
+    "length": 371681,
+    "text_chars": 11199,
+    "sha256": "c13a8882e03f45db02fdd0e2715e581a73b284cdf39e1f609b6611752c02ad8d"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&page=C016613&prcode=DP01001587",
+    "status": 200,
+    "key": "bank-5bdaf866dbb5",
+    "length": 369977,
+    "text_chars": 10733,
+    "sha256": "2a97e84585ebd89a7f90f12431a2f75f922d57034ad16ddd0a7ccc26e12ae792"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP000942",
+    "status": 200,
+    "key": "bank-a380ef74a02f",
+    "length": 94312,
+    "text_chars": 6890,
+    "sha256": "503a8416050039f1c1604cd5e51fbe0b4cc02db8395ea36048a59ac47e18a807"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000014",
+    "status": 200,
+    "key": "bank-b429150a6737",
+    "length": 81605,
+    "text_chars": 3200,
+    "sha256": "b392ebe048d0bbc9aec4ac07fb2c4ecbcf3f7ec053dacbfcae931cc6c11c5399"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000029",
+    "status": 200,
+    "key": "bank-a27dbc844efb",
+    "length": 89569,
+    "text_chars": 4412,
+    "sha256": "dccf2766d414fb719eac601626321642c846ff4aba79255fdcd4550d818e6c46"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000214",
+    "status": 200,
+    "key": "bank-997e21557646",
+    "length": 82615,
+    "text_chars": 3628,
+    "sha256": "3dad46da01baaee654198c8a39cb9eb69f2beb30a3db68bd41600590b1b86d17"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000428",
+    "status": 200,
+    "key": "bank-7fb7c9ea7268",
+    "length": 93403,
+    "text_chars": 5648,
+    "sha256": "3b0e3001ec936233a4d2c2f743495b7100abd8acb31d38f0633bf23704918f5d"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000472",
+    "status": 200,
+    "key": "bank-48324afd677e",
+    "length": 98502,
+    "text_chars": 6172,
+    "sha256": "4a2635870efda1e5cbda87f802ff809efd82ce8cee88b70c843a352b12af459a"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000500",
+    "status": 200,
+    "key": "bank-d3897b9af305",
+    "length": 92568,
+    "text_chars": 5441,
+    "sha256": "1b753c126e3baafa5cc9f7d7e66067fd9c8cce4afc71074976f4330d28a7aac8"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000821",
+    "status": 200,
+    "key": "bank-4cc9917c9087",
+    "length": 107953,
+    "text_chars": 8300,
+    "sha256": "2069e31acc4168e2b261889ec2b5c514864e93feb3b5078d612b683bf3614229"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001495",
+    "status": 200,
+    "key": "bank-c5c7b70ec221",
+    "length": 98492,
+    "text_chars": 6827,
+    "sha256": "d4a1a882f1f0ef886eae8a90257db8906c150733c3f9cb87ec6a96bff963526a"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001566",
+    "status": 200,
+    "key": "bank-57d23b473441",
+    "length": 87325,
+    "text_chars": 4187,
+    "sha256": "8615e6b0abf49b11b2fc3ff6730bacef71fe7f915ca8b90c40aca5e4d9f388f0"
+  },
+  {
+    "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001632",
+    "status": 200,
+    "key": "bank-9314e6ffcecb",
+    "length": 95102,
+    "text_chars": 6406,
+    "sha256": "905df41c36d9e7f5c5c90a99e03a282cdf038e9184cd451a5935952e51ce17ac"
+  },
+  {
+    "url": "https://og.kakaobank.io/download/62b8463d-60e6-4b1f-bace-5a3e4410e69b",
+    "status": 200,
+    "key": "bank-ea803e379ff5",
+    "length": 357103,
+    "text_chars": 3,
+    "sha256": "93421f825856f16ed0a10b9b7990c0841947d131bdbf1e71a82c0a7bc934e300"
+  },
+  {
+    "url": "https://og.kakaobank.io/download/9414790d-d5aa-4ad4-8817-29579df8a272",
+    "status": 200,
+    "key": "bank-919735658852",
+    "length": 458545,
+    "text_chars": 3,
+    "sha256": "04ccb3bebc63517b82bdb8159cea81b5b8f3a20195583cf8868452fa9032c6c8"
+  },
+  {
+    "url": "https://www.kakaobank.com/products/26weeks",
+    "status": 200,
+    "key": "bank-3db34377f4e0",
+    "length": 91629,
+    "text_chars": 5038,
+    "sha256": "157fc85a806aa6f93670b45d7fde068396074b0619e441f89ec9d9d79bfc0164"
+  },
+  {
+    "url": "https://www.kakaobank.com/products/AiGoalSavings",
+    "status": 200,
+    "key": "bank-4c41fbd3e590",
+    "length": 80805,
+    "text_chars": 4759,
+    "sha256": "c5807c0fbba2b8eac79d1f8c45cd32bedb5c436d4b8d503723517244372dc012"
+  },
+  {
+    "url": "https://www.kakaobank.com/products/childsavings",
+    "status": 200,
+    "key": "bank-c75c668990a3",
+    "length": 77739,
+    "text_chars": 5076,
+    "sha256": "e607604f6bbbfe7a6638749e05735f22f7fcd75f5374f40395dbb1f9b20b2d53"
+  },
+  {
+    "url": "https://www.kakaobank.com/products/deposit",
+    "status": 200,
+    "key": "bank-8665b622e7c7",
+    "length": 78613,
+    "text_chars": 4750,
+    "sha256": "41b1a48c71fa418073b99524b8c27b4fa20c6a6768a46184e40687f1c12ba2b6"
+  },
+  {
+    "url": "https://www.kakaobank.com/products/savings",
+    "status": 200,
+    "key": "bank-ec67f56dbfd3",
+    "length": 75665,
+    "text_chars": 5116,
+    "sha256": "280faa4e5c82c737988f7e364b2364e48c4d644e6d792744c0ea9eb3d79c90e4"
+  },
+  {
+    "url": "https://www.kbanknow.com/web/product/deposit/codek-fixed?click=2023start_codek_termdeposit",
+    "error": "ReadTimeout",
+    "message": "HTTPSConnectionPool(host='www.kbanknow.com', port=443): Read timed out. (read timeout=25)",
+    "key": "bank-2aab9d7e7bb6"
+  },
+  {
+    "url": "https://www.kbanknow.com/web/product/deposit/curious-saving",
+    "error": "ReadTimeout",
+    "message": "HTTPSConnectionPool(host='www.kbanknow.com', port=443): Read timed out. (read timeout=25)",
+    "key": "bank-0dac66ef4844"
+  },
+  {
+    "url": "https://www.kbanknow.com/web/product/deposit/mykids-saving",
+    "error": "ReadTimeout",
+    "message": "HTTPSConnectionPool(host='www.kbanknow.com', port=443): Read timed out. (read timeout=25)",
+    "key": "bank-9ecb1b54310a"
+  },
+  {
+    "url": "https://www.kbanknow.com/web/product/deposit/rolling-farm",
+    "error": "ReadTimeout",
+    "message": "HTTPSConnectionPool(host='www.kbanknow.com', port=443): Read timed out. (read timeout=25)",
+    "key": "bank-6aaeafe54343"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1419598_115126.jsp",
+    "status": 200,
+    "key": "bank-421c2c727e36",
+    "length": 332782,
+    "text_chars": 12948,
+    "sha256": "3821fefd8bcbdb2411c266abdae54e433b220bef7ce4327ae85a38166bd29fd3"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1419600_115126.jsp",
+    "status": 200,
+    "key": "bank-46ab1a536be1",
+    "length": 338644,
+    "text_chars": 15699,
+    "sha256": "d686d0d88859b44ec85f313301d8099c2ac7c0da734c63087929414e2aaa588b"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1419601_115126.jsp",
+    "status": 200,
+    "key": "bank-af4c934887eb",
+    "length": 332625,
+    "text_chars": 14184,
+    "sha256": "6575d95a3d247dff6dbd4f85fa7274aab49b44a77c175d39bd6f51e021e3fd8b"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1479088_115126.jsp",
+    "status": 200,
+    "key": "bank-ca897f5f31c3",
+    "length": 326209,
+    "text_chars": 11721,
+    "sha256": "bc32cf2f43653a5d3579c7fb8d524a23b089a45e548d4f0d2af6e4effbc0bd0f"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1419754_115157.jsp",
+    "status": 200,
+    "key": "bank-e2b15d89738e",
+    "length": 345631,
+    "text_chars": 15099,
+    "sha256": "b828bb7f8aaec9341460a0e8e170f27ed40ea36058955b80fc0bb452803b8788"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1450446_115157.jsp",
+    "status": 200,
+    "key": "bank-5edfcfc719ca",
+    "length": 362923,
+    "text_chars": 20137,
+    "sha256": "b6e68b92c2d61c5411037acc494c49c0017239211fe0d0333d6822173b1ae1ca"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455928_115157.jsp",
+    "status": 200,
+    "key": "bank-cff0614c59b4",
+    "length": 348807,
+    "text_chars": 16028,
+    "sha256": "b1785f6ee3f3eab21bb013392046379a5ad856931398951f804503f027d852a6"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455929_115157.jsp",
+    "status": 200,
+    "key": "bank-003865dcccc0",
+    "length": 362921,
+    "text_chars": 20316,
+    "sha256": "155946c2874a921d21a7f3afde765eb011b6a4f0b52f65fee3102cf5f5f63199"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1486817_115157.jsp",
+    "status": 200,
+    "key": "bank-805ccad657bb",
+    "length": 338977,
+    "text_chars": 12785,
+    "sha256": "7bf3d95e4e605c04525fdb7d65598dc390d21dd7053dff2b731d7b38d1e5e3b9"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1490214_115157.jsp",
+    "status": 200,
+    "key": "bank-d95b69651ac0",
+    "length": 334026,
+    "text_chars": 14145,
+    "sha256": "90a52c56d31cb9a6ddfcd04c19ee1a53295445a1a122a7e22ebf2b7658739102"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1492538_115157.jsp",
+    "status": 200,
+    "key": "bank-0aeabca5b312",
+    "length": 340540,
+    "text_chars": 12684,
+    "sha256": "a1ecd279897856a1baee2df1e9951cee60215dd8da6a073d8b4d097b3032f99b"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1506417_115157.jsp",
+    "status": 200,
+    "key": "bank-6e2af7c46635",
+    "length": 340527,
+    "text_chars": 12768,
+    "sha256": "67d068f136a34b74bfe57baa6d40145f4e0df22d30ef811828bd8eac243089eb"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1508308_115157.jsp",
+    "status": 200,
+    "key": "bank-0c66c3a87012",
+    "length": 329325,
+    "text_chars": 12976,
+    "sha256": "a60e9304a94b4bfac3ff2f0a9a4d0134e153f9cd7b6da010c68589e519c17b0b"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1524394_115157.jsp",
+    "status": 200,
+    "key": "bank-e12d207535c5",
+    "length": 342867,
+    "text_chars": 13765,
+    "sha256": "314719141a33cd67758fdca910c2825e0f30eb302f1b6f23c41d03d1b2a3a1d2"
+  },
+  {
+    "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1528527_115157.jsp",
+    "status": 200,
+    "key": "bank-9c1a3142316a",
+    "length": 335822,
+    "text_chars": 12061,
+    "sha256": "79695f241f0bce9049715157d8b3f27488c76c8d33bf32eadbb95ebb2f3ad35e"
+  },
+  {
+    "url": "https://www.tossbank.com/articles/baby-savings-account",
+    "status": 200,
+    "key": "bank-f4d61e44fed5",
+    "length": 221048,
+    "text_chars": 5901,
+    "sha256": "4f0a117e41effa0f8b9fd40bcb2f02ed594d75232acf4cbd11965b0b14b6aac7"
+  }
+]

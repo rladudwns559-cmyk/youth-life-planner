@@ -1,0 +1,500 @@
+[
+  {
+    "id": "NOV3X-BUSAN-0160",
+    "changes": {
+      "rates": {
+        "old": [],
+        "new": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.30",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "1.55",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "1.70",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.10",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "1.75",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "1.15",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "BNK-BUSAN-ONLYONE-SAVINGS",
+    "changes": {
+      "rates": {
+        "old": [],
+        "new": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "BNK-BUSAN-BIG-SAVINGS",
+    "changes": {
+      "rates": {
+        "old": [],
+        "new": [
+          {
+            "min_months": 1,
+            "max_months": 12,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "BNK-BUSAN-CARBON-SAVINGS",
+    "changes": {
+      "rates": {
+        "old": [],
+        "new": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "KN-WITHUS",
+    "changes": {
+      "rates": {
+        "old": [
+          {
+            "min_months": 1,
+            "max_months": 5,
+            "base_rate_percent": "1.45",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 12,
+            "max_months": 35,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          }
+        ],
+        "new": [
+          {
+            "min_months": 1,
+            "max_months": 5,
+            "base_rate_percent": "1.45",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "KN-PREMIUM-DEPOSIT",
+    "changes": {
+      "rates": {
+        "old": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.55",
+            "max_total_rate_percent": "3.95"
+          },
+          {
+            "min_months": 13,
+            "max_months": 13,
+            "base_rate_percent": "2.55",
+            "max_total_rate_percent": "4.05"
+          }
+        ],
+        "new": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.55",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 13,
+            "max_months": 13,
+            "base_rate_percent": "2.55",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "NOV2-KN-HAPPYDREAM",
+    "changes": {
+      "rates": {
+        "old": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": "3.90"
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": "3.80"
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": "3.80"
+          }
+        ],
+        "new": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "NOV2-KN-MANIMANI",
+    "changes": {
+      "rates": {
+        "old": [
+          {
+            "min_months": 12,
+            "max_months": 35,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": "2.60"
+          },
+          {
+            "min_months": 36,
+            "max_months": 60,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": "2.50"
+          }
+        ],
+        "new": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 36,
+            "max_months": 47,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 48,
+            "max_months": 59,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "NOV2-KN-MUTUAL",
+    "changes": {
+      "rates": {
+        "old": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": "2.25"
+          },
+          {
+            "min_months": 12,
+            "max_months": 35,
+            "base_rate_percent": "2.45",
+            "max_total_rate_percent": "2.45"
+          },
+          {
+            "min_months": 36,
+            "max_months": 60,
+            "base_rate_percent": "2.55",
+            "max_total_rate_percent": "2.55"
+          }
+        ],
+        "new": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.45",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.45",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 36,
+            "max_months": 47,
+            "base_rate_percent": "2.55",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 48,
+            "max_months": 59,
+            "base_rate_percent": "2.55",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.55",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "NOV2-KN-GOAL",
+    "changes": {
+      "rates": {
+        "old": [
+          {
+            "min_months": 12,
+            "max_months": 36,
+            "base_rate_percent": "1.45",
+            "max_total_rate_percent": "4.30"
+          }
+        ],
+        "new": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "1.45",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "1.45",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "1.45",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "NOV2-KN-JUNIOR",
+    "changes": {
+      "rates": {
+        "old": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": "4.00"
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.70",
+            "max_total_rate_percent": "4.10"
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": "4.20"
+          }
+        ],
+        "new": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.70",
+            "max_total_rate_percent": null
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "KJB-MIZ",
+    "changes": {
+      "rates": {
+        "old": [],
+        "new": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.31",
+            "max_total_rate_percent": "3.51"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "NOV2-KJ-FC",
+    "changes": {
+      "rates": {
+        "old": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": "3.50"
+          }
+        ],
+        "new": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": null
+          }
+        ]
+      }
+    }
+  }
+]

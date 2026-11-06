@@ -22,7 +22,7 @@
 
 공개 사이트는 준비된 데이터를 쓰는 프런트엔드입니다. Python API와 로컬 LLM이 상시 운영되는 배포가 아니며, 자동 정보 갱신·상시 푸시는 현재 공개 서비스에서 제공하지 않습니다.
 
-추천 카드의 순서는 전액 납입 가능성→같은 상품 종류·기간의 검증된 기본금리입니다. 우대 최고금리나 실제 만기금액 순위로 표시하지 않습니다. 상세한 변경·공식 출처·공개 화면 검증은 [최신 공식 정보 확대 기록](docs/OFFICIAL_CATALOG_EXTENSION_20261103.md)을 참고하세요. 현재 금융 추천 snapshot은 2026-11-06까지 유효하며 이후 재확인 전에는 최신 추천을 제공하지 않습니다.
+추천 카드의 순서는 전액 납입 가능성→같은 상품 종류·기간의 검증된 기본금리입니다. 우대 최고금리나 실제 만기금액 순위로 표시하지 않습니다. 2026-11-06 공식 자료로108개 상품·가입유형을 재확인했고57개에서 기본금리 근거를 확보했습니다. 입력 조건과 보류 사유에 따라 추천 후보 수는 달라집니다. 재확인 상품은11월13일까지, 미갱신 과거 자료는 기존11월6일 기한을 적용합니다. 만료·판매 미확인·종료 상품은 추천하지 않습니다. [최신 금융 재검증 기록](docs/FINANCIAL_RECHECK_20261106.md) · [반복 점검 절차](docs/FINANCIAL_RECHECK_WORKFLOW.md).
 
 ## 데이터와 계산
 
@@ -66,7 +66,7 @@ corepack pnpm dev
 
 ## 검증
 
-2026-11-06 원본 Backend 12,820 passed / 1 skipped / 1 warning, 공개 복사본 Frontend 406 passed 및 TypeScript/Vite build 성공을 확인했습니다. 검증 범위는 [PUBLICATION.md](docs/PUBLICATION.md)에 별도로 기록합니다.
+2026-11-07 공개 복사본 Backend 12,875 passed / 1 skipped / 1 warning, Frontend 414 passed 및 TypeScript/Vite build 성공을 확인했습니다. 원본과 배포 대상 변경 파일의 내용도 대조했습니다. 검증 범위는 [PUBLICATION.md](docs/PUBLICATION.md)에 별도로 기록합니다.
 
 ~~~powershell
 .\.venv\Scripts\python.exe -m pytest -q

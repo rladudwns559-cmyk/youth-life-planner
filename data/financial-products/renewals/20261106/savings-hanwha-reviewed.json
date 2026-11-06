@@ -1,0 +1,1365 @@
+{
+  "checked_on": "2026-11-06",
+  "updates": [
+    {
+      "product": {
+        "product_id": "HANWHA-MYMO-SAVINGS",
+        "institution": "한화저축은행",
+        "product_name": "Mymo 정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "매월 일정액,1만원 이상 정액적립식",
+        "term_note": "공식기간 6~60개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+        "features": [
+          "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "공식 표기 기준일이 과거여서 신규가입 적용금리 추가 확인. 현재 추천 금리 비교에서 보류",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=94",
+            "title": "한화저축은행 Mymo 정기적금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2024-01-03",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [
+          "DISC-86a9892e9ccd29bd"
+        ],
+        "comparison_hold_reason": "상한 및 복합 납입조건 추가 확인 필요",
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-MYMO-SAVINGS",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=94",
+            "title": "한화저축은행 Mymo 정기적금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2024-01-03",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 9212bc28a8fb141c3e41acf1fcaacf0220d5c423fd2c027a164fbe67ce83746f. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-EBANK-SAVINGS",
+        "institution": "한화저축은행",
+        "product_name": "e뱅킹 정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "정액1만원 이상; 자유식은 본인 계약금액의 매월10%이내. 동일 상품 내 방식 중복계산 금지",
+        "term_note": "공식기간 6~60개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+        "features": [
+          "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류",
+          "공식 금리표 기준2022-12-01로 오래되어 숫자 노출 보류"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "정액식과 자유식 금리가 다르며 현재 입력에서 납입방식이 미확정. 정액식 열은 참고용으로만 표시",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=24",
+            "title": "한화저축은행 e뱅킹 정기적금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2022-12-01",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [
+          "DISC-6fa846f3b88e7de9"
+        ],
+        "comparison_hold_reason": "상한 및 복합 납입조건 추가 확인 필요",
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-EBANK-SAVINGS",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=24",
+            "title": "한화저축은행 e뱅킹 정기적금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2022-12-01",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 e1e2ddc2b6e91be856d6d7b1de84fbd106a95498702d0358f9a59d7b9f372c8f. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-FAMILY-SAVINGS",
+        "institution": "한화저축은행",
+        "product_name": "한화가족사랑 정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "정액1만원 이상; 자유식은 본인 계약금액의 매월10%이내. 방식별별도상품으로 부풀리지 않음",
+        "term_note": "공식기간 6~60개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "제한없음",
+        "features": [
+          "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류",
+          "공식 금리표 기준2022-12-01로 오래되어 숫자 노출 보류"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "정액식과 자유식 금리가 다르며 현재 입력에서 납입방식이 미확정. 정액식 열은 참고용으로만 표시",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=74",
+            "title": "한화저축은행 한화가족사랑 정기적금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2022-12-01",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [
+          "DISC-0052dedf23bc076c"
+        ],
+        "comparison_hold_reason": "상한 및 복합 납입조건 추가 확인 필요",
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-FAMILY-SAVINGS",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=74",
+            "title": "한화저축은행 한화가족사랑 정기적금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2022-12-01",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 d62e094cf05d6a534f4cbc857c1ca15b8973db3b3ef94307421a490aec328dde. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-FAMILY-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "한화가족사랑 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 24,
+        "allowed_months": null,
+        "payment_note": "목돈10만원 이상,월·일단위 계약",
+        "term_note": "공식기간 1~24개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "제한없음",
+        "features": [
+          "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=27",
+            "title": "한화저축은행 한화가족사랑 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-FAMILY-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=27",
+            "title": "한화저축은행 한화가족사랑 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 83a6d8fe8740ebc687d596eac27c2aad3eb79a3032489670bb348165fb636d0f. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-AUTO-RENEW-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "한화자동연장 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 24,
+        "allowed_months": null,
+        "payment_note": "목돈10만원 이상; 동일상품 최대3회 자동연장",
+        "term_note": "공식기간 1~24개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "제한없음",
+        "features": [
+          "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.95",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.95",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=29",
+            "title": "한화저축은행 한화자동연장 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-AUTO-RENEW-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.95",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.95",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=29",
+            "title": "한화저축은행 한화자동연장 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 1c2893483a57370754458414deacca7ee8a29f8b9155937f8fac6c24ee63945c. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-EBANK-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "e뱅킹 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 24,
+        "allowed_months": null,
+        "payment_note": "목돈10만원 이상; 월·일단위 계약",
+        "term_note": "공식기간 1~24개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+        "features": [
+          "최대 가입금액 미기재, 공식 무제한 문구 미확인으로 실제금액 비교 보류"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=33",
+            "title": "한화저축은행 e뱅킹 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-EBANK-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=33",
+            "title": "한화저축은행 e뱅킹 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 20be6fbc66e48f59be99fa3b841a22bd2d6f669b5262828d8137aae06cd3da3a. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-E-ROTATE3-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "한화 e-회전(3개월) 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 24,
+        "max_months": 24,
+        "allowed_months": [
+          24
+        ],
+        "payment_note": "10만원 이상 일시 예치. 매3개월 회전금리, 계약기간과 회전주기 구분.",
+        "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+        "features": [
+          "회전주기3개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "회전시점에 금리 재결정; 최초 주기 금리만을 전체기간 확정금리로 추천하지 않음",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=87",
+            "title": "한화저축은행 한화 e-회전(3개월) 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-E-ROTATE3-DEPOSIT",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=87",
+            "title": "한화저축은행 한화 e-회전(3개월) 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류; 회전주기별 변동금리를 전체 계약기간 고정금리로 사용하지 않음"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 9d9a72fe33092aacc16cebf09335cc78561ef856ed1ac067473a609b82bfea60. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-E-ROTATE6-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "한화 e-회전(6개월) 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 24,
+        "max_months": 24,
+        "allowed_months": [
+          24
+        ],
+        "payment_note": "10만원 이상 일시 예치. 매6개월 회전금리, 계약기간과 회전주기 구분.",
+        "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+        "features": [
+          "회전주기6개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "회전시점에 금리 재결정; 최초 주기 금리만을 전체기간 확정금리로 추천하지 않음",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=89",
+            "title": "한화저축은행 한화 e-회전(6개월) 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-E-ROTATE6-DEPOSIT",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=89",
+            "title": "한화저축은행 한화 e-회전(6개월) 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류; 회전주기별 변동금리를 전체 계약기간 고정금리로 사용하지 않음"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 d6434d7a330f9b3942dde89b896d0354cdee04b1b6982e93ff5abfa86ddf43f4. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-E-ROTATE12-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "한화 e-회전 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 36,
+        "max_months": 36,
+        "allowed_months": [
+          36
+        ],
+        "payment_note": "10만원 이상 일시 예치. 매12개월 회전금리, 계약기간과 회전주기 구분.",
+        "term_note": "공식 계약기간 36개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+        "features": [
+          "회전주기12개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "회전시점에 금리 재결정; 최초 주기 금리만을 전체기간 확정금리로 추천하지 않음",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=91",
+            "title": "한화저축은행 한화 e-회전 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-E-ROTATE12-DEPOSIT",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=91",
+            "title": "한화저축은행 한화 e-회전 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류; 회전주기별 변동금리를 전체 계약기간 고정금리로 사용하지 않음"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 1bf12905d4dffe81e4f96472e4245d913f2d704e5f4b591291c7878ebfefccab. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-ROTATE3-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "한화회전(3개월) 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 24,
+        "max_months": 24,
+        "allowed_months": [
+          24
+        ],
+        "payment_note": "10만원 이상 일시 예치. 매3개월 회전금리, 계약기간과 회전주기 구분.",
+        "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "제한없음",
+        "features": [
+          "회전주기3개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "회전시점에 금리 재결정; 최초 주기 금리만을 전체기간 확정금리로 추천하지 않음",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=83",
+            "title": "한화저축은행 한화회전(3개월) 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-ROTATE3-DEPOSIT",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=83",
+            "title": "한화저축은행 한화회전(3개월) 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류; 회전주기별 변동금리를 전체 계약기간 고정금리로 사용하지 않음"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 834b352b41a1b67d89c82e35e68c8dfa8a5b78e7fcb8d0503276ef3ae6b8d687. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-ROTATE6-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "한화회전(6개월) 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 24,
+        "max_months": 24,
+        "allowed_months": [
+          24
+        ],
+        "payment_note": "10만원 이상 일시 예치. 매6개월 회전금리, 계약기간과 회전주기 구분.",
+        "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "제한없음",
+        "features": [
+          "회전주기6개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "회전시점에 금리 재결정; 최초 주기 금리만을 전체기간 확정금리로 추천하지 않음",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=85",
+            "title": "한화저축은행 한화회전(6개월) 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-ROTATE6-DEPOSIT",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=85",
+            "title": "한화저축은행 한화회전(6개월) 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류; 회전주기별 변동금리를 전체 계약기간 고정금리로 사용하지 않음"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 c2572ad3048880bb6440780e06d808bedd6273adbbd3e8ce02bf2207542f4284. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-ROTATE12-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "한화회전 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 36,
+        "max_months": 36,
+        "allowed_months": [
+          36
+        ],
+        "payment_note": "10만원 이상 일시 예치. 매12개월 회전금리, 계약기간과 회전주기 구분.",
+        "term_note": "공식 계약기간 36개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "제한없음",
+        "features": [
+          "회전주기12개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "회전시점에 금리 재결정; 최초 주기 금리만을 전체기간 확정금리로 추천하지 않음",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=31",
+            "title": "한화저축은행 한화회전 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-ROTATE12-DEPOSIT",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=31",
+            "title": "한화저축은행 한화회전 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류; 회전주기별 변동금리를 전체 계약기간 고정금리로 사용하지 않음"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 0ca63dd350a2145954bfdf40377030c2842746f7a9313637864d3efd6d62f855. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-MYMO-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "Mymo 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 24,
+        "allowed_months": null,
+        "payment_note": "10만원 이상 일시 예치. 월 또는 일단위 계약.",
+        "term_note": "공식 계약기간 1~24개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+        "features": [
+          "확정금리 예금; 가입일 실제 금리 확인"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=95",
+            "title": "한화저축은행 Mymo 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-MYMO-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 금리정보 표의 단리이율. 복리 연수익률과 혼동하지 않으며, 별도 우대조건이 있어 최고금리 미확인으로 남김."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=95",
+            "title": "한화저축은행 Mymo 정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 ed2b43cfa73afe19b85e2f5c827b2e49e508496e5459bc1a76c2d046eeb3695c. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-MYMO-ROTATE6-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "Mymo 회전정기예금 (6개월)",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 24,
+        "max_months": 24,
+        "allowed_months": [
+          24
+        ],
+        "payment_note": "10만원 이상 일시 예치. 매6개월 회전금리, 계약기간과 회전주기 구분.",
+        "term_note": "공식 계약기간 24개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+        "features": [
+          "회전주기6개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "회전시점에 금리 재결정; 최초 주기 금리만을 전체기간 확정금리로 추천하지 않음",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=97",
+            "title": "한화저축은행 Mymo 회전정기예금 (6개월) 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-MYMO-ROTATE6-DEPOSIT",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=97",
+            "title": "한화저축은행 Mymo 회전정기예금 (6개월) 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류; 회전주기별 변동금리를 전체 계약기간 고정금리로 사용하지 않음"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 bae4083cd87de923e4c326dea1b36c0e2c9883dbdc55071f3754812e88ad6441. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    },
+    {
+      "product": {
+        "product_id": "HANWHA-MYMO-ROTATE12-DEPOSIT",
+        "institution": "한화저축은행",
+        "product_name": "Mymo 회전정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 36,
+        "max_months": 36,
+        "allowed_months": [
+          36
+        ],
+        "payment_note": "10만원 이상 일시 예치. 매12개월 회전금리, 계약기간과 회전주기 구분.",
+        "term_note": "공식 계약기간 36개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "인터넷뱅킹·비대면 가입 고객",
+        "features": [
+          "회전주기12개월마다 금리 변경; 전체 기간 고정수익 보장 아님"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "회전시점에 금리 재결정; 최초 주기 금리만을 전체기간 확정금리로 추천하지 않음",
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "공식 은행 안내에서 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": true,
+        "reference_reason": "상한 미기재를 무제한으로 추정하지 않아 금액 비교 보류",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=99",
+            "title": "한화저축은행 Mymo 회전정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "HANWHA-MYMO-ROTATE12-DEPOSIT",
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=99",
+            "title": "한화저축은행 Mymo 회전정기예금 현재 공식 상품공시",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200, 현재 상품공시 메뉴 연결·가입대상/기간/금액·금리정보 표 대조. 납입상한은 명시되지 않아 UNKNOWN 유지. 일부 설명에 이스케이프된 HTML 태그/다른 납입유형 문구가 섞여 있어 우대·복합조건은 추가 확인."
+          }
+        ],
+        "excluded_reason": "현재 원문의 최대 가입한도와 복합조건을 확정하지 못해 금액·기간 및 금리 추천은 보류; 회전주기별 변동금리를 전체 계약기간 고정금리로 사용하지 않음"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-06, HTTP200, SHA256 7cd3a9c63de603af5d97f0270b75945c3216bcdff7cc74522e039027eb2d86c8. 현재 안내가 있어도 최종 계좌개설 및 당일 잔여한도 보증은 아님.",
+      "change_notes": [
+        "원문 상한 미확인 유지. 우대조건이 별도 존재해 최고금리=기본금리로 확정하던 표시는 미확인으로 정정."
+      ]
+    }
+  ],
+  "holds": []
+}

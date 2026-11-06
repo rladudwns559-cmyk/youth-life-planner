@@ -1,0 +1,2882 @@
+{
+  "checked_on": "2026-11-06",
+  "updates": [
+    {
+      "product": {
+        "product_id": "KAKAO-FREE-SAVINGS",
+        "institution": "카카오뱅크",
+        "product_name": "카카오뱅크 자유적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 1000,
+        "maximum": 3000000,
+        "maximum_kind": "KNOWN",
+        "min_months": 6,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+        "term_note": "공식 가입기간 6~36개월(월·일 단위). 여기서는 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "만14세 이상 실명의 내국인,1인당52계좌까지. 본인명의 카카오뱅크 입출금통장으로 납입. 실제 가입자격은 추가확인.",
+        "features": [
+          "표시 최고금리는 기본금리에 공개된 자동이체 우대 0.20%p를 더한 조건부 값입니다. 개별 쿠폰 제외."
+        ],
+        "preferential_conditions": [
+          "계약월수 절반 이상을 매월 자동이체로 납입하고 만기 해지 시 연 0.20%p 우대. 자동연장 원리금 제외."
+        ],
+        "required_checks": [
+          "사용자의 실제 가입 자격",
+          "우대조건 실제 충족 여부",
+          "검증된 날짜별 만기 계산 계약",
+          "납입 단위 세칙"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kakaobank.com/products/savings",
+            "title": "카카오뱅크 카카오뱅크 자유적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KAKAO-FREE-SAVINGS",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kakaobank.com/products/savings",
+            "title": "카카오뱅크 카카오뱅크 자유적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인.",
+      "change_notes": [
+        "eligibility_note 재확인/표현 갱신",
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KAKAO-DEPOSIT",
+        "institution": "카카오뱅크",
+        "product_name": "카카오뱅크 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 1000000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "한 번에 100만원 이상 예치. 공식 FAQ에 최대 가입금액 제한 없음으로 안내.",
+        "term_note": "1~36개월, 월/일 단위. 실제 만기일은 은행에서 확인.",
+        "eligibility_note": "실명의 개인의 계좌 개설 요건 별도 확인.",
+        "features": [
+          "긴급출금 최대 2회; 출금 후 최소 잔액 100만원 유지 조건."
+        ],
+        "preferential_conditions": [
+          "금리쿠폰 적용 여부·자동연장 조건은 별도 확인."
+        ],
+        "required_checks": [
+          "현재 판매 여부",
+          "가입 대상·계좌 개설 요건",
+          "가입일 금리와 우대조건"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "3.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kakaobank.com/products/deposit",
+            "title": "카카오뱅크 카카오뱅크 정기예금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KAKAO-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "3.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kakaobank.com/products/deposit",
+            "title": "카카오뱅크 카카오뱅크 정기예금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KBANK-CODEK-SAVINGS",
+        "institution": "케이뱅크",
+        "product_name": "코드K 자유적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 1000,
+        "maximum": 300000,
+        "maximum_kind": "KNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": [
+          1,
+          3,
+          6,
+          12,
+          24,
+          36
+        ],
+        "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+        "term_note": "공식 가입기간은 1·3·6·12·24·36개월입니다. 1~36개월의 모든 개월 수로 확대하지 않습니다.",
+        "eligibility_note": "공식 대상은 만 17세 이상 실명의 개인·개인사업자, 본인 명의 케이뱅크 입출금통장을 통해 납입. 실제 가입 자격 미판정.",
+        "features": [
+          "공식 기간별 기본금리를 표시합니다. 개별 우대코드 가산은 미반영."
+        ],
+        "preferential_conditions": [
+          "이벤트 우대코드는 진행 여부·개인 코드가 확인되지 않아 표시 최고금리에 반영하지 않습니다."
+        ],
+        "required_checks": [
+          "공식 원문 시간초과로 이번 재확인 미완료",
+          "사용자의 실제 가입 자격",
+          "우대조건 실제 충족 여부",
+          "검증된 날짜별 만기 계산 계약"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": "2.90",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.10",
+            "max_total_rate_percent": "3.10",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": "3.60",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.80",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": "3.20",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": "3.20",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kbanknow.com/web/product/deposit/codek-saving",
+            "title": "케이뱅크 코드K 자유적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-03",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KBANK-CODEK-SAVINGS",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": "2.90",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.10",
+            "max_total_rate_percent": "3.10",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": "3.60",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.80",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": "3.20",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": "3.20",
+            "evidence_locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kbanknow.com/web/product/deposit/codek-saving",
+            "title": "케이뱅크 코드K 자유적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-03",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 예적금 메뉴에 링크된 상품상세·상품요약·금리안내. 만17세이상 개인/개인사업자,월1000~30만원,1·3·6·12·24·36개월. 게시 조회기준2026.11.03 기간별 기본금리와 최고금리를 분리하여11월6일 재확인.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KBANK-PRIMARY-SAVINGS",
+        "institution": "케이뱅크",
+        "product_name": "주거래우대 자유적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 1000,
+        "maximum": 3000000,
+        "maximum_kind": "KNOWN",
+        "min_months": 6,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+        "term_note": "6~36개월. 실제 금리는 계약 일수(180/365/730/1095일)로 판정하므로 은행에서 계약일수를 재확인하세요.",
+        "eligibility_note": "만17세 이상 실명의 개인 및 개인사업자,1인 최대3계좌. 본인명의 케이뱅크 입출금통장으로 납입. 실제 가입자격은 추가확인.",
+        "features": [
+          "정수 개월 구간에 해당하는 공시 기본·최고금리를 안내하며 실제 날짜별 금액은 계산하지 않습니다."
+        ],
+        "preferential_conditions": [
+          "급여이체 또는 지정 통신비 자동이체 실적 3개월 이상: 연 0.30%p.",
+          "케이뱅크 체크카드 월 20만원 이상 실적 3개월 이상: 연 0.30%p. 실적 인정기간 등 세부 조건 및 만기 해지 필요."
+        ],
+        "required_checks": [
+          "공식 원문 시간초과·실제 계약일수 기준 확인 미완료",
+          "사용자의 실제 가입 자격",
+          "우대조건 실제 충족 여부",
+          "검증된 날짜별 만기 계산 계약",
+          "납입 단위 세칙",
+          "실제 계약 일수"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": "3.90",
+            "evidence_locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": "4.30",
+            "evidence_locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": "4.10",
+            "evidence_locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": "4.10",
+            "evidence_locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kbanknow.com/web/product/deposit/primary-saving",
+            "title": "케이뱅크 주거래우대 자유적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-03",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KBANK-PRIMARY-SAVINGS",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": "3.90",
+            "evidence_locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": "4.30",
+            "evidence_locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": "4.10",
+            "evidence_locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": "4.10",
+            "evidence_locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kbanknow.com/web/product/deposit/primary-saving",
+            "title": "케이뱅크 주거래우대 자유적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-03",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 예적금 메뉴와 상품상세. 만17세이상 개인/개인사업자,월1000~300만원,6~36개월,1인최대3계좌. 게시조회기준2026.11.03 기간별 기본금리/조건부최고 별도. 일단위 계약·일수기준 금리 구간임을 보존; 실제 날짜별 금액계산 아님.",
+      "change_notes": [
+        "eligibility_note 재확인/표현 갱신",
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KBANK-DEPOSIT",
+        "institution": "케이뱅크",
+        "product_name": "코드K 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 1000000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "한 번에 100만원 이상 예치. 한도 없는 금액으로 안내.",
+        "term_note": "1~36개월.",
+        "eligibility_note": "만 17세 이상 실명의 개인 및 개인사업자 안내.",
+        "features": [
+          "가입 후 14일 이내 금리보장서비스·부분인출 조건 확인."
+        ],
+        "preferential_conditions": [
+          "일반 우대조건과 별도로 금리보장서비스 적용 요건 확인."
+        ],
+        "required_checks": [
+          "현재 판매 여부",
+          "가입 대상·계좌 개설 요건",
+          "가입일 금리와 우대조건"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.40",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.61",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.15",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kbanknow.com/web/product/deposit/codek-fixed",
+            "title": "케이뱅크 코드K 정기예금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-03",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KBANK-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.40",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.61",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.15",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kbanknow.com/web/product/deposit/codek-fixed",
+            "title": "케이뱅크 코드K 정기예금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-03",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 예적금 메뉴에서 직접 이동한 코드K 정기예금. 만17세이상 개인/개인사업자,100만원이상 무제한,1~36개월. 게시조회기준2026.11.03 기간별 기본금리와30/90/180/365/730/1095일 구간,14일 금리보장 서비스 안내를 확인. 실제 날짜별 이자계산 아님.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KB-MY-SAVING",
+        "institution": "KB국민은행",
+        "product_name": "KB내맘대로적금 · 자유적립식",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": 3000000,
+        "maximum_kind": "KNOWN",
+        "min_months": 6,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "자유적립식은 매월 1만원~300만원. 정액적립식은 별도 조건을 확인하세요.",
+        "term_note": "6~36개월 범위. 월 단위 계약 조건을 은행에서 확인합니다.",
+        "eligibility_note": "만 14세 이상 실명의 개인. 공동명의 불가; 자유적립식은 1인 최대 5계좌 안내.",
+        "features": [
+          "납입 방식과 우대 항목을 선택하는 상품입니다."
+        ],
+        "preferential_conditions": [
+          "선택한 우대 항목의 세부 충족 기준과 적용 금리는 공식 안내에서 확인합니다."
+        ],
+        "required_checks": [
+          "현재 판매 여부",
+          "가입 대상·계좌 개설 요건",
+          "가입일 금리와 우대조건"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000821",
+            "title": "KB국민은행 KB내맘대로적금 · 자유적립식 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KB-MY-SAVING",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000821",
+            "title": "KB국민은행 KB내맘대로적금 · 자유적립식 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "가입대상·저축금액·계약기간과2026.11.06 기본이율 표. HTML table summary=KB내맘대로적금(자유) 구분의 첫 표만 적용; 별도 정액표2.30/2.55/2.75/2.95와 혼동하지 않음. 현재 가입하기 안내 확인.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KB-PREMIUM-FIXED",
+        "institution": "KB국민은행",
+        "product_name": "KB국민프리미엄적금 · 정액적립식",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": 3000000,
+        "maximum_kind": "KNOWN",
+        "min_months": 12,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "월 단위 납입 조건입니다. 매월 약정액 납입. 자유형을 별도 상품으로 중복 집계하지 않음.",
+        "term_note": "12~60개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+        "eligibility_note": "실명의 개인, 자유형 포함 1인 1계좌",
+        "features": [
+          "공식 상품안내 색인·2026-06-05 보호등록부 중단일 공란 확인.",
+          "매월 약정액 납입. 자유형을 별도 상품으로 중복 집계하지 않음."
+        ],
+        "preferential_conditions": [
+          "단체가입·병역명문가 등 조건 증빙"
+        ],
+        "required_checks": [
+          "실제 가입 대상 및 계좌 수·고객당 합산한도",
+          "최신 금리 및 우대조건 충족 여부",
+          "최초·추가 납입과 납입일 조건"
+        ],
+        "channels": [
+          "인터넷·KB스타뱅킹"
+        ],
+        "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.75",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.95",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 59,
+            "base_rate_percent": "3.05",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "3.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000428",
+            "title": "KB국민은행 KB국민프리미엄적금 · 정액적립식 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KB-PREMIUM-FIXED",
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.75",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.95",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 59,
+            "base_rate_percent": "3.05",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "3.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000428",
+            "title": "KB국민은행 KB국민프리미엄적금 · 정액적립식 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "가입대상·정액적립식 월1만~300만원·12~60개월 및2026.11.06 기간별 기본이율 표. 현재 가입하기 안내 확인.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KB-SPECIAL-STAR",
+        "institution": "KB국민은행",
+        "product_name": "KB 특★한 적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 1000,
+        "maximum": 300000,
+        "maximum_kind": "KNOWN",
+        "min_months": 1,
+        "max_months": 6,
+        "allowed_months": null,
+        "payment_note": "월 단위 납입 조건입니다. 월·일 단위 계약, 만기일 1회 변경 규칙 별도.",
+        "term_note": "1~6개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+        "eligibility_note": "실명의 개인 1인 3계좌. 개인사업자·임의단체·공동명의 제외.",
+        "features": [
+          "공식 상품가입 색인·2026-06-05 보호등록부 판매중단일 공란.",
+          "월·일 단위 계약, 만기일 1회 변경 규칙 별도."
+        ],
+        "preferential_conditions": [
+          "전용화면 별 모으기·쿠폰 등 개별 조건"
+        ],
+        "required_checks": [
+          "실제 가입 대상 및 계좌 수·고객당 합산한도",
+          "최신 금리 및 우대조건 충족 여부",
+          "최초·추가 납입과 납입일 조건"
+        ],
+        "channels": [
+          "KB스타뱅킹"
+        ],
+        "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 6,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001566",
+            "title": "KB국민은행 KB 특★한 적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KB-SPECIAL-STAR",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 6,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001566",
+            "title": "KB국민은행 KB 특★한 적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KB-MY-SAVINGS",
+        "institution": "KB국민은행",
+        "product_name": "KB나만의 적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": 1000000,
+        "maximum_kind": "KNOWN",
+        "min_months": 3,
+        "max_months": 12,
+        "allowed_months": null,
+        "payment_note": "월 단위 납입 조건입니다. 패키지형 자유적립식, 월·일 단위 계약. KB내맘대로적금과 다른 상품입니다.",
+        "term_note": "3~12개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+        "eligibility_note": "실명의 개인·개인사업자 등, 공동명의 불가, 1인 2계좌",
+        "features": [
+          "공식 상품가입 색인·출시안내·2026-06-05 보호등록부 확인.",
+          "패키지형 자유적립식, 월·일 단위 계약. KB내맘대로적금과 다른 상품입니다."
+        ],
+        "preferential_conditions": [
+          "패키지 1개·선택 우대 2개 선택. 급여·평잔·카드 실적 등 개별 확인."
+        ],
+        "required_checks": [
+          "실제 가입 대상 및 계좌 수·고객당 합산한도",
+          "최신 금리 및 우대조건 충족 여부",
+          "최초·추가 납입과 납입일 조건"
+        ],
+        "channels": [
+          "KB스타뱅킹·영업점"
+        ],
+        "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 3,
+            "max_months": 11,
+            "base_rate_percent": "1.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001632",
+            "title": "KB국민은행 KB나만의 적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KB-MY-SAVINGS",
+        "rates": [
+          {
+            "min_months": 3,
+            "max_months": 11,
+            "base_rate_percent": "1.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001632",
+            "title": "KB국민은행 KB나만의 적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KB-CLEAR-SKY",
+        "institution": "KB국민은행",
+        "product_name": "KB맑은하늘적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": 1000000,
+        "maximum_kind": "KNOWN",
+        "min_months": 12,
+        "max_months": 36,
+        "allowed_months": [
+          12,
+          24,
+          36
+        ],
+        "payment_note": "매월 1만원~100만원을 원 단위로 자유롭게 납입.",
+        "term_note": "1년·2년·3년 중 선택.",
+        "eligibility_note": "실명의 개인. 공동명의 불가; 1인 3계좌까지 안내.",
+        "features": [
+          "생활 속 친환경 실천 관련 우대 항목이 있는 적금입니다."
+        ],
+        "preferential_conditions": [
+          "전자 서식·환경 실천 등 우대 항목별 요건을 가입 시 확인합니다."
+        ],
+        "required_checks": [
+          "현재 판매 여부",
+          "가입 대상·계좌 개설 요건",
+          "가입일 금리와 우대조건"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.65",
+            "max_total_rate_percent": "3.45",
+            "evidence_locator": "현재 가입하기 안내와 상품정보. 실명개인·개인사업자/서류미제출임의단체가능,1인3계좌,월1만~100만원,12/24/36개월. 조회일기준 최종이율 표의 최저연이율만 기본으로사용; 최고는미션모두충족시에만적용."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.75",
+            "max_total_rate_percent": "3.65",
+            "evidence_locator": "현재 가입하기 안내와 상품정보. 실명개인·개인사업자/서류미제출임의단체가능,1인3계좌,월1만~100만원,12/24/36개월. 조회일기준 최종이율 표의 최저연이율만 기본으로사용; 최고는미션모두충족시에만적용."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.05",
+            "max_total_rate_percent": "4.05",
+            "evidence_locator": "현재 가입하기 안내와 상품정보. 실명개인·개인사업자/서류미제출임의단체가능,1인3계좌,월1만~100만원,12/24/36개월. 조회일기준 최종이율 표의 최저연이율만 기본으로사용; 최고는미션모두충족시에만적용."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP000942",
+            "title": "KB국민은행 KB맑은하늘적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보. 실명개인·개인사업자/서류미제출임의단체가능,1인3계좌,월1만~100만원,12/24/36개월. 조회일기준 최종이율 표의 최저연이율만 기본으로사용; 최고는미션모두충족시에만적용."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KB-CLEAR-SKY",
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "2.65",
+            "max_total_rate_percent": "3.45",
+            "evidence_locator": "현재 가입하기 안내와 상품정보. 실명개인·개인사업자/서류미제출임의단체가능,1인3계좌,월1만~100만원,12/24/36개월. 조회일기준 최종이율 표의 최저연이율만 기본으로사용; 최고는미션모두충족시에만적용."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.75",
+            "max_total_rate_percent": "3.65",
+            "evidence_locator": "현재 가입하기 안내와 상품정보. 실명개인·개인사업자/서류미제출임의단체가능,1인3계좌,월1만~100만원,12/24/36개월. 조회일기준 최종이율 표의 최저연이율만 기본으로사용; 최고는미션모두충족시에만적용."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.05",
+            "max_total_rate_percent": "4.05",
+            "evidence_locator": "현재 가입하기 안내와 상품정보. 실명개인·개인사업자/서류미제출임의단체가능,1인3계좌,월1만~100만원,12/24/36개월. 조회일기준 최종이율 표의 최저연이율만 기본으로사용; 최고는미션모두충족시에만적용."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP000942",
+            "title": "KB국민은행 KB맑은하늘적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보. 실명개인·개인사업자/서류미제출임의단체가능,1인3계좌,월1만~100만원,12/24/36개월. 조회일기준 최종이율 표의 최저연이율만 기본으로사용; 최고는미션모두충족시에만적용."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 가입하기 안내와 상품정보. 실명개인·개인사업자/서류미제출임의단체가능,1인3계좌,월1만~100만원,12/24/36개월. 조회일기준 최종이율 표의 최저연이율만 기본으로사용; 최고는미션모두충족시에만적용.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "NOV2-KB-CARD",
+        "institution": "KB국민은행",
+        "product_name": "KB카드쓰담적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": 300000,
+        "maximum_kind": "KNOWN",
+        "min_months": 6,
+        "max_months": 6,
+        "allowed_months": null,
+        "payment_note": "월 납입액 10,000원 이상 300,000원 이하",
+        "term_note": "6개월",
+        "eligibility_note": "실명의 개인,1인1계좌; 개인사업자·임의단체·공동명의 불가",
+        "features": [
+          "자유적립식,6개월",
+          "판매2026.08.21~2027.08.17,10만좌 한정. 카드 연회비·추가지출은 별도 비교"
+        ],
+        "preferential_conditions": [
+          "직전6개월 KB개인신용카드 결제실적 없음·가입월부터2개월경과월말까지 합산10만원 결제·만기3영업일전까지 은행경유발급 카드 보유와 KB결제계좌·선택동의2종 모두 충족 시 연6.00%p",
+          "신규금액 출금계좌 월평균잔액50만원 이상월1회 연1.00%p 또는100만원이상 연2.00%p",
+          "최근1년 급여입금실적 없는 고객이 인정급여1회이상 수령 시 연2.00%p"
+        ],
+        "required_checks": [
+          "실제 가입 자격·현재 판매 및 남은 한도",
+          "우대조건 충족·지연납입·원 미만 처리와 실제 만기 계산 규칙",
+          "판매기간2026.8.21~2027.8.17 및 10만좌 잔여 한도·가입당일 신규취급 확인. 한도소진시 별도 안내 없이 판매종료."
+        ],
+        "channels": [
+          "영업점·인터넷/모바일 등 공식 페이지의 가입 경로 확인"
+        ],
+        "early_exit_note": "만기 전 해지는 상품별 중도해지이율과 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": "12.00",
+            "evidence_locator": "현재 KB스타뱅킹 가입 안내·상품정보·최종이율표. 6개월,월1만~30만원,실명개인1인1계좌. 최저2.00/조건충족최고12.00%. 판매기간2026.8.21~2027.8.17·10만좌·한도소진시별도안내없이종료. 잔여한도는추가확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01001668",
+            "title": "KB국민은행 KB카드쓰담적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 KB스타뱅킹 가입 안내·상품정보·최종이율표. 6개월,월1만~30만원,실명개인1인1계좌. 최저2.00/조건충족최고12.00%. 판매기간2026.8.21~2027.8.17·10만좌·한도소진시별도안내없이종료. 잔여한도는추가확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV2-KB-CARD",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": "12.00",
+            "evidence_locator": "현재 KB스타뱅킹 가입 안내·상품정보·최종이율표. 6개월,월1만~30만원,실명개인1인1계좌. 최저2.00/조건충족최고12.00%. 판매기간2026.8.21~2027.8.17·10만좌·한도소진시별도안내없이종료. 잔여한도는추가확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01001668",
+            "title": "KB국민은행 KB카드쓰담적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 KB스타뱅킹 가입 안내·상품정보·최종이율표. 6개월,월1만~30만원,실명개인1인1계좌. 최저2.00/조건충족최고12.00%. 판매기간2026.8.21~2027.8.17·10만좌·한도소진시별도안내없이종료. 잔여한도는추가확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 KB스타뱅킹 가입 안내·상품정보·최종이율표. 6개월,월1만~30만원,실명개인1인1계좌. 최저2.00/조건충족최고12.00%. 판매기간2026.8.21~2027.8.17·10만좌·한도소진시별도안내없이종료. 잔여한도는추가확인.",
+      "change_notes": [
+        "rates 재확인/표현 갱신",
+        "required_checks 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KB-HAPPINESS",
+        "institution": "KB국민은행",
+        "product_name": "KB국민행복적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 1000,
+        "maximum": 300000,
+        "maximum_kind": "KNOWN",
+        "min_months": 12,
+        "max_months": 12,
+        "allowed_months": [
+          12
+        ],
+        "payment_note": "월 단위 납입 조건입니다. 자유형 월 1천~30만원, 정액형 월 1만~30만원.",
+        "term_note": "12개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+        "eligibility_note": "수급자·북한이탈·결혼이민자·근로장려금·한부모지원 등 증빙 대상, 1인 1계좌",
+        "features": [
+          "공식 상품안내 색인에 영업점 방문예약 표시.",
+          "자유형 월 1천~30만원, 정액형 월 1만~30만원."
+        ],
+        "preferential_conditions": [
+          "정상 만기·적립방식별 우대조건"
+        ],
+        "required_checks": [
+          "사회배려계층 전용: 수급자·보호대상자 등 증빙 대상 여부 미확인; 일반 사용자 추천 제외",
+          "실제 가입 대상 및 계좌 수·고객당 합산한도",
+          "최신 금리 및 우대조건 충족 여부",
+          "최초·추가 납입과 납입일 조건",
+          "자유형 만기 1개월 전 납입 마감과 적립방식별 최소금액·최종 납입일을 별도 확인해야 합니다.",
+          "법정 취약계층 대상 증빙 및 정액/자유 적립방식별 납입마감 조건 확인"
+        ],
+        "channels": [
+          "영업점"
+        ],
+        "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율3.70%. 법정 취약계층 증빙필수; 자유형은월1000~30만원,만기1개월전납입마감. 정액형월1만원과혼동하지않으며 기존 납입구조 보류 유지."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000472",
+            "title": "KB국민은행 KB국민행복적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율3.70%. 법정 취약계층 증빙필수; 자유형은월1000~30만원,만기1개월전납입마감. 정액형월1만원과혼동하지않으며 기존 납입구조 보류 유지."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": "자유형 만기 1개월 전 납입 마감과 적립방식별 최소금액·최종 납입일을 별도 확인해야 합니다.",
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KB-HAPPINESS",
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율3.70%. 법정 취약계층 증빙필수; 자유형은월1000~30만원,만기1개월전납입마감. 정액형월1만원과혼동하지않으며 기존 납입구조 보류 유지."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000472",
+            "title": "KB국민은행 KB국민행복적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율3.70%. 법정 취약계층 증빙필수; 자유형은월1000~30만원,만기1개월전납입마감. 정액형월1만원과혼동하지않으며 기존 납입구조 보류 유지."
+          }
+        ],
+        "excluded_reason": "자유형 만기 1개월 전 납입 마감과 적립방식별 최소금액·최종 납입일을 별도 확인해야 합니다."
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율3.70%. 법정 취약계층 증빙필수; 자유형은월1000~30만원,만기1개월전납입마감. 정액형월1만원과혼동하지않으며 기존 납입구조 보류 유지.",
+      "change_notes": [
+        "rates 재확인/표현 갱신",
+        "required_checks 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "KB-STAR-DEPOSIT",
+        "institution": "KB국민은행",
+        "product_name": "KB Star 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 1000000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "한 번에 100만원 이상 예치. 추가입금 불가. 상한은 이번 자료에서 확정하지 않았습니다.",
+        "term_note": "1~36개월 월 단위.",
+        "eligibility_note": "개인 및 개인사업자 안내.",
+        "features": [
+          "가입 후 일정 기간이 지나면 분할인출 가능; 횟수·최소 잔액 확인."
+        ],
+        "preferential_conditions": [
+          "가입일의 고객 적용금리와 재예치 시점 금리 확인."
+        ],
+        "required_checks": [
+          "현재 판매 여부",
+          "가입 대상·계좌 개설 요건",
+          "가입일 금리와 우대조건"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01000938",
+            "title": "KB국민은행 KB Star 정기예금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 온라인가입 안내·2026.11.06 상품페이지·상품정보. 개인/개인사업자,1~36개월,100만원이상 추가입금불가. 최고예치상한이 명시되지 않아UNKNOWN 유지. 기간별 실제 적용금리는 모달 추가확인이므로 추천금리 미확정."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": "현재 상품페이지에 최고 예치한도와 기간별 기본금리가 확정되지 않아 조건일치·금리추천을 보류합니다.",
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": null,
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 온라인가입 안내·2026.11.06 상품페이지·상품정보. 개인/개인사업자,1~36개월,100만원이상 추가입금불가. 최고예치상한이 명시되지 않아UNKNOWN 유지. 기간별 실제 적용금리는 모달 추가확인이므로 추천금리 미확정.",
+      "change_notes": [
+        "모달 미확인 최고금리·상한을 재검증 금리로 승격하지 않음",
+        "comparison_hold_reason 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "NOV3-KB-STANDARD-DEPOSIT",
+        "institution": "KB국민은행",
+        "product_name": "일반정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "최저100,000원 이상·최고한도 없음(원단위)",
+        "term_note": "1~60개월",
+        "eligibility_note": "가입대상 제한없음",
+        "features": [
+          "최고한도 없음·원단위. 3년 초과 계약은 3년 경과 시점의3년제 약정이율을 이후 기간에 적용하므로37~60개월 금리는 미확정으로 보존"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "요약 금리범위1.65~2.45%와 기간별표12개월2.50%가 달라 현재 적용금리 추가 확인 필요",
+          "가입대상·현재 판매 여부·남은 한도를 공식 채널에서 확인",
+          "우대조건 충족 여부·실제 납입일·중도해지·만기 계산 계약 확인"
+        ],
+        "channels": [
+          "영업점",
+          "인터넷뱅킹"
+        ],
+        "early_exit_note": "만기 전 해지는 상품별 중도해지금리가 적용되며 우대금리가 미적용될 수 있습니다.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "1.65",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.35",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.45",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000014",
+            "title": "KB국민은행 일반정기예금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": "요약 금리범위1.65~2.45%와 기간별표12개월2.50%가 달라 현재 적용금리 추가 확인 필요",
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-KB-STANDARD-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "1.65",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.35",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.45",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000014",
+            "title": "KB국민은행 일반정기예금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외."
+          }
+        ],
+        "excluded_reason": "요약 금리범위1.65~2.45%와 기간별표12개월2.50%가 달라 현재 적용금리 추가 확인 필요"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 표. 10만원이상최고한도없음,1~60개월. 상단요약1.65~2.45와12개월표2.50이달라 기존충돌보류 유지. 36개월초과는3년경과시 재고시금리로고정금리추천제외.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "NOV3-KB-SUPER-FIXED",
+        "institution": "KB국민은행",
+        "product_name": "국민수퍼정기예금(개인) · 고정금리형",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 1000000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "예치금액 1,000,000원 이상 · 상한 미확인",
+        "term_note": "1~36개월",
+        "eligibility_note": "제한없음(무기명 제외)",
+        "features": [
+          "고정금리형/만기지급식만 이행으로 관리. 같은 공식상품의 금리연동형을 별도 신규상품으로 늘리지 않음",
+          "최저100만원이상은 확인했지만 최고한도 없음이라는 문구를 확인하지 못해상한UNKNOWN"
+        ],
+        "preferential_conditions": [
+          "별도 금리우대쿠폰·특정 만기연계 추가0.1%p 등은 충족시만 적용"
+        ],
+        "required_checks": [
+          "요약 금리범위1.85~2.55%와 기간별표1.90~2.45% 차이: 은행 적용금리 추가 확인",
+          "가입대상·현재 판매 여부·남은 한도를 공식 채널에서 확인",
+          "우대조건 충족 여부·실제 납입일·중도해지·만기 계산 계약 확인"
+        ],
+        "channels": [
+          "영업점",
+          "고객센터"
+        ],
+        "early_exit_note": "만기 전 해지는 상품별 중도해지금리가 적용되며 우대금리가 미적용될 수 있습니다.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "1.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.35",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.45",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000029",
+            "title": "KB국민은행 국민수퍼정기예금(개인) · 고정금리형 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": "예치 상한 미명시·금리지급방식 개별선택 확인",
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-KB-SUPER-FIXED",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "1.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.35",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.45",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000029",
+            "title": "KB국민은행 국민수퍼정기예금(개인) · 고정금리형 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지."
+          }
+        ],
+        "excluded_reason": "예치 상한 미명시·금리지급방식 개별선택 확인"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 가입하기 안내와 상품정보·조회일기준 만기지급식 확정금리 열만 확인. 신규100만원이상·고정1~36개월. 추가입금/월이자식과분리하고 최고예치상한미명시·지급방식확인 기존보류 유지.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "NOV3-KB-MERCHANT",
+        "institution": "KB국민은행",
+        "product_name": "KB가맹점우대적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": 10000000,
+        "maximum_kind": "KNOWN",
+        "min_months": 6,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "월 납입액 10,000원 이상 ~ 10,000,000원 이하",
+        "term_note": "6~36개월",
+        "eligibility_note": "만14세 이상 실명의 개인(개인사업자 포함)·법인·임의단체, 금융기관 제외, 1인 최대5계좌",
+        "features": [
+          "첫입금1만원,2회차1000원부터. 계약2/3 경과후 적립금2/3 초과입금 제한, 만기1개월전까지만 납입"
+        ],
+        "preferential_conditions": [
+          "가맹점결제계좌0.30%p",
+          "KB카드월30만원실적0.10%p",
+          "만기 적립원금1000만원 이상0.10%p"
+        ],
+        "required_checks": [
+          "가입대상·현재 판매 여부·남은 한도를 공식 채널에서 확인",
+          "우대조건 충족 여부·실제 납입일·중도해지·만기 계산 계약 확인"
+        ],
+        "channels": [
+          "인터넷뱅킹",
+          "KB스타뱅킹",
+          "영업점",
+          "고객센터"
+        ],
+        "early_exit_note": "만기 전 해지는 상품별 중도해지금리가 적용되며 우대금리가 미적용될 수 있습니다.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "1.95",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000500",
+            "title": "KB국민은행 KB가맹점우대적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": "만기1개월전 납입중단 및 후반부 적립비율 제한: 일반 동일 월납 예산과 별도 확인",
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-KB-MERCHANT",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "1.95",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "2.25",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000500",
+            "title": "KB국민은행 KB가맹점우대적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-06",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지."
+          }
+        ],
+        "excluded_reason": "만기1개월전 납입중단 및 후반부 적립비율 제한: 일반 동일 월납 예산과 별도 확인"
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "현재 가입하기 안내와 상품정보·2026.11.06 기본이율. 월1만~1000만원·6~36개월이나 가맹점 대상·만기1개월전 납입중단·적립비율제한 등 기존보류 유지.",
+      "change_notes": [
+        "rates 재확인/표현 갱신"
+      ]
+    }
+  ],
+  "holds": [
+    {
+      "product_id": "TOSS-FREE-SAVINGS",
+      "reason": "공식 자유적금 페이지의 동적 금리/대상 상세가 직접 조회 본문에서 완결되지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음."
+    },
+    {
+      "product_id": "HANA-RICH",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1486817_115157.jsp",
+          "title": "부자씨 적금 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-SALARY",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455929_115157.jsp",
+          "title": "급여하나 월복리 적금 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-PRIMARY",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://banking.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455927_115157.jsp",
+          "title": "주거래하나 월복리 적금 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://image.kebhana.com/cont/download/documents/manual/0100272000301_20250728_m.pdf",
+          "title": "주거래하나 월복리 적금 설명서",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "IBK-DDAY",
+      "reason": "공식 페이지를 조회했으나 대상·한도·기간·금리 및 현재 판매 상태 전체 교차검토를 완료하지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&tmcd=121&pdcd=0113",
+          "title": "IBK D-day적금 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        },
+        {
+          "url": "https://blog.ibk.co.kr/569728",
+          "title": "IBK 공식 안내: 적금 만기 후 관리",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "IBK-CARBON",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&tmcd=121&pdcd=0121",
+          "title": "IBK탄소제로적금 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "KAKAO-26W",
+      "reason": "공식 페이지를 조회했으나 대상·한도·기간·금리 및 현재 판매 상태 전체 교차검토를 완료하지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kakaobank.com/products/26weeks",
+          "title": "카카오뱅크 26주적금 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.kakaobank.com/products/26weeks",
+          "title": "카카오뱅크 26주적금 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "KAKAO-31D",
+      "reason": "공식 페이지를 조회했으나 대상·한도·기간·금리 및 현재 판매 상태 전체 교차검토를 완료하지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://og.kakaobank.io/download/62b8463d-60e6-4b1f-bace-5a3e4410e69b",
+          "title": "카카오뱅크 한달적금 상품설명서",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-DEPOSIT",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1479088_115126.jsp",
+          "title": "하나의 정기예금 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-TODAY",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1510354_154033.jsp",
+          "title": "하나은행 오늘부터, 하나 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1510354_154033.jsp",
+          "title": "하나은행 오늘부터, 하나 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-TRAVELOG",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1496576_154033.jsp",
+          "title": "하나은행 트래블로그 여행 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1496576_154033.jsp",
+          "title": "하나은행 트래블로그 여행 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-MY",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1491081_154033.jsp",
+          "title": "하나은행 (내맘) 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1491081_154033.jsp",
+          "title": "하나은행 (내맘) 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-365",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1491086_154033.jsp",
+          "title": "하나은행 도전365 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1491086_154033.jsp",
+          "title": "하나은행 도전365 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-TIMING",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1491065_154033.jsp",
+          "title": "하나은행 하나 타이밍 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1491065_154033.jsp",
+          "title": "하나은행 하나 타이밍 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-SME-EMPLOYEE",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://m.kebhana.com/cont/product/s_product02/1504021_154033.jsp",
+          "title": "하나은행 하나 중소기업재직자 우대저축 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "KBANK-CURIOUS",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kbanknow.com/web/product/deposit/curious-saving",
+          "title": "케이뱅크 궁금한 적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ReadTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "KBANK-ROLLING",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kbanknow.com/web/product/deposit/rolling-farm",
+          "title": "케이뱅크 데굴데굴 농장 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ReadTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "IBK-MONTH-COMPOUND",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0068&tmcd=121",
+          "title": "IBK기업은행 IBK월복리자유적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "IBK-FAMILY-SAVING",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0103&tmcd=121",
+          "title": "IBK기업은행 IBK평생한가족통장(적금) 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "IBK-FAMILY-DEPOSIT",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0121&tmcd=131",
+          "title": "IBK기업은행 IBK평생한가족통장(정기예금) 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "KB-TRAVEL",
+      "reason": "한도·기간·기본금리는 직접 확인했으나 현재 본문에 가입대상 명시를 재확인하지 못해 전체 갱신 보류. 만원단위 납입도 별도 보존 필요",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001495",
+          "title": "KB국민은행 KB두근두근여행적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001495",
+          "title": "KB국민은행 KB두근두근여행적금 공식 상품 자료",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "KB-RUNNING-SAVINGS",
+      "reason": "공식 페이지를 조회했으나 대상·한도·기간·금리 및 현재 판매 상태 전체 교차검토를 완료하지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://kbthink.com/saving-guide/kb-running-savings.html",
+          "title": "KB국민은행 KB달리자적금 공식 상세",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://kbthink.com/saving-guide/kb-running-savings.html",
+          "title": "KB국민은행 KB달리자적금 공식 상세",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-DOUBLE-UP-SAVINGS",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1450446_115157.jsp",
+          "title": "하나은행 내집마련 더블업(Double-Up)적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-CHILD-CARE-SAVINGS",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1490214_115157.jsp",
+          "title": "하나은행 하나 아이키움 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-EASY-FOREIGNER-SAVINGS",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1508308_115157.jsp",
+          "title": "하나은행 하나더이지 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-RUNNING-SAVINGS",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1524394_115157.jsp",
+          "title": "하나은행 달려라 하나 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1524394_115157.jsp",
+          "title": "하나은행 달려라 하나 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-DAEJEON-FOOTBALL-SAVINGS",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1492538_115157.jsp",
+          "title": "하나은행 대전하나 축구사랑 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-SOHO-MERCHANT-SAVINGS",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1506417_115157.jsp",
+          "title": "하나은행 하나더소호 가맹점 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "HANA-PENSION-COMPOUND-SAVINGS",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455928_115157.jsp",
+          "title": "하나은행 연금하나 월복리 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV2-HANA-TAEKWON",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1528527_115157.jsp",
+          "title": "하나은행 날아라 태권브이 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV2-KB-STAR3",
+      "reason": "공식 페이지를 조회했으나 대상·한도·기간·금리 및 현재 판매 상태 전체 교차검토를 완료하지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://kbthink.com/savings/basics/principal-guaranteed.html",
+          "title": "KB국민은행 KB스타적금Ⅲ 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV2-KB-CHILDLOVE",
+      "reason": "공식 페이지를 조회했으나 대상·한도·기간·금리 및 현재 판매 상태 전체 교차검토를 완료하지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&page=C016613&prcode=DP01001587",
+          "title": "KB국민은행 KB아이사랑적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV2-KAKAO-AIGOAL",
+      "reason": "공식 페이지를 조회했으나 대상·한도·기간·금리 및 현재 판매 상태 전체 교차검토를 완료하지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kakaobank.com/products/AiGoalSavings",
+          "title": "카카오뱅크 카카오뱅크 AI 목표적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV2-KAKAO-CHILD",
+      "reason": "공식 페이지를 조회했으나 대상·한도·기간·금리 및 현재 판매 상태 전체 교차검토를 완료하지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kakaobank.com/products/childsavings",
+          "title": "카카오뱅크 카카오뱅크 우리아이적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://og.kakaobank.io/download/9414790d-d5aa-4ad4-8817-29579df8a272",
+          "title": "카카오뱅크 우리아이적금 요약상품설명서",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV2-KBANK-MYKIDS",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kbanknow.com/web/product/deposit/mykids-saving",
+          "title": "케이뱅크 마이키즈 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ReadTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "NOV2-TOSS-PRENATAL",
+      "reason": "공식 자유적금 페이지의 동적 금리/대상 상세가 직접 조회 본문에서 완결되지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.tossbank.com/articles/baby-savings-account",
+          "title": "토스뱅크 토스뱅크 태아적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV2-TOSS-KIDS",
+      "reason": "공식 자유적금 페이지의 동적 금리/대상 상세가 직접 조회 본문에서 완결되지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.tossbank.com/articles/baby-savings-account",
+          "title": "토스뱅크 토스뱅크 아이적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-KB-SUPER-CD",
+      "reason": "공식 페이지를 조회했으나 대상·한도·기간·금리 및 현재 판매 상태 전체 교차검토를 완료하지 않아 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000214",
+          "title": "KB국민은행 국민수퍼정기예금 · CD금리연동형 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-IBK-SME",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0122&tmcd=121",
+          "title": "IBK기업은행 IBK중기근로자우대적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-IBK-LOVE",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0095&tmcd=121",
+          "title": "IBK기업은행 IBK사랑나눔적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-IBK-PARENTS",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0124&tmcd=121",
+          "title": "IBK기업은행 IBK부모급여우대적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-IBK-LIFE",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0116&tmcd=121",
+          "title": "IBK기업은행 IBK생활금융적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-IBK-MARKET",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0003&tmcd=131",
+          "title": "IBK기업은행 실세금리정기예금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ReadTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-IBK-INNOVATION",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0140&tmcd=131",
+          "title": "IBK기업은행 IBK혁신창업기업응원통장 · 정기예금 기본형 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-IBK-MORE",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0130&tmcd=131",
+          "title": "IBK기업은행 IBK더굴리기통장 · 정기예금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ConnectTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-IBK-ROLL",
+      "reason": "공식 페이지 직접 조회가 timeout으로 완료되지 않아 현재 판매·조건·금리를 재확인하지 못함",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?MENU_DIV=GNB&grcd=21&lncd=01&p_code=01211310142%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A&pdcd=0142&tmcd=131",
+          "title": "IBK기업은행 IBK굴리기통장 · 정기예금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": null,
+          "error": "ReadTimeout"
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-HANA-369",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1419598_115126.jsp",
+          "title": "하나은행 3·6·9 정기예금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-HANA-FIXED",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1419600_115126.jsp",
+          "title": "하나은행 고단위 플러스 · 금리확정형 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-HANA-LINKED",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1419601_115126.jsp",
+          "title": "하나은행 고단위 플러스 · 금리연동형 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "product_id": "NOV3-HANA-MISO",
+      "reason": "공식 페이지는 접근 가능하나 일부 금리 기준일이 과거이고, 현재 판매·한도·기간·적용금리 전체 재검토를 완료하지 못해 갱신 보류",
+      "sale_status": "UNCONFIRMED",
+      "sources": [],
+      "evidence_note": "HTTP200 또는 문서 존재만으로 신규판매·금리 검증완료로 처리하지 않음. 종료 공고를 찾지 못했으므로 판매종료로 표시하지 않음.",
+      "fetch_evidence": [
+        {
+          "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1419754_115157.jsp",
+          "title": "하나은행 하나 미소드림 적금 공식 상품 안내",
+          "checked_on": "2026-11-06",
+          "status": 200,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "fetch_summary": {
+    "products_scoped": 66,
+    "unique_urls": 65,
+    "http200": 48,
+    "timeouts": 17
+  },
+  "source_index": "bank-fetch-index.json",
+  "actual_maturity_calculations": 0
+}

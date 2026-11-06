@@ -1,12 +1,12 @@
 import GroupedInput from './GroupedInput';
 import {useEffect,useRef,useState,type ReactNode} from 'react';
-import savings from './public-data/product-expanded.json';
 import {readPreparedDecision} from './ProductExplorer';
 import './finder-dialog.css';
 import LocalNotice, {type LocalCounts} from './LocalNotice';
 import {useKoreaDay} from './SupportPlanner';
 import {comparePreparedRecommendations,verifiedBasicRate} from './RecommendationShelf';
 import DataFreshness from './DataFreshness';
+import {financialProducts} from './financial-snapshots';
 
 type View = 'programs' | 'products' | 'compare';
 export type FinderItem = {
@@ -25,7 +25,7 @@ function ProductResults(){
   const [limit,setLimit]=useState(8);
   const amount=kind==='SAVINGS'?monthly:lump;
   const valid=/^\d+$/.test(amount)&&Number(amount)>0&&Number(amount)<=1e12&&/^\d+$/.test(term)&&Number(term)>=1&&Number(term)<=120;
-  const matches=valid?savings.catalog.products.filter(p=>p.kind===kind).map(product=>({
+  const matches=valid?financialProducts(asOf).filter(p=>p.kind===kind).map(product=>({
     product,code:readPreparedDecision(product,Number(amount),Number(term),asOf)
   })).filter(r=>r.code==='FIT'||r.code==='PARTIAL').sort((a,b)=>comparePreparedRecommendations({id:a.product.product_id,kind:a.product.kind,code:a.code},{id:b.product.product_id,kind:b.product.kind,code:b.code},Number(term),asOf)):[];
   const picks=matches.filter(r=>verifiedBasicRate(r.product.product_id,Number(term),asOf)!==null).slice(0,3).map(r=>r.product.product_id);

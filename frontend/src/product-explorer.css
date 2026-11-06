@@ -14,3 +14,5 @@
 
 .recommendation-audience{font-size:12px;color:#52677e;line-height:1.8;padding-top:10px;border-top:1px solid #edf1f6}
 .recommendation-shelf{scroll-margin-top:112px}.recommendation-heading h3:focus-visible{outline:3px solid #82a9d9;outline-offset:6px}
+
+.discovery-recheck{font-size:12px;line-height:1.7;color:#245778;background:#edf5fa;border:1px solid #d1e1ed;border-radius:7px;padding:7px 10px;margin:12px 0}

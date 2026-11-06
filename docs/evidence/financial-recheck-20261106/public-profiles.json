@@ -1,0 +1,170 @@
+[
+  {
+    "input": [
+      "300000",
+      "12",
+      ""
+    ],
+    "result": {
+      "counts": "등록 상품 326금액·기간 비교 가능 29일부 금액 선택지 8정부·지자체 지원은 청년 지원사업에서 확인 ↗",
+      "recommendations": [
+        {
+          "id": "NOV3-SB-BULIM-TOK-SAVE",
+          "rate": "기본 연 4.20%"
+        },
+        {
+          "id": "NOV3-SB-MOA-E-SAVE",
+          "rate": "기본 연 4.00%"
+        },
+        {
+          "id": "KAKAO-FREE-SAVINGS",
+          "rate": "기본 연 3.85%"
+        }
+      ]
+    }
+  },
+  {
+    "input": [
+      "300000",
+      "12",
+      "10000000"
+    ],
+    "result": {
+      "counts": "등록 상품 326금액·기간 비교 가능 43일부 금액 선택지 8정부·지자체 지원은 청년 지원사업에서 확인 ↗",
+      "recommendations": [
+        {
+          "id": "NOV3-SB-BULIM-TOK-SAVE",
+          "rate": "기본 연 4.20%"
+        },
+        {
+          "id": "NOV3-SB-MOA-E-SAVE",
+          "rate": "기본 연 4.00%"
+        },
+        {
+          "id": "KAKAO-FREE-SAVINGS",
+          "rate": "기본 연 3.85%"
+        },
+        {
+          "id": "NOV3-SB-MOA-DEPOSIT",
+          "rate": "기본 연 3.85%"
+        },
+        {
+          "id": "NOV3-SB-MOA-E-DEPOSIT",
+          "rate": "기본 연 3.85%"
+        },
+        {
+          "id": "KAKAO-DEPOSIT",
+          "rate": "기본 연 3.80%"
+        }
+      ]
+    }
+  },
+  {
+    "input": [
+      "3000000",
+      "12",
+      ""
+    ],
+    "result": {
+      "counts": "등록 상품 326금액·기간 비교 가능 17일부 금액 선택지 20정부·지자체 지원은 청년 지원사업에서 확인 ↗",
+      "recommendations": [
+        {
+          "id": "NOV3-SB-BULIM-TOK-SAVE",
+          "rate": "기본 연 4.20%"
+        },
+        {
+          "id": "NOV3-SB-MOA-E-SAVE",
+          "rate": "기본 연 4.00%"
+        },
+        {
+          "id": "KAKAO-FREE-SAVINGS",
+          "rate": "기본 연 3.85%"
+        }
+      ]
+    }
+  },
+  {
+    "input": [
+      "300000",
+      "24",
+      ""
+    ],
+    "result": {
+      "counts": "등록 상품 326금액·기간 비교 가능 23일부 금액 선택지 4정부·지자체 지원은 청년 지원사업에서 확인 ↗",
+      "recommendations": [
+        {
+          "id": "NOV3-SB-MOA-E-SAVE",
+          "rate": "기본 연 3.80%"
+        },
+        {
+          "id": "KBANK-PRIMARY-SAVINGS",
+          "rate": "기본 연 3.50%"
+        },
+        {
+          "id": "NOV3-SB-BULIM-TOK-SAVE",
+          "rate": "기본 연 3.40%"
+        }
+      ]
+    }
+  },
+  {
+    "input": [
+      "300000",
+      "36",
+      ""
+    ],
+    "result": {
+      "counts": "등록 상품 326금액·기간 비교 가능 20일부 금액 선택지 3정부·지자체 지원은 청년 지원사업에서 확인 ↗",
+      "recommendations": [
+        {
+          "id": "KBANK-PRIMARY-SAVINGS",
+          "rate": "기본 연 3.50%"
+        },
+        {
+          "id": "NOV3-SB-MOA-E-SAVE",
+          "rate": "기본 연 3.50%"
+        },
+        {
+          "id": "NOV3-SB-BULIM-TOK-SAVE",
+          "rate": "기본 연 3.40%"
+        }
+      ]
+    }
+  },
+  {
+    "input": [
+      "1000000",
+      "6",
+      "50000000"
+    ],
+    "result": {
+      "counts": "등록 상품 326금액·기간 비교 가능 23일부 금액 선택지 6정부·지자체 지원은 청년 지원사업에서 확인 ↗",
+      "recommendations": [
+        {
+          "id": "KAKAO-FREE-SAVINGS",
+          "rate": "기본 연 3.70%"
+        },
+        {
+          "id": "KBANK-PRIMARY-SAVINGS",
+          "rate": "기본 연 3.30%"
+        },
+        {
+          "id": "KN-BETTER-SAVING",
+          "rate": "기본 연 3.10%"
+        },
+        {
+          "id": "KAKAO-DEPOSIT",
+          "rate": "기본 연 3.60%"
+        },
+        {
+          "id": "NOV3-SB-MOA-DEPOSIT",
+          "rate": "기본 연 3.50%"
+        },
+        {
+          "id": "NOV3-SB-MOA-E-DEPOSIT",
+          "rate": "기본 연 3.50%"
+        }
+      ]
+    }
+  }
+]

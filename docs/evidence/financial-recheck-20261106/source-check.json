@@ -1,0 +1,2833 @@
+{
+  "checked_at": "2026-11-07T00:08:37.333632+09:00",
+  "sources": [
+    {
+      "url": "https://banking.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455927_115157.jsp",
+      "status": 200,
+      "sha256": "371bd9f432dd3d43b0eaf598637970453a0326fd8ff74e8c15138953408a37d5",
+      "bytes": 354387,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://blog.ibk.co.kr/569728",
+      "status": 200,
+      "sha256": "1b731da1425996e472865979da8efcea46863226837b9507a217466c8a6a05ac",
+      "bytes": 78547,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hbsb.co.kr/deposit/6-month-renewable-time-deposit",
+      "status": 200,
+      "sha256": "4daa17639930c40d424bc1a75ff3d389049735533537a577dcce4442e38186e9",
+      "bytes": 115261,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hbsb.co.kr/deposit/fixed-deposit",
+      "status": 200,
+      "sha256": "f91b275bc0cfc58ed4bff9c6de962eb78ab7ce6a8b2eb37594de9c4970a0fe90",
+      "bytes": 112829,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hbsb.co.kr/deposit/online-6-month-renewable-time-deposit",
+      "status": 200,
+      "sha256": "6332e47f6524b2dca816a1a47f43df6f539fc46da644eb6cae185ab234cd3031",
+      "bytes": 115411,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hbsb.co.kr/deposit/online-fixed-deposit",
+      "status": 200,
+      "sha256": "91da0ff213a1216cf397cd77f5faaf33657f0775220b2356d962e0d4364a5dc0",
+      "bytes": 112933,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hbsb.co.kr/deposit/online-renewable-time-deposit",
+      "status": 200,
+      "sha256": "0d4cb33181bad4e7514c4b164f93d91cba2dedf8b04906e440e23e12914586e9",
+      "bytes": 116284,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hbsb.co.kr/deposit/online-time-deposit",
+      "status": 200,
+      "sha256": "3072d564c4090acebc85c8560378d49b9f2013f2659cc83af71782882e648088",
+      "bytes": 118030,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hbsb.co.kr/deposit/renewable-time-deposit",
+      "status": 200,
+      "sha256": "8a22a644ad72f9b138d8eeaa898b188813ca685c3d97afd59adb7e5d0ac38a3a",
+      "bytes": 116150,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hbsb.co.kr/deposit/time-deposit",
+      "status": 200,
+      "sha256": "8f6e05de4882d3191b3c614eef15814c904e7758b28ab39ab3d3972fcdfc5e05",
+      "bytes": 117912,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hisntm.com/kor/sub01_02_02.html",
+      "status": 200,
+      "sha256": "1961ecccb498e66369f4e4ac34cc2c4c885c1c7756b48386b0722563083652c2",
+      "bytes": 34653,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hisntm.com/kor/sub01_02_04.html",
+      "status": 200,
+      "sha256": "9c1a1525d9fdf4f3e202e0878c644cf486c7e3c6f695084a6ae1ceb15971f9d2",
+      "bytes": 30420,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hisntm.com/kor/sub01_02_05.html",
+      "status": 200,
+      "sha256": "83e5ff8cb869296469a15e76b51f6777f0c073c4e9e5caf686fc37aab04b271c",
+      "bytes": 24857,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hisntm.com/kor/sub01_02_08.html",
+      "status": 200,
+      "sha256": "800f70609051ba0d7ac7c5ffe5922ff0d6a70ee0f81842915459cb62dec85059",
+      "bytes": 34028,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://hisntm.com/kor/sub01_02_09.html",
+      "status": 200,
+      "sha256": "07380b7a5cfb182ee6ca2ad81c4fc9d7d85113017096f5603f872590f73ad986",
+      "bytes": 30824,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://image.kebhana.com/cont/download/documents/manual/0100272000301_20250728_m.pdf",
+      "status": 200,
+      "sha256": "44ee7754e764509f8e7144ba8cf7cc219476f72ecc58f37c509437f78350d7bb",
+      "bytes": 521923,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10000614_pi.pdf",
+      "status": 200,
+      "sha256": "184be28168f63a922218ff62fa7646e406ca148144c570cc88d3cc1185a01024",
+      "bytes": 372369,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10000618_pi.pdf",
+      "status": 200,
+      "sha256": "647ef08255d2bc6f73fa5deb43ae73b72a4c023cb88449f11af23368eed4f852",
+      "bytes": 545504,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10000738_pi.pdf",
+      "status": 200,
+      "sha256": "c164d4852a32adc8b057d298dc95e4d403394df0bf9e5a5a3f756182f24ad0fe",
+      "bytes": 535636,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10000779_pi.pdf",
+      "status": 200,
+      "sha256": "c158a4811397bfffbcc767b3a221a5180e61c76b6fc3bdf4edcc829795282f09",
+      "bytes": 373872,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10000823_pi.pdf",
+      "status": 200,
+      "sha256": "f4890903a4279b2f38b8ea3a1ee783954b4bf2574cd0806633c24d44e4c9f20f",
+      "bytes": 376860,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10000840_pi.pdf",
+      "status": 200,
+      "sha256": "8be463ae9e58037e3d75991519ca4d65bb25b02dd678e58d698b3e2e83a9d9bc",
+      "bytes": 493955,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10000969_pi.pdf",
+      "status": 200,
+      "sha256": "0290f460e73f40ad3f352346e7f9dfaf4c12dffcbfea691f8bc44bc859055c36",
+      "bytes": 395487,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10001011_pi.pdf",
+      "status": 200,
+      "sha256": "e0086ab5147aaf0acde1bceaf4ac0c68204191218e66b60e5ae07cd9feafa7ad",
+      "bytes": 424253,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10001043_pi.pdf",
+      "status": 200,
+      "sha256": "e7cede46ac99d5c36e1a9d13d3aa01b4a95cabe8aaa627e421b28ffe3a388e59",
+      "bytes": 402396,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10001160_pi.pdf",
+      "status": 200,
+      "sha256": "fa38c95a764965f4847a50c8839433aa3e8bfdeb57985510602fe7d93f4d8ffc",
+      "bytes": 348462,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10001236_pi.pdf",
+      "status": 200,
+      "sha256": "1b308c7f47d0651fbf8364f3c304cef2b64ae3f1e14e59a9433686511f77a194",
+      "bytes": 500081,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.nonghyup.com/file/ebank/product/guide/10001314_pi.pdf",
+      "status": 200,
+      "sha256": "d67f0def2bda042ff6c1e163b3169e0f53fc0c89f0715e81cd2578f18209b7a9",
+      "bytes": 325586,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://img.shinhan.com/sbank2016/seol/20220523000000820010LC000030.PDF?1734881305826=",
+      "status": 200,
+      "sha256": "f9f5f56b4d77dcfe5869f3b7846bd9f02e05ce51ce45794f9859d4cf6475c516",
+      "bytes": 370039,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://kbthink.com/saving-guide/kb-running-savings.html",
+      "status": 200,
+      "sha256": "3755e31bea699942728846d7e4ab1fa2d14e4ff6c4e309c645b388996a3bcbbb",
+      "bytes": 103001,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://kbthink.com/savings/basics/principal-guaranteed.html",
+      "status": 200,
+      "sha256": "cc79c02193e96e2f35a7ba2efc4b405cea3f569fdc68f7f0b1e0155c4e7af4cb",
+      "bytes": 145670,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.daolsb.com/deposit/goods.do?gds_cd=DB210",
+      "status": 200,
+      "sha256": "ec4dcc860e89bc436a0b47338d36fba4f49869cff9a9ef0f7abe17deb02cd0be",
+      "bytes": 162887,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.jbbank.co.kr/P_M_NMW_GATE.act?TRGT_URL=%2FP_M_NMW_NFF_DESV.act&gds_cd=1001300310046&gds_dtl_cd=0000",
+      "status": 200,
+      "sha256": "fce0727a4c16ce8aa1f52c971da18faf0d72d7e1953e76edcc0815c3b6912a20",
+      "bytes": 50614,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kbsavings.com/mobweb/kiwisavings/eplusSavingsProd.do",
+      "status": 200,
+      "sha256": "096d70d82294077898c145634924b89546cc94a3a5f7e290989508c6a2583cfb",
+      "bytes": 153933,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kbsavings.com/mobweb/kiwisavings/firstKiwiSavingsProd.do",
+      "status": 200,
+      "sha256": "aa1f5347f254220db4b2f92a2c10c3d6b7fd288aeaa6857c9d0cd36c71893428",
+      "bytes": 153067,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kbsavings.com/mobweb/kiwisavings/installmentSavingsProd.do",
+      "status": 200,
+      "sha256": "528f7d4304f906e666367b86df496731493acd570dc4e0df0c576c42e94662b0",
+      "bytes": 157902,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kbsavings.com/mobweb/kiwisavings/kindEplusSavingsProd.do",
+      "status": 200,
+      "sha256": "0999fa6c9587085f784babc36246eff9bb7a82d0c84a37ccb28453001c583162",
+      "bytes": 155570,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kbsavings.com/mobweb/kiwisavings/kiwi369RotarySavingsProd.do",
+      "status": 200,
+      "sha256": "11109b0d6d4e8c1bddda57b606c33dff5501125581634a5f60a5522669bbd9f1",
+      "bytes": 144743,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kbsavings.com/mobweb/kiwisavings/kiwiRotarySavings2Prod.do",
+      "status": 200,
+      "sha256": "55e8c6820a55af686bedd1387428d6fcbd69b4ef5d22120e026d16f45fe48d6c",
+      "bytes": 144700,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kbsavings.com/mobweb/savings/savingInfo.do?SAVINGS_GOODS_CODE=10",
+      "status": 200,
+      "sha256": "f37239784ecd90605a52097b68d0f76893f7b4fbfaf433d5d89371f1c0807e45",
+      "bytes": 146719,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kbsavings.com/mobweb/savings/savingInfo.do?SAVINGS_GOODS_CODE=3",
+      "status": 200,
+      "sha256": "0495f2df8532fa2873693400a42032f6e4e7ac5d3bc0f8282d8a87a55db15442",
+      "bytes": 150334,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kebhana.com/cont/product/s_product02/1491065_154033.jsp",
+      "status": 200,
+      "sha256": "450aea3141411831d3999820f4563b820be699eb87f75bad70647d088bbc32b1",
+      "bytes": 117553,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kebhana.com/cont/product/s_product02/1491081_154033.jsp",
+      "status": 200,
+      "sha256": "f97b4ccd76e0436d8fd39c3cfb5b2a20acd286d2a2454e67182170c62cf48f38",
+      "bytes": 187571,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kebhana.com/cont/product/s_product02/1491086_154033.jsp",
+      "status": 200,
+      "sha256": "7531acae32f8f18e985da94e5a762d727ffab5e8bd05b6cbaa8570887ab3a08d",
+      "bytes": 127279,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kebhana.com/cont/product/s_product02/1496576_154033.jsp",
+      "status": 200,
+      "sha256": "d00ee3daaba6c298ec8113a94d6c7e13e3647ff3fa742c87df903649e65938ff",
+      "bytes": 108949,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kebhana.com/cont/product/s_product02/1504021_154033.jsp",
+      "status": 200,
+      "sha256": "450d929f02355ed644c4ae423124c70b1a38de062420f6c84d8fa1f6178446ce",
+      "bytes": 116922,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.kebhana.com/cont/product/s_product02/1510354_154033.jsp",
+      "status": 200,
+      "sha256": "4c138448c827285e86c91f3bad7a42ae143fd6b6b4615438000a189d7a272dc3",
+      "bytes": 68714,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.knbank.co.kr/ib20/mnu/MBWSFM030103000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017123&ib20_wc=MBWSFM010LSTV01M%3AMBWSFM024JNGV02M",
+      "status": 200,
+      "sha256": "4f46d803af015f00713f8aa115d1dc935045535e158d0e49e5078a380435a155",
+      "bytes": 278914,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.knbank.co.kr/ib20/mnu/MBWSFM030103000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000203122&historyIgnore=Y",
+      "status": 200,
+      "sha256": "fb085bbb9d1e7e87d08ca5a1ed94b3cbf8a7650301e4a74c42906d36762f4178",
+      "bytes": 275285,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.knbank.co.kr/ib20/mnu/MBWSFM030103000?fnc_prd_no=0000210389&ib20_cur_mnu=MBWSFM030000000&ib20_cur_wgt=MBWSFM024JNGV01M&ib20_wc=MBWSFM024JNGV01M%3AMBWSFM024JNGV02M",
+      "status": 200,
+      "sha256": "1d68c1a20e78b9bc3bd2669ae96e3680b4fa768b523ab6cfa23be882ad9ff2d5",
+      "bytes": 281164,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.knbank.co.kr/ib20/mnu/MBWSFM030103000?fnc_prd_no=0000211818&ib20_cur_mnu=MBWSFM030000000&ib20_cur_wgt=MBWCMM003TMPV10M&ib20_wc=MBWSFM024JNGV01M%3AMBWSFM024JNGV02M",
+      "status": 200,
+      "sha256": "921d442c1683142653624d7f62c2bba27402628223fd4f7dadeae07f8525a851",
+      "bytes": 273957,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://m.moasb.co.kr/dgd/deposit/DGD_EMI_DT3_010.do",
+      "status": 200,
+      "sha256": "15063bda6f6d4c1817b75dad609f861d67db70e6bc31e8d3d788818c27f75b7a",
+      "bytes": 25640,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?MENU_DIV=GNB&grcd=21&lncd=01&p_code=01211310142%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A&pdcd=0142&tmcd=131",
+      "status": 200,
+      "sha256": "1e37172d8e79b4daa60b7451db786046af9558fba367e9e9033057cef7edd9ed",
+      "bytes": 373176,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0003&tmcd=131",
+      "status": 200,
+      "sha256": "80e4a01c9597a577afb59d45c3dfee1d1a0a35e92d03e05c846653bd84be3030",
+      "bytes": 369731,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0068&tmcd=121",
+      "status": 200,
+      "sha256": "34387681a512a10399af3d62e3ebfa1af217f2a12eac09d2a381e6f2e42e28f7",
+      "bytes": 376283,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0095&tmcd=121",
+      "status": 200,
+      "sha256": "1dd15e4d97bd40a3063945f0d52e43d8dc202956192d7e624b9723821794bba2",
+      "bytes": 373710,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0103&tmcd=121",
+      "status": 200,
+      "sha256": "682945bcf4d969884bb7fc96f44eefea61aa30228fffcbfb098ea56eaeaceebc",
+      "bytes": 379421,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0116&tmcd=121",
+      "status": 200,
+      "sha256": "a24a7a028d2ee1f33e5517520b912be3505fc8e29d5f240d996bc3a9da617dea",
+      "bytes": 371994,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0121&tmcd=131",
+      "status": 200,
+      "sha256": "3b3a09b1719d2bece8b1608ef1b96b8f51c8c45c40f0fbd241f9ad56f5492dc4",
+      "bytes": 379085,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0122&tmcd=121",
+      "status": 200,
+      "sha256": "a1e047543743e668fa009068f8e0d8453a780eec24244091d743d9e7dc558733",
+      "bytes": 374762,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0124&tmcd=121",
+      "status": 200,
+      "sha256": "f0841547e875de075efd6811937e36d3eff7f0e8d381d06e1364ce996a99988e",
+      "bytes": 375726,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0130&tmcd=131",
+      "status": 200,
+      "sha256": "3ab5a46979cde7ba89b1b3d413c9063a154761e6c3d70d2f1b23fcb7ef7790f2",
+      "bytes": 373879,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&pdcd=0140&tmcd=131",
+      "status": 200,
+      "sha256": "02534a427d2d42b3fd7cdffdcbf2b9c4f2036b6ef624f5061aafa6e017c9d14a",
+      "bytes": 373326,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&tmcd=121&pdcd=0113",
+      "status": 200,
+      "sha256": "d8ea4caf10eafa5280be9e0700df68226a5453611c21c32f1064d88c6334eb5b",
+      "bytes": 371469,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/ntr/ntr70/ntr7010/PNTR701000_i2.jsp?grcd=21&lncd=01&tmcd=121&pdcd=0121",
+      "status": 200,
+      "sha256": "6a7cd29c85acd7030e1c5490d20bd34570bbc584538e67bb91edb35efe0995e1",
+      "bytes": 372357,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://nsl.yegaramsb.co.kr/dep/inq/depDetail.frm?LINK_ACT=BBS_SELECT&PDCD=P000000121&PRD_TYCD=D&txGbnCd=P",
+      "status": 200,
+      "sha256": "8d084d2ddd0248011b9a9f3d564125be5c3408127fe9bf1502be5490b97cc165",
+      "bytes": 203900,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://nsl.yegaramsb.co.kr/dep/inq/depDetail.frm?LINK_ACT=BBS_SELECT&PDCD=P000000150&PRD_TYCD=D&txGbnCd=P",
+      "status": 200,
+      "sha256": "657e73fbd0063b06942947b51c210258f0c512eb840957bc4a4ae82b3672cf2e",
+      "bytes": 205328,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01000938",
+      "status": 200,
+      "sha256": "7dc35673aa1d47aa5cd72f8a6d722d1ee573f058f74d6e1869bb0ac55bacf626",
+      "bytes": 374745,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01001668",
+      "status": 200,
+      "sha256": "78d584f6405dfc924dd728cc40f4fe4b6f2cd460b0e6fce591c48fc617c01716",
+      "bytes": 371681,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&page=C016613&prcode=DP01001587",
+      "status": 200,
+      "sha256": "f36e82bf80cb8a3e522fb56a867b9b9fbb8c9fa443b9f22735fc3ba570a8718d",
+      "bytes": 369977,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP000942",
+      "status": 200,
+      "sha256": "ad7389645d528f48d80bbe56249ea1f2921932d78b7a1a131931e1e8097f8219",
+      "bytes": 94312,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000014",
+      "status": 200,
+      "sha256": "c07f6da19800e9a25ade600cf96871221da789fbf0625e6ac2a3d8217452c026",
+      "bytes": 81345,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000029",
+      "status": 200,
+      "sha256": "d307b26fd05ba1d50e09f36ee59c6aba8b516c54c5a8ccc0a618b3bb1e795aea",
+      "bytes": 88316,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000214",
+      "status": 200,
+      "sha256": "60947d1c06c386f2356eaaa541754ce677e76e421a559cf8ef0ee248f6657984",
+      "bytes": 80959,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000428",
+      "status": 200,
+      "sha256": "c79b6f93963fdf72179d9b901f6d820a554dfd4b3ff1cbd40c26b8ba805dc0a4",
+      "bytes": 93403,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000472",
+      "status": 200,
+      "sha256": "e2370e13acdf28523c6becd072c66b8ab54d0345805041cef6fbb50120aabd75",
+      "bytes": 98502,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000500",
+      "status": 200,
+      "sha256": "d38631d1eefcd4170ff7e01d919de2e7bc705d455dd0273c21899fb2bd2c8d8b",
+      "bytes": 92568,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000821",
+      "status": 200,
+      "sha256": "bbecab557a82bc5ad5ac6e7e1d7eed88f4e78cbbda740a072e4d9c19ae085357",
+      "bytes": 107953,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001495",
+      "status": 200,
+      "sha256": "88e44851d71f2384275de0d36486259e43196b43d2aa4d1bb0dd856f29484686",
+      "bytes": 98492,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001566",
+      "status": 200,
+      "sha256": "d96367d0322424830acdb011efbbff7cc08414c0121619f06e99399fab43ab08",
+      "bytes": 87325,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001632",
+      "status": 200,
+      "sha256": "9c8168cddcb54a7223f4e49b1567f3ed0ae236b8718638ce7b7e4a8537754455",
+      "bytes": 95102,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://og.kakaobank.io/download/62b8463d-60e6-4b1f-bace-5a3e4410e69b",
+      "status": 200,
+      "sha256": "93421f825856f16ed0a10b9b7990c0841947d131bdbf1e71a82c0a7bc934e300",
+      "bytes": 357103,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://og.kakaobank.io/download/9414790d-d5aa-4ad4-8817-29579df8a272",
+      "status": 200,
+      "sha256": "04ccb3bebc63517b82bdb8159cea81b5b8f3a20195583cf8868452fa9032c6c8",
+      "bytes": 458545,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010000016&PRD_YN=Y&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0021",
+      "status": 200,
+      "sha256": "a342366599e1b1b5c83c17ef0fcd1303772a1d642b246512b4fa4c0296844faa",
+      "bytes": 122339,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010000109&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0019",
+      "status": 200,
+      "sha256": "761f9a18fdff0c925bc994d0b59b7522b5533c4d23ae395a2be78c53be768e84",
+      "bytes": 125335,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010000110&PRD_YN=Y&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0021",
+      "status": 200,
+      "sha256": "54ce2d79b51f869fc8a7d75fc57c3c5eee8f9517be40af6998968fa6b8dfd947",
+      "bytes": 125081,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010000136&PRD_YN=Y&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0021",
+      "status": 200,
+      "sha256": "aa0fe0eb66416a30c90696543a4695842d1bc96f0bcc74bb1a973ad8aa08224e",
+      "bytes": 121758,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010002353&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0019",
+      "status": 200,
+      "sha256": "e1de0bdaa65939d561e93cd6222bf2bd52fb354580f2ae7e15b296d45e26bf4f",
+      "bytes": 125097,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010002566&PRD_YN=Y&cc=c021299%3Ac009166&withyou=PORMG0044",
+      "status": 200,
+      "sha256": "fc484469a229228e32678ab6356e59ccdfd3ab8452043ead7bbcae67294709a6",
+      "bytes": 121382,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010002570&PRD_YN=Y&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0021",
+      "status": 200,
+      "sha256": "b03ea2d80882a8f676502262b9273f539adab36c0da7474bb0171b7625a636e8",
+      "bytes": 121520,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010002576&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0019",
+      "status": 200,
+      "sha256": "85fadce68da39e2146e98af1c6c2fa2bdcd239b58c0a338925831e57befd8e5c",
+      "bytes": 121921,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010002588&PRD_YN=Y&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0021",
+      "status": 200,
+      "sha256": "794ba06412fb635f1b2835f4cc2a0fbe9675d822a6edc5eeda0f27a083fcc5dc",
+      "bytes": 121915,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://spot.wooribank.com/pot/Dream?PRD_CD=P010002603&PRD_YN=Y&cc=c021299%3Ac009166&withyou=PORMG0044",
+      "status": 200,
+      "sha256": "fbe504b38104a8a843deb4b46bb76ea4089c3d98ca6af9a11601fa5d573956c5",
+      "bytes": 121202,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://ssmt.wooribank.com/mpib/OneTouch?withyou=SCCSC0038",
+      "status": 200,
+      "sha256": "d6a32444ec23181a596af9eabb414a71f7760dc58c376f771ef4e358e7b95b05",
+      "bytes": 703425,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.angukbank.co.kr/ProdList_001.act?rnum=13",
+      "status": 200,
+      "sha256": "a3ee1a791467c6f45c4f82e8c9ebbf0d14c1134a8c18f8d1ddf6c8de329f1ede",
+      "bytes": 277822,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.angukbank.co.kr/ProdList_001.act?rnum=14",
+      "status": 200,
+      "sha256": "0108a055fcacd6190c92f73ef9d96ea6f4d8b432264a2140f4ad90020df01648",
+      "bytes": 408345,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.angukbank.co.kr/ProdList_001.act?rnum=15",
+      "status": 200,
+      "sha256": "450557a98e1daa50c4fa20af9d90ea0d9dd7eb782059344ed40b70fe08da5db0",
+      "bytes": 407722,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.angukbank.co.kr/ProdList_001.act?rnum=16",
+      "status": 200,
+      "sha256": "b203a5f17113e8159dd8e6dc2655be44f861a8291bd7afe0a646fe6b01f37a8b",
+      "bytes": 278197,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.angukbank.co.kr/ProdList_001.act?rnum=18",
+      "status": 200,
+      "sha256": "a8db3439ba0f4d5b45976f4c670f4585ce598160054eef79b75340f9d094d32e",
+      "bytes": 277304,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.angukbank.co.kr/ProdList_001.act?rnum=28",
+      "status": 200,
+      "sha256": "0352f1b74e1417701a3163f20b0a1ccafddf556bb2d740ba9b598ca420c7c980",
+      "bytes": 275599,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.angukbank.co.kr/ProdList_001.act?rnum=30",
+      "status": 200,
+      "sha256": "ada0142dec468fa4175734171a5b9f7cb1b9f7195d6776243271d067ed4be5b0",
+      "bytes": 406831,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.bulimbank.co.kr/DepDein0100.act",
+      "status": 200,
+      "sha256": "2a4909557a157f8fe7dd959a95ff9f05e4004150592b0f11d3f8b3dc434e545e",
+      "bytes": 276314,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=14",
+      "status": 200,
+      "sha256": "bb0c527ce5f93dbc6224dab7af11af745a3d05d1adfc0fdff71616503d9c051f",
+      "bytes": 435098,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=16",
+      "status": 200,
+      "sha256": "0558bfd7a0a4553e306a17fd6286b47a496f9240f02ca146dc86221cab039391",
+      "bytes": 433458,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=18",
+      "status": 200,
+      "sha256": "f73db020a2951c0d127a96543c800bd9b5713bec0d5967e17ea05d8139796624",
+      "bytes": 296022,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=20",
+      "status": 200,
+      "sha256": "efee4af06497b9bcc689c8fe3830350684bf809c08de0ba5d5b436ee45870f5f",
+      "bytes": 434630,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=21",
+      "status": 200,
+      "sha256": "59c1477268cbd2fc9fbb58f39ea4c7d940122326b9a6ff55fda0b95fc8eec196",
+      "bytes": 434704,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=23",
+      "status": 200,
+      "sha256": "c478c9d3264de4e60a434c818c8d5f635ad2765d3fec766781299adf970180b8",
+      "bytes": 291994,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+      "status": 200,
+      "sha256": "c3f62e6b93827858b4608cae47bbe8d0a1d2cbaae2abb72fd3bf6480079fcf7d",
+      "bytes": 435681,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC319002001",
+      "status": 200,
+      "sha256": "a4470e6cbec6157994de0f6b80f38720d20526d3eccff450d49abafa14c0e77d",
+      "bytes": 354325,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC320002002",
+      "status": 200,
+      "sha256": "96ea587e4b26518a3137ed46c43ef7f00a85ab697b26d6941da3facee8ed2d16",
+      "bytes": 328711,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001",
+      "status": 200,
+      "sha256": "1d5af6ce0474b48eb515cb4eaaac94e7c9fd58b3826056f1936f87bc6305edad",
+      "bytes": 217079,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "status": 200,
+      "sha256": "37f56d30b0b7ad45a57b138bc08b17fffd63ff83d2b0391be783def71ffcfc7d",
+      "bytes": 214372,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=3",
+      "status": 200,
+      "sha256": "cfd3f64a3b2f99acb67100a6d6eac76bb639fe5c6eae520b119d58b98d2df04d",
+      "bytes": 212470,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=4",
+      "status": 200,
+      "sha256": "60d7412d0e69977f1b52df959f9080ef335cc5e806aaa07f4fc5c48c95c18cf3",
+      "bytes": 209791,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMSVC002001200",
+      "status": 200,
+      "sha256": "024701a0d20a5b30240506fc227abe044eb9850c888ba33861ce688175b79430",
+      "bytes": 291577,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EB%84%88%EB%A7%8C%EC%86%94%EB%A1%9C_%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.04.01).pdf",
+      "status": 200,
+      "sha256": "e1146983ecaf82d406e61705f9ffca7bb2ab6283a385cd94b75e2bca041ebd54",
+      "bytes": 492455,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EB%B6%80%EC%82%B0%EC%9D%B4%EB%9D%BC%EC%A2%8B%EB%8B%A4Big%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "status": 200,
+      "sha256": "8f7ad009a09969d75af7411aa6e3d0e1d94bb007545f54b742a44f47115af77a",
+      "bytes": 627446,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EC%83%81%ED%98%B8%EB%B6%80%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "status": 200,
+      "sha256": "ac054d6464d4837fca3fc19face26e4929d649d946b1df0d5e5e64e23c0ed259",
+      "bytes": 395687,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EC%95%84%EA%B8%B0%EC%B2%9C%EC%82%AC_%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.04.01).pdf",
+      "status": 200,
+      "sha256": "579f83ded9752a3c6c23859f02c0592a100d6608e61d91469846b47860dba4d2",
+      "bytes": 491544,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EC%95%84%EC%9D%B4%EC%82%AC%EB%9E%91_%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.04.01).pdf",
+      "status": 200,
+      "sha256": "49a82cacbb10fc379d5bdb3d30b3a9e9acb63a0ca5ee834bc4ca6e7fb322979a",
+      "bytes": 491824,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EC%A0%80%ED%83%84%EC%86%8C%EC%8B%A4%EC%B2%9C%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "status": 200,
+      "sha256": "b8e363a56554df42ed81c06aca25cba250fa374e6af4618f7a6c0b6d24a30993",
+      "bytes": 462816,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EC%A0%80%ED%83%84%EC%86%8C%EC%8B%A4%EC%B2%9C%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C_(2026.09.14).pdf",
+      "status": 200,
+      "sha256": "5db038018d79b4697e369ebc2de37454961a383a181cb4c4e01034cc3f88fa1d",
+      "bytes": 490222,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%ED%8E%AB%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "status": 200,
+      "sha256": "0b19751dfd83a135ea7dfa3ef02ce1cea4025ea4243bef1d2bb63e5bf0477aff",
+      "bytes": 486298,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(%EC%9D%BC%EB%B0%98%EA%B8%B0%EB%AA%85%EC%8B%9D)%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.08.01).pdf",
+      "status": 200,
+      "sha256": "1068353db176212445659be7503c818ccea5c765649d6d4806233eb11f261d78",
+      "bytes": 411134,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(10.07)%EB%8D%94(The)%EB%A0%88%EB%B2%A8%EC%97%85%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "efbdd5ca8f5fe68dc28d09642e14912a18c1891d8246bf8ad897a821aa669884",
+      "bytes": 421534,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(10.07)%EB%8D%94(The)%ED%8A%B9%ED%8C%90%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "4e31f273ea839e5b153ceeb0677f5cec3d72743350a70f173199854af1e8afac",
+      "bytes": 485595,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(2026.07.23)%EA%B0%80%EA%B3%84%EC%9A%B0%EB%8C%80%EC%A0%95%EA%B8%B0%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "f49b79780509f564fc979c3114b20c28f805bdff9f38fff2937668c01cf481b9",
+      "bytes": 398115,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(2026.07.23)%EA%BF%88%EC%9D%B4%EB%A3%B8_%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "2a56e30bc2ef4cfdf02cf048295160cc3ccad89d7260d52b19d5c8cbe53f3aae",
+      "bytes": 439744,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(2026.07.23)%EB%A9%94%EB%A6%AC%ED%8A%B8%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "ed75b1937ee2917dc52ac5379ec469a9b8db925e48d63a6a8d18a0508fc6ecf2",
+      "bytes": 391258,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(2026.07.23)%EC%A0%95%EA%B8%B0%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "7ae3cd5e98c4a298c6b802e02e7d8d2680a3a177aac9ff8201347ddc0c5e6218",
+      "bytes": 406548,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(2026.07.23)%ED%9A%8C%EC%A0%84%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "2cce01368ef164951489de88286f8a8f6f3f02485f67f96b2e43c42662701db8",
+      "bytes": 389361,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(2026.07.23)BNK%ED%9D%AC%EB%A7%9D%EA%B0%80%EA%BE%B8%EA%B8%B0%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "e5eee06cd8c2777eea846143780a6d44bb5ed70cb2b8614d0ebde59f2b8b6309",
+      "bytes": 401049,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(2026.09.01)%EC%A7%80%EC%97%AD%EC%82%AC%EB%9E%91%EC%9E%90%EC%9C%A0%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "15b9b86d42c388485d736b76155ca3827c076dec049738ddbf183402a3ea295c",
+      "bytes": 424958,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/BNK%EA%B8%88%EC%9C%B5%EC%82%AC%EB%8B%A4%EB%A6%AC%EC%A0%81%EA%B8%88%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C_(2026.10.28).pdf",
+      "status": 200,
+      "sha256": "b51ec5f8c362d7e24338562313a6bfdd6df9485e41a873ce6b766e95262f8026",
+      "bytes": 555148,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/BNK%EB%82%B4%EB%A7%98%EB%8C%80%EB%A1%9C%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(1).pdf",
+      "status": 200,
+      "sha256": "d4aaed2a3a0c43f4962c1aa15af8046292276a1c3ae3cd5622380d04d0788cff",
+      "bytes": 587047,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/BNK%EB%82%B4%EB%A7%98%EB%8C%80%EB%A1%9C%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C_(2026.09.14).pdf",
+      "status": 200,
+      "sha256": "177feed385998479a79347ff75ae4893f8042ed7959ce7b29cd8144760224f13",
+      "bytes": 503822,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/BNK%EC%98%A4%ED%94%88%EB%B1%85%ED%82%B9%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "status": 200,
+      "sha256": "29949593a3196fd2431e334e280c92e7a384ec943a14185347a87cb41ccb435e",
+      "bytes": 411953,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/LIVE%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.08.01).pdf",
+      "status": 200,
+      "sha256": "461f1c913d2a8080a4ff4db61f210653affee013297dec65f214cb9694f1afd8",
+      "bytes": 446688,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/OnlyOne%EC%A3%BC%EA%B1%B0%EB%9E%98%EC%9A%B0%EB%8C%80%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "status": 200,
+      "sha256": "1ec63f4ff6f5e6b25dabd728b0f0a211155d0344ddeb6de4c2dbd62366ce8540",
+      "bytes": 501012,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/OnlyOne%EC%A3%BC%EA%B1%B0%EB%9E%98%EC%9A%B0%EB%8C%80%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "status": 200,
+      "sha256": "155bdf385a1f690c407fd1b8bc1e66375884dd6e2ae4b1adaa144791963c103b",
+      "bytes": 555564,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daehanbank.co.kr/554_PrfDovaInfo_002.act",
+      "status": 200,
+      "sha256": "95a6c2b5b61590d6b5102ded4b7ec1dc3884ee0984ad6d1c0011f1235e293c64",
+      "bytes": 408872,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daehanbank.co.kr/ProdList_001.act?rnum=16",
+      "status": 200,
+      "sha256": "72f3cdf09a04b0fa4ecaaa576bef20fb7f8d38f7f30c07d5e0015f6ffce8bd29",
+      "bytes": 288187,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daehanbank.co.kr/ProdList_001.act?rnum=18",
+      "status": 200,
+      "sha256": "05daa2ba7b4bb35b4ba09a10de0178b1a450c14c093ea5654255ffdc7ce7f7f8",
+      "bytes": 423364,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daehanbank.co.kr/ProdList_001.act?rnum=19",
+      "status": 200,
+      "sha256": "a7d9770ee29394f1f94f2cb1ac699609b295eee901b4a92da6b816361ea40e1a",
+      "bytes": 422628,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daehanbank.co.kr/ProdList_001.act?rnum=21",
+      "status": 200,
+      "sha256": "ad38edd0638599724430a597c85a560fa520e976f03de6168368aa39e907f110",
+      "bytes": 424653,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daehanbank.co.kr/ProdList_001.act?rnum=23",
+      "status": 200,
+      "sha256": "a76c30bda02bcb7dc254892ccbf3cbd0760b47b03dce5e237215dc697d60fe1c",
+      "bytes": 423521,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daehanbank.co.kr/ProdList_001.act?rnum=24",
+      "status": 200,
+      "sha256": "38b04ad606d50790149ee355d8bf31734e9451344eef61258eb75e851a9d98db",
+      "bytes": 422748,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=19",
+      "status": 200,
+      "sha256": "3b789da6f9ddf4acd41bce3f61267a985ec800d97e46c17a68d5ae9bc89b4a2c",
+      "bytes": 409732,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=20",
+      "status": 200,
+      "sha256": "cee12228624ce407fef93399c0611254c46c840908c67d8f707b7f95d8cd8b52",
+      "bytes": 409772,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=23",
+      "status": 200,
+      "sha256": "a1f744e43fe8853482ba55c9784b07a46e0b3dc961731be18b2b372150f958b4",
+      "bytes": 409282,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=24",
+      "status": 200,
+      "sha256": "fa4aaa2008570f66ef70d4339704ef5d1289059adb3d61371db17afcd72e817d",
+      "bytes": 409322,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=25",
+      "status": 200,
+      "sha256": "80e7e052b7dbebb93bee45d19e604db4400636b7ea617b9adf9622d62bed4126",
+      "bytes": 409277,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=26",
+      "status": 200,
+      "sha256": "c77e14d22777a474f36e95e9ad0dce536fd62ab863a5eaf97355afe586c0abfc",
+      "bytes": 409288,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=27",
+      "status": 200,
+      "sha256": "432a694e02d6b7dc798434c09472016ceeffac5e17fa8a5377ebdf0e7b1ac26e",
+      "bytes": 409258,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=28",
+      "status": 200,
+      "sha256": "77faa79bff0db549fa7f58b962a6109ca0f11ae40812b1ae7440ca8f149507ea",
+      "bytes": 409311,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=29",
+      "status": 200,
+      "sha256": "396472c6993252ec0cd3b67de8deea0bf119efd60cb6548b92b1f3b4442c0b82",
+      "bytes": 409211,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=30",
+      "status": 200,
+      "sha256": "94f2c0c91ce9f6008a848992deeea4974026037406acf11954aef92424d3a7ce",
+      "bytes": 409632,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=31",
+      "status": 200,
+      "sha256": "e40457ad236b598b4eebdd81fa99a1b972d7170228edcb55938d69ee595e3a3b",
+      "bytes": 409779,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=32",
+      "status": 200,
+      "sha256": "f727aa33244082b4c31004be087021c026d6464a18a4ec064b7afd42c324595f",
+      "bytes": 279178,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=44",
+      "status": 200,
+      "sha256": "a4f703cdc1f97851374e3f57744214327c5a648113ebfc3d1b4dda044c563f0a",
+      "bytes": 409164,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daemyungbank.co.kr/ProdList_001.act?rnum=45",
+      "status": 200,
+      "sha256": "bc230121558a6fd8e7fbd9ee0872080cf383c099826141fa48dce4fa2d6ba2a7",
+      "bytes": 408263,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daolsb.com/deposit/goods.do?gds_cd=DA211",
+      "status": 200,
+      "sha256": "d4633aadcbae178cbcec03ca5690e2caea5cbe512ea82ce0315d3d5f7c5a417c",
+      "bytes": 229647,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.daolsb.com/deposit/goods.do?gds_cd=DA215",
+      "status": 200,
+      "sha256": "1a7087628f2120ba2ac26bbee87c8da835574d38bfda50de01be5322afba883c",
+      "bytes": 226593,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dhsavingsbank.co.kr/ProdList_001.act?rnum=17",
+      "status": 200,
+      "sha256": "26022c9a6aef4e3cf7f0ea50047f7ba962954e947149361940fa79d5fb6c4893",
+      "bytes": 277112,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dhsavingsbank.co.kr/ProdList_001.act?rnum=18",
+      "status": 200,
+      "sha256": "c2363e2fecb727d72dae8da8fee25208c8a09619b918bdb0d1e0848751abd809",
+      "bytes": 276633,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dhsavingsbank.co.kr/ProdList_001.act?rnum=19",
+      "status": 200,
+      "sha256": "403bf3ed455f99bb493928df7e76431672a1875848cbb99464d34a944e10c92a",
+      "bytes": 406342,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dhsavingsbank.co.kr/ProdList_001.act?rnum=20",
+      "status": 200,
+      "sha256": "693f6e8328f1271fd1ce08dfb6aba462290810bad03a9c41ab4a29d3cae88001",
+      "bytes": 405811,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dhsavingsbank.co.kr/ProdList_001.act?rnum=21",
+      "status": 200,
+      "sha256": "c1e251b26985a4c1cdd4b63ad5e25b90397b4a1d2776b49f28d4eb7b65e9f99a",
+      "bytes": 406074,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dhsavingsbank.co.kr/ProdList_001.act?rnum=23",
+      "status": 200,
+      "sha256": "6e77cfc8f52fa8947cc5dde86f328403868d55fb1e3bbd2adb1f84c555af19ad",
+      "bytes": 404612,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dysbank.com/ProdList_001.act?rnum=11",
+      "status": 200,
+      "sha256": "a991d60aa863f89b8b685caf1aabd9b589e9334315d1ec40de2c00a6bd504f58",
+      "bytes": 392274,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dysbank.com/ProdList_001.act?rnum=12",
+      "status": 200,
+      "sha256": "b5483dabc8a038f056e62c14551abe385f5c22789838acac33af94272eef2083",
+      "bytes": 390940,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dysbank.com/ProdList_001.act?rnum=18",
+      "status": 200,
+      "sha256": "de36d7f060f287f2e2cf9507650338bdf997e6bbda70a4c30b5e5c0fe86c81be",
+      "bytes": 389006,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.dysbank.com/ProdList_001.act?rnum=19",
+      "status": 200,
+      "sha256": "418f395be11a527ca8441ed1ea832aca879b15b981a38faf46cf4d744b13e805",
+      "bytes": 389120,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanasavings.com/NEW/NEW0116",
+      "status": 302,
+      "result": "FETCH_FAILED_NOT_DISCONTINUED",
+      "error_type": "HTTPError",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanasavings.com/NEW/NEW0122",
+      "status": 302,
+      "result": "FETCH_FAILED_NOT_DISCONTINUED",
+      "error_type": "HTTPError",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=24",
+      "status": 200,
+      "sha256": "cb0a096f9efa39e8fcdfb4c2c234bbc7e6b1645a816f32a3b77c36f802908d13",
+      "bytes": 445540,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=27",
+      "status": 200,
+      "sha256": "18ab94f54354a40ecee0d18e2b1ad088d516828d9cf13823c5ce16a1e8d5a255",
+      "bytes": 445501,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=29",
+      "status": 200,
+      "sha256": "a4867094e95d1e26dd29a71cc4013213c99804319fe082a520a00c71bd0f0adc",
+      "bytes": 445698,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=31",
+      "status": 200,
+      "sha256": "959deb3f24bbab29745b6607889f5b9eea880333a6ad3564159d45259ce3d17c",
+      "bytes": 445535,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=33",
+      "status": 200,
+      "sha256": "68e6e5fadd0421e5ed2a8a1bd707af9228d2fd13be9b5074a130e5b29e238aff",
+      "bytes": 445731,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=74",
+      "status": 200,
+      "sha256": "e98b294f503d7566af8ee182620624d6d4d65d9e41143a9bb2b97ed1a869a824",
+      "bytes": 445401,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=83",
+      "status": 200,
+      "sha256": "d11e0be006254ae7884607275c81da79da618df6a5663b20b92368fd3b56a4ad",
+      "bytes": 444688,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=85",
+      "status": 200,
+      "sha256": "f0c8e837ae5d8f4b246cf8e7b840abf29394a07db5adbb168978d92296c5eb02",
+      "bytes": 444682,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=87",
+      "status": 200,
+      "sha256": "ce2528522524d867f88d5591064664bf375057c28239571d04cc2095e0a7307d",
+      "bytes": 303657,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=89",
+      "status": 200,
+      "sha256": "db42699a266f30fea490f3cd7617e13117ab3d9713ec4e8f1254deb2eaa780e1",
+      "bytes": 444804,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=91",
+      "status": 200,
+      "sha256": "8a132d96fbf82928d488d09e6a638d607d9b6c261c02279312711207a4688f51",
+      "bytes": 445379,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=94",
+      "status": 200,
+      "sha256": "da31ac8efb687484df313de9829edb43f6ce042fa8c127251986ab4b4cd70ad7",
+      "bytes": 444064,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=95",
+      "status": 200,
+      "sha256": "74d4e1eba2b91bf8cbcdd83bcd48576bc2414757b19f739eb773bf45d82a3b30",
+      "bytes": 303530,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=97",
+      "status": 200,
+      "sha256": "43a8e1b4fa039a5d213d8edb0ff485fec6fc3ca4536c9a30360e92cd677e14c8",
+      "bytes": 444494,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.hanwhasbank.com/ProdList_001.act?rnum=99",
+      "status": 200,
+      "sha256": "4b99f623ef33577dd4dce0314e1b91b534c00d4f82e273d64517bb31f8aa1705",
+      "bytes": 303866,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ibksb.co.kr/download/122200575",
+      "status": null,
+      "result": "FETCH_FAILED_NOT_DISCONTINUED",
+      "error_type": "ValueError",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ibksb.co.kr/download/2009798440",
+      "status": null,
+      "result": "FETCH_FAILED_NOT_DISCONTINUED",
+      "error_type": "ValueError",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ibksb.co.kr/download/579013822",
+      "status": null,
+      "result": "FETCH_FAILED_NOT_DISCONTINUED",
+      "error_type": "ValueError",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ibksb.co.kr/download/804721902",
+      "status": null,
+      "result": "FETCH_FAILED_NOT_DISCONTINUED",
+      "error_type": "ValueError",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.imbank.co.kr/cms/fnm/deposit/product/03/1199451_2391.html",
+      "status": 200,
+      "sha256": "1348c2c0d671282e2a945feca578a2b33ab44565086bbf4d1be308f290d2261d",
+      "bytes": 8375,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.imbank.co.kr/cms/fnm/deposit/product/03/1220451_2391.html",
+      "status": 200,
+      "sha256": "483d73dabd8cfefe602c41c3c787e201e226cb476a7d73d707318560fd83bf32",
+      "bytes": 7350,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.imbank.co.kr/customer/counsel/fnp_ebz_21010_depo.act",
+      "status": 200,
+      "sha256": "b42615a2757ae9f926b06b13ade75bf3268c221a4c4dbff52755a1de7c68315c",
+      "bytes": 47075,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.imbank.co.kr/upload/newbbs/FNM001/202503041924527264929452.pdf",
+      "status": 200,
+      "sha256": "1559ba02aa5c5dc756a0a786492949e3df3393f12408311ab7278164a84f0a6c",
+      "bytes": 560710,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.imbank.co.kr/upload/newbbs/FNM001/202503041927299504877857.pdf",
+      "status": 200,
+      "sha256": "a6b3bce6a83b51e5028f35564dd6d652027c8234a43e14aef1ec4c0f027da36b",
+      "bytes": 468129,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.insungsavingsbank.co.kr/ProdList_001.act?rnum=28",
+      "status": 200,
+      "sha256": "a94a3e2f0968ff2fd32ca762767174b6d2dfc1800f1ea0b6feb2f638c93c37ee",
+      "bytes": 422704,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.insungsavingsbank.co.kr/ProdList_001.act?rnum=29",
+      "status": 200,
+      "sha256": "1323ad1f38d9312a0ed30cfec59168286a57384ba37a7afc4e705377ed01cfb7",
+      "bytes": 423178,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.insungsavingsbank.co.kr/ProdList_001.act?rnum=30",
+      "status": 200,
+      "sha256": "1373c00c0f8b24392f29d89607780242bbf57c4609bcb20420887ed42b154a5d",
+      "bytes": 421943,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.insungsavingsbank.co.kr/ProdList_001.act?rnum=31",
+      "status": 200,
+      "sha256": "1bcb6440a6ab8fd2b442fb7c58dde48a5607a7ca3ef8820d4c475d3ce0371ef7",
+      "bytes": 421622,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.insungsavingsbank.co.kr/ProdList_001.act?rnum=32",
+      "status": 200,
+      "sha256": "ab5410dcb67ed14e11bbb083816db4b423e3d77606958b9de41cec4ef614604f",
+      "bytes": 419812,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.insungsavingsbank.co.kr/ProdList_001.act?rnum=39",
+      "status": 200,
+      "sha256": "4436aaa023517b37cbffa239cbf80b1d5c0bc0f7ce3ea49a5aeb55defa08cf96",
+      "bytes": 420060,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.insungsavingsbank.co.kr/ProdList_001.act?rnum=40",
+      "status": 200,
+      "sha256": "39f82032017db8b4cfde6dad97eda44273c7f2b93c925c67f2249f9151ea1b7b",
+      "bytes": 420470,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.jt-bank.co.kr/deposit/DEP0200.view",
+      "status": 200,
+      "sha256": "092b8ef103387d46b0cd4ce5d8ce7d7366e01fddc9401d49936ac8c258b82140",
+      "bytes": 234789,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.jt-bank.co.kr/deposit/DEP0300.view",
+      "status": 200,
+      "sha256": "015232f616329734353eaa170b71eeb2a8487084cbffa3a137ef5ee61a0778ea",
+      "bytes": 232517,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kakaobank.com/products/26weeks",
+      "status": 200,
+      "sha256": "19b6a49d5adecfc2e08b1e5ec89a97051de7ba7514c61f68dd471599518b181f",
+      "bytes": 91629,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kakaobank.com/products/AiGoalSavings",
+      "status": 200,
+      "sha256": "35b99dce6c75fbca847af578a26ce26cc26f17e655179594fe9e20d895c92de0",
+      "bytes": 80805,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kakaobank.com/products/childsavings",
+      "status": 200,
+      "sha256": "07a37ed6a62f2ea0c4b45984c21a155f459dafa3e3f814a6b49105e8893b4410",
+      "bytes": 77739,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kakaobank.com/products/deposit",
+      "status": 200,
+      "sha256": "76fb586fba8460195f08d5c628f3f4b573c33eaf4bf54142113e95484fd3bbe2",
+      "bytes": 78613,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kakaobank.com/products/savings",
+      "status": 200,
+      "sha256": "dc840153f288d918bf27b3fe4b4c51911fe7fd1256c24bd4bb5ea11a827720af",
+      "bytes": 75665,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kbanknow.com/web/product/deposit/codek-fixed",
+      "status": 200,
+      "sha256": "f6d4605429ce801ff304f7100b2d11ce685c500d67f1d08a3e7cfc0831f4bd9a",
+      "bytes": 183284,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kbanknow.com/web/product/deposit/codek-fixed?click=2023start_codek_termdeposit",
+      "status": 200,
+      "sha256": "f6d4605429ce801ff304f7100b2d11ce685c500d67f1d08a3e7cfc0831f4bd9a",
+      "bytes": 183284,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kbanknow.com/web/product/deposit/codek-saving",
+      "status": 200,
+      "sha256": "41dc9ebc8f7a24c6c94f3e344b6fc3fe441d7be86eff2889b44f490b83c9039f",
+      "bytes": 185201,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kbanknow.com/web/product/deposit/curious-saving",
+      "status": 200,
+      "sha256": "a0f23f0a9e564c9d5f6abe13960a10972070d144c0abe234be7439e2cbb50cdd",
+      "bytes": 189079,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kbanknow.com/web/product/deposit/mykids-saving",
+      "status": 200,
+      "sha256": "523bb2a59f78a047efaa9801480b9eeee408ed92f04283ee95f6064b77182753",
+      "bytes": 187313,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kbanknow.com/web/product/deposit/primary-saving",
+      "status": 200,
+      "sha256": "c0b6ec6659fe465d821b6ee5611c8b151f57026778374adfec6cdd9323a3e9bb",
+      "bytes": 190787,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kbanknow.com/web/product/deposit/rolling-farm",
+      "status": 200,
+      "sha256": "0c8d93129298527abc0981be4f11edbf12f73c3f68dcd5ad7c9885998e384e29",
+      "bytes": 185310,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1419598_115126.jsp",
+      "status": 200,
+      "sha256": "6e95a9eb1cd2183612c6e4c1e44e7df6c0c9d5f856286d31869dde5fbfaa71b4",
+      "bytes": 332782,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1419600_115126.jsp",
+      "status": 200,
+      "sha256": "61c734007b0627a8c10ba5a00e54ee9f9faed50e4b463479addb8e029bb09fcc",
+      "bytes": 338644,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1419601_115126.jsp",
+      "status": 200,
+      "sha256": "b36f06cdf73f3df47c4af0f12ddfff26264a19e31fff3627b35e72d76ea6e4d3",
+      "bytes": 332625,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080101/1479088_115126.jsp",
+      "status": 200,
+      "sha256": "58849688293b7c679478ed9cbb56adf17f56aef1b4694bfe3cff4d5ab4582d38",
+      "bytes": 326209,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1419754_115157.jsp",
+      "status": 200,
+      "sha256": "c32cb975e234920c168ea49f11631b431fc310b696a162b75dbc6a697f4b4e29",
+      "bytes": 345631,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1450446_115157.jsp",
+      "status": 200,
+      "sha256": "87d114f6ba97c02b19992c2f90df86d134fea3b1a4fd79ba0b02c47dee1fe008",
+      "bytes": 362923,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455928_115157.jsp",
+      "status": 200,
+      "sha256": "50dc2859004cf58ff6f15cc5ac43e6bf354048f80bafad5d036f53497f6f200e",
+      "bytes": 348807,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1455929_115157.jsp",
+      "status": 200,
+      "sha256": "e33a7264ac003e6bf1fe9a8f3b3467aa44e788d9f2f3a046c747d8cdf514c3b2",
+      "bytes": 362921,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1486817_115157.jsp",
+      "status": 200,
+      "sha256": "c6ed84a7c80c636bb3ba574e30443e8f7858c2b2f9f47d4582fd12b95d6b8efa",
+      "bytes": 338977,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1490214_115157.jsp",
+      "status": 200,
+      "sha256": "4be6fbc85f34a49a6009242d105dd20052088394564371e8d8f4767f2ce06b11",
+      "bytes": 334026,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1492538_115157.jsp",
+      "status": 200,
+      "sha256": "87794496d4c37d1b0ef88fbe884d0f8dbe9717ab621a934218dcbdc10d4d1112",
+      "bytes": 340540,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1506417_115157.jsp",
+      "status": 200,
+      "sha256": "fd5b9a3d19488f62de10abd933b4427d018adccf05ed29e5efa7e49ffeb1f858",
+      "bytes": 340527,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1508308_115157.jsp",
+      "status": 200,
+      "sha256": "a89488eb82396242c86fbe3c8d769c41386716c23c97d97061237da112c09d46",
+      "bytes": 329325,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1524394_115157.jsp",
+      "status": 200,
+      "sha256": "e240657d7d050920bdd66cc04e19030e1d3f4d6c69d531922029eca7d8e4f0a6",
+      "bytes": 342867,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1528527_115157.jsp",
+      "status": 200,
+      "sha256": "abb57aa0d5db97ac740b4e9df8659623da92429fd79223b30cc5c9835d8ee51f",
+      "bytes": 335822,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20110819001",
+      "status": 200,
+      "sha256": "27a642793ef50879fa1085ce68d02030af0d3e11d5c3b31f4b8ac290b32494de",
+      "bytes": 88489,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20150107001",
+      "status": 200,
+      "sha256": "2e8f6c90117376b467391085b0cdf5b176ce3e6542e97d212a1231798aeb6bbb",
+      "bytes": 85007,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20220225001",
+      "status": 200,
+      "sha256": "ede6e827839a574408a23d1cb402d57d0514d12abcbc14cbf3a2e26fbf752e41",
+      "bytes": 85362,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20220520001",
+      "status": 200,
+      "sha256": "7405c355e1d804475f78de08fe3d57280b0c68059a0dcf62f7ffaabeac7f45ce",
+      "bytes": 92999,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20230906001",
+      "status": 200,
+      "sha256": "2b3407e4635fbdd515e3bb167e266a0a38ce8e755658c82e4412d4fda40b8878",
+      "bytes": 85665,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20240220001",
+      "status": 200,
+      "sha256": "2bd4293f75bee19a240d611c39862ee5b5ade6448b1f28bc59c3e501d95466bf",
+      "bytes": 88965,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMDPT020103000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017030&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "status": 200,
+      "sha256": "e6f6f9b79261e2e62e7789312fdc0fc1a214ad4a82add1b1635c3cdb72d82308",
+      "bytes": 221595,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMDPT020108000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000020177&ib20_cur_mnu=FPMDPT020108000&ib20_cur_wgt=FPMDPT110LSTV00M&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "status": 200,
+      "sha256": "20ee068eb197d82bfdedd1846b7d37afea322fe88c8f28e7ea2b1c062b04ad9e",
+      "bytes": 220545,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017032&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "status": 200,
+      "sha256": "0c93d2261b2df83ad7923e99368dd1ec8f3b997e1ddc148ca0c1db9aa3e42091",
+      "bytes": 219821,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000020178&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "status": 200,
+      "sha256": "b100a44539127d5bce09a31c681d9d8840bfb1194658fe4c039bcf5829e54b64",
+      "bytes": 220222,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000202492&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "status": 200,
+      "sha256": "5791854b1fcaf764f50b9563b076988f3d127ff6ac54827aeb4e933320deda20",
+      "bytes": 221960,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000203950&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "status": 200,
+      "sha256": "4847ebe77028ff11802d3bd417931b89390fca76aa848e34d73087b7c0a0415e",
+      "bytes": 219537,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000211986&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "status": 200,
+      "sha256": "502f154dc4d710177f83520fb3e0545a9bbe60511e800479da14ca3ca0eb3112",
+      "bytes": 219151,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kuemhwabank.co.kr/ProdList_001.act?rnum=21",
+      "status": 200,
+      "sha256": "0219a11818e2da062b6448ca626b754b15509ee8d230f3e60eb620b7f72ceabb",
+      "bytes": 433540,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kuemhwabank.co.kr/ProdList_001.act?rnum=22",
+      "status": 200,
+      "sha256": "5d15f9b49b81dbef612eef85e4d38624d3412eac36b59d1fcc50ffd63f199f63",
+      "bytes": 294487,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kuemhwabank.co.kr/ProdList_001.act?rnum=23",
+      "status": 200,
+      "sha256": "7ec3e0db22fe211360e6f1bb058e03de7f81eb08e13ba2608c0e73e9a2ed320e",
+      "bytes": 433896,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kuemhwabank.co.kr/ProdList_001.act?rnum=24",
+      "status": 200,
+      "sha256": "7083e3f05b4efed71124cd8e5012b088ce30cc09b6c41d5f250bd3c930ffee55",
+      "bytes": 434407,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kuemhwabank.co.kr/ProdList_001.act?rnum=25",
+      "status": 200,
+      "sha256": "d94b290df24d1990f5fd9d82918f2cf957807030e0b67112e538ef5592ae99ef",
+      "bytes": 292377,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kuemhwabank.co.kr/ProdList_001.act?rnum=26",
+      "status": 200,
+      "sha256": "292c6606a8b71011f64ecfcda50c12a11d3193a0321bc22406b6c45820f8b82e",
+      "bytes": 292122,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kuemhwabank.co.kr/ProdList_001.act?rnum=27",
+      "status": 200,
+      "sha256": "b0f99e91f74eb35489b9e569dab5d6986ba7e66eae8de5d1602512d779f214bc",
+      "bytes": 292324,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kuemhwabank.co.kr/ProdList_001.act?rnum=28",
+      "status": 200,
+      "sha256": "c50a6380ed9a836584c11e67cf77746de03c7d6c094b4f58cb7a6bf5677b3ce5",
+      "bytes": 291965,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kuemhwabank.co.kr/ProdList_001.act?rnum=29",
+      "status": 200,
+      "sha256": "77e8d909c55e34e76b792d65f1f27934ab8a541424c93575e211303d344678c2",
+      "bytes": 291527,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kusb.co.kr/contents/deposit/freeSurplus.html",
+      "status": 200,
+      "sha256": "fc18340c04552cfcd7c536f3effc64c02212b46005f84c32adfae395e377db02",
+      "bytes": 33591,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kusb.co.kr/contents/deposit/largeSum.html",
+      "status": 200,
+      "sha256": "0698efb419ab44822a243239174130ed11b30e082f5a9921ea019ae09f7ac929",
+      "bytes": 40470,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kusb.co.kr/contents/deposit/rotationSurplus.html",
+      "status": 200,
+      "sha256": "fb11557a425e0fc4531cef6aae6fb07c86bafa894c9628ae2c6d49eb9457192c",
+      "bytes": 34531,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.kusb.co.kr/contents/deposit/surplus.html",
+      "status": 200,
+      "sha256": "35fb6deb8d85dbc6f778df04fcd1611d9d3785e7d4ba005551f204557c82e513",
+      "bytes": 37849,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=16",
+      "status": 200,
+      "sha256": "377e7831702591ecb0ac378415fe62fa9075a74f760a374d18e955df7c252865",
+      "bytes": 283778,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=17",
+      "status": 200,
+      "sha256": "2381a6ac1dd4c3442cf5604ffe8fb6d9038599d838a218700b64f8de86000efc",
+      "bytes": 417915,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=18",
+      "status": 200,
+      "sha256": "3d806c02721bab91a109015d916354b97716dff8079f23453f92626f53568e9e",
+      "bytes": 417908,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=19",
+      "status": 200,
+      "sha256": "8f5be7cf47c67945325ad110256ec6fba88794c37a3c2c5b0ad71531c49fa833",
+      "bytes": 417921,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=20",
+      "status": 200,
+      "sha256": "0840f2cd75eaf96c071902e30d25f8ab5c2c28eef16493276358d71354428b4c",
+      "bytes": 415794,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=21",
+      "status": 200,
+      "sha256": "b62701abbdd9b939c2f739cf8d3f9571d710ac754ab95b672d9d670f3c69bd72",
+      "bytes": 418863,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=22",
+      "status": 200,
+      "sha256": "9903d1c33048695daad93cdd12416885821b434cb3caa81374db9f1c38ea0140",
+      "bytes": 417484,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=23",
+      "status": 200,
+      "sha256": "9778a85f7675cd1cd67a1b94bb5c5e9104429cc076788930f0ea4753f06fa602",
+      "bytes": 283488,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=24",
+      "status": 200,
+      "sha256": "d64180156eb35cb52d948533caa9e835368ab5fc3ef654ad0c7a8356739f03bd",
+      "bytes": 283636,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+      "status": 200,
+      "sha256": "47748751fc4ca7038d6ee3c9afcfe42c4e2bd60cbf01621ca843654bf1af5ce9",
+      "bytes": 315425,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=35",
+      "status": 200,
+      "sha256": "301d0699ab71f90c46db6fd93e15ee59bfd52bd852931f976f3fc0dad70d3a05",
+      "bytes": 315215,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=36",
+      "status": 200,
+      "sha256": "163c385e7eb135ca51ecdef555eabfd3fc28481115906cc746cf0a48b55daadb",
+      "bytes": 315429,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=37",
+      "status": 200,
+      "sha256": "f06f1f143120b1728f0395e75443c40774ddecd91616d052d3497ca03524a749",
+      "bytes": 464213,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=39",
+      "status": 200,
+      "sha256": "6694b62d8e9cf8561d6e6038b4b58f3c3937db0a675047f31e171b8fcb06214c",
+      "bytes": 466946,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=41",
+      "status": 200,
+      "sha256": "464da59828ed7d429bfa4a504a42d37a0c4b68f306579132dad84553f4f31d44",
+      "bytes": 318403,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=64",
+      "status": 200,
+      "sha256": "56ba544a9d3d0896737ce5b31f0cd3fee1275755e2c170157f39b79502e56846",
+      "bytes": 315689,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=65",
+      "status": 200,
+      "sha256": "d45c797947cb1666f5ddc99dcd9d0d62a833ca9dc27380ba299427c9ddc073bf",
+      "bytes": 313633,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.moasb.co.kr/PtcShrtInfo_002.act",
+      "status": 200,
+      "sha256": "96f8ed3abbab4a975da8fcc00962d7aa5f1e52d92f435f2d960773336ee2d3ae",
+      "bytes": 298640,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=15",
+      "status": 200,
+      "sha256": "abd06822c05760ae40cdc612077c9ed72a2076876e0a855085730a2620cae5ef",
+      "bytes": 425014,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=16",
+      "status": 200,
+      "sha256": "970285aed71572839469d4b03af614ace97d4fca6dca03896d2c3a927fe876cc",
+      "bytes": 425157,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=17",
+      "status": 200,
+      "sha256": "eec880977a43d4af68c9e2b81d1c8905019b287601eb120f930a86fd8d88550c",
+      "bytes": 425022,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=18",
+      "status": 200,
+      "sha256": "334ae2a8dfa07a3ef4d5a41ccdc1fc527b730be9c70255e5b12c8649030c3d34",
+      "bytes": 287409,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=19",
+      "status": 200,
+      "sha256": "d490ad70517d3281718aab46fcc2b06019e576a22038641c8d028522c0cf1830",
+      "bytes": 422120,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=20",
+      "status": 200,
+      "sha256": "9984cb4ca49c303ec255fe8b5ce057451935b0b334165e10df4c32205037ea30",
+      "bytes": 287422,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=21",
+      "status": 200,
+      "sha256": "81b01fd0db08ae679a6935f9f768250483886e4d10a4316c3c24fbcf2c0bd5b4",
+      "bytes": 286501,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=28",
+      "status": 200,
+      "sha256": "e0c4180b606afc938efef886fa6b18926179e3f58ffe091e99f278e3a6b20fe1",
+      "bytes": 425009,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=29",
+      "status": 200,
+      "sha256": "20fae5016f353a3b30fff4bd188e7b800ce20c1128b54d1c3ac41796c2bb238d",
+      "bytes": 425157,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.nybank.co.kr/ProdList_001.act?rnum=30",
+      "status": 200,
+      "sha256": "e62b0293357ca67a06a79cb8f6c9254c1f0150bf6ed5162a844e741b490a7b9b",
+      "bytes": 425023,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.oksavingsbank.com/product/withdraw/6month.jsp",
+      "status": 200,
+      "sha256": "248b65130e950f032bbd80987df771222f9db4406c61b5b2b1eed1c1d8b5f239",
+      "bytes": 31790,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.oksavingsbank.com/product/withdraw/diligent.jsp",
+      "status": 200,
+      "sha256": "dc378b10d031e701f0776b4730b8cb03b6db5783c6844b69573193de28fb8839",
+      "bytes": 30865,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.osb.co.kr/ib20/mnu/HOM00072",
+      "status": 200,
+      "sha256": "bd3fa0092ef0851c07783e20ce16d7388e02db30ebcad41fd54f50292a1fa8e4",
+      "bytes": 38439,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.osb.co.kr/ib20/mnu/HOM00076",
+      "status": 200,
+      "sha256": "2bbd70c45e684c9b70b949c3d88f0c23cf8cb50a8b4fe33dc7dde8f24f6aa2a5",
+      "bytes": 39583,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.osb.co.kr/ib20/mnu/HOM00077",
+      "status": 200,
+      "sha256": "ba1103bda89f5cc72a17910f2024ad868468280171786509d615b92e8abab594",
+      "bytes": 39227,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.osb.co.kr/ib20/mnu/HOM00078",
+      "status": 200,
+      "sha256": "a0ed2e06f0435fc8f33377a0175a7e4639a12b01cf5fafc25f4c0f8193cfeb5e",
+      "bytes": 40959,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.osb.co.kr/ib20/mnu/HOM00227",
+      "status": 200,
+      "sha256": "521917e6ffd96aecea33c3d7daf407e51e698657d096fd4aeea6b09ff216c1b1",
+      "bytes": 43196,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+      "status": 200,
+      "sha256": "4d2302dd8ddb2b683a3b92288fc724f4eeabf0f44824f8067c2725868a4e55bc",
+      "bytes": 70479,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/list.pepper?depositeOrder=high&page=2",
+      "status": 200,
+      "sha256": "c8113ce91320fbe5e02ce269d994b5d4d65b983f985d4706a908c2d6df7008f1",
+      "bytes": 70419,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=17&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+      "status": 200,
+      "sha256": "66acbf2d75b41d8d37c3b42cffc592fc9dd03ec5a4df7e52a6a280f6f979eb37",
+      "bytes": 68303,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=18",
+      "status": 200,
+      "sha256": "84f6f06c68dbea5a82cbce73a600abe17322ff85f1a2768c14b8bb649e1c1110",
+      "bytes": 69764,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+      "status": 200,
+      "sha256": "425d832d952775ac9c6d586966d475e4d9b0552dc714d6463a6d4d5e3f4b7e24",
+      "bytes": 76630,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=20",
+      "status": 200,
+      "sha256": "9cf7f8940a4da2bd233105c0d9c07c7fe1969048af3e73c469ed5c7e32186198",
+      "bytes": 66419,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=33&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+      "status": 200,
+      "sha256": "1e16824f28be3e2d77a40759216d80c81962745d02dd38d0dc2f11df078e4d42",
+      "bytes": 68031,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=35",
+      "status": 200,
+      "sha256": "e8ff3287ed58d2955b7237b6c3dcd15b096177223c3c2298f676bad1a86a6f71",
+      "bytes": 72252,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+      "status": 200,
+      "sha256": "b5a22fc0db977297b360a1557b960cdfa175886023d8a9979f66c88c6a191c2f",
+      "bytes": 70917,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=37",
+      "status": 200,
+      "sha256": "060e75e924d8e5c761e1cca191ff54251178550ef7d7fe0b1959dbbf836b4997",
+      "bytes": 69761,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=79",
+      "status": 200,
+      "sha256": "87ec447756b63d58aa53394864ff4a09c59e071c14928701ec93f4d1b19c751d",
+      "bytes": 70400,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=80",
+      "status": 200,
+      "sha256": "8ab50c74ed8a35bc69ed9eae5474c1ced3a25bc614650e0ab5633e8cc1c57d10",
+      "bytes": 70466,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=2&prdSn=34",
+      "status": 200,
+      "sha256": "4826003ff8aefa85348476248446021a755df949f3fbb9b742c8ce3f7e1052fe",
+      "bytes": 69521,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ptbank.co.kr/ProdList_001.act?rnum=15",
+      "status": 200,
+      "sha256": "10a4684d0d3df92a3b740d27dd3eb7cc799d89ec45756e145479a342449deb38",
+      "bytes": 262304,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ptbank.co.kr/ProdList_001.act?rnum=16",
+      "status": 200,
+      "sha256": "c81c594115f7fb9153945a71f2645605419eaf41a6d1b6ae0c6cceb8acb3ae4e",
+      "bytes": 387318,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ptbank.co.kr/ProdList_001.act?rnum=18",
+      "status": 200,
+      "sha256": "867f813572d0e902502334266080c8fb5e78ce7e5803f90243fe18501a18e509",
+      "bytes": 383295,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ptbank.co.kr/ProdList_001.act?rnum=19",
+      "status": 200,
+      "sha256": "be0ac09a3a4b4ca11ff5e4958183253ae2fc6a6881433483320715c413f4e6a1",
+      "bytes": 382832,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ptbank.co.kr/ProdList_001.act?rnum=25",
+      "status": 200,
+      "sha256": "18d5099fa2a0c86217e6988b7e5273b2102303be95dc0e5e4eca487d161bd546",
+      "bytes": 384606,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ptbank.co.kr/ProdList_001.act?rnum=27",
+      "status": 200,
+      "sha256": "521cfd1007476530aa04e875022c75f6f078f4c1f7669d6e4de190f40b310de8",
+      "bytes": 384547,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ptbank.co.kr/ProdList_001.act?rnum=29",
+      "status": 200,
+      "sha256": "d67ff9685bf50a7b88f7d371ca78a0226dfe42d42649143a85fd66b735ed90dd",
+      "bytes": 387123,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.samhosb.co.kr/ProdList_001.act?rnum=21",
+      "status": 200,
+      "sha256": "bfdcc45fffcdadc4f96f1cda8aa9989f2790081c9fc652d705870579d7db86e0",
+      "bytes": 295832,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.samhosb.co.kr/ProdList_001.act?rnum=23",
+      "status": 200,
+      "sha256": "d3cc5ff1ff30958058822fc1208b1a8c22077a33dc25f872935569927587ff73",
+      "bytes": 435841,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.samhosb.co.kr/ProdList_001.act?rnum=25",
+      "status": 200,
+      "sha256": "7f2b45beac894bdcd0e2f880e63117f89e85b997b50ce2c2e9e8fecdff0c7d0a",
+      "bytes": 294506,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.samhosb.co.kr/ProdList_001.act?rnum=26",
+      "status": 200,
+      "sha256": "d2c43152d97310457ad671bf85360134b2d83aaaf00b0bc47057f6eaf175fde5",
+      "bytes": 434527,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.samhosb.co.kr/ProdList_001.act?rnum=27",
+      "status": 200,
+      "sha256": "ef7f89d88d7fcf63b4df8483b86449b9741b776509661f1d40906e2b9b8d655d",
+      "bytes": 294394,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.samhosb.co.kr/ProdList_001.act?rnum=28",
+      "status": 200,
+      "sha256": "0091df6cdbecc66516f85ce7212e6ce5f7c0d0407e0baee76733ad77f9f7ebba",
+      "bytes": 434209,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.samhosb.co.kr/ProdList_001.act?rnum=29",
+      "status": 200,
+      "sha256": "fda145292930bfdad5b26228ab629a5b0cd53eb8c84f1fa2734d4f383afc8ffa",
+      "bytes": 294233,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.smartbank.co.kr/ProdList_001.act?rnum=1",
+      "status": 200,
+      "sha256": "04a9114eb48c76b6d4d011d9e4e2bde550b02bd92e67adc3b1a6118de22510d7",
+      "bytes": 469381,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.smartbank.co.kr/ProdList_001.act?rnum=11",
+      "status": 200,
+      "sha256": "31e94cf91c987462f0f589c7c9c56523686f8eeabae4b24ed9e6f0f157dc00d8",
+      "bytes": 480339,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.standardchartered.co.kr/np/kr/pl/se/SavingDetail.jsp?CNNCTN_WAY=012348&id=36",
+      "status": 200,
+      "sha256": "f0d018f6eedc7f37534d54e311e1772365258014e999975a8ba3dc724c8005f4",
+      "bytes": 292993,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.suhyup-bank.com/ib20/mnu/FPD00124?ib20_wc=WID05027%3AWID04702&productCode=D00168",
+      "status": 200,
+      "sha256": "d1c113e2013a77e958bc614bc1c76142069673c956b8c8b86a74888242e185e9",
+      "bytes": 85171,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.suhyup-bank.com/ib20/mnu/FPD00124?ib20_wc=WID05027%3AWID04702&productCode=D00175",
+      "status": 200,
+      "sha256": "d1c113e2013a77e958bc614bc1c76142069673c956b8c8b86a74888242e185e9",
+      "bytes": 85171,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.suhyup-bank.com/ib20/mnu/FPD00124?ib20_wc=WID05027%3AWID04702&productCode=D00200",
+      "status": 200,
+      "sha256": "d1c113e2013a77e958bc614bc1c76142069673c956b8c8b86a74888242e185e9",
+      "bytes": 85171,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.tossbank.com/articles/baby-savings-account",
+      "status": 200,
+      "sha256": "933bc1aeebe07134d590402725bc906f4e5578ce1ad2a258d6851b107ae83404",
+      "bytes": 221048,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.tossbank.com/product-service/savings/savings-freedom",
+      "status": null,
+      "result": "FETCH_FAILED_NOT_DISCONTINUED",
+      "error_type": "TimeoutError",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP001?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&prdCd=1130312007&sysDsCd=01",
+      "status": 200,
+      "sha256": "a80eaf291cf7200fd848f1a98e21c789dc906630af980c5a654e943a88f068ec",
+      "bytes": 153841,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP001?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&prdCd=1130313504&sysDsCd=01",
+      "status": 200,
+      "sha256": "b3bf4fc7b4c4d20fa2e114770238126da1a2e0bae5c577c02e2bfefaa4121c68",
+      "bytes": 154051,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP001?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&sysDsCd=01&prdCd=1130315008",
+      "status": 200,
+      "sha256": "a806e88afd7984887fef0fc7dacf8823c99e57f084a4af6a40d87781956cfa0d",
+      "bytes": 157294,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP002?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&sysDsCd=01&prdCd=1130313507",
+      "status": 200,
+      "sha256": "c1c42054618ea313c4eb182f91b770f5b4fd0c54b8b44c3cebd6b0c5406b3d87",
+      "bytes": 155848,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP002?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&sysDsCd=01&prdCd=1130315009",
+      "status": 200,
+      "sha256": "28ef8628c1d42b9442b54ba2af16ff3805967f045c5681cfb6d70efa7c2585ea",
+      "bytes": 156180,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.woorisavingsbank.com/product/deposite/view.do?depositeOrder=high&page=1&prdSn=311",
+      "status": 200,
+      "sha256": "19ee37302feff71c2b5778304cb9fb2a126dbca07ceb3003b5d6258dc3a962ff",
+      "bytes": 161616,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.woorisavingsbank.com/product/deposite/view.do?depositeOrder=high&page=1&prdSn=319",
+      "status": 200,
+      "sha256": "9abbdc1a420db1e0c6bd0d7fb0a3d3f78ef69bcc59e0263ee5cd5acd3d4cbe15",
+      "bytes": 163544,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.woorisavingsbank.com/product/deposite/view.do?depositeOrder=high&page=1&prdSn=320",
+      "status": 200,
+      "sha256": "fa3db6c25f4ed9edf666f2356b30097be7398567be78e7e4e0ed34c1cd7f3f31",
+      "bytes": 163653,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.woorisavingsbank.com/product/deposite/view.do?depositeOrder=high&page=1&prdSn=321",
+      "status": 200,
+      "sha256": "853ba306ec4d0041d68dddce067991753ef92dfc7040eb301ffec4e5eb27a74e",
+      "bytes": 163024,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.woorisavingsbank.com/product/deposite/view.do?depositeOrder=high&page=1&prdSn=322",
+      "status": 200,
+      "sha256": "21c53543059af58d29b2cc2a3e71d09eff94a5057951fe17976152ba667f707a",
+      "bytes": 159123,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.woorisavingsbank.com/product/deposite/view.do?depositeOrder=high&page=1&prdSn=323",
+      "status": 200,
+      "sha256": "28a0d1b835d260561b0a3716c84bfc96809da43e30ff74bf92bf3e04711beb21",
+      "bytes": 163492,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.woorisavingsbank.com/product/deposite/view.do?depositeOrder=high&page=1&prdSn=324",
+      "status": 200,
+      "sha256": "d3b1aef5584eaa4e5e76816ccc85f12ef5402166e2b59512ac0d1420ec9d5511",
+      "bytes": 163133,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.woorisavingsbank.com/product/deposite/view.do?depositeOrder=high&page=1&prdSn=325",
+      "status": 200,
+      "sha256": "923b9b139d553e776d7592bb10599725d3d90db777b175153ecccf100be86465",
+      "bytes": 154408,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.woorisavingsbank.com/product/deposite/view.do?depositeOrder=high&page=1&prdSn=343",
+      "status": 200,
+      "sha256": "2d64534efac982994d19a7e6a79d10623fdb18b5c755e7b9d3ca43427053f8d5",
+      "bytes": 157116,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ycbank.co.kr/ProdList_001.act?rnum=31",
+      "status": 200,
+      "sha256": "7852236e20f4e9d7eb99509aafdbd0121338b9684d9603d78d13b7076634958d",
+      "bytes": 456169,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ycbank.co.kr/ProdList_001.act?rnum=32",
+      "status": 200,
+      "sha256": "5ea2fc8cad4f50960753627ce36f9add1df0b165ad4f944a8e46ca4319867bdf",
+      "bytes": 455385,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ycbank.co.kr/ProdList_001.act?rnum=33",
+      "status": 200,
+      "sha256": "edfeb05d9b59ea859f1804ad104e8757a9688818e91a436e4a847a6420d8a64e",
+      "bytes": 455409,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ycbank.co.kr/ProdList_001.act?rnum=34",
+      "status": 200,
+      "sha256": "d22c240aa079bd8a6bf2cd8d63783eb2fdfd4c0b753fe25faaf6c76df6d1c1d0",
+      "bytes": 451510,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ycbank.co.kr/ProdList_001.act?rnum=35",
+      "status": 200,
+      "sha256": "f8f7db1f28f40c627290275235206d32e1963f0d7800af0f5517cfcbba260838",
+      "bytes": 457496,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ycbank.co.kr/ProdList_001.act?rnum=36",
+      "status": 200,
+      "sha256": "5b35501940c1a8ab21ecfbafcab63596f2fc3d2b265b418a5484dea8e964d25f",
+      "bytes": 457500,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ycbank.co.kr/ProdList_001.act?rnum=38",
+      "status": 200,
+      "sha256": "26af126ea898694a136754c6fcbcaee177d5f98ca86f0e27d807906653782d71",
+      "bytes": 309906,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    },
+    {
+      "url": "https://www.ycbank.co.kr/ProdList_001.act?rnum=72",
+      "status": 200,
+      "sha256": "ca2feb6b0a25be3446131f109f1a3658074a6ff67eb6c4bb5e7498f7cd0430c3",
+      "bytes": 453578,
+      "result": "FETCHED_REVIEW_REQUIRED",
+      "comparison": "NO_PREVIOUS_COMPARISON"
+    }
+  ],
+  "facts_modified": false,
+  "expiry_extended": false,
+  "discontinuation_inferred_from_fetch_failure": false
+}

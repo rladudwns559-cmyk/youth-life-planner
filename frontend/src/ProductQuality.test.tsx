@@ -1,5 +1,8 @@
 import {render,screen,fireEvent,within} from '@testing-library/react';
 import {beforeEach,afterEach,it,expect,vi} from 'vitest';
+// This file preserves the original Nov 3 snapshot's expiry contract.
+// Live rechecks are exercised separately in FinancialRenewals.test.tsx.
+vi.mock('./public-data/financial-renewals.json',()=>({default:{built_on:'2026-11-06',records:{},recommendations:{rate_by_product:{},order_calendar:{},order_pool:[]}}}));
 import DataFreshness from './DataFreshness';
 import ProductExplorer from './ProductExplorer';
 import RegionalPrograms from './RegionalPrograms';

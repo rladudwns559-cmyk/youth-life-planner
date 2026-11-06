@@ -1,0 +1,214 @@
+[
+  {
+    "as_of": "2026-11-07",
+    "monthly": 300000,
+    "months": 12,
+    "lump": null,
+    "results": {
+      "SAVINGS": {
+        "fit": 29,
+        "partial": 8,
+        "recommended": [
+          {
+            "id": "NOV3-SB-BULIM-TOK-SAVE",
+            "basic_rate": "4.20"
+          },
+          {
+            "id": "NOV3-SB-MOA-E-SAVE",
+            "basic_rate": "4.00"
+          },
+          {
+            "id": "KAKAO-FREE-SAVINGS",
+            "basic_rate": "3.85"
+          }
+        ]
+      },
+      "DEPOSIT": {
+        "fit": 0,
+        "partial": 0,
+        "recommended": []
+      }
+    }
+  },
+  {
+    "as_of": "2026-11-07",
+    "monthly": 300000,
+    "months": 12,
+    "lump": 10000000,
+    "results": {
+      "SAVINGS": {
+        "fit": 29,
+        "partial": 8,
+        "recommended": [
+          {
+            "id": "NOV3-SB-BULIM-TOK-SAVE",
+            "basic_rate": "4.20"
+          },
+          {
+            "id": "NOV3-SB-MOA-E-SAVE",
+            "basic_rate": "4.00"
+          },
+          {
+            "id": "KAKAO-FREE-SAVINGS",
+            "basic_rate": "3.85"
+          }
+        ]
+      },
+      "DEPOSIT": {
+        "fit": 14,
+        "partial": 0,
+        "recommended": [
+          {
+            "id": "NOV3-SB-MOA-DEPOSIT",
+            "basic_rate": "3.85"
+          },
+          {
+            "id": "NOV3-SB-MOA-E-DEPOSIT",
+            "basic_rate": "3.85"
+          },
+          {
+            "id": "KAKAO-DEPOSIT",
+            "basic_rate": "3.80"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "as_of": "2026-11-07",
+    "monthly": 3000000,
+    "months": 12,
+    "lump": null,
+    "results": {
+      "SAVINGS": {
+        "fit": 17,
+        "partial": 20,
+        "recommended": [
+          {
+            "id": "NOV3-SB-BULIM-TOK-SAVE",
+            "basic_rate": "4.20"
+          },
+          {
+            "id": "NOV3-SB-MOA-E-SAVE",
+            "basic_rate": "4.00"
+          },
+          {
+            "id": "KAKAO-FREE-SAVINGS",
+            "basic_rate": "3.85"
+          }
+        ]
+      },
+      "DEPOSIT": {
+        "fit": 0,
+        "partial": 0,
+        "recommended": []
+      }
+    }
+  },
+  {
+    "as_of": "2026-11-07",
+    "monthly": 300000,
+    "months": 24,
+    "lump": null,
+    "results": {
+      "SAVINGS": {
+        "fit": 23,
+        "partial": 4,
+        "recommended": [
+          {
+            "id": "NOV3-SB-MOA-E-SAVE",
+            "basic_rate": "3.80"
+          },
+          {
+            "id": "KBANK-PRIMARY-SAVINGS",
+            "basic_rate": "3.50"
+          },
+          {
+            "id": "NOV3-SB-BULIM-TOK-SAVE",
+            "basic_rate": "3.40"
+          }
+        ]
+      },
+      "DEPOSIT": {
+        "fit": 0,
+        "partial": 0,
+        "recommended": []
+      }
+    }
+  },
+  {
+    "as_of": "2026-11-07",
+    "monthly": 300000,
+    "months": 36,
+    "lump": null,
+    "results": {
+      "SAVINGS": {
+        "fit": 20,
+        "partial": 3,
+        "recommended": [
+          {
+            "id": "KBANK-PRIMARY-SAVINGS",
+            "basic_rate": "3.50"
+          },
+          {
+            "id": "NOV3-SB-MOA-E-SAVE",
+            "basic_rate": "3.50"
+          },
+          {
+            "id": "NOV3-SB-BULIM-TOK-SAVE",
+            "basic_rate": "3.40"
+          }
+        ]
+      },
+      "DEPOSIT": {
+        "fit": 0,
+        "partial": 0,
+        "recommended": []
+      }
+    }
+  },
+  {
+    "as_of": "2026-11-07",
+    "monthly": 1000000,
+    "months": 6,
+    "lump": 50000000,
+    "results": {
+      "SAVINGS": {
+        "fit": 13,
+        "partial": 5,
+        "recommended": [
+          {
+            "id": "KAKAO-FREE-SAVINGS",
+            "basic_rate": "3.70"
+          },
+          {
+            "id": "KBANK-PRIMARY-SAVINGS",
+            "basic_rate": "3.30"
+          },
+          {
+            "id": "KN-BETTER-SAVING",
+            "basic_rate": "3.10"
+          }
+        ]
+      },
+      "DEPOSIT": {
+        "fit": 10,
+        "partial": 1,
+        "recommended": [
+          {
+            "id": "KAKAO-DEPOSIT",
+            "basic_rate": "3.60"
+          },
+          {
+            "id": "NOV3-SB-MOA-DEPOSIT",
+            "basic_rate": "3.50"
+          },
+          {
+            "id": "NOV3-SB-MOA-E-DEPOSIT",
+            "basic_rate": "3.50"
+          }
+        ]
+      }
+    }
+  }
+]

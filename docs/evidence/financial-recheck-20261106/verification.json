@@ -1,0 +1,39 @@
+{
+  "checked_on": "2026-11-06",
+  "integrated_on": "2026-11-07",
+  "total_products": 326,
+  "renewed": 108,
+  "rate_verified": 57,
+  "held": 63,
+  "not_rechecked": 155,
+  "valid_until": "2026-11-13",
+  "url_scan": {
+    "total": 354,
+    "fetched": 347,
+    "failed": 7,
+    "prior_comparison_available": false
+  },
+  "backend": {
+    "passed": 12875,
+    "skipped": 1,
+    "warnings": 1
+  },
+  "frontend": {
+    "passed": 414,
+    "files": 36
+  },
+  "public_profiles_matched": 6,
+  "public_version": 25,
+  "public_duplicate_ids": 0,
+  "noopener_missing": 0,
+  "console_errors": 0,
+  "actual_product_calculations": 0,
+  "unverified_policy_cashflow": 0,
+  "automation": {
+    "kind": "thread heartbeat",
+    "status": "ACTIVE",
+    "daily_kst": "09:00",
+    "computer_app_required": true
+  },
+  "obsidian_gui_verified": false
+}

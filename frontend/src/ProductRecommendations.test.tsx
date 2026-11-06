@@ -1,5 +1,7 @@
 import {render,screen,fireEvent,within} from '@testing-library/react';
 import {beforeEach,afterEach,it,expect,vi} from 'vitest';
+// Preserve the original dated recommendation contract independently of rechecks.
+vi.mock('./public-data/financial-renewals.json',()=>({default:{built_on:'2026-11-06',records:{},recommendations:{rate_by_product:{},order_calendar:{},order_pool:[]}}}));
 import ProductExplorer from './ProductExplorer';
 import prepared from './public-data/product-expanded.json';
 import rates from './public-data/product-recommendations.json';

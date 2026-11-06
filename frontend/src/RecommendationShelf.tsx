@@ -1,12 +1,15 @@
 import {useEffect,useId,useRef} from 'react';
 import rates from './public-data/product-recommendations.json';
+import {renewedRate,renewedRank} from './financial-snapshots';
 export type BasicRate={base_rate_percent:string;max_total_rate_percent:string|null;evidence_locator:string;sources:{url:string;title:string;reviewed_on:string;basis_date:string|null}[]};
 const data=rates as unknown as {built_on:string;valid_until:string;rate_by_product:Record<string,Record<string,BasicRate>>;order_calendar:Record<string,Record<string,number>>;order_pool:string[][];disclosure:string};
 export function verifiedBasicRate(id:string,months:number,asOf:string):BasicRate|null{
+ const renewed=renewedRate(id,months,asOf);if(renewed!==undefined)return renewed;
  if(asOf<data.built_on||asOf>data.valid_until)return null;
  return data.rate_by_product[id]?.[String(months)]??null;
 }
-export function preparedRecommendationRank(id:string,kind:string,months:number):number{
+export function preparedRecommendationRank(id:string,kind:string,months:number,asOf=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())):number{
+ const renewed=renewedRank(id,kind,months,asOf);if(renewed!==null)return renewed;
  const pool=data.order_pool[data.order_calendar[kind]?.[String(months)]??-1]??[];
  const i=pool.indexOf(id);return i<0?Number.MAX_SAFE_INTEGER:i;
 }
@@ -18,7 +21,7 @@ export function comparePreparedRecommendations(a:RankedProduct,b:RankedProduct,m
  if(a.kind!==b.kind)return a.kind==='SAVINGS'?-1:1;
  const aRate=verifiedBasicRate(a.id,months,asOf),bRate=verifiedBasicRate(b.id,months,asOf);
  return Number(bRate!==null)-Number(aRate!==null)||
-  (aRate&&bRate?preparedRecommendationRank(a.id,a.kind,months)-preparedRecommendationRank(b.id,b.kind,months):0)||a.id.localeCompare(b.id);
+  (aRate&&bRate?preparedRecommendationRank(a.id,a.kind,months,asOf)-preparedRecommendationRank(b.id,b.kind,months,asOf):0)||a.id.localeCompare(b.id);
 }
 type Pick={id:string;name:string;institution:string;kind:string;code:string;rate:BasicRate;payment:string;checks:string[];eligibility:string};
 export default function RecommendationShelf({items,months,onView}:{items:Pick[];months:number;onView:(id:string)=>void}){

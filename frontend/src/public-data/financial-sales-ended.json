@@ -1,0 +1,24 @@
+{
+  "checked_on": "2026-11-06",
+  "closures": [
+    {
+      "checked_on": "2026-11-06",
+      "product_id": "NOV3-KB-SALARY",
+      "institution": "KB국민은행",
+      "product_name": "직장인우대적금",
+      "sale_status": "DISCONTINUED",
+      "effective_on": "2025-12-05",
+      "already_excluded_from_current_326": true,
+      "source": {
+        "url": "https://obank.kbstar.com/quics?articleClass=1&articleId=141870&bbsMode=view&boardId=669&compId=b058334&page=C020721&searchCondition=title&searchStr=&viewPage=9",
+        "title": "KB국민은행 수신상품 5종 판매종료 안내",
+        "posted_on": "2025-11-20",
+        "checked_on": "2026-11-06",
+        "mode": "OFFICIAL_PAGE",
+        "locator": "종료상품 표의 적립식 상품(1종)=직장인우대적금; 시행일2025.12.5(2025.12.4까지 판매가능). 직접 HTTP200 현재 다시 읽어 확인.",
+        "raw_sha256": "56f6b744acc80abf0d1173c5dec076991958d8bf011e8de57c0ffd30bdb48596"
+      },
+      "evidence_note": "과거 원문에 이미 제외된 상품으로 현재326개에 새로 포함하거나 신규종료가 발생한 것으로 세지 않음. 공지 페이지의 일반 오류 모달 문구가 있으나 본문 종료상품/시행일 표는 직접 확보했다."
+    }
+  ]
+}

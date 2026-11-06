@@ -1,0 +1,322 @@
+[
+  {
+    "product_id": "PEPPER-REGULAR",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=17&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+    "key": "sb-9ac3cc4fe86c",
+    "sha256": "9c63018f9fa6bb72c0fca9d88541d1252490f333cedcfb3522445b68a0811c3f",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "PEPPER-DIGITAL-REGULAR",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=2&prdSn=34",
+    "key": "sb-7208bc249d78",
+    "sha256": "f75a23d1fcaa13f5e0d50c61a8127b81e025ac27d3be66ce8c13468b2ff91125",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "PEPPER-2030",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=33&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+    "key": "sb-33ea2f55bb21",
+    "sha256": "8ddd62c1e22aeefea84c5ede58129b01ee119f26b623c620fd55a2dcfc9d7735",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "WELCOME-WALKING",
+    "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP002?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&sysDsCd=01&prdCd=1130313507",
+    "key": "sb-08874fb27eaa",
+    "sha256": "172f90fe98ae002ee0f3b3a4555d5015f611509071e56dc90ae952570b2976a2",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "WELCOME-HAJA",
+    "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP002?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&sysDsCd=01&prdCd=1130315009",
+    "key": "sb-fa582c038bc6",
+    "sha256": "1058ba2c6d2728e0353d6729d35cc200eaa6b8e937e869e35577b1be13c2b6f0",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "WELCOME-CHILDLOVE",
+    "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP001?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&sysDsCd=01&prdCd=1130315008",
+    "key": "sb-5efdb7e961e8",
+    "sha256": "86d392d5e9cd7687a4d921b0457be6eee5003e510503ac7b9fc03b572bc749e9",
+    "changed": [],
+    "recommendation_excluded": "만16세 이하 본인 또는 만16세 이하 자녀를 둔 부모 자격 미확인: 일반 성인 추천 제외"
+  },
+  {
+    "product_id": "PEPPER-6M-ROTATING-DEPOSIT",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=79",
+    "key": "sb-f27e5253e4e8",
+    "sha256": "0982e4e3799b7662cc010512cd8db3a6b3d776c5184ff703b196ec74c73dddd4",
+    "changed": [],
+    "recommendation_excluded": "6개월 회전금리는 전체24~60개월 고정 기본금리가 아님"
+  },
+  {
+    "product_id": "PEPPER-TERM-DEPOSIT",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+    "key": "sb-a07797a4bb7b",
+    "sha256": "5ba74a17b838864d8e9d10e6bbe5850dd56c64e4f3f1a692181859a275822da8",
+    "changed": [
+      "12~17개월 표시3.95%를 기본금리3.80%와 조건부최고3.95%로 분리 정정."
+    ],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "PEPPER-FREE-EXIT-DEPOSIT",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=18",
+    "key": "sb-ae8efa6591f9",
+    "sha256": "5b16c3a7bf196aed207de700c63aa6525023d0a83dea4b025f032ad75dad06c7",
+    "changed": [
+      "현재 원문 가입대상 개인고객으로 정정."
+    ],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "PEPPERS-6M-ROTATING-DEPOSIT",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=80",
+    "key": "sb-7a7a8f43d10b",
+    "sha256": "8d77771909d7c51b7cecb7acb8bfc96c8dd14c7edfef4d5bf68c6f2c72ffbd29",
+    "changed": [],
+    "recommendation_excluded": "6개월 회전금리는 전체24~60개월 고정 기본금리가 아님"
+  },
+  {
+    "product_id": "PEPPERS-TERM-DEPOSIT",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+    "key": "sb-ebbb24fd21a2",
+    "sha256": "93ef2d0eefbe31a8921e26cd685f20a0925d1eacd5ec9a99fe85999fce6b667c",
+    "changed": [
+      "12~17개월 표시3.95%를 기본금리3.80%와 조건부최고3.95%로 분리 정정."
+    ],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "PEPPERS-FREE-EXIT-DEPOSIT",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=37",
+    "key": "sb-7de7b151b3ca",
+    "sha256": "7e3fa9749fa72ad856a13d0f9643be5cfc5bb307e336dc9eb21a804f10f91b47",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "PEPPERS-ROTATING-DEPOSIT",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=35",
+    "key": "sb-978ef6b353ce",
+    "sha256": "fb207896dbda39fb356179be178eb314894ae9ba5d58b0855985e021e0c90cfb",
+    "changed": [],
+    "recommendation_excluded": "12개월 회전금리는 전체24~60개월 고정 기본금리가 아님"
+  },
+  {
+    "product_id": "PEPPER-FREE-ACCUMULATION",
+    "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=20",
+    "key": "sb-15a34c50111c",
+    "sha256": "89501feb80d5473da409f6878ef40196e3cc553f8472a0156637e9a491367d45",
+    "changed": [],
+    "recommendation_excluded": "납입일·횟수 자유 상품의 월 최소액 계약 해석 미확인: 기존 hold 유지"
+  },
+  {
+    "product_id": "JT-REGULAR-SAVINGS",
+    "url": "https://www.jt-bank.co.kr/deposit/DEP0300.view",
+    "key": "sb-72e1626560da",
+    "sha256": "eb763de0f396bfe7bd38e5f6f1fe1ee09516335ed5d8280c8a5fe702d7b2ce6f",
+    "changed": [],
+    "recommendation_excluded": "채널별 금리·현재 납입상한 추가 확인; 원문 고시기준일2021-08-11을 당일 금리시행일로 바꾸지 않음"
+  },
+  {
+    "product_id": "JT-REGULAR-DEPOSIT",
+    "url": "https://www.jt-bank.co.kr/deposit/DEP0200.view",
+    "key": "sb-da96c68ddd7e",
+    "sha256": "24531673fda72223fbe1b8b11f9b80dfc10a1431498971e0f2b966692ca23309",
+    "changed": [],
+    "recommendation_excluded": "지점별·이자지급방법별 적용금리와 납입상한 추가 확인"
+  },
+  {
+    "product_id": "NOV2-WELCOME-FIRST-M",
+    "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP001?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&prdCd=1130313504&sysDsCd=01",
+    "key": "sb-a7ceb3c25b7d",
+    "sha256": "33504d390afa021330d936ef76d62d60c02744469c0ce27403f6070e046daa37",
+    "changed": [],
+    "recommendation_excluded": "첫거래 또는90일 무거래 자격 미확인: 일반 성인 추천 제외"
+  },
+  {
+    "product_id": "NOV2-WELCOME-FIRST-E",
+    "url": "https://www.welcomebank.co.kr/ib20/mnu/IBNFPMDSP001?ib20_wc=IBNFPMDSP001_00%3AIBNFPMCMN001_00&prdCd=1130312007&sysDsCd=01",
+    "key": "sb-3c0532ed1f7e",
+    "sha256": "fb284c8205d722eabbfe6f5b0fe369afe45d8a6a5034012c92f8f2cac79a6196",
+    "changed": [],
+    "recommendation_excluded": "첫거래 또는90일 무거래 자격 미확인: 일반 성인 추천 제외"
+  },
+  {
+    "product_id": "NOV2-OK-DILIGENT",
+    "url": "https://www.oksavingsbank.com/product/withdraw/diligent.jsp",
+    "key": "sb-47584a3453c1",
+    "sha256": "5ba7fbbab785e4d8f945ed7b79b14044f57973f781cf4f2bd524e8a9aeadb290",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "NOV2-OK-ROTATE6",
+    "url": "https://www.oksavingsbank.com/product/withdraw/6month.jsp",
+    "key": "sb-738e5a27ef56",
+    "sha256": "a87c62d31587bf34738f29c9abd242a74e7da1f341b249bec79817399976e928",
+    "changed": [
+      "과거3.90%를 재검증한 현재 기본금리로 재사용하지 않음."
+    ],
+    "recommendation_excluded": "공식 페이지는 기본금리를 별도 금리보기로 안내하며6개월 변동금리 구조. 고정36개월 추천 제외"
+  },
+  {
+    "product_id": "NOV2-DAOL-FREESTYLE",
+    "url": "https://www.daolsb.com/deposit/goods.do?gds_cd=DA215",
+    "key": "sb-1f6e80de0975",
+    "sha256": "0425b915d86df7612c759cead147f6ef7f7db895b712bf3db2f90f04759b2b75",
+    "changed": [
+      "금리표3.00%는 표시하되 금융계산기 초기값과 달라 금리추천은 보수적으로 보류."
+    ],
+    "recommendation_excluded": "명시 금리표 약정3.00%와 페이지 금융계산기 초기값2.80%의 차이를 확인; 실제 적용금리 확인 전 추천 제외"
+  },
+  {
+    "product_id": "NOV2-DAOL-FREEEXIT",
+    "url": "https://www.daolsb.com/deposit/goods.do?gds_cd=DA211",
+    "key": "sb-7afccb756885",
+    "sha256": "3ab716517bb65d8671e655ec0c28485d96cfc756d36e9ef8d8b234d6c636eea2",
+    "changed": [],
+    "recommendation_excluded": "3개월마다 변동되는 금리를36개월 고정 기본금리로 추천하지 않음"
+  },
+  {
+    "product_id": "NOV2-DAOL-SEED",
+    "url": "https://m.daolsb.com/deposit/goods.do?gds_cd=DB210",
+    "key": "sb-d7e69b6f51a8",
+    "sha256": "03ab511aa2bed0a95fef3cef0c9cdf067a8ad7490adef00a30420fa5f64f0cd2",
+    "changed": [],
+    "recommendation_excluded": "목표플랜별 기간·정액 월납입금쌍을 검증하기 전 일반 범위 추천에 사용하지 않음"
+  },
+  {
+    "product_id": "NOV3-SB-BULIM-DEPOSIT",
+    "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=14",
+    "key": "sb-ae9528280225",
+    "sha256": "d7471773113356a0155a9d59199e95d2945975f4134284765b12c26c60c18508",
+    "changed": [
+      "6개월 기본3.70→4.00%,12개월 기본3.90→4.00%로 변경. 상한 미확인 UNKNOWN 유지."
+    ],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "NOV3-SB-BULIM-LONG-DEPOSIT",
+    "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=16",
+    "key": "sb-a9ac72098497",
+    "sha256": "fe832a82c89c2577059c09a552c55c8b02c876f76ba3a2ae8315a5d30a727955",
+    "changed": [
+      "12개월4.00→4.10%. 특수거래 자격 미확인 유지."
+    ],
+    "recommendation_excluded": "당행2년 이상 지속거래 및 만기재예치 대상 확인 전 일반 성인 기본 추천에서 제외"
+  },
+  {
+    "product_id": "NOV3-SB-BULIM-TOK-DEPOSIT",
+    "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=18",
+    "key": "sb-75d04cf1498c",
+    "sha256": "b5daeaa2cca44662688814bfe0d74c2837640f6fdb2ba36d55c1806f7066d44c",
+    "changed": [
+      "6개월3.70→4.00%.12개월4.00%유지."
+    ],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "NOV3-SB-BULIM-SAVE",
+    "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=20",
+    "key": "sb-640c7082bfa3",
+    "sha256": "bfe304130703fadfdd0cacac26cb02481208afedba82f758cccf9045ee68b541",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "NOV3-SB-BULIM-E-SAVE",
+    "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=21",
+    "key": "sb-c8aee58ab5a1",
+    "sha256": "bb9ecff0e22c2ff1ac26722a4b711dbfd990708bcb262ecc54a1120703f50117",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+    "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+    "key": "sb-82cd03ffd1b8",
+    "sha256": "3cf79b61b4e3041a4651df7f2c2cbbb7dc94e5c32c7be154a85f13d4e6e1938f",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "NOV3-SB-BULIM-FREE",
+    "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=23",
+    "key": "sb-5cd4c3ee8433",
+    "sha256": "0de353bbb4fb651f303386f6320cf28d89ae49a6efe7f67dc5da382c1cea5e40",
+    "changed": [],
+    "recommendation_excluded": "자유 납입금의 실제 예치기간별 이율 구조로 현재 월 정액 추천에 사용하지 않음"
+  },
+  {
+    "product_id": "NOV3-SB-MOA-E-SAVE",
+    "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+    "key": "sb-1215738110d5",
+    "sha256": "a9080428e33101d9178f9f0856543cfa5435f1356fb40bc82bca904766b5ef2d",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "NOV3-SB-MOA-SAVE",
+    "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=35",
+    "key": "sb-e3b480c28dc2",
+    "sha256": "e0d1735d474ff167d96322c68a439e19b93d75467442cda8dd564f22ab86185e",
+    "changed": [],
+    "recommendation_excluded": "계약금액1만원의 월 납입하한 해석 추가 확인: 기존 hold 유지"
+  },
+  {
+    "product_id": "NOV3-SB-MOA-ZODIAC",
+    "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=36",
+    "key": "sb-c97fc5da4737",
+    "sha256": "d158ef05f9489aa6315369530e4d9b5a2bbd81960d69adce1d260e330c59d99c",
+    "changed": [],
+    "recommendation_excluded": "가입연도 띠 대상 조건 미확인: 일반 성인 기본금리 추천에서 제외"
+  },
+  {
+    "product_id": "NOV3-SB-MOA-BIRTHDAY",
+    "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=37",
+    "key": "sb-31019d66a83c",
+    "sha256": "f6135a80ae3edf9f5bf3f4caa9a20cb3c3abaab7981ea531d597d6567de7277f",
+    "changed": [],
+    "recommendation_excluded": "가입월과 생일월 일치 조건 미확인: 일반 성인 기본금리 추천에서 제외"
+  },
+  {
+    "product_id": "NOV3-SB-MOA-DEPOSIT",
+    "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=39",
+    "key": "sb-248c77fed4e9",
+    "sha256": "47def89bfd7bd657db7217c8691672c59f175d13841cf62f964521f4c83cafea",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "NOV3-SB-MOA-E-DEPOSIT",
+    "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=41",
+    "key": "sb-3feb349b25b6",
+    "sha256": "1db2051eefffe75d625bd222a5974676f4179e3b8953542c25ba926570d86510",
+    "changed": [],
+    "recommendation_excluded": null
+  },
+  {
+    "product_id": "NOV3-SB-MOA-APP-ROTATE",
+    "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=64",
+    "key": "sb-0dfecd0a95b0",
+    "sha256": "90797e33affc6edb5fc68a13d9ced90d58c553ffc2542c799c51f8c09c04191f",
+    "changed": [],
+    "recommendation_excluded": "12개월마다 변동되는 회전금리를 전체 계약기간 고정 기본금리로 추천하지 않음"
+  },
+  {
+    "product_id": "NOV3-SB-MOA-APP-ROTATE6",
+    "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=65",
+    "key": "sb-548adbc08e46",
+    "sha256": "a37608bd1c322fdac61d8e114b8960f7be08ef0fa0f0cde57a80d7b7b251d440",
+    "changed": [],
+    "recommendation_excluded": "6개월마다 변동되는 회전금리를36개월 고정 기본금리로 추천하지 않음"
+  }
+]
