@@ -15,12 +15,21 @@
 .freshness-detail summary{cursor:pointer;font-size:13px;font-weight:600;color:#24598f;min-height:32px;display:flex;align-items:center}
 .freshness-detail summary:focus-visible{outline:2px solid #2459bd;outline-offset:2px;border-radius:4px}
 .freshness-detail p{margin:2px 0 0!important}
+/* Recommendation card: readable verification date, uncertainty as one visible chip */
+.recommendation-card .recommendation-source{font-size:12px;color:#4a5b72;line-height:1.6}
+.recommendation-card .recommendation-check{display:inline-block;align-self:flex-start;margin:6px 0 2px;padding:3px 10px;border-radius:999px;background:#fff4dc;border:1px solid #e7cf9a;color:#6a4a10;font-size:12px;font-weight:600}
+.recommendation-card .recommendation-audience,.recommendation-card .recommendation-limit{word-break:keep-all;overflow-wrap:anywhere}
+.freshness-summary{display:none}
+
 /* Phones: bring the input form up by dropping text that repeats the page heading */
 @media(max-width:600px){
- .freshness-stats{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
- .freshness-stats li{padding:7px 6px}
- .freshness-stats b{font-size:17px}
- .freshness-stats span{font-size:11px;line-height:1.3}
+ .freshness-stats,.freshness-detail{display:none}
+ .data-freshness .freshness-summary{display:block;font-weight:700;color:#193c61}
+ .discovery-intro>span{display:none}
+ [data-portal-page="savings"] .portal-page-heading>p:last-child{display:none}
+ [data-portal-page="savings"] .discovery-intro h2{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+ [data-portal-page="savings"] .discovery-intro{margin:0;padding:0;min-height:0}
+ [data-portal-page="savings"] .data-freshness{margin:12px 0}
  [data-portal-page="savings"] .discovery-intro .eyebrow,
  [data-portal-page="savings"] .discovery-intro p:not(.eyebrow){display:none}
 }
