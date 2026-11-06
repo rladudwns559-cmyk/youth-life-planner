@@ -12,7 +12,7 @@ describe('coherent free public site',()=>{
     render(<App/>);const nav=within(screen.getByRole('navigation',{name:'주요 메뉴'}));
     expect(nav.queryByRole('link',{name:'생활비 계산'})).not.toBeInTheDocument();expect(nav.queryByRole('link',{name:'모집 알림'})).not.toBeInTheDocument();
     expect(screen.getByRole('link',{name:'내 조건에 맞는 지원 찾기'})).toHaveAttribute('href','#/programs');
-    const action=screen.getByRole('link',{name:'내 조건에 맞는 지원 찾기'});expect(document.querySelector('.home-copy')!.lastElementChild).toBe(action);
+    const action=screen.getByRole('link',{name:'내 조건에 맞는 지원 찾기'});const shortcuts=document.querySelector('.home-feature-links')!;expect(action.compareDocumentPosition(shortcuts)&Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();expect(document.querySelector('.home-copy')!.contains(action)).toBe(true);
     await userEvent.click(action);expect(await screen.findByRole('heading',{name:'공식 청년 지원사업'})).toBeVisible();
     await userEvent.click(nav.getByRole('link',{name:'상품 찾기'}));expect(screen.getAllByTestId('discovery-card')).toHaveLength(12);
     fireEvent.change(screen.getByLabelText('매월 저축할 금액'),{target:{value:'500000'}});await userEvent.click(screen.getByRole('button',{name:'추천 상품 보기'}));

@@ -1,0 +1,26 @@
+/* Design polish layer (claude/design-polish). Kept in its own file so it can be merged
+   with other design edits without touching existing stylesheets. Loaded after launch-design.css. */
+
+/* Home: primary action first, shortcuts second */
+.home-main-action{margin-top:26px}
+.home-copy .home-feature-label{margin:30px 0 10px;font-size:12px;font-weight:700;letter-spacing:.04em;color:#5b7088}
+.home-feature-label+.home-feature-links{margin-top:0}
+
+/* Data freshness: numbers as chips instead of a long sentence */
+.freshness-stats{list-style:none;margin:10px 0 6px;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.freshness-stats li{display:flex;flex-direction:column;gap:2px;padding:9px 10px;border:1px solid #d7e4ef;border-radius:10px;background:#fff}
+.freshness-stats b{font-size:20px;line-height:1.1;font-variant-numeric:tabular-nums;color:#193c61}
+.freshness-stats span{font-size:12px;color:#415e7b;word-break:keep-all}
+.freshness-detail{margin:2px 0 6px}
+.freshness-detail summary{cursor:pointer;font-size:13px;font-weight:600;color:#24598f;min-height:32px;display:flex;align-items:center}
+.freshness-detail summary:focus-visible{outline:2px solid #2459bd;outline-offset:2px;border-radius:4px}
+.freshness-detail p{margin:2px 0 0!important}
+/* Phones: bring the input form up by dropping text that repeats the page heading */
+@media(max-width:600px){
+ .freshness-stats{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+ .freshness-stats li{padding:7px 6px}
+ .freshness-stats b{font-size:17px}
+ .freshness-stats span{font-size:11px;line-height:1.3}
+ [data-portal-page="savings"] .discovery-intro .eyebrow,
+ [data-portal-page="savings"] .discovery-intro p:not(.eyebrow){display:none}
+}

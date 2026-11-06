@@ -25,7 +25,7 @@ describe('separate portal pages and motion',()=>{
     render(<App/>);expect(screen.getByRole('heading',{level:1})).toHaveTextContent('나에게 필요한 지원');
     expect(screen.queryByLabelText('월세')).not.toBeInTheDocument();expect(screen.queryByText('지원사업 목록')).not.toBeInTheDocument();expect(screen.queryByText('근거를 알고, 내 선택에 활용하세요.')).not.toBeInTheDocument();
     expect(screen.queryByRole('contentinfo')).not.toBeInTheDocument();expect(fetch).not.toHaveBeenCalled();
-    expect(document.querySelector('.home-copy')!.lastElementChild).toBe(screen.getByRole('link',{name:'내 생활비 계산하기'}));
+    const budgetEntry=screen.getByRole('link',{name:'내 생활비 계산하기'});expect(budgetEntry.compareDocumentPosition(document.querySelector('.home-feature-links')!)&Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();expect(document.querySelector('.home-copy')!.contains(budgetEntry)).toBe(true);
   });
   it.each([['청년 지원사업','나에게 필요한 청년 지원'],['생활비 계산','나의 경제생활 진단'],['상품 찾기','내 조건에 맞는 상품 찾기'],['이용 안내','근거를 알고, 내 선택에 활용하세요.']])('opens %s in its own view',async(name,title)=>{
     render(<App/>);await go(name);expect(await screen.findByRole('heading',{level:1,name:title})).toBeVisible();
