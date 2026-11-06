@@ -1,0 +1,2792 @@
+{
+  "checked_on": "2026-11-07",
+  "updates": [
+    {
+      "product": {
+        "product_id": "NOV3-SB-MKB-SAVE",
+        "institution": "민국저축은행",
+        "product_name": "정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "월 납입 10,000원 이상·상한 추가 확인",
+        "term_note": "6~60개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "개인·법인",
+        "features": [],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "영업점"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 48,
+            "max_months": 48,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=16",
+            "title": "민국저축은행 정기적금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-06-29",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-06-29) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기적금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MKB-SAVE",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 48,
+            "max_months": 48,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=16",
+            "title": "민국저축은행 정기적금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-06-29",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-06-29) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기적금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 390148chars, SHA256 fe92d52f17dd9a7af7c5a0ff48eb68e9d96adf71eab5f1df64c04d5327947351; 판매경로 GET HTTP200, SHA256 586ebcb2b43e3e11a044d4b6653053cacd96c0680ce7b54ebcf3ea620bee5ef2; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MKB-E-SAVE",
+        "institution": "민국저축은행",
+        "product_name": "e-행복정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "월 납입 10,000원 이상·상한 추가 확인",
+        "term_note": "6~60개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "만19세이상내국인전자금융가입자",
+        "features": [],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "인터넷뱅킹"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 48,
+            "max_months": 48,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=17",
+            "title": "민국저축은행 e-행복정기적금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-06-29",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-06-29) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 e-행복정기적금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MKB-E-SAVE",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 48,
+            "max_months": 48,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=17",
+            "title": "민국저축은행 e-행복정기적금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-06-29",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-06-29) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 e-행복정기적금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 256251chars, SHA256 c0e74f289d08865c1bb4c80ceba98490324f77e728bce705c575407a2b378e60; 판매경로 GET HTTP200, SHA256 586ebcb2b43e3e11a044d4b6653053cacd96c0680ce7b54ebcf3ea620bee5ef2; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MKB-TOK-SAVE",
+        "institution": "민국저축은행",
+        "product_name": "톡톡정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "월 납입 10,000원 이상·상한 추가 확인",
+        "term_note": "6~60개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "만19세이상내국인전자금융가입자",
+        "features": [],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "SB톡톡"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 48,
+            "max_months": 48,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=18",
+            "title": "민국저축은행 톡톡정기적금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-06-29",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-06-29) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 톡톡정기적금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MKB-TOK-SAVE",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 48,
+            "max_months": 48,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=18",
+            "title": "민국저축은행 톡톡정기적금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-06-29",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-06-29) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 톡톡정기적금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 390212chars, SHA256 3b8475c3183e33543e08fafe26e9b641d87b516ce50a4bfe851c85413c579f27; 판매경로 GET HTTP200, SHA256 586ebcb2b43e3e11a044d4b6653053cacd96c0680ce7b54ebcf3ea620bee5ef2; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MKB-MOBILE-SAVE",
+        "institution": "민국저축은행",
+        "product_name": "비대면정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "월 납입 10,000원 이상·상한 추가 확인",
+        "term_note": "6~60개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "만19세이상내국인전자금융가입자",
+        "features": [],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "비대면"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 48,
+            "max_months": 48,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=19",
+            "title": "민국저축은행 비대면정기적금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-06-29",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-06-29) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 비대면정기적금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MKB-MOBILE-SAVE",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 48,
+            "max_months": 48,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=19",
+            "title": "민국저축은행 비대면정기적금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-06-29",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-06-29) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 비대면정기적금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 256253chars, SHA256 a40c50be221d04fc80ba0b599be4fb8c9183445fb57cee61642b18cb1875443f; 판매경로 GET HTTP200, SHA256 586ebcb2b43e3e11a044d4b6653053cacd96c0680ce7b54ebcf3ea620bee5ef2; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MKB-DEPOSIT",
+        "institution": "민국저축은행",
+        "product_name": "정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 추가 확인",
+        "term_note": "1~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "개인·법인",
+        "features": [
+          "단리연이율만매핑;복리연수익률과구분",
+          "36개월가입기간가능하지만원문36개월금리행이없어금리추정안함"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "영업점"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 15,
+            "max_months": 15,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=21",
+            "title": "민국저축은행 정기예금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-14",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-14) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기예금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MKB-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 15,
+            "max_months": 15,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.40",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=21",
+            "title": "민국저축은행 정기예금 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-14",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-14) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기예금 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 257275chars, SHA256 43329395277c993cecc64b538014c9224f0b7ea3cfa02c3a0bc1fea380a91bfd; 판매경로 GET HTTP200, SHA256 586ebcb2b43e3e11a044d4b6653053cacd96c0680ce7b54ebcf3ea620bee5ef2; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MKB-E-DEPOSIT",
+        "institution": "민국저축은행",
+        "product_name": "e-행복정기예금 · 단리/복리",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 추가 확인",
+        "term_note": "1~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "만19세이상내국인개인",
+        "features": [
+          "단리연이율만매핑;복리연수익률과구분",
+          "36개월가입기간가능하지만원문36개월금리행이없어금리추정안함"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "인터넷뱅킹"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 15,
+            "max_months": 15,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=22",
+            "title": "민국저축은행 e-행복정기예금 단리식 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-14",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-14) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 e-행복정기예금 단리식·복리식 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MKB-E-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 15,
+            "max_months": 15,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=22",
+            "title": "민국저축은행 e-행복정기예금 단리식 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-14",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-14) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 e-행복정기예금 단리식·복리식 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 255930chars, SHA256 65ae1fde82f00ba3d16598ee41975f0f723a4b1af82607b5ae8b7d78d3540e9d; 판매경로 GET HTTP200, SHA256 586ebcb2b43e3e11a044d4b6653053cacd96c0680ce7b54ebcf3ea620bee5ef2; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MKB-TOK-DEPOSIT",
+        "institution": "민국저축은행",
+        "product_name": "톡톡정기예금 · 단리/복리",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 추가 확인",
+        "term_note": "1~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "만19세이상내국인개인",
+        "features": [
+          "단리연이율만매핑;복리연수익률과구분",
+          "36개월가입기간가능하지만원문36개월금리행이없어금리추정안함"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "SB톡톡"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 15,
+            "max_months": 15,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=23",
+            "title": "민국저축은행 톡톡정기예금 단리식 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-14",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-14) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 톡톡정기예금 단리식·복리식 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MKB-TOK-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 15,
+            "max_months": 15,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=23",
+            "title": "민국저축은행 톡톡정기예금 단리식 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-14",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-14) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 톡톡정기예금 단리식·복리식 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 255898chars, SHA256 47573a68f0c0a5c4a9455011530227c6e62408f29ff93cfc645af262cb8b9cda; 판매경로 GET HTTP200, SHA256 586ebcb2b43e3e11a044d4b6653053cacd96c0680ce7b54ebcf3ea620bee5ef2; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MKB-MOBILE-DEPOSIT",
+        "institution": "민국저축은행",
+        "product_name": "비대면정기예금 · 단리/복리",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 추가 확인",
+        "term_note": "1~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "만19세이상내국인개인",
+        "features": [
+          "단리연이율만매핑;복리연수익률과구분",
+          "36개월가입기간가능하지만원문36개월금리행이없어금리추정안함"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "비대면"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 15,
+            "max_months": 15,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=24",
+            "title": "민국저축은행 비대면정기예금 단리식 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-14",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-14) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 비대면정기예금 단리식·복리식 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MKB-MOBILE-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 15,
+            "max_months": 15,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mkb.co.kr/ProdList_001.act?rnum=24",
+            "title": "민국저축은행 비대면정기예금 단리식 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-14",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-14) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.mkb.co.kr/DepDein0100.act",
+            "title": "민국저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 비대면정기예금 단리식·복리식 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 255976chars, SHA256 1034d333b6b58c042ece70d66b1aee9d98ddae20ed91677ac00ca2ca9407655d; 판매경로 GET HTTP200, SHA256 586ebcb2b43e3e11a044d4b6653053cacd96c0680ce7b54ebcf3ea620bee5ef2; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-SMART-DEPOSIT",
+        "institution": "스마트저축은행",
+        "product_name": "정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 추가 확인",
+        "term_note": "1~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "제한없음. 최종 계좌개설 요건은 은행에서 확인합니다.",
+        "features": [
+          "현재 표의 단리 연이율만 기록; 복리 연평균수익률을 기본금리로 쓰지 않음"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "영업점"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 7,
+            "max_months": 7,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 13,
+            "max_months": 13,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 14,
+            "max_months": 14,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 19,
+            "max_months": 19,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 25,
+            "max_months": 25,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.smartbank.co.kr/ProdList_001.act?rnum=11",
+            "title": "스마트저축은행 정기예금(영업점 단리) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-11-06) 대조. 6개월 기본 3.90→4.10%; 7개월 기본 3.90% 행 신설(기존 자료에 없음); 12개월 기본 4.11→4.10%; 18개월 기본 4.00→4.10%. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.smartbank.co.kr/DepDein0100.act",
+            "title": "스마트저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 메뉴의 정기예금 항목(개별 채널명은 상품 상세 금리표에서 확인) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-SMART-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 7,
+            "max_months": 7,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 13,
+            "max_months": 13,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 14,
+            "max_months": 14,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 19,
+            "max_months": 19,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 25,
+            "max_months": 25,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.smartbank.co.kr/ProdList_001.act?rnum=11",
+            "title": "스마트저축은행 정기예금(영업점 단리) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-11-06) 대조. 6개월 기본 3.90→4.10%; 7개월 기본 3.90% 행 신설(기존 자료에 없음); 12개월 기본 4.11→4.10%; 18개월 기본 4.00→4.10%. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.smartbank.co.kr/DepDein0100.act",
+            "title": "스마트저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 메뉴의 정기예금 항목(개별 채널명은 상품 상세 금리표에서 확인) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 298364chars, SHA256 feb08a8865bfb4b0e0fd080d4fb9eb1d89316fceb62c49944d4d8c96d3d8f9b7; 판매경로 GET HTTP200, SHA256 be21c4482e07fca93e8d8ed31f056c3b3fbbbef52aba9e89cc6861837a6601ff; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": [
+        "6개월 기본 3.90→4.10%",
+        "7개월 기본 3.90% 행 신설(기존 자료에 없음)",
+        "12개월 기본 4.11→4.10%",
+        "18개월 기본 4.00→4.10%"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-SMART-E-DEPOSIT",
+        "institution": "스마트저축은행",
+        "product_name": "e-정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 추가 확인",
+        "term_note": "1~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "제한없음. 최종 계좌개설 요건은 은행에서 확인합니다.",
+        "features": [
+          "현재 표의 단리 연이율만 기록; 복리 연평균수익률을 기본금리로 쓰지 않음"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "인터넷뱅킹"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 7,
+            "max_months": 7,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "4.11",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 13,
+            "max_months": 13,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 14,
+            "max_months": 14,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 19,
+            "max_months": 19,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 25,
+            "max_months": 25,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.smartbank.co.kr/ProdList_001.act?rnum=11",
+            "title": "스마트저축은행 e-정기예금(인터넷 단리) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-11-06) 대조. 6개월 기본 3.90→4.10%; 7개월 기본 3.90% 행 신설(기존 자료에 없음). 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.smartbank.co.kr/DepDein0100.act",
+            "title": "스마트저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 메뉴의 정기예금 항목(개별 채널명은 상품 상세 금리표에서 확인) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-SMART-E-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 7,
+            "max_months": 7,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "4.11",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 13,
+            "max_months": 13,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 14,
+            "max_months": 14,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 19,
+            "max_months": 19,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 25,
+            "max_months": 25,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.smartbank.co.kr/ProdList_001.act?rnum=11",
+            "title": "스마트저축은행 e-정기예금(인터넷 단리) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-11-06) 대조. 6개월 기본 3.90→4.10%; 7개월 기본 3.90% 행 신설(기존 자료에 없음). 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.smartbank.co.kr/DepDein0100.act",
+            "title": "스마트저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 메뉴의 정기예금 항목(개별 채널명은 상품 상세 금리표에서 확인) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 298364chars, SHA256 feb08a8865bfb4b0e0fd080d4fb9eb1d89316fceb62c49944d4d8c96d3d8f9b7; 판매경로 GET HTTP200, SHA256 be21c4482e07fca93e8d8ed31f056c3b3fbbbef52aba9e89cc6861837a6601ff; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": [
+        "6개월 기본 3.90→4.10%",
+        "7개월 기본 3.90% 행 신설(기존 자료에 없음)"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-SMART-E-ROUN-DEPOSIT",
+        "institution": "스마트저축은행",
+        "product_name": "e-로운 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 추가 확인",
+        "term_note": "1~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "제한없음. 최종 계좌개설 요건은 은행에서 확인합니다.",
+        "features": [
+          "현재 표의 단리 연이율만 기록; 복리 연평균수익률을 기본금리로 쓰지 않음"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "SB톡톡"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 7,
+            "max_months": 7,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "4.11",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 13,
+            "max_months": 13,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 14,
+            "max_months": 14,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 19,
+            "max_months": 19,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 25,
+            "max_months": 25,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.smartbank.co.kr/ProdList_001.act?rnum=11",
+            "title": "스마트저축은행 e-로운 정기예금(스마트폰 단리) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-11-06) 대조. 6개월 기본 3.90→4.10%; 7개월 기본 3.90% 행 신설(기존 자료에 없음). 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.smartbank.co.kr/DepDein0100.act",
+            "title": "스마트저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 메뉴의 정기예금 항목(개별 채널명은 상품 상세 금리표에서 확인) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-SMART-E-ROUN-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "4.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 7,
+            "max_months": 7,
+            "base_rate_percent": "3.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "4.11",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 13,
+            "max_months": 13,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 14,
+            "max_months": 14,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 18,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 19,
+            "max_months": 19,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 25,
+            "max_months": 25,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.smartbank.co.kr/ProdList_001.act?rnum=11",
+            "title": "스마트저축은행 e-로운 정기예금(스마트폰 단리) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-11-06",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-11-06) 대조. 6개월 기본 3.90→4.10%; 7개월 기본 3.90% 행 신설(기존 자료에 없음). 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.smartbank.co.kr/DepDein0100.act",
+            "title": "스마트저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 메뉴의 정기예금 항목(개별 채널명은 상품 상세 금리표에서 확인) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 298364chars, SHA256 feb08a8865bfb4b0e0fd080d4fb9eb1d89316fceb62c49944d4d8c96d3d8f9b7; 판매경로 GET HTTP200, SHA256 be21c4482e07fca93e8d8ed31f056c3b3fbbbef52aba9e89cc6861837a6601ff; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": [
+        "6개월 기본 3.90→4.10%",
+        "7개월 기본 3.90% 행 신설(기존 자료에 없음)"
+      ]
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-DYS-DEPOSIT",
+        "institution": "동양저축은행",
+        "product_name": "정기예금 · 창구",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 추가 확인",
+        "term_note": "1~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "제한없음. 최종 계좌개설 요건은 은행에서 확인합니다.",
+        "features": [
+          "단리 명목연이율만 비교;복리연평균수익률별도",
+          "정기예금단리/복리 페이지는한지급방법선택상품으로묶음"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "영업점"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.96",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.dysbank.com/ProdList_001.act?rnum=11",
+            "title": "동양저축은행 정기예금(창구) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-28",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-28) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.dysbank.com/DepDein0100.act",
+            "title": "동양저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기예금(창구) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-DYS-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.96",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.dysbank.com/ProdList_001.act?rnum=11",
+            "title": "동양저축은행 정기예금(창구) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-28",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-28) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.dysbank.com/DepDein0100.act",
+            "title": "동양저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기예금(창구) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 242321chars, SHA256 359c045c646254741f0a0ea3ce20bda7ce4f687668bcdaffa5aab50ae25854fd; 판매경로 GET HTTP200, SHA256 557bf4effd6c1f4a0ac78a01c859c794707754f08b4b70dc41946d5360bfbb91; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-DYS-E-DEPOSIT",
+        "institution": "동양저축은행",
+        "product_name": "정기예금 · 인터넷/비대면/스마트폰",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 추가 확인",
+        "term_note": "1~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "제한없음. 최종 계좌개설 요건은 은행에서 확인합니다.",
+        "features": [
+          "단리 명목연이율만 비교;복리연평균수익률별도",
+          "정기예금단리/복리 페이지는한지급방법선택상품으로묶음"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "인터넷뱅킹·비대면·스마트폰뱅킹"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.96",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.dysbank.com/ProdList_001.act?rnum=12",
+            "title": "동양저축은행 정기예금(인터넷뱅킹,비대면,스마트폰뱅킹)단리식 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-31",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-31) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.dysbank.com/DepDein0100.act",
+            "title": "동양저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기예금(인터넷뱅킹,비대면,스마트폰뱅킹)단리식 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-DYS-E-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 1,
+            "base_rate_percent": "1.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 3,
+            "max_months": 3,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.96",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.dysbank.com/ProdList_001.act?rnum=12",
+            "title": "동양저축은행 정기예금(인터넷뱅킹,비대면,스마트폰뱅킹)단리식 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-10-31",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-10-31) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.dysbank.com/DepDein0100.act",
+            "title": "동양저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기예금(인터넷뱅킹,비대면,스마트폰뱅킹)단리식 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 241265chars, SHA256 855050ed53553ed44aa5055a8ce9aa98e19fe66bcd8b62afc6f7bde0c41697d7; 판매경로 GET HTTP200, SHA256 557bf4effd6c1f4a0ac78a01c859c794707754f08b4b70dc41946d5360bfbb91; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-DYS-SAVE",
+        "institution": "동양저축은행",
+        "product_name": "정기적금 · 창구",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 6,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "월 납입 10,000원 이상·상한 추가 확인",
+        "term_note": "6~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "제한없음. 최종 계좌개설 요건은 은행에서 확인합니다.",
+        "features": [],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "영업점"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.dysbank.com/ProdList_001.act?rnum=18",
+            "title": "동양저축은행 정기적금(창구) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-01-01",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-01-01) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.dysbank.com/DepDein0100.act",
+            "title": "동양저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기적금(창구) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-DYS-SAVE",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.dysbank.com/ProdList_001.act?rnum=18",
+            "title": "동양저축은행 정기적금(창구) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-01-01",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-01-01) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.dysbank.com/DepDein0100.act",
+            "title": "동양저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기적금(창구) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 239639chars, SHA256 5ffb66fd788fc0eb6dafe1f4add29682379218d8d8653a71baad69838ca8d7e2; 판매경로 GET HTTP200, SHA256 557bf4effd6c1f4a0ac78a01c859c794707754f08b4b70dc41946d5360bfbb91; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-DYS-E-SAVE",
+        "institution": "동양저축은행",
+        "product_name": "정기적금 · 인터넷/비대면/스마트폰",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNKNOWN",
+        "min_months": 6,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "월 납입 10,000원 이상·상한 추가 확인",
+        "term_note": "6~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "제한없음. 최종 계좌개설 요건은 은행에서 확인합니다.",
+        "features": [],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "인터넷뱅킹·비대면·스마트폰뱅킹"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.dysbank.com/ProdList_001.act?rnum=19",
+            "title": "동양저축은행 정기적금(인터넷뱅킹,비대면,스마트폰뱅킹) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-01-01",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-01-01) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.dysbank.com/DepDein0100.act",
+            "title": "동양저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기적금(인터넷뱅킹,비대면,스마트폰뱅킹) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-DYS-E-SAVE",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 24,
+            "max_months": 24,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 공시 상세의 기간별 세전 단리 약정이율(기본). 복리 연평균수익률·조건부 우대는 기본금리와 구분하고 우대 충족을 가정하지 않음."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.dysbank.com/ProdList_001.act?rnum=19",
+            "title": "동양저축은행 정기적금(인터넷뱅킹,비대면,스마트폰뱅킹) 공식 상품 공시(재확인)",
+            "reviewed_on": "2026-11-07",
+            "basis_date": "2026-01-01",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTPS GET 200(TLS 검증). 상품개요·가입대상·가입기간·가입금액·금리표(시행/기준일 2026-01-01) 대조. 기본금리 변동 없음. 상한 UNKNOWN 유지."
+          },
+          {
+            "url": "https://www.dysbank.com/DepDein0100.act",
+            "title": "동양저축은행 공식 예적금상품안내/신청",
+            "reviewed_on": "2026-11-07",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내/신청 목록의 정기적금(인터넷뱅킹,비대면,스마트폰뱅킹) 존재 확인. 판매 목록 존재는 개인 가입 가능 확정이 아님."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "실제GET 2026-11-07, HTTP200, 363100chars, SHA256 ce4d17e5b632679a3796922a5aa95924abc4c02515d8899f5df15e3e34c60b58; 판매경로 GET HTTP200, SHA256 557bf4effd6c1f4a0ac78a01c859c794707754f08b4b70dc41946d5360bfbb91; 상품 공시 원문과 상품안내/신청 경로 대조. 실제 계좌개설 가능 확정이나 잔여한도 보증은 아님.",
+      "change_notes": []
+    }
+  ],
+  "holds": [],
+  "fetch_summary": {
+    "method": "Python urllib HTTPS GET, TLS 기본 검증, 요청 12초, 응답 6MiB 상한, 재시도 없음",
+    "attempted": 16,
+    "succeeded": 16,
+    "note": "HTTP200·해시만으로 갱신하지 않고 원문 금리표·가입조건을 사람이 대조함. 스마트저축은행 표는 브라우저 화면으로 열 정렬을 교차 확인."
+  },
+  "actual_maturity_calculations": 0
+}
