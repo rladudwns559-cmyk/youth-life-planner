@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-06",
+  "frontend": {
+    "passed": 406,
+    "files": 34,
+    "added_tests": 15,
+    "existing_expectations_changed": 0
+  },
+  "backend": {
+    "passed": 12820,
+    "skipped": 1,
+    "warnings": 1,
+    "seconds": 99.95,
+    "location": "canonical source"
+  },
+  "typescript": "passed",
+  "vite_build": "passed with existing large-chunk warning",
+  "public_version": 24,
+  "screens": {
+    "mobile_width": 390,
+    "mobile_document_width": 375,
+    "public_duplicate_ids": 0,
+    "public_noopener_missing": 0,
+    "console_errors": 0
+  },
+  "actual_bank_maturity_calculations": 0,
+  "unverified_benefit_applied": 0,
+  "financial_valid_until": "2026-11-06",
+  "official_data_refreshed": false,
+  "obsidian_gui": "not verified"
+}

@@ -1,6 +1,6 @@
 # 프런트엔드 디자인 작업 안내
 
-2026-11-04 기준. 현재 공개 화면을 로컬에서 실행하고 디자인을 수정하기 위한 안내입니다.
+2026-11-06 갱신. 현재 공개 화면을 로컬에서 실행하고 디자인을 수정하기 위한 안내입니다. 최근 변경은 [제품 품질 검토](PRODUCT_QUALITY_REVIEW_20261106.md)를 참고하세요.
 
 - 저장소: https://github.com/rladudwns559-cmyk/youth-life-planner
 - 공개 사이트: https://youth-life-planner.rladudwns559.chatgpt.site/
@@ -57,6 +57,8 @@ corepack pnpm dev
 | 금융상품 비교 패널 | `frontend/src/ProductComparisonPanel.tsx` |
 | 숫자 입력과 천 단위 쉼표 | `frontend/src/GroupedInput.tsx` |
 | 해시 경로·페이지 전환 효과 | `frontend/src/portal-routing.ts` |
+| 자료 확인일·기한 안내 | `frontend/src/DataFreshness.tsx`, `frontend/src/data-freshness.css` |
+| 화면 오류 복구 | `frontend/src/ErrorBoundary.tsx` |
 
 `main.tsx`가 전역 `styles.css`를 불러오고, `App.tsx`와 각 화면이 추가 CSS를 불러옵니다. 같은 요소에 여러 스타일이 적용될 수 있으므로 개발자 도구에서 실제 적용 규칙을 확인합니다.
 
@@ -85,7 +87,7 @@ corepack pnpm test --maxWorkers=1
 corepack pnpm build
 ```
 
-`build`에는 TypeScript 검사가 포함됩니다. 기존 기대값을 무조건 바꾸지 말고 실패가 접근성·문구·실제 기능 중 무엇 때문인지 확인합니다. 마지막 실제 프런트엔드 회귀는 391 passed였으며, 이 문서 추가만으로 새 실행 결과가 생기는 것은 아닙니다.
+`build`에는 TypeScript 검사가 포함됩니다. 기존 기대값을 무조건 바꾸지 말고 실패가 접근성·문구·실제 기능 중 무엇 때문인지 확인합니다. 2026-11-06 실제 프런트엔드 전체 회귀는 406 passed였습니다.
 
 ## 6. 변경 공유
 

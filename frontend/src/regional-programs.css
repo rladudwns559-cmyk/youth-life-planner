@@ -24,3 +24,9 @@
 .support-condition-prompt button{min-height:46px;padding:10px 18px;border:1px solid #a8bdd3;border-radius:10px;background:#fff;color:#284d72;font:inherit;cursor:pointer}
 .support-condition-prompt .support-prompt-primary{background:#1c4168;color:#fff;border-color:#1c4168}
 @media(max-width:540px){.support-catalog-search{padding:18px}.support-catalog-search>div{flex-wrap:wrap}.support-catalog-search input{flex-basis:100%}.support-condition-prompt{padding:24px}}
+
+.support-catalog-controls{display:flex;align-items:flex-start;flex-wrap:wrap;gap:14px;padding:18px 20px;border:1px solid #d4dfeb;border-radius:13px;background:white;margin:18px 0}
+.support-catalog-controls>div{flex:1;min-width:210px}.support-catalog-controls label{display:block;margin-bottom:7px;font-size:13px;font-weight:600;color:#284c6d}
+.support-catalog-controls select{min-height:46px;width:100%;padding:9px 12px;border:1px solid #b7c8d9;border-radius:8px;background:white;color:#1c3856;font-size:15px}
+.support-catalog-controls p{flex-basis:100%;margin:0;font-size:13px;color:#506680;line-height:1.7}
+@media(max-width:600px){.support-catalog-controls{padding:14px;gap:12px}.support-catalog-controls>div{min-width:0;flex-basis:100%}}

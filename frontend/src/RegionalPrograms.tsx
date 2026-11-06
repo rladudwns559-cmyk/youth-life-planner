@@ -6,6 +6,8 @@ import {routeLinks} from './portal-routing';
 import FinderDialog from './FinderDialog';
 import ConditionPrompt from './ConditionPrompt';
 import LocalNotice from './LocalNotice';
+import DataFreshness from './DataFreshness';
+import {deadlineOrder} from './support-order';
 import directory from './public-data/nationwide-districts.json';
 import {useKoreaDay,usePlanner,ApplicationChecklist,SupportComparison} from './SupportPlanner';
 
@@ -67,10 +69,11 @@ function Card({p,regionKey,selected,profile,hasProfile,asOf,favorite,onFavorite,
 export default function RegionalPrograms({browse=true,listPage=false}:{browse?:boolean;listPage?:boolean}={}){
  const [province,setProvince]=useState(''),[city,setCity]=useState(''),[category,setCategory]=useState('ALL'),[query,setQuery]=useState(''),[intake,setIntake]=useState('CURRENT'),[otherRegions,setOtherRegions]=useState(false),[visible,setVisible]=useState(12);
  const [age,setAge]=useState(''),[employment,setEmployment]=useState('unknown'),[rent,setRent]=useState('unknown'),[different,setDifferent]=useState(false);
+ const [sort,setSort]=useState('MATCH');
  const asOf=useKoreaDay();const planner=usePlanner(prepared.programs);const [savedOnly,setSavedOnly]=useState(false),[comparison,setComparison]=useState<string[]>([]);
  const profile={age,employment,rent};const hasProfile=age!==''||employment!=='unknown'||rent!=='unknown';
  const [conditionPrompt,setConditionPrompt]=useState(false);
- function openResults(){if(!province&&!hasProfile){setConditionPrompt(true);return;}setFinder('programs');}
+ function openResults(){if(!province&&!hasProfile){setConditionPrompt(true);return;}setSort('MATCH');setFinder('programs');}
  function closeConditionPrompt(edit:boolean){setConditionPrompt(false);if(edit)requestAnimationFrame(()=>document.getElementById('support-province')?.focus());}
  const [finder,setFinder]=useState<'programs'|'compare'|null>(null);
  const districtOptions=(directory.cities as Record<string,string[]>)[province]??[];
@@ -108,12 +111,13 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
     Number(a.outside)-Number(b.outside)||
     Number(a.order>=6)-Number(b.order>=6)||
     Number(a.mismatch)-Number(b.mismatch)||
+    (sort==='DEADLINE'?(deadlineOrder(a.p,asOf)-deadlineOrder(b.p,asOf)||0):0)||
     a.order-b.order||
     Number(b.local)-Number(a.local)||
     (hasProfile?b.matchCount-a.matchCount:0)||
     (province?Number(a.region!=='PASS')-Number(b.region!=='PASS'):0)||
     a.p.title.localeCompare(b.p.title,'ko'));
- },[regionKey,province,category,query,intake,otherRegions,age,employment,rent,different,hasProfile,asOf,savedOnly,planner.favorites,city,tableCity,browse]);
+ },[regionKey,province,category,query,intake,otherRegions,age,employment,rent,different,hasProfile,asOf,savedOnly,planner.favorites,city,tableCity,browse,sort]);
  const specificCity=Boolean(city&&city!=='__OTHER__');
  const rows=results.filter(row=>!specificCity||otherRegions||!row.outside).map(row=>row.p);
  const wide=results.filter(row=>!row.outside&&!row.p.city&&!row.mismatch&&row.region==='PASS').length;
@@ -129,7 +133,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
    ? {city,total:localRows.length,open:localOpen} : null;
  const scoped=useMemo(()=>prepared.programs.filter(p=>readRegionalDecision(p.program_id,regionKey,asOf).region!=='FAIL'),[regionKey,asOf]);
  const regionalProvinces=new Set(prepared.programs.flatMap(p=>p.provinces));
- function reset(){setProvince('');setCity('');setCategory('ALL');setQuery('');setIntake('CURRENT');setOtherRegions(false);setAge('');setEmployment('unknown');setRent('unknown');setDifferent(false);setSavedOnly(false);setVisible(12);}
+ function reset(){setProvince('');setCity('');setCategory('ALL');setQuery('');setIntake('CURRENT');setOtherRegions(false);setAge('');setEmployment('unknown');setRent('unknown');setDifferent(false);setSavedOnly(false);setVisible(12);setSort('MATCH');}
  const comparisonPanel=(<SupportComparison items={prepared.programs.filter(p=>comparison.includes(p.program_id)).map(p=>({program:p,status:labels[readRegionalDecision(p.program_id,regionKey,asOf).intake],match:readPersonalDecision(p.program_id,regionKey,profile,asOf).summary.candidate_status==='DIFFERENT'?'현재 입력과 다른 조건 있음':`입력 조건 ${readPersonalDecision(p.program_id,regionKey,profile,asOf).summary.matched_count}개 일치 · 추가 확인`}))} onClear={()=>setComparison([])}/>);
  return <section className="regional-programs" aria-labelledby="support-discovery-title">
   {conditionPrompt&&<ConditionPrompt onClose={closeConditionPrompt}/>}
@@ -161,10 +165,12 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
    <p id="support-search-help">사업명·지역·지원내용에서 검색합니다. 선택한 지역과 분야 조건이 함께 적용돼요.</p>
   </form>}
   {browse&&<><div className="support-categories" aria-label="지원 분야">{Object.entries(categories).map(([k,v])=><button type="button" key={k} aria-pressed={category===k} onClick={()=>{setCategory(k);setVisible(12);}}>{v}</button>)}</div>
+  {listPage&&<div className="support-catalog-controls"><div><label htmlFor="support-list-intake">모집 상태</label><select id="support-list-intake" value={intake} onChange={e=>{setIntake(e.target.value);setVisible(12);}}><option value="CURRENT">모집·확인할 사업 우선</option><option value="OPEN">공식 접수중 확인</option><option value="ALL">마감 포함 전체</option><option value="ACTIVE">공고상 접수 안내</option><option value="CLOSED">마감·미운영</option><option value="REVIEW">일정·접수 확인 필요</option></select></div><div><label htmlFor="support-list-sort">지원사업 정렬</label><select id="support-list-sort" value={sort} onChange={e=>{setSort(e.target.value);setVisible(12);}}><option value="MATCH">추천순 · 모집·지역·입력조건</option><option value="DEADLINE">공고 마감일 가까운 순</option></select></div><p>{sort==='DEADLINE'?'지역·입력조건이 맞는 범위에서 날짜가 명시된 공고를 먼저 표시합니다. 상시·일정 미확인 사업은 뒤에 표시하며, 접수중 여부는 별도로 확인하세요.':'관련 지역을 우선하고 모집 상태와 입력 조건 일치를 함께 봅니다. 최종 자격을 확정하지 않습니다.'}</p></div>}
+  <DataFreshness scope="supports"/>
   <div className="support-summary"><div><strong>{prepared.programs.length}</strong><span>지원사업·모집 안내</span></div><div><strong>{regionalProvinces.size}</strong><span>자료 검색 권역</span></div><div><strong>{province?scoped.length:'—'}</strong><span>전국·선택지역 검토 목록</span></div></div>
   <p className="support-context" role="status">{province?`${province}${city&&city!=='__OTHER__'?' '+city:''} 기준으로 전국 사업과 해당 지역 사업을 함께 찾고 있어요.`:'지역을 고르면 전국·광역지역·시군구 지원을 함께 좁힐 수 있어요.'} 지역 일치는 신청·수급 가능 확정이 아닙니다.</p>
-  {hasProfile&&<p className="support-profile-summary" role="status">공식 접수중이고 입력 조건과 충돌이 없는 내 시·군·구 공고를 먼저 보여드려요. 같은 지역·모집 상태 안에서는 일치하는 조건이 많은 순서예요. 나이·취업·월세 중 명확히 다른 후보는 기본적으로 숨기며, 아래에서 다시 볼 수 있어요. 모든 후보의 최종 지원자격은 추가 확인입니다.</p>}
-  <p className="support-update">공식 접수 상태를 확인한 사업부터 표시합니다. 모집기간·접수중 표시가 있어도 잔여예산·여석·최종 자격은 공식 기관에서 확인하세요. 자료 확인 {prepared.updated_on??prepared.built_on} · 화면 기준 {asOf}</p>
+  {hasProfile&&<p className="support-profile-summary" role="status">{sort==='DEADLINE'?'지역·입력조건이 맞는 범위에서 공고 마감일이 가까운 순서로 표시합니다. 날짜가 없는 사업은 뒤에 배치합니다.':'공식 접수중이고 입력 조건과 충돌이 없는 내 시·군·구 공고를 먼저 보여드려요. 같은 지역·모집 상태 안에서는 일치하는 조건이 많은 순서예요.'} 나이·취업·월세 중 명확히 다른 후보는 기본적으로 숨기며, 아래에서 다시 볼 수 있어요. 모든 후보의 최종 지원자격은 추가 확인입니다.</p>}
+  <p className="support-update">{sort==='DEADLINE'?'공고에 적힌 마감일 순서이며, 현재 접수중 순위는 아닙니다.':'공식 접수 상태를 확인한 사업부터 표시합니다.'} 모집기간·접수중 표시가 있어도 잔여예산·여석·최종 자격은 공식 기관에서 확인하세요. 자료 확인 {prepared.updated_on??prepared.built_on} · 화면 기준 {asOf}</p>
   <div className="support-list-tools"><label><input type="checkbox" checked={savedOnly} onChange={e=>{setSavedOnly(e.target.checked);setVisible(12);}}/>관심사업만 ({planner.favorites.length})</label><label><input type="checkbox" checked={different} onChange={e=>{setDifferent(e.target.checked);setVisible(12);}}/>현재 조건과 다른 사업도 보기</label><label><input type="checkbox" checked={otherRegions} onChange={e=>{setOtherRegions(e.target.checked);setVisible(12);}}/>다른 지역 사업도 함께 보기</label><button type="button" onClick={reset}>조건 초기화</button><p>{rows.length}개 검색됨 · 현재 {Math.min(rows.length,visible)}개 표시</p></div>
   {localNotice&&<LocalNotice {...localNotice}/>}{!finder&&scopeTools}
   <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<button type="button" onClick={planner.clear} disabled={!planner.favorites.length&&!planner.checks.length}>내 기기의 관심·확인 기록 지우기</button></div>
@@ -182,7 +188,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
         reasons:([['region','지역'],['age','나이'],['employment','취업'],['rent','월세']] as const).map(([key,label])=>label+' '+matchWords[conditions[key]]),
         checks:p.required_checks,url:p.sources[0].url};
     })}
-    selected={comparison} onSelect={toggleComparison} onClose={()=>setFinder(null)} comparison={comparisonPanel}
+    selected={comparison} onSelect={toggleComparison} onClose={()=>setFinder(null)} comparison={comparisonPanel} favorites={planner.favorites} onFavorite={planner.toggleFavorite} storageError={planner.error}
   /> : browse?comparisonPanel:null}
 
   {browse&&<>{rows.length===0?<div className="support-empty"><h3>등록한 자료 중 표시할 사업이 없어요.</h3><p>해당 지역에 실제 지원사업이 없다는 뜻은 아닙니다. 검색·분야·모집 필터를 바꾸거나 아래 공식 통합검색에서 더 찾아보세요.</p><button type="button" onClick={()=>{reset();setIntake('ALL');}}>전체 등록 사업 보기</button></div>:<div className="support-card-list">{rows.slice(0,visible).map(p=><Card key={p.program_id} p={p} regionKey={regionKey} selected={!!province} profile={profile} hasProfile={hasProfile} asOf={asOf} favorite={planner.favorites.includes(p.program_id)} onFavorite={()=>planner.toggleFavorite(p.program_id)} compared={comparison.includes(p.program_id)} onCompare={()=>setComparison(old=>old.includes(p.program_id)?old.filter(id=>id!==p.program_id):old.length<3?[...old,p.program_id]:old)} full={comparison.length>=3} checks={planner.checks} onCheck={planner.toggleCheck}/>)}</div>}

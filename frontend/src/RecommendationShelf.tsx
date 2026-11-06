@@ -10,6 +10,16 @@ export function preparedRecommendationRank(id:string,kind:string,months:number):
  const pool=data.order_pool[data.order_calendar[kind]?.[String(months)]??-1]??[];
  const i=pool.indexOf(id);return i<0?Number.MAX_SAFE_INTEGER:i;
 }
+
+type RankedProduct={id:string;kind:string;code:string};
+/** Reuses the Python-prepared order; no browser interest calculation. */
+export function comparePreparedRecommendations(a:RankedProduct,b:RankedProduct,months:number,asOf:string){
+ const amount=Number(a.code==='PARTIAL')-Number(b.code==='PARTIAL');if(amount)return amount;
+ if(a.kind!==b.kind)return a.kind==='SAVINGS'?-1:1;
+ const aRate=verifiedBasicRate(a.id,months,asOf),bRate=verifiedBasicRate(b.id,months,asOf);
+ return Number(bRate!==null)-Number(aRate!==null)||
+  (aRate&&bRate?preparedRecommendationRank(a.id,a.kind,months)-preparedRecommendationRank(b.id,b.kind,months):0)||a.id.localeCompare(b.id);
+}
 type Pick={id:string;name:string;institution:string;kind:string;code:string;rate:BasicRate;payment:string;checks:string[];eligibility:string};
 export default function RecommendationShelf({items,months,onView}:{items:Pick[];months:number;onView:(id:string)=>void}){
  const titleId=useId(); const ref=useRef<HTMLElement>(null);

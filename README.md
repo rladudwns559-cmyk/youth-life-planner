@@ -8,6 +8,8 @@
 
 **디자인을 수정하려면 [프런트엔드 디자인 작업 안내](docs/FRONTEND_DESIGN_HANDOFF.md)부터 읽어 주세요.** Python·LLM 설치 없이 공개 화면을 실행하는 방법, 화면별 수정 파일, 확인 순서를 정리했습니다.
 
+2026-11-06: 결과 창과 상품 페이지의 추천 순서를 통일하고, 지원사업 목록의 모집 필터·마감일 정렬·결과 창 관심 저장·자료 기한 안내·오류 복구 화면을 보완했습니다. [제품 품질 검토·검증 기록](docs/PRODUCT_QUALITY_REVIEW_20261106.md)을 참고하세요.
+
 ## 현재 구현
 
 - 268개 지역 선택지, 지역·나이·취업·월세 조건별 지원사업 탐색
@@ -64,7 +66,7 @@ corepack pnpm dev
 
 ## 검증
 
-기존 원본 Backend 12,820 passed / 1 skipped / 1 warning, 최신 Frontend 391 passed를 확인했습니다. 공개 복사본 검증은 [PUBLICATION.md](docs/PUBLICATION.md)에 별도로 기록합니다.
+2026-11-06 원본 Backend 12,820 passed / 1 skipped / 1 warning, 공개 복사본 Frontend 406 passed 및 TypeScript/Vite build 성공을 확인했습니다. 검증 범위는 [PUBLICATION.md](docs/PUBLICATION.md)에 별도로 기록합니다.
 
 ~~~powershell
 .\.venv\Scripts\python.exe -m pytest -q

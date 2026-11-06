@@ -17,3 +17,5 @@
 @media(max-height:540px){.finder-dialog[open]{overflow-y:auto}.finder-dialog .finder-body{overflow:visible;flex:none}}
 
 .finder-recommended{border-color:#75a4d7;box-shadow:0 4px 0 #d6e4f3}.finder-recommendation-badge{display:inline-block;margin:0 0 15px;padding:8px 12px;background:#e8f2ff;color:#24598f;border-radius:7px;font-size:13px;font-weight:700}
+.finder-product-rate strong{font-size:20px;color:#174f82}.finder-product-rate small{display:block;font-size:12px;color:#526b82}
+.finder-links .finder-save{min-height:40px;padding:7px 10px;font-size:13px;box-shadow:none}.finder-save[aria-pressed=true]{background:#eaf2ff;border-color:#91b0d4;color:#1d518a}.finder-body .data-freshness{margin-top:0}

@@ -1,0 +1,20 @@
+{
+  "baseline_files": 698,
+  "changed_baseline": [
+    "frontend/src/FinderDialog.tsx",
+    "frontend/src/ProductExplorer.tsx",
+    "frontend/src/RecommendationShelf.tsx",
+    "frontend/src/RegionalPrograms.tsx",
+    "frontend/src/ServiceShell.tsx",
+    "frontend/src/finder-dialog.css",
+    "frontend/src/main.tsx",
+    "frontend/src/regional-programs.css",
+    "frontend/src/styles.css"
+  ],
+  "protected_count": 289,
+  "protected_unchanged": true,
+  "release_count": 6,
+  "release_unchanged": true,
+  "golden_fingerprint_files": 7,
+  "golden_unchanged": true
+}
