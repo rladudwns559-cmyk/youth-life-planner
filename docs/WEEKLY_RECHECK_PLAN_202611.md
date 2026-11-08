@@ -56,7 +56,7 @@
 3. 공개 자료 재생성(화면은 이 파일을 읽는다):
 
    ```powershell
-   python -m tools.build_asset_programs_public --start <오늘> --days 45 --verification data/asset-programs/verification-20261108.json --verification data/asset-programs/verification-<날짜>.json --source-check <새 점검 결과 파일> --rates data/asset-programs/rates-<날짜>.json
+   python -m tools.build_asset_programs_public --start <오늘> --days 45 --verification data/asset-programs/verification-20261108.json --verification data/asset-programs/verification-20261109.json --verification data/asset-programs/verification-<날짜>.json --source-check <새 점검 결과 파일> --rates data/asset-programs/rates-<날짜>.json
    ```
 
    `--rates`에는 **그날 출처를 읽고 확인한** 금리만 넣는다. 그날 읽지 않은 출처의 금리는 빌더가 거부한다(`RATE_SOURCE_NOT_VERIFIED_ON_CHECK_DATE`). 새 회차에 청년미래적금 보도자료를 다시 읽지 않았다면 `--rates`를 빼면 금리 상자가 사라진다. 이것이 의도된 동작이다(낡은 금리를 현재처럼 보이지 않기 위함).
