@@ -6,11 +6,13 @@ import pytest
 
 from backend.opportunities.catalog import load_catalog
 from tools.build_asset_programs_public import (CHANGED_NOTE, PUBLIC_DISCLAIMER, STALE_TO_REVIEW, apply_verification, attach_rates,
-                                               build, flagged_programs, public_intake)
+                                               build, flagged_programs, merge_verifications, public_intake)
 
 ROOT = Path(__file__).resolve().parents[1]
 KST = timezone(timedelta(hours=9))
-VERIFICATION = json.loads((ROOT / 'data/asset-programs/verification-20261108.json').read_text(encoding='utf-8'))
+VERIFICATION = json.loads((ROOT / 'data/asset-programs/verification-20261108.json').read_text(encoding='utf-8'))  # first reading (2 sources)
+VERIFICATION_1109 = json.loads((ROOT / 'data/asset-programs/verification-20261109.json').read_text(encoding='utf-8'))
+MERGED = merge_verifications([VERIFICATION, VERIFICATION_1109])
 SOURCE_CHECK = json.loads((ROOT / 'data/asset-programs/source-check-20261108.json').read_text(encoding='utf-8'))
 RATES = json.loads((ROOT / 'data/asset-programs/rates-20261108.json').read_text(encoding='utf-8'))
 PUBLIC = json.loads((ROOT / 'frontend/src/public-data/asset-programs-public.json').read_text(encoding='utf-8'))
@@ -21,8 +23,8 @@ def noon(d):
 
 
 def test_committed_public_file_is_the_build_of_its_recorded_inputs():
-    catalog = apply_verification(load_catalog(), VERIFICATION)
-    flagged = flagged_programs(catalog, SOURCE_CHECK, VERIFICATION)
+    catalog = apply_verification(load_catalog(), MERGED)
+    flagged = flagged_programs(catalog, SOURCE_CHECK, MERGED)
     start = date.fromisoformat(PUBLIC['built_on'])
     rebuilt = attach_rates(build(catalog, start, len(PUBLIC['schedules']) - 1, flagged), catalog, RATES)
     assert rebuilt['schedules'] == PUBLIC['schedules']
@@ -135,6 +137,32 @@ def test_freshness_expires_seven_days_after_the_manual_verification():
     verified = date.fromisoformat(VERIFICATION['checked_on'])
     assert entries[(verified + timedelta(days=7)).isoformat()]['KR-YOUTH-FUTURE']['fresh'] is True
     assert entries[(verified + timedelta(days=8)).isoformat()]['KR-YOUTH-FUTURE']['fresh'] is False
+
+
+def test_after_reading_every_changed_source_nothing_is_flagged_and_every_program_starts_fresh():
+    assert flagged_programs(load_catalog(), SOURCE_CHECK, MERGED) == set()
+    first = PUBLIC['schedules'][PUBLIC['built_on']]
+    assert len(first) == 10 and all(e['fresh'] for e in first.values())
+
+
+def test_every_catalog_source_is_covered_by_a_dated_reading():
+    updated = apply_verification(load_catalog(), MERGED)
+    assert {s.source_id for s in updated.sources} == {e['source_id'] for e in MERGED['sources']}
+    assert all(s.verified_on >= '2026-11-08' for s in updated.sources)
+    assert all(e['evidence'].strip() for e in MERGED['sources'])
+
+
+def test_merge_verifications_later_file_wins_and_each_file_is_checked_alone():
+    a = dict(checked_on='2026-11-08', sources=[dict(source_id='future', verified_on='2026-11-08', evidence='x')])
+    b = dict(checked_on='2026-11-09', sources=[dict(source_id='future', verified_on='2026-11-09', evidence='y')])
+    merged = merge_verifications([a, b])
+    assert merged['checked_on'] == '2026-11-09'
+    updated = apply_verification(load_catalog(), merged)
+    assert next(s for s in updated.sources if s.source_id == 'future').verified_on == '2026-11-09'
+    assert merge_verifications([]) is None
+    late = dict(checked_on='2026-11-08', sources=[dict(source_id='future', verified_on='2026-11-09', evidence='z')])
+    with pytest.raises(ValueError, match='VERIFIED_AFTER_CHECK_DATE'):
+        merge_verifications([b, late])
 
 
 def test_public_snapshot_keeps_the_no_money_no_calculation_contract():

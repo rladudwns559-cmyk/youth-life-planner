@@ -1,0 +1,56 @@
+{
+  "checked_on": "2026-11-09",
+  "note": "Every source listed was opened and read on this date and compared with the catalog (windows to the minute, age range, income rule, monthly amount, term). Byte-hash results in source-check-20261108.json are not verification; a changed hash was explained by reading the page. The catalog file itself is not modified.",
+  "sources": [
+    {
+      "source_id": "seoul",
+      "verified_on": "2026-11-09",
+      "evidence": "news.seoul.go.kr post (edited 2026-06-15) read in full. Applications 6.8-6.19, age 18-34, monthly income up to 2.55 million KRW, own 150,000 KRW plus a city match of 150,000 KRW, 2-year 7.2 million or 3-year 10.8 million KRW. All match the catalog. The cause of the changed hash was not isolated; the page's AI summary and site chrome are plausible reasons."
+    },
+    {
+      "source_id": "busan",
+      "verified_on": "2026-11-09",
+      "evidence": "young.busan.go.kr page read in full. Applications 2026-08-10 09:00 to 08-21 18:00, age 18-39 (born 1986-01-01..2008-12-31), own income up to 150% of median judged by health insurance premium (employee 138,780 KRW, local 68,641 KRW), 100,000 KRW per month with a 1:1 match for 24 or 36 months. All match the catalog."
+    },
+    {
+      "source_id": "daejeon",
+      "verified_on": "2026-11-09",
+      "evidence": "daejeonyouthportal.kr page read in full. Applications 2026-09-28 10:00 to 10-08 18:00, notice date 2026-09-22, age 18-39 (born 1986-01-01..2008-12-31), premium-based 120% of median, 150,000 KRW per month for 24 months. All match the catalog. The page header prints the current date, which alone changes the bytes. The page also says winners are announced on 2026-12-04 17:00 (scheduled), which the catalog does not carry."
+    },
+    {
+      "source_id": "gg",
+      "verified_on": "2026-11-09",
+      "evidence": "account.gfgf.kr notice list read. A pinned notice titled as the 2026 Gyeonggi Youth Worker Account new recruitment not being run is dated 2026-10-14, as the catalog states. Only the list (titles and dates) was read, not the notice body; the catalog itself only claims the title and date. The cause of the changed hash was not isolated; view counters on the list are a plausible reason. The list entries dated before the 2026-10-30 capture cannot explain it."
+    },
+    {
+      "source_id": "incheon",
+      "verified_on": "2026-11-09",
+      "evidence": "youth.incheon.go.kr page read in full; it shows the closed-for-applications label. Applications 2026-05-04 09:00 to 05-15 18:00, age 18-39 (born 1986-01-02..2008-01-01), annual income 21.9-40 million KRW, 150,000 KRW per month for 36 payments. All match the catalog."
+    },
+    {
+      "source_id": "jeonbuk",
+      "verified_on": "2026-11-09",
+      "evidence": "double.jb2030.or.kr page read in full. Applications 2026-03-03 09:00 to 03-16 18:00, age 18-39 as of 2025-12-31 (born 1986-01-01..2007-12-31), household income up to 140% of median, 100,000 KRW per month for 24 payments. All match the catalog."
+    },
+    {
+      "source_id": "tomorrow",
+      "verified_on": "2026-11-09",
+      "evidence": "bokjiro.go.kr notice (registered 2026-04-24) read in full. Online applications 5.4-5.20 (supplement period to 5.29), age 15-39 at application, work or business income of at least 100,000 KRW per month, household recognized income up to 50% of median. All match the catalog."
+    },
+    {
+      "source_id": "tomorrow-rules",
+      "verified_on": "2026-11-09",
+      "evidence": "bokjiro.go.kr news item (Ministry of Health and Welfare, registered 2026-05-02) read in full. Applications 5.4-5.20, own savings 100,000-500,000 KRW per month, 3-year term, median-income 50% or below. All match the catalog. The text also says the savings interest is up to 5% per year; base and maximum cannot be told apart, so no rate is carried."
+    },
+    {
+      "source_id": "gyeongnam",
+      "verified_on": "2026-11-09",
+      "evidence": "modadream.kr announcement PDF (12 pages, dated 2026-07-27) fetched and its first two pages read. Applications 2026-07-27 10:00 to 08-19 24:00, age 18-39 (born 1986-07-02..2008-07-01), household recognized income up to 130% of median, 200,000 KRW per month for 24 months. All match the catalog."
+    },
+    {
+      "source_id": "housing-change",
+      "verified_on": "2026-11-09",
+      "evidence": "Ministry of Land press reference (4-page PDF, distributed 2026-10-12) fetched and read. It announces a plan to raise the income limit of the youth housing savings account from 50 million to 70 million KRW by revising the notice 'within October'; it describes a plan, not an effective date. As the catalog notes, the KB page still showed 50 million KRW on 2026-11-08, so whether the relaxation is in force cannot be decided from these sources."
+    }
+  ]
+}

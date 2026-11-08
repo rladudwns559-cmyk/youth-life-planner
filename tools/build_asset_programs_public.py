@@ -28,6 +28,21 @@ NEEDS_REVIEW = ('CONTENT_CHANGED_REVIEW_REQUIRED', 'FETCH_FAILED_REVIEW_REQUIRED
 STALE_TO_REVIEW = ('OPEN', 'UPCOMING', 'UNKNOWN')
 
 
+def merge_verifications(parts: list[dict]) -> dict | None:
+    """Combine dated verification files. A later file wins for a source that appears twice. Each file is checked on its own:
+    a source may not be marked verified after the date that file was written."""
+    if not parts:
+        return None
+    sources = []
+    for part in parts:
+        checked_on = date.fromisoformat(part['checked_on'])
+        for entry in part['sources']:
+            if date.fromisoformat(entry['verified_on']) > checked_on:
+                raise ValueError('VERIFIED_AFTER_CHECK_DATE')
+            sources.append(entry)
+    return dict(checked_on=max(p['checked_on'] for p in parts), sources=sources)
+
+
 def apply_verification(catalog, verification: dict | None):
     """Return a catalog whose listed sources carry a newer verified_on. Only sources named in the overlay change."""
     if not verification:
@@ -140,10 +155,7 @@ def main():
     args = parser.parse_args()
     start = date.fromisoformat(args.start) if args.start else datetime.now(KST).date()
     catalog = load_catalog()
-    verification = None
-    for path in args.verification:  # later overlays win per source
-        part = json.loads(path.read_text(encoding='utf-8'))
-        verification = part if verification is None else dict(part, sources=verification['sources'] + part['sources'])
+    verification = merge_verifications([json.loads(path.read_text(encoding='utf-8')) for path in args.verification])
     catalog = apply_verification(catalog, verification)
     source_check = json.loads(args.source_check.read_text(encoding='utf-8')) if args.source_check else None
     flagged = flagged_programs(catalog, source_check, verification)

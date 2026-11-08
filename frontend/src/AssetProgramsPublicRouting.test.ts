@@ -7,12 +7,16 @@ const data=snapshot as unknown as Snapshot;
 const byId=(r:ReturnType<typeof routePublicSnapshot>,id:string)=>r.programs.find(p=>p.program.program_id===id)!;
 
 describe('public policy-savings snapshot is routed by date, not computed in the browser',()=>{
-  it('uses the precomputed row for a covered day',()=>{
-    const out=routePublicSnapshot(data,'2026-11-08');
+  it('uses the precomputed row for a covered day, with every source read in the first week',()=>{
+    const out=routePublicSnapshot(data,'2026-11-09');
     const future=byId(out,'KR-YOUTH-FUTURE');
     expect(future.intake).toMatchObject({status:'CLOSED',fresh:true,phase:'기신청자 심사'});
-    expect(byId(out,'GG-YOUTH-WORKER').intake.fresh).toBe(false);
+    expect(out.programs.every(r=>r.intake.fresh)).toBe(true);
     expect(out.program_count).toBe(10);
+  });
+  it('turns the continuously open housing account into "recheck required" once its sources are older than 7 days',()=>{
+    expect(byId(routePublicSnapshot(data,'2026-11-15'),'KR-YOUTH-HOUSING').intake).toMatchObject({status:'OPEN',fresh:true});
+    expect(byId(routePublicSnapshot(data,'2026-11-16'),'KR-YOUTH-HOUSING').intake).toMatchObject({status:'REVIEW_REQUIRED',fresh:false});
   });
   it('follows the official phases and drops freshness once the verification is older than 7 days',()=>{
     expect(byId(routePublicSnapshot(data,'2026-11-15'),'KR-YOUTH-FUTURE').intake.fresh).toBe(true);
@@ -36,7 +40,7 @@ describe('public policy-savings snapshot is routed by date, not computed in the 
     expect(out.programs.every(r=>r.calculation===null&&r.benefit_applied_krw===0)).toBe(true);
   });
   it('lists nationwide programs before regional ones and does not drop or duplicate any',()=>{
-    const out=routePublicSnapshot(data,'2026-11-08');
+    const out=routePublicSnapshot(data,'2026-11-09');
     expect(out.programs[0].program.program_id).toBe('KR-YOUTH-FUTURE');
     const firstRegional=out.programs.findIndex(r=>r.program.regions.length>0);
     expect(out.programs.slice(0,firstRegional).every(r=>r.program.regions.length===0)).toBe(true);

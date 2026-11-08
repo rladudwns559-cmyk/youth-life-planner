@@ -1,17 +1,17 @@
 {
   "schema_version": "asset-discovery-response-v1",
   "dataset_version": "official-assets-20261030-v1",
-  "evaluated_at": "2026-11-08T12:00:00+09:00",
+  "evaluated_at": "2026-11-09T12:00:00+09:00",
   "review_after_days": 7,
   "source_mode": "VERIFIED_SNAPSHOT",
   "program_count": 10,
   "counts": {
-    "OPEN": 0,
+    "OPEN": 1,
     "UPCOMING": 0,
     "CLOSED": 8,
     "NO_INTAKE": 1,
     "UNKNOWN": 0,
-    "REVIEW_REQUIRED": 1
+    "REVIEW_REQUIRED": 0
   },
   "recommendation_counts": {
     "CURRENT_CANDIDATE": 0,
@@ -78,7 +78,7 @@
           "url": "https://www.korea.kr/common/download.do?fileId=198568323&tblKey=GMN",
           "title": "국토교통부 청년주택드림 청약통장 소득요건 완화 계획",
           "published_on": "2026-10-12",
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "첨부 PDF 1~2쪽: 고시 개정 예정; 시행 완료 근거로 사용하지 않음",
           "capture_sha256": "7e8d4a8747c2c2175071b4ce5620178215181c4453e66100685202624a5dba5a"
         },
@@ -93,9 +93,9 @@
         }
       ],
       "intake": {
-        "status": "REVIEW_REQUIRED",
-        "label": "최신 공고 재확인 필요",
-        "fresh": false,
+        "status": "OPEN",
+        "label": "모집 중",
+        "fresh": true,
         "phase": null,
         "application": {
           "kind": "APPLICATION",
@@ -171,7 +171,7 @@
           "url": "https://youth.incheon.go.kr/financial/dreamfor.jsp",
           "title": "인천청년포털 2026 드림For 청년통장 안내",
           "published_on": null,
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "사업개요·신청안내: 소득금액증명원 기준 연소득·생년월일·마감시각. 페이지 자체 게시일 미표시",
           "capture_sha256": "1f5a3cd91aaa782b1e42fe330919e428fe859664a4e49a029df1e53ea8c18c85"
         }
@@ -179,7 +179,7 @@
       "intake": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null,
         "application": {
           "kind": "APPLICATION",
@@ -255,7 +255,7 @@
           "url": "https://www.modadream.kr/upload/board/20260727092534-77423622.pdf",
           "title": "모다드림 청년통장 2026 하반기 공식 모집 공고",
           "published_on": "2026-07-27",
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "PDF 1~3쪽: 접수기간·생년월일·납입액·신청조건·제외사항",
           "capture_sha256": "258926d5f69d6887bac90a417a26b93a80823cdbc7395480adfd776901299749"
         }
@@ -263,7 +263,7 @@
       "intake": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null,
         "application": {
           "kind": "APPLICATION",
@@ -339,7 +339,7 @@
           "url": "https://daejeonyouthportal.kr/content/CT_000000000067/cntPage.do?commonMenuNo=&dpmSectionFst=1&dpmSectionScd=16",
           "title": "대전청년포털 2026 미래두배 청년통장 안내",
           "published_on": "2026-09-22",
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "지원대상자·지원내용·신청방법; 신청기간과 선정 발표일 분리",
           "capture_sha256": "5239344e642058da425e46c262446b433738b4c9f30f21f2caa5d260892670c8"
         }
@@ -347,7 +347,7 @@
       "intake": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null,
         "application": {
           "kind": "APPLICATION",
@@ -356,7 +356,7 @@
           "ends_at_exclusive": "2026-10-08T18:00:00+09:00",
           "time_note": "공식 시각 기준. 종료시각부터 접수 종료로 표시합니다."
         },
-        "note": "확인한 2026년 모집 회차입니다. 추가·다음 연도 모집을 추정하지 않습니다. 공식 원문 변경이 감지되어 기존 조건은 재검토가 필요합니다. 새 모집 공고는 알림 영역에서 별도로 확인하세요."
+        "note": "확인한 2026년 모집 회차입니다. 추가·다음 연도 모집을 추정하지 않습니다."
       },
       "notification_key": "DAEJEON-FUTURE-DOUBLE:2026",
       "revision": "345b0b905191fe391530b2504feec87ad6b4138c2ef34a218d424492c55a0a08",
@@ -424,7 +424,7 @@
           "url": "https://young.busan.go.kr/index.nm?menuCd=53",
           "title": "부산청년플랫폼 2026 기쁨두배통장 사업 안내",
           "published_on": "2026-08-03",
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "신청안내·사업내용·공고일 기준 생년월일·보험료·지원금 지급 조건",
           "capture_sha256": "65c7b9c7d3a1497ed74217adeec33e3c383d5ba94e7bf55f68466eb6f9070382"
         }
@@ -432,7 +432,7 @@
       "intake": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null,
         "application": {
           "kind": "APPLICATION",
@@ -441,7 +441,7 @@
           "ends_at_exclusive": "2026-08-21T18:00:00+09:00",
           "time_note": "공식 시각 기준. 종료시각부터 접수 종료로 표시합니다."
         },
-        "note": "확인한 2026년 모집 회차입니다. 추가·다음 연도 모집을 추정하지 않습니다. 공식 원문 변경이 감지되어 기존 조건은 재검토가 필요합니다. 새 모집 공고는 알림 영역에서 별도로 확인하세요."
+        "note": "확인한 2026년 모집 회차입니다. 추가·다음 연도 모집을 추정하지 않습니다."
       },
       "notification_key": "BUSAN-JOY-DOUBLE:2026",
       "revision": "68550376b8d79b02ff4edf2e167fe39a4e4fa322c65e759994cd97d55664ef09",
@@ -508,7 +508,7 @@
           "url": "https://double.jb2030.or.kr/sub/2024_data.html",
           "title": "전북청년 함께 두배적금 2026 사업 안내",
           "published_on": "2026-03-03",
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "페이지 URL의 2024와 달리 본문은 2026 모집; 2025.12.31 연령 기준·2025.10~12 보험료",
           "capture_sha256": "27d30304786b4dff2b045f2647fc19077bd76a3d4944c08fd276cafb863391a1"
         }
@@ -516,7 +516,7 @@
       "intake": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null,
         "application": {
           "kind": "APPLICATION",
@@ -591,7 +591,7 @@
           "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/customer/notice/1309680_1141.html",
           "title": "복지로 2026년 청년내일저축계좌 신청 안내",
           "published_on": "2026-04-24",
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "온라인 신청기간·지원대상·제출서류",
           "capture_sha256": "59ee3a17e87c25cbc2af7ac7e691e927145ff03004fa99476d34a754829fa90f"
         },
@@ -600,7 +600,7 @@
           "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/news/1309724_1114.html",
           "title": "보건복지부 제공 복지로 청년내일저축계좌 2026 상세 모집 안내",
           "published_on": "2026-05-02",
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "본문 월 본인저축10만~50만원·3년·정부지원·유지조건. 페이지 표시는5.2, 본문 원출처 등록일 표시는5.3으로 구분.",
           "capture_sha256": "fc26682bd768484a53353e50e280f5df120b3e986e14828a1f6145e92bd50b23"
         }
@@ -608,7 +608,7 @@
       "intake": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null,
         "application": {
           "kind": "APPLICATION",
@@ -788,7 +788,7 @@
           "url": "https://news.seoul.go.kr/welfare/archives/581505?listPage=1",
           "title": "서울시 2026 희망두배 청년통장 참가자 모집",
           "published_on": "2026-06-15",
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "AI 요약 아래 별도 본문 모집 안내: 접수일·대상·본인저축액",
           "capture_sha256": "faaf0e1ee472424206689adad0d13aa77a3f17aa0c34e5a7a45e7b5fb015bdb2"
         }
@@ -796,7 +796,7 @@
       "intake": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null,
         "application": {
           "kind": "APPLICATION",
@@ -805,7 +805,7 @@
           "ends_at_exclusive": "2026-06-20T00:00:00+09:00",
           "time_note": "공식 안내의 날짜 범위입니다. 구체적인 당일 접수 마감시각은 공식 채널에서 확인해야 합니다."
         },
-        "note": "확인한 2026년 모집 회차입니다. 추가·다음 연도 모집을 추정하지 않습니다. 공식 원문 변경이 감지되어 기존 조건은 재검토가 필요합니다. 새 모집 공고는 알림 영역에서 별도로 확인하세요."
+        "note": "확인한 2026년 모집 회차입니다. 추가·다음 연도 모집을 추정하지 않습니다."
       },
       "notification_key": "SEOUL-HOPE-DOUBLE:2026",
       "revision": "faccc66885acdce29b663c6545f70af4d12b563e24d56f757700c57b33ea75ee",
@@ -860,7 +860,7 @@
           "url": "https://account.gfgf.kr/hpdsk/ntc/list.do?mode=list&searchBbsSeCd=01&searchOpnpYn=Y",
           "title": "경기도 청년노동자통장 신규모집 미운영 안내",
           "published_on": "2026-10-14",
-          "verified_on": "2026-10-30",
+          "verified_on": "2026-11-09",
           "locator": "공식 공지사항 목록의 해당 공지 제목·등록일. 상세 문서 조건은 미수집",
           "capture_sha256": "0a0fc94160b4ce28da2006626c624df9d11bc943fdaab71875508c8171e7ac76"
         }
@@ -868,10 +868,10 @@
       "intake": {
         "status": "NO_INTAKE",
         "label": "올해 신규모집 없음",
-        "fresh": false,
+        "fresh": true,
         "phase": null,
         "application": null,
-        "note": "2026.10.14 공식 공지: 2026년 신규모집 미운영. 과거 또는 연초 모집 계획을 현재 모집으로 사용하지 않습니다. 공식 원문 변경이 감지되어 기존 조건은 재검토가 필요합니다. 새 모집 공고는 알림 영역에서 별도로 확인하세요."
+        "note": "2026.10.14 공식 공지: 2026년 신규모집 미운영. 과거 또는 연초 모집 계획을 현재 모집으로 사용하지 않습니다."
       },
       "notification_key": "GG-YOUTH-WORKER:2026",
       "revision": "87231a2a965bf44d5329b534c9ece166e85b0d11d5a8afb5d6f8cf19dbad367c",
@@ -892,70 +892,8 @@
     "subscriptions_stored": false
   },
   "disclaimer": "공식 공고를 바탕으로 한 기초 추천입니다. 모든 자격조건을 확인한 결과가 아니며 가입·선정·지원금 수령을 확정하지 않습니다. 생활비 소득을 공식 소득기준으로 환산하지 않습니다. 공개 화면의 고정 자료이며 자동 갱신 서버는 연결 준비 중입니다.",
-  "built_on": "2026-11-08",
+  "built_on": "2026-11-09",
   "schedules": {
-    "2026-11-08": {
-      "KR-YOUTH-FUTURE": {
-        "status": "CLOSED",
-        "label": "신청 마감",
-        "fresh": true,
-        "phase": "기신청자 심사"
-      },
-      "KR-YOUTH-TOMORROW": {
-        "status": "CLOSED",
-        "label": "신청 마감",
-        "fresh": false,
-        "phase": null
-      },
-      "KR-YOUTH-HOUSING": {
-        "status": "REVIEW_REQUIRED",
-        "label": "최신 공고 재확인 필요",
-        "fresh": false,
-        "phase": null
-      },
-      "GG-YOUTH-WORKER": {
-        "status": "NO_INTAKE",
-        "label": "올해 신규모집 없음",
-        "fresh": false,
-        "phase": null
-      },
-      "SEOUL-HOPE-DOUBLE": {
-        "status": "CLOSED",
-        "label": "신청 마감",
-        "fresh": false,
-        "phase": null
-      },
-      "BUSAN-JOY-DOUBLE": {
-        "status": "CLOSED",
-        "label": "신청 마감",
-        "fresh": false,
-        "phase": null
-      },
-      "INCHEON-DREAM-FOR": {
-        "status": "CLOSED",
-        "label": "신청 마감",
-        "fresh": false,
-        "phase": null
-      },
-      "GN-MODADREAM": {
-        "status": "CLOSED",
-        "label": "신청 마감",
-        "fresh": false,
-        "phase": null
-      },
-      "DAEJEON-FUTURE-DOUBLE": {
-        "status": "CLOSED",
-        "label": "신청 마감",
-        "fresh": false,
-        "phase": null
-      },
-      "JB-TOGETHER-DOUBLE": {
-        "status": "CLOSED",
-        "label": "신청 마감",
-        "fresh": false,
-        "phase": null
-      }
-    },
     "2026-11-09": {
       "KR-YOUTH-FUTURE": {
         "status": "CLOSED",
@@ -966,55 +904,55 @@
       "KR-YOUTH-TOMORROW": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "KR-YOUTH-HOUSING": {
-        "status": "REVIEW_REQUIRED",
-        "label": "최신 공고 재확인 필요",
-        "fresh": false,
+        "status": "OPEN",
+        "label": "모집 중",
+        "fresh": true,
         "phase": null
       },
       "GG-YOUTH-WORKER": {
         "status": "NO_INTAKE",
         "label": "올해 신규모집 없음",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "SEOUL-HOPE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "BUSAN-JOY-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "INCHEON-DREAM-FOR": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "GN-MODADREAM": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "DAEJEON-FUTURE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "JB-TOGETHER-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       }
     },
@@ -1028,55 +966,55 @@
       "KR-YOUTH-TOMORROW": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "KR-YOUTH-HOUSING": {
-        "status": "REVIEW_REQUIRED",
-        "label": "최신 공고 재확인 필요",
-        "fresh": false,
+        "status": "OPEN",
+        "label": "모집 중",
+        "fresh": true,
         "phase": null
       },
       "GG-YOUTH-WORKER": {
         "status": "NO_INTAKE",
         "label": "올해 신규모집 없음",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "SEOUL-HOPE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "BUSAN-JOY-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "INCHEON-DREAM-FOR": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "GN-MODADREAM": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "DAEJEON-FUTURE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "JB-TOGETHER-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       }
     },
@@ -1090,55 +1028,55 @@
       "KR-YOUTH-TOMORROW": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "KR-YOUTH-HOUSING": {
-        "status": "REVIEW_REQUIRED",
-        "label": "최신 공고 재확인 필요",
-        "fresh": false,
+        "status": "OPEN",
+        "label": "모집 중",
+        "fresh": true,
         "phase": null
       },
       "GG-YOUTH-WORKER": {
         "status": "NO_INTAKE",
         "label": "올해 신규모집 없음",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "SEOUL-HOPE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "BUSAN-JOY-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "INCHEON-DREAM-FOR": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "GN-MODADREAM": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "DAEJEON-FUTURE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "JB-TOGETHER-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       }
     },
@@ -1152,55 +1090,55 @@
       "KR-YOUTH-TOMORROW": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "KR-YOUTH-HOUSING": {
-        "status": "REVIEW_REQUIRED",
-        "label": "최신 공고 재확인 필요",
-        "fresh": false,
+        "status": "OPEN",
+        "label": "모집 중",
+        "fresh": true,
         "phase": null
       },
       "GG-YOUTH-WORKER": {
         "status": "NO_INTAKE",
         "label": "올해 신규모집 없음",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "SEOUL-HOPE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "BUSAN-JOY-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "INCHEON-DREAM-FOR": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "GN-MODADREAM": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "DAEJEON-FUTURE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "JB-TOGETHER-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       }
     },
@@ -1214,55 +1152,55 @@
       "KR-YOUTH-TOMORROW": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "KR-YOUTH-HOUSING": {
-        "status": "REVIEW_REQUIRED",
-        "label": "최신 공고 재확인 필요",
-        "fresh": false,
+        "status": "OPEN",
+        "label": "모집 중",
+        "fresh": true,
         "phase": null
       },
       "GG-YOUTH-WORKER": {
         "status": "NO_INTAKE",
         "label": "올해 신규모집 없음",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "SEOUL-HOPE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "BUSAN-JOY-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "INCHEON-DREAM-FOR": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "GN-MODADREAM": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "DAEJEON-FUTURE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "JB-TOGETHER-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       }
     },
@@ -1276,55 +1214,55 @@
       "KR-YOUTH-TOMORROW": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "KR-YOUTH-HOUSING": {
-        "status": "REVIEW_REQUIRED",
-        "label": "최신 공고 재확인 필요",
-        "fresh": false,
+        "status": "OPEN",
+        "label": "모집 중",
+        "fresh": true,
         "phase": null
       },
       "GG-YOUTH-WORKER": {
         "status": "NO_INTAKE",
         "label": "올해 신규모집 없음",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "SEOUL-HOPE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "BUSAN-JOY-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "INCHEON-DREAM-FOR": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "GN-MODADREAM": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "DAEJEON-FUTURE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "JB-TOGETHER-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       }
     },
@@ -1338,55 +1276,55 @@
       "KR-YOUTH-TOMORROW": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "KR-YOUTH-HOUSING": {
-        "status": "REVIEW_REQUIRED",
-        "label": "최신 공고 재확인 필요",
-        "fresh": false,
+        "status": "OPEN",
+        "label": "모집 중",
+        "fresh": true,
         "phase": null
       },
       "GG-YOUTH-WORKER": {
         "status": "NO_INTAKE",
         "label": "올해 신규모집 없음",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "SEOUL-HOPE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "BUSAN-JOY-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "INCHEON-DREAM-FOR": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "GN-MODADREAM": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "DAEJEON-FUTURE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "JB-TOGETHER-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       }
     },
@@ -1400,7 +1338,7 @@
       "KR-YOUTH-TOMORROW": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "KR-YOUTH-HOUSING": {
@@ -1412,43 +1350,43 @@
       "GG-YOUTH-WORKER": {
         "status": "NO_INTAKE",
         "label": "올해 신규모집 없음",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "SEOUL-HOPE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "BUSAN-JOY-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "INCHEON-DREAM-FOR": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "GN-MODADREAM": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "DAEJEON-FUTURE-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       },
       "JB-TOGETHER-DOUBLE": {
         "status": "CLOSED",
         "label": "신청 마감",
-        "fresh": false,
+        "fresh": true,
         "phase": null
       }
     },
@@ -3685,6 +3623,68 @@
       }
     },
     "2026-12-23": {
+      "KR-YOUTH-FUTURE": {
+        "status": "CLOSED",
+        "label": "신청 마감",
+        "fresh": false,
+        "phase": null
+      },
+      "KR-YOUTH-TOMORROW": {
+        "status": "CLOSED",
+        "label": "신청 마감",
+        "fresh": false,
+        "phase": null
+      },
+      "KR-YOUTH-HOUSING": {
+        "status": "REVIEW_REQUIRED",
+        "label": "최신 공고 재확인 필요",
+        "fresh": false,
+        "phase": null
+      },
+      "GG-YOUTH-WORKER": {
+        "status": "NO_INTAKE",
+        "label": "올해 신규모집 없음",
+        "fresh": false,
+        "phase": null
+      },
+      "SEOUL-HOPE-DOUBLE": {
+        "status": "CLOSED",
+        "label": "신청 마감",
+        "fresh": false,
+        "phase": null
+      },
+      "BUSAN-JOY-DOUBLE": {
+        "status": "CLOSED",
+        "label": "신청 마감",
+        "fresh": false,
+        "phase": null
+      },
+      "INCHEON-DREAM-FOR": {
+        "status": "CLOSED",
+        "label": "신청 마감",
+        "fresh": false,
+        "phase": null
+      },
+      "GN-MODADREAM": {
+        "status": "CLOSED",
+        "label": "신청 마감",
+        "fresh": false,
+        "phase": null
+      },
+      "DAEJEON-FUTURE-DOUBLE": {
+        "status": "CLOSED",
+        "label": "신청 마감",
+        "fresh": false,
+        "phase": null
+      },
+      "JB-TOGETHER-DOUBLE": {
+        "status": "CLOSED",
+        "label": "신청 마감",
+        "fresh": false,
+        "phase": null
+      }
+    },
+    "2026-12-24": {
       "KR-YOUTH-FUTURE": {
         "status": "CLOSED",
         "label": "신청 마감",
