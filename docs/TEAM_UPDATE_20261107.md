@@ -25,6 +25,10 @@ http://127.0.0.1:5173/#/savings 에서 확인합니다. 자세한 안내는 [FRO
 | 운영 | 주간 재확인 일정과 추천 대상 체크리스트 도구 | [WEEKLY_RECHECK_PLAN_202611.md](WEEKLY_RECHECK_PLAN_202611.md), `tools/list_recommendable_products.py` |
 | 사용자 점검 | 3명 사용성 점검 키트(응답 없음, 준비 자료) | `docs/experiments/public_site_usability_20261107/` |
 
+## 2026-11-08 추가: 정책 통장 10개
+
+상품 찾기 화면에 청년미래적금·청년내일저축계좌·청년 주택드림 청약통장과 지역 청년통장 7개가 추가됐습니다(상단 "정부·지자체 지원 통장 10개 보기" 버튼). 상태는 Python이 날짜별로 미리 계산한 표를 화면이 읽습니다. 자세한 내용은 [비교 문서](COMPARISON_20261108.md), 갱신 절차는 [주간 계획](WEEKLY_RECHECK_PLAN_202611.md)을 보세요.
+
 ## 디자인 담당에게
 
 - 이번 디자인 변경은 **새 파일 `frontend/src/polish.css`** 에 모았고 `App.tsx`에서 `launch-design.css` 다음에 불러옵니다. 기존 CSS 파일은 수정하지 않았습니다. 이 파일의 규칙을 지우거나 덮어쓰면 위 변경을 되돌릴 수 있습니다.

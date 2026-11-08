@@ -27,4 +27,4 @@ Claude Code에서 Artifact 도구로 `page.html`을 게시하고, 스크립트�
 
 - 스크립트는 한글 제목을 숫자 코드로 만든다. Windows PowerShell 5.1은 BOM 없는 `.ps1`을 ANSI로 읽어서 한글을 직접 쓰면 제목이 깨진다. 스크립트를 고칠 때 한글 리터럴을 넣지 말고, 넣는다면 파일을 UTF-8 BOM으로 저장한다.
 - Artifact는 `<title>`을 이름(2~4단어)으로 쓰라고 한다. 앱의 원래 제목 "청년 경제생활 | 내 조건에 맞는 지원과 저축"은 설명이 붙은 형태라 `청년 경제생활`로 줄였다.
-- `/asset-programs-public.json`처럼 절대 경로로 요청하는 코드가 앱에 있으나, 공개 화면 경로(홈·지원사업·상품 찾기·이용 안내)에서는 쓰이지 않는다.
+- 정책 통장 자료(`asset-programs-public.json`)는 2026-11-08부터 빌드에 포함된다. 예전에는 절대 경로(`/asset-programs-public.json`)로 요청했기 때문에 사이트 루트가 아닌 곳(이 Claude 페이지)에서는 불러올 수 없었다.

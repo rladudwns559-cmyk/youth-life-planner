@@ -42,6 +42,25 @@
 7. 배포: 사용자가 기존 Sites 프로젝트에 공개 모드 빌드를 게시한다(배포 권한은 사용자에게 있음). 배포 후 공개 URL에서 6번을 다시 확인한다.
 8. 기록: `docs/FINANCIAL_RECHECK_<날짜>.md`에 범위·변경·보류·실행한 시험 결과를 남긴다.
 
+## 정책 통장 10개 (2026-11-08 추가)
+
+금융 상품과 별개로 `data/asset-programs`의 정책 통장(청년미래적금 등)도 7일 기한을 쓴다. 확인일이 7일을 넘으면 화면이 "최신 공고 재확인 필요"로 바꾸고, 날짜별 상태 표는 **45일치만** 들어 있어 표 범위(2026-12-23)를 벗어나면 모집 중 표시가 사라진다. 회차마다:
+
+1. 원문 변경 점검 (읽기만 하고 카탈로그를 바꾸지 않는다):
+
+   ```powershell
+   python -m tools.check_asset_program_sources --output <새 점검 결과 파일>
+   ```
+
+2. 바뀐 출처는 **사람이 원문을 읽고** 일정·조건이 카탈로그와 맞는지 대조한다. 해시가 같거나 달라진 것만으로 확인일을 올리지 않는다. 읽은 출처만 `data/asset-programs/verification-<날짜>.json`에 근거와 함께 적는다.
+3. 공개 자료 재생성(화면은 이 파일을 읽는다):
+
+   ```powershell
+   python -m tools.build_asset_programs_public --start <오늘> --days 45 --verification data/asset-programs/verification-20261108.json --verification data/asset-programs/verification-<날짜>.json --source-check <새 점검 결과 파일>
+   ```
+
+4. `pytest`(`tests/test_build_asset_programs_public.py`가 커밋된 JSON이 입력 파일로 재생성한 결과와 같은지 검사)와 프런트엔드 시험·빌드를 돌린다.
+
 ## 실행 주체
 
 로컬 Codex의 매일 09:00 점검과 이 계획이 같은 `financial-renewals.json`을 수정할 수 있다. **한 회차는 한 주체만** 수행한다. 어느 쪽이 할지 사용자가 정한다.
