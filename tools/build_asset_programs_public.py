@@ -12,6 +12,7 @@ import json
 import sys
 from collections import Counter
 from datetime import date, datetime, timedelta, timezone
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -56,6 +57,44 @@ def flagged_programs(catalog, source_check: dict | None, verification: dict | No
     return {p.program_id for p in catalog.programs if bad & set(p.source_ids)}
 
 
+def attach_rates(data: dict, catalog, rates: dict | None) -> dict:
+    """Attach officially stated interest rates to program rows (outside `program`, so program revisions do not change).
+
+    A rate is only accepted when its source was read on the rates file's check date, i.e. the catalog source carries that
+    verified_on (via the verification overlay). Base and preferential rates stay separate; nothing is calculated."""
+    if not rates:
+        return data
+    checked_on = rates['checked_on']
+    date.fromisoformat(checked_on)
+    by_id = {p.program_id: p for p in catalog.programs}
+    verified = {s.source_id: s.verified_on for s in catalog.sources}
+    rows = {r['program']['program_id']: r for r in data['programs']}
+    seen = set()
+    for entry in rates['rates']:
+        pid = entry['program_id']
+        if pid not in by_id or pid in seen:
+            raise ValueError(f'UNKNOWN_OR_DUPLICATE_RATE_PROGRAM {pid}')
+        seen.add(pid)
+        if entry['source_id'] not in by_id[pid].source_ids:
+            raise ValueError('RATE_SOURCE_NOT_LINKED_TO_PROGRAM')
+        if verified[entry['source_id']] != checked_on:
+            raise ValueError('RATE_SOURCE_NOT_VERIFIED_ON_CHECK_DATE')
+        if not entry.get('evidence', '').strip():
+            raise ValueError('RATE_EVIDENCE_REQUIRED')
+        try:
+            base = Decimal(entry['base_percent'])
+        except InvalidOperation as error:
+            raise ValueError('INVALID_RATE') from error
+        if not base.is_finite() or not 0 <= base <= 100:
+            raise ValueError('INVALID_RATE')
+        if not entry.get('term_label', '').strip():
+            raise ValueError('RATE_TERM_REQUIRED')
+        rows[pid]['rate'] = dict(base_percent=format(base.normalize(), 'f'), term_label=entry['term_label'],
+                                 preferential_label=entry.get('preferential_label') or None,
+                                 source_id=entry['source_id'], verified_on=checked_on)
+    return data
+
+
 def public_intake(program, catalog, moment: datetime, flagged: set[str]) -> dict:
     row = intake(program, catalog, moment)
     if program.program_id in flagged:
@@ -96,6 +135,7 @@ def main():
     parser.add_argument('--days', type=int, default=45)
     parser.add_argument('--verification', type=Path, action='append', default=[])
     parser.add_argument('--source-check', type=Path)
+    parser.add_argument('--rates', type=Path, help='officially stated rates read on the file\'s check date')
     parser.add_argument('--output', type=Path, default=DEFAULT_OUT)
     args = parser.parse_args()
     start = date.fromisoformat(args.start) if args.start else datetime.now(KST).date()
@@ -108,6 +148,8 @@ def main():
     source_check = json.loads(args.source_check.read_text(encoding='utf-8')) if args.source_check else None
     flagged = flagged_programs(catalog, source_check, verification)
     data = build(catalog, start, args.days, flagged)
+    rates = json.loads(args.rates.read_text(encoding='utf-8')) if args.rates else None
+    attach_rates(data, catalog, rates)
     args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     print(json.dumps(dict(built_on=data['built_on'], programs=data['program_count'], counts=data['counts'], flagged=sorted(flagged), days=len(data['schedules'])), ensure_ascii=False))
 

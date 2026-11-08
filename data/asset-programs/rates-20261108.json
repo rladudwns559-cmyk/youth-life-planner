@@ -1,0 +1,14 @@
+{
+  "checked_on": "2026-11-08",
+  "note": "Rates stated in an official source that was read in full on checked_on. Base and preferential rates are kept separate. Government contribution (6% or 12% of deposits) and interest-tax exemption are benefits, not rates, and are never added to these figures. No maturity amount or effective yield is calculated. The catalog file is not modified.",
+  "rates": [
+    {
+      "program_id": "KR-YOUTH-FUTURE",
+      "source_id": "future",
+      "term_label": "3년 고정금리",
+      "base_percent": "5",
+      "preferential_label": "우대 최대 2~3%",
+      "evidence": "Financial Services Commission press release on korea.kr (posted 2026-09-30), read in full on 2026-11-08: the product carries a 3-year fixed rate described as a 5% base plus preferential rate of up to 2-3%, with details on the Korea Federation of Banks consumer portal. The same text also quotes 'effective' yields of 13.2-14.4% (general) and 18.2-19.4% (preferential) that fold in the government contribution and the tax exemption; those are deliberately not carried here because they are not interest rates."
+    }
+  ]
+}

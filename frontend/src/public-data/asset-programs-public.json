@@ -722,7 +722,14 @@
       "eligibility_scope": "PRELIMINARY_DISCOVERY_ONLY",
       "assessment": null,
       "bucket": "CATALOG",
-      "reasons": []
+      "reasons": [],
+      "rate": {
+        "base_percent": "5",
+        "term_label": "3년 고정금리",
+        "preferential_label": "우대 최대 2~3%",
+        "source_id": "future",
+        "verified_on": "2026-11-08"
+      }
     },
     {
       "program": {

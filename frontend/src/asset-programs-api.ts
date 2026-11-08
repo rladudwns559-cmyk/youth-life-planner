@@ -13,6 +13,8 @@ export interface AssetProgram {
 export interface AssetRow {
   program:AssetProgram;sources:{source_id:string;url:string;title:string;published_on:string|null;verified_on:string;locator:string}[];
   intake:{status:IntakeStatus;label:string;fresh:boolean;phase:string|null;application:{starts_at:string;ends_at_exclusive:string;time_note:string}|null;note:string};
+  /** Officially stated interest rate, read from a source on `verified_on`. Base and preferential stay separate; no yield is calculated. */
+  rate?:{base_percent:string;term_label:string;preferential_label:string|null;source_id:string;verified_on:string};
   notification_key:string;revision:string;calculation:null;benefit_applied_krw:0;bucket:Bucket;reasons:string[];
   assessment:null|{status:'FAIL'|'UNKNOWN';display_status:string;checks:AssetCheck[];remaining_checks:AssetCheck[];budget:AssetCheck;allocation_krw:number|null;unallocated_capacity_krw:number|null;goal_matches:boolean|null;income_note:string};
 }

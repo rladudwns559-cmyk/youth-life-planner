@@ -31,6 +31,7 @@ function AssetCard({row}:{row:AssetRow}){
     <p className="asset-authority">{p.authority}</p><h3>{p.title}</h3>
     <p className="asset-benefit">{p.benefit_summary}</p>
     <dl className="asset-facts"><div><dt>본인 저축</dt><dd>{contribution(p)}</dd></div><div><dt>저축 기간</dt><dd>{p.term_months.length?p.term_months.map(m=>`${m}개월`).join(' / '):'공식 가입·유지조건 확인'}</dd></div><div><dt>{row.intake.status==='CLOSED'?'확인한 신청 기간':'신청 안내'}</dt><dd>{dateRange(row)}</dd></div></dl>
+    {row.rate&&<div className="asset-rate"><p><strong>금리</strong> {row.rate.term_label} · <b>기본 연 {row.rate.base_percent}%</b>{row.rate.preferential_label&&<> · {row.rate.preferential_label}</>}</p><small>우대 적용 여부는 신청자와 은행마다 달라 더하지 않았어요. 정부기여금과 비과세는 금리가 아니라서 합산하지 않으며, 만기 수령액은 계산하지 않아요. 금리 확인 {row.rate.verified_on}</small></div>}
     {row.intake.phase&&<p className="asset-phase">현재 단계: {row.intake.phase} · 신규 신청 기간과 구분해 주세요.</p>}
     {!row.intake.fresh&&<p className="asset-review-note">마지막 확인 이후 시간이 지나 새 공고 재확인이 필요해요.</p>}
     {a&&<div className={`asset-recommendation rec-${row.bucket.toLowerCase()}`}><strong>{bucketNames[row.bucket]}</strong><span>{a.display_status}</span>

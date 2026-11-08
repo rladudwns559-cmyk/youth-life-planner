@@ -21,6 +21,12 @@
 .recommendation-card .recommendation-audience,.recommendation-card .recommendation-limit{word-break:keep-all;overflow-wrap:anywhere}
 .freshness-summary{display:none}
 
+/* Officially stated rate on a policy savings card: base rate emphasised, caveat kept readable */
+.asset-card .asset-rate{margin:12px 0 0;padding:10px 12px;border:1px solid #cfe0f1;border-radius:10px;background:#f3f8fd}
+.asset-card .asset-rate p{margin:0;font-size:14px;line-height:1.6;color:#193c61}
+.asset-card .asset-rate p b{font-variant-numeric:tabular-nums}
+.asset-card .asset-rate small{display:block;margin-top:4px;font-size:12px;line-height:1.6;color:#4a5b72;word-break:keep-all}
+
 /* Jump to the government-supported savings accounts (bank products and policy accounts are separate lists) */
 .policy-accounts-jump{display:inline-flex;align-items:center;gap:6px;margin:0 0 14px;padding:8px 14px;min-height:40px;border:1px solid #bcd0e6;border-radius:999px;background:#fff;color:#1f4f87;font:inherit;font-size:14px;font-weight:600;cursor:pointer}
 @media(max-width:600px){.policy-accounts-jump{margin:0 0 10px;padding:6px 12px;min-height:36px;font-size:13px}}

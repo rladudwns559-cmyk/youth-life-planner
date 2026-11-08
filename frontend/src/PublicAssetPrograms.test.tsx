@@ -16,6 +16,17 @@ describe('public government information scope',()=>{
     expect(document.querySelectorAll('[data-asset-id]').length).toBe(3);
     await userEvent.click(screen.getByRole('button',{name:'나머지 7개 사업 더 보기'}));expect(document.querySelectorAll('[data-asset-id]').length).toBe(10);
   });
+  it('shows the officially stated rate only on the verified program, with base and preferential rates apart and the caveats',async()=>{
+    render(<AssetPrograms goalMonths={null}/>);await screen.findByTestId('asset-programs-result');
+    await userEvent.click(screen.getByRole('button',{name:'나머지 7개 사업 더 보기'}));
+    const rated=document.querySelectorAll('.asset-rate');expect(rated.length).toBe(1);
+    const card=rated[0].closest('[data-asset-id]')!;expect(card.getAttribute('data-asset-id')).toBe('KR-YOUTH-FUTURE');
+    expect(rated[0]).toHaveTextContent('3년 고정금리');expect(rated[0]).toHaveTextContent('기본 연 5%');expect(rated[0]).toHaveTextContent('우대 최대 2~3%');
+    expect(rated[0]).toHaveTextContent('우대 적용 여부는 신청자와 은행마다 달라 더하지 않았어요');
+    expect(rated[0]).toHaveTextContent('정부기여금과 비과세는 금리가 아니라서 합산하지 않으며');
+    expect(rated[0]).toHaveTextContent('금리 확인 2026-11-08');
+    expect(rated[0].textContent).not.toMatch(/13\.2|19\.4|수익률|연 7%|연 8%/);
+  });
   it('labels recruitment by verification date and offers no subscription action',async()=>{
     render(<AssetPrograms goalMonths={null}/>);await screen.findByTestId('asset-programs-result');
     expect(screen.getByText('확인일의 모집 안내')).toBeVisible();await userEvent.click(screen.getByText('자료 갱신과 모집 알림 안내'));
