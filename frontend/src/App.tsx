@@ -119,7 +119,9 @@ export default function App() {
       </div>}
       {visited.has('savings')&&<div data-portal-page="savings" hidden={route!=='savings'} className="portal-page">
         <PageHeading page="savings" eyebrow="은행 적금 · 정기예금 · 공식 근거" title="내 조건에 맞는 상품 찾기" description="납입 금액과 기간, 가입 대상, 우대조건을 함께 비교하세요."/>
+        {publicBackendPending&&<button type="button" className="policy-accounts-jump" onClick={()=>{const reduced=typeof window.matchMedia==='function'&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;document.getElementById('asset-programs')?.scrollIntoView({block:'start',behavior:reduced?'auto':'smooth'});}}>정부·지자체 지원 통장 10개 보기 <span aria-hidden="true">↓</span></button>}
         <ProductExplorer monthlyAmount={publicBackendPending?undefined:result?.cashflow.savable_amount} termMonths={periodMonths} afterAmount={scenarioComparison?.after.cashflow.savable_amount}/>
+        {publicBackendPending&&<AssetPrograms goalMonths={null}/>}
         {!publicBackendPending&&<details className="portal-archive" onToggle={e=>setLegacyOpen(e.currentTarget.open)}><summary>기존 계산 검증 자료 · 일반 상품 추천 아님</summary><p>이전 합성 계산·4상품 비교·과거 자료의 재현을 위한 개발 검증 영역입니다.</p>
         {legacyOpen&&(result?<>
           <div className="portal-savings-period"><label htmlFor="matching-period">비교할 저축 기간</label><GroupedInput id="matching-period" inputMode="numeric" value={savingPeriod} placeholder="예: 12개월" onChange={e=>setSavingPeriod(e.target.value)}/><p>1~120개월 · 생활비 화면에서 입력한 기간과 함께 바뀝니다.</p></div>

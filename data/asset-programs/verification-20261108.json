@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-11-08",
+  "note": "Only sources whose content was actually read on this date are listed. A byte hash that is unchanged or changed is not a verification; see source-check-20261108.json for the hash results. The catalog file itself is not modified.",
+  "sources": [
+    {
+      "source_id": "future",
+      "verified_on": "2026-11-08",
+      "evidence": "korea.kr policy news (Financial Services Commission, posted 2026-09-30) read in full. Matches the catalog windows: new applications 2026-10-07..10-16, review 10-19..11-13, final result notice 11-12..13, account opening 11-16..27; age 19-34 (born 1991-11-17..2007-11-27); up to 500,000 KRW per month; 3-year product; government contribution 6% or 12% and interest-tax exemption. The article also states a 3-year fixed rate of 5% base plus up to 2-3 points of preferential rate, which the catalog does not carry. The changed hash is explained by the page's live 'popular news' sidebar."
+    },
+    {
+      "source_id": "housing-bank",
+      "verified_on": "2026-11-08",
+      "evidence": "KB Kookmin Bank product page read in full (page shows '2026.11.08 as of'). Eligibility: age 19-34, no home owned, prior-year salary or income up to 50 million KRW; joinable until 2028.12.31; monthly 20,000..1,000,000 KRW; rate shown as up to 4.5% per year, government-notified variable rate. Whether the income-requirement relaxation reported in October has taken effect cannot be decided from this page alone: it only shows the 50 million KRW figure. The changed hash is explained by the page's 'as of' date line."
+    }
+  ]
+}

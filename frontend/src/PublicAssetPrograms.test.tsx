@@ -11,7 +11,8 @@ describe('public government information scope',()=>{
     render(<AssetPrograms goalMonths={null}/>);await screen.findByTestId('asset-programs-result');
     expect(screen.queryByRole('link',{name:'내 조건으로 찾아보기 →'})).not.toBeInTheDocument();
     expect(screen.getByRole('searchbox',{name:'지원사업 검색'})).toBeVisible();
-    expect(vi.mocked(fetch).mock.calls[0][0]).toBe('/asset-programs-public.json');
+    // The public snapshot is bundled (no network), so the page also works where it is not served from the site root.
+    expect(fetch).not.toHaveBeenCalled();
     expect(document.querySelectorAll('[data-asset-id]').length).toBe(3);
     await userEvent.click(screen.getByRole('button',{name:'나머지 7개 사업 더 보기'}));expect(document.querySelectorAll('[data-asset-id]').length).toBe(10);
   });

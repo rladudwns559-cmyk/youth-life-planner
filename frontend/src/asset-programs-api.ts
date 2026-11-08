@@ -1,5 +1,6 @@
 import {publicBackendPending} from './portal-routing';
 import type {SimulationInput} from './api';
+import publicSnapshot from './public-data/asset-programs-public.json';
 export type IntakeStatus='OPEN'|'UPCOMING'|'CLOSED'|'NO_INTAKE'|'UNKNOWN'|'REVIEW_REQUIRED';
 export type Bucket='CATALOG'|'CURRENT_CANDIDATE'|'WATCHLIST'|'BUDGET_SHORTFALL'|'NOT_MATCHED';
 export interface AssetFacts {province:string|null;birth_date:string|null;owns_home:boolean|null;}
@@ -34,8 +35,33 @@ function valid(value:unknown):value is AssetResponse {
     &&d.policy_benefit_applied_krw===0&&d.actual_product_calculation_count===0&&Array.isArray(d.input_notes)
     &&typeof d.notifications?.delivery_enabled==='boolean'&&typeof d.notifications?.subscriptions_stored==='boolean'&&typeof d.disclaimer==='string';
 }
+type DayEntry={status:IntakeStatus;label:string;fresh:boolean;phase:string|null};
+type PublicSnapshot=AssetResponse&{built_on:string;schedules:Record<string,Record<string,DayEntry>>};
+/** Calendar day in Korea (YYYY-MM-DD). */
+export function koreaDay(now:Date=new Date()){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);}
+/** Date routing only: Python precomputed one status row per day (`tools/build_asset_programs_public.py`); the browser picks
+ * today's row. Outside the table the data is treated as unverified: open/upcoming/unknown turn into "recheck required". */
+export function routePublicSnapshot(snapshot:PublicSnapshot,today:string):AssetResponse{
+  const row=snapshot.schedules[today];
+  const programs=snapshot.programs.map(r=>{
+    const entry=row?.[r.program.program_id];
+    if(entry)return {...r,intake:{...r.intake,...entry}};
+    const recheck=['OPEN','UPCOMING','UNKNOWN'].includes(r.intake.status);
+    return {...r,intake:{...r.intake,fresh:false,phase:null,...(recheck?{status:'REVIEW_REQUIRED' as IntakeStatus,label:'최신 공고 재확인 필요'}:{})}};
+  });
+  // Display order only: nationwide programs first, then ones with an active official phase, otherwise the snapshot order.
+  const rank=(r:AssetRow)=>(r.program.regions.length===0?0:2)+(r.intake.phase?0:1);
+  const ordered=programs.map((r,i)=>({r,i})).sort((a,b)=>rank(a.r)-rank(b.r)||a.i-b.i).map(x=>x.r);
+  const counts=Object.fromEntries(statuses.map(s=>[s,ordered.filter(r=>r.intake.status===s).length])) as Record<IntakeStatus,number>;
+  return {...snapshot,programs:ordered,counts};
+}
 export async function getAssetPrograms(profile:SimulationInput|null,after:SimulationInput|null,facts:AssetFacts,goal:number|null,signal:AbortSignal):Promise<AssetResponse>{
-  const response=await fetch(publicBackendPending?'/asset-programs-public.json':profile?'/api/asset-programs/recommendations':'/api/asset-programs',{
+  if(publicBackendPending&&!profile){
+    const data=routePublicSnapshot(publicSnapshot as unknown as PublicSnapshot,koreaDay());
+    if(!valid(data))throw new Error('지원사업 응답 형식을 확인하지 못했습니다.');
+    return data;
+  }
+  const response=await fetch(profile?'/api/asset-programs/recommendations':'/api/asset-programs',{
     method:profile?'POST':'GET',cache:'no-store',signal,
     ...(profile?{headers:{'Content-Type':'application/json'},body:JSON.stringify({profile,...(after?{after_profile:after}:{}),supplement:facts,goal_months:goal})}:{}),
   });

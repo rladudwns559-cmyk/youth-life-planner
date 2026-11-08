@@ -21,6 +21,12 @@
 .recommendation-card .recommendation-audience,.recommendation-card .recommendation-limit{word-break:keep-all;overflow-wrap:anywhere}
 .freshness-summary{display:none}
 
+/* Jump to the government-supported savings accounts (bank products and policy accounts are separate lists) */
+.policy-accounts-jump{display:inline-flex;align-items:center;gap:6px;margin:0 0 14px;padding:8px 14px;min-height:40px;border:1px solid #bcd0e6;border-radius:999px;background:#fff;color:#1f4f87;font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+@media(max-width:600px){.policy-accounts-jump{margin:0 0 10px;padding:6px 12px;min-height:36px;font-size:13px}}
+.policy-accounts-jump:hover{background:#eef4fb}
+.policy-accounts-jump:focus-visible{outline:3px solid #2459bd;outline-offset:2px}
+
 /* Phones: bring the input form up by dropping text that repeats the page heading */
 @media(max-width:600px){
  .freshness-stats,.freshness-detail{display:none}

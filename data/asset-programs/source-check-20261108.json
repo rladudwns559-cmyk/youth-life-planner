@@ -1,0 +1,104 @@
+{
+  "schema_version": "asset-source-check-v1",
+  "checked_at": "2026-11-08T23:29:25.000557+09:00",
+  "tool": "tools/check_asset_program_sources.py",
+  "note": "Byte-hash comparison against the catalog capture hashes. CONTENT_CHANGED means review is required, not that conditions changed (navigation, counters and dates also change bytes).",
+  "sources": [
+    {
+      "source_id": "future",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972819",
+      "http_status": 200,
+      "bytes": 174150,
+      "sha256": "0f751576d34cde62dda7b6a0056033cc0c83d384762b7fbb7eb766b0a5fdbae5",
+      "result": "CONTENT_CHANGED_REVIEW_REQUIRED"
+    },
+    {
+      "source_id": "tomorrow",
+      "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/customer/notice/1309680_1141.html",
+      "http_status": 200,
+      "bytes": 24768,
+      "sha256": "59ee3a17e87c25cbc2af7ac7e691e927145ff03004fa99476d34a754829fa90f",
+      "result": "UNCHANGED_BYTES"
+    },
+    {
+      "source_id": "housing-change",
+      "url": "https://www.korea.kr/common/download.do?fileId=198568323&tblKey=GMN",
+      "http_status": 200,
+      "bytes": 873829,
+      "sha256": "7e8d4a8747c2c2175071b4ce5620178215181c4453e66100685202624a5dba5a",
+      "result": "UNCHANGED_BYTES"
+    },
+    {
+      "source_id": "housing-bank",
+      "url": "https://obank.kbstar.com/quics?cc=b061496:b061645&isNew=Y&page=C016613&prcode=DP01000935",
+      "http_status": 200,
+      "bytes": 427636,
+      "sha256": "5003e8055f8b1fc90e0a4db9b7d57ca9df33b0bf9b936910062cb2fd0d8f86d7",
+      "result": "CONTENT_CHANGED_REVIEW_REQUIRED"
+    },
+    {
+      "source_id": "gg",
+      "url": "https://account.gfgf.kr/hpdsk/ntc/list.do?mode=list&searchBbsSeCd=01&searchOpnpYn=Y",
+      "http_status": 200,
+      "bytes": 95587,
+      "sha256": "9900ced39c2f4da60d2394d4c8b56dc8c2ef99d312520da37b8dd6ce32333744",
+      "result": "CONTENT_CHANGED_REVIEW_REQUIRED"
+    },
+    {
+      "source_id": "seoul",
+      "url": "https://news.seoul.go.kr/welfare/archives/581505?listPage=1",
+      "http_status": 200,
+      "bytes": 129962,
+      "sha256": "ce3692b6e363674834dcc5717a17fd3d91c59c253fc665952de9a3d8237e0b4e",
+      "result": "CONTENT_CHANGED_REVIEW_REQUIRED"
+    },
+    {
+      "source_id": "busan",
+      "url": "https://young.busan.go.kr/index.nm?menuCd=53",
+      "http_status": 200,
+      "bytes": 86892,
+      "sha256": "7681fa8df651b96101b30fa992bd9cf11b51c6179ebba34a0751ffcc53250740",
+      "result": "CONTENT_CHANGED_REVIEW_REQUIRED"
+    },
+    {
+      "source_id": "incheon",
+      "url": "https://youth.incheon.go.kr/financial/dreamfor.jsp",
+      "http_status": 200,
+      "bytes": 51791,
+      "sha256": "1f5a3cd91aaa782b1e42fe330919e428fe859664a4e49a029df1e53ea8c18c85",
+      "result": "UNCHANGED_BYTES"
+    },
+    {
+      "source_id": "gyeongnam",
+      "url": "https://www.modadream.kr/upload/board/20260727092534-77423622.pdf",
+      "http_status": 200,
+      "bytes": 330582,
+      "sha256": "258926d5f69d6887bac90a417a26b93a80823cdbc7395480adfd776901299749",
+      "result": "UNCHANGED_BYTES"
+    },
+    {
+      "source_id": "daejeon",
+      "url": "https://daejeonyouthportal.kr/content/CT_000000000067/cntPage.do?commonMenuNo=&dpmSectionFst=1&dpmSectionScd=16",
+      "http_status": 200,
+      "bytes": 64036,
+      "sha256": "5e07d3d362ac2a046a61e78fec088192a579031060bf3bd8566d4d0a4ca556f9",
+      "result": "CONTENT_CHANGED_REVIEW_REQUIRED"
+    },
+    {
+      "source_id": "jeonbuk",
+      "url": "https://double.jb2030.or.kr/sub/2024_data.html",
+      "http_status": 200,
+      "bytes": 38161,
+      "sha256": "27d30304786b4dff2b045f2647fc19077bd76a3d4944c08fd276cafb863391a1",
+      "result": "UNCHANGED_BYTES"
+    },
+    {
+      "source_id": "tomorrow-rules",
+      "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/news/1309724_1114.html",
+      "http_status": 200,
+      "bytes": 28452,
+      "sha256": "fc26682bd768484a53353e50e280f5df120b3e986e14828a1f6145e92bd50b23",
+      "result": "UNCHANGED_BYTES"
+    }
+  ]
+}
