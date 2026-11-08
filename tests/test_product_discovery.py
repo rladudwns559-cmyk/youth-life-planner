@@ -103,7 +103,16 @@ def test_http_search_preserves_unknown_no_maturity_and_no_grant(catalog):
         assert c.post('/api/product-discovery/search',json={'monthly_amount':True,'term_months':12}).status_code==422
 
 
-def test_deposit_only_http_does_not_invent_monthly_budget():
+def test_deposit_only_http_does_not_invent_monthly_budget(monkeypatch):
+    # The endpoint reads the wall clock and the catalog's evidence expires after 7 days, so this test began failing
+    # on 2026-11-08 (KAKAO-DEPOSIT became STALE) although the logic under test is unrelated to freshness.
+    # Pin the clock inside the catalog's review window; assertions are unchanged.
+    import datetime as dt
+    class PinnedDatetime(dt.datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return cls(2026, 11, 3, 12, 0, tzinfo=tz)
+    monkeypatch.setattr('backend.web.product_discovery.datetime', PinnedDatetime)
     with TestClient(app) as c:
         r=c.post('/api/product-discovery/search',json={'term_months':12,'lump_sum':2000000})
         assert r.status_code==200
