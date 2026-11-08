@@ -1334,7 +1334,7 @@ M3.7 실행 판단은 QUALITY_REVISION_REQUIRED, 현재 정형 기본값을 유�
 
 기존server opt-in에`AIX_EXPLANATION_CONTRACT=narrative_v1`을추가하면`OllamaNarrativeProvider`가고정loopback`/api/chat`으로최소투영+슬롯schema만전송합니다. 요청별prepared→strict envelope→M3.8A parse/assemble→기존validator→기존service응답이며실패는전체정형대체입니다. 6초/8초/12초·32KiB/4KiB·256토큰유지,자동재시도없음. 미설정기본값/legacy경로·기존검증기·엔진·API·React는보존했습니다.
 
-실제고정30은25채택/5표현거부대체,Python원본불변30/30이지만채택문장에도월세↔소득/생활비소득↔정책통과/비사용조건↔입력불변혼동이있어**M3_LIGHTWEIGHT_LOCAL_LLM_INTEGRATED_QUALITY_REVISION_REQUIRED**입니다. 기본서비스는NoProvider정형,실제모델운영승인아님. [실행보고](M3_8B_LOCAL_NARRATIVE_INTEGRATION.md) · [합성실측/원문](evidence/m3_8b_actual_evaluation.json).
+실제고정30은25채택/5표현거부대체,Python원본불변30/30이지만채택문장에도월세↔소득/생활비소득↔정책통과/비사용조건↔입력불변혼동이있어**M3_LIGHTWEIGHT_LOCAL_LLM_INTEGRATED_QUALITY_REVISION_REQUIRED**입니다. 기본서비스는NoProvider정형,실제모델운영승인아님. [실행보고](archive/M3_8B_LOCAL_NARRATIVE_INTEGRATION.md) · [합성실측/원문](evidence/m3_8b_actual_evaluation.json).
 
 ## 2026-10-30 정부·지자체 자산형성사업 연결
 
@@ -1344,7 +1344,7 @@ M3.7 실행 판단은 QUALITY_REVISION_REQUIRED, 현재 정형 기본값을 유�
 
 신규 backend/opportunities는 catalog/matching/changes로 분리했다. 공개 변경 이벤트는 개인 입력 없이 생성하고 NOT_SENT를 유지한다. 자동 수집/구독/실제 알림 발송은 후속 범위다. 7일 freshness는 임시 운영 Assumption이다.
 
-전체 Backend12,463 passed / 1 skipped / 1 warning, Frontend148 passed, TS/build·실제 API/브라우저 통과. 상세: [구현·근거·검증](OFFICIAL_ASSET_PROGRAM_DISCOVERY.md), [후속 알림 계약](ASSET_PROGRAM_NOTIFICATION_CONTRACT.md).
+전체 Backend12,463 passed / 1 skipped / 1 warning, Frontend148 passed, TS/build·실제 API/브라우저 통과. 상세: [구현·근거·검증](archive/OFFICIAL_ASSET_PROGRAM_DISCOVERY.md), [후속 알림 계약](archive/ASSET_PROGRAM_NOTIFICATION_CONTRACT.md).
 
 ## 2026-10-30 공식 모집 자동 확인·관심 알림
 
@@ -1352,7 +1352,7 @@ M3.7 실행 판단은 QUALITY_REVISION_REQUIRED, 현재 정형 기본값을 유�
 
 알림 전용 저장소는 관심 지역/사업·수신 설정·필요한 browser subscription/기기 식별자/알림 기록만 저장한다. 소득·월세·생년월일·계좌정보는 저장하지 않는다. 구독90일 만료·정기 삭제·즉시 구독 삭제를 지원한다. 원본 금융·정책 규칙은 자동 생성하지 않고 신규 공고 전체 자격 UNKNOWN을 유지한다.
 
-실제 공식25주소 확인·일정3건 추출(모두마감), 새 API17사례, 전체 Backend12562/1skip/1warning·Frontend161·TS/build 통과. 브라우저 기기 표시는 사용자 직접 확인이며 자동 OS 검증과 구분한다. release6/GV/BV·기존 core 보존. 상세: [구현·검증](OFFICIAL_INTAKE_MONITORING_AND_ALERTS.md), [운영](ASSET_ALERTS_OPERATIONS.md).
+실제 공식25주소 확인·일정3건 추출(모두마감), 새 API17사례, 전체 Backend12562/1skip/1warning·Frontend161·TS/build 통과. 브라우저 기기 표시는 사용자 직접 확인이며 자동 OS 검증과 구분한다. release6/GV/BV·기존 core 보존. 상세: [구현·검증](archive/OFFICIAL_INTAKE_MONITORING_AND_ALERTS.md), [운영](archive/ASSET_ALERTS_OPERATIONS.md).
 ## 2026-10-30 화면 분리·공개 정보 배포와 상시 서버 대기
 
 새 원본 보고: `docs/PORTAL_REDESIGN_AND_DEPLOYMENT.md`, 배포 절차: `docs/CLOUD_DEPLOYMENT_RUNBOOK.md`.

@@ -41,7 +41,7 @@ Python에서 만든 Facts와 정형 문서를 서버에 남기고 M3.8A 최소 �
 - 실제30요청/완료 모델 원문30개, 구조·표현 검증 통과25개, 전체 정형 대체5개.
 - 거부: EX11(승인), EX13(불확정의 확정), EX15(충족), EX16(승인/숫자), EX17(승인). `UNSUPPORTED_NARRATIVE` / 코어 `FORBIDDEN_NARRATIVE`.
 - 30개 전부 Python 확정값·정책 상태·UNKNOWN·rules/source·next_actions 불변. 이 사실은 **모델의 의미 정확도**가 아니다.
-- 원문은 별도 [합성 증거 JSON](evidence/m3_8b_actual_evaluation.json)에 보관했다. 실제 사용자 데이터를 기록하는 제품 로그는 추가하지 않았다.
+- 원문은 별도 [합성 증거 JSON](../evidence/m3_8b_actual_evaluation.json)에 보관했다. 실제 사용자 데이터를 기록하는 제품 로그는 추가하지 않았다.
 - EX21~30의 원래 fault label은 metadata만 남겼다. 실제 평가에서는 fake 오류를 주입하지 않았다. 이10개는 같은 입력이 반복되므로 실제 공격/오류 방어 성공10건으로 주장하지 않는다.
 
 | 사례 | 지연ms | 최종 경로 | Codex 정성 검토 |

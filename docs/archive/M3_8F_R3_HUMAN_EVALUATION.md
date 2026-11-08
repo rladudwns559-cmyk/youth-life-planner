@@ -6,9 +6,9 @@
 
 ## 1. 평가에 사용한 자료
 
-최우선 프로토콜은 [study_v2 원본](experiments/m3_8f_r2/study_v2/PROTOCOL.md), 버전은 `m38f-study-v2-r2`다. 기존 M3.8F/R1/R2 보고서, 원본 정답 키·배정표·세션·응답 양식·집계 도구 및 Obsidian Workflow를 확인했다. R3에서 설명·정답·배정·채점을 재설계하지 않았다.
+최우선 프로토콜은 [study_v2 원본](../experiments/m3_8f_r2/study_v2/PROTOCOL.md), 버전은 `m38f-study-v2-r2`다. 기존 M3.8F/R1/R2 보고서, 원본 정답 키·배정표·세션·응답 양식·집계 도구 및 Obsidian Workflow를 확인했다. R3에서 설명·정답·배정·채점을 재설계하지 않았다.
 
-[진행자 안내](experiments/m3_8f_r3/FACILITATOR.md), [참가 안내·동의](experiments/m3_8f_r3/PARTICIPANT_INFO_AND_CONSENT.md), [동결·분석 절차](experiments/m3_8f_r3/FREEZE_AND_ANALYSIS.md), [빈 결과 보고서](experiments/m3_8f_r3/RESULT_REPORT_TEMPLATE.md)를 준비했다. 실험자 정답은 별도 [채점표](experiments/m3_8f_r3/facilitator/ANSWER_KEY.md)로 분리했다.
+[진행자 안내](../experiments/m3_8f_r3/FACILITATOR.md), [참가 안내·동의](../experiments/m3_8f_r3/PARTICIPANT_INFO_AND_CONSENT.md), [동결·분석 절차](../experiments/m3_8f_r3/FREEZE_AND_ANALYSIS.md), [빈 결과 보고서](../experiments/m3_8f_r3/RESULT_REPORT_TEMPLATE.md)를 준비했다. 실험자 정답은 별도 [채점표](../experiments/m3_8f_r3/facilitator/ANSWER_KEY.md)로 분리했다.
 
 ## 2. 과제 8개 상태
 
@@ -23,7 +23,7 @@
 | T07 | EX12 | 준비 | 준비 |
 | T08 | FU01 | 준비 | R2 채택 원문 준비 |
 
-8/8쌍이다. 각 조건은 같은 Python 결과를 사용한다. B는 자유롭게 계산하는 AI가 아니라 검증된 후보 선택 설명이다. 43개 원본·도구·근거 파일의 SHA256/크기/수정시각을 [동결 목록](experiments/m3_8f_r3/freeze_manifest.json)에 기록했다. 기존 T08 실패 2건과 R2 보완 원문을 보존했다. 이번 모델 실행은 0회다.
+8/8쌍이다. 각 조건은 같은 Python 결과를 사용한다. B는 자유롭게 계산하는 AI가 아니라 검증된 후보 선택 설명이다. 43개 원본·도구·근거 파일의 SHA256/크기/수정시각을 [동결 목록](../experiments/m3_8f_r3/freeze_manifest.json)에 기록했다. 기존 T08 실패 2건과 R2 보완 원문을 보존했다. 이번 모델 실행은 0회다.
 
 ## 3. 실제 참가자 수
 
@@ -116,8 +116,8 @@ R2 전체 회귀 기록은 Backend **12,315 passed / 1 skipped / 1 warning**, Fr
 
 ## 최종 무결성 기록
 
-- 기존 저장소 421개 파일의 SHA256·크기·수정시각 동일. 기존 코드/테스트/원본 study_v2 변경 0. release 6개 해시는 R2 보존 목록과 정확히 같다. GV/BV 및 Coverage freeze는 파일 불변으로 보존했으며 이번에 전체 golden 테스트를 재실행했다고 주장하지 않는다. [보존 기록](experiments/m3_8f_r3/facilitator/preservation_audit.json).
-- 원본 동결 43개·8쌍 자료·5개 ZIP의 HTML/JSON 바이트 동일·배정/정답/질문 대응·참가자 패킷의 정답/타인/QA 제외·빈 실제 응답/동의 양식을 재확인했다. [자료 점검](experiments/m3_8f_r3/facilitator/final_material_check.json).
-- Obsidian 기존 노트 8개 갱신. Markdown 75개, Wikilink 727개, 챕터 링크 34개, source_paths 519개, 로컬 문서 링크 126개 검증, 깨진 링크 0. 설정·북마크·플러그인 불변. GUI는 UNVERIFIED다. [Vault 검사](experiments/m3_8f_r3/facilitator/vault_audit.json).
+- 기존 저장소 421개 파일의 SHA256·크기·수정시각 동일. 기존 코드/테스트/원본 study_v2 변경 0. release 6개 해시는 R2 보존 목록과 정확히 같다. GV/BV 및 Coverage freeze는 파일 불변으로 보존했으며 이번에 전체 golden 테스트를 재실행했다고 주장하지 않는다. [보존 기록](../experiments/m3_8f_r3/facilitator/preservation_audit.json).
+- 원본 동결 43개·8쌍 자료·5개 ZIP의 HTML/JSON 바이트 동일·배정/정답/질문 대응·참가자 패킷의 정답/타인/QA 제외·빈 실제 응답/동의 양식을 재확인했다. [자료 점검](../experiments/m3_8f_r3/facilitator/final_material_check.json).
+- Obsidian 기존 노트 8개 갱신. Markdown 75개, Wikilink 727개, 챕터 링크 34개, source_paths 519개, 로컬 문서 링크 126개 검증, 깨진 링크 0. 설정·북마크·플러그인 불변. GUI는 UNVERIFIED다. [Vault 검사](../experiments/m3_8f_r3/facilitator/vault_audit.json).
 - 최초 문서 준비 중 기존 Vault 노트 하나에 source_paths 속성이 없어 임시 복사본 작성 도구가 중단됐다. 해당 속성이 없는 노트도 처리하도록 작업용 도구만 수정 후 재실행·링크 검사를 통과했다. 실패 시 실제 Vault에는 게시하지 않았으며 실험 자료·제품 코드·채점에는 영향이 없었다.
 - 이번 실제 실행은 관련 테스트 123 passed(1.38초)와 문서/해시 점검이다. 추가 LLM 실행·외부 연락·실제 응답 생성·사람 통계 생성은 모두 0이다. 전체 회귀는 R2 기록과 구분한다.

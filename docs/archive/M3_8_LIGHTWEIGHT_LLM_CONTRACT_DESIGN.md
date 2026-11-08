@@ -8,7 +8,7 @@
 
 모델은 짧은 설명 문장만 생성하고, Python이 확정한 숫자·상태·근거·UNKNOWN은 서버가 그대로 보유하고 렌더링한다. 기존 계산·판정·검증을 모델에 맡기는 부분을 추가하지 않는다.
 
-M3.7에서 같은 Qwen3 4B를 실제 GPU로 실행했지만, 고정 30개는 모두 6초 통신 제한에 걸려 정형 설명을 반환했다. 별도 전체 문서 진단은 약 34.48초, 응답 envelope는 39,949bytes였다. 모델은 사실적으로 맞는 정형문장을 summary에 복사하면서 `0원` 등 자유영역 금지 표현도 반환했다. [M3.7 보고서](M3_7_LOCAL_LLM_VERIFICATION.md), [실제30 기록](evidence/m3_7_actual_fixed30.json), [별도 진단](evidence/m3_7_real_diagnostic.json)을 근거로 삼는다.
+M3.7에서 같은 Qwen3 4B를 실제 GPU로 실행했지만, 고정 30개는 모두 6초 통신 제한에 걸려 정형 설명을 반환했다. 별도 전체 문서 진단은 약 34.48초, 응답 envelope는 39,949bytes였다. 모델은 사실적으로 맞는 정형문장을 summary에 복사하면서 `0원` 등 자유영역 금지 표현도 반환했다. [M3.7 보고서](M3_7_LOCAL_LLM_VERIFICATION.md), [실제30 기록](../evidence/m3_7_actual_fixed30.json), [별도 진단](../evidence/m3_7_real_diagnostic.json)을 근거로 삼는다.
 
 문제는 긴 출력뿐 아니라 입력의 Facts/template/schema 중복, 숫자가 있는 정형문장 복사 지시와 자유영역 금지 지시의 충돌, `/api/generate`의 부가 context 배열까지 포함한 수신 크기였다. 이번 설계는 이 세 부분을 분리한다. 예상 개선을 측정 성과로 쓰지 않는다.
 

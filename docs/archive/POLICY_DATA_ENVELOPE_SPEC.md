@@ -14,7 +14,7 @@
 
 - [M1.8 주민등록 slice](REAL_POLICY_001_RESIDENT_SLICE.md): 실제 조건 의미의 우선 근거
 - [M1.5 전체 정책 분석](REAL_POLICY_001_ANALYSIS.md): 전체 조건·회차·미해결 행정 쟁점
-- [정책 규칙 명세](POLICY_RULE_SPEC.md), [데이터 모델](DATA_MODEL.md), [라우팅 명세](RULE_ROUTING_SPEC.md), [아키텍처](ARCHITECTURE.md)
+- [정책 규칙 명세](../POLICY_RULE_SPEC.md), [데이터 모델](../DATA_MODEL.md), [라우팅 명세](RULE_ROUTING_SPEC.md), [아키텍처](../ARCHITECTURE.md)
 - 기존 `backend/policy_engine/loader.py`, `models.py`, `specialized_rules/resident_registration.py`, `adapters/resident_registration.py`: strict 키·버전·tuple·실제 데이터 차단·근거 전달 계약
 
 기존 문서의 초기 설계 기록보다 최신 구현 절과 실제 코드를 우선했다. 이번에는 공식 행정조건을 새로 조사하거나 변경하지 않는다. M1.8의 출처 확인일을 M1.9 작성일로 재검증한 것처럼 갱신하지 않는다.

@@ -26,7 +26,7 @@ A=기존 Python 정형 원문. B=기존 실제 로컬 후보 선택 원문. 숫�
 
 ## 5. 과제 및 정답표
 
-[사전 계획과 요약 정답](experiments/m3_8f/PROTOCOL.md), [8과제 상세 문항·고정 답·출처·A/B 원문](experiments/m3_8f/private/study_key.json). 과제당4문항, 전체32개, 조건당16개다. 다중 선택은 정확 집합 일치만1점, 부분점수 없음. DK/빈칸/명시적NONE을 구분한다. Python의 금액·Rule·누락 정보 및 기존 합성 고지에서 정답을 고정했다.
+[사전 계획과 요약 정답](../experiments/m3_8f/PROTOCOL.md), [8과제 상세 문항·고정 답·출처·A/B 원문](../experiments/m3_8f/private/study_key.json). 과제당4문항, 전체32개, 조건당16개다. 다중 선택은 정확 집합 일치만1점, 부분점수 없음. DK/빈칸/명시적NONE을 구분한다. Python의 금액·Rule·누락 정보 및 기존 합성 고지에서 정답을 고정했다.
 
 ## 6. 참가자 선정·모집 상태
 
@@ -54,7 +54,7 @@ assigned/observed 정답률, 완료율, 평균/중앙 시간 및 탭 이탈 없�
 
 ## 12. 정답률·완료율
 
-둘 다 미측정/null. [실제0명 결과표](experiments/m3_8f/results/initial_summary_real.md). 사람이 없는데 오해0건·성공100%로 채우지 않는다. 주 지표만 미응답을 비득점 처리하고 원자료 빈칸과 observed 지표를 보존한다.
+둘 다 미측정/null. [실제0명 결과표](../experiments/m3_8f/results/initial_summary_real.md). 사람이 없는데 오해0건·성공100%로 채우지 않는다. 주 지표만 미응답을 비득점 처리하고 원자료 빈칸과 observed 지표를 보존한다.
 
 ## 13. 시간·주관 평가
 
@@ -116,7 +116,7 @@ assigned/observed 정답률, 완료율, 평균/중앙 시간 및 탭 이탈 없�
 - Frontend **115 passed, 11.85초**, TypeScript·Vite build 성공(Vite1.77초). 제품 Frontend 소스 변경0.
 - 신규78/전체회귀 최초 실패0. 보호 대상 기존328파일 SHA256·크기·mtime 전부 불변, 실제release6 SHA256 동일. GV/BV/golden/freeze 및 기존 M3.8E 증거 보존.
 - 실제 브라우저에서 SYN001의7과제→DK 응답→기본 미선택 평점→종료→JSON 다운로드를 수행했다. 내보낸 파일을 집계 도구의 strict validator로 검사했고 synthetic/started/7행/DK/빈 평점이 그대로다. 실제 사람 응답에 합치지 않았다. T08 제외는 QA만의 구성이며8과제 실험 완료가 아니다.
-- [합성 QA 화면](experiments/m3_8f/evidence/qa-task.png), [합성 QA 종료](experiments/m3_8f/evidence/qa-completed.png), [검증 원장](experiments/m3_8f/evidence/verification.json), [전체 pytest 로그](experiments/m3_8f/evidence/pytest_full.txt).
+- [합성 QA 화면](experiments/m3_8f/evidence/qa-task.png), [합성 QA 종료](experiments/m3_8f/evidence/qa-completed.png), [검증 원장](../experiments/m3_8f/evidence/verification.json), [전체 pytest 로그](experiments/m3_8f/evidence/pytest_full.txt).
 - 도구 QA 최초 diff-only AX 반환을 전체 상태로 착각한 관측 실패는 full snapshot으로 해결했다. 사용자 계속 진행 후 임시 서버/브라우저 바인딩이 없어 QA용 서버만 다시 열었다. 제품 서버/정책/모델을 재실행하지 않았다. 기본 desktop만 확인했으며 휴대폰 실물/390px를 이번 실적으로 쓰지 않는다.
 - 빈 요청 사전 로드 근거: [Ollama 공식 FAQ](https://docs.ollama.com/faq#how-can-i-preload-a-model-into-ollama-to-get-faster-response-times). 사전 로드 성공은 다음 설명 생성의6초 내 완료를 보장하지 않았고 실제 두 설명 요청은 모두 실패했다.
 - 원자료 양식은 빈 상태, 초기 실제 결과표는0명/성과null, 합성5명 집계는 별도 파일/명시적 synthetic이다. 도구 확인용 점수와 시간은 사람의 이해도·속도 근거가 아니다.

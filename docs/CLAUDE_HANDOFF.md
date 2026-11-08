@@ -2,6 +2,8 @@
 
 작성 기준: **2026-11-07 KST**. 이 문서는 현재 제품 기획·구현 현황·개발 시작 방법을 한 번에 전달하기 위한 인계서다. 아래 수치는 기준일의 기록이며 미래 시점의 실시간 현황이 아니다.
 
+> **2026-11-07 이후 변경 (이 문서의 아래 내용보다 우선)**: 금융 재확인은 108개가 아니라 **123개**(기본금리 근거 72개), 커밋 기준은 `main` 최신이다. 이전에 올린 chatgpt.site(Sites v25)는 갱신하지 않고, 발표용 화면은 Claude 페이지다. 아래 8장의 로컬 Codex 매일 점검·Obsidian·Sites 배포 절차는 당시 운영 기록이며 현재 진행하지 않는 절차이므로 따르지 않는다. 최신 상태는 [팀 업데이트](TEAM_UPDATE_20261107.md)와 [문서 안내](README.md)를 본다. 엔진 계약(4장)은 그대로 유효하다.
+
 ## 1. 이 문서를 받은 Claude에게
 
 당신은 기존 AI+X 프로젝트를 이어받는 시니어 소프트웨어 엔지니어·데이터 엔지니어·AI 서비스 아키텍트다. **새 프로젝트를 만들지 말고 기존 코드를 먼저 읽고 실행한 뒤 작은 단위로 개선하라.** 사용자와는 한국어로 대화한다.
@@ -189,7 +191,7 @@ corepack pnpm build
 
 ## 8. 공개 배포·협업·로컬 기록
 
-GitHub와 Sites는 별도다. **GitHub push만으로 공개 사이트가 자동 갱신되지 않는다.** 현재 화면 v25의 Sites 소스 커밋은 `dcb490cce41b85e6894f06e2954ee60211e8a111`이며 GitHub 커밋과 저장소가 다르다. [배포 기록](PUBLICATION.md)을 확인한다.
+GitHub와 Sites는 별도다. **GitHub push만으로 공개 사이트가 자동 갱신되지 않는다.** 현재 화면 v25의 Sites 소스 커밋은 `dcb490cce41b85e6894f06e2954ee60211e8a111`이며 GitHub 커밋과 저장소가 다르다. [배포 기록](archive/PUBLICATION.md)을 확인한다.
 
 Claude 환경에는 기존 Sites 계정·도구·인증이 전달되지 않는다. 배포 접근이 없다면 실행·테스트·빌드와 변경 내역까지 준비하고 접근 한계를 정확히 알린다. 토큰을 코드/문서/채팅에 붙여 넣도록 요구하지 않는다. 기존 공개 URL을 임의의 새 사이트로 대체하지 않는다.
 
@@ -204,7 +206,7 @@ Claude 환경에는 기존 Sites 계정·도구·인증이 전달되지 않는�
 - Sites 작업 복사본: `C:/Users/김영준/Documents/ChatGPT/AI+X채팅/deploy/young-life`
 - Obsidian: `C:/Users/김영준/Documents/Obsidian/AI+X-Project`
 
-같은 PC에서 Obsidian을 갱신할 때는 [기존 Workflow](OBSIDIAN_WORKFLOW.md)를 따른다. 클라우드 Claude가 Vault를 갱신할 수 없다면 작성할 기록을 전달하고 갱신했다고 주장하지 않는다. 기존 GUI·북마크 확인 미완료 상태는 별도로 유지한다. 모델 바이너리·비밀정보·실제 응답·은행 계정은 GitHub에 추가하지 않는다.
+같은 PC에서 Obsidian을 갱신할 때는 [기존 Workflow](archive/OBSIDIAN_WORKFLOW.md)를 따른다. 클라우드 Claude가 Vault를 갱신할 수 없다면 작성할 기록을 전달하고 갱신했다고 주장하지 않는다. 기존 GUI·북마크 확인 미완료 상태는 별도로 유지한다. 모델 바이너리·비밀정보·실제 응답·은행 계정은 GitHub에 추가하지 않는다.
 
 ## 9. 다음 개발 우선순위와 완료조건
 
@@ -233,7 +235,7 @@ Claude 환경에는 기존 Sites 계정·도구·인증이 전달되지 않는�
 3. [디자인 인계](FRONTEND_DESIGN_HANDOFF.md) · [제품 품질 점검](PRODUCT_QUALITY_REVIEW_20261106.md)
 4. [데이터 모델](DATA_MODEL.md) · [정책 Rule 계약](POLICY_RULE_SPEC.md) · [Coverage freeze](ELIGIBILITY_COVERAGE_CORE_FREEZE.md)
 5. [실제 상품 계산 보류 근거](M3_5_OFFICIAL_DATED_SAVINGS_VERIFICATION.md) · [실제 모델 R2 진단](M3_8F_R2_MATCHED_PRELOAD_RETEST.md)
-6. [Obsidian 기록 방식](OBSIDIAN_WORKFLOW.md) · [공개/배포 방식](PUBLICATION.md)
+6. [Obsidian 기록 방식](archive/OBSIDIAN_WORKFLOW.md) · [공개/배포 방식](archive/PUBLICATION.md)
 
 과거 설계·마일스톤 수백 개를 모두 재설계하느라 첫 작업을 미루지 말고 변경 대상과 직접 연결된 계약부터 읽는다.
 

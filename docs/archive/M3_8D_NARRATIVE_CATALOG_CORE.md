@@ -6,7 +6,7 @@
 
 ## 1. 실제 변경 범위
 
-신규3개: `backend/explanation/narrative_catalog.py`, `tests/test_narrative_catalog.py`, `tools/evaluate_narrative_catalog.py`. 이 보고서와 [합성 검증 증거](evidence/m3_8d_synthetic_catalog_evaluation.json)를 추가했다. 기존317파일은 수정하지 않는다. 기존M3.8A 코어/Facts/정형생성기/validator/Provider/Prompt/factory/API/React/계산·판정 엔진/기존tests는 그대로다.
+신규3개: `backend/explanation/narrative_catalog.py`, `tests/test_narrative_catalog.py`, `tools/evaluate_narrative_catalog.py`. 이 보고서와 [합성 검증 증거](../evidence/m3_8d_synthetic_catalog_evaluation.json)를 추가했다. 기존317파일은 수정하지 않는다. 기존M3.8A 코어/Facts/정형생성기/validator/Provider/Prompt/factory/API/React/계산·판정 엔진/기존tests는 그대로다.
 
 ## 2. 공개 코어 입력·출력
 

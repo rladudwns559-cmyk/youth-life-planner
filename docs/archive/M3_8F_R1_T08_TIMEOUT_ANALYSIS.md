@@ -89,7 +89,7 @@ JSON 구조/후보 검사 단계까지 완료 원문이 오지 않아 structure/
 | D 출력 제한/요청 설정 조정 | 현재는256토큰 소진이나길이 초과 증거 없음 | 토큰/stop/format 변경은 조기 절단·검증 실패 위험 | 기존 설정 그대로 측정 먼저. 변경은 별도안 | 지금 변경 안 함 |
 | E T08 교체/프로토콜 개정 | 과제 확보 부담 감소 가능 | 복합 필수 coverage 상실·A/B 비교 가능성 변경 | 필요 시 새ID/version/정답/원본 보존, 사전 승인 | 근거 전 교체 안 함 |
 
-구체적인 [최소 수정·재실행 승인안](experiments/m3_8f_r1/MINIMAL_FIX_AND_RETEST_PLAN.md)을 작성했다. 새 Prompt·후보·Provider 설정을 제품에 적용하지 않았다.
+구체적인 [최소 수정·재실행 승인안](../experiments/m3_8f_r1/MINIMAL_FIX_AND_RETEST_PLAN.md)을 작성했다. 새 Prompt·후보·Provider 설정을 제품에 적용하지 않았다.
 
 ## 11. 수정 파일
 
@@ -145,7 +145,7 @@ T08 원본 Comparison/Facts/canonical hash와 기존 두 증거를 대조했다.
 - Frontend **115passed(41.45초)**, TypeScript/Vite build 성공(Vite1.46초). 병렬 테스트 실행 시간이며 모델 속도 성과가 아니다.
 - 기존 repository354파일 SHA256·크기·mtime 전체 불변. 기존7개 A/B·T08정답·기존두시도·고정30·원본실행script/log·금융/판정/검증/시간제한·GV/BV/golden·Coverage freeze·실제release6 모두 보존.
 - 실제 모델/서버/API/UI 실행0, 사전 로드0, 환경 변경0. 모든 모델 process가 없는 읽기 전용 환경 확인 기록을 별도로 보존했다. 합성30시험을 TIMEOUT 해결이나 실제 AI 원문 확보라고 쓰지 않는다.
-- 최종 측정본은 [final_offline_diagnosis.json](experiments/m3_8f_r1/final_offline_diagnosis.json), [기존 native 로그 원래 줄번호 발췌](experiments/m3_8f_r1/native_log_excerpts.json), [실행 환경](experiments/m3_8f_r1/environment.json), [원본 hash 목록](experiments/m3_8f_r1/source_inventory.json), [시험 로그](experiments/m3_8f_r1/pytest_full.txt), [최소 승인안](experiments/m3_8f_r1/MINIMAL_FIX_AND_RETEST_PLAN.md)이다.
+- 최종 측정본은 [final_offline_diagnosis.json](../experiments/m3_8f_r1/final_offline_diagnosis.json), [기존 native 로그 원래 줄번호 발췌](../experiments/m3_8f_r1/native_log_excerpts.json), [실행 환경](../experiments/m3_8f_r1/environment.json), [원본 hash 목록](../experiments/m3_8f_r1/source_inventory.json), [시험 로그](experiments/m3_8f_r1/pytest_full.txt), [최소 승인안](../experiments/m3_8f_r1/MINIMAL_FIX_AND_RETEST_PLAN.md)이다.
 - 초기 탐색 JSON의 source_sha256은 줄바꿈 정규화 텍스트 해시였으므로 최종본에서 normalized_text_sha256으로 명칭을 고쳤다. 실제 원본 byte SHA256은 source_files에 별도 기록했다. 기존 실제 실행 증거를 변경한 것은 아니다. 최초 sandbox CIM 권한 제한은 읽기 전용 재조회로 해결했다.
 
 최종 판단 **M3_T08_LIVE_RETEST_APPROVAL_REQUIRED**. 부분 원인 확인과 전체6초 지연 원인 미확정을 구분한다. 사전 로드1회+T08/EX06 각1회 진단 제안은 아직 승인/구현/실행하지 않았다. 최종 평가용 생성·실험자료 승격은 별도다.

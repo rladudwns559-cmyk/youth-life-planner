@@ -24,7 +24,7 @@ Ollama **0.40.11**, `qwen3:4b-instruct-2507-q4_K_M`, GGUF4.0B/Q4_K_M, manifest `
 
 ## 5. 입력 Projection과 출력 계약
 
-실제30에서context535~609UTF8bytes, system/enum포함전체요청2053~2201bytes, 실제envelope672~707bytes였다. 정확금액·개인입력·정책/규칙ID·reason/source경로·전체정형문서는모델에보내지않았다. 모델에는서버가의미를정한각필드의후보2개만제공했다. 문장JSON은summary와정확히p01~p03이며각항목의후보문장을그대로반환했다. 모든raw envelope/문장/옵션선택번호(평가metadata만)를 [증거JSON](evidence/m3_8e_actual_candidate_evaluation.json)에보관했다.
+실제30에서context535~609UTF8bytes, system/enum포함전체요청2053~2201bytes, 실제envelope672~707bytes였다. 정확금액·개인입력·정책/규칙ID·reason/source경로·전체정형문서는모델에보내지않았다. 모델에는서버가의미를정한각필드의후보2개만제공했다. 문장JSON은summary와정확히p01~p03이며각항목의후보문장을그대로반환했다. 모든raw envelope/문장/옵션선택번호(평가metadata만)를 [증거JSON](../evidence/m3_8e_actual_candidate_evaluation.json)에보관했다.
 
 ## 6. 검사·조립·Fallback
 

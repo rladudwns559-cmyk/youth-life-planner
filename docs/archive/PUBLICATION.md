@@ -58,7 +58,7 @@ GitHub 최신 main과 공개 복사본이 동일한 상태에서 원본 프로�
 
 ## 2026-11-06 제품 품질 개선 v24
 
-추천 결과 창과 상품 페이지의 준비표 순서를 통일하고 지원사업 목록 모집 필터·마감일 정렬·결과 창 관심 저장·저장 실패 안내·자료 확인일/기한 표시·화면 오류 복구를 보완했다. 안내 숫자는 공개 집계와 연결했다. [품질 검토 기록](PRODUCT_QUALITY_REVIEW_20261106.md)에 참고 서비스·변경·실패 이력·검증 범위·운영 한계를 남겼다.
+추천 결과 창과 상품 페이지의 준비표 순서를 통일하고 지원사업 목록 모집 필터·마감일 정렬·결과 창 관심 저장·저장 실패 안내·자료 확인일/기한 표시·화면 오류 복구를 보완했다. 안내 숫자는 공개 집계와 연결했다. [품질 검토 기록](../PRODUCT_QUALITY_REVIEW_20261106.md)에 참고 서비스·변경·실패 이력·검증 범위·운영 한계를 남겼다.
 
 이번 실제 검증은 원본 Backend12820 passed/1 skipped/1 warning, 공개 복사본 Frontend406 passed, TypeScript/Vite build 성공이다. 기존 Frontend391개 기대값은 수정하지 않고 신규15개를 추가했다. 보호289개·release6개·golden/fingerprint 관련7개 파일 SHA256 불변. 기존 스냅샷 확인일·기한을 연장하지 않았다. Sites v24 배포와 공개 화면을 확인했으며, GitHub push와 Sites 게시가 별도 작업이라는 점은 동일하다.
 
@@ -66,6 +66,6 @@ GitHub 최신 main과 공개 복사본이 동일한 상태에서 원본 프로�
 
 11월6일 공식 내용 재확인108개·기본금리 근거57개를 별도 날짜 자료로 추가했다. 확인부족63개·미재확인155개는 구분했다. 기존326개 목록과 과거 JSON/금리는 역사 자료로 보존했다. 실제 은행 만기계산0·미검증 지원금0·기존 엔진 및 freeze 계약은 유지했다.
 
-공개 복사본 전체 Backend12875 passed/1 skipped/1 warning, Frontend414 passed/36 files, TypeScript/build 성공. 원본26개/Sites프런트엔드17개 파일은 내용 대조해 동기화했다. 기존 backend/data/Python tests 및 release6/golden7 파일 불변. 과거 UI만료 검증3개 파일은 기대값을 유지하고 이전스냅샷 fixture로 분리했으며 신규 현재자료 시험을 추가했다. 공개6입력의 추천ID·금리·범위 일치수도 Python과 일치했다. [공식 금융 재검증](FINANCIAL_RECHECK_20261106.md)과 [반복 점검 절차](FINANCIAL_RECHECK_WORKFLOW.md)에 실패·한계·출처를 기록했다.
+공개 복사본 전체 Backend12875 passed/1 skipped/1 warning, Frontend414 passed/36 files, TypeScript/build 성공. 원본26개/Sites프런트엔드17개 파일은 내용 대조해 동기화했다. 기존 backend/data/Python tests 및 release6/golden7 파일 불변. 과거 UI만료 검증3개 파일은 기대값을 유지하고 이전스냅샷 fixture로 분리했으며 신규 현재자료 시험을 추가했다. 공개6입력의 추천ID·금리·범위 일치수도 Python과 일치했다. [공식 금융 재검증](../FINANCIAL_RECHECK_20261106.md)과 [반복 점검 절차](../FINANCIAL_RECHECK_WORKFLOW.md)에 실패·한계·출처를 기록했다.
 
 이 채팅에 매일09시 로컬 점검을 등록했다. PC·앱 실행이 필요하며 웹사이트 상시 서버/방문자 알림과 다르다. 새 요금제·유료API·은행 문의 전송은 사용하지 않았다.

@@ -68,14 +68,14 @@
 공개v22: https://youth-life-planner.rladudwns559.chatgpt.site/#/savings
 
 - 소스커밋6f8e90df12b760e6f3c0bcd1f9cb613bc912f9c2. archive/버전/배포 ID는 site-version.json 및 deployment.json.
-- [일반은행 조사](evidence/expansion-20261103/bank-audit-banks.md)
-- [저축은행 조사](evidence/expansion-20261103/bank-audit-savingsbanks.md)
-- [지역 공고 조사](evidence/expansion-20261103/support-audit-local.md)
-- [전국/고용24 조사](evidence/expansion-20261103/support-audit-national.md)
-- [Python 추천 원본](evidence/expansion-20261103/profiles.json)
-- [공개 입력 대조](evidence/expansion-20261103/public-profiles.json)
-- [보존 감사](evidence/expansion-20261103/preservation.json)
-- [공개 화면](evidence/expansion-20261103/public-recommendations.png)
+- [일반은행 조사](../evidence/expansion-20261103/bank-audit-banks.md)
+- [저축은행 조사](../evidence/expansion-20261103/bank-audit-savingsbanks.md)
+- [지역 공고 조사](../evidence/expansion-20261103/support-audit-local.md)
+- [전국/고용24 조사](../evidence/expansion-20261103/support-audit-national.md)
+- [Python 추천 원본](../evidence/expansion-20261103/profiles.json)
+- [공개 입력 대조](../evidence/expansion-20261103/public-profiles.json)
+- [보존 감사](../evidence/expansion-20261103/preservation.json)
+- [공개 화면](../evidence/expansion-20261103/public-recommendations.png)
 
 공개 복사본은 새 경계 검증과 현재 데이터 검증35개를 별도 실행해35 passed를 확인했다. 읽기 전용으로 만들어진 이전 pytest cache의 쓰기 경고1건이 있었으며 assertion 실패는 없었다. 이는 원본 전체 회귀 수치와 구별한다. 공개 복사본 전체 회귀는 추가 실행하지 않았다.
 

@@ -73,9 +73,9 @@
 
 공개v23: https://youth-life-planner.rladudwns559.chatgpt.site/#/savings
 
-소스9b969ba13ec60332670bab10b045fbe69c8259d0. 저장버전/배포근거는 [site-version.json](evidence/extension-20261103/site-version.json)과 [deployment.json](evidence/extension-20261103/deployment.json).
+소스9b969ba13ec60332670bab10b045fbe69c8259d0. 저장버전/배포근거는 [site-version.json](../evidence/extension-20261103/site-version.json)과 [deployment.json](../evidence/extension-20261103/deployment.json).
 
-[일반은행](evidence/extension-20261103/bank-audit-banks.md) · [저축은행1](evidence/extension-20261103/bank-audit-savingsbanks.md) · [저축은행2](evidence/extension-20261103/bank-audit-savingsbanks-2.md) · [경기 공고](evidence/extension-20261103/support-audit-gyeonggi.md) · [인천·부산·진천·진주](evidence/extension-20261103/support-audit-local.md) · [공개 추천 검증](evidence/extension-20261103/public-profiles.json) · [보존감사](evidence/extension-20261103/preservation.json).
+[일반은행](../evidence/extension-20261103/bank-audit-banks.md) · [저축은행1](../evidence/extension-20261103/bank-audit-savingsbanks.md) · [저축은행2](../evidence/extension-20261103/bank-audit-savingsbanks-2.md) · [경기 공고](../evidence/extension-20261103/support-audit-gyeonggi.md) · [인천·부산·진천·진주](../evidence/extension-20261103/support-audit-local.md) · [공개 추천 검증](../evidence/extension-20261103/public-profiles.json) · [보존감사](../evidence/extension-20261103/preservation.json).
 
 Obsidian 신규기록과대시보드/현재상태/테스트/회귀갱신완료. 새Wikilink8개에깨진연결0개이며obsidian-validation.json으로확인했다. 앱GUI 직접확인은미완료로유지하며실행중북마크설정을덮어쓰지않는다. 기존GitHub공개복사본에도선택한소스·데이터·근거만동기화한다.
 

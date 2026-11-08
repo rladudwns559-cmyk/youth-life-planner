@@ -22,7 +22,7 @@
 | Python | 기존 .venv 3.12.14, PyTorch 미설치 |
 | CUDA | nvidia-smi의 12.8 지원 표시, nvcc 없음. 승인 후 Ollama CUDA12 backend에서 실제 GPU 추론 확인 |
 
-WMI의 NVIDIA AdapterRAM은 약 4GB로 표시됐으므로 VRAM은 nvidia-smi의 8151MiB를 기준으로 했다. 드라이버의 CUDA 표시는 toolkit 설치나 모든 backend 호환성 보장이 아니다. 원시 근거는 [환경·설치·보존 기록](evidence/m3_7_local_llm_preparation.json)에 있다.
+WMI의 NVIDIA AdapterRAM은 약 4GB로 표시됐으므로 VRAM은 nvidia-smi의 8151MiB를 기준으로 했다. 드라이버의 CUDA 표시는 toolkit 설치나 모든 backend 호환성 보장이 아니다. 원시 근거는 [환경·설치·보존 기록](../evidence/m3_7_local_llm_preparation.json)에 있다.
 
 ## 3. 로컬 Provider 설치 상태
 
@@ -146,13 +146,13 @@ TIMEOUT 응답의 ai_executed=false는 완성된 모델 출력을 받지 못한 
 | EX29 | 6044.87 | TIMEOUT → 정형 설명 |
 | EX30 | 6028.07 | TIMEOUT → 정형 설명 |
 
-[실제 30건 전체 기록](evidence/m3_7_actual_fixed30.json). 기존 고정 입력과 M3.6 결과는 변경하지 않았다.
+[실제 30건 전체 기록](../evidence/m3_7_actual_fixed30.json). 기존 고정 입력과 M3.6 결과는 변경하지 않았다.
 
 ## 15. 중대한 불일치와 의미 검토
 
 최종 반환 결과의 Python 핵심값 모순은 **0건**이다. 고정30 모델 출력의 중대한 오류 수·정확도는 **평가 불가**다.
 별도 완성 EX01 진단에서는 금액·정책·UNKNOWN·근거·확인행동이 일치했다. 다만 summary에 정확한 `0원`과 지원금 문장을 복사해 자유영역 계약을 위반했다. 금액을 지어낸 오류와 금지 영역에 정확한 금액을 복사한 오류를 구분한다.
-Codex가 진단 1건을 정성 검토한 결과 한국어와 사실 관계는 맞지만 정형문장 복사로 추가 효용이 낮았다. **사람의 의미 평가 0건, 사용자 이해도 연구 없음**이며 이를 대신했다고 주장하지 않는다. [진단 원문과 검토](evidence/m3_7_real_diagnostic.json)에 범위를 명시했다.
+Codex가 진단 1건을 정성 검토한 결과 한국어와 사실 관계는 맞지만 정형문장 복사로 추가 효용이 낮았다. **사람의 의미 평가 0건, 사용자 이해도 연구 없음**이며 이를 대신했다고 주장하지 않는다. [진단 원문과 검토](../evidence/m3_7_real_diagnostic.json)에 범위를 명시했다.
 
 ## 16. Fallback 및 실패 원인
 

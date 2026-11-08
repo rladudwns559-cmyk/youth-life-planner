@@ -8,13 +8,13 @@
 
 | 구분 | 파일 |
 |---|---|
-| 신규 코어 | [narrative_contract.py](../backend/explanation/narrative_contract.py) |
-| 신규 합성 시험 | [test_narrative_contract.py](../tests/test_narrative_contract.py) |
-| 신규 합성 응답 | [narrative_response_v1.json](../tests/fixtures/narrative_response_v1.json) |
-| 신규 재현 도구 | [evaluate_narrative_contract.py](../tools/evaluate_narrative_contract.py) |
-| 신규 산출물 | [고정30 합성 결과](evidence/m3_8a_narrative_core_evaluation.json) |
+| 신규 코어 | [narrative_contract.py](../../backend/explanation/narrative_contract.py) |
+| 신규 합성 시험 | [test_narrative_contract.py](../../tests/test_narrative_contract.py) |
+| 신규 합성 응답 | [narrative_response_v1.json](../../tests/fixtures/narrative_response_v1.json) |
+| 신규 재현 도구 | [evaluate_narrative_contract.py](../../tools/evaluate_narrative_contract.py) |
+| 신규 산출물 | [고정30 합성 결과](../evidence/m3_8a_narrative_core_evaluation.json) |
 | 신규 구현 기록 | 이 문서 |
-| 기존 수정 | [ARCHITECTURE.md](ARCHITECTURE.md)에 M3.8A 절만 추가 |
+| 기존 수정 | [ARCHITECTURE.md](../ARCHITECTURE.md)에 M3.8A 절만 추가 |
 
 기준선303개 중 기존 변경은 Architecture 문서1개이며 나머지302개는 SHA256·크기·mtime가 불변이다. 기존 제품 코드/테스트/DTO/Provider/validator/Frontend 변경은0개다. 새 의존성·범용 AI 프레임워크를 도입하지 않았다.
 
