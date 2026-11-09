@@ -11,7 +11,7 @@
 
 ## 2026-11-09 진행 상황
 
-추천 상위에 오르는 19개 상품(페퍼·카카오·모아·부림·KB·케이뱅크·경남)을 읽어 기한을 **11/16**으로 늘렸다([기록](FINANCIAL_RECHECK_20261109.md)). 나머지 31개는 11/13~11/14에 만료된다. 4번 명령의 `--batch` 목록에는 `renewals/20261109/`의 `kb-reviewed.json`, `kbank-kn-reviewed.json`, `priority-reviewed.json`도 넣는다. 아래 1회차(11/12)에는 이 19개 + 나머지를 읽는다.
+추천 상위에 오르는 20개 상품(페퍼·카카오·모아·부림·KB·케이뱅크·경남·부산)을 읽어 기한을 **11/16**으로 늘렸다([기록](FINANCIAL_RECHECK_20261109.md)). 나머지 30개는 11/13~11/14에 만료된다. 4번 명령의 `--batch` 목록에는 `renewals/20261109/`의 `busan-big-reviewed.json`, `kb-reviewed.json`, `kbank-kn-reviewed.json`, `priority-reviewed.json`도 넣는다. 아래 1회차(11/12)에는 이 20개 + 나머지를 읽는다.
 
 ## 일정 (권장)
 
