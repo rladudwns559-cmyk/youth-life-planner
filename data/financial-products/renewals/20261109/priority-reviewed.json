@@ -1,0 +1,1838 @@
+{
+  "checked_on": "2026-11-09",
+  "updates": [
+    {
+      "product": {
+        "product_id": "KAKAO-DEPOSIT",
+        "institution": "카카오뱅크",
+        "product_name": "카카오뱅크 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 1000000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "한 번에 100만원 이상 예치. 공식 FAQ에 최대 가입금액 제한 없음으로 안내.",
+        "term_note": "1~36개월, 월/일 단위. 실제 만기일은 은행에서 확인.",
+        "eligibility_note": "실명의 개인의 계좌 개설 요건 별도 확인.",
+        "features": [
+          "긴급출금 최대 2회; 출금 후 최소 잔액 100만원 유지 조건."
+        ],
+        "preferential_conditions": [
+          "금리쿠폰 적용 여부·자동연장 조건은 별도 확인."
+        ],
+        "required_checks": [
+          "현재 판매 여부",
+          "가입 대상·계좌 개설 요건",
+          "가입일 금리와 우대조건"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "3.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kakaobank.com/products/deposit",
+            "title": "카카오뱅크 카카오뱅크 정기예금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-11-09",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.09 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KAKAO-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "3.10",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.06 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kakaobank.com/products/deposit",
+            "title": "카카오뱅크 카카오뱅크 정기예금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-11-09",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내 팝업의 만14세이상 내국인·100만원이상 제한없음·1~36개월 및 2026.11.09 기본금리 표. 현재 상품 메뉴의 정기예금 전용 안내 확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page plus its rate-info panel stated as of 2026.11.09 (before tax): 1m-<3m 3.10, 3m-<6m 3.50, 6m-<12m 3.60, 12m-<24m 3.80, 24m-<36m 3.20, 36m 3.20; minimum 1,000,000 KRW, no maximum, 1-36 months. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "KAKAO-FREE-SAVINGS",
+        "institution": "카카오뱅크",
+        "product_name": "카카오뱅크 자유적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 1000,
+        "maximum": 3000000,
+        "maximum_kind": "KNOWN",
+        "min_months": 6,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+        "term_note": "공식 가입기간 6~36개월(월·일 단위). 여기서는 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "만14세 이상 실명의 내국인,1인당52계좌까지. 본인명의 카카오뱅크 입출금통장으로 납입. 실제 가입자격은 추가확인.",
+        "features": [
+          "표시 최고금리는 기본금리에 공개된 자동이체 우대 0.20%p를 더한 조건부 값입니다. 개별 쿠폰 제외."
+        ],
+        "preferential_conditions": [
+          "계약월수 절반 이상을 매월 자동이체로 납입하고 만기 해지 시 연 0.20%p 우대. 자동연장 원리금 제외."
+        ],
+        "required_checks": [
+          "사용자의 실제 가입 자격",
+          "우대조건 실제 충족 여부",
+          "검증된 날짜별 만기 계산 계약",
+          "납입 단위 세칙"
+        ],
+        "channels": [
+          "은행 공식 상품 페이지 또는 앱에서 확인"
+        ],
+        "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kakaobank.com/products/savings",
+            "title": "카카오뱅크 카카오뱅크 자유적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-11-09",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.09 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "KAKAO-FREE-SAVINGS",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.70",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.06 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kakaobank.com/products/savings",
+            "title": "카카오뱅크 카카오뱅크 자유적금 공식 상품안내 재확인",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-11-09",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "상품안내 팝업의 만14세이상 내국인·1인52계좌·월1000~300만원·6~36개월 및 2026.11.09 기본금리 표. 자동이체 우대0.20%p는 조건 미충족으로 취급. 현재 상품 메뉴와 자유적금 전용 안내를 함께 확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page plus rate-info panel as of 2026.11.09 (before tax): 6m-<12m 3.70, 12m-<24m 3.85, 24m-<36m 3.20, 36m 3.20; auto-transfer preferential rate +0.20%p at maturity; 1,000 to 3,000,000 KRW per month; 6-36 months. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MOA-DEPOSIT",
+        "institution": "모아저축은행",
+        "product_name": "정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 24,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 없음",
+        "term_note": "1~24개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "제한없음",
+        "features": [
+          "단리 월이자지급 또는 월복리 만기지급 선택; 표의 기본 연이율과 복리수익률을 구분",
+          "원문24개월 금리 행 미표기. 해당 기간 기본금리 추천은 제공하지 않음"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "영업점"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=39",
+            "title": "모아저축은행 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-10-23",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.moasb.co.kr/PtcShrtInfo_002.act",
+            "title": "모아저축은행 공식 예금상품 공시 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예금상품 공시 표의 개별 상세보기 연결과 상품명 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MOA-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=39",
+            "title": "모아저축은행 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-10-23",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.moasb.co.kr/PtcShrtInfo_002.act",
+            "title": "모아저축은행 공식 예금상품 공시 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예금상품 공시 표의 개별 상세보기 연결과 상품명 확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); disclosure page (effective 2026-10-23): 1m-<3m 2.20, 3m-<6m 2.30, 6m-<12m 3.50, 12m-<18m 3.85, 18m-<24m 3.30 (simple-interest column); 1-24 months; minimum 100,000 KRW, no maximum; target unrestricted. Listed in the bank's current product list. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MOA-E-DEPOSIT",
+        "institution": "모아저축은행",
+        "product_name": "e-모아 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 24,
+        "allowed_months": null,
+        "payment_note": "목돈 예치 100,000원 이상·상한 없음",
+        "term_note": "1~24개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "온라인19세이상 개인 및 법인",
+        "features": [
+          "단리 월이자지급 또는 월복리 만기지급 선택; 표의 기본 연이율과 복리수익률을 구분",
+          "원문24개월 금리 행 미표기. 해당 기간 기본금리 추천은 제공하지 않음"
+        ],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "인터넷뱅킹·SB톡톡+·모아디지털뱅크"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=41",
+            "title": "모아저축은행 e-모아 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-10-23",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.moasb.co.kr/PtcShrtInfo_002.act",
+            "title": "모아저축은행 공식 예금상품 공시 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예금상품 공시 표의 개별 상세보기 연결과 상품명 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MOA-E-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.85",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "3.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=41",
+            "title": "모아저축은행 e-모아 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-10-23",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.moasb.co.kr/PtcShrtInfo_002.act",
+            "title": "모아저축은행 공식 예금상품 공시 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예금상품 공시 표의 개별 상세보기 연결과 상품명 확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); disclosure page (effective 2026-10-23), same rate table as above; online accounts for ages 19+, individuals and corporations; 1-24 months; minimum 100,000 KRW, no maximum. Listed in the bank's current product list. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-MOA-E-SAVE",
+        "institution": "모아저축은행",
+        "product_name": "e-모아 정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 12,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "월 10,000원 이상, 계약금액 상한 없음(공식 데스크톱 상세). 정상 정액 납입 조건.",
+        "term_note": "12~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "만19세이상 실명의 내국인 개인. 모바일 공식 가입대상 기준, 최종 계좌개설 요건 추가 확인.",
+        "features": [],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "모아디지털뱅크·SB톡톡+·인터넷뱅킹"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "4.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+            "title": "모아저축은행 e-모아 정기적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-07-22",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.moasb.co.kr/PtcShrtInfo_002.act",
+            "title": "모아저축은행 공식 예금상품 공시 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예금상품 공시 표의 개별 상세보기 연결과 상품명 확인."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-MOA-E-SAVE",
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "4.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+            "title": "모아저축은행 e-모아 정기적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-07-22",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.moasb.co.kr/PtcShrtInfo_002.act",
+            "title": "모아저축은행 공식 예금상품 공시 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 예금상품 공시 표의 개별 상세보기 연결과 상품명 확인."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); disclosure page (effective 2026-07-22): 12m-<24m 4.00, 24m-<36m 3.80, 36m 3.50; 12-36 months; minimum 10,000 KRW per month, no maximum; ages 19+. Listed in the bank's current product list. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+        "institution": "부림저축은행",
+        "product_name": "톡톡 정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "월납입1만원이상1원단위·매월정액,가입금액제한없음명시",
+        "term_note": "6~60개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+        "eligibility_note": "만19세이상내국인개인",
+        "features": [],
+        "preferential_conditions": [
+          "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+        ],
+        "required_checks": [
+          "현재 판매·계좌 수 제한·개인별 가입 자격",
+          "납입일·휴일·원 미만 처리 및 중도해지 계약",
+          "공식 페이지의 현재 적용금리 재확인"
+        ],
+        "channels": [
+          "SB톡톡"
+        ],
+        "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "4.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 13,
+            "max_months": 60,
+            "base_rate_percent": "3.40",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+            "title": "부림저축은행 톡톡 정기적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.bulimbank.co.kr/DepDein0100.act",
+            "title": "부림저축은행 공식 예적금상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "공식 상품안내/신청 경로와 예금상품 공시 메뉴의 해당 상품 연결 확인. 개별 공시 심의필2026.11.05의 현재 조건과 대조."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 6,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "4.20",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          },
+          {
+            "min_months": 13,
+            "max_months": 60,
+            "base_rate_percent": "3.40",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 게시 기간별 세전 기본 연이율. 복리 연평균수익률 열과 구분; 우대충족 미가정."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+            "title": "부림저축은행 톡톡 정기적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.bulimbank.co.kr/DepDein0100.act",
+            "title": "부림저축은행 공식 예적금상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "공식 상품안내/신청 경로와 예금상품 공시 메뉴의 해당 상품 연결 확인. 개별 공시 심의필2026.11.05의 현재 조건과 대조."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); disclosure page: 6m 2.50, 12m 4.20, over 12m up to 60m 3.40; 6-60 months; monthly deposit at least 10,000 KRW, no limit; ages 19+, non-face-to-face only. 'Toktok regular savings' is in the bank's current deposit product menu. The page shows no effective date. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "PEPPER-TERM-DEPOSIT",
+        "institution": "페퍼저축은행",
+        "product_name": "정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+        "term_note": "공식기간 1~36개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "제한없음",
+        "features": [
+          "만기 월복리 또는 월이자 단리 선택; 이자방식별 상품 수 중복계산 안 함"
+        ],
+        "preferential_conditions": [
+          "12개월 이상18개월 미만은 기본연3.80%에 영업점장 우대연0.15%p 적용 시 연3.95%. 개인별 우대 적용 여부와 당일 금리는 은행에서 추가 확인."
+        ],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "영업점·공식 뱅킹 안내 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "우대금리 상세안내: 기본3.80% + 영업점장 우대0.15% = 표시3.95%. 우대는 충족으로 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+            "title": "페퍼저축은행 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-10-30",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 12~17개월 표시3.95%를 기본금리3.80%와 조건부최고3.95%로 분리 정정."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "PEPPER-TERM-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "우대금리 상세안내: 기본3.80% + 영업점장 우대0.15% = 표시3.95%. 우대는 충족으로 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+            "title": "페퍼저축은행 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-10-30",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 12~17개월 표시3.95%를 기본금리3.80%와 조건부최고3.95%로 분리 정정."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page (rate table dated 2026-10-30): 1m-<3m 2.00, 3m-<6m 2.30, 6m-<12m 2.60, 12m-<18m 3.95 shown as base 3.80 plus branch-manager preferential 0.15%p, 18m-<24m 2.90, 24m-<36m 2.50, 36m 2.50; 1-36 months; minimum 100,000 KRW, no limit. Listed in the current list page. Identical to the stored table; the 0.15%p is not assumed.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "PEPPERS-TERM-DEPOSIT",
+        "institution": "페퍼저축은행",
+        "product_name": "페퍼스 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+        "term_note": "공식기간 1~36개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "개인고객",
+        "features": [
+          "디지털페퍼 앱 전용; 만기 월복리/월이자 단리"
+        ],
+        "preferential_conditions": [
+          "12개월 이상18개월 미만은 기본연3.80%에 영업점장 우대연0.15%p 적용 시 연3.95%. 개인별 우대 적용 여부와 당일 금리는 은행에서 추가 확인."
+        ],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "디지털페퍼 앱"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "우대금리 상세안내: 기본3.80% + 영업점장 우대0.15% = 표시3.95%. 우대는 충족으로 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+            "title": "페퍼저축은행 페퍼스 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-10-30",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 12~17개월 표시3.95%를 기본금리3.80%와 조건부최고3.95%로 분리 정정."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "PEPPERS-TERM-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "우대금리 상세안내: 기본3.80% + 영업점장 우대0.15% = 표시3.95%. 우대는 충족으로 가정하지 않음."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+            "title": "페퍼저축은행 페퍼스 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-10-30",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 12~17개월 표시3.95%를 기본금리3.80%와 조건부최고3.95%로 분리 정정."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page, same table dated 2026-10-30 including base 3.80 plus branch-manager preferential 0.15%p for 12m-<18m; individuals; minimum 100,000 KRW, no limit. Listed in the current list page. Identical to the stored table; the 0.15%p is not assumed.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "PEPPER-FREE-EXIT-DEPOSIT",
+        "institution": "페퍼저축은행",
+        "product_name": "페퍼루 중도해지 FREE 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 36,
+        "max_months": 36,
+        "allowed_months": [
+          36
+        ],
+        "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+        "term_note": "공식기간 36~36개월. 가능 기간 [36]개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "개인고객. 비과세종합저축 자격 및 최종 계좌개설은 추가 확인.",
+        "features": [
+          "중도해지 시에도 예치기간별 별도 이율; 36개월 약정"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "영업점·공식 뱅킹 안내 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": "2.50",
+            "evidence_locator": "공식 세전 기본 연이율 표"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=18",
+            "title": "페퍼저축은행 페퍼루 중도해지 FREE 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-02-26",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 현재 원문 가입대상 개인고객으로 정정."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "PEPPER-FREE-EXIT-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": "2.50",
+            "evidence_locator": "공식 세전 기본 연이율 표"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=18",
+            "title": "페퍼저축은행 페퍼루 중도해지 FREE 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-02-26",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 현재 원문 가입대상 개인고객으로 정정."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page (dated 2026-02-26): 36 months 2.50 (compound yield 2.59); minimum 100,000 KRW, no limit; target unrestricted. Listed in the current list page. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "PEPPERS-FREE-EXIT-DEPOSIT",
+        "institution": "페퍼저축은행",
+        "product_name": "페퍼스 중도해지 FREE 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 36,
+        "max_months": 36,
+        "allowed_months": [
+          36
+        ],
+        "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+        "term_note": "공식기간 36~36개월. 가능 기간 [36]개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "개인고객",
+        "features": [
+          "디지털페퍼 앱 전용; 경과기간별 중도해지 이율"
+        ],
+        "preferential_conditions": [],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "디지털페퍼 앱"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": "2.50",
+            "evidence_locator": "공식 세전 기본 연이율 표"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=37",
+            "title": "페퍼저축은행 페퍼스 중도해지 FREE 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-02-26",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "PEPPERS-FREE-EXIT-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 36,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": "2.50",
+            "evidence_locator": "공식 세전 기본 연이율 표"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=37",
+            "title": "페퍼저축은행 페퍼스 중도해지 FREE 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2026-02-26",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page (dated 2026-02-26): 36 months 2.50; individuals; minimum 100,000 KRW, no limit. Listed in the current list page. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "PEPPER-REGULAR",
+        "institution": "페퍼저축은행",
+        "product_name": "정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "월 10,000원 이상; 공식 가입한도 제한 없음",
+        "term_note": "6~60개월 월 단위",
+        "eligibility_note": "제한없음, 관련 법규에 따른 일부 고객 제한 가능",
+        "features": [
+          "원문 직접 확인. 2026.01.02 상품설명서 목록과 현행 인터넷뱅킹 링크, 공시2026-0716호 유효2026.09.17~2027.09.16",
+          "정액적립식: 약정한 월 납입액으로 신규 및 매월 납입; 명시되지 않은 첫납입 별도 한도는 추정하지 않음"
+        ],
+        "preferential_conditions": [
+          "가입일 공시 기본이율 확인, 이번 금리 수치 미사용"
+        ],
+        "required_checks": [
+          "개인/법인 및 채널별 조건 확인",
+          "공시의 정기적금과 인터넷/스마트/비대면 정기적금은 현재 확보한 단일 상품페이지로만 검증됨; 두 개 상품으로 부풀리지 않음",
+          "실제 가입 자격",
+          "가입일 적용 금리·우대 충족",
+          "납입 단위 및 지연 납입 조건",
+          "개인별 실제 가입 자격과 계좌 개설 요건",
+          "납입 지연·우대조건·고객당 합산한도의 실제 충족 여부",
+          "본문에서 원/천원 단위를 별도로 확정하지 못함; 임의 단위 추정 금지"
+        ],
+        "channels": [
+          "영업점",
+          "인터넷뱅킹 안내"
+        ],
+        "early_exit_note": "만기 전 해지·납입 지연 시 약정금리와 다른 금리 또는 만기이연 적용 가능; 은행 약관 확인",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 36,
+            "max_months": 59,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=17&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+            "title": "페퍼저축은행 정기적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2024-12-02",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper?depositeOrder=high&page=2",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ],
+        "disclosure_ids": [
+          "DISC-e13b0d7f0c414907",
+          "DISC-d918bc73384128b1"
+        ],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "PEPPER-REGULAR",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 36,
+            "max_months": 59,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=17&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+            "title": "페퍼저축은행 정기적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2024-12-02",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper?depositeOrder=high&page=2",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page: 6m-<12m 3.00, 12m-<24m 3.50, 24m-<36m 3.00, 36m-<48m 2.80, 48m-<60m 2.80, 60m 2.80; 6-60 months; minimum 10,000 KRW, no limit; target unrestricted. The rate table is labelled with the date 2024-12-02 on the page itself. Listed on list page 2. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "PEPPER-DIGITAL-REGULAR",
+        "institution": "페퍼저축은행",
+        "product_name": "페퍼스정기적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 6,
+        "max_months": 60,
+        "allowed_months": null,
+        "payment_note": "월 10,000원 이상; 공식 가입한도 제한 없음",
+        "term_note": "6~60개월 월 단위",
+        "eligibility_note": "개인고객",
+        "features": [
+          "공식 현행상품 상세의 APP안내, 상품설명서2026.01.02, 공시2026-0400호 유효2026.05.15~2027.05.14",
+          "정액적립식: 약정한 월 납입액으로 신규 및 매월 납입; 명시되지 않은 첫납입 별도 한도는 추정하지 않음"
+        ],
+        "preferential_conditions": [
+          "우대 없는 기본금리형 안내, 가입일 고시금리 확인"
+        ],
+        "required_checks": [
+          "채널 전용 상품과 일반정기적금의 중복가능·고객합산한도 별도확인",
+          "실제 가입 자격",
+          "가입일 적용 금리·우대 충족",
+          "납입 단위 및 지연 납입 조건",
+          "개인별 실제 가입 자격과 계좌 개설 요건",
+          "납입 지연·우대조건·고객당 합산한도의 실제 충족 여부",
+          "본문에서 원/천원 단위를 별도로 확정하지 못함; 임의 단위 추정 금지"
+        ],
+        "channels": [
+          "디지털페퍼 앱"
+        ],
+        "early_exit_note": "만기 전 해지·납입 지연 시 약정금리와 다른 금리 또는 만기이연 적용 가능; 은행 약관 확인",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 36,
+            "max_months": 59,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=2&prdSn=34",
+            "title": "페퍼저축은행 페퍼스정기적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2024-12-02",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper?depositeOrder=high&page=2",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ],
+        "disclosure_ids": [
+          "DISC-f1611cd89f4d18cf"
+        ],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "PEPPER-DIGITAL-REGULAR",
+        "rates": [
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 23,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 35,
+            "base_rate_percent": "3.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 36,
+            "max_months": 59,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          },
+          {
+            "min_months": 60,
+            "max_months": 60,
+            "base_rate_percent": "2.80",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=2&prdSn=34",
+            "title": "페퍼저축은행 페퍼스정기적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2024-12-02",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper?depositeOrder=high&page=2",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page, same table as the regular savings (labelled 2024-12-02 on the page); individuals; 6-60 months; minimum 10,000 KRW, no limit. Listed on list page 2. Identical to the stored table.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "PEPPER-2030",
+        "institution": "페퍼저축은행",
+        "product_name": "페퍼스2030적금",
+        "kind": "SAVINGS",
+        "schedule": "MONTHLY",
+        "minimum": 10000,
+        "maximum": 300000,
+        "maximum_kind": "KNOWN",
+        "min_months": 12,
+        "max_months": 12,
+        "allowed_months": [
+          12
+        ],
+        "payment_note": "월 10,000원 이상 ~ 300,000원 이하",
+        "term_note": "12개월",
+        "eligibility_note": "개인고객, 1인1계좌, 당행 입출금계좌 보유",
+        "features": [
+          "원문 직접확인. 2026.10.23 설명서 목록과 APP안내, 공시2026-0728호 유효2026.10.02~2027.10.01. 금리표 기준2022년이므로 수치 생략",
+          "정액적립식: 약정한 월 납입액으로 신규 및 매월 납입; 명시되지 않은 첫납입 별도 한도는 추정하지 않음"
+        ],
+        "preferential_conditions": [
+          "당행계좌 자동이체6회 이상",
+          "상품서비스 안내수단 문자·전화 모두 동의 및 유지 조건"
+        ],
+        "required_checks": [
+          "상품명2030만으로 연령20~39 자격을 추정하지 않음; 공식 가입대상에는 개인고객이라고 표시됨",
+          "실제 가입 자격",
+          "가입일 적용 금리·우대 충족",
+          "납입 단위 및 지연 납입 조건",
+          "개인별 실제 가입 자격과 계좌 개설 요건",
+          "납입 지연·우대조건·고객당 합산한도의 실제 충족 여부",
+          "본문에서 원/천원 단위를 별도로 확정하지 못함; 임의 단위 추정 금지"
+        ],
+        "channels": [
+          "디지털페퍼 앱"
+        ],
+        "early_exit_note": "만기 전 해지·납입 지연 시 약정금리와 다른 금리 또는 만기이연 적용 가능; 은행 약관 확인",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": "5.00",
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=33&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+            "title": "페퍼저축은행 페퍼스2030적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2022-01-26",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper?depositeOrder=high&page=2",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ],
+        "disclosure_ids": [
+          "DISC-81e8753ff691ce61"
+        ],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "PEPPER-2030",
+        "rates": [
+          {
+            "min_months": 12,
+            "max_months": 12,
+            "base_rate_percent": "3.50",
+            "max_total_rate_percent": "5.00",
+            "evidence_locator": "공식 현재 상품 페이지의 기간별 기본 연이율(세전). 조건부 우대와 복리 연수익률은 기본금리와 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=33&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+            "title": "페퍼저축은행 페퍼스2030적금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-09",
+            "basis_date": "2022-01-26",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "직접HTTP200 현재 상품 페이지의 가입대상·가입기간·가입금액·납입주기·금리표 및 우대조건 대조. 기존 계약 범위와 대조해 유지."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper?depositeOrder=high&page=2",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-09",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 상품 검색 결과의 상품명·유형·가입 채널을 대조. 상세페이지에 고시된 기본금리와 조건부 최고금리를 구분."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page: 12 months only; base rate 3.50 plus preferential up to 1.50%p (2 conditions, maturity only), table labelled 2022-01-26 on the page; 10,000 to 300,000 KRW per month, fixed amount; individuals with a bank deposit account. Listed on list page 2. Identical to the stored table; preferential rate is not assumed.",
+      "change_notes": []
+    }
+  ],
+  "holds": [],
+  "actual_maturity_calculations": 0,
+  "scope_note": "Of the 15 products that reach the top 3 of the public recommendation for typical inputs, 8 were read here (Kakao x2, Moa x3, Bulim x1, Pepper x2). The other 7 were not renewed because their pages could not be read reliably (Kbank x3, KB x2, Busan Big, Kyongnam Better Saving; see the 2026-11-09 recheck document). 5 more Pepper products on the same site were read as well. 13 products renewed in total; no rate changed."
+}
