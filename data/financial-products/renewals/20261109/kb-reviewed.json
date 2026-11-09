@@ -1,0 +1,202 @@
+{
+    "checked_on":  "2026-11-09",
+    "updates":  [
+                    {
+                        "product":  {
+                                        "product_id":  "KB-SPECIAL-STAR",
+                                        "institution":  "KB국민은행",
+                                        "product_name":  "KB 특★한 적금",
+                                        "kind":  "SAVINGS",
+                                        "schedule":  "MONTHLY",
+                                        "minimum":  1000,
+                                        "maximum":  300000,
+                                        "maximum_kind":  "KNOWN",
+                                        "min_months":  1,
+                                        "max_months":  6,
+                                        "allowed_months":  null,
+                                        "payment_note":  "월 단위 납입 조건입니다. 월·일 단위 계약, 만기일 1회 변경 규칙 별도.",
+                                        "term_note":  "1~6개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+                                        "eligibility_note":  "실명의 개인 1인 3계좌. 개인사업자·임의단체·공동명의 제외.",
+                                        "features":  [
+                                                         "공식 상품가입 색인·2026-06-05 보호등록부 판매중단일 공란.",
+                                                         "월·일 단위 계약, 만기일 1회 변경 규칙 별도."
+                                                     ],
+                                        "preferential_conditions":  [
+                                                                        "전용화면 별 모으기·쿠폰 등 개별 조건"
+                                                                    ],
+                                        "required_checks":  [
+                                                                "실제 가입 대상 및 계좌 수·고객당 합산한도",
+                                                                "최신 금리 및 우대조건 충족 여부",
+                                                                "최초·추가 납입과 납입일 조건"
+                                                            ],
+                                        "channels":  [
+                                                         "KB스타뱅킹"
+                                                     ],
+                                        "early_exit_note":  "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+                                        "reference_only":  false,
+                                        "reference_reason":  null,
+                                        "rates":  [
+                                                      {
+                                                          "min_months":  1,
+                                                          "max_months":  6,
+                                                          "base_rate_percent":  "2.00",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+                                                      }
+                                                  ],
+                                        "sources":  [
+                                                        {
+                                                            "url":  "https://obank.kbstar.com/quics?cc=b061761%3Ab061770\u0026isNew=N\u0026page=C020702\u0026prcode=DP01001566",
+                                                            "title":  "KB국민은행 KB 특★한 적금 공식 상품안내 재확인",
+                                                            "reviewed_on":  "2026-11-09",
+                                                            "basis_date":  "2026-11-09",
+                                                            "mode":  "OFFICIAL_PAGE",
+                                                            "locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+                                                        }
+                                                    ],
+                                        "disclosure_ids":  [
+
+                                                           ],
+                                        "comparison_hold_reason":  null,
+                                        "amount_increment":  null,
+                                        "calculation":  null,
+                                        "eligibility":  "UNKNOWN"
+                                    },
+                        "review":  {
+                                       "product_id":  "KB-SPECIAL-STAR",
+                                       "rates":  [
+                                                     {
+                                                         "min_months":  1,
+                                                         "max_months":  6,
+                                                         "base_rate_percent":  "2.00",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+                                                     }
+                                                 ],
+                                       "sources":  [
+                                                       {
+                                                           "url":  "https://obank.kbstar.com/quics?cc=b061761%3Ab061770\u0026isNew=N\u0026page=C020702\u0026prcode=DP01001566",
+                                                           "title":  "KB국민은행 KB 특★한 적금 공식 상품안내 재확인",
+                                                           "reviewed_on":  "2026-11-09",
+                                                           "basis_date":  "2026-11-09",
+                                                           "mode":  "OFFICIAL_PAGE",
+                                                           "locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+                                                       }
+                                                   ]
+                                   },
+                        "sale_status":  "CURRENT",
+                        "evidence_note":  "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page header and the expanded product-info / base-rate panel stated as of 2026.11.09 (before tax): 1-6 months 2.00 base; monthly 1,000-300,000 KRW; 1-6 months; individuals, 3 accounts per person. Identical to the stored table. Preferential rates (up to +4.0pp) not used.",
+                        "change_notes":  [
+
+                                         ]
+                    },
+                    {
+                        "product":  {
+                                        "product_id":  "KB-MY-SAVINGS",
+                                        "institution":  "KB국민은행",
+                                        "product_name":  "KB나만의 적금",
+                                        "kind":  "SAVINGS",
+                                        "schedule":  "MONTHLY",
+                                        "minimum":  10000,
+                                        "maximum":  1000000,
+                                        "maximum_kind":  "KNOWN",
+                                        "min_months":  3,
+                                        "max_months":  12,
+                                        "allowed_months":  null,
+                                        "payment_note":  "월 단위 납입 조건입니다. 패키지형 자유적립식, 월·일 단위 계약. KB내맘대로적금과 다른 상품입니다.",
+                                        "term_note":  "3~12개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+                                        "eligibility_note":  "실명의 개인·개인사업자 등, 공동명의 불가, 1인 2계좌",
+                                        "features":  [
+                                                         "공식 상품가입 색인·출시안내·2026-06-05 보호등록부 확인.",
+                                                         "패키지형 자유적립식, 월·일 단위 계약. KB내맘대로적금과 다른 상품입니다."
+                                                     ],
+                                        "preferential_conditions":  [
+                                                                        "패키지 1개·선택 우대 2개 선택. 급여·평잔·카드 실적 등 개별 확인."
+                                                                    ],
+                                        "required_checks":  [
+                                                                "실제 가입 대상 및 계좌 수·고객당 합산한도",
+                                                                "최신 금리 및 우대조건 충족 여부",
+                                                                "최초·추가 납입과 납입일 조건"
+                                                            ],
+                                        "channels":  [
+                                                         "KB스타뱅킹·영업점"
+                                                     ],
+                                        "early_exit_note":  "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+                                        "reference_only":  false,
+                                        "reference_reason":  null,
+                                        "rates":  [
+                                                      {
+                                                          "min_months":  3,
+                                                          "max_months":  11,
+                                                          "base_rate_percent":  "1.00",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                      },
+                                                      {
+                                                          "min_months":  12,
+                                                          "max_months":  12,
+                                                          "base_rate_percent":  "2.00",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                      }
+                                                  ],
+                                        "sources":  [
+                                                        {
+                                                            "url":  "https://obank.kbstar.com/quics?cc=b061761%3Ab061770\u0026isNew=N\u0026page=C020702\u0026prcode=DP01001632",
+                                                            "title":  "KB국민은행 KB나만의 적금 공식 상품안내 재확인",
+                                                            "reviewed_on":  "2026-11-09",
+                                                            "basis_date":  "2026-11-09",
+                                                            "mode":  "OFFICIAL_PAGE",
+                                                            "locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                        }
+                                                    ],
+                                        "disclosure_ids":  [
+
+                                                           ],
+                                        "comparison_hold_reason":  null,
+                                        "amount_increment":  null,
+                                        "calculation":  null,
+                                        "eligibility":  "UNKNOWN"
+                                    },
+                        "review":  {
+                                       "product_id":  "KB-MY-SAVINGS",
+                                       "rates":  [
+                                                     {
+                                                         "min_months":  3,
+                                                         "max_months":  11,
+                                                         "base_rate_percent":  "1.00",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                     },
+                                                     {
+                                                         "min_months":  12,
+                                                         "max_months":  12,
+                                                         "base_rate_percent":  "2.00",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                     }
+                                                 ],
+                                       "sources":  [
+                                                       {
+                                                           "url":  "https://obank.kbstar.com/quics?cc=b061761%3Ab061770\u0026isNew=N\u0026page=C020702\u0026prcode=DP01001632",
+                                                           "title":  "KB국민은행 KB나만의 적금 공식 상품안내 재확인",
+                                                           "reviewed_on":  "2026-11-09",
+                                                           "basis_date":  "2026-11-09",
+                                                           "mode":  "OFFICIAL_PAGE",
+                                                           "locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                       }
+                                                   ]
+                                   },
+                        "sale_status":  "CURRENT",
+                        "evidence_note":  "directly opened and read in a browser on 2026-11-09 (no HTTP-only check); product page header and the expanded product-info / base-rate panel stated as of 2026.11.09 (before tax): 3 to \u003c12 months 1.00, 12 months 2.00; monthly 10,000-1,000,000 KRW; 3-12 months; individuals, 2 accounts per person. Identical to the stored table. Preferential rates (up to +2.0pp) not used.",
+                        "change_notes":  [
+
+                                         ]
+                    }
+                ],
+    "holds":  [
+
+              ],
+    "actual_maturity_calculations":  0,
+    "scope_note":  "KB Kookmin Bank: the two products that reach the top 3 of the public recommendation (KB Special Star, KB My Own Savings) were read in a browser on 2026-11-09 with the expanded rate panel; no rate changed. Other KB products are not renewed by this batch."
+}

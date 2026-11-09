@@ -22,16 +22,26 @@
 - 우대금리는 반영하지 않았다. 페퍼 정기예금의 12~18개월 3.95%는 기본 3.80% + 영업점장 우대 0.15%p로 구분해 저장하며, 페퍼스2030적금은 기본 3.50%에 우대 최고 1.50%p다.
 - 상품 목록 페이지(모아·부림·페퍼)에서 해당 상품이 현재 게시돼 있는지도 확인했다.
 
-## 읽지 못한 상위 상품 7개 (갱신하지 않음)
+## 같은 날 이어서 읽은 KB 2개 (추가 갱신)
+
+브라우저 창이 숨겨져 있어도 뷰포트를 지정하면 페이지가 열리고, 접힌 "금리 및 이율" 패널의 본문(textContent)을 읽을 수 있었다. 그렇게 읽은 결과:
+
+| 상품 | 읽은 내용 (2026.11.09 기준, 세전) | 변동 | 새 기한 |
+| --- | --- | --- | --- |
+| KB 특★한 적금 | 기본 2.00%(1~6개월), 월 1천~30만 원, 1인 3계좌 | 없음 | 2026-11-16 |
+| KB나만의 적금 | 기본 3~11개월 1.00%, 12개월 2.00%, 월 1만~100만 원, 1인 2계좌 | 없음 | 2026-11-16 |
+
+입력은 `renewals/20261109/kb-reviewed.json`이고 우대금리는 쓰지 않았다. 따라서 이날 갱신한 상품은 **15개**다(위 13개 + KB 2개).
+
+## 읽지 못한 상위 상품 5개 (갱신하지 않음)
 
 | 상품 | 이유 |
 | --- | --- |
-| 케이뱅크 주거래우대 자유적금, 코드K 정기예금, 코드K 자유적금 | 화면에 보이는 요약(주거래우대 자유적금: 기본 3.70%·최고 4.30%·월 최대 300만 원·6~36개월)만 확인된다. **기간별 금리표는 브라우저 창이 숨겨진 상태에서는 열리지 않았다.** 페이지 소스에 들어 있는 구조화 데이터는 금리기준일이 2026-05-13이고 값(3.00/3.40/3.30)이 화면과 달라서 근거로 쓰지 않았다 |
-| KB 특★한 적금, KB나만의 적금 | 이번에는 시도하지 않았다 |
-| 부산이라 좋다 Big적금 | 이번에는 시도하지 않았다(PDF 상품설명서) |
-| BNK더조은자유적금(경남) | 이번에는 시도하지 않았다 |
+| 케이뱅크 주거래우대 자유적금, 코드K 정기예금, 코드K 자유적금 | 화면 상단 요약(주거래우대 자유적금: 기본 3.70%·최고 4.30%·월 최대 300만 원·6~36개월)은 확인되고 저장값의 12~23개월 구간(3.70/4.30)과 같다. 그러나 **기간별 표는 확인하지 못했다.** 펼침 영역의 본문은 "조회기준일 2025.09.19" 값(기본 2.90~3.00%)을 보여 주고, 같은 페이지의 금리 API 응답은 2018년 등록 값이어서, 어느 쪽도 현재 표라고 볼 수 없었다. 상단 요약과 충돌하는 자료를 근거로 쓰지 않았고 갱신하지 않았다 |
+| 부산이라 좋다 Big적금 | 시도하지 않았다(PDF 상품설명서) |
+| BNK더조은자유적금(경남) | 시도하지 않았다(동적 화면) |
 
-이 7개와 나머지 30개(추천에 나올 수 있는 50개 중 총 37개)는 **11/13~11/14에 만료**되어 추천에서 빠진다. 이 중 상위 노출이 많은 케이뱅크 3개의 영향이 가장 크다(대표 입력 98회 중 30회).
+이 5개와 나머지 30개(추천에 나올 수 있는 50개 중 총 35개)는 **11/13~11/14에 만료**되어 추천에서 빠진다. 이 중 상위 노출이 많은 케이뱅크 3개의 영향이 가장 크다(대표 입력 98회 중 30회).
 
 ## 알아 둘 점
 
@@ -45,11 +55,11 @@
 입력은 `data/financial-products/renewals/20261109/priority-reviewed.json`이다. 새 시험(`tests/test_financial_renewals_reproducible.py`)이 공개 자료가 기록된 입력 파일의 컴파일 결과와 정확히 같은지 확인하므로, 입력 없이 JSON만 고치면 시험이 실패한다.
 
 ```powershell
-python -m tools.build_financial_renewals --catalog data/financial-products/discovery-extended-20261103.json --reviews data/financial-products/verified-basic-rates-extended-20261103.json --batch data/financial-products/renewals/20261106/banks-reviewed.json --batch data/financial-products/renewals/20261106/regional-reviewed.json --batch data/financial-products/renewals/20261106/savings-hanwha-reviewed.json --batch data/financial-products/renewals/20261106/savings-reviewed.json --batch data/financial-products/renewals/20261107/savings-banks-reviewed.json --batch data/financial-products/renewals/20261109/priority-reviewed.json --as-of 2026-11-09 --output frontend/src/public-data/financial-renewals.json
+python -m tools.build_financial_renewals --catalog data/financial-products/discovery-extended-20261103.json --reviews data/financial-products/verified-basic-rates-extended-20261103.json --batch data/financial-products/renewals/20261106/banks-reviewed.json --batch data/financial-products/renewals/20261106/regional-reviewed.json --batch data/financial-products/renewals/20261106/savings-hanwha-reviewed.json --batch data/financial-products/renewals/20261106/savings-reviewed.json --batch data/financial-products/renewals/20261107/savings-banks-reviewed.json --batch data/financial-products/renewals/20261109/kb-reviewed.json --batch data/financial-products/renewals/20261109/priority-reviewed.json --as-of 2026-11-09 --output frontend/src/public-data/financial-renewals.json
 ```
 
 ## 다음 회차 (11/12 권장)
 
-1. 케이뱅크 3개를 **브라우저 창이 보이는 상태에서** 금리안내 탭까지 열어 읽는다(이번에 막힌 부분).
-2. KB 2개, 부산 Big적금, 경남 더조은자유적금을 읽는다.
-3. 13개 상품은 11/16에 만료되므로 11/12~11/15 사이에 다시 읽는다. 절차는 [주간 계획](WEEKLY_RECHECK_PLAN_202611.md).
+1. 케이뱅크 3개: 기간별 금리표가 실제로 어디에 표시되는지(앱 화면·상품설명서 PDF 등)부터 찾는다. 이번에는 펼침 영역과 API가 낡은 값이라 확정하지 못했다.
+2. 부산 Big적금(PDF), 경남 더조은자유적금을 읽는다.
+3. 갱신한 15개 상품은 11/16에 만료되므로 11/12~11/15 사이에 다시 읽는다. 절차는 [주간 계획](WEEKLY_RECHECK_PLAN_202611.md).
