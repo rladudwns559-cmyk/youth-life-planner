@@ -1,0 +1,585 @@
+{
+    "checked_on":  "2026-11-09",
+    "updates":  [
+                    {
+                        "product":  {
+                                        "product_id":  "KBANK-PRIMARY-SAVINGS",
+                                        "institution":  "케이뱅크",
+                                        "product_name":  "주거래우대 자유적금",
+                                        "kind":  "SAVINGS",
+                                        "schedule":  "MONTHLY",
+                                        "minimum":  1000,
+                                        "maximum":  3000000,
+                                        "maximum_kind":  "KNOWN",
+                                        "min_months":  6,
+                                        "max_months":  36,
+                                        "allowed_months":  null,
+                                        "payment_note":  "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+                                        "term_note":  "6~36개월. 실제 금리는 계약 일수(180/365/730/1095일)로 판정하므로 은행에서 계약일수를 재확인하세요.",
+                                        "eligibility_note":  "만17세 이상 실명의 개인 및 개인사업자,1인 최대3계좌. 본인명의 케이뱅크 입출금통장으로 납입. 실제 가입자격은 추가확인.",
+                                        "features":  [
+                                                         "정수 개월 구간에 해당하는 공시 기본·최고금리를 안내하며 실제 날짜별 금액은 계산하지 않습니다."
+                                                     ],
+                                        "preferential_conditions":  [
+                                                                        "급여이체 또는 지정 통신비 자동이체 실적 3개월 이상: 연 0.30%p.",
+                                                                        "케이뱅크 체크카드 월 20만원 이상 실적 3개월 이상: 연 0.30%p. 실적 인정기간 등 세부 조건 및 만기 해지 필요."
+                                                                    ],
+                                        "required_checks":  [
+                                                                "공식 원문 시간초과·실제 계약일수 기준 확인 미완료",
+                                                                "사용자의 실제 가입 자격",
+                                                                "우대조건 실제 충족 여부",
+                                                                "검증된 날짜별 만기 계산 계약",
+                                                                "납입 단위 세칙",
+                                                                "실제 계약 일수"
+                                                            ],
+                                        "channels":  [
+                                                         "은행 공식 상품 페이지 또는 앱에서 확인"
+                                                     ],
+                                        "early_exit_note":  "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+                                        "reference_only":  false,
+                                        "reference_reason":  null,
+                                        "rates":  [
+                                                      {
+                                                          "min_months":  6,
+                                                          "max_months":  11,
+                                                          "base_rate_percent":  "3.30",
+                                                          "max_total_rate_percent":  "3.90",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  12,
+                                                          "max_months":  23,
+                                                          "base_rate_percent":  "3.70",
+                                                          "max_total_rate_percent":  "4.30",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  24,
+                                                          "max_months":  35,
+                                                          "base_rate_percent":  "3.50",
+                                                          "max_total_rate_percent":  "4.10",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  36,
+                                                          "max_months":  36,
+                                                          "base_rate_percent":  "3.50",
+                                                          "max_total_rate_percent":  "4.10",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      }
+                                                  ],
+                                        "sources":  [
+                                                        {
+                                                            "url":  "https://www.kbanknow.com/web/product/deposit/primary-saving",
+                                                            "title":  "케이뱅크 주거래우대 자유적금 공식 상품안내 재확인",
+                                                            "reviewed_on":  "2026-11-09",
+                                                            "basis_date":  "2026-11-09",
+                                                            "mode":  "OFFICIAL_PAGE",
+                                                            "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                        }
+                                                    ],
+                                        "disclosure_ids":  [
+
+                                                           ],
+                                        "comparison_hold_reason":  null,
+                                        "amount_increment":  null,
+                                        "calculation":  null,
+                                        "eligibility":  "UNKNOWN"
+                                    },
+                        "review":  {
+                                       "product_id":  "KBANK-PRIMARY-SAVINGS",
+                                       "rates":  [
+                                                     {
+                                                         "min_months":  6,
+                                                         "max_months":  11,
+                                                         "base_rate_percent":  "3.30",
+                                                         "max_total_rate_percent":  "3.90",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  12,
+                                                         "max_months":  23,
+                                                         "base_rate_percent":  "3.70",
+                                                         "max_total_rate_percent":  "4.30",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  24,
+                                                         "max_months":  35,
+                                                         "base_rate_percent":  "3.50",
+                                                         "max_total_rate_percent":  "4.10",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  36,
+                                                         "max_months":  36,
+                                                         "base_rate_percent":  "3.50",
+                                                         "max_total_rate_percent":  "4.10",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     }
+                                                 ],
+                                       "sources":  [
+                                                       {
+                                                           "url":  "https://www.kbanknow.com/web/product/deposit/primary-saving",
+                                                           "title":  "케이뱅크 주거래우대 자유적금 공식 상품안내 재확인",
+                                                           "reviewed_on":  "2026-11-09",
+                                                           "basis_date":  "2026-11-09",
+                                                           "mode":  "OFFICIAL_PAGE",
+                                                           "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                       }
+                                                   ]
+                                   },
+                        "sale_status":  "CURRENT",
+                        "evidence_note":  "directly opened in a browser on 2026-11-09 (no HTTP-only check); page header showed base 3.70 / max 4.30 (1 year, monthly up to 3,000,000 KRW, 6-36 months). The rate table was read from the rate data the page itself loads (as-of 2026-11-09; contract-rate rows registered 2026-09-29): 180-365d 3.30, 365-730d 3.70, 730-1095d 3.50, 1095d+ 3.50 base. Identical to the stored table. The static text block on the same page that cites an inquiry date of 2025-09-19 (base 2.90-3.00) is older and was not used.",
+                        "change_notes":  [
+
+                                         ]
+                    },
+                    {
+                        "product":  {
+                                        "product_id":  "KBANK-CODEK-SAVINGS",
+                                        "institution":  "케이뱅크",
+                                        "product_name":  "코드K 자유적금",
+                                        "kind":  "SAVINGS",
+                                        "schedule":  "MONTHLY",
+                                        "minimum":  1000,
+                                        "maximum":  300000,
+                                        "maximum_kind":  "KNOWN",
+                                        "min_months":  1,
+                                        "max_months":  36,
+                                        "allowed_months":  [
+                                                               1,
+                                                               3,
+                                                               6,
+                                                               12,
+                                                               24,
+                                                               36
+                                                           ],
+                                        "payment_note":  "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+                                        "term_note":  "공식 가입기간은 1·3·6·12·24·36개월입니다. 1~36개월의 모든 개월 수로 확대하지 않습니다.",
+                                        "eligibility_note":  "공식 대상은 만 17세 이상 실명의 개인·개인사업자, 본인 명의 케이뱅크 입출금통장을 통해 납입. 실제 가입 자격 미판정.",
+                                        "features":  [
+                                                         "공식 기간별 기본금리를 표시합니다. 개별 우대코드 가산은 미반영."
+                                                     ],
+                                        "preferential_conditions":  [
+                                                                        "이벤트 우대코드는 진행 여부·개인 코드가 확인되지 않아 표시 최고금리에 반영하지 않습니다."
+                                                                    ],
+                                        "required_checks":  [
+                                                                "공식 원문 시간초과로 이번 재확인 미완료",
+                                                                "사용자의 실제 가입 자격",
+                                                                "우대조건 실제 충족 여부",
+                                                                "검증된 날짜별 만기 계산 계약"
+                                                            ],
+                                        "channels":  [
+                                                         "은행 공식 상품 페이지 또는 앱에서 확인"
+                                                     ],
+                                        "early_exit_note":  "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+                                        "reference_only":  false,
+                                        "reference_reason":  null,
+                                        "rates":  [
+                                                      {
+                                                          "min_months":  1,
+                                                          "max_months":  1,
+                                                          "base_rate_percent":  "2.90",
+                                                          "max_total_rate_percent":  "2.90",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  3,
+                                                          "max_months":  3,
+                                                          "base_rate_percent":  "3.10",
+                                                          "max_total_rate_percent":  "3.10",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  6,
+                                                          "max_months":  6,
+                                                          "base_rate_percent":  "3.60",
+                                                          "max_total_rate_percent":  "3.60",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  12,
+                                                          "max_months":  12,
+                                                          "base_rate_percent":  "3.80",
+                                                          "max_total_rate_percent":  "3.80",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  24,
+                                                          "max_months":  24,
+                                                          "base_rate_percent":  "3.20",
+                                                          "max_total_rate_percent":  "3.20",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  36,
+                                                          "max_months":  36,
+                                                          "base_rate_percent":  "3.20",
+                                                          "max_total_rate_percent":  "3.20",
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      }
+                                                  ],
+                                        "sources":  [
+                                                        {
+                                                            "url":  "https://www.kbanknow.com/web/product/deposit/codek-saving",
+                                                            "title":  "케이뱅크 코드K 자유적금 공식 상품안내 재확인",
+                                                            "reviewed_on":  "2026-11-09",
+                                                            "basis_date":  "2026-11-09",
+                                                            "mode":  "OFFICIAL_PAGE",
+                                                            "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                        }
+                                                    ],
+                                        "disclosure_ids":  [
+
+                                                           ],
+                                        "comparison_hold_reason":  null,
+                                        "amount_increment":  null,
+                                        "calculation":  null,
+                                        "eligibility":  "UNKNOWN"
+                                    },
+                        "review":  {
+                                       "product_id":  "KBANK-CODEK-SAVINGS",
+                                       "rates":  [
+                                                     {
+                                                         "min_months":  1,
+                                                         "max_months":  1,
+                                                         "base_rate_percent":  "2.90",
+                                                         "max_total_rate_percent":  "2.90",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  3,
+                                                         "max_months":  3,
+                                                         "base_rate_percent":  "3.10",
+                                                         "max_total_rate_percent":  "3.10",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  6,
+                                                         "max_months":  6,
+                                                         "base_rate_percent":  "3.60",
+                                                         "max_total_rate_percent":  "3.60",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  12,
+                                                         "max_months":  12,
+                                                         "base_rate_percent":  "3.80",
+                                                         "max_total_rate_percent":  "3.80",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  24,
+                                                         "max_months":  24,
+                                                         "base_rate_percent":  "3.20",
+                                                         "max_total_rate_percent":  "3.20",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  36,
+                                                         "max_months":  36,
+                                                         "base_rate_percent":  "3.20",
+                                                         "max_total_rate_percent":  "3.20",
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     }
+                                                 ],
+                                       "sources":  [
+                                                       {
+                                                           "url":  "https://www.kbanknow.com/web/product/deposit/codek-saving",
+                                                           "title":  "케이뱅크 코드K 자유적금 공식 상품안내 재확인",
+                                                           "reviewed_on":  "2026-11-09",
+                                                           "basis_date":  "2026-11-09",
+                                                           "mode":  "OFFICIAL_PAGE",
+                                                           "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                       }
+                                                   ]
+                                   },
+                        "sale_status":  "CURRENT",
+                        "evidence_note":  "directly opened in a browser on 2026-11-09 (no HTTP-only check); product summary: individuals/sole proprietors, monthly 1,000-300,000 KRW, 1/3/6/12/24/36 months. Rates read from the rate data the page itself loads (as-of 2026-11-09; rows registered 2026-09-29): 1-3m 2.90, 3-6m 3.10, 6-12m 3.60, 12-24m 3.80, 24-36m 3.20, 36m 3.20 (base = max, no preferential). Identical to the stored table.",
+                        "change_notes":  [
+
+                                         ]
+                    },
+                    {
+                        "product":  {
+                                        "product_id":  "KBANK-DEPOSIT",
+                                        "institution":  "케이뱅크",
+                                        "product_name":  "코드K 정기예금",
+                                        "kind":  "DEPOSIT",
+                                        "schedule":  "LUMP_SUM",
+                                        "minimum":  1000000,
+                                        "maximum":  null,
+                                        "maximum_kind":  "UNLIMITED",
+                                        "min_months":  1,
+                                        "max_months":  36,
+                                        "allowed_months":  null,
+                                        "payment_note":  "한 번에 100만원 이상 예치. 한도 없는 금액으로 안내.",
+                                        "term_note":  "1~36개월.",
+                                        "eligibility_note":  "만 17세 이상 실명의 개인 및 개인사업자 안내.",
+                                        "features":  [
+                                                         "가입 후 14일 이내 금리보장서비스·부분인출 조건 확인."
+                                                     ],
+                                        "preferential_conditions":  [
+                                                                        "일반 우대조건과 별도로 금리보장서비스 적용 요건 확인."
+                                                                    ],
+                                        "required_checks":  [
+                                                                "현재 판매 여부",
+                                                                "가입 대상·계좌 개설 요건",
+                                                                "가입일 금리와 우대조건"
+                                                            ],
+                                        "channels":  [
+                                                         "은행 공식 상품 페이지 또는 앱에서 확인"
+                                                     ],
+                                        "early_exit_note":  "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+                                        "reference_only":  false,
+                                        "reference_reason":  null,
+                                        "rates":  [
+                                                      {
+                                                          "min_months":  1,
+                                                          "max_months":  2,
+                                                          "base_rate_percent":  "2.90",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  3,
+                                                          "max_months":  5,
+                                                          "base_rate_percent":  "3.30",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  6,
+                                                          "max_months":  11,
+                                                          "base_rate_percent":  "3.40",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  12,
+                                                          "max_months":  23,
+                                                          "base_rate_percent":  "3.61",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  24,
+                                                          "max_months":  35,
+                                                          "base_rate_percent":  "3.10",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  36,
+                                                          "max_months":  36,
+                                                          "base_rate_percent":  "3.15",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      }
+                                                  ],
+                                        "sources":  [
+                                                        {
+                                                            "url":  "https://www.kbanknow.com/web/product/deposit/codek-fixed",
+                                                            "title":  "케이뱅크 코드K 정기예금 공식 상품안내 재확인",
+                                                            "reviewed_on":  "2026-11-09",
+                                                            "basis_date":  "2026-11-09",
+                                                            "mode":  "OFFICIAL_PAGE",
+                                                            "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                        }
+                                                    ],
+                                        "disclosure_ids":  [
+
+                                                           ],
+                                        "comparison_hold_reason":  null,
+                                        "amount_increment":  null,
+                                        "calculation":  null,
+                                        "eligibility":  "UNKNOWN"
+                                    },
+                        "review":  {
+                                       "product_id":  "KBANK-DEPOSIT",
+                                       "rates":  [
+                                                     {
+                                                         "min_months":  1,
+                                                         "max_months":  2,
+                                                         "base_rate_percent":  "2.90",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  3,
+                                                         "max_months":  5,
+                                                         "base_rate_percent":  "3.30",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  6,
+                                                         "max_months":  11,
+                                                         "base_rate_percent":  "3.40",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  12,
+                                                         "max_months":  23,
+                                                         "base_rate_percent":  "3.61",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  24,
+                                                         "max_months":  35,
+                                                         "base_rate_percent":  "3.10",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  36,
+                                                         "max_months":  36,
+                                                         "base_rate_percent":  "3.15",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     }
+                                                 ],
+                                       "sources":  [
+                                                       {
+                                                           "url":  "https://www.kbanknow.com/web/product/deposit/codek-fixed",
+                                                           "title":  "케이뱅크 코드K 정기예금 공식 상품안내 재확인",
+                                                           "reviewed_on":  "2026-11-09",
+                                                           "basis_date":  "2026-11-09",
+                                                           "mode":  "OFFICIAL_PAGE",
+                                                           "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                       }
+                                                   ]
+                                   },
+                        "sale_status":  "CURRENT",
+                        "evidence_note":  "directly opened in a browser on 2026-11-09 (no HTTP-only check); product summary: individuals/sole proprietors, 1,000,000 KRW or more, 1-36 months. Rates read from the rate data the page itself loads (as-of 2026-11-09; rows registered 2026-08-15): 30-90d 2.90, 90-180d 3.30, 180-365d 3.40, 365-730d 3.61, 730-1095d 3.10, 1095d+ 3.15. Identical to the stored table.",
+                        "change_notes":  [
+
+                                         ]
+                    },
+                    {
+                        "product":  {
+                                        "product_id":  "KN-BETTER-SAVING",
+                                        "institution":  "BNK경남은행",
+                                        "product_name":  "BNK더조은자유적금",
+                                        "kind":  "SAVINGS",
+                                        "schedule":  "MONTHLY",
+                                        "minimum":  10000,
+                                        "maximum":  5000000,
+                                        "maximum_kind":  "KNOWN",
+                                        "min_months":  6,
+                                        "max_months":  24,
+                                        "allowed_months":  null,
+                                        "payment_note":  "월 단위 납입 조건입니다. 고객당 월 500만원, 저축 횟수 999회. 과거 300만원 한도를 재사용하지 않음.",
+                                        "term_note":  "6~24개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+                                        "eligibility_note":  "실명의 개인",
+                                        "features":  [
+                                                         "현행 상세·판매베스트, 2026-07-30 공시·유효기간 2026-12-31까지.",
+                                                         "고객당 월 500만원, 저축 횟수 999회. 과거 300만원 한도를 재사용하지 않음."
+                                                     ],
+                                        "preferential_conditions":  [
+                                                                        "오픈뱅킹·자동이체·쿠폰 조건 확인"
+                                                                    ],
+                                        "required_checks":  [
+                                                                "실제 가입 대상 및 계좌 수·고객당 합산한도",
+                                                                "최신 금리 및 우대조건 충족 여부",
+                                                                "최초·추가 납입과 납입일 조건"
+                                                            ],
+                                        "channels":  [
+                                                         "모바일·인터넷·모바일웹"
+                                                     ],
+                                        "early_exit_note":  "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+                                        "reference_only":  false,
+                                        "reference_reason":  null,
+                                        "rates":  [
+                                                      {
+                                                          "min_months":  6,
+                                                          "max_months":  11,
+                                                          "base_rate_percent":  "3.10",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  12,
+                                                          "max_months":  23,
+                                                          "base_rate_percent":  "3.20",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      },
+                                                      {
+                                                          "min_months":  24,
+                                                          "max_months":  24,
+                                                          "base_rate_percent":  "3.20",
+                                                          "max_total_rate_percent":  null,
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                      }
+                                                  ],
+                                        "sources":  [
+                                                        {
+                                                            "url":  "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N\u0026FNC_PRD_DIS_CD=01\u0026FNC_PRD_NO=0000020178\u0026ib20_redirect_org_mnu=FPMCOM990000000\u0026ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+                                                            "title":  "BNK경남은행 BNK더조은자유적금 현재 공식 상품안내·금리표",
+                                                            "reviewed_on":  "2026-11-09",
+                                                            "basis_date":  null,
+                                                            "mode":  "OFFICIAL_PAGE",
+                                                            "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                        }
+                                                    ],
+                                        "disclosure_ids":  [
+
+                                                           ],
+                                        "comparison_hold_reason":  null,
+                                        "amount_increment":  null,
+                                        "calculation":  null,
+                                        "eligibility":  "UNKNOWN"
+                                    },
+                        "review":  {
+                                       "product_id":  "KN-BETTER-SAVING",
+                                       "rates":  [
+                                                     {
+                                                         "min_months":  6,
+                                                         "max_months":  11,
+                                                         "base_rate_percent":  "3.10",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  12,
+                                                         "max_months":  23,
+                                                         "base_rate_percent":  "3.20",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     },
+                                                     {
+                                                         "min_months":  24,
+                                                         "max_months":  24,
+                                                         "base_rate_percent":  "3.20",
+                                                         "max_total_rate_percent":  null,
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                     }
+                                                 ],
+                                       "sources":  [
+                                                       {
+                                                           "url":  "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N\u0026FNC_PRD_DIS_CD=01\u0026FNC_PRD_NO=0000020178\u0026ib20_redirect_org_mnu=FPMCOM990000000\u0026ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+                                                           "title":  "BNK경남은행 BNK더조은자유적금 현재 공식 상품안내·금리표",
+                                                           "reviewed_on":  "2026-11-09",
+                                                           "basis_date":  null,
+                                                           "mode":  "OFFICIAL_PAGE",
+                                                           "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
+                                                       }
+                                                   ]
+                                   },
+                        "sale_status":  "CURRENT",
+                        "evidence_note":  "directly opened in a browser on 2026-11-09 (no HTTP-only check); product page: individuals, 6-24 months (monthly), 10,000-5,000,000 KRW per month, free installment; rate tab: 6-\u003c12m 3.10, 12-\u003c24m 3.20, 24m 3.20 (before tax; preferential up to +0.70pp not used). The page shows no as-of date for the table. Identical to the stored table.",
+                        "change_notes":  [
+
+                                         ]
+                    }
+                ],
+    "holds":  [
+
+              ],
+    "actual_maturity_calculations":  0,
+    "scope_note":  "Kbank (3 products) and BNK Kyongnam Better Saving: rate tables read on 2026-11-09 from the pages (Kbank: from the rate data the page loads); no rate changed."
+}

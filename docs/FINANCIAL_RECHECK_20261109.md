@@ -33,15 +33,28 @@
 
 입력은 `renewals/20261109/kb-reviewed.json`이고 우대금리는 쓰지 않았다. 따라서 이날 갱신한 상품은 **15개**다(위 13개 + KB 2개).
 
-## 읽지 못한 상위 상품 5개 (갱신하지 않음)
+## 케이뱅크 3개와 경남 더조은자유적금 (같은 날 후속 확인)
+
+| 상품 | 읽은 내용 | 변동 | 새 기한 |
+| --- | --- | --- | --- |
+| 케이뱅크 주거래우대 자유적금 | 6~12개월 3.30 / 1~2년 3.70 / 2~3년 3.50 / 3년 3.50 (기본, 일수 구간) | 없음 | 11-16 |
+| 케이뱅크 코드K 자유적금 | 1·3·6·12·24·36개월 2.90/3.10/3.60/3.80/3.20/3.20 | 없음 | 11-16 |
+| 케이뱅크 코드K 정기예금 | 30·90·180·365·730·1095일 구간 2.90/3.30/3.40/3.61/3.10/3.15 | 없음 | 11-16 |
+| BNK경남 더조은자유적금 | 6~12개월 3.10 / 12~24개월 3.20 / 24개월 3.20, 월 1만~500만 원 | 없음 | 11-16 |
+
+- 케이뱅크는 화면의 펼침 영역에 "조회기준일 2025.09.19"의 옛 문구(기본 2.90~3.00%)가 남아 있어 근거로 쓰지 않았다. 대신 **각 상품 페이지가 스스로 불러오는 금리 데이터**(기준일 2026-11-09, 약정이율 행의 등록일 2026-09-29 / 2026-08-15)를 읽었고, 화면 상단 요약(주거래우대 기본 3.70·최고 4.30)과도 일치했다. 앞서 "API가 2018년 값"이라고 적은 것은 만기 후·중도해지 행을 잘못 읽은 것이었고, 약정이율 행은 최신이다.
+- 경남은행 페이지는 표의 기준일을 표시하지 않는다. 읽은 날(11/9)에 게시 중인 표라는 뜻이다.
+- 입력은 `renewals/20261109/kbank-kn-reviewed.json`이다. 이날 갱신한 상품은 **19개**다.
+
+## 읽지 못한 상위 상품 1개 (갱신하지 않음)
 
 | 상품 | 이유 |
 | --- | --- |
-| 케이뱅크 주거래우대 자유적금, 코드K 정기예금, 코드K 자유적금 | 화면 상단 요약(주거래우대 자유적금: 기본 3.70%·최고 4.30%·월 최대 300만 원·6~36개월)은 확인되고 저장값의 12~23개월 구간(3.70/4.30)과 같다. 그러나 **기간별 표는 확인하지 못했다.** 펼침 영역의 본문은 "조회기준일 2025.09.19" 값(기본 2.90~3.00%)을 보여 주고, 같은 페이지의 금리 API 응답은 2018년 등록 값이어서, 어느 쪽도 현재 표라고 볼 수 없었다. 상단 요약과 충돌하는 자료를 근거로 쓰지 않았고 갱신하지 않았다 |
-| 부산이라 좋다 Big적금 | 시도하지 않았다(PDF 상품설명서) |
-| BNK더조은자유적금(경남) | 시도하지 않았다(동적 화면) |
+| 부산이라 좋다 Big적금 | 금리가 PDF 상품설명서에만 있다. 상품공시실 목록에는 판매 중으로 올라 있고(공시기준일 2026-11-09), PDF 링크는 파일 다운로드로 열려 읽지 않았다. 다운로드는 사용자 허락이 필요하다 |
 
-이 5개와 나머지 30개(추천에 나올 수 있는 50개 중 총 35개)는 **11/13~11/14에 만료**되어 추천에서 빠진다. 이 중 상위 노출이 많은 케이뱅크 3개의 영향이 가장 크다(대표 입력 98회 중 30회).
+이 1개와 나머지 30개(추천에 나올 수 있는 50개 중 총 31개)는 **11/13~11/14에 만료**되어 추천에서 빠진다.
+
+이날 갱신한 15·19개 모두 기존 저장 금리와 같았다. 또한 이전 날짜(11/6)의 근거 문구·해시가 11/9 기록에 남아 있으면 오해를 주므로, 이번 배치의 `evidence_locator`와 `locator`는 "11/9에 다시 읽음"으로 바꾸었다.
 
 ## 알아 둘 점
 
@@ -55,11 +68,11 @@
 입력은 `data/financial-products/renewals/20261109/priority-reviewed.json`이다. 새 시험(`tests/test_financial_renewals_reproducible.py`)이 공개 자료가 기록된 입력 파일의 컴파일 결과와 정확히 같은지 확인하므로, 입력 없이 JSON만 고치면 시험이 실패한다.
 
 ```powershell
-python -m tools.build_financial_renewals --catalog data/financial-products/discovery-extended-20261103.json --reviews data/financial-products/verified-basic-rates-extended-20261103.json --batch data/financial-products/renewals/20261106/banks-reviewed.json --batch data/financial-products/renewals/20261106/regional-reviewed.json --batch data/financial-products/renewals/20261106/savings-hanwha-reviewed.json --batch data/financial-products/renewals/20261106/savings-reviewed.json --batch data/financial-products/renewals/20261107/savings-banks-reviewed.json --batch data/financial-products/renewals/20261109/kb-reviewed.json --batch data/financial-products/renewals/20261109/priority-reviewed.json --as-of 2026-11-09 --output frontend/src/public-data/financial-renewals.json
+python -m tools.build_financial_renewals --catalog data/financial-products/discovery-extended-20261103.json --reviews data/financial-products/verified-basic-rates-extended-20261103.json --batch data/financial-products/renewals/20261106/banks-reviewed.json --batch data/financial-products/renewals/20261106/regional-reviewed.json --batch data/financial-products/renewals/20261106/savings-hanwha-reviewed.json --batch data/financial-products/renewals/20261106/savings-reviewed.json --batch data/financial-products/renewals/20261107/savings-banks-reviewed.json --batch data/financial-products/renewals/20261109/kb-reviewed.json --batch data/financial-products/renewals/20261109/kbank-kn-reviewed.json --batch data/financial-products/renewals/20261109/priority-reviewed.json --as-of 2026-11-09 --output frontend/src/public-data/financial-renewals.json
 ```
 
 ## 다음 회차 (11/12 권장)
 
-1. 케이뱅크 3개: 기간별 금리표가 실제로 어디에 표시되는지(앱 화면·상품설명서 PDF 등)부터 찾는다. 이번에는 펼침 영역과 API가 낡은 값이라 확정하지 못했다.
-2. 부산 Big적금(PDF), 경남 더조은자유적금을 읽는다.
-3. 갱신한 15개 상품은 11/16에 만료되므로 11/12~11/15 사이에 다시 읽는다. 절차는 [주간 계획](WEEKLY_RECHECK_PLAN_202611.md).
+1. 케이뱅크는 상품 페이지가 불러오는 금리 데이터(상품별 `WEBPRDDPT0000100A/200A/300A`)의 "약정이율" 행을 읽는 방법을 쓴다. 펼침 영역 문구는 낡았다.
+2. 부산 Big적금은 PDF 다운로드에 대한 사용자 허락이 있을 때 읽는다.
+3. 갱신한 19개 상품은 11/16에 만료되므로 11/12~11/15 사이에 다시 읽는다. 절차는 [주간 계획](WEEKLY_RECHECK_PLAN_202611.md).

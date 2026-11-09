@@ -41,7 +41,7 @@
                                                           "max_months":  6,
                                                           "base_rate_percent":  "2.00",
                                                           "max_total_rate_percent":  null,
-                                                          "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                       }
                                                   ],
                                         "sources":  [
@@ -51,7 +51,7 @@
                                                             "reviewed_on":  "2026-11-09",
                                                             "basis_date":  "2026-11-09",
                                                             "mode":  "OFFICIAL_PAGE",
-                                                            "locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+                                                            "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                         }
                                                     ],
                                         "disclosure_ids":  [
@@ -70,7 +70,7 @@
                                                          "max_months":  6,
                                                          "base_rate_percent":  "2.00",
                                                          "max_total_rate_percent":  null,
-                                                         "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                      }
                                                  ],
                                        "sources":  [
@@ -80,7 +80,7 @@
                                                            "reviewed_on":  "2026-11-09",
                                                            "basis_date":  "2026-11-09",
                                                            "mode":  "OFFICIAL_PAGE",
-                                                           "locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명의 개인1인3계좌,월1000~30만원,1~6개월,기본연2.00%."
+                                                           "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                        }
                                                    ]
                                    },
@@ -130,14 +130,14 @@
                                                           "max_months":  11,
                                                           "base_rate_percent":  "1.00",
                                                           "max_total_rate_percent":  null,
-                                                          "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                       },
                                                       {
                                                           "min_months":  12,
                                                           "max_months":  12,
                                                           "base_rate_percent":  "2.00",
                                                           "max_total_rate_percent":  null,
-                                                          "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                          "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                       }
                                                   ],
                                         "sources":  [
@@ -147,7 +147,7 @@
                                                             "reviewed_on":  "2026-11-09",
                                                             "basis_date":  "2026-11-09",
                                                             "mode":  "OFFICIAL_PAGE",
-                                                            "locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                            "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                         }
                                                     ],
                                         "disclosure_ids":  [
@@ -166,14 +166,14 @@
                                                          "max_months":  11,
                                                          "base_rate_percent":  "1.00",
                                                          "max_total_rate_percent":  null,
-                                                         "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                      },
                                                      {
                                                          "min_months":  12,
                                                          "max_months":  12,
                                                          "base_rate_percent":  "2.00",
                                                          "max_total_rate_percent":  null,
-                                                         "evidence_locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                         "evidence_locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                      }
                                                  ],
                                        "sources":  [
@@ -183,7 +183,7 @@
                                                            "reviewed_on":  "2026-11-09",
                                                            "basis_date":  "2026-11-09",
                                                            "mode":  "OFFICIAL_PAGE",
-                                                           "locator":  "현재 가입하기 안내와 상품정보·기본이율2026.11.06. 실명개인1인2계좌,개인사업자/서류미제출임의단체가능,월1만~100만원,3~12개월. 기본이율3~11개월1.00%,12개월2.00%."
+                                                           "locator":  "Read again in a browser on 2026-11-09: product page and its rate data compared with the stored table; all rows identical. (Earlier 2026-11-06 reading, hash and wording replaced.)"
                                                        }
                                                    ]
                                    },
