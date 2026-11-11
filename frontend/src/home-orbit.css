@@ -1,0 +1,54 @@
+/* Home hero object: a small turning block with a home and growing savings columns. CSS 3D only. */
+@property --spin{syntax:'<angle>';inherits:true;initial-value:-38deg}
+
+.home-visual{display:grid;justify-items:center;align-content:center;gap:6px;min-width:0}
+.home-orbit{position:relative;width:100%;height:470px;perspective:1700px;perspective-origin:50% 30%;display:grid;place-items:center;overflow:visible;pointer-events:none}
+.orbit-shadow{position:absolute;left:50%;top:62%;width:330px;height:120px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(closest-side,#16304f2e,#16304f00);filter:blur(6px)}
+.orbit-stage{position:relative;width:240px;height:240px;transform-style:preserve-3d;transform:translateY(46px) scale(1.32) rotateX(58deg) rotateZ(var(--spin));animation:orbit-spin 42s linear infinite}
+@keyframes orbit-spin{from{--spin:-38deg}to{--spin:322deg}}
+
+.orbit-box{position:absolute;transform-style:preserve-3d}
+.orbit-box>i{position:absolute;display:block;backface-visibility:visible}
+.orbit-box>.f-top{left:0;top:0;width:100%;height:100%;transform:translateZ(var(--h));background:var(--top)}
+.orbit-box>.f-s{left:0;top:100%;width:100%;height:var(--h);transform-origin:top;transform:rotateX(90deg);background:var(--side-a)}
+.orbit-box>.f-n{left:0;top:calc(-1 * var(--h));width:100%;height:var(--h);transform-origin:bottom;transform:rotateX(-90deg);background:var(--side-a)}
+.orbit-box>.f-e{left:100%;top:0;width:var(--h);height:100%;transform-origin:left;transform:rotateY(-90deg);background:var(--side-b)}
+.orbit-box>.f-w{left:calc(-1 * var(--h));top:0;width:var(--h);height:100%;transform-origin:right;transform:rotateY(90deg);background:var(--side-b)}
+
+.tone-base{--top:#eef3fa;--side-a:#cfdbea;--side-b:#bccbdf}
+.orbit-base>.f-top{background:linear-gradient(135deg,#f4f7fc,#e6edf7);box-shadow:inset 0 0 0 1px #d5e0ee}
+.tone-home{--top:#24456f;--side-a:#24456f;--side-b:#1a3556}
+.tone-save{--top:#7aa3ff;--side-a:#2f63e0;--side-b:#2450b9}
+.tone-save2{--top:#ffd978;--side-a:#f0b429;--side-b:#d39612}
+.tone-pad{--top:#d9e8d7;--side-a:#b8cfb5;--side-b:#a5bfa2}
+
+.orbit-deck{position:absolute;inset:0;transform-style:preserve-3d;transform:translateZ(18px)}
+.orbit-path{position:absolute;left:58px;top:96px;width:124px;height:58px;border:2px dashed #b6c6dc;border-top:0;border-left:0;border-radius:0 0 22px 0;transform:translateZ(.6px)}
+
+.orbit-home .roof{position:absolute;inset:0;transform-style:preserve-3d;transform:translateZ(46px)}
+.orbit-home .roof>i{position:absolute;display:block;backface-visibility:visible}
+.orbit-home .r-n{left:-5px;top:-3px;width:74px;height:40.6px;transform-origin:top;transform:rotateX(39.6deg);background:#e8684a}
+.orbit-home .r-s{left:-5px;top:20.4px;width:74px;height:40.6px;transform-origin:bottom;transform:rotateX(-39.6deg);background:#c9502f}
+.orbit-home .g-e{left:64px;top:0;width:24px;height:58px;transform-origin:left;transform:rotateY(-90deg);clip-path:polygon(0 0,100% 50%,0 100%);background:#1a3556}
+.orbit-home .g-w{left:-24px;top:0;width:24px;height:58px;transform-origin:right;transform:rotateY(90deg);clip-path:polygon(100% 0,0 50%,100% 100%);background:#1a3556}
+.orbit-home>.door{position:absolute;display:block;left:24px;top:58px;width:16px;height:26px;transform-origin:top;transform:rotateX(90deg) translateZ(-1px);background:#f6c453;border-radius:0 0 3px 3px}
+
+.orbit-col{animation:orbit-grow 7s cubic-bezier(.22,1,.36,1) infinite}
+.orbit-col.c2{animation-delay:.35s}.orbit-col.c3{animation-delay:.7s}
+@keyframes orbit-grow{0%{transform:scaleZ(.18)}38%,82%{transform:scaleZ(1)}100%{transform:scaleZ(.18)}}
+
+.orbit-billboard{position:absolute;width:0;height:0;transform-style:preserve-3d;transform:translateZ(var(--z)) rotateZ(calc(-1 * var(--spin))) rotateX(-58deg)}
+.orbit-bob{position:absolute;transform:translate(-50%,-100%);animation:orbit-bob 4.6s ease-in-out infinite;filter:drop-shadow(0 10px 12px #16304f24)}
+.bb-coin .orbit-bob{width:44px;height:44px;animation-delay:-1.4s}
+.bb-note .orbit-bob{width:50px;height:60px}
+.orbit-bob svg{display:block;width:100%;height:100%;overflow:visible}
+@keyframes orbit-bob{0%,100%{translate:0 0}50%{translate:0 -10px}}
+.coin-rim{fill:#f0b429}.coin-face{fill:#ffd978;stroke:#d39612;stroke-width:1.5}.coin-mark{fill:none;stroke:#9a6a06;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.note-paper{fill:#fff;stroke:#c9d6e6;stroke-width:1.5}.note-line{fill:none;stroke:#b8c7da;stroke-width:3.4;stroke-linecap:round}.note-badge{fill:#2459bd}.note-check{fill:none;stroke:#fff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+
+.home-visual-note{max-width:420px;margin:0;text-align:center;font-size:12px;line-height:1.8;color:#4d6075;font-variant-numeric:tabular-nums}
+.home-visual-note b{color:#172d46;font-weight:650}
+
+@media(max-width:1080px){.home-orbit{height:420px}.orbit-stage{transform:translateY(40px) scale(1.12) rotateX(58deg) rotateZ(var(--spin))}}
+@media(max-width:800px){.home-orbit{height:330px}.orbit-stage{transform:translateY(28px) scale(.92) rotateX(58deg) rotateZ(var(--spin))}.orbit-shadow{width:250px;height:90px}}
+@media(prefers-reduced-motion:reduce){.orbit-stage,.orbit-col,.orbit-bob{animation:none}.orbit-stage{--spin:-38deg}}

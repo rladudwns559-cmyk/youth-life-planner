@@ -1,7 +1,8 @@
 import releaseSummary from './public-data/release-summary.json';
 /** Presentation only. No profile input, financial arithmetic, or policy decisions. */
 export function BrandMark() {
-  return <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M5 25V14h6v11M13 25V6h6v19M21 25V11h6v14" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round"/><path d="M4 29h24" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/></svg>;
+  // A roof over three rising savings bars; the tallest is the goal (gold).
+  return <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M3.5 14.5 16 5l12.5 9.5" stroke="currentColor" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round"/><rect x="8" y="19.5" width="4.2" height="8" rx="1.2" fill="currentColor"/><rect x="13.9" y="15.5" width="4.2" height="12" rx="1.2" fill="currentColor"/><rect x="19.8" y="11.8" width="4.2" height="15.7" rx="1.2" fill="#f0b429"/><path d="M5 28.6h22" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/></svg>;
 }
 
 function Arrow() {
