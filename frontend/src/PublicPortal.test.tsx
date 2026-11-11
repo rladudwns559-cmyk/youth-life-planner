@@ -8,9 +8,9 @@ import App from './App';
 beforeEach(()=>{window.history.replaceState(null,'','/#/');vi.useFakeTimers({toFake:['Date']});vi.setSystemTime(new Date('2026-11-03T03:00:00Z'));vi.stubGlobal('fetch',vi.fn(()=>{throw new Error('Public product inputs must stay local');}));});
 afterEach(()=>vi.useRealTimers());
 describe('coherent free public site',()=>{
-  it('links the home to usable condition search without dead budget or alert menus',async()=>{
+  it('links the home to usable condition search, with the budget page open and no dead alert menu',async()=>{
     render(<App/>);const nav=within(screen.getByRole('navigation',{name:'주요 메뉴'}));
-    expect(nav.queryByRole('link',{name:'생활비 계산'})).not.toBeInTheDocument();expect(nav.queryByRole('link',{name:'모집 알림'})).not.toBeInTheDocument();
+    expect(nav.getByRole('link',{name:'생활비 계산'})).toHaveAttribute('href','#/budget');expect(nav.queryByRole('link',{name:'모집 알림'})).not.toBeInTheDocument();
     expect(screen.getByRole('link',{name:'내 조건에 맞는 지원 찾기'})).toHaveAttribute('href','#/programs');
     const action=screen.getByRole('link',{name:'내 조건에 맞는 지원 찾기'});const shortcuts=document.querySelector('.home-feature-links')!;expect(action.compareDocumentPosition(shortcuts)&Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();expect(document.querySelector('.home-copy')!.contains(action)).toBe(true);
     await userEvent.click(action);expect(await screen.findByRole('heading',{name:'공식 청년 지원사업'})).toBeVisible();
@@ -19,8 +19,8 @@ describe('coherent free public site',()=>{
     expect(document.querySelectorAll('.code-fit,.code-partial').length).toBeGreaterThan(4);expect(fetch).not.toHaveBeenCalled();
     expect(screen.queryByText('기존 계산 검증 자료 · 일반 상품 추천 아님')).not.toBeInTheDocument();
   });
-  it('redirects an old disabled budget link to product search',()=>{
-    window.history.replaceState(null,'','/#input-heading');render(<App/>);expect(screen.getByRole('heading',{level:1,name:'내 조건에 맞는 상품 찾기'})).toBeVisible();expect(screen.queryByLabelText('월세')).not.toBeInTheDocument();
+  it('opens the public budget page from an old budget link',()=>{
+    window.history.replaceState(null,'','/#input-heading');render(<App/>);expect(screen.getByRole('heading',{level:1,name:'생활비 계산'})).toBeVisible();expect(screen.getByLabelText('월세')).toBeEnabled();expect(screen.queryByText('계산 서버 연결 준비 중')).not.toBeInTheDocument();
   });
   it('redirects the old notification link to an honest guide with no pending-server advertisement',async()=>{
     window.history.replaceState(null,'','/#asset-alerts');render(<App/>);

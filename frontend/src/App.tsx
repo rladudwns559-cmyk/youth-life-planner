@@ -13,6 +13,7 @@ import { EmptyResult, ServiceGuide } from './ServiceShell';
 import {PortalHeader,PortalHome,PortalFooter,PageHeading,BackendPending,NeedsBudget} from './PortalShell';
 import {usePortalRoute,usePageTransition,publicBackendPending} from './portal-routing';
 import ProductExplorer from './ProductExplorer';
+import PublicBudget,{type PublicBudgetState} from './PublicBudget';
 import './launch-design.css';
 import './polish.css';
 import './theme-pro.css';
@@ -43,6 +44,7 @@ export default function App() {
   const [savingPeriod,setSavingPeriod]=useState('');
   const periodMonths=/^\d+$/.test(savingPeriod)&&Number(savingPeriod)>=1&&Number(savingPeriod)<=120?Number(savingPeriod):null;
   const [scenarioComparison,setScenarioComparison]=useState<ComparisonResult|null>(null);
+  const [publicBudget,setPublicBudget]=useState<PublicBudgetState|null>(null);
   const [form, setForm] = useState<FormValues>({ ...defaults });
   const [errors, setErrors] = useState<Partial<Record<keyof FormValues, string>>>({});
   const [result, setResult] = useState<SimulationResult | null>(null);
@@ -86,7 +88,12 @@ export default function App() {
     <PortalHeader route={route}/>
     <main id="main" className="portal-main"><div ref={transitionRef}>
       {route==='home'&&<div data-portal-page="home"><PortalHome/></div>}
-      {visited.has('budget')&&<div data-portal-page="budget" hidden={route!=='budget'} className="portal-page">
+      {publicBackendPending&&visited.has('budget')&&<div data-portal-page="budget" hidden={route!=='budget'} className="portal-page">
+        <PageHeading page="budget" eyebrow="월 예산 · 조건 변화" title="생활비 계산" description="남는 돈을 계산하고, 조건이 바뀌면 어떻게 달라지는지 비교해 보세요."/>
+        <PublicBudget onChange={setPublicBudget}/>
+        <PortalFooter/>
+      </div>}
+      {!publicBackendPending&&visited.has('budget')&&<div data-portal-page="budget" hidden={route!=='budget'} className="portal-page">
         <PageHeading page="budget" eyebrow="월 예산 · 정책 조건 · What-if" title="나의 경제생활 진단" description="알고 있는 정보부터 입력하고, 내 생활의 변화도 함께 살펴보세요."/>
         <BackendPending/>
         <aside className="demo-notice"><strong>정책 계산은 합성 3개로 시연합니다.</strong><span>실제 신청·수급 가능성을 확정하지 않으며, 정책 지원금은 예산에 반영하지 않습니다.</span></aside>
@@ -121,7 +128,7 @@ export default function App() {
       {visited.has('savings')&&<div data-portal-page="savings" hidden={route!=='savings'} className="portal-page">
         <PageHeading page="savings" eyebrow="은행 적금 · 정기예금 · 공식 근거" title="내 조건에 맞는 상품 찾기" description="납입 금액과 기간, 가입 대상, 우대조건을 함께 비교하세요."/>
         {publicBackendPending&&<button type="button" className="policy-accounts-jump" onClick={()=>{const reduced=typeof window.matchMedia==='function'&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;document.getElementById('asset-programs')?.scrollIntoView({block:'start',behavior:reduced?'auto':'smooth'});}}>정부·지자체 지원 통장 10개 보기 <span aria-hidden="true">↓</span></button>}
-        <ProductExplorer monthlyAmount={publicBackendPending?undefined:result?.cashflow.savable_amount} termMonths={periodMonths} afterAmount={scenarioComparison?.after.cashflow.savable_amount}/>
+        <ProductExplorer monthlyAmount={publicBackendPending?(publicBudget&&publicBudget.before.savable_amount>0?publicBudget.before.savable_amount:undefined):result?.cashflow.savable_amount} termMonths={periodMonths} afterAmount={publicBackendPending?(publicBudget?.after&&publicBudget.after.savable_amount>0?publicBudget.after.savable_amount:undefined):scenarioComparison?.after.cashflow.savable_amount}/>
         {publicBackendPending&&<AssetPrograms goalMonths={null}/>}
         {!publicBackendPending&&<details className="portal-archive" onToggle={e=>setLegacyOpen(e.currentTarget.open)}><summary>기존 계산 검증 자료 · 일반 상품 추천 아님</summary><p>이전 합성 계산·4상품 비교·과거 자료의 재현을 위한 개발 검증 영역입니다.</p>
         {legacyOpen&&(result?<>

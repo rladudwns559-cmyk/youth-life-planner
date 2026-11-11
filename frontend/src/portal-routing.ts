@@ -2,7 +2,7 @@ import {useEffect,useLayoutEffect,useRef,useState} from 'react';
 export type PortalRoute='home'|'budget'|'catalog'|'programs'|'savings'|'alerts'|'guide';
 const known=new Set<PortalRoute>(['home','budget','catalog','programs','savings','alerts','guide']);
 const legacy:Record<string,PortalRoute>={'programs/list':'catalog',main:'home','input-heading':'budget','result-heading':'budget','saving-period':'budget','asset-programs':'programs','asset-alerts':'alerts','service-guide':'guide'};
-export function resolveRoute(hash:string):PortalRoute {const key=hash.replace(/^#\/?/,'').split('?')[0];const next=known.has(key as PortalRoute)?key as PortalRoute:legacy[key]??'home';return next==='alerts'?'guide':publicBackendPending&&next==='budget'?'savings':next;}
+export function resolveRoute(hash:string):PortalRoute {const key=hash.replace(/^#\/?/,'').split('?')[0];const next=known.has(key as PortalRoute)?key as PortalRoute:legacy[key]??'home';return next==='alerts'?'guide':next;}
 export const routeLinks:Record<PortalRoute,string>={home:'#/',budget:'#/budget',programs:'#/programs',catalog:'#/programs/list',savings:'#/savings',alerts:'#/alerts',guide:'#/guide'};
 export const publicBackendPending=import.meta.env.VITE_PUBLIC_BACKEND_PENDING==='true';
 export function usePortalRoute(){
