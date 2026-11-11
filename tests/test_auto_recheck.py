@@ -5,7 +5,7 @@ from backend.finance.discovery import load_catalog
 from backend.finance.renewal import compile_renewals
 from tools import auto_recheck as ar
 
-TODAY = date(2026, 11, 12)
+TODAY = date(2099, 1, 1)  # far future: never collides with a real batch date
 RATES = [
     {'min_months': 6, 'max_months': 11, 'base_rate_percent': '3.30'},
     {'min_months': 12, 'max_months': 23, 'base_rate_percent': '3.70'},
@@ -95,7 +95,7 @@ def test_evaluate_renews_only_matching_pages_and_the_batch_compiles():
     reviews = {e['product_id']: e for e in json.loads(ar.REVIEWS.read_text(encoding='utf-8'))['entries']}
     result = compile_renewals(load_catalog(ar.CATALOG), reviews, batches, TODAY)
     assert result['records'][good]['checked_on'] == TODAY.isoformat()
-    assert result['records'][good]['valid_until'] == '2026-11-19'
+    assert result['records'][good]['valid_until'] == '2099-01-08'
     assert result['records'][changed]['checked_on'] != TODAY.isoformat()
 
 

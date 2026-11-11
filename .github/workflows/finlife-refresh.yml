@@ -4,9 +4,9 @@
 # and starts the Pages deployment.
 name: Refresh FSS disclosure data
 
+# Schedule removed on 2026-11-11: the API terms (article 9-3) forbid copying or storing the data,
+# and this job stores it. Keep it manual until the FSS confirms that storing is allowed.
 on:
-  schedule:
-    - cron: '10 21 * * *'   # 06:10 KST every day
   workflow_dispatch:
 
 permissions:
