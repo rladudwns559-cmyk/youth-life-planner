@@ -1,0 +1,83 @@
+/* Site-wide theme layer from the ui-ux-pro-max "Accessible & Ethical" design system
+   (government / public-service / finance; light, high-contrast, clear focus, 44px targets).
+   Palette neutrals, focus ring and type come from that system; the accent stays the existing
+   brand blue so the logo and the home miniature keep matching. Loaded last; colors only change
+   surfaces, borders, text and focus, never layout widths. */
+:root{
+  --ds-fg:#0f172a;--ds-text:#1e293b;--ds-muted:#475569;--ds-subtle:#64748b;
+  --ds-bg:#f8fafc;--ds-card:#ffffff;--ds-band:#eaf1fb;
+  --ds-border:#e2e8f0;--ds-border-strong:#cbd5e1;
+  --ds-accent:#2459bd;--ds-accent-ink:#173d88;--ds-accent-soft:#eaf1ff;--ds-ring:#0369a1;
+  --ds-radius:14px;--ds-radius-sm:10px;
+  --ds-shadow:0 1px 2px #0f172a0d,0 6px 18px #0f172a0f;
+  --ds-shadow-hover:0 2px 4px #0f172a12,0 14px 30px #0f172a1a;
+  --ds-font:"IBM Plex Sans KR","Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI","맑은 고딕",sans-serif;
+  --ds-ease:cubic-bezier(.22,1,.36,1);
+}
+html{background-color:var(--ds-bg)}
+html,body,button,input,select,textarea{font-family:var(--ds-font)}
+body{color:var(--ds-text);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3,h4{color:var(--ds-fg);font-weight:700}
+::selection{background:#cfe0ff;color:var(--ds-fg)}
+:where(a,button,select,input,textarea,summary,[tabindex]):focus-visible{outline:3px solid var(--ds-ring);outline-offset:2px;border-radius:6px}
+a{text-underline-offset:3px}
+
+/* Header */
+.portal-header{background:#ffffffeb;backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);box-shadow:0 1px 0 var(--ds-border)}
+.portal-header .brand{color:var(--ds-fg)}
+.portal-header .primary-nav a{color:var(--ds-muted);font-weight:500;transition:color 160ms}
+.portal-header .primary-nav a:hover{color:var(--ds-accent)}
+.portal-header .primary-nav a[aria-current=page]{color:var(--ds-accent);font-weight:600}
+
+/* Inner page heading: a full-bleed tinted band, same sky as the home page */
+.portal-page-heading{position:relative;padding:26px 0 28px;margin:0 0 30px;border-bottom:0;background:var(--ds-band);box-shadow:0 0 0 100vmax var(--ds-band);clip-path:inset(-120px -100vmax 0 -100vmax)}
+.portal-page-heading h1{color:var(--ds-fg);letter-spacing:-.02em;font-weight:700}
+.portal-page-heading>.eyebrow{color:var(--ds-accent-ink);font-weight:600;letter-spacing:0}
+.portal-back{color:var(--ds-muted);font-weight:500}
+.portal-back:hover{color:var(--ds-accent)}
+
+/* Home copy */
+.home-copy h1{color:var(--ds-fg);letter-spacing:-.025em}
+.home-copy h1>span{color:var(--ds-accent)}
+.home-lead{color:var(--ds-muted)}
+.home-main-action{min-height:56px;transition:transform 160ms var(--ds-ease),box-shadow 160ms}
+.home-main-action:hover{transform:translateY(-1px)}
+.home-feature{background:var(--ds-card);border:1px solid var(--ds-border);border-radius:var(--ds-radius);box-shadow:var(--ds-shadow);transition:transform 180ms var(--ds-ease),box-shadow 180ms,border-color 180ms}
+a.home-feature:hover{transform:translateY(-2px);box-shadow:var(--ds-shadow-hover);border-color:#c9d8f0}
+.home-feature strong{color:var(--ds-fg)}
+.home-feature small{color:var(--ds-muted)}
+
+/* Shared surfaces: forms, filters, panels */
+.support-filters,.discovery-form,.asset-tools,.support-condition-prompt,.service-guide .guide-questions>*{background:var(--ds-card);border:1px solid var(--ds-border);border-radius:var(--ds-radius);box-shadow:var(--ds-shadow)}
+
+/* Result cards */
+.support-card,.discovery-card,.asset-card,.recommendation-card{background:var(--ds-card);border:1px solid var(--ds-border);border-radius:var(--ds-radius);box-shadow:var(--ds-shadow);transition:box-shadow 180ms,border-color 180ms,transform 180ms var(--ds-ease)}
+.support-card:hover,.discovery-card:hover,.asset-card:hover,.recommendation-card:hover{box-shadow:var(--ds-shadow-hover);border-color:#c9d8f0}
+.support-card h3,.discovery-card h3,.asset-card h3,.recommendation-card h3{color:var(--ds-fg)}
+
+/* Controls: visible borders, 44px targets */
+/* Only fields that draw their own box; fields wrapped in a bordered label (amount + unit) keep the wrapper. */
+.portal-main select,.support-filters input:is([type=text],[type=search],[type=number],:not([type])){min-height:44px;border:1px solid var(--ds-border-strong);border-radius:var(--ds-radius-sm);background-color:#fff;color:var(--ds-fg);transition:border-color 160ms,box-shadow 160ms}
+.portal-main select:hover,.support-filters input:hover{border-color:#94a3b8}
+.portal-main select:focus-visible,.support-filters input:focus-visible{outline:none;border-color:var(--ds-ring);box-shadow:0 0 0 3px #0369a133}
+.portal-main ::placeholder{color:#64748b}
+.portal-main input[type=checkbox],.portal-main input[type=radio]{accent-color:var(--ds-accent)}
+.finder-primary,.policy-accounts-jump,.asset-show-more{min-height:44px;border-radius:var(--ds-radius-sm);transition:transform 160ms var(--ds-ease),box-shadow 160ms,background-color 160ms}
+.finder-primary:hover,.policy-accounts-jump:hover{transform:translateY(-1px)}
+
+.service-guide .guide-questions{display:grid;gap:10px}
+.service-guide .guide-questions>*{padding:0 20px;border-top:1px solid var(--ds-border)}
+.service-guide .guide-questions>* summary{min-height:56px;color:var(--ds-fg);font-weight:600}
+
+/* Detail disclosures */
+.portal-main details>summary{cursor:pointer}
+
+/* Footer */
+.portal-footer{border-top:1px solid var(--ds-border);color:var(--ds-muted)}
+
+@media(max-width:800px){.portal-page-heading{padding:14px 0 18px;margin-bottom:22px}}
+
+@media(prefers-reduced-motion:reduce){
+  .home-main-action,.home-feature,.support-card,.discovery-card,.asset-card,.recommendation-card,.finder-primary,.policy-accounts-jump{transition:none}
+  a.home-feature:hover,.home-main-action:hover,.finder-primary:hover,.policy-accounts-jump:hover{transform:none}
+}

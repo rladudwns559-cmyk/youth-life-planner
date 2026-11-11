@@ -18,7 +18,8 @@ if (-not $js -or -not $css) { throw 'entry js/css not found in build output' }
 # The Artifact tool wraps the page in its own document skeleton, so write a fragment, not a full document.
 # Title is written with Unicode escapes on purpose: Windows PowerShell 5.1 reads BOM-less scripts as ANSI and would garble literal Korean.
 $title = -join ([char[]](0xCCAD, 0xB144, 0x20, 0xACBD, 0xC81C, 0xC0DD, 0xD65C))
-$page = "<title>$title</title>`n<link rel=`"stylesheet`" href=`"./assets/$($css.Name)`">`n<div id=`"root`"></div>`n<script type=`"module`" src=`"./assets/$($js.Name)`"></script>`n"
+$font = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">'
+$page = "<title>$title</title>`n$font`n<link rel=`"stylesheet`" href=`"./assets/$($css.Name)`">`n<div id=`"root`"></div>`n<script type=`"module`" src=`"./assets/$($js.Name)`"></script>`n"
 [IO.File]::WriteAllText((Join-Path $OutDir 'page.html'), $page, (New-Object Text.UTF8Encoding($false)))
 Write-Host "Artifact package: $OutDir"
 Write-Host 'Supporting files to publish (relative to OutDir):'

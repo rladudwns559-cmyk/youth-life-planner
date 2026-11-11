@@ -15,6 +15,7 @@ import {usePortalRoute,usePageTransition,publicBackendPending} from './portal-ro
 import ProductExplorer from './ProductExplorer';
 import './launch-design.css';
 import './polish.css';
+import './theme-pro.css';
 
 const money = (amount: number) => `${amount.toLocaleString('ko-KR')}원`;
 const fieldNames: Record<string, string> = { age: '만 나이', region: '거주 지역', employment_status: '취업 상태', student_status: '재학 상태', household_income: '정책 기준의 가구소득' };
