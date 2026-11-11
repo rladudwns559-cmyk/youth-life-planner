@@ -1,6 +1,7 @@
 .venv/
 node_modules/
 dist/
+dist-pages/
 __pycache__/
 *.pyc
 .pytest_cache/
