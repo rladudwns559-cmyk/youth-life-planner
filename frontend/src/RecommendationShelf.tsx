@@ -39,7 +39,7 @@ export default function RecommendationShelf({items,months,onView}:{items:Pick[];
    {p.code==='FIT'?<ul className="recommendation-fit"><li>{months}개월 기간 일치 · 입력한 금액 전액으로 비교 가능</li></ul>:<ul><li>{months}개월 기간 조건 일치</li><li>상품 한도 내 일부 금액으로 비교 가능</li><li>입력 예산 전체에 이 금리를 적용하지 않음</li></ul>}
    <p className="recommendation-limit">{p.payment}</p>
    <p className="recommendation-audience"><b>가입 대상</b> {p.eligibility}</p><p className="recommendation-check">가입 대상·우대조건은 추가 확인</p>
-   <small className="recommendation-source">금리 확인 {p.rate.sources.map(s=>s.reviewed_on).sort()[0]} · 기준 {p.rate.sources.map(s=>s.basis_date??'페이지 별도 표시 없음').join(' / ')}</small>
+   <small className="recommendation-source">금리 확인 {p.rate.sources.map(s=>s.reviewed_on).sort()[0]} · 기준 {[...new Set(p.rate.sources.map(s=>s.basis_date??'페이지 별도 표시 없음'))].join(' / ')}</small>
    <button type="button" onClick={()=>onView(p.id)}>{p.name} 조건 자세히 보기 <span aria-hidden="true">↗</span></button>
   </article>)}</div></div>:null;
  })}
