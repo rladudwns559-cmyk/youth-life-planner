@@ -1,0 +1,67 @@
+# Daily automated comparison of recommendable deposit/savings products with their official pages.
+# Renews a record for 7 days only when the page still shows the product name and the stored base
+# rates in table order (tools/auto_recheck.py). Mismatches and unreadable pages are left to expire.
+# No secrets needed. Manual runs default to a dry run that changes nothing.
+name: Auto recheck financial products
+
+on:
+  schedule:
+    - cron: '30 21 * * *'   # 06:30 KST every day
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Compare only, change no data'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: auto-recheck
+  cancel-in-progress: false
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: |
+          pip install -r requirements-web-dev.txt playwright pypdf
+          python -m playwright install --with-deps chromium
+      - name: Compare (dry run)
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run
+        run: python -m tools.auto_recheck --dry-run --report auto-recheck-report.json
+      - name: Compare and renew
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        run: python -m tools.auto_recheck --report auto-recheck-report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: auto-recheck-report
+          path: auto-recheck-report.json
+          if-no-files-found: ignore
+      - name: Check the data before committing
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        run: python -m pytest -q -p no:cacheprovider tests/test_financial_renewals_reproducible.py tests/test_financial_renewal.py tests/test_auto_recheck.py
+      - name: Commit when changed and redeploy
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add data/financial-products/renewals frontend/src/public-data/financial-renewals.json
+          if git diff --cached --quiet; then
+            echo "Nothing renewed today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Data: automated page comparison $(date -u +%F)"
+          git push
+          gh workflow run pages.yml --ref main
