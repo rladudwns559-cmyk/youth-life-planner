@@ -1,6 +1,26 @@
 /* Home hero object: a small turning block with a home and growing savings columns. CSS 3D only. */
 @property --spin{syntax:'<angle>';inherits:true;initial-value:-38deg}
 
+/* Home backdrop: a cool morning sky that warms toward the ground, light falling on the miniature,
+   and a faint isometric floor grid that continues the block's plane and fades out before the copy. */
+html:has(.portal-home){background:linear-gradient(180deg,#e4edfa 0%,#edf2f9 42%,#f8f1e6 100%) fixed}
+body:has(.portal-home){background:transparent}
+body:has(.portal-home)::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(ellipse 30% 36% at 72% 50%,#ffffff 0%,#ffffffb3 38%,#ffffff00 72%),
+    radial-gradient(ellipse 48% 52% at 74% 52%,#d6e3f8 0%,#d6e3f800 70%),
+    radial-gradient(ellipse 30% 30% at 90% 12%,#ffd98a73 0%,#ffd98a00 70%),
+    radial-gradient(ellipse 46% 34% at 4% 106%,#c7daf6 0%,#c7daf600 70%)}
+body:has(.portal-home)::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    repeating-linear-gradient(30deg,#2459bd26 0 1px,transparent 1px 36px),
+    repeating-linear-gradient(-30deg,#2459bd26 0 1px,transparent 1px 36px);
+  -webkit-mask-image:radial-gradient(ellipse 40% 34% at 72% 56%,#000 0%,#000a 45%,#0000 82%);
+  mask-image:radial-gradient(ellipse 40% 34% at 72% 56%,#000 0%,#000a 45%,#0000 82%)}
+@media(max-width:800px){
+  body:has(.portal-home)::after{-webkit-mask-image:radial-gradient(ellipse 80% 30% at 50% 82%,#000 0%,#0000 78%);mask-image:radial-gradient(ellipse 80% 30% at 50% 82%,#000 0%,#0000 78%)}
+  body:has(.portal-home)::before{background:radial-gradient(ellipse 70% 30% at 50% 80%,#ffffffd9 0%,#ffffff00 72%),radial-gradient(ellipse 50% 22% at 90% 8%,#ffe2a64d 0%,#ffe2a600 70%)}}
+
 .home-visual{display:grid;justify-items:center;align-content:center;gap:6px;min-width:0}
 .home-orbit{position:relative;width:100%;height:470px;perspective:1700px;perspective-origin:50% 30%;display:grid;place-items:center;overflow:visible;pointer-events:none}
 .orbit-shadow{position:absolute;left:50%;top:62%;width:330px;height:120px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(closest-side,#16304f2e,#16304f00);filter:blur(6px)}
