@@ -1,0 +1,52 @@
+# Daily refresh of FSS disclosure data (금융상품한눈에 Open API) for deposits and savings.
+# Needs the repository secret FINLIFE_API_KEY (free key from https://finlife.fss.or.kr).
+# Without the secret the job ends quietly. When the data changes it commits the new JSON
+# and starts the Pages deployment.
+name: Refresh FSS disclosure data
+
+on:
+  schedule:
+    - cron: '10 21 * * *'   # 06:10 KST every day
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: finlife-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      FINLIFE_API_KEY: ${{ secrets.FINLIFE_API_KEY }}
+    steps:
+      - name: Skip when the API key is not registered
+        if: env.FINLIFE_API_KEY == ''
+        run: echo "FINLIFE_API_KEY secret is not set. Nothing to do."
+      - uses: actions/checkout@v4
+        if: env.FINLIFE_API_KEY != ''
+      - uses: actions/setup-python@v5
+        if: env.FINLIFE_API_KEY != ''
+        with:
+          python-version: '3.12'
+      - name: Fetch and normalise
+        if: env.FINLIFE_API_KEY != ''
+        run: python -m tools.fetch_finlife --output frontend/src/public-data/finlife-disclosures.json
+      - name: Commit when changed and redeploy
+        if: env.FINLIFE_API_KEY != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- frontend/src/public-data/finlife-disclosures.json && git ls-files --error-unmatch frontend/src/public-data/finlife-disclosures.json >/dev/null 2>&1; then
+            echo "No change in disclosure data."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add frontend/src/public-data/finlife-disclosures.json
+          git commit -m "Data: FSS disclosure refresh $(date -u +%F)"
+          git push
+          gh workflow run pages.yml --ref main
