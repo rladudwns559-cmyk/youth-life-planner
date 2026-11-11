@@ -82,6 +82,7 @@ def test_evaluate_renews_only_matching_pages_and_the_batch_compiles():
     entry = updates[0]
     assert 'automated comparison' in entry['evidence_note'] and 'not a human reading' in entry['evidence_note']
     assert all(s['reviewed_on'] == TODAY.isoformat() and '(자동 대조)' in s['title'] for s in entry['product']['sources'])
+    assert any(s['mode'] == 'OFFICIAL_PAGE' for s in entry['product']['sources'])
     # rates are copied, never rewritten
     assert entry['product']['rates'] == [dict(r, evidence_locator=entry['product']['rates'][0]['evidence_locator']) for r in latest[good][1]['product']['rates']]
 
@@ -96,3 +97,25 @@ def test_evaluate_renews_only_matching_pages_and_the_batch_compiles():
     assert result['records'][good]['checked_on'] == TODAY.isoformat()
     assert result['records'][good]['valid_until'] == '2026-11-19'
     assert result['records'][changed]['checked_on'] != TODAY.isoformat()
+
+
+def test_rates_from_a_document_also_need_a_sale_page_that_lists_the_product():
+    latest = ar.latest_entries()
+    pid = 'BNK-BUSAN-BIG-SAVINGS'
+    product = latest[pid][1]['product']
+    modes = {s['url']: s['mode'] for s in product['sources']}
+    document = next(u for u, m in modes.items() if m != 'OFFICIAL_PAGE')
+    page = next(u for u, m in modes.items() if m == 'OFFICIAL_PAGE')
+
+    def with_listing(url):
+        return _page_for(product) if url == document else '상품공시실 목록 ' + '안내 ' * 200 + product['product_name']
+
+    updates, report = ar.evaluate(TODAY, with_listing, {pid})
+    assert report[0]['outcome'] == 'RENEWED'
+    assert {s['url'] for s in updates[0]['product']['sources']} == {document, page}
+
+    def without_listing(url):
+        return _page_for(product) if url == document else '상품공시실 목록 ' + '안내 ' * 200
+
+    updates, report = ar.evaluate(TODAY, without_listing, {pid})
+    assert updates == [] and report[0]['outcome'] == 'MISMATCH'

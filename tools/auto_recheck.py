@@ -188,14 +188,32 @@ def evaluate(today: date, get_text, only: set[str] | None = None) -> tuple[list[
                 outcome, detail, url = step[0], step[1], candidate
             if outcome == 'RENEWED':
                 break
+        keep = [url]
+        modes = {s['url']: s.get('mode') for s in product['sources']}
+        if outcome == 'RENEWED' and modes.get(url) != 'OFFICIAL_PAGE':
+            # rates came from a document: the record also needs a sale page, read today, that lists the product
+            sale_page = None
+            for candidate in [u for u, mode in modes.items() if mode == 'OFFICIAL_PAGE']:
+                try:
+                    listed, ended = name_on_page(product['product_name'], read(candidate))
+                except Exception:
+                    continue
+                if listed and not ended:
+                    sale_page = candidate
+                    break
+            if sale_page is None:
+                outcome, detail = 'MISMATCH', 'rates matched a document, but no sale page read today lists the product'
+            else:
+                keep.append(sale_page)
+                detail += '; product listed on the sale page'
         if outcome != 'RENEWED':
             report.append({**result, 'outcome': outcome, 'detail': detail, 'url': url})
             continue
         new = copy.deepcopy(entry)
         note = (f'automated comparison on {today.isoformat()} (not a human reading): the rendered official source shows the product name '
-                f'and the stored base rates ({detail}); no sales-ended marker follows the name. Only this source was read.')
+                f'and the stored base rates ({detail}); no sales-ended marker follows the name. Only the kept sources were read.')
         for part in (new['product'], new['review']):
-            kept = [s for s in part['sources'] if s['url'] == url]
+            kept = [s for s in part['sources'] if s['url'] in keep]
             for source in kept:
                 source['reviewed_on'] = today.isoformat()
                 source['title'] = (source['title'].split(' (자동 대조')[0] + ' (자동 대조)')[:200]
