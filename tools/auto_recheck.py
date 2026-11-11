@@ -122,9 +122,25 @@ def latest_entries() -> dict[str, tuple[str, dict]]:
     return latest
 
 
-def source_url(product: dict) -> str | None:
+def source_urls(product: dict) -> list[str]:
+    """Official product page first, then the other recorded sources (lists, PDFs)."""
     pages = [s['url'] for s in product['sources'] if s.get('mode') == 'OFFICIAL_PAGE']
-    return (pages or [s['url'] for s in product['sources']] or [None])[0]
+    rest = [s['url'] for s in product['sources'] if s['url'] not in pages]
+    return list(dict.fromkeys(pages + rest))
+
+
+def source_url(product: dict) -> str | None:
+    return (source_urls(product) or [None])[0]
+
+
+def compare(product: dict, text: str) -> tuple[str, str]:
+    if len(_squash(text)) < MIN_TEXT:
+        return 'UNREADABLE', 'page text too short'
+    found, ended = name_on_page(product['product_name'], text)
+    if not found or ended:
+        return 'MISMATCH', 'sales-ended marker after the name' if ended else 'product name not on page'
+    ok, detail = rates_on_page(product['rates'], text)
+    return ('RENEWED' if ok else 'MISMATCH'), detail
 
 
 def evaluate(today: date, get_text, only: set[str] | None = None) -> tuple[list[dict], list[dict]]:
@@ -145,25 +161,23 @@ def evaluate(today: date, get_text, only: set[str] | None = None) -> tuple[list[
             report.append({**result, 'outcome': 'SKIP', 'detail': 'already checked today'})
             continue
         product = entry['product']
-        url = source_url(product)
-        try:
-            text = get_text(url)
-        except Exception as error:  # network, timeout, blocked: leave the record to expire
-            report.append({**result, 'outcome': 'UNREADABLE', 'detail': f'{type(error).__name__}: {str(error)[:140]}', 'url': url})
-            continue
-        if len(_squash(text)) < MIN_TEXT:
-            report.append({**result, 'outcome': 'UNREADABLE', 'detail': 'page text too short', 'url': url})
-            continue
-        found, ended = name_on_page(product['product_name'], text)
-        if not found or ended:
-            report.append({**result, 'outcome': 'MISMATCH', 'detail': 'sales-ended marker after the name' if ended else 'product name not on page', 'url': url})
-            continue
-        ok, detail = rates_on_page(product['rates'], text)
-        if not ok:
-            report.append({**result, 'outcome': 'MISMATCH', 'detail': detail, 'url': url})
+        outcome, detail, url = 'UNREADABLE', 'no source url', None
+        for candidate in source_urls(product):
+            try:
+                text = get_text(candidate)
+            except Exception as error:  # network, timeout, blocked: leave the record to expire
+                step = ('UNREADABLE', f'{type(error).__name__}: {str(error)[:140]}')
+            else:
+                step = compare(product, text)
+            if step[0] == 'RENEWED' or outcome == 'UNREADABLE':
+                outcome, detail, url = step[0], step[1], candidate
+            if outcome == 'RENEWED':
+                break
+        if outcome != 'RENEWED':
+            report.append({**result, 'outcome': outcome, 'detail': detail, 'url': url})
             continue
         new = copy.deepcopy(entry)
-        note = (f'automated comparison on {today.isoformat()} (not a human reading): the rendered official page shows the product name '
+        note = (f'automated comparison on {today.isoformat()} (not a human reading): the rendered official source shows the product name '
                 f'and the stored base rates ({detail}); no sales-ended marker follows the name. Only this source was read.')
         for part in (new['product'], new['review']):
             kept = [s for s in part['sources'] if s['url'] == url]
@@ -179,6 +193,25 @@ def evaluate(today: date, get_text, only: set[str] | None = None) -> tuple[list[
         updates.append(new)
         report.append({**result, 'outcome': 'RENEWED', 'detail': detail, 'url': url})
     return updates, report
+
+
+KBANK_ENDPOINTS = {'codek-fixed': 'WEBPRDDPT0000100A', 'codek-saving': 'WEBPRDDPT0000200A', 'primary-saving': 'WEBPRDDPT0000300A'}
+KBANK_SCRIPT = """async (endpoint) => {
+  const response = await fetch('/ib20/act/' + endpoint, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({_msg_: {_common_: {}, _body_: {}}})});
+  const body = (await response.json())._msg_._body_;
+  const list = JSON.parse(decodeURIComponent(String(body.rateList).replace(/^"|"$/g, ''))).listOut;
+  return list.filter(r => decodeURIComponent(r.pdCndNm) === '약정이율').map(r => [Number(r.acctMinTrm), Number(r.bsicIntRt)]);
+}"""
+
+
+def kbank_rate_text(page, url: str) -> str:
+    """Kbank shows its term table from the rate data the product page itself loads; read that same data."""
+    slug = url.rstrip('/').rsplit('/', 1)[-1].split('?')[0]
+    endpoint = KBANK_ENDPOINTS.get(slug)
+    if not endpoint:
+        return ''
+    rows = sorted(page.evaluate(KBANK_SCRIPT, endpoint))
+    return ' 약정이율 표 ' + ' '.join(f'{term} 이상 기본금리 {rate:.2f} %' for term, rate in rows)
 
 
 def browser_text_getter():
@@ -210,6 +243,11 @@ def browser_text_getter():
                     parts.append(frame.evaluate("() => document.body ? document.body.textContent : ''"))
                 except Exception:
                     continue
+            if 'kbanknow.com/web/product/deposit/' in url:
+                try:
+                    parts.append(kbank_rate_text(page, url))
+                except Exception:
+                    pass
             return '\n'.join(parts)
         finally:
             page.close()
