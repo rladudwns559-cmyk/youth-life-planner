@@ -38,6 +38,7 @@ NUMBER = re.compile(r'(?<![\d.,])\d{1,2}\.\d{1,2}(?![\d.])')
 ENDED = ('판매중단', '판매종료', '판매중지', '신규중단', '가입중단')
 WINDOW = 2500
 MIN_TEXT = 400
+MAX_SOURCES = 3
 
 
 def _squash(text: str) -> str:
@@ -148,6 +149,20 @@ def evaluate(today: date, get_text, only: set[str] | None = None) -> tuple[list[
     renewals = json.loads(PUBLIC.read_text(encoding='utf-8'))
     latest = latest_entries()
     updates, report = [], []
+    cache: dict[str, tuple[bool, str]] = {}
+
+    def read(url: str) -> str:
+        # one fetch per URL per run: many products share a list page or a disclosure page
+        if url not in cache:
+            try:
+                cache[url] = (True, get_text(url))
+            except Exception as error:
+                cache[url] = (False, f'{type(error).__name__}: {str(error)[:140]}')
+        ok, value = cache[url]
+        if not ok:
+            raise RuntimeError(value)
+        return value
+
     for row in recommendable(renewals):
         pid = row['product_id']
         if only and pid not in only:
@@ -162,9 +177,9 @@ def evaluate(today: date, get_text, only: set[str] | None = None) -> tuple[list[
             continue
         product = entry['product']
         outcome, detail, url = 'UNREADABLE', 'no source url', None
-        for candidate in source_urls(product):
+        for candidate in source_urls(product)[:MAX_SOURCES]:
             try:
-                text = get_text(candidate)
+                text = read(candidate)
             except Exception as error:  # network, timeout, blocked: leave the record to expire
                 step = ('UNREADABLE', f'{type(error).__name__}: {str(error)[:140]}')
             else:
@@ -225,18 +240,18 @@ def browser_text_getter():
     def get(url: str) -> str:
         if url.lower().split('?')[0].endswith('.pdf'):
             from pypdf import PdfReader
-            response = context.request.get(url, timeout=45000)
+            response = context.request.get(url, timeout=25000)
             if not response.ok:
                 raise RuntimeError(f'HTTP {response.status}')
             return '\n'.join(page.extract_text() or '' for page in PdfReader(io.BytesIO(response.body())).pages)
         page = context.new_page()
         try:
-            page.goto(url, wait_until='domcontentloaded', timeout=45000)
+            page.goto(url, wait_until='domcontentloaded', timeout=25000)
             try:
-                page.wait_for_load_state('networkidle', timeout=12000)
+                page.wait_for_load_state('networkidle', timeout=6000)
             except Exception:
                 pass
-            page.wait_for_timeout(1500)
+            page.wait_for_timeout(1000)
             parts = []
             for frame in page.frames:
                 try:
