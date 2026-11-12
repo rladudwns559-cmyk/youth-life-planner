@@ -1,0 +1,5280 @@
+{
+ "checked_on": "2026-11-12",
+ "updates": [
+  {
+   "product": {
+    "product_id": "KN-BETTER-DEPOSIT",
+    "institution": "BNK경남은행",
+    "product_name": "BNK더조은정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 1000000,
+    "maximum": 500000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 3,
+    "max_months": 24,
+    "allowed_months": null,
+    "payment_note": "목돈 단위 납입 조건입니다. 5억원은 고객당 합산한도입니다.",
+    "term_note": "3~24개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+    "eligibility_note": "실명의 개인",
+    "features": [
+     "현재 공식 상세·판매베스트, 2026-07-27 공시·유효기간 2026-12-31까지.",
+     "5억원은 고객당 합산한도입니다."
+    ],
+    "preferential_conditions": [
+     "2천만원 이상·금리우대 쿠폰 등 조건 확인"
+    ],
+    "required_checks": [
+     "실제 가입 대상 및 계좌 수·고객당 합산한도",
+     "최신 금리 및 우대조건 충족 여부",
+     "최초·추가 납입과 납입일 조건"
+    ],
+    "channels": [
+     "모바일·인터넷·모바일웹"
+    ],
+    "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.05",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.05",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "2.05",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMDPT020108000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000020177&ib20_cur_mnu=FPMDPT020108000&ib20_cur_wgt=FPMDPT110LSTV00M&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 BNK더조은정기예금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KN-BETTER-DEPOSIT",
+    "rates": [
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.05",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.05",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "2.05",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMDPT020108000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000020177&ib20_cur_mnu=FPMDPT020108000&ib20_cur_wgt=FPMDPT110LSTV00M&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 BNK더조은정기예금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 847 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (4 rates in order (all rows, ascending terms) within 847 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KN-BETTER-SAVING",
+    "institution": "BNK경남은행",
+    "product_name": "BNK더조은자유적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 5000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 6,
+    "max_months": 24,
+    "allowed_months": null,
+    "payment_note": "월 단위 납입 조건입니다. 고객당 월 500만원, 저축 횟수 999회. 과거 300만원 한도를 재사용하지 않음.",
+    "term_note": "6~24개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+    "eligibility_note": "실명의 개인",
+    "features": [
+     "현행 상세·판매베스트, 2026-07-30 공시·유효기간 2026-12-31까지.",
+     "고객당 월 500만원, 저축 횟수 999회. 과거 300만원 한도를 재사용하지 않음."
+    ],
+    "preferential_conditions": [
+     "오픈뱅킹·자동이체·쿠폰 조건 확인"
+    ],
+    "required_checks": [
+     "실제 가입 대상 및 계좌 수·고객당 합산한도",
+     "최신 금리 및 우대조건 충족 여부",
+     "최초·추가 납입과 납입일 조건"
+    ],
+    "channels": [
+     "모바일·인터넷·모바일웹"
+    ],
+    "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 566 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 566 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 566 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000020178&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 BNK더조은자유적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 566 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KN-BETTER-SAVING",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 566 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 566 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 566 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000020178&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 BNK더조은자유적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 566 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (3 rates in order (all rows, ascending terms) within 566 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KN-COME-DO",
+    "institution": "BNK경남은행",
+    "product_name": "오면우대!하면우대! 정기적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 100000,
+    "maximum": 500000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 12,
+    "allowed_months": [
+     12
+    ],
+    "payment_note": "월 단위 납입 조건입니다. 월 납입금액 1만원 단위.",
+    "term_note": "12개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+    "eligibility_note": "실명의 개인",
+    "features": [
+     "현행 상세·판매베스트, 2026-03-30 제정 상품.",
+     "월 납입금액 1만원 단위."
+    ],
+    "preferential_conditions": [
+     "신규 고객·거래 조건별 우대"
+    ],
+    "required_checks": [
+     "실제 가입 대상 및 계좌 수·고객당 합산한도",
+     "최신 금리 및 우대조건 충족 여부",
+     "최초·추가 납입과 납입일 조건"
+    ],
+    "channels": [
+     "영업점·모바일뱅킹"
+    ],
+    "early_exit_note": "일부해지·재예치 불가, 자동 만기해지 가능",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://m.knbank.co.kr/ib20/mnu/MBWSFM030103000?fnc_prd_no=0000211818&ib20_cur_mnu=MBWSFM030000000&ib20_cur_wgt=MBWCMM003TMPV10M&ib20_wc=MBWSFM024JNGV01M%3AMBWSFM024JNGV02M",
+      "title": "BNK경남은행 오면우대!하면우대! 정기적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": 10000,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KN-COME-DO",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://m.knbank.co.kr/ib20/mnu/MBWSFM030103000?fnc_prd_no=0000211818&ib20_cur_mnu=MBWSFM030000000&ib20_cur_wgt=MBWCMM003TMPV10M&ib20_wc=MBWSFM024JNGV01M%3AMBWSFM024JNGV02M",
+      "title": "BNK경남은행 오면우대!하면우대! 정기적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KN-PREMIUM-DEPOSIT",
+    "institution": "BNK경남은행",
+    "product_name": "BNK 프리미엄 정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 1000000,
+    "maximum": 1000000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 13,
+    "allowed_months": [
+     12,
+     13
+    ],
+    "payment_note": "100만원 이상 고객별10억원 이하 일시예치",
+    "term_note": "공식 계약기간 12~13개월. 정수 개월 조건만 비교합니다.",
+    "eligibility_note": "개인",
+    "features": [
+     "2026-08-31 제정 특판; 공식페이지 마감 임박 표시. 실제 잔여 한도는 별도 확인"
+    ],
+    "preferential_conditions": [
+     "가입전 마케팅 동의0.20%p",
+     "프리미엄 기본우대1.10%p",
+     "신규당일 및 최근15일 정기예금 해지이력 미보유0.10%p",
+     "13개월 계약 우대0.10%p"
+    ],
+    "required_checks": [
+     "가입 자격 및 채널",
+     "실제 가입일 적용 금리",
+     "중도해지 조건",
+     "검증된 만기 계산 계약"
+    ],
+    "channels": [
+     "영업점",
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 284 characters"
+     },
+     {
+      "min_months": 13,
+      "max_months": 13,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 284 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000211986&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 BNK 프리미엄 정기예금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 284 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": 1,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KN-PREMIUM-DEPOSIT",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 284 characters"
+     },
+     {
+      "min_months": 13,
+      "max_months": 13,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 284 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000211986&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 BNK 프리미엄 정기예금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 284 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (2 rates in order (all rows, ascending terms) within 284 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KN-PRIMARY",
+    "institution": "BNK경남은행",
+    "product_name": "주거래 프리미엄 적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 12,
+    "max_months": 36,
+    "allowed_months": [
+     12,
+     24,
+     36
+    ],
+    "payment_note": "월 단위 납입 조건입니다. 정액적립식. 공식 최고금액 제한 없음 확인.",
+    "term_note": "12·24·36개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+    "eligibility_note": "개인·개인사업자, 1인 1계좌",
+    "features": [
+     "현행 상세·가입안내, 공시 유효기간 2026-12-31까지.",
+     "정액적립식. 공식 최고금액 제한 없음 확인."
+    ],
+    "preferential_conditions": [
+     "주거래 실적별 우대조건 확인"
+    ],
+    "required_checks": [
+     "실제 가입 대상 및 계좌 수·고객당 합산한도",
+     "최신 금리 및 우대조건 충족 여부",
+     "최초·추가 납입과 납입일 조건"
+    ],
+    "channels": [
+     "영업점·인터넷·모바일·모바일웹·고객센터"
+    ],
+    "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 553 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 553 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 553 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000203950&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 주거래 프리미엄 적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 553 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KN-PRIMARY",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 553 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 553 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 553 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000203950&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 주거래 프리미엄 적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 553 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (3 rates in order (all rows, ascending terms) within 553 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KN-WITHUS",
+    "institution": "BNK경남은행",
+    "product_name": "BNK 위더스WithUs 자유적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 1000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 1,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "월 단위 납입 조건입니다. 월 한도 100만원, 천원 단위 납입.",
+    "term_note": "1~36개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+    "eligibility_note": "실명의 개인·개인사업자",
+    "features": [
+     "현행 공식 상세 색인, 공시 유효기간 2026-12-31까지.",
+     "월 한도 100만원, 천원 단위 납입."
+    ],
+    "preferential_conditions": [
+     "함께 가입 등 우대조건 공식 확인"
+    ],
+    "required_checks": [
+     "실제 가입 대상 및 계좌 수·고객당 합산한도",
+     "최신 금리 및 우대조건 충족 여부",
+     "최초·추가 납입과 납입일 조건"
+    ],
+    "channels": [
+     "인터넷·모바일·영업점·고객센터"
+    ],
+    "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 5,
+      "base_rate_percent": "1.45",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000202492&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 BNK 위더스WithUs 자유적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": 1000,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KN-WITHUS",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 5,
+      "base_rate_percent": "1.45",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000202492&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 BNK 위더스WithUs 자유적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1129 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (5 rates in order (all rows, ascending terms) within 1129 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV2-KN-HAPPYDREAM",
+    "institution": "BNK경남은행",
+    "product_name": "행복Dream적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 50000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 12,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "월5만원이상,최고제한없음(공식명시)",
+    "term_note": "12~36개월",
+    "eligibility_note": "개인,가입계좌수 제한없음",
+    "features": [
+     "공식안내에 최고제한 없음 명시.단순 상한미기재와 구분"
+    ],
+    "preferential_conditions": [
+     "적립식미보유6개월·월부금50만원이상·자동이체·신규신용체크카드이용·사전마케팅동의 각0.2%p,최대1%p"
+    ],
+    "required_checks": [
+     "실제 가입 자격·현재 판매 및 남은 한도",
+     "우대조건 충족·지연납입·원 미만 처리와 실제 만기 계산 규칙"
+    ],
+    "channels": [
+     "영업점·인터넷/모바일 등 공식 페이지의 가입 경로 확인"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지이율과 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 1417 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 1417 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 1417 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://m.knbank.co.kr/ib20/mnu/MBWSFM030103000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017123&ib20_wc=MBWSFM010LSTV01M%3AMBWSFM024JNGV02M",
+      "title": "BNK경남은행 행복Dream적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 1417 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV2-KN-HAPPYDREAM",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 1417 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 1417 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 1417 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://m.knbank.co.kr/ib20/mnu/MBWSFM030103000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017123&ib20_wc=MBWSFM010LSTV01M%3AMBWSFM024JNGV02M",
+      "title": "BNK경남은행 행복Dream적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 1417 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (3 rates in order (all rows, ascending terms) within 1417 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV2-KN-MANIMANI",
+    "institution": "BNK경남은행",
+    "product_name": "마니마니자유적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 100000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 60,
+    "allowed_months": null,
+    "payment_note": "월 납입액 10,000원 이상 100,000,000원 이하",
+    "term_note": "12~60개월",
+    "eligibility_note": "제한없음,정부·지자체가입불가",
+    "features": [
+     "자유적립식,총적립횟수999회 이내"
+    ],
+    "preferential_conditions": [
+     "창구외 이체납입건별0.05%p",
+     "병역명문가본인·가족0.20%p 또는입영통지/군복무0.10%p,위이체우대와중복불가",
+     "국가유공자0.10%p,병역명문가우대와중복불가"
+    ],
+    "required_checks": [
+     "실제 가입 자격·현재 판매 및 남은 한도",
+     "우대조건 충족·지연납입·원 미만 처리와 실제 만기 계산 규칙"
+    ],
+    "channels": [
+     "영업점·인터넷/모바일 등 공식 페이지의 가입 경로 확인"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지이율과 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 47,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     },
+     {
+      "min_months": 48,
+      "max_months": 59,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMDPT020103000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017030&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 마니마니자유적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV2-KN-MANIMANI",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 47,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     },
+     {
+      "min_months": 48,
+      "max_months": 59,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMDPT020103000?FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017030&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 마니마니자유적금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 1130 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (5 rates in order (all rows, ascending terms) within 1130 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV2-KN-MUTUAL",
+    "institution": "BNK경남은행",
+    "product_name": "상호부금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 6,
+    "max_months": 60,
+    "allowed_months": null,
+    "payment_note": "월1만원이상,최고금액제한없음(공식명시)",
+    "term_note": "6~60개월",
+    "eligibility_note": "제한없음",
+    "features": [
+     "매월일정액 납입,공식최고금액제한없음.대출기능은 서비스에서 추천·연결하지 않음"
+    ],
+    "preferential_conditions": [],
+    "required_checks": [
+     "실제 가입 자격·현재 판매 및 남은 한도",
+     "우대조건 충족·지연납입·원 미만 처리와 실제 만기 계산 규칙"
+    ],
+    "channels": [
+     "영업점·인터넷/모바일 등 공식 페이지의 가입 경로 확인"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지이율과 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.25",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.45",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.45",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 47,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 48,
+      "max_months": 59,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017032&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 상호부금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV2-KN-MUTUAL",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.25",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.45",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.45",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 47,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 48,
+      "max_months": 59,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "2.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.knbank.co.kr/ib20/mnu/FPMREP020101000?DUP_CHK=N&FNC_PRD_DIS_CD=01&FNC_PRD_NO=0000017032&ib20_redirect_org_mnu=FPMCOM990000000&ib20_wc=FPMDPT110LSTV00M%3AFPMDPT221DETV00M",
+      "title": "BNK경남은행 상호부금 현재 공식 상품안내·금리표 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 1412 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (6 rates in order (all rows, ascending terms) within 1412 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "BNK-BUSAN-BIG-SAVINGS",
+    "institution": "BNK부산은행",
+    "product_name": "부산이라 좋다 Big적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 1000,
+    "maximum": 1000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 1,
+    "max_months": 12,
+    "allowed_months": null,
+    "payment_note": "월 1천원~100만원, 원 단위 자유적립. 매일/매주/매월 자동이체가 가능하더라도 월납입 상한은 동일.",
+    "term_note": "1~12개월 월 단위. 기간 조건 비교만 제공하며 실제 날짜별 이자나 우대 달성을 계산하지 않음.",
+    "eligibility_note": "만 14세 이상 실명의 개인, 1인 1계좌. 부산 거주 자체가 가입 요건이라는 근거 없음.",
+    "features": [
+     "현행 공식 전체상품 목록과 상세 원본 신규 모바일 가능 플래그 확인. 설명서 유효기일 2027-06-30.",
+     "공식 상품설명서와 현행 공개 자료를 대조했습니다."
+    ],
+    "preferential_conditions": [
+     "부산 핫플 위치인증 횟수: 만기일 전일까지, 1일 최대5곳·추가인증10분 간격",
+     "6개월 이상 계약에서 동백전 누적 사용실적 조건"
+    ],
+    "required_checks": [
+     "개인별 나이·기존 계좌 보유 여부",
+     "위치정보 권한 및 현행 핫플 목록",
+     "동백전 실적 우대의 기간·금액 조건",
+     "휴일 자동이체는 실제 출금 월의 월납입 한도에서 차감",
+     "개인별 실제 가입 자격과 계좌 개설 요건",
+     "납입 지연·우대조건·고객당 합산한도의 실제 충족 여부"
+    ],
+    "channels": [
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지 또는 납입 지연 시 약정 조건과 다른 금리·만기이연이 적용될 수 있습니다. 공식 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 12,
+      "base_rate_percent": "2.60",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EB%B6%80%EC%82%B0%EC%9D%B4%EB%9D%BC%EC%A2%8B%EB%8B%A4Big%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "title": "BNK부산은행 부산이라 좋다 Big적금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-07-23",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC319002001",
+      "title": "BNK부산은행 현재 적립식 공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label; product listed on the sale page"
+     }
+    ],
+    "disclosure_ids": [
+     "DISC-bddf052c9063d53f"
+    ],
+    "comparison_hold_reason": null,
+    "amount_increment": 1,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "BNK-BUSAN-BIG-SAVINGS",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 12,
+      "base_rate_percent": "2.60",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EB%B6%80%EC%82%B0%EC%9D%B4%EB%9D%BC%EC%A2%8B%EB%8B%A4Big%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "title": "BNK부산은행 부산이라 좋다 Big적금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-07-23",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC319002001",
+      "title": "BNK부산은행 현재 적립식 공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label; product listed on the sale page"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label; product listed on the sale page); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "BNK-BUSAN-CARBON-SAVINGS",
+    "institution": "BNK부산은행",
+    "product_name": "저탄소 실천 적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 10000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 6,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "회당 1만원 이상, 월 합계 1천만원 이하. 원 단위 자유적립. 비대면 계좌 수 제한은 별도 확인.",
+    "term_note": "6~36개월 일 단위 계약 가능. 서비스에서는 정수 개월 범위의 금액·기간 조건만 비교하며 날짜별 만기이자를 계산하지 않음.",
+    "eligibility_note": "제한없음",
+    "features": [
+     "은행 현행 전체상품 목록과 상품 조회 원본의 판매기간/신규 채널 플래그 확인. 정원 잔여 및 개인별 가입 가능성은 확정 아님.",
+     "공식 상품설명서와 현행 공개 자료를 대조했습니다."
+    ],
+    "preferential_conditions": [
+     "비대면 또는 통장 미발급",
+     "대중교통 실적",
+     "탄소포인트제 증빙",
+     "주택용 에너지캐시백 증빙; 기업형 우대는 별도"
+    ],
+    "required_checks": [
+     "비대면 신규는 관련 자유적금 합산 분기 3계좌 제한",
+     "기간은 일 단위 선택 가능하지만 현재 엔진은 정수 개월 범위만 비교",
+     "개인별 실제 가입 자격과 계좌 개설 요건",
+     "납입 지연·우대조건·고객당 합산한도의 실제 충족 여부"
+    ],
+    "channels": [
+     "영업점",
+     "인터넷뱅킹(개인)",
+     "인터넷뱅킹(기업)",
+     "모바일뱅킹(개인)",
+     "모바일뱅킹(기업)",
+     "디지털데스크"
+    ],
+    "early_exit_note": "만기 전 해지 또는 납입 지연 시 약정 조건과 다른 금리·만기이연이 적용될 수 있습니다. 공식 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EC%A0%80%ED%83%84%EC%86%8C%EC%8B%A4%EC%B2%9C%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C_(2026.09.14).pdf",
+      "title": "BNK부산은행 저탄소 실천 적금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-09-14",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC319002001",
+      "title": "BNK부산은행 현재 적립식 공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     }
+    ],
+    "disclosure_ids": [
+     "DISC-ee37211bfb985299"
+    ],
+    "comparison_hold_reason": null,
+    "amount_increment": 1,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "BNK-BUSAN-CARBON-SAVINGS",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/%EC%A0%80%ED%83%84%EC%86%8C%EC%8B%A4%EC%B2%9C%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C_(2026.09.14).pdf",
+      "title": "BNK부산은행 저탄소 실천 적금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-09-14",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC319002001",
+      "title": "BNK부산은행 현재 적립식 공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (4 rates in order (all rows, ascending terms) within 68 characters; product listed on the sale page); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "BNK-BUSAN-ONLYONE-SAVINGS",
+    "institution": "BNK부산은행",
+    "product_name": "Only One 주거래 우대적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 1000,
+    "maximum": 500000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 12,
+    "allowed_months": [
+     12
+    ],
+    "payment_note": "월 1천원~50만원 원 단위 자유적립. 월 상한을 일/주 납입 단위로 분할해 임의 확장하지 않음.",
+    "term_note": "12개월",
+    "eligibility_note": "만14세이상 실명의 개인(1인1계좌)",
+    "features": [
+     "은행 현행 전체상품 목록과 상품 조회 원본의 판매기간/신규 채널 플래그 확인. 정원 잔여 및 개인별 가입 가능성은 확정 아님.",
+     "공식 상품설명서와 현행 공개 자료를 대조했습니다."
+    ],
+    "preferential_conditions": [
+     "급여소득자·공무원·개인사업자별 증빙 우대",
+     "입출금평잔·정기예금·모임통장·IRP·카드실적",
+     "공통 우대 전부 충족 보너스, 정상 만기 조건"
+    ],
+    "required_checks": [
+     "총 10,000좌 판매한도의 잔여는 미확인",
+     "일반 가입 가능, 직업별 우대는 증빙 필요",
+     "판매기한 2026-12-31 이후 갱신 전 보류",
+     "개인별 실제 가입 자격과 계좌 개설 요건",
+     "납입 지연·우대조건·고객당 합산한도의 실제 충족 여부"
+    ],
+    "channels": [
+     "영업점",
+     "모바일뱅킹(개인)",
+     "디지털데스크"
+    ],
+    "early_exit_note": "만기 전 해지 또는 납입 지연 시 약정 조건과 다른 금리·만기이연이 적용될 수 있습니다. 공식 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [
+     "DISC-551cc70f7452a935"
+    ],
+    "comparison_hold_reason": null,
+    "amount_increment": 1,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "BNK-BUSAN-ONLYONE-SAVINGS",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0028",
+    "institution": "BNK부산은행",
+    "product_name": "정기적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 100,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 6,
+    "max_months": 60,
+    "allowed_months": null,
+    "payment_note": "매월 100원 이상 정기적립·최고금액 제한없음",
+    "term_note": "6~60개월",
+    "eligibility_note": "제한없음",
+    "features": [
+     "매월 지정일 일정액 납입. 일반 정기적금이며 금액상한 없음이 공식 설명서에 명시됩니다."
+    ],
+    "preferential_conditions": [],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "영업점"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 36,
+      "max_months": 60,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(2026.07.23)%EC%A0%95%EA%B8%B0%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "title": "BNK부산은행 정기적금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-07-23",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC319002001",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0028",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 36,
+      "max_months": 60,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(2026.07.23)%EC%A0%95%EA%B8%B0%EC%A0%81%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "title": "BNK부산은행 정기적금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-07-23",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC319002001",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (4 rates in order (all rows, ascending terms) within 81 characters; product listed on the sale page); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0060",
+    "institution": "BNK부산은행",
+    "product_name": "정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 100,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 1,
+    "max_months": 60,
+    "allowed_months": null,
+    "payment_note": "목돈100원 이상, 최고금액 제한없음",
+    "term_note": "1~60개월",
+    "eligibility_note": "제한없음",
+    "features": [
+     "36개월 초과 기간은3년 경과시점의3년제 이율을 적용하므로37~60개월 고정 기본금리를 제공하지 않습니다."
+    ],
+    "preferential_conditions": [],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "영업점"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "1.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.25",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(%EC%9D%BC%EB%B0%98%EA%B8%B0%EB%AA%85%EC%8B%9D)%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.08.01).pdf",
+      "title": "BNK부산은행 정기예금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-08-01",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC320002002",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0060",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "1.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.25",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(%EC%9D%BC%EB%B0%98%EA%B8%B0%EB%AA%85%EC%8B%9D)%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.08.01).pdf",
+      "title": "BNK부산은행 정기예금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-08-01",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC320002002",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (6 rates in order (all rows, ascending terms) within 198 characters; product listed on the sale page); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0160",
+    "institution": "BNK부산은행",
+    "product_name": "더(The) 특판 정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 1000000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 1,
+    "max_months": 36,
+    "allowed_months": [
+     1,
+     3,
+     6,
+     12,
+     24,
+     36
+    ],
+    "payment_note": "목돈100만원 이상 제한없음",
+    "term_note": "1·3·6·12·24·36개월",
+    "eligibility_note": "실명의 개인",
+    "features": [
+     "판매기간2026.03.20~2027.09.30, 조기종료/기간별 판매한도 가능",
+     "2026-11-06 재조회한 현재 목록12개월 기본2.10%와 공식 설명서2.10%가 일치. 과거 금리 충돌 보류를 해당 근거로 해소."
+    ],
+    "preferential_conditions": [
+     "상품서비스 알림동의·최근1년 거래실적/중도해지·이벤트 등 조건별 우대, 모두 확인 필요."
+    ],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "인터넷뱅킹",
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 1,
+      "base_rate_percent": "1.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 3,
+      "max_months": 3,
+      "base_rate_percent": "1.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "1.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "1.75",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "1.15",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(10.07)%EB%8D%94(The)%ED%8A%B9%ED%8C%90%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "title": "BNK부산은행 더(The) 특판 정기예금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-10-07",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC320002002",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0160",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 1,
+      "base_rate_percent": "1.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 3,
+      "max_months": 3,
+      "base_rate_percent": "1.55",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "1.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "1.75",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "1.15",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(10.07)%EB%8D%94(The)%ED%8A%B9%ED%8C%90%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "title": "BNK부산은행 더(The) 특판 정기예금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-10-07",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC320002002",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (6 rates in order (all rows, ascending terms) within 62 characters; product listed on the sale page); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0191",
+    "institution": "BNK부산은행",
+    "product_name": "더(The) 레벨업 정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 1000000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 6,
+    "max_months": 12,
+    "allowed_months": [
+     6,
+     12
+    ],
+    "payment_note": "목돈100만원 이상 제한없음",
+    "term_note": "6·12개월",
+    "eligibility_note": "실명의 개인",
+    "features": [
+     "6개월과12개월만 선택",
+     "최근 비대면 정기예금 재예치 요건에 따라 우대금리가 다릅니다."
+    ],
+    "preferential_conditions": [
+     "최대연1.35%p. 알림 동의0.10%p와 최근7영업일 비대면 정기예금 해지/재예치 이벤트 최대1.25%p 추가 확인"
+    ],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 15 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.65",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 15 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(10.07)%EB%8D%94(The)%EB%A0%88%EB%B2%A8%EC%97%85%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "title": "BNK부산은행 더(The) 레벨업 정기예금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-10-07",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 15 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC320002002",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 15 characters; product listed on the sale page"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0191",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 15 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.65",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 15 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/(10.07)%EB%8D%94(The)%EB%A0%88%EB%B2%A8%EC%97%85%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "title": "BNK부산은행 더(The) 레벨업 정기예금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-10-07",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 15 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC320002002",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 15 characters; product listed on the sale page"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (2 rates in order (all rows, ascending terms) within 15 characters; product listed on the sale page); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0200",
+    "institution": "BNK부산은행",
+    "product_name": "너만솔로 적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 300000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "월1만원 이상30만원 이하 원단위",
+    "term_note": "12~36개월",
+    "eligibility_note": "만19세 이상 실명의 내국인,1인1계좌",
+    "features": [
+     "혼인 여부는 가입 자체의 필수조건이 아니라 결혼우대 조건과 구분합니다."
+    ],
+    "preferential_conditions": [
+     "최대연5.10%p. 가입기간중 결혼2.00%p, 평잔 최대2.00%p, 주택/전세대출1.00%p, 알림동의0.10%p. 증빙/유지/만기조건 필요."
+    ],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 36,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=3",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0200",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 36,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=3",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0201",
+    "institution": "BNK부산은행",
+    "product_name": "아기천사 적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 300000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "월1만원 이상30만원 이하 원단위",
+    "term_note": "12~36개월",
+    "eligibility_note": "만19세 이상 실명의 내국인,1인1계좌",
+    "features": [
+     "출산 여부는 가입 자체의 필수조건이 아니라 우대금리 조건입니다."
+    ],
+    "preferential_conditions": [
+     "최대연5.10%p. 가입기간중 출산2.00%p, 평잔 최대2.00%p, 주택/전세대출1.00%p, 알림동의0.10%p. 증빙/유지/만기조건 확인."
+    ],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 36,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0201",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 36,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0202",
+    "institution": "BNK부산은행",
+    "product_name": "아이사랑 적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 300000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "월1만원 이상30만원 이하 원단위",
+    "term_note": "12~36개월",
+    "eligibility_note": "만19세 이상 실명의 내국인,1인1계좌",
+    "features": [
+     "성인 명의 상품이며 자녀 연령/법정대리인 확인은 육아 우대조건과 구분합니다."
+    ],
+    "preferential_conditions": [
+     "최대연5.10%p. 자녀만1·2·4·6·8·10세 육아우대, 자녀계좌 평잔, 주택/전세대출, 알림동의 등 확인 필요."
+    ],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 36,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0202",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 36,
+      "base_rate_percent": "1.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0207",
+    "institution": "BNK부산은행",
+    "product_name": "BNK오픈뱅킹 정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 1000000,
+    "maximum": 10000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 6,
+    "max_months": 12,
+    "allowed_months": [
+     6,
+     12
+    ],
+    "payment_note": "계좌당100만원 이상1000만원 이하. 1인 계좌 합산5000만원 별도 제한",
+    "term_note": "6·12개월",
+    "eligibility_note": "실명의 개인,1일1계좌",
+    "features": [
+     "사용자의 기존 보유계좌/합산한도는 수집하지 않아 추가 확인합니다."
+    ],
+    "preferential_conditions": [
+     "오픈뱅킹 거래실적·동의 등 우대조건 추가 확인"
+    ],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "영업점",
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 17 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 17 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/BNK%EC%98%A4%ED%94%88%EB%B1%85%ED%82%B9%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "title": "BNK부산은행 BNK오픈뱅킹 정기예금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-07-23",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 17 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC320002002",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 17 characters; product listed on the sale page"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0207",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 17 characters; product listed on the sale page"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 17 characters; product listed on the sale page"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/vupload/customer/fia/anns/BNK%EC%98%A4%ED%94%88%EB%B1%85%ED%82%B9%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88_%EC%83%81%ED%92%88%EC%84%A4%EB%AA%85%EC%84%9C(2026.07.23).pdf",
+      "title": "BNK부산은행 BNK오픈뱅킹 정기예금 공식 설명서 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-07-23",
+      "mode": "OFFICIAL_DOCUMENT",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 17 characters; product listed on the sale page"
+     },
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC320002002",
+      "title": "BNK부산은행 현재 상품공시실 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 17 characters; product listed on the sale page"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (2 rates in order (all rows, ascending terms) within 17 characters; product listed on the sale page); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0219",
+    "institution": "BNK부산은행",
+    "product_name": "BNK 금융사다리적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 200000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 12,
+    "allowed_months": [
+     12
+    ],
+    "payment_note": "월1만원 이상20만원 이하 원단위",
+    "term_note": "12개월",
+    "eligibility_note": "만14세 이상 실명의 개인,1인1계좌",
+    "features": [
+     "서민금융복합지원센터 확인서는 가입자격의 필수사항이 아니라 포용금융 우대에 필요합니다."
+    ],
+    "preferential_conditions": [
+     "지역특화 복합지원 확인서·성실상환·교육/컨설팅·재취업/재창업·기타 요건에 따라 우대. 증빙 유효기간30일과 제출시점 추가 확인."
+    ],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "1.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0219",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "1.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3X-BUSAN-0229",
+    "institution": "BNK부산은행",
+    "product_name": "Only One 주거래 우대예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 10000000,
+    "maximum": 100000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 12,
+    "allowed_months": [
+     12
+    ],
+    "payment_note": "계좌당1000만원 이상, 1인당 계좌 합산1억원 한도",
+    "term_note": "12개월",
+    "eligibility_note": "만14세 이상 실명의 개인,1일1계좌",
+    "features": [
+     "가입 자체의 재직자/사업자 제한과 우대조건을 구분. 일반 개인도 기본 조건으로 검토하되 증빙 우대는 추가 확인"
+    ],
+    "preferential_conditions": [
+     "급여소득자 또는 사업자 맞춤실적·IRP/노란우산·모임통장·카드·알림동의 등 증빙·실적 조건 추가 확인"
+    ],
+    "required_checks": [
+     "개인별 최종 계좌개설 조건·당일 판매/잔여 한도·신규 적용금리 확인",
+     "기존 보유계좌와 합산한도·증빙·우대 유지 여부·중도해지 조건 추가 확인"
+    ],
+    "channels": [
+     "영업점",
+     "모바일뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지 이율이 적용되고 우대금리가 미적용될 수 있습니다. 실제 만기금액은 계산하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3X-BUSAN-0229",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.busanbank.co.kr/ib20/mnu/FPMDPO012009001?ibs_current_page=2",
+      "title": "BNK부산은행 현재 전체상품 목록 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KB-CLEAR-SKY",
+    "institution": "KB국민은행",
+    "product_name": "KB맑은하늘적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 1000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 36,
+    "allowed_months": [
+     12,
+     24,
+     36
+    ],
+    "payment_note": "매월 1만원~100만원을 원 단위로 자유롭게 납입.",
+    "term_note": "1년·2년·3년 중 선택.",
+    "eligibility_note": "실명의 개인. 공동명의 불가; 1인 3계좌까지 안내.",
+    "features": [
+     "생활 속 친환경 실천 관련 우대 항목이 있는 적금입니다."
+    ],
+    "preferential_conditions": [
+     "전자 서식·환경 실천 등 우대 항목별 요건을 가입 시 확인합니다."
+    ],
+    "required_checks": [
+     "현재 판매 여부",
+     "가입 대상·계좌 개설 요건",
+     "가입일 금리와 우대조건"
+    ],
+    "channels": [
+     "은행 공식 상품 페이지 또는 앱에서 확인"
+    ],
+    "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.65",
+      "max_total_rate_percent": "3.45",
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 52 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "2.75",
+      "max_total_rate_percent": "3.65",
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 52 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.05",
+      "max_total_rate_percent": "4.05",
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 52 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP000942",
+      "title": "KB국민은행 KB맑은하늘적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 52 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KB-CLEAR-SKY",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.65",
+      "max_total_rate_percent": "3.45",
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 52 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "2.75",
+      "max_total_rate_percent": "3.65",
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 52 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.05",
+      "max_total_rate_percent": "4.05",
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 52 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP000942",
+      "title": "KB국민은행 KB맑은하늘적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 52 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (3 rates in order (all rows, ascending terms) within 52 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KB-MY-SAVING",
+    "institution": "KB국민은행",
+    "product_name": "KB내맘대로적금 · 자유적립식",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 3000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 6,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "자유적립식은 매월 1만원~300만원. 정액적립식은 별도 조건을 확인하세요.",
+    "term_note": "6~36개월 범위. 월 단위 계약 조건을 은행에서 확인합니다.",
+    "eligibility_note": "만 14세 이상 실명의 개인. 공동명의 불가; 자유적립식은 1인 최대 5계좌 안내.",
+    "features": [
+     "납입 방식과 우대 항목을 선택하는 상품입니다."
+    ],
+    "preferential_conditions": [
+     "선택한 우대 항목의 세부 충족 기준과 적용 금리는 공식 안내에서 확인합니다."
+    ],
+    "required_checks": [
+     "현재 판매 여부",
+     "가입 대상·계좌 개설 요건",
+     "가입일 금리와 우대조건"
+    ],
+    "channels": [
+     "은행 공식 상품 페이지 또는 앱에서 확인"
+    ],
+    "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.25",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000821",
+      "title": "KB국민은행 KB내맘대로적금 · 자유적립식 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-06",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KB-MY-SAVING",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "2.25",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000821",
+      "title": "KB국민은행 KB내맘대로적금 · 자유적립식 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-06",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 75 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (4 rates in order (all rows, ascending terms) within 75 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KB-MY-SAVINGS",
+    "institution": "KB국민은행",
+    "product_name": "KB나만의 적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 1000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 3,
+    "max_months": 12,
+    "allowed_months": null,
+    "payment_note": "월 단위 납입 조건입니다. 패키지형 자유적립식, 월·일 단위 계약. KB내맘대로적금과 다른 상품입니다.",
+    "term_note": "3~12개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+    "eligibility_note": "실명의 개인·개인사업자 등, 공동명의 불가, 1인 2계좌",
+    "features": [
+     "공식 상품가입 색인·출시안내·2026-06-05 보호등록부 확인.",
+     "패키지형 자유적립식, 월·일 단위 계약. KB내맘대로적금과 다른 상품입니다."
+    ],
+    "preferential_conditions": [
+     "패키지 1개·선택 우대 2개 선택. 급여·평잔·카드 실적 등 개별 확인."
+    ],
+    "required_checks": [
+     "실제 가입 대상 및 계좌 수·고객당 합산한도",
+     "최신 금리 및 우대조건 충족 여부",
+     "최초·추가 납입과 납입일 조건"
+    ],
+    "channels": [
+     "KB스타뱅킹·영업점"
+    ],
+    "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 3,
+      "max_months": 11,
+      "base_rate_percent": "1.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 535 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 535 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001632",
+      "title": "KB국민은행 KB나만의 적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 535 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KB-MY-SAVINGS",
+    "rates": [
+     {
+      "min_months": 3,
+      "max_months": 11,
+      "base_rate_percent": "1.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 535 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 535 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001632",
+      "title": "KB국민은행 KB나만의 적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 2 rates in order (all rows, ascending terms) within 535 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (2 rates in order (all rows, ascending terms) within 535 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KB-PREMIUM-FIXED",
+    "institution": "KB국민은행",
+    "product_name": "KB국민프리미엄적금 · 정액적립식",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 3000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 60,
+    "allowed_months": null,
+    "payment_note": "월 단위 납입 조건입니다. 매월 약정액 납입. 자유형을 별도 상품으로 중복 집계하지 않음.",
+    "term_note": "12~60개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+    "eligibility_note": "실명의 개인, 자유형 포함 1인 1계좌",
+    "features": [
+     "공식 상품안내 색인·2026-06-05 보호등록부 중단일 공란 확인.",
+     "매월 약정액 납입. 자유형을 별도 상품으로 중복 집계하지 않음."
+    ],
+    "preferential_conditions": [
+     "단체가입·병역명문가 등 조건 증빙"
+    ],
+    "required_checks": [
+     "실제 가입 대상 및 계좌 수·고객당 합산한도",
+     "최신 금리 및 우대조건 충족 여부",
+     "최초·추가 납입과 납입일 조건"
+    ],
+    "channels": [
+     "인터넷·KB스타뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.75",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.95",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 59,
+      "base_rate_percent": "3.05",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "3.25",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000428",
+      "title": "KB국민은행 KB국민프리미엄적금 · 정액적립식 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-06",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KB-PREMIUM-FIXED",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "2.75",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "2.95",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 59,
+      "base_rate_percent": "3.05",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "3.25",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01000428",
+      "title": "KB국민은행 KB국민프리미엄적금 · 정액적립식 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-06",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 139 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (4 rates in order (all rows, ascending terms) within 139 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KB-SPECIAL-STAR",
+    "institution": "KB국민은행",
+    "product_name": "KB 특★한 적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 1000,
+    "maximum": 300000,
+    "maximum_kind": "KNOWN",
+    "min_months": 1,
+    "max_months": 6,
+    "allowed_months": null,
+    "payment_note": "월 단위 납입 조건입니다. 월·일 단위 계약, 만기일 1회 변경 규칙 별도.",
+    "term_note": "1~6개월 · 여기서는 정수 개월의 조건 범위만 비교하며 날짜별 이자를 계산하지 않습니다.",
+    "eligibility_note": "실명의 개인 1인 3계좌. 개인사업자·임의단체·공동명의 제외.",
+    "features": [
+     "공식 상품가입 색인·2026-06-05 보호등록부 판매중단일 공란.",
+     "월·일 단위 계약, 만기일 1회 변경 규칙 별도."
+    ],
+    "preferential_conditions": [
+     "전용화면 별 모으기·쿠폰 등 개별 조건"
+    ],
+    "required_checks": [
+     "실제 가입 대상 및 계좌 수·고객당 합산한도",
+     "최신 금리 및 우대조건 충족 여부",
+     "최초·추가 납입과 납입일 조건"
+    ],
+    "channels": [
+     "KB스타뱅킹"
+    ],
+    "early_exit_note": "만기 전 해지 시 별도 중도해지 조건과 우대금리 적용 여부를 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 6,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001566",
+      "title": "KB국민은행 KB 특★한 적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KB-SPECIAL-STAR",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 6,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061761%3Ab061770&isNew=N&page=C020702&prcode=DP01001566",
+      "title": "KB국민은행 KB 특★한 적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV2-KB-CARD",
+    "institution": "KB국민은행",
+    "product_name": "KB카드쓰담적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 300000,
+    "maximum_kind": "KNOWN",
+    "min_months": 6,
+    "max_months": 6,
+    "allowed_months": null,
+    "payment_note": "월 납입액 10,000원 이상 300,000원 이하",
+    "term_note": "6개월",
+    "eligibility_note": "실명의 개인,1인1계좌; 개인사업자·임의단체·공동명의 불가",
+    "features": [
+     "자유적립식,6개월",
+     "판매2026.08.21~2027.08.17,10만좌 한정. 카드 연회비·추가지출은 별도 비교"
+    ],
+    "preferential_conditions": [
+     "직전6개월 KB개인신용카드 결제실적 없음·가입월부터2개월경과월말까지 합산10만원 결제·만기3영업일전까지 은행경유발급 카드 보유와 KB결제계좌·선택동의2종 모두 충족 시 연6.00%p",
+     "신규금액 출금계좌 월평균잔액50만원 이상월1회 연1.00%p 또는100만원이상 연2.00%p",
+     "최근1년 급여입금실적 없는 고객이 인정급여1회이상 수령 시 연2.00%p"
+    ],
+    "required_checks": [
+     "실제 가입 자격·현재 판매 및 남은 한도",
+     "우대조건 충족·지연납입·원 미만 처리와 실제 만기 계산 규칙",
+     "판매기간2026.8.21~2027.8.17 및 10만좌 잔여 한도·가입당일 신규취급 확인. 한도소진시 별도 안내 없이 판매종료."
+    ],
+    "channels": [
+     "영업점·인터넷/모바일 등 공식 페이지의 가입 경로 확인"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지이율과 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": "12.00",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01001668",
+      "title": "KB국민은행 KB카드쓰담적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-06",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV2-KB-CARD",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "2.00",
+      "max_total_rate_percent": "12.00",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://obank.kbstar.com/quics?cc=b061496%3Ab061645&isNew=N&page=C016613&prcode=DP01001668",
+      "title": "KB국민은행 KB카드쓰담적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-06",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV2-KJ-FC",
+    "institution": "광주은행",
+    "product_name": "광주FC적금 · 정액적립식",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 50000,
+    "maximum": 500000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 12,
+    "allowed_months": null,
+    "payment_note": "월 납입액 50,000원 이상 500,000원 이하",
+    "term_note": "12개월",
+    "eligibility_note": "만14세 이상 실명의 개인,판매연도1인1계좌",
+    "features": [],
+    "preferential_conditions": [
+     "광주FC 성적·추가 거래 조건별 우대는 개인별 충족 및 현재 적용 기준 추가 확인",
+     "상단 최고이율과 세부 우대표의 수치가 일치하지 않아 최고금리를 확정해 표시하지 않습니다."
+    ],
+    "required_checks": [
+     "실제 가입 자격·현재 판매 및 남은 한도",
+     "우대조건 충족·지연납입·원 미만 처리와 실제 만기 계산 규칙"
+    ],
+    "channels": [
+     "영업점·인터넷/모바일 등 공식 페이지의 가입 경로 확인"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지이율과 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20240220001",
+      "title": "광주은행 광주FC적금 · 정액적립식 현재 공식 상품 상세 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV2-KJ-FC",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20240220001",
+      "title": "광주은행 광주FC적금 · 정액적립식 현재 공식 상품 상세 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV2-KJ-VIP",
+    "institution": "광주은행",
+    "product_name": "VIP플러스적금 · 정액적립식",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 100000,
+    "maximum": 5000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 12,
+    "allowed_months": null,
+    "payment_note": "월 납입액 100,000원 이상 5,000,000원 이하",
+    "term_note": "12개월",
+    "eligibility_note": "실명의 개인,1인1계좌",
+    "features": [],
+    "preferential_conditions": [
+     "가입일~만기전날 VIP선정 연0.30%p",
+     "동일일자 만기1년이상 원화정기예금500만원이상 가입·만기전날 유지 연0.20%p"
+    ],
+    "required_checks": [
+     "실제 가입 자격·현재 판매 및 남은 한도",
+     "우대조건 충족·지연납입·원 미만 처리와 실제 만기 계산 규칙"
+    ],
+    "channels": [
+     "영업점·인터넷/모바일 등 공식 페이지의 가입 경로 확인"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지이율과 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": "2.90",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20230906001",
+      "title": "광주은행 VIP플러스적금 · 정액적립식 현재 공식 상품 상세 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV2-KJ-VIP",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.40",
+      "max_total_rate_percent": "2.90",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20230906001",
+      "title": "광주은행 VIP플러스적금 · 정액적립식 현재 공식 상품 상세 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3-KJ-DIGITAL",
+    "institution": "광주은행",
+    "product_name": "쏠쏠한MY디지털적금 · 정액적립식",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 1000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 24,
+    "allowed_months": [
+     12,
+     24
+    ],
+    "payment_note": "월 납입액 10,000원 이상 ~ 1,000,000원 이하",
+    "term_note": "12~24개월 (지정 기간만 가입)",
+    "eligibility_note": "실명의 개인, 1인1계좌",
+    "features": [
+     "12/24개월만 가입,24개월 금리는 미확인",
+     "자유식 추가입금 최저1000원 조건은 별도"
+    ],
+    "preferential_conditions": [
+     "마케팅 전체 동의0.20%p",
+     "직전3개월 예적금 신규/보유/해지 거래없음0.20%p"
+    ],
+    "required_checks": [
+     "가입대상·현재 판매 여부·남은 한도를 공식 채널에서 확인",
+     "우대조건 충족 여부·실제 납입일·중도해지·만기 계산 계약 확인"
+    ],
+    "channels": [
+     "인터넷뱅킹",
+     "스마트뱅킹",
+     "모바일웹"
+    ],
+    "early_exit_note": "만기 전 해지는 상품별 중도해지금리가 적용되며 우대금리가 미적용될 수 있습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.60",
+      "max_total_rate_percent": "3.00",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20220225001",
+      "title": "광주은행 쏠쏠한MY디지털적금 · 정액적립식 현재 공식 상품 상세 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3-KJ-DIGITAL",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "2.60",
+      "max_total_rate_percent": "3.00",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kjbank.com/ib20/mnu/FPMDPTR030100?INBN_GDS_NO=DEP20220225001",
+      "title": "광주은행 쏠쏠한MY디지털적금 · 정액적립식 현재 공식 상품 상세 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3-SB-MOA-DEPOSIT",
+    "institution": "모아저축은행",
+    "product_name": "정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 100000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 1,
+    "max_months": 24,
+    "allowed_months": null,
+    "payment_note": "목돈 예치 100,000원 이상·상한 없음",
+    "term_note": "1~24개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+    "eligibility_note": "제한없음",
+    "features": [
+     "단리 월이자지급 또는 월복리 만기지급 선택; 표의 기본 연이율과 복리수익률을 구분",
+     "원문24개월 금리 행 미표기. 해당 기간 기본금리 추천은 제공하지 않음"
+    ],
+    "preferential_conditions": [
+     "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+    ],
+    "required_checks": [
+     "현재 판매·계좌 수 제한·개인별 가입 자격",
+     "납입일·휴일·원 미만 처리 및 중도해지 계약",
+     "공식 페이지의 현재 적용금리 재확인"
+    ],
+    "channels": [
+     "영업점"
+    ],
+    "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "2.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 17,
+      "base_rate_percent": "3.85",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 18,
+      "max_months": 23,
+      "base_rate_percent": "3.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=39",
+      "title": "모아저축은행 정기예금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-10-23",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3-SB-MOA-DEPOSIT",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "2.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 17,
+      "base_rate_percent": "3.85",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 18,
+      "max_months": 23,
+      "base_rate_percent": "3.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=39",
+      "title": "모아저축은행 정기예금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-10-23",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (5 rates in order (all rows, ascending terms) within 655 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3-SB-MOA-E-DEPOSIT",
+    "institution": "모아저축은행",
+    "product_name": "e-모아 정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 100000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 1,
+    "max_months": 24,
+    "allowed_months": null,
+    "payment_note": "목돈 예치 100,000원 이상·상한 없음",
+    "term_note": "1~24개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+    "eligibility_note": "온라인19세이상 개인 및 법인",
+    "features": [
+     "단리 월이자지급 또는 월복리 만기지급 선택; 표의 기본 연이율과 복리수익률을 구분",
+     "원문24개월 금리 행 미표기. 해당 기간 기본금리 추천은 제공하지 않음"
+    ],
+    "preferential_conditions": [
+     "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+    ],
+    "required_checks": [
+     "현재 판매·계좌 수 제한·개인별 가입 자격",
+     "납입일·휴일·원 미만 처리 및 중도해지 계약",
+     "공식 페이지의 현재 적용금리 재확인"
+    ],
+    "channels": [
+     "인터넷뱅킹·SB톡톡+·모아디지털뱅크"
+    ],
+    "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "2.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 17,
+      "base_rate_percent": "3.85",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 18,
+      "max_months": 23,
+      "base_rate_percent": "3.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=41",
+      "title": "모아저축은행 e-모아 정기예금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-10-23",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3-SB-MOA-E-DEPOSIT",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "2.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "2.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 17,
+      "base_rate_percent": "3.85",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     },
+     {
+      "min_months": 18,
+      "max_months": 23,
+      "base_rate_percent": "3.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=41",
+      "title": "모아저축은행 e-모아 정기예금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-10-23",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 655 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (5 rates in order (all rows, ascending terms) within 655 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3-SB-MOA-E-SAVE",
+    "institution": "모아저축은행",
+    "product_name": "e-모아 정기적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 12,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "월 10,000원 이상, 계약금액 상한 없음(공식 데스크톱 상세). 정상 정액 납입 조건.",
+    "term_note": "12~36개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+    "eligibility_note": "만19세이상 실명의 내국인 개인. 모바일 공식 가입대상 기준, 최종 계좌개설 요건 추가 확인.",
+    "features": [],
+    "preferential_conditions": [
+     "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+    ],
+    "required_checks": [
+     "현재 판매·계좌 수 제한·개인별 가입 자격",
+     "납입일·휴일·원 미만 처리 및 중도해지 계약",
+     "공식 페이지의 현재 적용금리 재확인"
+    ],
+    "channels": [
+     "모아디지털뱅크·SB톡톡+·인터넷뱅킹"
+    ],
+    "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "4.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 185 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 185 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 185 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+      "title": "모아저축은행 e-모아 정기적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-07-22",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 185 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3-SB-MOA-E-SAVE",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "4.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 185 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 185 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 185 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.moasb.co.kr/ProdList_001.act?rnum=34",
+      "title": "모아저축은행 e-모아 정기적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-07-22",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 185 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (3 rates in order (all rows, ascending terms) within 185 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+    "institution": "부림저축은행",
+    "product_name": "톡톡 정기적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 6,
+    "max_months": 60,
+    "allowed_months": null,
+    "payment_note": "월납입1만원이상1원단위·매월정액,가입금액제한없음명시",
+    "term_note": "6~60개월; 원문에 개별 기간 금리가 있는 구간만 표시",
+    "eligibility_note": "만19세이상내국인개인",
+    "features": [],
+    "preferential_conditions": [
+     "기본금리 외 우대 적용 여부는 공식 안내에서 추가 확인"
+    ],
+    "required_checks": [
+     "현재 판매·계좌 수 제한·개인별 가입 자격",
+     "납입일·휴일·원 미만 처리 및 중도해지 계약",
+     "공식 페이지의 현재 적용금리 재확인"
+    ],
+    "channels": [
+     "SB톡톡"
+    ],
+    "early_exit_note": "중도해지 시 약정금리보다 낮은 중도해지이율 등이 적용되므로 공식 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 181 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "4.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 181 characters"
+     },
+     {
+      "min_months": 13,
+      "max_months": 60,
+      "base_rate_percent": "3.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 181 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+      "title": "부림저축은행 톡톡 정기적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 181 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "NOV3-SB-BULIM-TOK-SAVE",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 181 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "4.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 181 characters"
+     },
+     {
+      "min_months": 13,
+      "max_months": 60,
+      "base_rate_percent": "3.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 181 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.bulimbank.co.kr/ProdList_001.act?rnum=24",
+      "title": "부림저축은행 톡톡 정기적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": null,
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 3 rates in order (all rows, ascending terms) within 181 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (3 rates in order (all rows, ascending terms) within 181 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KAKAO-DEPOSIT",
+    "institution": "카카오뱅크",
+    "product_name": "카카오뱅크 정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 1000000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 1,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "한 번에 100만원 이상 예치. 공식 FAQ에 최대 가입금액 제한 없음으로 안내.",
+    "term_note": "1~36개월, 월/일 단위. 실제 만기일은 은행에서 확인.",
+    "eligibility_note": "실명의 개인의 계좌 개설 요건 별도 확인.",
+    "features": [
+     "긴급출금 최대 2회; 출금 후 최소 잔액 100만원 유지 조건."
+    ],
+    "preferential_conditions": [
+     "금리쿠폰 적용 여부·자동연장 조건은 별도 확인."
+    ],
+    "required_checks": [
+     "현재 판매 여부",
+     "가입 대상·계좌 개설 요건",
+     "가입일 금리와 우대조건"
+    ],
+    "channels": [
+     "은행 공식 상품 페이지 또는 앱에서 확인"
+    ],
+    "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "3.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.60",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kakaobank.com/products/deposit",
+      "title": "카카오뱅크 카카오뱅크 정기예금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KAKAO-DEPOSIT",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "3.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.60",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kakaobank.com/products/deposit",
+      "title": "카카오뱅크 카카오뱅크 정기예금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 647 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (6 rates in order (all rows, ascending terms) within 647 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KAKAO-FREE-SAVINGS",
+    "institution": "카카오뱅크",
+    "product_name": "카카오뱅크 자유적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 1000,
+    "maximum": 3000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 6,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+    "term_note": "공식 가입기간 6~36개월(월·일 단위). 여기서는 정수 개월 조건만 비교합니다.",
+    "eligibility_note": "만14세 이상 실명의 내국인,1인당52계좌까지. 본인명의 카카오뱅크 입출금통장으로 납입. 실제 가입자격은 추가확인.",
+    "features": [
+     "표시 최고금리는 기본금리에 공개된 자동이체 우대 0.20%p를 더한 조건부 값입니다. 개별 쿠폰 제외."
+    ],
+    "preferential_conditions": [
+     "계약월수 절반 이상을 매월 자동이체로 납입하고 만기 해지 시 연 0.20%p 우대. 자동연장 원리금 제외."
+    ],
+    "required_checks": [
+     "사용자의 실제 가입 자격",
+     "우대조건 실제 충족 여부",
+     "검증된 날짜별 만기 계산 계약",
+     "납입 단위 세칙"
+    ],
+    "channels": [
+     "은행 공식 상품 페이지 또는 앱에서 확인"
+    ],
+    "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.85",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kakaobank.com/products/savings",
+      "title": "카카오뱅크 카카오뱅크 자유적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KAKAO-FREE-SAVINGS",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.70",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.85",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kakaobank.com/products/savings",
+      "title": "카카오뱅크 카카오뱅크 자유적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 388 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (4 rates in order (all rows, ascending terms) within 388 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KBANK-CODEK-SAVINGS",
+    "institution": "케이뱅크",
+    "product_name": "코드K 자유적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 1000,
+    "maximum": 300000,
+    "maximum_kind": "KNOWN",
+    "min_months": 1,
+    "max_months": 36,
+    "allowed_months": [
+     1,
+     3,
+     6,
+     12,
+     24,
+     36
+    ],
+    "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+    "term_note": "공식 가입기간은 1·3·6·12·24·36개월입니다. 1~36개월의 모든 개월 수로 확대하지 않습니다.",
+    "eligibility_note": "공식 대상은 만 17세 이상 실명의 개인·개인사업자, 본인 명의 케이뱅크 입출금통장을 통해 납입. 실제 가입 자격 미판정.",
+    "features": [
+     "공식 기간별 기본금리를 표시합니다. 개별 우대코드 가산은 미반영."
+    ],
+    "preferential_conditions": [
+     "이벤트 우대코드는 진행 여부·개인 코드가 확인되지 않아 표시 최고금리에 반영하지 않습니다."
+    ],
+    "required_checks": [
+     "공식 원문 시간초과로 이번 재확인 미완료",
+     "사용자의 실제 가입 자격",
+     "우대조건 실제 충족 여부",
+     "검증된 날짜별 만기 계산 계약"
+    ],
+    "channels": [
+     "은행 공식 상품 페이지 또는 앱에서 확인"
+    ],
+    "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 1,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": "2.90",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 3,
+      "base_rate_percent": "3.10",
+      "max_total_rate_percent": "3.10",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "3.60",
+      "max_total_rate_percent": "3.60",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "3.80",
+      "max_total_rate_percent": "3.80",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": "3.20",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": "3.20",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kbanknow.com/web/product/deposit/codek-saving",
+      "title": "케이뱅크 코드K 자유적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KBANK-CODEK-SAVINGS",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 1,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": "2.90",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 3,
+      "base_rate_percent": "3.10",
+      "max_total_rate_percent": "3.10",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 6,
+      "base_rate_percent": "3.60",
+      "max_total_rate_percent": "3.60",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "3.80",
+      "max_total_rate_percent": "3.80",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 24,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": "3.20",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.20",
+      "max_total_rate_percent": "3.20",
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kbanknow.com/web/product/deposit/codek-saving",
+      "title": "케이뱅크 코드K 자유적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 88 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (6 rates in order (all rows, ascending terms) within 88 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KBANK-DEPOSIT",
+    "institution": "케이뱅크",
+    "product_name": "코드K 정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 1000000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 1,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "한 번에 100만원 이상 예치. 한도 없는 금액으로 안내.",
+    "term_note": "1~36개월.",
+    "eligibility_note": "만 17세 이상 실명의 개인 및 개인사업자 안내.",
+    "features": [
+     "가입 후 14일 이내 금리보장서비스·부분인출 조건 확인."
+    ],
+    "preferential_conditions": [
+     "일반 우대조건과 별도로 금리보장서비스 적용 요건 확인."
+    ],
+    "required_checks": [
+     "현재 판매 여부",
+     "가입 대상·계좌 개설 요건",
+     "가입일 금리와 우대조건"
+    ],
+    "channels": [
+     "은행 공식 상품 페이지 또는 앱에서 확인"
+    ],
+    "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "3.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.61",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.15",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kbanknow.com/web/product/deposit/codek-fixed",
+      "title": "케이뱅크 코드K 정기예금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KBANK-DEPOSIT",
+    "rates": [
+     {
+      "min_months": 1,
+      "max_months": 2,
+      "base_rate_percent": "2.90",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 3,
+      "max_months": 5,
+      "base_rate_percent": "3.30",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.40",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.61",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.10",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.15",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kbanknow.com/web/product/deposit/codek-fixed",
+      "title": "케이뱅크 코드K 정기예금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 6 rates in order (all rows, ascending terms) within 95 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (6 rates in order (all rows, ascending terms) within 95 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "KBANK-PRIMARY-SAVINGS",
+    "institution": "케이뱅크",
+    "product_name": "주거래우대 자유적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 1000,
+    "maximum": 3000000,
+    "maximum_kind": "KNOWN",
+    "min_months": 6,
+    "max_months": 36,
+    "allowed_months": null,
+    "payment_note": "매월 적립하는 상품입니다. 월 한도 안에서 납입액을 선택하세요.",
+    "term_note": "6~36개월. 실제 금리는 계약 일수(180/365/730/1095일)로 판정하므로 은행에서 계약일수를 재확인하세요.",
+    "eligibility_note": "만17세 이상 실명의 개인 및 개인사업자,1인 최대3계좌. 본인명의 케이뱅크 입출금통장으로 납입. 실제 가입자격은 추가확인.",
+    "features": [
+     "정수 개월 구간에 해당하는 공시 기본·최고금리를 안내하며 실제 날짜별 금액은 계산하지 않습니다."
+    ],
+    "preferential_conditions": [
+     "급여이체 또는 지정 통신비 자동이체 실적 3개월 이상: 연 0.30%p.",
+     "케이뱅크 체크카드 월 20만원 이상 실적 3개월 이상: 연 0.30%p. 실적 인정기간 등 세부 조건 및 만기 해지 필요."
+    ],
+    "required_checks": [
+     "공식 원문 시간초과·실제 계약일수 기준 확인 미완료",
+     "사용자의 실제 가입 자격",
+     "우대조건 실제 충족 여부",
+     "검증된 날짜별 만기 계산 계약",
+     "납입 단위 세칙",
+     "실제 계약 일수"
+    ],
+    "channels": [
+     "은행 공식 상품 페이지 또는 앱에서 확인"
+    ],
+    "early_exit_note": "만기 전 해지 시 약정금리와 다른 중도해지금리가 적용될 수 있습니다. 상품별 약관을 확인하세요.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.30",
+      "max_total_rate_percent": "3.90",
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.70",
+      "max_total_rate_percent": "4.30",
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": "4.10",
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": "4.10",
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kbanknow.com/web/product/deposit/primary-saving",
+      "title": "케이뱅크 주거래우대 자유적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "KBANK-PRIMARY-SAVINGS",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.30",
+      "max_total_rate_percent": "3.90",
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.70",
+      "max_total_rate_percent": "4.30",
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": "4.10",
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": "4.10",
+      "evidence_locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.kbanknow.com/web/product/deposit/primary-saving",
+      "title": "케이뱅크 주거래우대 자유적금 공식 상품안내 재확인 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-11-09",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 4 rates in order (all rows, ascending terms) within 58 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (4 rates in order (all rows, ascending terms) within 58 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "PEPPER-2030",
+    "institution": "페퍼저축은행",
+    "product_name": "페퍼스2030적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": 300000,
+    "maximum_kind": "KNOWN",
+    "min_months": 12,
+    "max_months": 12,
+    "allowed_months": [
+     12
+    ],
+    "payment_note": "월 10,000원 이상 ~ 300,000원 이하",
+    "term_note": "12개월",
+    "eligibility_note": "개인고객, 1인1계좌, 당행 입출금계좌 보유",
+    "features": [
+     "원문 직접확인. 2026.10.23 설명서 목록과 APP안내, 공시2026-0728호 유효2026.10.02~2027.10.01. 금리표 기준2022년이므로 수치 생략",
+     "정액적립식: 약정한 월 납입액으로 신규 및 매월 납입; 명시되지 않은 첫납입 별도 한도는 추정하지 않음"
+    ],
+    "preferential_conditions": [
+     "당행계좌 자동이체6회 이상",
+     "상품서비스 안내수단 문자·전화 모두 동의 및 유지 조건"
+    ],
+    "required_checks": [
+     "상품명2030만으로 연령20~39 자격을 추정하지 않음; 공식 가입대상에는 개인고객이라고 표시됨",
+     "실제 가입 자격",
+     "가입일 적용 금리·우대 충족",
+     "납입 단위 및 지연 납입 조건",
+     "개인별 실제 가입 자격과 계좌 개설 요건",
+     "납입 지연·우대조건·고객당 합산한도의 실제 충족 여부",
+     "본문에서 원/천원 단위를 별도로 확정하지 못함; 임의 단위 추정 금지"
+    ],
+    "channels": [
+     "디지털페퍼 앱"
+    ],
+    "early_exit_note": "만기 전 해지·납입 지연 시 약정금리와 다른 금리 또는 만기이연 적용 가능; 은행 약관 확인",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": "5.00",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=33&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+      "title": "페퍼저축은행 페퍼스2030적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2022-01-26",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [
+     "DISC-81e8753ff691ce61"
+    ],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "PEPPER-2030",
+    "rates": [
+     {
+      "min_months": 12,
+      "max_months": 12,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": "5.00",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=33&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+      "title": "페퍼저축은행 페퍼스2030적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2022-01-26",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "PEPPER-DIGITAL-REGULAR",
+    "institution": "페퍼저축은행",
+    "product_name": "페퍼스정기적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 6,
+    "max_months": 60,
+    "allowed_months": null,
+    "payment_note": "월 10,000원 이상; 공식 가입한도 제한 없음",
+    "term_note": "6~60개월 월 단위",
+    "eligibility_note": "개인고객",
+    "features": [
+     "공식 현행상품 상세의 APP안내, 상품설명서2026.01.02, 공시2026-0400호 유효2026.05.15~2027.05.14",
+     "정액적립식: 약정한 월 납입액으로 신규 및 매월 납입; 명시되지 않은 첫납입 별도 한도는 추정하지 않음"
+    ],
+    "preferential_conditions": [
+     "우대 없는 기본금리형 안내, 가입일 고시금리 확인"
+    ],
+    "required_checks": [
+     "채널 전용 상품과 일반정기적금의 중복가능·고객합산한도 별도확인",
+     "실제 가입 자격",
+     "가입일 적용 금리·우대 충족",
+     "납입 단위 및 지연 납입 조건",
+     "개인별 실제 가입 자격과 계좌 개설 요건",
+     "납입 지연·우대조건·고객당 합산한도의 실제 충족 여부",
+     "본문에서 원/천원 단위를 별도로 확정하지 못함; 임의 단위 추정 금지"
+    ],
+    "channels": [
+     "디지털페퍼 앱"
+    ],
+    "early_exit_note": "만기 전 해지·납입 지연 시 약정금리와 다른 금리 또는 만기이연 적용 가능; 은행 약관 확인",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 59,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=2&prdSn=34",
+      "title": "페퍼저축은행 페퍼스정기적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2024-12-02",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     }
+    ],
+    "disclosure_ids": [
+     "DISC-f1611cd89f4d18cf"
+    ],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "PEPPER-DIGITAL-REGULAR",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 59,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=2&prdSn=34",
+      "title": "페퍼저축은행 페퍼스정기적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2024-12-02",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 80 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (5 rates in order (all rows, ascending terms) within 80 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "PEPPER-FREE-EXIT-DEPOSIT",
+    "institution": "페퍼저축은행",
+    "product_name": "페퍼루 중도해지 FREE 정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 100000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 36,
+    "max_months": 36,
+    "allowed_months": [
+     36
+    ],
+    "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+    "term_note": "공식기간 36~36개월. 가능 기간 [36]개월. 정수 개월 조건만 비교합니다.",
+    "eligibility_note": "개인고객. 비과세종합저축 자격 및 최종 계좌개설은 추가 확인.",
+    "features": [
+     "중도해지 시에도 예치기간별 별도 이율; 36개월 약정"
+    ],
+    "preferential_conditions": [],
+    "required_checks": [
+     "가입 자격 및 채널",
+     "실제 가입일 적용 금리",
+     "중도해지 조건",
+     "검증된 만기 계산 계약"
+    ],
+    "channels": [
+     "영업점·공식 뱅킹 안내 확인"
+    ],
+    "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": "2.50",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=18",
+      "title": "페퍼저축은행 페퍼루 중도해지 FREE 정기예금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-02-26",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "PEPPER-FREE-EXIT-DEPOSIT",
+    "rates": [
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": "2.50",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=18",
+      "title": "페퍼저축은행 페퍼루 중도해지 FREE 정기예금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-02-26",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "PEPPER-REGULAR",
+    "institution": "페퍼저축은행",
+    "product_name": "정기적금",
+    "kind": "SAVINGS",
+    "schedule": "MONTHLY",
+    "minimum": 10000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 6,
+    "max_months": 60,
+    "allowed_months": null,
+    "payment_note": "월 10,000원 이상; 공식 가입한도 제한 없음",
+    "term_note": "6~60개월 월 단위",
+    "eligibility_note": "제한없음, 관련 법규에 따른 일부 고객 제한 가능",
+    "features": [
+     "원문 직접 확인. 2026.01.02 상품설명서 목록과 현행 인터넷뱅킹 링크, 공시2026-0716호 유효2026.09.17~2027.09.16",
+     "정액적립식: 약정한 월 납입액으로 신규 및 매월 납입; 명시되지 않은 첫납입 별도 한도는 추정하지 않음"
+    ],
+    "preferential_conditions": [
+     "가입일 공시 기본이율 확인, 이번 금리 수치 미사용"
+    ],
+    "required_checks": [
+     "개인/법인 및 채널별 조건 확인",
+     "공시의 정기적금과 인터넷/스마트/비대면 정기적금은 현재 확보한 단일 상품페이지로만 검증됨; 두 개 상품으로 부풀리지 않음",
+     "실제 가입 자격",
+     "가입일 적용 금리·우대 충족",
+     "납입 단위 및 지연 납입 조건",
+     "개인별 실제 가입 자격과 계좌 개설 요건",
+     "납입 지연·우대조건·고객당 합산한도의 실제 충족 여부",
+     "본문에서 원/천원 단위를 별도로 확정하지 못함; 임의 단위 추정 금지"
+    ],
+    "channels": [
+     "영업점",
+     "인터넷뱅킹 안내"
+    ],
+    "early_exit_note": "만기 전 해지·납입 지연 시 약정금리와 다른 금리 또는 만기이연 적용 가능; 은행 약관 확인",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 59,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=17&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+      "title": "페퍼저축은행 정기적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2024-12-02",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     }
+    ],
+    "disclosure_ids": [
+     "DISC-e13b0d7f0c414907",
+     "DISC-d918bc73384128b1"
+    ],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "PEPPER-REGULAR",
+    "rates": [
+     {
+      "min_months": 6,
+      "max_months": 11,
+      "base_rate_percent": "3.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     },
+     {
+      "min_months": 12,
+      "max_months": 23,
+      "base_rate_percent": "3.50",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     },
+     {
+      "min_months": 24,
+      "max_months": 35,
+      "base_rate_percent": "3.00",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     },
+     {
+      "min_months": 36,
+      "max_months": 59,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     },
+     {
+      "min_months": 60,
+      "max_months": 60,
+      "base_rate_percent": "2.80",
+      "max_total_rate_percent": null,
+      "evidence_locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=17&searchGubunType=%EB%AA%A9%EB%8F%88%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+      "title": "페퍼저축은행 정기적금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2024-12-02",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: 5 rates in order (all rows, ascending terms) within 92 characters"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (5 rates in order (all rows, ascending terms) within 92 characters); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  },
+  {
+   "product": {
+    "product_id": "PEPPERS-FREE-EXIT-DEPOSIT",
+    "institution": "페퍼저축은행",
+    "product_name": "페퍼스 중도해지 FREE 정기예금",
+    "kind": "DEPOSIT",
+    "schedule": "LUMP_SUM",
+    "minimum": 100000,
+    "maximum": null,
+    "maximum_kind": "UNLIMITED",
+    "min_months": 36,
+    "max_months": 36,
+    "allowed_months": [
+     36
+    ],
+    "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+    "term_note": "공식기간 36~36개월. 가능 기간 [36]개월. 정수 개월 조건만 비교합니다.",
+    "eligibility_note": "개인고객",
+    "features": [
+     "디지털페퍼 앱 전용; 경과기간별 중도해지 이율"
+    ],
+    "preferential_conditions": [],
+    "required_checks": [
+     "가입 자격 및 채널",
+     "실제 가입일 적용 금리",
+     "중도해지 조건",
+     "검증된 만기 계산 계약"
+    ],
+    "channels": [
+     "디지털페퍼 앱"
+    ],
+    "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+    "reference_only": false,
+    "reference_reason": null,
+    "rates": [
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": "2.50",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=37",
+      "title": "페퍼저축은행 페퍼스 중도해지 FREE 정기예금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-02-26",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "disclosure_ids": [],
+    "comparison_hold_reason": null,
+    "amount_increment": null,
+    "calculation": null,
+    "eligibility": "UNKNOWN"
+   },
+   "review": {
+    "product_id": "PEPPERS-FREE-EXIT-DEPOSIT",
+    "rates": [
+     {
+      "min_months": 36,
+      "max_months": 36,
+      "base_rate_percent": "2.50",
+      "max_total_rate_percent": "2.50",
+      "evidence_locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=37",
+      "title": "페퍼저축은행 페퍼스 중도해지 FREE 정기예금 공식 현재 상품안내 (자동 대조)",
+      "reviewed_on": "2026-11-12",
+      "basis_date": "2026-02-26",
+      "mode": "OFFICIAL_PAGE",
+      "locator": "자동 대조 2026-11-12: single rate next to a rate label"
+     }
+    ]
+   },
+   "sale_status": "CURRENT",
+   "evidence_note": "automated comparison on 2026-11-12 (not a human reading): the rendered official source shows the product name and the stored base rates (single rate next to a rate label); no sales-ended marker follows the name. Only the kept sources were read.",
+   "change_notes": []
+  }
+ ],
+ "holds": [],
+ "actual_maturity_calculations": 0,
+ "scope_note": "Automated comparison of stored base rates against the rendered official page (tools/auto_recheck.py). Not a human reading; unchanged products only."
+}
