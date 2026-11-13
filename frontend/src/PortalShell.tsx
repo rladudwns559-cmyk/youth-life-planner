@@ -19,4 +19,4 @@ export function PageHeading({page,eyebrow,title,description,backTo='home'}:{back
 }
 export function BackendPending(){return publicBackendPending?<div className="portal-pending" role="status"><strong>계산·알림 서버 연결 준비 중</strong><p>현재 공개 화면에서는 공식 자료를 살펴볼 수 있어요. PC 없이 작동하는 Python 서버 연결 전까지 계산 제출과 개인 알림 구독은 열리지 않습니다.</p></div>:null;}
 export function NeedsBudget({children}:{children?:ReactNode}){return <div className="portal-needs-budget"><span className="needs-symbol" aria-hidden="true">↗</span><h2>내 저축 여력을 먼저 알아볼까요?</h2><p>{children??'생활비를 계산하면 입력한 금액과 목표 기간에 맞춰 상품을 비교할 수 있어요.'}</p><a href={routeLinks.budget}>생활비 계산으로 이동 →</a></div>;}
-export function PortalFooter(){return <footer className="portal-footer"><span>청년 경제생활 · AI+X</span><p>공식 근거로 비교하고, 모르는 조건은 추가 확인합니다.</p><a href={routeLinks.guide}>이용 안내 ↗</a></footer>;}
+export function PortalFooter(){return <footer className="portal-footer"><span>청년 경제생활 · AI+X</span><p>공식 근거로 비교하고, 모르는 조건은 추가 확인합니다.</p><a href={routeLinks.survey}>사용 평가 참여 ↗</a><a href={routeLinks.guide}>이용 안내 ↗</a></footer>;}
