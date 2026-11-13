@@ -107,3 +107,21 @@ def test_an_automated_match_keeps_the_program_fresh_for_the_review_window_only()
     assert recruitment(p, date(2026, 11, 20)) == 'WINDOW_GUIDANCE'
     assert recruitment(p, date(2026, 11, 21)) == 'REVIEW_REQUIRED'
     assert recruitment(full_program([{**auto, 'evidence': 'OFFICIAL_PAGE'}, old]), date(2026, 11, 13)) == 'REVIEW_REQUIRED'  # old rule unchanged
+
+
+def test_a_later_failure_keeps_the_last_match_but_a_later_closing_label_withdraws_it(tmp_path, monkeypatch):
+    import json
+    import backend.opportunities.current_discovery as cd
+    monkeypatch.setattr(cd, 'RECHECKS', tmp_path)
+    page = [dict(url='https://a.go.kr/1', result='MATCH', reason='x')]
+    def day(d, **status):
+        results = [dict(program_id=pid, title=pid, status=s, pages=page) for pid, s in status.items()]
+        (tmp_path / f'{d.replace("-", "")}.json').write_text(json.dumps(dict(checked_on=d, results=results)), encoding='utf-8')
+    day('2026-11-13', A='RENEWED', B='RENEWED', C='NOT_MATCHED')
+    day('2026-11-14', A='NOT_MATCHED', B='CLOSED_SIGNAL', C='RENEWED')
+    latest = cd.latest_rechecks()
+    assert latest['A'][0] == '2026-11-13'  # a failed fetch is not evidence of closing
+    assert 'B' not in latest               # a newer closing label withdraws the match
+    assert latest['C'][0] == '2026-11-14'
+    day('2026-11-15', B='RENEWED')
+    assert cd.latest_rechecks()['B'][0] == '2026-11-15'  # a fresh match after the label counts again

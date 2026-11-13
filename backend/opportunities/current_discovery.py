@@ -26,12 +26,17 @@ def load_municipal_batches():
 
 
 def latest_rechecks():
-    """Newest automated recheck per program (tools/support_recheck.py). Older files never override newer ones."""
-    latest={}
+    """Per program, the newest RENEWED result from tools/support_recheck.py.
+    A later page that merely failed to open or match (NOT_MATCHED) is not evidence that
+    recruitment ended, so it leaves the earlier match to run out its review window.
+    A later CLOSED_SIGNAL withdraws it."""
+    renewed,closed={},{}
     for path in sorted(RECHECKS.glob('*.json')) if RECHECKS.exists() else []:
         batch=read_json(path)
-        for r in batch['results']:latest[r['program_id']]=(batch['checked_on'],r)
-    return latest
+        for r in batch['results']:
+            if r['status']=='RENEWED':renewed[r['program_id']]=(batch['checked_on'],r)
+            elif r['status']=='CLOSED_SIGNAL':closed[r['program_id']]=batch['checked_on']
+    return {pid:v for pid,v in renewed.items() if closed.get(pid,'')<v[0]}
 
 def apply_recheck_results(records,latest):
     """Each matched page is added as an AUTOMATED_PAGE_MATCH source dated on the check day, listed first.

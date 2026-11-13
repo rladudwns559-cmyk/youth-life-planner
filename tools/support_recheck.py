@@ -228,12 +228,6 @@ def main(argv=None) -> int:
     urls = sorted({s['url'] for p in programs for s in p['sources']})
     print(f'programs {len(programs)} · pages {len(urls)}', flush=True)
     texts = asyncio.run(fetch_all(urls, args.concurrency))
-    # Slow or busy public sites (often from overseas CI runners): one slower retry for pages that failed.
-    failed = [u for u, t in texts.items() if isinstance(t, Exception)]
-    if failed:
-        retried = asyncio.run(fetch_all(failed, 2, timeout=45000))
-        texts.update({u: t for u, t in retried.items() if not isinstance(t, Exception)})
-        print(f'retried {len(failed)} · recovered {sum(not isinstance(t, Exception) for t in retried.values())}', flush=True)
     results = evaluate(programs, texts)
     if args.report:
         write(today, results, args.report)
