@@ -3,6 +3,7 @@ import {readRegionalDecision,intakeLabels,locationText} from './support-status';
 import './regional-programs.css';
 import {deadlineOf,daysLeft,DeadlineAction,useKoreaDay} from './SupportPlanner';
 import {routeLinks} from './portal-routing';
+import {SUPPORT_EXAMPLES} from './support-examples';
 import './home-extras.css';
 
 type Program=typeof prepared.programs[number];
@@ -30,6 +31,8 @@ export function HomeSteps(){
   return <section className="home-steps" aria-labelledby="home-steps-title">
     <h2 id="home-steps-title">이렇게 써 보세요</h2>
     <ol>{steps.map(s=><li key={s.n}><span className="home-step-n" aria-hidden="true">{s.n}</span><div><h3>{s.title}</h3><p>{s.text}</p><a href={s.href}>{s.link} →</a></div></li>)}</ol>
+    <div className="home-examples"><p><b>예시로 바로 써 보기</b> 가상의 청년 조건으로 결과를 바로 열어요.</p>
+      <div>{SUPPORT_EXAMPLES.map(e=><a key={e.id} href={routeLinks.programs+'?example='+e.id}>{e.label}</a>)}</div></div>
   </section>;
 }
 

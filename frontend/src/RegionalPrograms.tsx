@@ -1,6 +1,7 @@
 import GroupedInput from './GroupedInput';
-import {useEffect,useMemo,useState} from 'react';
+import {useEffect,useMemo,useRef,useState} from 'react';
 import {readProfile,writeProfile,clearProfile} from './support-profile';
+import {SUPPORT_EXAMPLES,exampleById,exampleFromHash,type SupportExample} from './support-examples';
 import prepared from './public-data/current-support-web.json';
 import './regional-programs.css';
 import {routeLinks} from './portal-routing';
@@ -109,7 +110,18 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const profile={age,employment,rent};const hasProfile=age!==''||employment!=='unknown'||rent!=='unknown';
  const [conditionPrompt,setConditionPrompt]=useState(false);
  const [remember,setRemember]=useState(saved!==null),[rememberError,setRememberError]=useState(false);
- useEffect(()=>{if(remember)setRememberError(!writeProfile({province,city,age:validAge(age)?age:'',employment,rent}));},[remember,province,city,age,employment,rent]);
+ const [example,setExample]=useState<string|null>(null);
+ // Example people are a demo: never written over the visitor's remembered conditions.
+ useEffect(()=>{if(remember&&!example)setRememberError(!writeProfile({province,city,age:validAge(age)?age:'',employment,rent}));},[remember,example,province,city,age,employment,rent]);
+ const beforeExample=useRef<{province:string;city:string;age:string;employment:string;rent:string}|null>(null);
+ function applyExample(e:SupportExample){if(!example)beforeExample.current={province,city,age,employment,rent};setExample(e.id);setProvince(e.province);setCity(e.city);setAge(e.age);setEmployment(e.employment);setRent(e.rent);setOtherRegions(false);setVisible(12);setSort('MATCH');setFinder('programs');}
+ function endExample(){const own=beforeExample.current??(remember?readProfile():null);beforeExample.current=null;setExample(null);setProvince(own?.province??'');setCity(own?.city??'');setAge(own?.age??'');setEmployment(own?.employment??'unknown');setRent(own?.rent??'unknown');setVisible(12);}
+ useEffect(()=>{
+  // "#/programs?example=ansan" from the home page opens that example once, then drops the query.
+  const fromHash=()=>{const e=exampleFromHash(window.location.hash);if(!e)return;applyExample(e);history.replaceState(null,'',window.location.pathname+window.location.search+'#/programs');};
+  fromHash();window.addEventListener('hashchange',fromHash);return()=>window.removeEventListener('hashchange',fromHash);
+ // eslint-disable-next-line react-hooks/exhaustive-deps
+ },[]);
  function toggleRemember(on:boolean){setRemember(on);if(!on){clearProfile();setRememberError(false);}}
  function openResults(){if(!province&&!hasProfile){setConditionPrompt(true);return;}setSort('MATCH');setFinder('programs');}
  function closeConditionPrompt(edit:boolean){setConditionPrompt(false);if(edit)requestAnimationFrame(()=>document.getElementById('support-province')?.focus());}
@@ -190,7 +202,12 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   {listPage?<div className="support-browse-heading"><div><h2 id="support-discovery-title">분야별 지원사업</h2><p>{[displayProvince(province)||'전체 지역',city==='__OTHER__'?'기타 지역':city,age&&('만 '+age+'세'),({employed:'근로 중',unemployed:'현재 일하지 않음',self_employed:'자영업·프리랜서'} as Record<string,string>)[employment],rent==='yes'?'월세 거주':rent==='no'?'월세 외 거주':'',query&&('검색어: '+query),intake!=='CURRENT'&&'모집 필터 적용'].filter(Boolean).join(' · ')}</p></div><a href={routeLinks.programs}>지역·조건 변경 →</a></div>:<><div className="support-heading"><p className="eyebrow">나의 조건에서 시작하는 생활 지원</p><h2 id="support-discovery-title">내 조건에 맞는 지원을 찾아보세요.</h2><p>지역·나이·취업·월세 조건을 고른 뒤 ‘내 조건으로 찾기’를 눌러주세요. 모르는 항목은 비워두셔도 괜찮아요.</p>
     <div className="finder-shortcuts"><button type="button" disabled={!validAge(age)} onClick={openResults}>추천 결과 열기 ↗</button><button type="button" onClick={()=>setFinder('compare')}>비교함 열기 ({comparison.length})</button></div></div>
   {!browse&&<a className="home-feature feature-programs support-catalog-entry" href={routeLinks.catalog} aria-label="청년지원사업 보기"><span className="feature-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M5 7h8l3 3h11v15H5zM10 16h12m-12 4h8"/></svg></span><span><strong>청년지원사업 보기</strong><small>월세·주거부터 취업·교육까지, 분야별 공고 둘러보기</small></span><span className="feature-arrow" aria-hidden="true">→</span></a>}
-  <div className="support-filters">
+  <div className="support-examples" aria-labelledby="support-examples-title">
+   <p id="support-examples-title"><b>예시로 바로 체험하기</b> 가상의 청년 조건으로 결과를 미리 볼 수 있어요.</p>
+   <div>{SUPPORT_EXAMPLES.map(e=><button type="button" key={e.id} aria-pressed={example===e.id} onClick={()=>applyExample(e)}>{e.label}</button>)}</div>
+   {example&&<p className="support-example-active" role="status">예시 조건으로 보는 중이에요 · {exampleById(example)?.detail}. 예시는 저장되지 않고, 아래 조건을 직접 바꾸면 예시가 끝나요. <button type="button" onClick={endExample}>예시 끝내기</button></p>}
+  </div>
+  <div className="support-filters" onChangeCapture={()=>{beforeExample.current=null;setExample(null);}}>
    <div><label htmlFor="support-province">관심·거주 광역지역</label><select id="support-province" value={province} onChange={e=>{setProvince(e.target.value);setOtherRegions(false);setCity('');setVisible(12);}}><option value="">전체 지역에서 살펴보기</option>{prepared.provinces.map(r=><option key={r} value={r}>{displayProvince(r)}</option>)}</select></div>
    <div><label htmlFor="support-city">시·군·구</label><select id="support-city" value={city} disabled={!province||districtOptions.length===0} onChange={e=>{setCity(e.target.value);setOtherRegions(false);setVisible(12);}}><option value="">{province==='세종'?'세종시 전체':'미선택 · 세부지역 추가 확인'}</option>{districtOptions.map(c=><option key={c}>{c}</option>)}<option value="__OTHER__">목록에 없는 시·군·구</option></select></div>
    <div><label htmlFor="support-intake">모집 상태</label><select id="support-intake" value={intake} onChange={e=>{setIntake(e.target.value);setVisible(12);}}><option value="CURRENT">모집·확인할 사업 우선</option><option value="OPEN">공식 접수중 확인</option><option value="ALL">마감 포함 전체</option><option value="ACTIVE">공고상 접수 안내</option><option value="CLOSED">마감·미운영</option><option value="REVIEW">일정·접수 확인 필요</option></select></div>

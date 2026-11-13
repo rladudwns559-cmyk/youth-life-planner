@@ -22,3 +22,10 @@
   .home-deadlines{padding:16px}
   .home-steps h2,.home-deadlines h2{font-size:19px}
 }
+
+.home-examples{margin-top:14px;padding:14px 16px;border-radius:14px;background:#fff7e6;border:1px solid #f3d9a0}
+.home-examples p{margin:0 0 10px;font-size:14px;color:#5b4a1f}
+.home-examples p b{color:#0e1a2b;margin-right:4px}
+.home-examples div{display:flex;flex-wrap:wrap;gap:8px}
+.home-examples a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border-radius:999px;border:1px solid #e3c47a;background:#fff;color:#0e1a2b;font-weight:600;font-size:14px;text-decoration:none}
+.home-examples a:hover{border-color:#0e1a2b}
