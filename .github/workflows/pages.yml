@@ -41,6 +41,8 @@ jobs:
         env:
           VITE_PUBLIC_BACKEND_PENDING: 'true'
         run: pnpm exec vite build --base=./ --outDir dist-pages --emptyOutDir
+      - name: Program pages, sitemap and deadline calendars
+        run: node scripts/static-pages.mts dist-pages
       - uses: actions/upload-pages-artifact@v3
         with:
           path: frontend/dist-pages

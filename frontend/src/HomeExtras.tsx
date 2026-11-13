@@ -2,7 +2,7 @@ import prepared from './public-data/current-support-web.json';
 import {readRegionalDecision,intakeLabels,locationText} from './support-status';
 import './regional-programs.css';
 import {deadlineOf,daysLeft,DeadlineAction,useKoreaDay} from './SupportPlanner';
-import {routeLinks} from './portal-routing';
+import {routeLinks,programLink} from './portal-routing';
 import {SUPPORT_EXAMPLES} from './support-examples';
 import './home-extras.css';
 
@@ -53,7 +53,7 @@ export function HomeDeadlines({limit=4}:{limit?:number}){
         <div className="home-deadline-meta"><span>{locationText(p)}</span><span>{status}</span></div>
         <h3>{p.title}</h3>
         <DeadlineAction program={p} asOf={asOf}/>
-        <a href={p.sources[0].url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 공식 안내'}>공식 안내 ↗</a>
+        <div className="home-deadline-links"><a href={programLink(p.program_id)} aria-label={p.title+' 자세히 보기'}>자세히 보기</a><a href={p.sources[0].url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 공식 안내'}>공식 안내 ↗</a></div>
       </li>)}</ul>}
     {items.length>limit&&<p className="home-deadlines-more">외 {items.length-limit}개는 지원사업 목록에서 정렬을 “공고 마감일 가까운 순”으로 바꾸면 볼 수 있어요.</p>}
   </section>;

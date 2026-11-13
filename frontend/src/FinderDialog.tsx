@@ -14,6 +14,18 @@ export type FinderItem = {
   match:string; checks:string[]; reasons:string[]; url:string; recommendationLabel?:string;
   deadline?:{label:string; file:string; text:()=>string|null};
 };
+export type ScenarioItem={key:string;label:string;items:{id:string;title:string;location:string}[]};
+function OpeningScenarios({scenarios}:{scenarios:ScenarioItem[]}){
+  if(!scenarios.length)return null;
+  return <section className="finder-scenarios" aria-labelledby="finder-scenarios-title">
+    <h3 id="finder-scenarios-title">조건이 바뀌면 열리는 사업</h3>
+    <p>지금은 조건이 달라 뺀 사업 중, 한 가지만 바뀌면 다시 비교 대상이 되는 사업이에요. 이사·취업처럼 상황이 바뀔 때를 미리 알아 두세요.</p>
+    <ul>{scenarios.map(sc=><li key={sc.key}><details><summary><b>{sc.label}</b> <span>{sc.items.length}개 더</span></summary>
+      <ul>{sc.items.map(it=><li key={it.id}><a href={'#/programs/item/'+encodeURIComponent(it.id)}>{it.title}</a> <small>{it.location}</small></li>)}</ul>
+    </details></li>)}</ul>
+    <small className="finder-scenarios-note">다른 조건(소득·거주기간 등)과 모집 상태는 공고에서 따로 확인해야 해요.</small>
+  </section>;
+}
 export type ExcludedItem={id:string; title:string; location:string; url:string; gaps:{key:string;label:string;text:string}[]};
 function DeadlineButton({title,deadline}:{title:string;deadline:NonNullable<FinderItem['deadline']>}){
   const [message,setMessage]=useState('');
@@ -27,7 +39,7 @@ function ExcludedList({items}:{items:ExcludedItem[]}){
   </details>;
 }
 type Props = {
-  initialView:View; context:string; localNotice:LocalCounts|null; scopeTools?:ReactNode; items:FinderItem[]; excluded?:ExcludedItem[]; help?:ReactNode; selected:string[];
+  initialView:View; context:string; localNotice:LocalCounts|null; scopeTools?:ReactNode; items:FinderItem[]; excluded?:ExcludedItem[]; scenarios?:ScenarioItem[]; help?:ReactNode; selected:string[];
   onSelect:(id:string)=>void; comparison:ReactNode; onClose:()=>void; favorites:string[]; onFavorite:(id:string)=>void; storageError?:string;
 };
 
@@ -57,7 +69,7 @@ function ProductResults(){
   </section>;
 }
 
-export default function FinderDialog({initialView,context,localNotice,scopeTools,items,excluded=[],help,selected,onSelect,comparison,onClose,favorites,onFavorite,storageError}:Props){
+export default function FinderDialog({initialView,context,localNotice,scopeTools,items,excluded=[],scenarios=[],help,selected,onSelect,comparison,onClose,favorites,onFavorite,storageError}:Props){
   const ref=useRef<HTMLDialogElement>(null);
   const [view,setView]=useState<View>(initialView),[limit,setLimit]=useState(8);
   const [productsVisited,setProductsVisited]=useState(false);
@@ -73,10 +85,15 @@ export default function FinderDialog({initialView,context,localNotice,scopeTools
     document.body.style.overflow='hidden';
     return ()=>{if(typeof dialog.close==='function'&&dialog.open)dialog.close();document.body.style.overflow=previous;trigger?.focus({preventScroll:true});};
   },[]);
+  // One stable listener: re-subscribing on every render could drop the very hashchange that
+  // re-rendered the page (a link inside the dialog), leaving the dialog open over the next page.
+  const closeRef=useRef(onClose);
+  closeRef.current=onClose;
   useEffect(()=>{
-    window.addEventListener('hashchange',onClose);
-    return ()=>window.removeEventListener('hashchange',onClose);
-  },[onClose]);
+    const close=()=>closeRef.current();
+    window.addEventListener('hashchange',close);
+    return ()=>window.removeEventListener('hashchange',close);
+  },[]);
   return <dialog ref={ref} className="finder-dialog" aria-labelledby="finder-title" onCancel={e=>{e.preventDefault();onClose();}}>
     <div className="finder-head"><div><small>청년 경제생활 / 조건 탐색</small><h2 id="finder-title">내 조건으로 찾은 결과</h2></div><button type="button" autoFocus onClick={onClose} aria-label="결과 창 닫기">닫기 ×</button></div>
     <p className="finder-context">{context}</p>
@@ -87,9 +104,9 @@ export default function FinderDialog({initialView,context,localNotice,scopeTools
       {view==='programs'&&<><DataFreshness scope="supports"/>{scopeTools}{!scopeTools&&<p>공식 모집 상태와 입력 조건을 함께 확인하세요. 비교할 사업은 최대 3개까지 고를 수 있어요.</p>}
         <p>입력 조건의 일치는 신청·수급 가능 확정이 아닙니다. 소득·재산·거주기간 등 모르는 조건은 추가 확인으로 남깁니다. 관심 저장은 사업 ID만 이 기기에 보관합니다.</p>
         {!items.length&&<div className="finder-empty"><h3>현재 필터에 맞는 안내가 없어요.</h3><p>조건을 수정하거나 분야와 모집 상태의 범위를 넓혀보세요.</p></div>}
-        {items.slice(0,limit).map(item=><article key={item.id} className={"finder-row"+(item.recommendationLabel?" finder-recommended":"")}>{item.recommendationLabel&&<span className="finder-recommendation-badge">{item.recommendationLabel} · 모집·지역·입력조건 기준</span>}<div className="finder-meta"><small>{item.status}</small><span>{item.location}</span></div><h3>{item.title}</h3><p>{item.benefit}</p><strong>{item.match}</strong><p>{item.reasons.join(' · ')}</p>{item.deadline&&<DeadlineButton title={item.title} deadline={item.deadline}/>}<p>추가 확인 · {item.checks.join(' · ')}</p><div className="finder-links"><button type="button" className="finder-save" aria-label={item.title+' 관심사업'} aria-pressed={favorites.includes(item.id)} onClick={()=>onFavorite(item.id)}>{favorites.includes(item.id)?'★ 저장됨':'☆ 관심 저장'}</button><label><input type="checkbox" checked={selected.includes(item.id)} disabled={selected.length>=3&&!selected.includes(item.id)} onChange={()=>onSelect(item.id)}/>비교에 담기<span className="sr-only"> {item.title}</span></label><a href={item.url} target="_blank" rel="noopener noreferrer">공식 안내 ↗</a></div></article>)}
+        {items.slice(0,limit).map(item=><article key={item.id} className={"finder-row"+(item.recommendationLabel?" finder-recommended":"")}>{item.recommendationLabel&&<span className="finder-recommendation-badge">{item.recommendationLabel} · 모집·지역·입력조건 기준</span>}<div className="finder-meta"><small>{item.status}</small><span>{item.location}</span></div><h3>{item.title}</h3><p>{item.benefit}</p><strong>{item.match}</strong><p>{item.reasons.join(' · ')}</p>{item.deadline&&<DeadlineButton title={item.title} deadline={item.deadline}/>}<p>추가 확인 · {item.checks.join(' · ')}</p><div className="finder-links"><button type="button" className="finder-save" aria-label={item.title+' 관심사업'} aria-pressed={favorites.includes(item.id)} onClick={()=>onFavorite(item.id)}>{favorites.includes(item.id)?'★ 저장됨':'☆ 관심 저장'}</button><label><input type="checkbox" checked={selected.includes(item.id)} disabled={selected.length>=3&&!selected.includes(item.id)} onChange={()=>onSelect(item.id)}/>비교에 담기<span className="sr-only"> {item.title}</span></label><a href={'#/programs/item/'+encodeURIComponent(item.id)} aria-label={item.title+' 자세히 보기'}>자세히 보기</a><a href={item.url} target="_blank" rel="noopener noreferrer">공식 안내 ↗</a></div></article>)}
         {limit<items.length&&<button type="button" onClick={()=>setLimit(limit+8)}>지원사업 더 보기</button>}
-        <ExcludedList items={excluded}/>{help}</>}
+        <OpeningScenarios scenarios={scenarios}/><ExcludedList items={excluded}/>{help}</>}
       {view==='compare'&&(selected.length?comparison:<div className="finder-empty"><h3>어떤 사업을 비교할까요?</h3><p>추천 결과에서 ‘비교에 담기’를 누르면 모집 일정과 확인할 조건을 나란히 볼 수 있어요.</p><button type="button" onClick={()=>setView('programs')}>비교할 지원사업 고르기</button></div>)}
       <div hidden={view!=='products'}>{productsVisited&&<ProductResults/>}</div>
     </div><footer><button type="button" onClick={onClose}>조건 다시 설정</button>{view==='programs'&&selected.length>0&&<button className="finder-primary" type="button" onClick={()=>setView('compare')}>담은 사업 비교하기 ({selected.length})</button>}</footer>

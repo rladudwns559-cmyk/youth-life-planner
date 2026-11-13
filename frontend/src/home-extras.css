@@ -29,3 +29,5 @@
 .home-examples div{display:flex;flex-wrap:wrap;gap:8px}
 .home-examples a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border-radius:999px;border:1px solid #e3c47a;background:#fff;color:#0e1a2b;font-weight:600;font-size:14px;text-decoration:none}
 .home-examples a:hover{border-color:#0e1a2b}
+
+.home-deadline-links{display:flex;flex-wrap:wrap;gap:6px 16px}

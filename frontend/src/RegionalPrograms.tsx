@@ -4,11 +4,12 @@ import {readProfile,writeProfile,clearProfile} from './support-profile';
 import {SUPPORT_EXAMPLES,exampleById,exampleFromHash,type SupportExample} from './support-examples';
 import prepared from './public-data/current-support-web.json';
 import './regional-programs.css';
-import {routeLinks} from './portal-routing';
+import {routeLinks,programLink} from './portal-routing';
 import FinderDialog from './FinderDialog';
 import ConditionPrompt from './ConditionPrompt';
 import YouthCenterHelp from './YouthCenterHelp';
 import ConsultMemo,{type MemoItem} from './ConsultMemo';
+import {FavoriteSchedule,CalendarSubscribe} from './SchedulePanels';
 import LocalNotice from './LocalNotice';
 import DataFreshness from './DataFreshness';
 import {deadlineOrder} from './support-order';
@@ -68,6 +69,17 @@ export function conditionGaps(id:string,regionKey:string,input:PersonalInput,asO
  }
  return gaps;
 }
+export type OpeningScenario={key:string;label:string;programs:Program[]};
+/** Programs dropped for a condition that would come back into the comparison if one condition changed.
+    Only conditions the visitor actually set are varied; region and recruitment filters stay as they are. */
+export function openingScenarios(excluded:Program[],regionKey:string,input:PersonalInput,asOf=day()):OpeningScenario[]{
+ const variants:{key:string;label:string;input:PersonalInput}[]=[];
+ if(input.employment!=='unknown')for(const v of Object.keys(employmentNames))if(v!==input.employment)variants.push({key:'employment-'+v,label:`'${employmentNames[v]}' 상태가 되면`,input:{...input,employment:v}});
+ if(input.rent==='yes')variants.push({key:'rent-no',label:'월세가 아닌 집(전세·자가 등)에 살게 되면',input:{...input,rent:'no'}});
+ if(input.rent==='no')variants.push({key:'rent-yes',label:'월세로 살게 되면',input:{...input,rent:'yes'}});
+ if(input.age!==''&&validAge(input.age)&&Number(input.age)<120)variants.push({key:'age-next',label:`1년 뒤 만 ${Number(input.age)+1}세가 되면`,input:{...input,age:String(Number(input.age)+1)}});
+ return variants.map(v=>({key:v.key,label:v.label,programs:excluded.filter(p=>{const m=readPersonalDecision(p.program_id,regionKey,v.input,asOf);return ![m.age,m.employment,m.rent].includes('FAIL');})})).filter(s=>s.programs.length>0);
+}
 function GapList({gaps}:{gaps:ConditionGap[]}){
  if(!gaps.length)return null;
  return <div className="condition-gaps"><h4>무엇이 달라서 맞지 않나요?</h4><ul>{gaps.map(g=><li key={g.key}><b>{g.label}</b><span>{g.text}</span></li>)}</ul><p>공고 기준과 입력값을 비교한 결과예요. 예외 규정이나 최신 공고에 따라 달라질 수 있어요.</p></div>;
@@ -92,7 +104,7 @@ function Card({p,regionKey,selected,profile,hasProfile,asOf,favorite,onFavorite,
    {p.sources.map((s,i)=><div className="support-source" key={i}><a href={s.url} target="_blank" rel="noopener noreferrer">{s.title} ↗</a><small>자료 기준 {s.basis_date??'게시일 미표시'} · 확인 {s.verified_on} · {s.evidence==='AUTOMATED_PAGE_MATCH'?'자동 대조 · 사람이 읽은 확인 아님':s.evidence==='PREVIOUS_VERIFIED_SNAPSHOT'?'기존 공식 스냅샷':s.evidence==='OFFICIAL_INDEXED_PAGE'?'공식 페이지 검색색인 · 원문 추가 확인':'공식 페이지·공고'}</small><p>{s.locator}</p></div>)}
   </details>
   <ApplicationChecklist program={p} checked={checks} onCheck={onCheck} asOf={asOf}/>
-  <div className="support-card-bottom"><span>{p.edition} · 자료 확인 {p.sources.map(s=>s.verified_on).sort()[0]}</span><a href={p.sources[0].url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 공식 안내'}>공식 안내 ↗</a></div>
+  <div className="support-card-bottom"><span>{p.edition} · 자료 확인 {p.sources.map(s=>s.verified_on).sort()[0]}</span><a href={programLink(p.program_id)} aria-label={p.title+' 자세히 보기'}>자세히 보기</a><a href={p.sources[0].url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 공식 안내'}>공식 안내 ↗</a></div>
  </article>;
 }
 function FavoriteCalendar({programs,asOf}:{programs:Program[];asOf:string}){
@@ -243,6 +255,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   {localNotice&&<LocalNotice {...localNotice}/>}{!finder&&scopeTools}
   <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<FavoriteCalendar programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} asOf={asOf}/><button type="button" onClick={planner.clear} disabled={!planner.favorites.length&&!planner.checks.length}>내 기기의 관심·확인 기록 지우기</button></div>
   {memo}
+  <FavoriteSchedule programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} asOf={asOf}/>
   {planner.error&&<p role="status">{planner.error}</p>}
   </>}
   {finder ? <FinderDialog
@@ -259,12 +272,14 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
         deadline:(()=>{const end=deadlineOf(p,asOf);return end?{label:deadlineLabel(end,asOf),file:p.program_id+'-deadline.ics',text:()=>calendarTextMany([p],asOf)}:undefined;})()};
     })}
     excluded={hasProfile?excluded.map(p=>({id:p.program_id,title:p.title,location:locationText(p),url:p.sources[0].url,gaps:conditionGaps(p.program_id,regionKey,profile,asOf)})):[]}
-    help={<>{memo}<YouthCenterHelp province={province} city={city}/></>}
+    scenarios={hasProfile?openingScenarios(excluded,regionKey,profile,asOf).map(sc=>({key:sc.key,label:sc.label,items:sc.programs.map(p=>({id:p.program_id,title:p.title,location:locationText(p)}))})):[]}
+    help={<>{memo}<CalendarSubscribe province={province}/><YouthCenterHelp province={province} city={city}/></>}
     selected={comparison} onSelect={toggleComparison} onClose={()=>setFinder(null)} comparison={comparisonPanel} favorites={planner.favorites} onFavorite={planner.toggleFavorite} storageError={planner.error}
   /> : browse?comparisonPanel:null}
 
   {browse&&<>{rows.length===0?<div className="support-empty"><h3>등록한 자료 중 표시할 사업이 없어요.</h3><p>해당 지역에 실제 지원사업이 없다는 뜻은 아닙니다. 검색·분야·모집 필터를 바꾸거나 아래 공식 통합검색에서 더 찾아보세요.</p><button type="button" onClick={()=>{reset();setIntake('ALL');}}>전체 등록 사업 보기</button></div>:<div className="support-card-list">{rows.slice(0,visible).map(p=><Card key={p.program_id} p={p} regionKey={regionKey} selected={!!province} profile={profile} hasProfile={hasProfile} asOf={asOf} favorite={planner.favorites.includes(p.program_id)} onFavorite={()=>planner.toggleFavorite(p.program_id)} compared={comparison.includes(p.program_id)} onCompare={()=>setComparison(old=>old.includes(p.program_id)?old.filter(id=>id!==p.program_id):old.length<3?[...old,p.program_id]:old)} full={comparison.length>=3} checks={planner.checks} onCheck={planner.toggleCheck}/>)}</div>}
   {rows.length>visible&&<button type="button" className="support-more" onClick={()=>setVisible(v=>v+12)}>사업 12개 더 보기</button>}
+  <CalendarSubscribe province={province}/>
   <YouthCenterHelp province={province} city={city}/>
   <div className="support-scope"><h3>우리 목록 밖의 지원도 더 찾아보세요.</h3><p>현재는 공식 자료를 확보한 사업부터 제공합니다. 전국 모든 시군구·지원사업을 전수 수집한 서비스는 아닙니다. 모집 기간 안이어도 예산 소진·추가 공고·선발 여부는 공식 기관에서 확인해야 합니다.</p><a href="https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch" target="_blank" rel="noopener noreferrer">온통청년 공식 정책 통합검색 ↗</a><p>자료 갱신·알림은 자동으로 실행되지 않습니다. 표시된 확인일과 개별 공고를 확인하세요. 실제 지원금 반영0원·가입/수급 자격 추가 확인 원칙을 유지합니다.</p></div></>}
  </section>;
