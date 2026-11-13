@@ -109,7 +109,9 @@ def test_new_table_preserves_old_programs_and_nonresidential_routes(support):
  old=read('data/support-programs/verified-expansion-20261103.json')
  c,_,_=current_inputs();public=read('frontend/src/public-data/current-support.json')
  assert len(c.programs)==416
- byid={p['program_id']:p for p in public['programs']}
+ # Automated rechecks only add AUTOMATED_PAGE_MATCH sources; the reviewed record must be unchanged.
+ reviewed=lambda p:{**p,'sources':[s for s in p['sources'] if s['evidence']!='AUTOMATED_PAGE_MATCH']}
+ byid={p['program_id']:reviewed(p) for p in public['programs']}
  assert all(byid[p['program_id']]==p for p in old['programs'])
  ids={p['program_id']:i for i,p in enumerate(public['programs'])}
  for pid in support['alternative_region_ids']:

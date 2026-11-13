@@ -24,7 +24,7 @@ class Source(Strict):
     title:str
     basis_date:str|None
     verified_on:str
-    evidence:Literal['OFFICIAL_PAGE','OFFICIAL_NOTICE','OFFICIAL_INDEXED_PAGE','PREVIOUS_VERIFIED_SNAPSHOT']
+    evidence:Literal['OFFICIAL_PAGE','OFFICIAL_NOTICE','OFFICIAL_INDEXED_PAGE','PREVIOUS_VERIFIED_SNAPSHOT','AUTOMATED_PAGE_MATCH']
     locator:str
     @field_validator('url')
     @classmethod
@@ -119,7 +119,11 @@ def recruitment(p,as_of,review_days=7):
     # Negative/terminal official notices dominate old advertised annual dates.
     if p.intake_mode in ('CLOSED','NO_INTAKE'):return p.intake_mode
     if p.ends_on and as_of>date.fromisoformat(p.ends_on):return 'CLOSED'
-    fresh=all(0<=(as_of-date.fromisoformat(s.verified_on)).days<=review_days for s in p.sources)
+    within=lambda s:0<=(as_of-date.fromisoformat(s.verified_on)).days<=review_days
+    # Reviewed sources must all be recent, or a recent automated page match stands in for them.
+    # Automated matches are added as extra sources, so earlier dates keep their original status.
+    reviewed=[s for s in p.sources if s.evidence!='AUTOMATED_PAGE_MATCH']
+    fresh=all(within(s) for s in reviewed) or any(within(s) for s in p.sources if s.evidence=='AUTOMATED_PAGE_MATCH')
     if not fresh:return 'REVIEW_REQUIRED'
     if p.intake_mode=='UNKNOWN':return 'UNKNOWN'
     if p.starts_on and as_of<date.fromisoformat(p.starts_on):return 'UPCOMING'

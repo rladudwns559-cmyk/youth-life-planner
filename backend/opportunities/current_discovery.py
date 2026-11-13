@@ -5,6 +5,7 @@ from backend.opportunities.personal_discovery import load_inputs,compile_persona
 from backend.opportunities.regional_discovery import Catalog,Program,Source,ROOT,recruitment
 
 PATH=ROOT/'data/support-programs/recruitment-evidence-20261101.json'
+RECHECKS=ROOT/'data/support-programs/rechecks'
 # Residence is not the only route into these programs (workplace, school, living area).
 ALTERNATIVE_REGION={
  'JB-GUNSAN-YOUTH-INTERVIEW-FEE-2026','JB-GUNSAN-JOB-SUCCESS-GIFT-2026',
@@ -24,7 +25,26 @@ def load_municipal_batches():
     }
 
 
-def current_inputs():
+def latest_rechecks():
+    """Newest automated recheck per program (tools/support_recheck.py). Older files never override newer ones."""
+    latest={}
+    for path in sorted(RECHECKS.glob('*.json')) if RECHECKS.exists() else []:
+        batch=read_json(path)
+        for r in batch['results']:latest[r['program_id']]=(batch['checked_on'],r)
+    return latest
+
+def apply_recheck_results(records,latest):
+    """Each matched page is added as an AUTOMATED_PAGE_MATCH source dated on the check day, listed first.
+    The reviewed sources are kept as they were, so earlier dates keep their original status."""
+    for pid,(checked_on,r) in latest.items():
+        p=records.get(pid)
+        if p is None or r['status']!='RENEWED':continue
+        matched={x['url']:x['reason'] for x in r['pages'] if x['result']=='MATCH'}
+        renewed=[{**s,'title':s['title']+' · 자동 대조','verified_on':checked_on,'evidence':'AUTOMATED_PAGE_MATCH','locator':f"자동 대조 {checked_on}: {matched[s['url']]} (사람이 읽은 확인 아님)"} for s in p['sources'] if s['url'] in matched]
+        p['sources']=renewed+p['sources']
+    return records
+
+def current_inputs(use_rechecks=True):
     catalog,rules=load_inputs()
     research=read_json(PATH)
     display=read_json(ROOT/'data/support-programs/recruitment-display-20261101.json')
@@ -81,6 +101,7 @@ def current_inputs():
             employment_note='현재 고용 상태만으로 사업의 추가 자격을 확정할 수 없습니다.',
             rent_note='월세 거주 여부만으로 공고의 주거 조건을 확정할 수 없습니다.')))
     rules=Rules.model_validate({**rules.model_dump(mode='json'),'rules':[*rules.rules,*additional_rules]})
+    if use_rechecks:apply_recheck_results(records,latest_rechecks())
     from urllib.parse import urlsplit
     data=catalog.model_dump(mode='json')
     data['programs']=list(records.values())
@@ -139,6 +160,9 @@ def compact_calendar(public):
 if __name__=='__main__':
     out=ROOT/'frontend/src/public-data/current-support.json'
     value=compile_current()
+    checks=[v[0] for v in latest_rechecks().values()]
+    # Last day the public data was checked: the newest recheck, else the last reviewed batch (2026-11-03).
+    value['updated_on']=max(checks+['2026-11-03'])
     out.write_text(json.dumps(value,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
     compact=out.with_name('current-support-web.json')
     compact.write_text(json.dumps(compact_calendar(value),ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')

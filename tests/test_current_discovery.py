@@ -39,7 +39,7 @@ def test_current_snapshot_preserves_uncertainty_and_alternative_residence():
         if p['program_id'] in ALTERNATIVE_REGION:assert d['regions']['제주'][i]!='FAIL'
     assert len(d['schedules'])==366
     assert d['schedules']['2026-11-01'].count('VERIFIED_OPEN')==181
-    assert sum(state=='VERIFIED_OPEN' for p,state in zip(d['programs'],d['schedules']['2026-11-09']) if all(src['verified_on']<'2026-11-03' for src in p['sources']))==8
+    assert sum(state=='VERIFIED_OPEN' for p,state in zip(d['programs'],d['schedules']['2026-11-09']) if all(src['verified_on']<'2026-11-03' for src in p['sources'] if src['evidence']!='AUTOMATED_PAGE_MATCH'))==8
     assert d['schedules']['2026-11-11'].count('VERIFIED_OPEN')==0
 
 @pytest.fixture(scope='module')
