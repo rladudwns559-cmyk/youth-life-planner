@@ -153,7 +153,7 @@ def evaluate(programs: list[dict], texts: dict[str, str | Exception]) -> list[di
     return results
 
 
-async def fetch_all(urls: list[str], concurrency: int) -> dict[str, str | Exception]:
+async def fetch_all(urls: list[str], concurrency: int, timeout: int = 25000) -> dict[str, str | Exception]:
     from playwright.async_api import async_playwright
     out: dict[str, str | Exception] = {}
     async with async_playwright() as pw:
@@ -167,7 +167,7 @@ async def fetch_all(urls: list[str], concurrency: int) -> dict[str, str | Except
                 try:
                     if url.lower().split('?')[0].endswith('.pdf'):
                         from pypdf import PdfReader
-                        response = await context.request.get(url, timeout=25000)
+                        response = await context.request.get(url, timeout=timeout)
                         if not response.ok:
                             raise RuntimeError(f'HTTP {response.status}')
                         body = await response.body()
@@ -175,7 +175,7 @@ async def fetch_all(urls: list[str], concurrency: int) -> dict[str, str | Except
                         return
                     page = await context.new_page()
                     try:
-                        response = await page.goto(url, wait_until='domcontentloaded', timeout=25000)
+                        response = await page.goto(url, wait_until='domcontentloaded', timeout=timeout)
                         if response is not None and response.status >= 400:
                             raise RuntimeError(f'HTTP {response.status}')
                         try:
@@ -228,6 +228,12 @@ def main(argv=None) -> int:
     urls = sorted({s['url'] for p in programs for s in p['sources']})
     print(f'programs {len(programs)} · pages {len(urls)}', flush=True)
     texts = asyncio.run(fetch_all(urls, args.concurrency))
+    # Slow or busy public sites (often from overseas CI runners): one slower retry for pages that failed.
+    failed = [u for u, t in texts.items() if isinstance(t, Exception)]
+    if failed:
+        retried = asyncio.run(fetch_all(failed, 2, timeout=45000))
+        texts.update({u: t for u, t in retried.items() if not isinstance(t, Exception)})
+        print(f'retried {len(failed)} · recovered {sum(not isinstance(t, Exception) for t in retried.values())}', flush=True)
     results = evaluate(programs, texts)
     if args.report:
         write(today, results, args.report)
