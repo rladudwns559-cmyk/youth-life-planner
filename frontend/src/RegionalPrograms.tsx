@@ -9,7 +9,7 @@ import LocalNotice from './LocalNotice';
 import DataFreshness from './DataFreshness';
 import {deadlineOrder} from './support-order';
 import directory from './public-data/nationwide-districts.json';
-import {useKoreaDay,usePlanner,ApplicationChecklist,SupportComparison} from './SupportPlanner';
+import {useKoreaDay,usePlanner,ApplicationChecklist,SupportComparison,DeadlineAction,deadlineOf,deadlineLabel,calendarTextMany,downloadCalendar} from './SupportPlanner';
 
 type Program=typeof prepared.programs[number];
 type RegionStatus='PASS'|'FAIL'|'UNKNOWN';
@@ -44,6 +44,36 @@ export function readPersonalDecision(id:string,regionKey:string,input:PersonalIn
  return {region,age,employment,rent,summary,rule:personal.rules[i]??null};
 }
 const matchWords={PASS:'입력 조건 일치',FAIL:'현재 입력과 다름',UNKNOWN:'추가 확인'};
+const employmentNames:Record<string,string>={employed:'근로 중',unemployed:'현재 일하지 않음',self_employed:'자영업·프리랜서'};
+const rentNames:Record<string,string>={yes:'월세 거주',no:'월세 외 거주(전세·자가 등)'};
+export type ConditionGap={key:'region'|'age'|'employment'|'rent';label:string;text:string};
+/** Why a program differs from the input and what would have to change. Built only from the same tables that produced FAIL. */
+export function conditionGaps(id:string,regionKey:string,input:PersonalInput,asOf=day()):ConditionGap[]{
+ const i=programIndex.get(id)??-1;if(i<0)return [];
+ const p=prepared.programs[i];const m=readPersonalDecision(id,regionKey,input,asOf);const gaps:ConditionGap[]=[];
+ if(m.region==='FAIL')gaps.push({key:'region',label:'지역',text:`${locationText(p)} 대상 사업이에요. 선택한 지역과 달라요. 근무지·학교 지역도 인정하는지는 공고에서 확인하세요.`});
+ if(m.age==='FAIL'){
+  const codes=personal.age_pool[personal.age_vectors[personal.age_calendar[asOf]]?.[i]]??'';
+  const pass=[...codes].flatMap((c,n)=>c==='P'?[n]:[]);const a=Number(input.age);
+  if(!pass.length)gaps.push({key:'age',label:'나이',text:`입력한 만 ${a}세는 이 사업의 연령 기준과 달라요. 기준: ${p.age_note}`});
+  else{const lo=pass[0],hi=pass[pass.length-1];
+   gaps.push({key:'age',label:'나이',text:a<lo?`비교 기준은 만 ${lo}~${hi}세예요. 입력한 만 ${a}세보다 ${lo-a}살 많아야 해요. 다음 모집 때 다시 확인해 보세요.`:a>hi?`비교 기준은 만 ${lo}~${hi}세예요. 입력한 만 ${a}세가 상한보다 ${a-hi}살 많아요. 병역 기간 등 연령 예외가 있는지는 공고에서 확인하세요.`:`비교 기준(만 ${lo}~${hi}세) 안에서도 이 나이는 제외돼요. 기준: ${p.age_note}`});}
+ }
+ if(m.employment==='FAIL'){
+  const by=(v:RegionStatus)=>Object.keys(employmentNames).filter(k=>personal.employment[k]?.[i]===v).map(k=>employmentNames[k]);
+  const ok=by('PASS'),maybe=by('UNKNOWN');
+  gaps.push({key:'employment',label:'취업 상태',text:`입력한 '${employmentNames[input.employment]??input.employment}' 상태는 대상이 아니에요.${ok.length?` 대상: ${ok.join(', ')}.`:''}${maybe.length?` ${maybe.join(', ')}는 공고에서 추가 확인이 필요해요.`:''}`});
+ }
+ if(m.rent==='FAIL'){
+  const ok=Object.keys(rentNames).filter(k=>personal.rent[k]?.[i]==='PASS').map(k=>rentNames[k]);
+  gaps.push({key:'rent',label:'주거',text:`입력한 '${rentNames[input.rent]??input.rent}'는 대상이 아니에요.${ok.length?` 대상: ${ok.join(', ')}.`:''}`});
+ }
+ return gaps;
+}
+function GapList({gaps}:{gaps:ConditionGap[]}){
+ if(!gaps.length)return null;
+ return <div className="condition-gaps"><h4>무엇이 달라서 맞지 않나요?</h4><ul>{gaps.map(g=><li key={g.key}><b>{g.label}</b><span>{g.text}</span></li>)}</ul><p>공고 기준과 입력값을 비교한 결과예요. 예외 규정이나 최신 공고에 따라 달라질 수 있어요.</p></div>;
+}
 function locationText(p:Program){return p.provinces.length?(p.provinces.join('·')+(p.city?' '+p.city:'')):'전국';}
 function Card({p,regionKey,selected,profile,hasProfile,asOf,favorite,onFavorite,compared,onCompare,full,checks,onCheck}:{p:Program;regionKey:string;selected:boolean;profile:PersonalInput;hasProfile:boolean;asOf:string;favorite:boolean;onFavorite:()=>void;compared:boolean;onCompare:()=>void;full:boolean;checks:string[];onCheck:(key:string)=>void}){
  const result=readRegionalDecision(p.program_id,regionKey,asOf);
@@ -54,6 +84,8 @@ function Card({p,regionKey,selected,profile,hasProfile,asOf,favorite,onFavorite,
   <p className="support-category">{categories[p.category]} · {p.authority}</p><h3>{p.title}</h3><p className="support-benefit">{p.benefit_summary}</p>
   <p className="support-region">{!selected?'지역을 선택해 관련 사업을 좁혀 보세요.':result.region==='PASS'?(p.provinces.length?'선택한 지역의 검토 후보':'전국 대상이라 함께 살펴볼 후보'):result.region==='FAIL'?'선택한 지역과 다른 사업':'거주지·직장·학교 등 세부 지역 확인'}</p>
   {hasProfile&&<div className="support-match" aria-label="내 조건 비교 결과"><strong>{match.summary.candidate_status==='DIFFERENT'?'현재 입력과 다른 조건이 있어요':`입력 조건 ${match.summary.matched_count}개 일치 · 나머지 확인`}</strong><ul>{([['age','나이'],['employment','취업 상태'],['rent','월세 거주']] as const).map(([key,label])=><li key={key} className={'match-'+match[key].toLowerCase()}><span>{label}</span><b>{matchWords[match[key]]}</b></li>)}</ul></div>}
+  {hasProfile&&<GapList gaps={conditionGaps(p.program_id,regionKey,profile,asOf)}/>}
+  <DeadlineAction program={p} asOf={asOf}/>
   <p className="support-unknown"><strong>지원자격 추가 확인 필요</strong> · 가구소득·재산·거주기간·증빙·중복 지원·선정은 추가 확인합니다. 표시한 일치는 입력 범위의 비교이며 신청·수급 가능 확정이 아닙니다.</p>
   <details><summary>지원 조건·신청 일정·공식 근거</summary>
    <dl><div><dt>연령·대상</dt><dd>{p.age_note}</dd></div><div><dt>소득 기준</dt><dd>{p.income_note}</dd></div><div><dt>모집 안내</dt><dd>{p.schedule_note}</dd></div></dl>
@@ -65,6 +97,12 @@ function Card({p,regionKey,selected,profile,hasProfile,asOf,favorite,onFavorite,
   <ApplicationChecklist program={p} checked={checks} onCheck={onCheck} asOf={asOf}/>
   <div className="support-card-bottom"><span>{p.edition} · 자료 확인 {p.sources.map(s=>s.verified_on).sort()[0]}</span><a href={p.sources[0].url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 공식 안내'}>공식 안내 ↗</a></div>
  </article>;
+}
+function FavoriteCalendar({programs,asOf}:{programs:Program[];asOf:string}){
+ const [message,setMessage]=useState('');
+ const dated=programs.filter(p=>deadlineOf(p,asOf));
+ if(!programs.length)return null;
+ return <span className="favorite-calendar"><button type="button" disabled={!dated.length} onClick={()=>{const text=calendarTextMany(dated,asOf);if(text)setMessage(downloadCalendar(text,'youth-support-deadlines.ics'));}}>관심 사업 마감일 한꺼번에 캘린더 저장 ({dated.length})</button>{!dated.length&&<small>관심 사업 중 마감일이 정해진 공고가 없어요.</small>}{message&&<small role="status">{message}</small>}</span>;
 }
 export default function RegionalPrograms({browse=true,listPage=false}:{browse?:boolean;listPage?:boolean}={}){
  const [province,setProvince]=useState(''),[city,setCity]=useState(''),[category,setCategory]=useState('ALL'),[query,setQuery]=useState(''),[intake,setIntake]=useState('CURRENT'),[otherRegions,setOtherRegions]=useState(false),[visible,setVisible]=useState(12);
@@ -82,8 +120,8 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const regionKey=!province?'*':!city?province:province+'|'+(tables.cities[province]?.includes(matchedCity)?matchedCity:'__OTHER__');
  const toggleComparison=(id:string)=>setComparison(old=>old.includes(id)?old.filter(value=>value!==id):old.length<3?[...old,id]:old);
  const displayProvince=(key:string)=>key==='광주'?'전남광주통합특별시 · 광주 권역':key==='전남'?'전남광주통합특별시 · 전남 권역':key;
- const results=useMemo(()=>{
-  const ranked=[];
+ const {ranked:results,excluded}=useMemo(()=>{
+  const ranked=[];const excluded:Program[]=[];
   const terms=query.normalize('NFKC').toLocaleLowerCase('ko-KR').trim().split(/\s+/);
   const priority:Record<Intake,number>={VERIFIED_OPEN:0,WINDOW_GUIDANCE:1,CONTINUOUS_GUIDANCE:2,UPCOMING:3,UNKNOWN:4,REVIEW_REQUIRED:5,CLOSED:6,NO_INTAKE:7};
   for(const p of prepared.programs){
@@ -94,7 +132,6 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
     if(browse&&savedOnly&&!planner.favorites.includes(p.program_id))continue;
     if(browse&&category!=='ALL'&&p.category!==category)continue;
     if(province&&(!browse||!otherRegions)&&d.region==='FAIL')continue;
-    if((!browse||!different)&&mismatch)continue;
     if(intake==='CURRENT'&&order>=6)continue;
     if(intake==='OPEN'&&order!==0)continue;
     if(intake==='ACTIVE'&&order>2)continue;
@@ -102,12 +139,13 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
     if(intake==='REVIEW'&&(order<3||order>5))continue;
     const text=[p.title,p.authority,p.benefit_summary,p.age_note,...p.provinces,p.city??'',...p.aliases].join(' ').normalize('NFKC').toLocaleLowerCase('ko-KR');
     if(!terms.every(t=>text.includes(t)))continue;
+    if((!browse||!different)&&mismatch){excluded.push(p);continue;}
     const sameProvince=p.provinces.some(area=>area===province);
     const local=Boolean(city&&city!=='__OTHER__'&&sameProvince&&p.city&&(p.city===city||p.city===tableCity));
     const outside=Boolean(province&&p.provinces.length&&(!sameProvince||(city&&p.city&&!local)));
     ranked.push({p,order,local,mismatch,outside,matchCount:m.summary.matched_count,region:d.region});
   }
-  return ranked.sort((a,b)=>
+  return {excluded,ranked:ranked.sort((a,b)=>
     Number(a.outside)-Number(b.outside)||
     Number(a.order>=6)-Number(b.order>=6)||
     Number(a.mismatch)-Number(b.mismatch)||
@@ -116,7 +154,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
     Number(b.local)-Number(a.local)||
     (hasProfile?b.matchCount-a.matchCount:0)||
     (province?Number(a.region!=='PASS')-Number(b.region!=='PASS'):0)||
-    a.p.title.localeCompare(b.p.title,'ko'));
+    a.p.title.localeCompare(b.p.title,'ko'))};
  },[regionKey,province,category,query,intake,otherRegions,age,employment,rent,different,hasProfile,asOf,savedOnly,planner.favorites,city,tableCity,browse,sort]);
  const specificCity=Boolean(city&&city!=='__OTHER__');
  const rows=results.filter(row=>!specificCity||otherRegions||!row.outside).map(row=>row.p);
@@ -173,7 +211,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   <p className="support-update">{sort==='DEADLINE'?'공고에 적힌 마감일 순서이며, 현재 접수중 순위는 아닙니다.':'공식 접수 상태를 확인한 사업부터 표시합니다.'} 모집기간·접수중 표시가 있어도 잔여예산·여석·최종 자격은 공식 기관에서 확인하세요. 자료 확인 {prepared.updated_on??prepared.built_on} · 화면 기준 {asOf}</p>
   <div className="support-list-tools"><label><input type="checkbox" checked={savedOnly} onChange={e=>{setSavedOnly(e.target.checked);setVisible(12);}}/>관심사업만 ({planner.favorites.length})</label><label><input type="checkbox" checked={different} onChange={e=>{setDifferent(e.target.checked);setVisible(12);}}/>현재 조건과 다른 사업도 보기</label><label><input type="checkbox" checked={otherRegions} onChange={e=>{setOtherRegions(e.target.checked);setVisible(12);}}/>다른 지역 사업도 함께 보기</label><button type="button" onClick={reset}>조건 초기화</button><p>{rows.length}개 검색됨 · 현재 {Math.min(rows.length,visible)}개 표시</p></div>
   {localNotice&&<LocalNotice {...localNotice}/>}{!finder&&scopeTools}
-  <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<button type="button" onClick={planner.clear} disabled={!planner.favorites.length&&!planner.checks.length}>내 기기의 관심·확인 기록 지우기</button></div>
+  <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<FavoriteCalendar programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} asOf={asOf}/><button type="button" onClick={planner.clear} disabled={!planner.favorites.length&&!planner.checks.length}>내 기기의 관심·확인 기록 지우기</button></div>
   {planner.error&&<p role="status">{planner.error}</p>}
   </>}
   {finder ? <FinderDialog
@@ -186,8 +224,10 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
         status:labels[readRegionalDecision(p.program_id,regionKey,asOf).intake],
         match:conditions.summary.candidate_status==='DIFFERENT'?'현재 입력과 다른 조건 있음':`입력 조건 ${conditions.summary.matched_count}개 일치`,
         reasons:([['region','지역'],['age','나이'],['employment','취업'],['rent','월세']] as const).map(([key,label])=>label+' '+matchWords[conditions[key]]),
-        checks:p.required_checks,url:p.sources[0].url};
+        checks:p.required_checks,url:p.sources[0].url,
+        deadline:(()=>{const end=deadlineOf(p,asOf);return end?{label:deadlineLabel(end,asOf),file:p.program_id+'-deadline.ics',text:()=>calendarTextMany([p],asOf)}:undefined;})()};
     })}
+    excluded={hasProfile?excluded.map(p=>({id:p.program_id,title:p.title,location:locationText(p),url:p.sources[0].url,gaps:conditionGaps(p.program_id,regionKey,profile,asOf)})):[]}
     selected={comparison} onSelect={toggleComparison} onClose={()=>setFinder(null)} comparison={comparisonPanel} favorites={planner.favorites} onFavorite={planner.toggleFavorite} storageError={planner.error}
   /> : browse?comparisonPanel:null}
 

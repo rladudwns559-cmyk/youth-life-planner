@@ -23,5 +23,8 @@ it('separates the catalog from matching and carries the profile into the list an
   expect(screen.getByLabelText('현재 만 나이')).toHaveValue(25);
   fireEvent.change(screen.getByLabelText('현재 만 나이'),{target:{value:'65'}});
   fireEvent.click(screen.getByRole('button',{name:/내 조건으로 찾기/}));
-  expect(screen.getByRole('dialog')).not.toHaveTextContent('횡성군 청년센터 · 11월 손뜨개 교실');
+  const results=screen.getByRole('dialog');
+  for(const row of results.querySelectorAll('article.finder-row'))expect(row).not.toHaveTextContent('횡성군 청년센터 · 11월 손뜨개 교실');
+  // the age-mismatched program is only named in the collapsed "why it was dropped" list
+  expect(results.querySelector('details.finder-excluded')).toHaveTextContent('횡성군 청년센터 · 11월 손뜨개 교실');
 });

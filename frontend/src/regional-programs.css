@@ -30,3 +30,20 @@
 .support-catalog-controls select{min-height:46px;width:100%;padding:9px 12px;border:1px solid #b7c8d9;border-radius:8px;background:white;color:#1c3856;font-size:15px}
 .support-catalog-controls p{flex-basis:100%;margin:0;font-size:13px;color:#506680;line-height:1.7}
 @media(max-width:600px){.support-catalog-controls{padding:14px;gap:12px}.support-catalog-controls>div{min-width:0;flex-basis:100%}}
+
+/* condition gaps + deadline action */
+.condition-gaps{padding:12px 14px;margin:0 0 8px;border:1px solid #f0d9d4;border-left:3px solid #b5574a;border-radius:10px;background:#fdf6f4;font-size:13px;line-height:1.65}
+.condition-gaps h4{margin:0 0 6px;font-size:13px;color:#8f3f34}
+.condition-gaps ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.condition-gaps li{display:grid;grid-template-columns:4.5em 1fr;gap:8px}
+.condition-gaps li b{color:#8f3f34;font-weight:600}
+.condition-gaps p{margin:8px 0 0;color:#6b5a57;font-size:13px}
+.deadline-action{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:0 0 8px;padding:8px 12px;border-radius:10px;background:#f2f6fd;border:1px solid #dde7f7;font-size:13px}
+.deadline-action>span{font-weight:600;color:#1f3f78}
+.deadline-action button{margin-left:auto;min-height:36px;padding:6px 12px;border-radius:999px;border:1px solid #1f57d8;background:#fff;color:#1f57d8;font-weight:600;font-size:13px;cursor:pointer}
+.deadline-action button:hover{background:#1f57d8;color:#fff}
+.deadline-action small{flex-basis:100%;color:#42698c}
+.deadline-soon{background:#fff7e6;border-color:#f3d9a0}
+.deadline-soon>span{color:#8a5a00}
+.favorite-calendar{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px}
+.favorite-calendar small{font-size:13px;color:#42698c}
