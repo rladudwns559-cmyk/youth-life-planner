@@ -10,6 +10,7 @@ backend/opportunities/current_discovery.py when the public file is rebuilt.
 
 Usage (repo root):
   python tools/support_recheck.py [--date YYYY-MM-DD] [--only ID ...] [--concurrency 6]
+  python tools/support_recheck.py --dry-run --report report.json   # compare only, data unchanged
   python -m backend.opportunities.current_discovery   # rebuild the public file
 """
 from __future__ import annotations
@@ -199,9 +200,10 @@ async def fetch_all(urls: list[str], concurrency: int) -> dict[str, str | Except
     return out
 
 
-def write(today: date, results: list[dict]) -> Path:
-    RECHECKS.mkdir(parents=True, exist_ok=True)
-    path = RECHECKS / f'{today:%Y%m%d}.json'
+def write(today: date, results: list[dict], path: Path | None = None) -> Path:
+    if path is None:
+        RECHECKS.mkdir(parents=True, exist_ok=True)
+        path = RECHECKS / f'{today:%Y%m%d}.json'
     counts = {k: sum(r['status'] == k for r in results) for k in ('RENEWED', 'NOT_MATCHED', 'CLOSED_SIGNAL')}
     payload = dict(
         schema_version='support-recheck-v1', checked_on=today.isoformat(),
@@ -216,15 +218,21 @@ def main(argv=None) -> int:
     parser.add_argument('--date', help='check date (default: today in KST)')
     parser.add_argument('--only', nargs='*')
     parser.add_argument('--concurrency', type=int, default=6)
+    parser.add_argument('--dry-run', action='store_true', help='compare only; write the report to --report, not to the data folder')
+    parser.add_argument('--report', type=Path, help='also write the results here (required with --dry-run)')
     args = parser.parse_args(argv)
+    if args.dry_run and not args.report:
+        parser.error('--dry-run needs --report')
     today = date.fromisoformat(args.date) if args.date else datetime.now(KST).date()
     programs = targets(today, set(args.only) if args.only else None)
     urls = sorted({s['url'] for p in programs for s in p['sources']})
     print(f'programs {len(programs)} · pages {len(urls)}', flush=True)
     texts = asyncio.run(fetch_all(urls, args.concurrency))
     results = evaluate(programs, texts)
-    path = write(today, results)
-    print(json.dumps(dict(file=str(path.relative_to(ROOT)), **{k: sum(r['status'] == k for r in results) for k in ('RENEWED', 'NOT_MATCHED', 'CLOSED_SIGNAL')}), ensure_ascii=False))
+    if args.report:
+        write(today, results, args.report)
+    path = args.report if args.dry_run else write(today, results)
+    print(json.dumps(dict(file=str(path), dry_run=args.dry_run, **{k: sum(r['status'] == k for r in results) for k in ('RENEWED', 'NOT_MATCHED', 'CLOSED_SIGNAL')}), ensure_ascii=False))
     return 0
 
 

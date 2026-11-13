@@ -1,0 +1,75 @@
+# Daily automated comparison of youth support programs with their official pages.
+# Renews a program for 7 days only when a page still shows the name, the published deadline
+# (for dated windows) and no closing label next to the name (tools/support_recheck.py).
+# Programs that do not match are left to show "최신 공고 재확인". Not a human reading.
+# No secrets needed. Manual runs default to a dry run that changes nothing.
+name: Auto recheck support programs
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 07:00 KST every day, after the financial recheck (06:30)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Compare only, change no data'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: support-recheck
+  cancel-in-progress: false
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      TZ: Asia/Seoul
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: |
+          pip install -r requirements-web-dev.txt playwright pypdf
+          python -m playwright install --with-deps chromium
+      - name: Compare (dry run)
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run
+        run: python tools/support_recheck.py --dry-run --report support-recheck-report.json
+      - name: Compare and renew
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        run: |
+          python tools/support_recheck.py --report support-recheck-report.json
+          python -m backend.opportunities.current_discovery
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: support-recheck-report
+          path: support-recheck-report.json
+          if-no-files-found: ignore
+      - name: Check the data before committing
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        run: python -m pytest -q -p no:cacheprovider tests/test_support_recheck.py tests/test_current_discovery.py tests/test_official_extension.py tests/test_municipal_open_batch.py
+      - name: Commit when changed and redeploy
+        if: github.event_name != 'workflow_dispatch' || !inputs.dry_run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add data/support-programs/rechecks frontend/src/public-data/current-support.json frontend/src/public-data/current-support-web.json
+          if git diff --cached --quiet; then
+            echo "Nothing renewed today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Data: support program page comparison $(date +%F)"
+          # The financial recheck may have pushed a few minutes earlier.
+          git pull --rebase origin main
+          git push
+          gh workflow run pages.yml --ref main
