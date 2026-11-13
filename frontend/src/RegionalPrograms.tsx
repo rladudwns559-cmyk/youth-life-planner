@@ -12,18 +12,12 @@ import {deadlineOrder} from './support-order';
 import directory from './public-data/nationwide-districts.json';
 import {useKoreaDay,usePlanner,ApplicationChecklist,SupportComparison,DeadlineAction,deadlineOf,deadlineLabel,calendarTextMany,downloadCalendar} from './SupportPlanner';
 
+import {intakeLabels,readRegionalDecision,locationText,programIndex,koreaToday as day,type RegionStatus,type Intake} from './support-status';
+export {intakeLabels,readRegionalDecision,locationText};
 type Program=typeof prepared.programs[number];
-type RegionStatus='PASS'|'FAIL'|'UNKNOWN';
-type Intake='VERIFIED_OPEN'|'WINDOW_GUIDANCE'|'CONTINUOUS_GUIDANCE'|'UPCOMING'|'CLOSED'|'NO_INTAKE'|'UNKNOWN'|'REVIEW_REQUIRED';
 export const categories:Record<string,string>={ALL:'전체 분야',HOUSING:'월세·주거',EMPLOYMENT:'취업·면접',EDUCATION:'교육·응시료',LIVING:'생활·복지',CULTURE:'문화',ASSET:'청년통장·자산형성'};
-const labels:Record<Intake,string>={VERIFIED_OPEN:'공식 접수중 확인 · 잔여 확인',WINDOW_GUIDANCE:'공고상 신청기간 · 잔여 확인',CONTINUOUS_GUIDANCE:'상시 제도 안내 · 접수 확인',UPCOMING:'공고상 모집 예정',CLOSED:'확인한 회차 마감',NO_INTAKE:'신규모집 미운영',UNKNOWN:'현재 접수 추가 확인',REVIEW_REQUIRED:'최신 공고 재확인'};
-const tables=prepared as unknown as {regions:Record<string,RegionStatus[]>;calendar:Record<string,number>;schedule_pool:Intake[][];cities:Record<string,string[]>};
-const programIndex=new Map(prepared.programs.map((p,i)=>[p.program_id,i]));
-function day(){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());}
-export function readRegionalDecision(id:string,regionKey:string,asOf=day()){
- const i=programIndex.get(id)??-1;
- return {region:i<0?'UNKNOWN' as RegionStatus:tables.regions[regionKey]?.[i]??'UNKNOWN',intake:i<0?'REVIEW_REQUIRED' as Intake:tables.schedule_pool[tables.calendar[asOf]]?.[i]??'REVIEW_REQUIRED',overall:'UNKNOWN' as const};
-}
+const labels=intakeLabels;
+const tables=prepared as unknown as {cities:Record<string,string[]>};
 export type PersonalInput={age:string;employment:string;rent:string};
 type PersonalSummary={candidate_status:'REVIEW'|'DIFFERENT';matched_count:number;eligibility:'UNKNOWN';benefit_applied_krw:0};
 type MatchRule={age:{note:string};employment_note:string;rent_note:string;sources:Program['sources']};
@@ -75,7 +69,6 @@ function GapList({gaps}:{gaps:ConditionGap[]}){
  if(!gaps.length)return null;
  return <div className="condition-gaps"><h4>무엇이 달라서 맞지 않나요?</h4><ul>{gaps.map(g=><li key={g.key}><b>{g.label}</b><span>{g.text}</span></li>)}</ul><p>공고 기준과 입력값을 비교한 결과예요. 예외 규정이나 최신 공고에 따라 달라질 수 있어요.</p></div>;
 }
-function locationText(p:Program){return p.provinces.length?(p.provinces.join('·')+(p.city?' '+p.city:'')):'전국';}
 function Card({p,regionKey,selected,profile,hasProfile,asOf,favorite,onFavorite,compared,onCompare,full,checks,onCheck}:{p:Program;regionKey:string;selected:boolean;profile:PersonalInput;hasProfile:boolean;asOf:string;favorite:boolean;onFavorite:()=>void;compared:boolean;onCompare:()=>void;full:boolean;checks:string[];onCheck:(key:string)=>void}){
  const result=readRegionalDecision(p.program_id,regionKey,asOf);
  const match=readPersonalDecision(p.program_id,regionKey,profile,asOf);
