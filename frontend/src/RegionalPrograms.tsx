@@ -1,16 +1,18 @@
 import GroupedInput from './GroupedInput';
-import {useMemo,useState} from 'react';
+import {useEffect,useMemo,useState} from 'react';
+import {readProfile,writeProfile,clearProfile} from './support-profile';
 import prepared from './public-data/current-support-web.json';
 import './regional-programs.css';
 import {routeLinks} from './portal-routing';
 import FinderDialog from './FinderDialog';
 import ConditionPrompt from './ConditionPrompt';
 import YouthCenterHelp from './YouthCenterHelp';
+import ConsultMemo,{type MemoItem} from './ConsultMemo';
 import LocalNotice from './LocalNotice';
 import DataFreshness from './DataFreshness';
 import {deadlineOrder} from './support-order';
 import directory from './public-data/nationwide-districts.json';
-import {useKoreaDay,usePlanner,ApplicationChecklist,SupportComparison,DeadlineAction,deadlineOf,deadlineLabel,calendarTextMany,downloadCalendar} from './SupportPlanner';
+import {useKoreaDay,usePlanner,ApplicationChecklist,SupportComparison,DeadlineAction,deadlineOf,deadlineLabel,calendarTextMany,downloadCalendar,checkKey} from './SupportPlanner';
 
 import {intakeLabels,readRegionalDecision,locationText,programIndex,koreaToday as day,type RegionStatus,type Intake} from './support-status';
 export {intakeLabels,readRegionalDecision,locationText};
@@ -99,12 +101,16 @@ function FavoriteCalendar({programs,asOf}:{programs:Program[];asOf:string}){
  return <span className="favorite-calendar"><button type="button" disabled={!dated.length} onClick={()=>{const text=calendarTextMany(dated,asOf);if(text)setMessage(downloadCalendar(text,'youth-support-deadlines.ics'));}}>관심 사업 마감일 한꺼번에 캘린더 저장 ({dated.length})</button>{!dated.length&&<small>관심 사업 중 마감일이 정해진 공고가 없어요.</small>}{message&&<small role="status">{message}</small>}</span>;
 }
 export default function RegionalPrograms({browse=true,listPage=false}:{browse?:boolean;listPage?:boolean}={}){
- const [province,setProvince]=useState(''),[city,setCity]=useState(''),[category,setCategory]=useState('ALL'),[query,setQuery]=useState(''),[intake,setIntake]=useState('CURRENT'),[otherRegions,setOtherRegions]=useState(false),[visible,setVisible]=useState(12);
- const [age,setAge]=useState(''),[employment,setEmployment]=useState('unknown'),[rent,setRent]=useState('unknown'),[different,setDifferent]=useState(false);
+ const [saved]=useState(readProfile);
+ const [province,setProvince]=useState(saved?.province??''),[city,setCity]=useState(saved?.city??''),[category,setCategory]=useState('ALL'),[query,setQuery]=useState(''),[intake,setIntake]=useState('CURRENT'),[otherRegions,setOtherRegions]=useState(false),[visible,setVisible]=useState(12);
+ const [age,setAge]=useState(saved?.age??''),[employment,setEmployment]=useState(saved?.employment??'unknown'),[rent,setRent]=useState(saved?.rent??'unknown'),[different,setDifferent]=useState(false);
  const [sort,setSort]=useState('MATCH');
  const asOf=useKoreaDay();const planner=usePlanner(prepared.programs);const [savedOnly,setSavedOnly]=useState(false),[comparison,setComparison]=useState<string[]>([]);
  const profile={age,employment,rent};const hasProfile=age!==''||employment!=='unknown'||rent!=='unknown';
  const [conditionPrompt,setConditionPrompt]=useState(false);
+ const [remember,setRemember]=useState(saved!==null),[rememberError,setRememberError]=useState(false);
+ useEffect(()=>{if(remember)setRememberError(!writeProfile({province,city,age:validAge(age)?age:'',employment,rent}));},[remember,province,city,age,employment,rent]);
+ function toggleRemember(on:boolean){setRemember(on);if(!on){clearProfile();setRememberError(false);}}
  function openResults(){if(!province&&!hasProfile){setConditionPrompt(true);return;}setSort('MATCH');setFinder('programs');}
  function closeConditionPrompt(edit:boolean){setConditionPrompt(false);if(edit)requestAnimationFrame(()=>document.getElementById('support-province')?.focus());}
  const [finder,setFinder]=useState<'programs'|'compare'|null>(null);
@@ -166,6 +172,18 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const scoped=useMemo(()=>prepared.programs.filter(p=>readRegionalDecision(p.program_id,regionKey,asOf).region!=='FAIL'),[regionKey,asOf]);
  const regionalProvinces=new Set(prepared.programs.flatMap(p=>p.provinces));
  function reset(){setProvince('');setCity('');setCategory('ALL');setQuery('');setIntake('CURRENT');setOtherRegions(false);setAge('');setEmployment('unknown');setRent('unknown');setDifferent(false);setSavedOnly(false);setVisible(12);setSort('MATCH');}
+ const memoFromFavorites=planner.favorites.length>0;
+ const memoItems:MemoItem[]=prepared.programs.filter(p=>(memoFromFavorites?planner.favorites:comparison).includes(p.program_id)).map(p=>{
+  const m=readPersonalDecision(p.program_id,regionKey,profile,asOf);const end=deadlineOf(p,asOf);
+  return {id:p.program_id,title:p.title,place:locationText(p),status:labels[readRegionalDecision(p.program_id,regionKey,asOf).intake],deadline:end?deadlineLabel(end,asOf):null,
+   matches:hasProfile||province?([['region','지역'],['age','나이'],['employment','취업'],['rent','월세']] as const).map(([k,label])=>({label,word:matchWords[m[k]]})):[],
+   gaps:hasProfile?conditionGaps(p.program_id,regionKey,profile,asOf).map(g=>({label:g.label,text:g.text})):[],
+   checks:p.required_checks.map(text=>({text,done:planner.checks.includes(checkKey(p,text))})),url:p.sources[0].url};
+ });
+ const memo=<ConsultMemo items={memoItems} source={memoFromFavorites?'관심 저장한':'비교에 담은'} province={province} city={city} asOf={asOf}
+  profile={{region:[displayProvince(province)||'선택 안 함',city==='__OTHER__'?'기타 지역':city].filter(Boolean).join(' '),age:age&&validAge(age)?'만 '+age+'세':'입력 안 함',
+   employment:({employed:'근로 중',unemployed:'현재 일하지 않음',self_employed:'자영업·프리랜서'} as Record<string,string>)[employment]??'선택 안 함',
+   rent:rent==='yes'?'월세 거주':rent==='no'?'월세 외 거주':'선택 안 함'}}/>;
  const comparisonPanel=(<SupportComparison items={prepared.programs.filter(p=>comparison.includes(p.program_id)).map(p=>({program:p,status:labels[readRegionalDecision(p.program_id,regionKey,asOf).intake],match:readPersonalDecision(p.program_id,regionKey,profile,asOf).summary.candidate_status==='DIFFERENT'?'현재 입력과 다른 조건 있음':`입력 조건 ${readPersonalDecision(p.program_id,regionKey,profile,asOf).summary.matched_count}개 일치 · 추가 확인`}))} onClear={()=>setComparison([])}/>);
  return <section className="regional-programs" aria-labelledby="support-discovery-title">
   {conditionPrompt&&<ConditionPrompt onClose={closeConditionPrompt}/>}
@@ -182,7 +200,8 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
    {!validAge(age)&&<p role="alert">만 나이는0~120의 정수로 입력해 주세요. 올바르게 입력할 때까지 나이는 추가 확인으로 남깁니다.</p>}
    <p id="support-profile-help">학생이어도 일한다면 ‘근로 중’을 선택하세요. 현재 상태와 과거 공고 기준일의 상태는 다를 수 있습니다. 소득·재산은 추정하지 않아요.</p>
    <div className="support-search"><label htmlFor="support-query">사업·지원내용 검색</label><GroupedInput id="support-query" type="search" mode="search" value={query} placeholder="월세, 면접, 응시료, 이사비…" onChange={e=>{setQuery(e.target.value);setVisible(12);}}/></div>
-   <p>상세 주소·소득·계좌정보를 받지 않습니다. 선택값은 이 화면의 메모리에서만 사용하며 외부 전송·영구 저장하지 않습니다.</p>
+   <div className="support-remember"><label><input type="checkbox" checked={remember} onChange={e=>toggleRemember(e.target.checked)}/>이 기기에 내 조건 기억하기</label><p>{remember?'지역·나이·취업 상태·월세 여부만 이 브라우저에 저장해 다음에 들어와도 그대로 보여 드려요. 끄면 바로 지워집니다. 외부로 보내지 않아요.':'켜면 지역·나이·취업 상태·월세 여부를 이 브라우저에만 저장해, 다음에 다시 넣지 않아도 돼요.'}</p>{rememberError&&<p role="status">이 브라우저에서는 저장할 수 없어 현재 화면에서만 유지합니다.</p>}</div>
+   <p>상세 주소·소득·계좌정보를 받지 않습니다. {remember?'선택한 조건만 이 기기에 저장하며 외부로 보내지 않습니다.':'선택값은 이 화면의 메모리에서만 사용하며 외부 전송·영구 저장하지 않습니다.'}</p>
    <div className="finder-actions">
     <button type="button" className="finder-primary" disabled={!validAge(age)} onClick={openResults}>내 조건으로 찾기 →</button>
     <button type="button" onClick={()=>setFinder('compare')}>사업 비교하기 ({comparison.length}/3)</button>
@@ -206,6 +225,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   <div className="support-list-tools"><label><input type="checkbox" checked={savedOnly} onChange={e=>{setSavedOnly(e.target.checked);setVisible(12);}}/>관심사업만 ({planner.favorites.length})</label><label><input type="checkbox" checked={different} onChange={e=>{setDifferent(e.target.checked);setVisible(12);}}/>현재 조건과 다른 사업도 보기</label><label><input type="checkbox" checked={otherRegions} onChange={e=>{setOtherRegions(e.target.checked);setVisible(12);}}/>다른 지역 사업도 함께 보기</label><button type="button" onClick={reset}>조건 초기화</button><p>{rows.length}개 검색됨 · 현재 {Math.min(rows.length,visible)}개 표시</p></div>
   {localNotice&&<LocalNotice {...localNotice}/>}{!finder&&scopeTools}
   <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<FavoriteCalendar programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} asOf={asOf}/><button type="button" onClick={planner.clear} disabled={!planner.favorites.length&&!planner.checks.length}>내 기기의 관심·확인 기록 지우기</button></div>
+  {memo}
   {planner.error&&<p role="status">{planner.error}</p>}
   </>}
   {finder ? <FinderDialog
@@ -222,7 +242,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
         deadline:(()=>{const end=deadlineOf(p,asOf);return end?{label:deadlineLabel(end,asOf),file:p.program_id+'-deadline.ics',text:()=>calendarTextMany([p],asOf)}:undefined;})()};
     })}
     excluded={hasProfile?excluded.map(p=>({id:p.program_id,title:p.title,location:locationText(p),url:p.sources[0].url,gaps:conditionGaps(p.program_id,regionKey,profile,asOf)})):[]}
-    help={<YouthCenterHelp province={province} city={city}/>}
+    help={<>{memo}<YouthCenterHelp province={province} city={city}/></>}
     selected={comparison} onSelect={toggleComparison} onClose={()=>setFinder(null)} comparison={comparisonPanel} favorites={planner.favorites} onFavorite={planner.toggleFavorite} storageError={planner.error}
   /> : browse?comparisonPanel:null}
 
