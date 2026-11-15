@@ -1,0 +1,24 @@
+.favorite-schedule,.calendar-subscribe{margin:16px 0;padding:16px 18px;border-radius:14px;background:#fff;border:1px solid #e4e1d8;color:#0e1a2b;font-size:14px;line-height:1.6}
+.favorite-schedule h3,.calendar-subscribe h3{margin:0 0 4px;font-size:17px}
+.schedule-lead,.calendar-subscribe>p{margin:0 0 10px;color:#5b6676}
+.schedule-month h4{margin:12px 0 6px;font-size:14px;color:#1f3f78}
+.schedule-month ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.schedule-month li{display:grid;grid-template-columns:86px 1fr;gap:10px;align-items:start;padding:8px 10px;border-radius:10px;background:#f8f7f3;border:1px solid #ece8de}
+.schedule-month li.soon{background:#fff7e6;border-color:#f3d9a0}
+.schedule-day{display:grid;justify-items:start;font-size:13px}
+.schedule-day b{font-size:14px}
+.schedule-day small{color:#8a5a00;font-weight:700}
+.schedule-month li a{color:#1f57d8;font-weight:600}
+.schedule-month li small{display:block;color:#5b6676;font-size:13px}
+.calendar-subscribe{background:#f2f6fd;border-color:#dde7f7}
+.calendar-subscribe-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.calendar-subscribe-row label{font-weight:700}
+.calendar-subscribe-row select{min-height:40px;padding:6px 10px;border-radius:10px;border:1px solid #cfd6e2;background:#fff;font-size:14px}
+.calendar-subscribe-actions{display:flex;flex-wrap:wrap;gap:8px}
+.calendar-subscribe-actions a,.calendar-subscribe-actions button{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border-radius:999px;border:1px solid #1f57d8;background:#fff;color:#1f57d8;font-weight:600;font-size:14px;text-decoration:none;cursor:pointer}
+.calendar-subscribe-actions a:first-child{background:#1f57d8;color:#fff}
+.calendar-subscribe-url{margin:10px 0 4px;word-break:break-all}
+.calendar-subscribe-url code{font-size:12px;color:#42698c}
+.calendar-subscribe-status{margin:4px 0;color:#26745f;font-weight:600}
+.calendar-subscribe small{display:block;margin-top:6px;font-size:13px;color:#5b6676}
+@media (max-width:560px){.schedule-month li{grid-template-columns:72px 1fr}}

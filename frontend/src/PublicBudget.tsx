@@ -2,6 +2,7 @@ import {useRef,useState,type FormEvent} from 'react';
 import GroupedInput from './GroupedInput';
 import {calculateCashflow,MAX_KRW,type CashflowInput,type CashflowResult} from './cashflow';
 import {routeLinks} from './portal-routing';
+import SupportAssumption from './SupportAssumption';
 import './public-budget.css';
 
 /* Public (server-less) budget page: monthly room to save, then a what-if on the user's own numbers.
@@ -117,8 +118,10 @@ export default function PublicBudget({onChange}:{onChange:(state:PublicBudgetSta
       </div>
       <Bar result={result}/>
       <div className="budget-next">{result.savable_amount>0?<a className="finder-primary budget-link" href={routeLinks.savings}>월 {won(result.savable_amount)}으로 상품 찾기 <span aria-hidden="true">→</span></a>:<p className="budget-hint">저축에 쓸 수 있는 금액이 0원이라 상품 추천으로 넘기지 않았어요.</p>}<a className="budget-secondary" href={routeLinks.programs}>받을 수 있는 지원 찾기 <span aria-hidden="true">→</span></a></div>
-      <p className="budget-note">정책 지원금은 자동으로 더하지 않아요. 선정 여부와 금액이 확정되지 않았기 때문이에요.</p>
+      <p className="budget-note">정책 지원금은 자동으로 더하지 않아요. 선정 여부와 금액이 확정되지 않았기 때문이에요. 받는다고 가정한 결과는 아래에서 따로 볼 수 있어요.</p>
     </div>}
+
+    {result&&<SupportAssumption result={result}/>}
 
     {result&&<form className="budget-panel budget-whatif" onSubmit={compare} noValidate aria-labelledby="whatif-heading">
       <h3 id="whatif-heading">조건이 바뀌면 어떻게 될까요?</h3>

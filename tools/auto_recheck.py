@@ -17,6 +17,7 @@ Usage (repo root):
   python -m tools.auto_recheck                                      # write today's batch + rebuild public JSON
 """
 import argparse
+import asyncio
 import copy
 import io
 import json
@@ -292,6 +293,89 @@ def browser_text_getter():
     return get, close
 
 
+def candidate_urls(today: date, only: set[str] | None = None) -> list[str]:
+    """Every page evaluate() may read today, so they can be fetched together up front."""
+    renewals = json.loads(PUBLIC.read_text(encoding='utf-8'))
+    latest = latest_entries()
+    urls: list[str] = []
+    for row in recommendable(renewals):
+        pid = row['product_id']
+        checked_on, entry = latest.get(pid, (None, None))
+        if (only and pid not in only) or entry is None or checked_on == today.isoformat():
+            continue
+        product = entry['product']
+        urls += source_urls(product)[:MAX_SOURCES]
+        urls += [s['url'] for s in product['sources'] if s.get('mode') == 'OFFICIAL_PAGE']
+    return list(dict.fromkeys(urls))
+
+
+async def _prefetch(urls: list[str], concurrency: int, timeout: int) -> dict[str, str | Exception]:
+    from playwright.async_api import async_playwright
+    out: dict[str, str | Exception] = {}
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch()
+        context = await browser.new_context(locale='ko-KR', viewport={'width': 1366, 'height': 900},
+                                            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36')
+        gate = asyncio.Semaphore(concurrency)
+
+        async def one(url: str):
+            async with gate:
+                try:
+                    if url.lower().split('?')[0].endswith('.pdf'):
+                        from pypdf import PdfReader
+                        response = await context.request.get(url, timeout=timeout)
+                        if not response.ok:
+                            raise RuntimeError(f'HTTP {response.status}')
+                        out[url] = '\n'.join(p.extract_text() or '' for p in PdfReader(io.BytesIO(await response.body())).pages)
+                        return
+                    page = await context.new_page()
+                    try:
+                        await page.goto(url, wait_until='domcontentloaded', timeout=timeout)
+                        try:
+                            await page.wait_for_load_state('networkidle', timeout=6000)
+                        except Exception:
+                            pass
+                        await page.wait_for_timeout(1000)
+                        parts = []
+                        for frame in page.frames:
+                            try:
+                                parts.append(await frame.evaluate("() => document.body ? document.body.textContent : ''"))
+                            except Exception:
+                                continue
+                        if 'kbanknow.com/web/product/deposit/' in url:
+                            slug = url.rstrip('/').rsplit('/', 1)[-1].split('?')[0]
+                            endpoint = KBANK_ENDPOINTS.get(slug)
+                            if endpoint:
+                                try:
+                                    rows = sorted(await page.evaluate(KBANK_SCRIPT, endpoint))
+                                    parts.append(' 약정이율 표 ' + ' '.join(f'{term} 이상 기본금리 {rate:.2f} %' for term, rate in rows))
+                                except Exception:
+                                    pass
+                        out[url] = '\n'.join(parts)
+                    finally:
+                        await page.close()
+                except Exception as error:  # recorded per page; evaluate() treats it as unreadable
+                    out[url] = RuntimeError(f'{type(error).__name__}: {str(error).splitlines()[0][:140]}')
+
+        await asyncio.gather(*(one(u) for u in urls))
+        await browser.close()
+    return out
+
+
+def prefetched_text_getter(urls: list[str], concurrency: int = 6, timeout: int = 25000):
+    """Open all pages several at a time (one slow bank no longer holds up the rest), then serve them from memory."""
+    pages = asyncio.run(_prefetch(urls, concurrency, timeout))
+
+    def get(url: str) -> str:
+        value = pages.get(url)
+        if value is None:
+            raise RuntimeError('page was not fetched in this run')
+        if isinstance(value, Exception):
+            raise value
+        return value
+    return get
+
+
 def write_outputs(today: date, updates: list[dict]) -> Path:
     from backend.finance.discovery import load_catalog
     from backend.finance.renewal import compile_renewals
@@ -318,13 +402,13 @@ def main(argv=None) -> int:
     parser.add_argument('--dry-run', action='store_true', help='compare only; change no data')
     parser.add_argument('--report', type=Path, help='write the per-product outcome list here')
     parser.add_argument('--only', help='comma-separated product ids')
+    parser.add_argument('--concurrency', type=int, default=6, help='pages opened at the same time')
     args = parser.parse_args(argv)
     today = date.fromisoformat(args.today) if args.today else datetime.now(KST).date()
-    get, close = browser_text_getter()
-    try:
-        updates, report = evaluate(today, get, set(args.only.split(',')) if args.only else None)
-    finally:
-        close()
+    only = set(args.only.split(',')) if args.only else None
+    urls = candidate_urls(today, only)
+    print(f'pages to read: {len(urls)}', flush=True)
+    updates, report = evaluate(today, prefetched_text_getter(urls, args.concurrency), only)
     counts: dict[str, int] = {}
     for row in report:
         counts[row['outcome']] = counts.get(row['outcome'], 0) + 1

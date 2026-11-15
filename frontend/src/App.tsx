@@ -11,12 +11,14 @@ import RegionalPrograms from './RegionalPrograms';
 import type {ComparisonResult} from './comparison-api';
 import { EmptyResult, ServiceGuide } from './ServiceShell';
 import {PortalHeader,PortalHome,PortalFooter,PageHeading,BackendPending,NeedsBudget} from './PortalShell';
+import Survey from './Survey';
 import {usePortalRoute,usePageTransition,publicBackendPending} from './portal-routing';
 import ProductExplorer from './ProductExplorer';
 import PublicBudget,{type PublicBudgetState} from './PublicBudget';
 import './launch-design.css';
 import './polish.css';
 import './theme-pro.css';
+import ProgramDetail from './ProgramDetail';
 
 const money = (amount: number) => `${amount.toLocaleString('ko-KR')}원`;
 const fieldNames: Record<string, string> = { age: '만 나이', region: '거주 지역', employment_status: '취업 상태', student_status: '재학 상태', household_income: '정책 기준의 가구소득' };
@@ -143,6 +145,13 @@ export default function App() {
       {visited.has('guide')&&<div data-portal-page="guide" hidden={route!=='guide'} className="portal-page">
         <PageHeading page="guide" eyebrow="서비스 이용 안내" title="근거를 알고, 내 선택에 활용하세요." description="자료 범위와 검토일, 상품 조건을 읽는 방법을 안내합니다."/>
         <ServiceGuide/><PortalFooter/>
+      </div>}
+      {visited.has('detail')&&<div data-portal-page="detail" hidden={route!=='detail'} className="portal-page">
+        <ProgramDetail active={route==='detail'}/><PortalFooter/>
+      </div>}
+      {visited.has('survey')&&<div data-portal-page="survey" hidden={route!=='survey'} className="portal-page">
+        <PageHeading page="survey" eyebrow="사용자 평가" title="써 보니 어땠나요?" description="9개 문항에 답하면 구글 폼이 답이 채워진 채로 열려요. 제출은 구글 폼에서 합니다."/>
+        <Survey/><PortalFooter/>
       </div>}
     </div></main>
   </div>;

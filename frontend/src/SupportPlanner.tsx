@@ -22,17 +22,38 @@ export function usePlanner(programs:PlannerProgram[]){
 const escapeICS=(s:string)=>s.replace(/\\/g,'\\\\').replace(/\r?\n/g,'\\n').replace(/;/g,'\\;').replace(/,/g,'\\,');
 // RFC 5545 content lines fold at <=75 octets without splitting a UTF-8 character.
 function fold(line:string){const enc=new TextEncoder();let out='',chunk='',size=0;for(const c of line){const n=enc.encode(c).length;if(size+n>75){out+=chunk+'\r\n';chunk=' ';size=1;}chunk+=c;size+=n;}return out+chunk;}
-export function calendarText(p:PlannerProgram,asOf:string,stamp=new Date().toISOString()):string|null{
+/** Inclusive official deadline for a dated, unclosed WINDOW intake; null otherwise. */
+export function deadlineOf(p:Pick<PlannerProgram,'ends_on'|'intake_mode'>,asOf:string):string|null{
  const end=p.ends_on;if(p.intake_mode!=='WINDOW'||!end||!/^\d{4}-\d{2}-\d{2}$/.test(end)||end<asOf)return null;
  const d=new Date(end+'T00:00:00Z');if(Number.isNaN(d.valueOf())||d.toISOString().slice(0,10)!==end)return null;
- d.setUTCDate(d.getUTCDate()+1);const next=d.toISOString().slice(0,10).replace(/-/g,'');
- const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//AI+X//Support Planner//KO','CALSCALE:GREGORIAN','BEGIN:VEVENT',`UID:${p.program_id}@youth-life-planner.local`,`DTSTAMP:${stamp.replace(/[-:]/g,'').replace(/\.\d{3}Z$/,'Z')}`,`DTSTART;VALUE=DATE:${end.replace(/-/g,'')}`,`DTEND;VALUE=DATE:${next}`,`SUMMARY:${escapeICS(p.title+' · 공고 마감일 확인')}`,`DESCRIPTION:${escapeICS(p.schedule_note+'\n종일 확인 일정입니다. 실제 마감 시각·예산 소진·신청자격은 공식 안내에서 확인하세요. 신청 완료나 자동 알림 구독이 아닙니다.')}`,`URL:${p.sources[0].url}`,'STATUS:TENTATIVE','END:VEVENT','END:VCALENDAR'];
- return lines.map(fold).join('\r\n')+'\r\n';
+ return end;
 }
-export function ApplicationChecklist({program:p,checked,onCheck,asOf}:{program:PlannerProgram;checked:string[];onCheck:(key:string)=>void;asOf:string}){
- const [message,setMessage]=useState('');const calendar=calendarText(p,asOf);
- function download(){if(!calendar)return;try{const url=URL.createObjectURL(new Blob([calendar],{type:'text/calendar;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=p.program_id+'-deadline.ics';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);setMessage('캘린더 파일을 내려받았습니다. 캘린더 앱에서 직접 추가하세요.');}catch{setMessage('캘린더 파일을 만들지 못했습니다. 공식 안내의 마감일을 직접 확인하세요.');}}
- return <details className="application-checklist"><summary>신청 전 확인 목록 · {p.required_checks.filter(t=>checked.includes(checkKey(p,t))).length}/{p.required_checks.length}</summary><p>직접 확인한 항목만 체크하세요. 체크는 개인 메모이며 자격 판정을 바꾸지 않습니다.</p><ul>{p.required_checks.map(t=><li key={t}><label><input type="checkbox" checked={checked.includes(checkKey(p,t))} onChange={()=>onCheck(checkKey(p,t))}/><span>{t}</span></label></li>)}</ul>{calendar&&<button type="button" onClick={download}>공고 마감일 캘린더 저장</button>}<p>사업 ID와 확인 항목 ID만 이 브라우저에 저장합니다. 실제 개인정보·소득·자산은 저장하지 않습니다.</p>{message&&<p role="status">{message}</p>}</details>;
+export function daysLeft(end:string,asOf:string){return Math.round((Date.parse(end+'T00:00:00Z')-Date.parse(asOf+'T00:00:00Z'))/86_400_000);}
+export function deadlineLabel(end:string,asOf:string){const n=daysLeft(end,asOf);const [,m,d]=end.split('-').map(Number);return `신청 마감 ${m}월 ${d}일 · ${n===0?'오늘 마감':'D-'+n}`;}
+function eventLines(p:PlannerProgram,end:string,stamp:string){
+ const d=new Date(end+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+1);const next=d.toISOString().slice(0,10).replace(/-/g,'');
+ return ['BEGIN:VEVENT',`UID:${p.program_id}@youth-life-planner.local`,`DTSTAMP:${stamp.replace(/[-:]/g,'').replace(/\.\d{3}Z$/,'Z')}`,`DTSTART;VALUE=DATE:${end.replace(/-/g,'')}`,`DTEND;VALUE=DATE:${next}`,`SUMMARY:${escapeICS(p.title+' · 공고 마감일 확인')}`,`DESCRIPTION:${escapeICS(p.schedule_note+'\n종일 확인 일정입니다. 실제 마감 시각·예산 소진·신청자격은 공식 안내에서 확인하세요. 신청 완료나 자동 알림 구독이 아닙니다.')}`,`URL:${p.sources[0].url}`,'STATUS:TENTATIVE','END:VEVENT'];
+}
+/** One calendar file with an all-day event per program that still has a dated deadline. */
+export function calendarTextMany(programs:PlannerProgram[],asOf:string,stamp=new Date().toISOString()):string|null{
+ const events=programs.flatMap(p=>{const end=deadlineOf(p,asOf);return end?eventLines(p,end,stamp):[];});
+ if(!events.length)return null;
+ return ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//AI+X//Support Planner//KO','CALSCALE:GREGORIAN',...events,'END:VCALENDAR'].map(fold).join('\r\n')+'\r\n';
+}
+export function calendarText(p:PlannerProgram,asOf:string,stamp=new Date().toISOString()):string|null{return calendarTextMany([p],asOf,stamp);}
+/** Hands the browser a .ics file; returns the status message to show. */
+export function downloadCalendar(text:string,filename:string){
+ try{const url=URL.createObjectURL(new Blob([text],{type:'text/calendar;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);return '캘린더 파일을 내려받았습니다. 파일을 열어 휴대폰·PC 캘린더에 추가하세요.';}
+ catch{return '캘린더 파일을 만들지 못했습니다. 공식 안내의 마감일을 직접 확인하세요.';}
+}
+export function DeadlineAction({program:p,asOf}:{program:PlannerProgram;asOf:string}){
+ const [message,setMessage]=useState('');const end=deadlineOf(p,asOf);
+ if(!end)return null;
+ const soon=daysLeft(end,asOf)<=7;
+ return <div className={'deadline-action'+(soon?' deadline-soon':'')}><span>{deadlineLabel(end,asOf)}</span><button type="button" aria-label={p.title+' 마감일 캘린더에 추가'} onClick={()=>{const text=calendarText(p,asOf);if(text)setMessage(downloadCalendar(text,p.program_id+'-deadline.ics'));}}>캘린더에 추가</button>{message&&<small role="status">{message}</small>}</div>;
+}
+export function ApplicationChecklist({program:p,checked,onCheck}:{program:PlannerProgram;checked:string[];onCheck:(key:string)=>void;asOf?:string}){
+  return <details className="application-checklist"><summary>신청 전 확인 목록 · {p.required_checks.filter(t=>checked.includes(checkKey(p,t))).length}/{p.required_checks.length}</summary><p>직접 확인한 항목만 체크하세요. 체크는 개인 메모이며 자격 판정을 바꾸지 않습니다.</p><ul>{p.required_checks.map(t=><li key={t}><label><input type="checkbox" checked={checked.includes(checkKey(p,t))} onChange={()=>onCheck(checkKey(p,t))}/><span>{t}</span></label></li>)}</ul><p>사업 ID와 확인 항목 ID만 이 브라우저에 저장합니다. 실제 개인정보·소득·자산은 저장하지 않습니다.</p></details>;
 }
 export function SupportComparison({items,onClear}:{items:{program:PlannerProgram;status:string;match:string}[];onClear:()=>void}){
  if(!items.length)return null;

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-11-13",
+  "scope_note": "센터 정보는 각 지자체 공식 누리집에서 직접 확인한 곳만 싣습니다. 온통청년의 전국 목록은 이용약관상 복제·제3자 제공이 제한되어 싣지 않고 검색 화면으로 연결합니다.",
+  "national": {
+    "name": "온통청년 청년센터 찾기",
+    "url": "https://www.youthcenter.go.kr/youthApply/ythCenter/ythCenterMain",
+    "phone": "1670-1839",
+    "phone_hours": "평일 09~18시",
+    "source": {
+      "title": "온통청년 누리집 하단 안내",
+      "url": "https://www.youthcenter.go.kr/",
+      "verified_on": "2026-11-13"
+    }
+  },
+  "centers": [
+    {
+      "id": "GG-ANSAN-SANGSANGDAERO",
+      "province": "경기",
+      "city": "안산시",
+      "name": "안산시 청년센터 상상대로",
+      "address": "안산시 단원구 선부로 312 (와동)",
+      "phone": "031-492-2030",
+      "hours": "월~금 9~21시, 토 9~16시 · 일요일·공휴일 휴무",
+      "url": "https://asyouthspace.kr",
+      "services": "청년 종합상담소(진로·취업·마음 건강 상담), 안산청년대학, 커뮤니티 지원",
+      "audience": "안산 청년 누구나(19~39세)",
+      "sources": [
+        {
+          "title": "안산시청 · 청년활동 스탬프 투어 안내(청년공간 주소·시간·문의처)",
+          "url": "https://www.ansan.go.kr/www/common/cntnts/selectContents.do?cntnts_id=www01826",
+          "verified_on": "2026-11-13"
+        },
+        {
+          "title": "안산시청 · 안산시 청년센터 상상대로 운영",
+          "url": "https://www.ansan.go.kr/www/common/cntnts/selectContents.do?cntnts_id=C0001541",
+          "verified_on": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "GG-ANSAN-SANGSANGSTATION",
+      "province": "경기",
+      "city": "안산시",
+      "name": "안산시 청년센터 상상스테이션",
+      "address": "안산시 단원구 적금로 93 (고잔동)",
+      "phone": "031-410-0311",
+      "hours": "월~금 9~21시, 토 9~16시 · 일요일·공휴일 휴무",
+      "url": "https://www.asyouthstation.kr",
+      "services": null,
+      "audience": null,
+      "sources": [
+        {
+          "title": "안산시청 · 청년활동 스탬프 투어 안내(청년공간 주소·시간·문의처)",
+          "url": "https://www.ansan.go.kr/www/common/cntnts/selectContents.do?cntnts_id=www01826",
+          "verified_on": "2026-11-13"
+        }
+      ]
+    }
+  ]
+}

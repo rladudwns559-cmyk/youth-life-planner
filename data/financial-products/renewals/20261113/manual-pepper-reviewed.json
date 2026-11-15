@@ -1,0 +1,350 @@
+{
+  "checked_on": "2026-11-13",
+  "updates": [
+    {
+      "product": {
+        "product_id": "PEPPER-TERM-DEPOSIT",
+        "institution": "페퍼저축은행",
+        "product_name": "정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+        "term_note": "공식기간 1~36개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "제한없음",
+        "features": [
+          "만기 월복리 또는 월이자 단리 선택; 이자방식별 상품 수 중복계산 안 함"
+        ],
+        "preferential_conditions": [
+          "12개월 이상18개월 미만은 기본연3.80%에 영업점장 우대연0.15%p 적용 시 연3.95%. 개인별 우대 적용 여부와 당일 금리는 은행에서 추가 확인."
+        ],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "영업점·공식 뱅킹 안내 확인"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+            "title": "페퍼저축은행 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-13",
+            "basis_date": "2026-10-30",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-13",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 정기예금·페퍼스 정기예금 상세 링크 확인. 목록 SHA256 67a8b402b6ad4075f9c0665f3aed4b3869024206bea2ccfad2651443425c0e4f."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "PEPPER-TERM-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=19",
+            "title": "페퍼저축은행 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-13",
+            "basis_date": "2026-10-30",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-13",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 정기예금·페퍼스 정기예금 상세 링크 확인. 목록 SHA256 67a8b402b6ad4075f9c0665f3aed4b3869024206bea2ccfad2651443425c0e4f."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "2026-11-13 공식 상품안내 본문 및 판매 목록 직접 대조. 공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분. 상세 SHA256 8d9e80a054ee54d33e7f25345d5410925eaadc65eb2ee7633b168f9b63d9c536.",
+      "change_notes": []
+    },
+    {
+      "product": {
+        "product_id": "PEPPERS-TERM-DEPOSIT",
+        "institution": "페퍼저축은행",
+        "product_name": "페퍼스 정기예금",
+        "kind": "DEPOSIT",
+        "schedule": "LUMP_SUM",
+        "minimum": 100000,
+        "maximum": null,
+        "maximum_kind": "UNLIMITED",
+        "min_months": 1,
+        "max_months": 36,
+        "allowed_months": null,
+        "payment_note": "목돈10만원 이상 일시 예치. 가입한도 제한없음 명시.",
+        "term_note": "공식기간 1~36개월. 정수 개월 조건만 비교합니다.",
+        "eligibility_note": "개인고객",
+        "features": [
+          "디지털페퍼 앱 전용; 만기 월복리/월이자 단리"
+        ],
+        "preferential_conditions": [
+          "12개월 이상18개월 미만은 기본연3.80%에 영업점장 우대연0.15%p 적용 시 연3.95%. 개인별 우대 적용 여부와 당일 금리는 은행에서 추가 확인."
+        ],
+        "required_checks": [
+          "가입 자격 및 채널",
+          "실제 가입일 적용 금리",
+          "중도해지 조건",
+          "검증된 만기 계산 계약"
+        ],
+        "channels": [
+          "디지털페퍼 앱"
+        ],
+        "early_exit_note": "중도해지 시 상품별 경과기간 이율과 약관 적용. 만기금액 계산은 제공하지 않습니다.",
+        "reference_only": false,
+        "reference_reason": null,
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+            "title": "페퍼저축은행 페퍼스 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-13",
+            "basis_date": "2026-10-30",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-13",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 정기예금·페퍼스 정기예금 상세 링크 확인. 목록 SHA256 67a8b402b6ad4075f9c0665f3aed4b3869024206bea2ccfad2651443425c0e4f."
+          }
+        ],
+        "disclosure_ids": [],
+        "comparison_hold_reason": null,
+        "amount_increment": null,
+        "calculation": null,
+        "eligibility": "UNKNOWN"
+      },
+      "review": {
+        "product_id": "PEPPERS-TERM-DEPOSIT",
+        "rates": [
+          {
+            "min_months": 1,
+            "max_months": 2,
+            "base_rate_percent": "2.00",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 3,
+            "max_months": 5,
+            "base_rate_percent": "2.30",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 6,
+            "max_months": 11,
+            "base_rate_percent": "2.60",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 12,
+            "max_months": 17,
+            "base_rate_percent": "3.80",
+            "max_total_rate_percent": "3.95",
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 18,
+            "max_months": 23,
+            "base_rate_percent": "2.90",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "min_months": 24,
+            "max_months": 36,
+            "base_rate_percent": "2.50",
+            "max_total_rate_percent": null,
+            "evidence_locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/view.pepper?depositeOrder=high&page=1&prdSn=36",
+            "title": "페퍼저축은행 페퍼스 정기예금 공식 현재 상품안내",
+            "reviewed_on": "2026-11-13",
+            "basis_date": "2026-10-30",
+            "mode": "OFFICIAL_PAGE",
+            "locator": "공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분."
+          },
+          {
+            "url": "https://www.pepperbank.kr/product/deposite/list.pepper",
+            "title": "페퍼저축은행 공식 현재 예금상품 검색 목록",
+            "reviewed_on": "2026-11-13",
+            "basis_date": null,
+            "mode": "OFFICIAL_PAGE",
+            "locator": "현재 정기예금·페퍼스 정기예금 상세 링크 확인. 목록 SHA256 67a8b402b6ad4075f9c0665f3aed4b3869024206bea2ccfad2651443425c0e4f."
+          }
+        ]
+      },
+      "sale_status": "CURRENT",
+      "evidence_note": "2026-11-13 공식 상품안내 본문 및 판매 목록 직접 대조. 공식 상품 목록의 현재 상세 링크와 해당 상세의 가입대상, 예치기간 1~36개월, 최소 10만원·한도 제한 없음, 전 기간 금리 및 우대 안내 확인. 12~17개월 기본 3.80%와 영업점장 우대 0.15%p로 최고 3.95% 구분. 상세 SHA256 69fa8a0d3b0756a4482404e1f4b57646119fa57308e9e6d509530a4dabc545b6.",
+      "change_notes": []
+    }
+  ],
+  "holds": [],
+  "actual_maturity_calculations": 0,
+  "scope_note": "11월 16일 만료 예정 페퍼 예금 2개 공식 판매와 금리 조건 직접 확인."
+}

@@ -1,4 +1,5 @@
 import json
+import pytest
 from datetime import date
 
 from backend.finance.discovery import load_catalog
@@ -119,3 +120,27 @@ def test_rates_from_a_document_also_need_a_sale_page_that_lists_the_product():
 
     updates, report = ar.evaluate(TODAY, without_listing, {pid})
     assert updates == [] and report[0]['outcome'] == 'MISMATCH'
+
+
+def test_candidate_urls_cover_every_page_evaluate_reads(monkeypatch):
+    """Prefetching must not miss a page: evaluate() asks only for URLs the candidate list holds."""
+    urls = set(ar.candidate_urls(TODAY))
+    asked = []
+
+    def record(url):
+        asked.append(url)
+        raise RuntimeError('offline')
+    ar.evaluate(TODAY, record)
+    assert asked and set(asked) <= urls
+
+
+def test_prefetched_pages_are_served_from_memory_and_failures_stay_unreadable(monkeypatch):
+    async def fake(urls, concurrency, timeout):
+        return {'https://a.example/ok': '본문', 'https://a.example/down': RuntimeError('TimeoutError: slow bank')}
+    monkeypatch.setattr(ar, '_prefetch', fake)
+    get = ar.prefetched_text_getter(['https://a.example/ok', 'https://a.example/down'])
+    assert get('https://a.example/ok') == '본문'
+    with pytest.raises(RuntimeError, match='slow bank'):
+        get('https://a.example/down')
+    with pytest.raises(RuntimeError, match='not fetched'):
+        get('https://a.example/other')
