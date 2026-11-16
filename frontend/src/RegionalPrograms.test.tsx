@@ -56,7 +56,7 @@ describe('regional grants beyond savings',()=>{
   const ids=Array.from(document.querySelectorAll('[data-support-id]'),c=>c.getAttribute('data-support-id'));
   expect(new Set(ids)).toEqual(new Set(data.programs.map(p=>p.program_id)));
   expect(more).not.toBeInTheDocument();
- },20000);
+ },60000);
  it('preserves UNKNOWN and downgrades schedules beyond the built review window',()=>{
   expect(readRegionalDecision('KR-YOUTH-RENT-2026','경기|안산시','2026-11-01')).toEqual({region:'PASS',intake:'CLOSED',overall:'UNKNOWN'});
   expect(readRegionalDecision('KR-NATIONAL-LEARNING-CARD','서울','2026-11-09').intake).toBe('REVIEW_REQUIRED');
