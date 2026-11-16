@@ -29,6 +29,9 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from youthcenter_fetch import get_json  # noqa: E402  (retries the API's passing 400/500 answers)
+
 ROOT = Path(__file__).resolve().parents[1]
 CODES = ROOT / 'data/region-codes/sigungu.json'
 DISTRICTS = ROOT / 'frontend/src/public-data/nationwide-districts.json'
@@ -214,9 +217,7 @@ def fetch_pass(key: str, size: int) -> list[dict]:
     records: list[dict] = []
     for page in range(1, 400):
         query = urllib.parse.urlencode({'apiKeyNm': key, 'rtnType': 'json', 'pageType': 1, 'pageNum': page, 'pageSize': size})
-        request = urllib.request.Request(f'{URL}?{query}', headers={'User-Agent': 'youth-life-planner/1.0', 'Accept': 'application/json'})
-        with urllib.request.urlopen(request, timeout=90) as response:
-            data = json.loads(response.read().decode('utf-8', errors='replace'))
+        data = get_json(f'{URL}?{query}')
         result = data.get('result') or {}
         rows = result.get('youthPolicyList') or []
         if not rows:
