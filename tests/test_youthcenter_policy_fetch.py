@@ -90,3 +90,7 @@ def test_province_missing_a_new_district_counts_as_whole():
     assert regions(policy(zipCd='31110,31140,31170,31200'), CODES, CITIES)[0] == ['울산|남구', '울산|동구', '울산|북구', '울산|중구']
     # Missing three of 인천's cities is a partial list.
     assert regions(policy(zipCd='28710,28290,28245,28200,28177,28237,28185,28720'), CODES, CITIES)[0][0].startswith('인천|')
+
+
+def test_department_name_that_already_names_its_body_is_not_doubled():
+    assert organisation(policy(sprvsnInstCdNm='전남광주통합특별시 화순군 인구청년정책과', rgtrUpInstCdNm='전남광주통합특별시 화순군')) == '전남광주통합특별시 화순군 인구청년정책과'

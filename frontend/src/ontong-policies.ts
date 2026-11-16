@@ -80,13 +80,53 @@ export type RankedPolicy={p:OntongPolicy;region:Fit;age:Fit;job:Fit};
 const specificity=(p:OntongPolicy,province:string)=>p.regions.includes('*')?2:p.regions.includes(province)?1:0;
 const endOf=(p:OntongPolicy)=>p.apply.mode==='PERIOD'?p.apply.end:p.apply.mode==='ALWAYS'?'9999-12-30':'9999-12-31';
 
-/** Policies that do not clash with the chosen conditions: local first, then by closing date. */
-export function rankPolicies(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[]=[],query=''):RankedPolicy[]{
+/** Open policies in the chosen area (or nationwide), with how each condition compares. */
+function inArea(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[],query:string):RankedPolicy[]{
   const q=query.trim().toLowerCase();
   return list
     .filter(p=>p.apply.mode!=='PERIOD'||p.apply.end>=asOf)
     .filter(p=>!q||(p.title+' '+p.summary+' '+p.subcategory).toLowerCase().includes(q))
     .map(p=>({p,region:regionFit(p,profile.province,profile.city),age:ageFit(p,profile.age),job:jobFit(p,profile.employment)}))
-    .filter(r=>r.region!=='FAIL'&&r.age!=='FAIL'&&r.job!=='FAIL'&&!looksKnown(r.p.title,known))
-    .sort((a,b)=>specificity(a.p,profile.province)-specificity(b.p,profile.province)||endOf(a.p).localeCompare(endOf(b.p))||a.p.title.localeCompare(b.p.title,'ko'));
+    .filter(r=>r.region!=='FAIL'&&!looksKnown(r.p.title,known));
+}
+const order=(province:string)=>(a:RankedPolicy,b:RankedPolicy)=>specificity(a.p,province)-specificity(b.p,province)||endOf(a.p).localeCompare(endOf(b.p))||a.p.title.localeCompare(b.p.title,'ko');
+
+/** Policies that do not clash with the chosen conditions: local first, then by closing date. */
+export function rankPolicies(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[]=[],query=''):RankedPolicy[]{
+  return inArea(list,profile,asOf,known,query).filter(r=>r.age!=='FAIL'&&r.job!=='FAIL').sort(order(profile.province));
+}
+
+const jobNames:Record<string,string>={employed:'근로 중',unemployed:'현재 일하지 않음',self_employed:'자영업·프리랜서'};
+/** Why a policy in the area was left out, in plain words. */
+export function gapText(r:RankedPolicy,profile:OntongProfile):string[]{
+  const out:string[]=[];
+  if(r.age==='FAIL')out.push(`${ageText(r.p)} 대상 · 지금 만 ${profile.age}세`);
+  if(r.job==='FAIL')out.push(`${jobText(r.p)} 대상 · 지금 ${jobNames[profile.employment]??profile.employment}`);
+  return out;
+}
+
+export type Opening={key:string;label:string;policies:OntongPolicy[]};
+/**
+ * Policies in the area left out only because of age or employment, and the ones that would
+ * open with a different employment status or when the person gets older (a younger age limit
+ * never reopens, so only policies the person is too young for are counted for age).
+ */
+export function leftOut(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[]=[],query=''){
+  const area=inArea(list,profile,asOf,known,query);
+  const excluded=area.filter(r=>r.age==='FAIL'||r.job==='FAIL').sort(order(profile.province));
+  const openings:Opening[]=[];
+  for(const e of ['employed','unemployed','self_employed']){
+    if(e===profile.employment||profile.employment==='unknown'||!profile.employment)continue;
+    const opened=excluded.filter(r=>r.job==='FAIL'&&r.age!=='FAIL'&&jobFit(r.p,e)!=='FAIL').map(r=>r.p);
+    if(opened.length)openings.push({key:'job-'+e,label:`${jobNames[e]}이면`,policies:opened});
+  }
+  if(profile.age.trim()!==''){
+    const now=Number(profile.age);
+    for(const later of [1,2,3]){
+      // Opens in exactly this year: the lower age limit is reached now+later.
+      const opened=excluded.filter(r=>r.age==='FAIL'&&r.job!=='FAIL'&&r.p.age?.[0]===now+later).map(r=>r.p);
+      if(opened.length)openings.push({key:'age-'+later,label:`${later}년 뒤 만 ${now+later}세가 되면`,policies:opened});
+    }
+  }
+  return {excluded,openings};
 }

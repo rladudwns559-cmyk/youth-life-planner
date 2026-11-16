@@ -109,7 +109,7 @@ def organisation(r: dict) -> str:
     name = clean(r.get('sprvsnInstCdNm') or r.get('operInstCdNm'), 40)
     if re.search(r'(과|팀|실|담당관|센터)$', name):
         up = clean(r.get('rgtrUpInstCdNm') or r.get('rgtrInstCdNm'), 30)
-        if up and up != name and name not in up:
+        if up and up not in name and name not in up:
             name = f'{up} {name}'
     return name
 

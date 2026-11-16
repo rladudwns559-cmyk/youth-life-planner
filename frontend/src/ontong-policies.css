@@ -30,3 +30,20 @@
 .ontong-list>li.ontong-soon-item{border-color:#f0b4a8}
 .ontong-save{min-height:32px;padding:2px 12px;border-radius:8px;border:1px solid #b9c4de;background:#fff;color:#1d3466;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
 .ontong-save[aria-pressed="true"]{background:#fff6d8;border-color:#e3c35a}
+.ontong-alert{margin:0 0 12px;padding:10px 12px;border-radius:10px;background:#fff4e5;border:1px solid #f3c98b}
+.ontong-alert strong{display:block;color:#7a3e00}
+.ontong-alert ul{margin:4px 0 0;padding-left:18px}
+.ontong-alert span{font-size:13px;color:#7a3e00;font-weight:600}
+.ontong-new-note{margin:0 0 10px;color:#1d3466}
+.ontong-new-badge{display:inline-block;margin-right:6px;padding:1px 7px;border-radius:999px;background:#1f57d8;color:#fff;font-size:12px;font-weight:700;vertical-align:2px}
+.ontong-toggles{display:flex;flex-wrap:wrap;gap:4px 16px}
+.ontong-leftout{margin:12px 0;padding:10px 12px;border-radius:10px;background:#fff;border:1px solid #e1e6f2}
+.ontong-leftout summary{cursor:pointer;font-weight:600;color:#1d3466;min-height:28px}
+.ontong-leftout p{margin:8px 0}
+.ontong-openings{margin:8px 0;padding:8px 10px;border-radius:8px;background:#eef6ea}
+.ontong-openings h4{margin:0 0 4px;font-size:14px}
+.ontong-openings ul{margin:0 0 4px;padding-left:18px}
+.ontong-leftout-list{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+.ontong-leftout-list li{display:grid;gap:2px}
+.ontong-leftout-list span{font-size:13px;color:#5b6676}
+.ontong-new-hint{font-size:13px;color:#5b6676}

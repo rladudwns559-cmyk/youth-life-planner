@@ -10,6 +10,7 @@ import ConditionPrompt from './ConditionPrompt';
 import YouthCenterHelp from './YouthCenterHelp';
 import OntongPolicies from './OntongPolicies';
 import {useOntongSaved,asPlannerProgram,type SavedPolicy} from './ontong-saved';
+import {forgetSeen} from './ontong-seen';
 import ConsultMemo,{type MemoItem} from './ConsultMemo';
 import {FavoriteSchedule,CalendarSubscribe} from './SchedulePanels';
 import LocalNotice from './LocalNotice';
@@ -123,10 +124,10 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const [age,setAge]=useState(saved?.age??''),[employment,setEmployment]=useState(saved?.employment??'unknown'),[rent,setRent]=useState(saved?.rent??'unknown'),[different,setDifferent]=useState(false);
  const [sort,setSort]=useState('MATCH');
  const asOf=useKoreaDay();const planner=usePlanner(prepared.programs);const ontongSaved=useOntongSaved();const [savedOnly,setSavedOnly]=useState(false),[comparison,setComparison]=useState<string[]>([]);
- const ontong=<OntongPolicies profile={{province,city,age,employment}} asOf={asOf} known={knownTitles} query={query}/>;
  const profile={age,employment,rent};const hasProfile=age!==''||employment!=='unknown'||rent!=='unknown';
  const [conditionPrompt,setConditionPrompt]=useState(false);
  const [remember,setRemember]=useState(saved!==null),[rememberError,setRememberError]=useState(false);
+ const ontong=<OntongPolicies profile={{province,city,age,employment}} asOf={asOf} known={knownTitles} query={query} remember={remember}/>;
  const [example,setExample]=useState<string|null>(null);
  // Example people are a demo: never written over the visitor's remembered conditions.
  useEffect(()=>{if(remember&&!example)setRememberError(!writeProfile({province,city,age:validAge(age)?age:'',employment,rent}));},[remember,example,province,city,age,employment,rent]);
@@ -139,7 +140,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   fromHash();window.addEventListener('hashchange',fromHash);return()=>window.removeEventListener('hashchange',fromHash);
  // eslint-disable-next-line react-hooks/exhaustive-deps
  },[]);
- function toggleRemember(on:boolean){setRemember(on);if(!on){clearProfile();setRememberError(false);}}
+ function toggleRemember(on:boolean){setRemember(on);if(!on){clearProfile();forgetSeen();setRememberError(false);}}
  function openResults(){if(!province&&!hasProfile){setConditionPrompt(true);return;}setSort('MATCH');setFinder('programs');}
  function closeConditionPrompt(edit:boolean){setConditionPrompt(false);if(edit)requestAnimationFrame(()=>document.getElementById('support-province')?.focus());}
  const [finder,setFinder]=useState<'programs'|'compare'|null>(null);
@@ -260,7 +261,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   <p className="support-update">{sort==='DEADLINE'?'공고에 적힌 마감일 순서이며, 현재 접수중 순위는 아닙니다.':'공식 접수 상태를 확인한 사업부터 표시합니다.'} 모집기간·접수중 표시가 있어도 잔여예산·여석·최종 자격은 공식 기관에서 확인하세요. 자료 확인 {prepared.updated_on??prepared.built_on} · 화면 기준 {asOf}</p>
   <div className="support-list-tools"><label><input type="checkbox" checked={savedOnly} onChange={e=>{setSavedOnly(e.target.checked);setVisible(12);}}/>관심사업만 ({planner.favorites.length})</label><label><input type="checkbox" checked={different} onChange={e=>{setDifferent(e.target.checked);setVisible(12);}}/>현재 조건과 다른 사업도 보기</label><label><input type="checkbox" checked={otherRegions} onChange={e=>{setOtherRegions(e.target.checked);setVisible(12);}}/>다른 지역 사업도 함께 보기</label><button type="button" onClick={reset}>조건 초기화</button><p>{rows.length}개 검색됨 · 현재 {Math.min(rows.length,visible)}개 표시</p></div>
   {localNotice&&<LocalNotice {...localNotice}/>}{!finder&&scopeTools}
-  <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<FavoriteCalendar programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} policies={ontongSaved.saved} asOf={asOf}/><button type="button" onClick={()=>{planner.clear();ontongSaved.clear();}} disabled={!planner.favorites.length&&!planner.checks.length&&!ontongSaved.saved.length}>내 기기의 관심·확인 기록 지우기</button></div>
+  <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<FavoriteCalendar programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} policies={ontongSaved.saved} asOf={asOf}/><button type="button" onClick={()=>{planner.clear();ontongSaved.clear();forgetSeen();}} disabled={!planner.favorites.length&&!planner.checks.length&&!ontongSaved.saved.length}>내 기기의 관심·확인 기록 지우기</button></div>
   {memo}
   <FavoriteSchedule programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} policies={ontongSaved.saved} onRemovePolicy={ontongSaved.remove} asOf={asOf}/>
   {planner.error&&<p role="status">{planner.error}</p>}
