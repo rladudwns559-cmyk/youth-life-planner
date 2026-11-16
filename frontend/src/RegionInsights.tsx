@@ -6,6 +6,7 @@ import {readProfile} from './support-profile';
 import {useKoreaDay} from './SupportPlanner';
 import {routeLinks} from './portal-routing';
 import type {OntongPolicyList} from './ontong-policies';
+import DailyTrend from './DailyTrend';
 import './region-insights.css';
 
 const fmt=(n:number)=>Math.round(n).toLocaleString('ko-KR');
@@ -68,6 +69,8 @@ export default function RegionInsights({data}:{data?:OntongPolicyList}){
       <p className="ri-lead">광역 전체가 대상인 정책은 빼고, 시·군·구를 지정한 정책만 셌어요.</p>
       <ol className="ri-bars">{topCities.map(c=><Bar key={c.city} name={c.city} value={c.count} max={topCities[0].count}/>)}</ol>
     </section>}
+
+    <DailyTrend/>
 
     <details className="ri-table"><summary>숫자 표로 보기</summary>
       <table><caption>광역지역별·분야별 지역 대상 정책 수</caption>

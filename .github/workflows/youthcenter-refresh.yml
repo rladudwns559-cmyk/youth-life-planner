@@ -34,15 +34,20 @@ jobs:
         id: centers
         continue-on-error: true
         run: python tools/youthcenter_fetch.py frontend/src/public-data/youth-centers-api.json
+      - name: Keep the policy list from before the fetch
+        run: cp frontend/src/public-data/youth-policies.json "$RUNNER_TEMP/policies-before.json"
       - name: Youth policies
         id: policies
         continue-on-error: true
         run: python tools/youthcenter_policy_fetch.py frontend/src/public-data/youth-policies.json
+      - name: Record today's counts
+        if: steps.policies.outcome == 'success'
+        run: python tools/record_daily_metrics.py ontong "$RUNNER_TEMP/policies-before.json" frontend/src/public-data/youth-policies.json --centers frontend/src/public-data/youth-centers-api.json
       - name: Commit when changed and redeploy
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          files="frontend/src/public-data/youth-centers-api.json frontend/src/public-data/youth-policies.json"
+          files="frontend/src/public-data/youth-centers-api.json frontend/src/public-data/youth-policies.json frontend/src/public-data/metrics-ontong.json"
           if git diff --quiet -- $files; then
             echo "No change in the 온통청년 lists."
           else

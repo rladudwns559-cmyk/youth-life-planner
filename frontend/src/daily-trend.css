@@ -1,0 +1,10 @@
+.dt-charts{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-bottom:12px}
+.dt-figure{margin:0}
+.dt-figure figcaption{margin:0 0 8px;font-size:14px;font-weight:600;color:#0e1a2b}
+.dt-bars{list-style:none;margin:0;padding:0;display:flex;align-items:flex-end;gap:6px;min-height:150px;overflow-x:auto}
+.dt-bars li{flex:1 0 34px;max-width:56px;display:grid;grid-template-rows:auto 110px auto;justify-items:center;gap:4px}
+.dt-value{font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;color:#0e1a2b}
+.dt-track{position:relative;width:100%;max-width:28px;height:110px;background:#f3f5fb;border-radius:4px 4px 0 0}
+.dt-fill{position:absolute;left:0;right:0;bottom:0;background:#1f57d8;border-radius:4px 4px 0 0;min-height:2px}
+.dt-day{font-size:12px;color:#5b6676;font-variant-numeric:tabular-nums}
+.dt-day small{display:block;text-align:center;font-size:11px;color:#7a3e00;font-weight:700}
