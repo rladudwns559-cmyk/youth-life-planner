@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
-from youthcenter_fetch import city_name, homepage, normalise, phone, province_key, write_if_changed  # noqa: E402
+from youthcenter_fetch import split_merged, city_name, homepage, normalise, phone, province_key, write_if_changed  # noqa: E402
 
 CITIES = json.loads((Path(__file__).resolve().parents[1] / 'frontend/src/public-data/nationwide-districts.json').read_text(encoding='utf-8'))['cities']
 
@@ -63,3 +63,12 @@ def test_write_only_when_centers_change(tmp_path):
     assert write_if_changed(out, normalise([record(cntrTelno='051-000-0000')], CITIES), '2026-11-17') is True
     data = json.loads(out.read_text(encoding='utf-8'))
     assert data['fetched_on'] == '2026-11-17' and data['source']['attribution'] == '출처: 온통청년(한국고용정보원)'
+
+
+def test_merged_gwangju_jeonnam_is_split_by_district():
+    assert province_key('전남광주통합특별시') == '전남광주'
+    assert split_merged('광산구', '', CITIES) == '광주'
+    assert split_merged('순천시', '', CITIES) == '전남'
+    assert split_merged('', '광주광역시 북구 어딘가', CITIES) == '광주'
+    rows = [record(cntrSn='7', stdgCtpvCdNm='전남광주통합특별시', stdgSggCdNm='광산구'), record(cntrSn='8', stdgCtpvCdNm='전남광주통합특별시', stdgSggCdNm='여수시')]
+    assert [(c['province'], c['city']) for c in normalise(rows, CITIES)] == [('광주', '광산구'), ('전남', '여수시')]

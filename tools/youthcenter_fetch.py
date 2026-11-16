@@ -25,8 +25,11 @@ ROOT = Path(__file__).resolve().parents[1]
 DISTRICTS = ROOT / 'frontend/src/public-data/nationwide-districts.json'
 DEFAULT_OUT = ROOT / 'frontend/src/public-data/youth-centers-api.json'
 URL = 'https://www.youthcenter.go.kr/go/ythip/getSpace'
-PAGE_SIZE = 100
-MIN_CENTERS = 300  # the API had 710 on 2026-11-16; far fewer means something went wrong
+# The API's paging is not stable: on 2026-11-16 it reported totCount 710 but handed out only about
+# 220 distinct centers, with some repeated across pages and a slightly different set per page size.
+# Several passes with different page sizes are merged so the list does not shrink by chance.
+PAGE_SIZES = (100, 50, 100, 30)
+MIN_CENTERS = 150  # about 220 were retrievable on 2026-11-16; far fewer means something went wrong
 
 SOURCE = {
     'title': '온통청년 청년센터 정보 Open API',
@@ -45,9 +48,23 @@ PROVINCES = {
 PROVINCE_SUFFIX = re.compile(r'(특별자치시|특별자치도|특별시|광역시|도)$')
 
 
+MERGED_GWANGJU_JEONNAM = '전남광주'  # 전남광주통합특별시: the app keeps 광주 and 전남 as two areas
+
+
 def province_key(name: str) -> str | None:
-    stem = PROVINCE_SUFFIX.sub('', (name or '').replace(' ', ''))
+    compact = (name or '').replace(' ', '')
+    if compact.startswith(MERGED_GWANGJU_JEONNAM):
+        return MERGED_GWANGJU_JEONNAM
+    stem = PROVINCE_SUFFIX.sub('', compact)
     return PROVINCES.get(stem)
+
+
+def split_merged(sgg: str, address: str, cities: dict[str, list[str]]) -> str:
+    """광주 or 전남 for a center of the merged special city, by its district name, then its address."""
+    for area in ('광주', '전남'):
+        if city_name(area, sgg, cities):
+            return area
+    return '광주' if address.replace(' ', '').startswith('광주') else '전남'
 
 
 def squash(text: str) -> str:
@@ -95,6 +112,8 @@ def normalise(records: list[dict], cities: dict[str, list[str]]) -> list[dict]:
         seen.add(sn)
         address = ' '.join(p for p in ((r.get('cntrAddr') or '').strip(), (r.get('cntrDaddr') or '').strip()) if p)
         sgg = (r.get('stdgSggCdNm') or '').strip()
+        if province == MERGED_GWANGJU_JEONNAM:
+            province = split_merged(sgg, address, cities)
         centers.append({
             'id': 'YC-' + sn,
             'province': province,
@@ -109,42 +128,33 @@ def normalise(records: list[dict], cities: dict[str, list[str]]) -> list[dict]:
     return centers
 
 
-def fetch_all(key: str) -> list[dict]:
+def fetch_pass(key: str, size: int) -> list[dict]:
     records: list[dict] = []
-    total = None
-    for page in range(1, 60):
-        query = urllib.parse.urlencode({'apiKeyNm': key, 'rtnType': 'json', 'pageNum': page, 'pageSize': PAGE_SIZE})
+    for page in range(1, 120):
+        query = urllib.parse.urlencode({'apiKeyNm': key, 'rtnType': 'json', 'pageNum': page, 'pageSize': size})
         request = urllib.request.Request(f'{URL}?{query}', headers={'User-Agent': 'youth-life-planner/1.0', 'Accept': 'application/json'})
         with urllib.request.urlopen(request, timeout=60) as response:
             data = json.loads(response.read().decode('utf-8', errors='replace'))
-        result = data.get('result') or {}
-        rows = result.get('youthPolicyList') or []
-        total = (result.get('pagging') or {}).get('totCount', total)
-        records.extend(rows)
-        print(f'page {page}: {len(rows)} rows, totCount {total}, resultCode {data.get("resultCode")}')
-        if not rows or (total is not None and len(records) >= int(total)):
+        rows = (data.get('result') or {}).get('youthPolicyList') or []
+        if not rows:
             break
+        records.extend(rows)
     return records
 
 
-def report(records: list[dict], key: str) -> None:
-    """Counts only (no personal data) so a short or odd answer can be explained from the run log."""
+def fetch_all(key: str) -> list[dict]:
+    records: list[dict] = []
+    for size in PAGE_SIZES:
+        rows = fetch_pass(key, size)
+        records.extend(rows)
+        print(f'pageSize {size}: {len(rows)} rows, {len({str(r.get("cntrSn")) for r in rows})} distinct; merged so far {len({str(r.get("cntrSn")) for r in records})}')
+    return records
+
+
+def report(records: list[dict]) -> None:
+    """Counts only, so an odd answer can be explained from the run log."""
     from collections import Counter
-    sns = [str(r.get('cntrSn') or '').strip() for r in records]
-    print(f'rows {len(records)}, unique ids {len(set(sns))}, empty ids {sns.count("")}')
     print('province names without a match:', dict(Counter((r.get('stdgCtpvCdNm') or '(빈 값)') for r in records if not province_key(r.get('stdgCtpvCdNm') or ''))))
-    for size in (50, 10):
-        seen, page = set(), 1
-        while page < 120:
-            query = urllib.parse.urlencode({'apiKeyNm': key, 'rtnType': 'json', 'pageNum': page, 'pageSize': size})
-            request = urllib.request.Request(f'{URL}?{query}', headers={'User-Agent': 'youth-life-planner/1.0', 'Accept': 'application/json'})
-            with urllib.request.urlopen(request, timeout=60) as response:
-                rows = (json.loads(response.read().decode('utf-8', errors='replace')).get('result') or {}).get('youthPolicyList') or []
-            if not rows:
-                break
-            seen.update(str(r.get('cntrSn')) for r in rows)
-            page += 1
-        print(f'pageSize {size}: {page - 1} pages, unique ids {len(seen)}')
 
 
 def write_if_changed(out: Path, centers: list[dict], today: str) -> bool:
@@ -172,7 +182,7 @@ def main() -> int:
         return 1
     cities = json.loads(DISTRICTS.read_text(encoding='utf-8'))['cities']
     centers = normalise(records, cities)
-    report(records, key)
+    report(records)
     if len(centers) < MIN_CENTERS:
         print(f'Only {len(centers)} centers came back (expected at least {MIN_CENTERS}). Keeping the current list.')
         return 1
