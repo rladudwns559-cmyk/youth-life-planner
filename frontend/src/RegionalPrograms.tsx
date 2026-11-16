@@ -8,6 +8,7 @@ import {routeLinks,programLink} from './portal-routing';
 import FinderDialog from './FinderDialog';
 import ConditionPrompt from './ConditionPrompt';
 import YouthCenterHelp from './YouthCenterHelp';
+import OntongPolicies from './OntongPolicies';
 import ConsultMemo,{type MemoItem} from './ConsultMemo';
 import {FavoriteSchedule,CalendarSubscribe} from './SchedulePanels';
 import LocalNotice from './LocalNotice';
@@ -21,6 +22,8 @@ export {intakeLabels,readRegionalDecision,locationText};
 type Program=typeof prepared.programs[number];
 export const categories:Record<string,string>={ALL:'전체 분야',HOUSING:'월세·주거',EMPLOYMENT:'취업·면접',EDUCATION:'교육·응시료',LIVING:'생활·복지',CULTURE:'문화',ASSET:'청년통장·자산형성'};
 const labels=intakeLabels;
+// Titles of hand-checked programs, so the 온통청년 list does not repeat them.
+const knownTitles=prepared.programs.map(p=>p.title);
 const tables=prepared as unknown as {cities:Record<string,string[]>};
 export type PersonalInput={age:string;employment:string;rent:string};
 type PersonalSummary={candidate_status:'REVIEW'|'DIFFERENT';matched_count:number;eligibility:'UNKNOWN';benefit_applied_krw:0};
@@ -119,6 +122,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const [age,setAge]=useState(saved?.age??''),[employment,setEmployment]=useState(saved?.employment??'unknown'),[rent,setRent]=useState(saved?.rent??'unknown'),[different,setDifferent]=useState(false);
  const [sort,setSort]=useState('MATCH');
  const asOf=useKoreaDay();const planner=usePlanner(prepared.programs);const [savedOnly,setSavedOnly]=useState(false),[comparison,setComparison]=useState<string[]>([]);
+ const ontong=<OntongPolicies profile={{province,city,age,employment}} asOf={asOf} known={knownTitles} query={query}/>;
  const profile={age,employment,rent};const hasProfile=age!==''||employment!=='unknown'||rent!=='unknown';
  const [conditionPrompt,setConditionPrompt]=useState(false);
  const [remember,setRemember]=useState(saved!==null),[rememberError,setRememberError]=useState(false);
@@ -273,12 +277,13 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
     })}
     excluded={hasProfile?excluded.map(p=>({id:p.program_id,title:p.title,location:locationText(p),url:p.sources[0].url,gaps:conditionGaps(p.program_id,regionKey,profile,asOf)})):[]}
     scenarios={hasProfile?openingScenarios(excluded,regionKey,profile,asOf).map(sc=>({key:sc.key,label:sc.label,items:sc.programs.map(p=>({id:p.program_id,title:p.title,location:locationText(p)}))})):[]}
-    help={<>{memo}<CalendarSubscribe province={province}/><YouthCenterHelp province={province} city={city}/></>}
+    help={<>{ontong}{memo}<CalendarSubscribe province={province}/><YouthCenterHelp province={province} city={city}/></>}
     selected={comparison} onSelect={toggleComparison} onClose={()=>setFinder(null)} comparison={comparisonPanel} favorites={planner.favorites} onFavorite={planner.toggleFavorite} storageError={planner.error}
   /> : browse?comparisonPanel:null}
 
   {browse&&<>{rows.length===0?<div className="support-empty"><h3>등록한 자료 중 표시할 사업이 없어요.</h3><p>해당 지역에 실제 지원사업이 없다는 뜻은 아닙니다. 검색·분야·모집 필터를 바꾸거나 아래 공식 통합검색에서 더 찾아보세요.</p><button type="button" onClick={()=>{reset();setIntake('ALL');}}>전체 등록 사업 보기</button></div>:<div className="support-card-list">{rows.slice(0,visible).map(p=><Card key={p.program_id} p={p} regionKey={regionKey} selected={!!province} profile={profile} hasProfile={hasProfile} asOf={asOf} favorite={planner.favorites.includes(p.program_id)} onFavorite={()=>planner.toggleFavorite(p.program_id)} compared={comparison.includes(p.program_id)} onCompare={()=>setComparison(old=>old.includes(p.program_id)?old.filter(id=>id!==p.program_id):old.length<3?[...old,p.program_id]:old)} full={comparison.length>=3} checks={planner.checks} onCheck={planner.toggleCheck}/>)}</div>}
   {rows.length>visible&&<button type="button" className="support-more" onClick={()=>setVisible(v=>v+12)}>사업 12개 더 보기</button>}
+  {ontong}
   <CalendarSubscribe province={province}/>
   <YouthCenterHelp province={province} city={city}/>
   <div className="support-scope"><h3>우리 목록 밖의 지원도 더 찾아보세요.</h3><p>현재는 공식 자료를 확보한 사업부터 제공합니다. 전국 모든 시군구·지원사업을 전수 수집한 서비스는 아닙니다. 모집 기간 안이어도 예산 소진·추가 공고·선발 여부는 공식 기관에서 확인해야 합니다.</p><a href="https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch" target="_blank" rel="noopener noreferrer">온통청년 공식 정책 통합검색 ↗</a><p>자료 갱신·알림은 자동으로 실행되지 않습니다. 표시된 확인일과 개별 공고를 확인하세요. 실제 지원금 반영0원·가입/수급 자격 추가 확인 원칙을 유지합니다.</p></div></>}

@@ -1,8 +1,9 @@
-# Daily refresh of the nationwide youth-center list from the 온통청년 Open API (getSpace).
-# Needs the repository secret YOUTHCENTER_CENTER_KEY. Without it the job ends quietly.
-# Only the fields the help panel shows are stored, with the 온통청년 attribution. When the list
-# changes it commits the new JSON and starts the Pages deployment.
-name: Refresh youth centers (온통청년)
+# Daily refresh of 온통청년 Open API data: the nationwide youth-center list (getSpace) and
+# the youth policy list (getPlcy). Needs the repository secrets YOUTHCENTER_CENTER_KEY and
+# YOUTHCENTER_POLICY_KEY; a missing key skips that list. Only the fields the app shows are
+# stored, with the 온통청년 attribution. When a list changes it commits the new JSON and starts
+# the Pages deployment. One list failing does not hold back the other.
+name: Refresh 온통청년 data
 
 on:
   schedule:
@@ -20,35 +21,41 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     env:
       YOUTHCENTER_CENTER_KEY: ${{ secrets.YOUTHCENTER_CENTER_KEY }}
+      YOUTHCENTER_POLICY_KEY: ${{ secrets.YOUTHCENTER_POLICY_KEY }}
     steps:
-      - name: Skip when the API key is not registered
-        if: env.YOUTHCENTER_CENTER_KEY == ''
-        run: echo "YOUTHCENTER_CENTER_KEY secret is not set. Nothing to do."
       - uses: actions/checkout@v4
-        if: env.YOUTHCENTER_CENTER_KEY != ''
       - uses: actions/setup-python@v5
-        if: env.YOUTHCENTER_CENTER_KEY != ''
         with:
           python-version: '3.12'
-      - name: Fetch and normalise
-        if: env.YOUTHCENTER_CENTER_KEY != ''
+      - name: Youth centers
+        id: centers
+        continue-on-error: true
         run: python tools/youthcenter_fetch.py frontend/src/public-data/youth-centers-api.json
+      - name: Youth policies
+        id: policies
+        continue-on-error: true
+        run: python tools/youthcenter_policy_fetch.py frontend/src/public-data/youth-policies.json
       - name: Commit when changed and redeploy
-        if: env.YOUTHCENTER_CENTER_KEY != ''
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet -- frontend/src/public-data/youth-centers-api.json; then
-            echo "No change in the youth-center list."
-            exit 0
+          files="frontend/src/public-data/youth-centers-api.json frontend/src/public-data/youth-policies.json"
+          if git diff --quiet -- $files; then
+            echo "No change in the 온통청년 lists."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add $files
+            git commit -m "Data: 온통청년 refresh $(date -u +%F)"
+            git pull --rebase origin main
+            git push
+            gh workflow run pages.yml --ref main
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add frontend/src/public-data/youth-centers-api.json
-          git commit -m "Data: youth-center list refresh $(date -u +%F)"
-          git pull --rebase
-          git push
-          gh workflow run pages.yml --ref main
+      - name: Report a failed list
+        if: steps.centers.outcome == 'failure' || steps.policies.outcome == 'failure'
+        run: |
+          echo "centers: ${{ steps.centers.outcome }}, policies: ${{ steps.policies.outcome }}"
+          exit 1

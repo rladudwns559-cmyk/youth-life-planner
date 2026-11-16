@@ -1,0 +1,12 @@
+{
+ "schema_version": 1,
+ "fetched_on": null,
+ "source": {
+  "title": "온통청년 청년정책 Open API",
+  "institution": "한국고용정보원",
+  "attribution": "출처: 온통청년(한국고용정보원)",
+  "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch"
+ },
+ "total": 0,
+ "policies": []
+}
