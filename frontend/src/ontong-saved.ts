@@ -55,6 +55,8 @@ export function useOntongSaved(){
     has:(id:string)=>saved.some(s=>s.id===id),
     toggle:(p:OntongPolicy)=>{const cur=readSaved();write(cur.some(s=>s.id===p.id)?cur.filter(s=>s.id!==p.id):[snapshot(p),...cur].slice(0,MAX));},
     remove:(id:string)=>write(readSaved().filter(s=>s.id!==id)),
+    /** Adds several at once (from a shared link), keeping the ones already saved. */
+    addMany:(items:SavedPolicy[])=>{const cur=readSaved();const have=new Set(cur.map(s=>s.id));write([...cur,...items.filter(s=>!have.has(s.id))].slice(0,MAX));},
     clear:()=>write([])};
 }
 

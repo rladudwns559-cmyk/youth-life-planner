@@ -1,4 +1,5 @@
 import {useEffect,useMemo,useState} from 'react';
+import {usePolicyList} from './ontong-list';
 import {rankPolicies,leftOut,gapText,ageText,jobText,regionText,categoryText,policyGroups,closesSoon,POLICY_GROUPS,SOON_DAYS,type OntongPolicy,type OntongPolicyList,type OntongProfile,type Fit,type PolicyGroup} from './ontong-policies';
 import {useOntongSaved,type SavedPolicy} from './ontong-saved';
 import {useSeenPolicies} from './ontong-seen';
@@ -7,19 +8,6 @@ import './ontong-policies.css';
 
 const fitWords:Record<Fit,string>={PASS:'일치',UNKNOWN:'추가 확인',FAIL:'다름'};
 const STEP=8;
-
-/** The policy list is large, so it loads as its own file only when this section appears. */
-function usePolicyList(given?:OntongPolicyList){
-  const [list,setList]=useState<OntongPolicyList|null>(given??null);
-  const [failed,setFailed]=useState(false);
-  useEffect(()=>{
-    if(given){setList(given);return;}
-    let live=true;
-    import('./public-data/youth-policies.json').then(m=>{if(live)setList(m.default as unknown as OntongPolicyList);}).catch(()=>{if(live)setFailed(true);});
-    return()=>{live=false;};
-  },[given]);
-  return {list,failed};
-}
 
 function Star({p,on,onToggle}:{p:OntongPolicy;on:boolean;onToggle:()=>void}){
   return <button type="button" className="ontong-save" aria-pressed={on} aria-label={p.title+' 관심 정책'} onClick={onToggle}>{on?'★ 저장됨':'☆ 관심 저장'}</button>;

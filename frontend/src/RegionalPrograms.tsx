@@ -11,6 +11,7 @@ import YouthCenterHelp from './YouthCenterHelp';
 import OntongPolicies from './OntongPolicies';
 import {useOntongSaved,asPlannerProgram,type SavedPolicy} from './ontong-saved';
 import {forgetSeen} from './ontong-seen';
+import {SavedLinkTools,SavedImport,savedFromHash,type SavedIds} from './SavedLink';
 import ConsultMemo,{type MemoItem} from './ConsultMemo';
 import {FavoriteSchedule,CalendarSubscribe} from './SchedulePanels';
 import LocalNotice from './LocalNotice';
@@ -26,6 +27,9 @@ export const categories:Record<string,string>={ALL:'전체 분야',HOUSING:'월�
 const labels=intakeLabels;
 // Titles of hand-checked programs, so the 온통청년 list does not repeat them.
 const knownTitles=prepared.programs.map(p=>p.title);
+const knownProgramIds=new Set(prepared.programs.map(p=>p.program_id));
+/** Drops ?saved=… from the address once the shared list was handled, so a reload does not ask again. */
+function clearSavedParam(){const [path,query]=window.location.hash.split('?');if(!query)return;const q=new URLSearchParams(query);q.delete('saved');const rest=q.toString();window.history.replaceState(null,'',window.location.pathname+window.location.search+path+(rest?'?'+rest:''));}
 const tables=prepared as unknown as {cities:Record<string,string[]>};
 export type PersonalInput={age:string;employment:string;rent:string};
 type PersonalSummary={candidate_status:'REVIEW'|'DIFFERENT';matched_count:number;eligibility:'UNKNOWN';benefit_applied_krw:0};
@@ -127,6 +131,8 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const profile={age,employment,rent};const hasProfile=age!==''||employment!=='unknown'||rent!=='unknown';
  const [conditionPrompt,setConditionPrompt]=useState(false);
  const [remember,setRemember]=useState(saved!==null),[rememberError,setRememberError]=useState(false);
+ const [incoming,setIncoming]=useState<SavedIds|null>(()=>listPage?savedFromHash(window.location.hash):null);
+ useEffect(()=>{if(!listPage)return;const on=()=>{const next=savedFromHash(window.location.hash);if(next)setIncoming(next);};window.addEventListener('hashchange',on);return()=>window.removeEventListener('hashchange',on);},[listPage]);
  const ontong=<OntongPolicies profile={{province,city,age,employment}} asOf={asOf} known={knownTitles} query={query} remember={remember}/>;
  const [example,setExample]=useState<string|null>(null);
  // Example people are a demo: never written over the visitor's remembered conditions.
@@ -247,6 +253,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
    </div>
   </div>
   </>}
+  {listPage&&incoming&&<SavedImport ids={incoming} knownPrograms={knownProgramIds} onMergePrograms={planner.mergeFavorites} onMergePolicies={ontongSaved.addMany} onDone={clearSavedParam} onDismiss={()=>setIncoming(null)}/>}
   {listPage&&<form role="search" aria-label="지원사업 검색" className="support-catalog-search" onSubmit={e=>e.preventDefault()}>
    <label htmlFor="support-query">사업·지원내용 검색</label>
    <div><GroupedInput id="support-query" type="search" mode="search" value={query} aria-describedby="support-search-help" placeholder="사업명, 지역, 월세·면접·응시료 등으로 검색" onChange={e=>{setQuery(e.target.value);setVisible(12);}}/>{query&&<button type="button" onClick={()=>{setQuery('');setVisible(12);document.getElementById('support-query')?.focus();}}>검색어 지우기</button>}</div>
@@ -263,6 +270,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   {localNotice&&<LocalNotice {...localNotice}/>}{!finder&&scopeTools}
   <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<FavoriteCalendar programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} policies={ontongSaved.saved} asOf={asOf}/><button type="button" onClick={()=>{planner.clear();ontongSaved.clear();forgetSeen();}} disabled={!planner.favorites.length&&!planner.checks.length&&!ontongSaved.saved.length}>내 기기의 관심·확인 기록 지우기</button></div>
   {memo}
+  <SavedLinkTools ids={{programs:planner.favorites,policies:ontongSaved.saved.map(s=>s.id)}}/>
   <FavoriteSchedule programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} policies={ontongSaved.saved} onRemovePolicy={ontongSaved.remove} asOf={asOf}/>
   {planner.error&&<p role="status">{planner.error}</p>}
   </>}
