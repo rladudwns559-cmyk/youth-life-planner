@@ -121,3 +121,19 @@ def test_public_table_reproducibility_and_cross_input_examples(inputs):
     # A year's age arithmetic must never extend the one-week recruitment evidence.
     assert public['valid_until']=='2026-11-08'
     assert '2026-11-09' not in public['schedules']
+
+
+def test_stated_military_extension_limit_ends_the_check():
+    # 서울청년문화패스: 2002~2005년생, 제대군인은 최대 27세(1999년생)까지 = 3 years.
+    rule = AgeRule(kind='BIRTH_RANGE', birth_start='2002-01-01', birth_end='2005-12-31', older_exception=True,
+                   older_exception_years=3, note='공식 안내 최대 27세')
+    day = date(2026, 11, 16)
+    assert age_match(rule, 23, day) == 'PASS'
+    assert age_match(rule, 26, day) == 'UNKNOWN'
+    assert age_match(rule, 28, day) == 'FAIL'
+    current = AgeRule(kind='CURRENT', minimum=19, maximum=39, older_exception=True, older_exception_years=3, note='최대 42세')
+    assert [age_match(current, a, day) for a in (39, 42, 43)] == ['PASS', 'UNKNOWN', 'FAIL']
+    open_ended = AgeRule(kind='CURRENT', minimum=19, maximum=34, older_exception=True, note='한도 미기재')
+    assert age_match(open_ended, 45, day) == 'UNKNOWN'
+    with pytest.raises(ValidationError):
+        AgeRule(kind='CURRENT', minimum=19, maximum=34, older_exception=False, older_exception_years=3, note='x')

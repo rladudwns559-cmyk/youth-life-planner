@@ -3400,6 +3400,7 @@
         "minimum": 19,
         "maximum": 39,
         "older_exception": true,
+        "older_exception_years": 3,
         "note": "서울 거주 또는 생활권 만 19~39세이며 의무복무 제대군인은 최대 3년 연장될 수 있습니다."
       },
       "employed": "UNKNOWN",
@@ -3428,6 +3429,7 @@
         "minimum": 19,
         "maximum": 39,
         "older_exception": true,
+        "older_exception_years": 3,
         "note": "서울 거주·생활권 만 19~39세 예비·초기 창업자이며 복무 예외로 만 42세까지 가능합니다."
       },
       "employed": "UNKNOWN",

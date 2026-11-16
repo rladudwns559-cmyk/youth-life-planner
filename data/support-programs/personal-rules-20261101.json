@@ -537,6 +537,7 @@
         "minimum": null,
         "maximum": null,
         "older_exception": true,
+        "older_exception_years": 3,
         "note": "현행 서울 공식 사업안내의 일반2002~2005년생. 과거 보도보다 확장된 범위를 사용하며 병역 예외는 추가 확인합니다."
       },
       "employed": "UNKNOWN",
