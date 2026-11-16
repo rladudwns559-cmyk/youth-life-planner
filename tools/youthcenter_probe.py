@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -48,10 +49,21 @@ def main() -> int:
         if not key:
             summary[name] = {'error': f'{env} is not set'}
             continue
-        try:
-            status, body = call(url, key, pageNum=1, pageSize=5, pageType=1)
-        except Exception as error:  # report the type only; messages can echo the URL
-            summary[name] = {'error': type(error).__name__}
+        attempts = []
+        status = body = None
+        # The policy API documents pageType as text and the center API as a number; try with and without it.
+        for params in ({'pageNum': 1, 'pageSize': 5, 'pageType': 1}, {'pageNum': 1, 'pageSize': 5}, {'pageNum': '1', 'pageSize': '5', 'pageType': '1'}):
+            try:
+                status, body = call(url, key, **params)
+                attempts.append({'params': {k: v for k, v in params.items()}, 'status': status})
+                break
+            except urllib.error.HTTPError as error:
+                text = error.read().decode('utf-8', errors='replace').replace(key, '***')
+                attempts.append({'params': params, 'http_status': error.code, 'body_first_300': text[:300]})
+            except Exception as error:  # report the type only; messages can echo the URL
+                attempts.append({'params': params, 'error': type(error).__name__})
+        if body is None:
+            summary[name] = {'attempts': attempts}
             continue
         if key in body:
             body = body.replace(key, '***')
@@ -61,9 +73,9 @@ def main() -> int:
             summary[name] = {'status': status, 'not_json_first_200_chars': body[:200]}
             continue
         (out / f'{name}-sample.json').write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
-        summary[name] = {'status': status, 'shape': shape(data)}
+        summary[name] = {'status': status, 'attempts': attempts, 'shape': shape(data)}
     (out / 'summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=1), encoding='utf-8')
-    print(json.dumps({k: ({'status': v.get('status'), 'error': v.get('error')}) for k, v in summary.items()}, ensure_ascii=False))
+    print(json.dumps({k: ({'status': v.get('status'), 'error': v.get('error'), 'attempts': [{x: a.get(x) for x in ('http_status', 'status', 'error')} for a in v.get('attempts', [])]}) for k, v in summary.items()}, ensure_ascii=False))
     return 0
 
 
