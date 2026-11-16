@@ -127,6 +127,26 @@ def fetch_all(key: str) -> list[dict]:
     return records
 
 
+def report(records: list[dict], key: str) -> None:
+    """Counts only (no personal data) so a short or odd answer can be explained from the run log."""
+    from collections import Counter
+    sns = [str(r.get('cntrSn') or '').strip() for r in records]
+    print(f'rows {len(records)}, unique ids {len(set(sns))}, empty ids {sns.count("")}')
+    print('province names without a match:', dict(Counter((r.get('stdgCtpvCdNm') or '(빈 값)') for r in records if not province_key(r.get('stdgCtpvCdNm') or ''))))
+    for size in (50, 10):
+        seen, page = set(), 1
+        while page < 120:
+            query = urllib.parse.urlencode({'apiKeyNm': key, 'rtnType': 'json', 'pageNum': page, 'pageSize': size})
+            request = urllib.request.Request(f'{URL}?{query}', headers={'User-Agent': 'youth-life-planner/1.0', 'Accept': 'application/json'})
+            with urllib.request.urlopen(request, timeout=60) as response:
+                rows = (json.loads(response.read().decode('utf-8', errors='replace')).get('result') or {}).get('youthPolicyList') or []
+            if not rows:
+                break
+            seen.update(str(r.get('cntrSn')) for r in rows)
+            page += 1
+        print(f'pageSize {size}: {page - 1} pages, unique ids {len(seen)}')
+
+
 def write_if_changed(out: Path, centers: list[dict], today: str) -> bool:
     if out.exists():
         try:
@@ -152,6 +172,7 @@ def main() -> int:
         return 1
     cities = json.loads(DISTRICTS.read_text(encoding='utf-8'))['cities']
     centers = normalise(records, cities)
+    report(records, key)
     if len(centers) < MIN_CENTERS:
         print(f'Only {len(centers)} centers came back (expected at least {MIN_CENTERS}). Keeping the current list.')
         return 1
