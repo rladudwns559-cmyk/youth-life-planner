@@ -7,7 +7,7 @@
   "attribution": "출처: 온통청년(한국고용정보원)",
   "url": "https://www.youthcenter.go.kr/youthApply/ythCenter/ythCenterMain"
  },
- "total": 221,
+ "total": 236,
  "centers": [
   {
    "id": "YC-10163",
@@ -520,6 +520,16 @@
    "url": "https://www.geoje.go.kr/youth/index.geoje"
   },
   {
+   "id": "YC-10238",
+   "province": "경남",
+   "city": "거제시",
+   "district_label": "거제시",
+   "name": "청년다온",
+   "address": "거제시 탑곡로 75 2층",
+   "phone": "055-639-7455",
+   "url": "https://www.geoje.go.kr/youth/index.geoje"
+  },
+  {
    "id": "YC-10239",
    "province": "경남",
    "city": "거제시",
@@ -690,6 +700,16 @@
    "url": "https://www.kyceo.or.kr"
   },
   {
+   "id": "YC-10223",
+   "province": "경북",
+   "city": "경산시",
+   "district_label": "경산시",
+   "name": "경상북도청년센터",
+   "address": "경상북도 경산시 진량읍 봉황길 34 2층",
+   "phone": "053-850-9730",
+   "url": "https://www.instagram.com/gbcnct_?igsh=MTZmN243M29yaTN6MQ=="
+  },
+  {
    "id": "YC-10225",
    "province": "경북",
    "city": "경주시",
@@ -718,6 +738,16 @@
    "address": "경북 구미시 산동읍 첨단기업1로 17",
    "phone": "054-479-2073",
    "url": "https://gstartup.geri.re.kr/"
+  },
+  {
+   "id": "YC-10227",
+   "province": "경북",
+   "city": "김천시",
+   "district_label": "김천시",
+   "name": "김천시 청년센터",
+   "address": "김천시 지좌동 726-4 (황산로 67)",
+   "phone": "054-432-0070",
+   "url": "https://gcyouth.or.kr/"
   },
   {
    "id": "YC-10228",
@@ -1118,6 +1148,16 @@
    "address": "부산광역시 부산진구 가야대로 772 롯데백화점 2층 청년두드림",
    "phone": "051-816-4600",
    "url": "https://www.busanjob.net/08_wyou/wyou10.asp"
+  },
+  {
+   "id": "YC-10060",
+   "province": "부산",
+   "city": "부산진구",
+   "district_label": "부산진구",
+   "name": "청년창조발전소 디자인스프링",
+   "address": "부산광역시 부산진구 대학로36번길 10 디자인스프링",
+   "phone": "051-893-0944",
+   "url": "https://blog.naver.com/design_spring"
   },
   {
    "id": "YC-10061",
@@ -1550,6 +1590,16 @@
    "url": "https://m.blog.naver.com/ydporang?tab=1"
   },
   {
+   "id": "YC-10050",
+   "province": "서울",
+   "city": "용산구",
+   "district_label": "용산구",
+   "name": "서울광역청년센터",
+   "address": "서울특별시 용산구 원효로97길 15 2층 서울광역청년센터",
+   "phone": "02-6358-0607",
+   "url": "https://www.smyc.kr/"
+  },
+  {
    "id": "YC-10051",
    "province": "서울",
    "city": "용산구",
@@ -1710,6 +1760,16 @@
    "url": "https://youth.incheon.go.kr/space/namdong/"
   },
   {
+   "id": "YC-10085",
+   "province": "인천",
+   "city": "남동구",
+   "district_label": "남동구",
+   "name": "남동구 청년창업지원센터",
+   "address": "인천광역시 남동구 은봉로 297 별동 2,3층",
+   "phone": "032-710-0501",
+   "url": "http://www.dreamtown.or.kr"
+  },
+  {
    "id": "YC-10087",
    "province": "인천",
    "city": "미추홀구",
@@ -1800,6 +1860,16 @@
    "url": "https://www.gokseong.go.kr/youth/main.do"
   },
   {
+   "id": "YC-10206",
+   "province": "전남",
+   "city": "광양시",
+   "district_label": "광양시",
+   "name": "광양청년꿈터",
+   "address": "전라남도 광양시 오류5길 8",
+   "phone": "061-818-2020",
+   "url": "https://www.gwangyang.go.kr/youth"
+  },
+  {
    "id": "YC-10207",
    "province": "전남",
    "city": "구례군",
@@ -1828,6 +1898,16 @@
    "address": "삼향읍 오룡1길 37, 2층",
    "phone": "061-454-5732",
    "url": "https://blog.naver.com/muan2030"
+  },
+  {
+   "id": "YC-10212",
+   "province": "전남",
+   "city": "무안군",
+   "district_label": "무안군",
+   "name": "전라남도청년센터",
+   "address": "무안군 삼향읍 오룡3길 2",
+   "phone": "061-288-3880",
+   "url": "https://www.jnyouthcenter.kr/bbs/board.php?bo_table=bbs02_05&wr_id=1"
   },
   {
    "id": "YC-10210",
@@ -1870,6 +1950,16 @@
    "url": "http://ygyoungman.or.kr"
   },
   {
+   "id": "YC-10217",
+   "province": "전남",
+   "city": "영암군",
+   "district_label": "영암군",
+   "name": "달빛청춘마루",
+   "address": "영암군 영암읍 동문안1길 15",
+   "phone": "061-470-1021",
+   "url": "https://www.yeongam.go.kr/home/moonlight"
+  },
+  {
    "id": "YC-10220",
    "province": "전남",
    "city": "완도군",
@@ -1890,6 +1980,16 @@
    "url": "https://www.jangseong.go.kr/home/ingu-youth/youth02"
   },
   {
+   "id": "YC-10219",
+   "province": "전남",
+   "city": "진도군",
+   "district_label": "진도군",
+   "name": "진도군 청년센터",
+   "address": "진도군 진도읍 진도대로 7197",
+   "phone": "061-542-8622",
+   "url": "https://www.jindo.go.kr/youth/main.cs"
+  },
+  {
    "id": "YC-10320",
    "province": "전남",
    "city": "함평군",
@@ -1908,6 +2008,16 @@
    "address": "화순군 화순읍 자치샘로 49-4",
    "phone": "061-372-3000",
    "url": "https://www.instagram.com/hwasunyouthcenter"
+  },
+  {
+   "id": "YC-10191",
+   "province": "전북",
+   "city": "군산시",
+   "district_label": "군산시",
+   "name": "군산시 청년뜰 청년센터·창업센터",
+   "address": "전라북도 군산시 내항1길 4",
+   "phone": "063-471-1546",
+   "url": "http://www.gsyouth.or.kr"
   },
   {
    "id": "YC-10192",
@@ -2000,6 +2110,16 @@
    "url": "https://youthforest.iksan.go.kr/index.iksan"
   },
   {
+   "id": "YC-10198",
+   "province": "전북",
+   "city": "장수군",
+   "district_label": "장수군",
+   "name": "청년소통공간",
+   "address": "장수군 장수읍 방촌길 10, 2층",
+   "phone": "063-350-2192",
+   "url": "https://www.jangsu.go.kr/index.jangsu"
+  },
+  {
    "id": "YC-10199",
    "province": "전북",
    "city": "전주시 덕진구",
@@ -2068,6 +2188,16 @@
    "address": "충남 논산시 대학로 61(미래광장 5층)",
    "phone": "041-730-6060",
    "url": "https://www.nsyouth.or.kr/youthdream/"
+  },
+  {
+   "id": "YC-10180",
+   "province": "충남",
+   "city": "보령시",
+   "district_label": "보령시",
+   "name": "보령청년 커뮤니티센터",
+   "address": "충청남도 보령시 명천로4길 21 3층",
+   "phone": "041-933-8655",
+   "url": "https://cafe.naver.com/bryc8655"
   },
   {
    "id": "YC-10182",
@@ -2168,6 +2298,26 @@
    "address": "충청남도 청양군 청양읍 중앙로열길 22-1",
    "phone": "041-942-3306",
    "url": "https://www.xn--og5bwgv8pq6k.org/"
+  },
+  {
+   "id": "YC-10189",
+   "province": "충남",
+   "city": "태안군",
+   "district_label": "태안군",
+   "name": "태안청년창업비즈니스센터",
+   "address": "충청남도 태안군 태안읍 군청로 24 2층",
+   "phone": "041-670-2065",
+   "url": "https://www.taean.go.kr/area/sub01_12_01_01.do"
+  },
+  {
+   "id": "YC-10190",
+   "province": "충남",
+   "city": "홍성군",
+   "district_label": "홍성군",
+   "name": "충청남도 청년센터",
+   "address": "충청남도 홍성군 홍북읍 상하천로 58 102호",
+   "phone": "041-635-1370",
+   "url": "https://blog.naver.com/cn_youth"
   },
   {
    "id": "YC-10171",
