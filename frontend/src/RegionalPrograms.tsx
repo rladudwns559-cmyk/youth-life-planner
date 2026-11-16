@@ -9,6 +9,7 @@ import FinderDialog from './FinderDialog';
 import ConditionPrompt from './ConditionPrompt';
 import YouthCenterHelp from './YouthCenterHelp';
 import OntongPolicies from './OntongPolicies';
+import {useOntongSaved,asPlannerProgram,type SavedPolicy} from './ontong-saved';
 import ConsultMemo,{type MemoItem} from './ConsultMemo';
 import {FavoriteSchedule,CalendarSubscribe} from './SchedulePanels';
 import LocalNotice from './LocalNotice';
@@ -110,10 +111,10 @@ function Card({p,regionKey,selected,profile,hasProfile,asOf,favorite,onFavorite,
   <div className="support-card-bottom"><span>{p.edition} · 자료 확인 {p.sources.map(s=>s.verified_on).sort()[0]}</span><a href={programLink(p.program_id)} aria-label={p.title+' 자세히 보기'}>자세히 보기</a><a href={p.sources[0].url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 공식 안내'}>공식 안내 ↗</a></div>
  </article>;
 }
-function FavoriteCalendar({programs,asOf}:{programs:Program[];asOf:string}){
+function FavoriteCalendar({programs,policies=[],asOf}:{programs:Program[];policies?:SavedPolicy[];asOf:string}){
  const [message,setMessage]=useState('');
- const dated=programs.filter(p=>deadlineOf(p,asOf));
- if(!programs.length)return null;
+ const dated=[...programs,...policies.map(asPlannerProgram)].filter(p=>deadlineOf(p,asOf));
+ if(!programs.length&&!policies.length)return null;
  return <span className="favorite-calendar"><button type="button" disabled={!dated.length} onClick={()=>{const text=calendarTextMany(dated,asOf);if(text)setMessage(downloadCalendar(text,'youth-support-deadlines.ics'));}}>관심 사업 마감일 한꺼번에 캘린더 저장 ({dated.length})</button>{!dated.length&&<small>관심 사업 중 마감일이 정해진 공고가 없어요.</small>}{message&&<small role="status">{message}</small>}</span>;
 }
 export default function RegionalPrograms({browse=true,listPage=false}:{browse?:boolean;listPage?:boolean}={}){
@@ -121,7 +122,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const [province,setProvince]=useState(saved?.province??''),[city,setCity]=useState(saved?.city??''),[category,setCategory]=useState('ALL'),[query,setQuery]=useState(''),[intake,setIntake]=useState('CURRENT'),[otherRegions,setOtherRegions]=useState(false),[visible,setVisible]=useState(12);
  const [age,setAge]=useState(saved?.age??''),[employment,setEmployment]=useState(saved?.employment??'unknown'),[rent,setRent]=useState(saved?.rent??'unknown'),[different,setDifferent]=useState(false);
  const [sort,setSort]=useState('MATCH');
- const asOf=useKoreaDay();const planner=usePlanner(prepared.programs);const [savedOnly,setSavedOnly]=useState(false),[comparison,setComparison]=useState<string[]>([]);
+ const asOf=useKoreaDay();const planner=usePlanner(prepared.programs);const ontongSaved=useOntongSaved();const [savedOnly,setSavedOnly]=useState(false),[comparison,setComparison]=useState<string[]>([]);
  const ontong=<OntongPolicies profile={{province,city,age,employment}} asOf={asOf} known={knownTitles} query={query}/>;
  const profile={age,employment,rent};const hasProfile=age!==''||employment!=='unknown'||rent!=='unknown';
  const [conditionPrompt,setConditionPrompt]=useState(false);
@@ -200,14 +201,16 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const scoped=useMemo(()=>prepared.programs.filter(p=>readRegionalDecision(p.program_id,regionKey,asOf).region!=='FAIL'),[regionKey,asOf]);
  const regionalProvinces=new Set(prepared.programs.flatMap(p=>p.provinces));
  function reset(){setProvince('');setCity('');setCategory('ALL');setQuery('');setIntake('CURRENT');setOtherRegions(false);setAge('');setEmployment('unknown');setRent('unknown');setDifferent(false);setSavedOnly(false);setVisible(12);setSort('MATCH');}
- const memoFromFavorites=planner.favorites.length>0;
- const memoItems:MemoItem[]=prepared.programs.filter(p=>(memoFromFavorites?planner.favorites:comparison).includes(p.program_id)).map(p=>{
+ const memoFromFavorites=planner.favorites.length>0||ontongSaved.saved.length>0;
+ const memoItems:MemoItem[]=[...prepared.programs.filter(p=>(memoFromFavorites?planner.favorites:comparison).includes(p.program_id)).map(p=>{
   const m=readPersonalDecision(p.program_id,regionKey,profile,asOf);const end=deadlineOf(p,asOf);
   return {id:p.program_id,title:p.title,place:locationText(p),status:labels[readRegionalDecision(p.program_id,regionKey,asOf).intake],deadline:end?deadlineLabel(end,asOf):null,
    matches:hasProfile||province?([['region','지역'],['age','나이'],['employment','취업'],['rent','월세']] as const).map(([k,label])=>({label,word:matchWords[m[k]]})):[],
    gaps:hasProfile?conditionGaps(p.program_id,regionKey,profile,asOf).map(g=>({label:g.label,text:g.text})):[],
    checks:p.required_checks.map(text=>({text,done:planner.checks.includes(checkKey(p,text))})),url:p.sources[0].url};
- });
+ }),...(memoFromFavorites?ontongSaved.saved:[]).map((s):MemoItem=>({id:'ontong-'+s.id,title:s.title,place:s.place+' · 온통청년 등록 정책',
+   status:s.end&&s.end<asOf?'신청 기간 지남':'모집 여부는 온통청년에서 확인',deadline:s.end&&s.end>=asOf?deadlineLabel(s.end,asOf):s.always?'상시 신청':null,matches:[],gaps:[],
+   checks:['소득·거주기간 등 자격 조건','신청 방법과 제출 서류','다른 지원과 중복으로 받을 수 있는지'].map(text=>({text,done:false})),url:s.url}))];
  const memo=<ConsultMemo items={memoItems} source={memoFromFavorites?'관심 저장한':'비교에 담은'} province={province} city={city} asOf={asOf}
   profile={{region:[displayProvince(province)||'선택 안 함',city==='__OTHER__'?'기타 지역':city].filter(Boolean).join(' '),age:age&&validAge(age)?'만 '+age+'세':'입력 안 함',
    employment:({employed:'근로 중',unemployed:'현재 일하지 않음',self_employed:'자영업·프리랜서'} as Record<string,string>)[employment]??'선택 안 함',
@@ -257,9 +260,9 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
   <p className="support-update">{sort==='DEADLINE'?'공고에 적힌 마감일 순서이며, 현재 접수중 순위는 아닙니다.':'공식 접수 상태를 확인한 사업부터 표시합니다.'} 모집기간·접수중 표시가 있어도 잔여예산·여석·최종 자격은 공식 기관에서 확인하세요. 자료 확인 {prepared.updated_on??prepared.built_on} · 화면 기준 {asOf}</p>
   <div className="support-list-tools"><label><input type="checkbox" checked={savedOnly} onChange={e=>{setSavedOnly(e.target.checked);setVisible(12);}}/>관심사업만 ({planner.favorites.length})</label><label><input type="checkbox" checked={different} onChange={e=>{setDifferent(e.target.checked);setVisible(12);}}/>현재 조건과 다른 사업도 보기</label><label><input type="checkbox" checked={otherRegions} onChange={e=>{setOtherRegions(e.target.checked);setVisible(12);}}/>다른 지역 사업도 함께 보기</label><button type="button" onClick={reset}>조건 초기화</button><p>{rows.length}개 검색됨 · 현재 {Math.min(rows.length,visible)}개 표시</p></div>
   {localNotice&&<LocalNotice {...localNotice}/>}{!finder&&scopeTools}
-  <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<FavoriteCalendar programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} asOf={asOf}/><button type="button" onClick={planner.clear} disabled={!planner.favorites.length&&!planner.checks.length}>내 기기의 관심·확인 기록 지우기</button></div>
+  <div className="support-planner-toolbar"><p>최대 3개 사업을 골라 조건과 확인할 항목을 나란히 비교하세요.</p>{comparison.length>0&&<a href="#support-comparison" onClick={e=>{e.preventDefault();document.getElementById('support-comparison')?.scrollIntoView({block:'start',behavior:'auto'});document.getElementById('support-comparison')?.focus();}}>선택한 {comparison.length}개 비교 보기 ↓</a>}<FavoriteCalendar programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} policies={ontongSaved.saved} asOf={asOf}/><button type="button" onClick={()=>{planner.clear();ontongSaved.clear();}} disabled={!planner.favorites.length&&!planner.checks.length&&!ontongSaved.saved.length}>내 기기의 관심·확인 기록 지우기</button></div>
   {memo}
-  <FavoriteSchedule programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} asOf={asOf}/>
+  <FavoriteSchedule programs={prepared.programs.filter(p=>planner.favorites.includes(p.program_id))} policies={ontongSaved.saved} onRemovePolicy={ontongSaved.remove} asOf={asOf}/>
   {planner.error&&<p role="status">{planner.error}</p>}
   </>}
   {finder ? <FinderDialog

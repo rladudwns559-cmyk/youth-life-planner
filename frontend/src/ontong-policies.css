@@ -20,3 +20,13 @@
 .ontong-more:focus-visible{outline:3px solid #1f57d8;outline-offset:2px}
 .ontong-source{display:block;margin-top:10px;font-size:13px;color:#5b6676}
 .ontong-source a{font-weight:500}
+.ontong-filters{display:grid;gap:8px;margin:0 0 12px}
+.ontong-groups{display:flex;flex-wrap:wrap;gap:6px}
+.ontong-groups button{min-height:36px;padding:4px 12px;border-radius:999px;border:1px solid #b9c4de;background:#fff;color:#1d3466;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.ontong-groups button[aria-pressed="true"]{background:#1d3466;border-color:#1d3466;color:#fff}
+.ontong-groups button:focus-visible,.ontong-save:focus-visible{outline:3px solid #1f57d8;outline-offset:2px}
+.ontong-soon{display:inline-flex;align-items:center;gap:6px;min-height:32px;font-weight:600}
+.ontong-count{margin:0;font-size:13px;color:#3d4a5c}
+.ontong-list>li.ontong-soon-item{border-color:#f0b4a8}
+.ontong-save{min-height:32px;padding:2px 12px;border-radius:8px;border:1px solid #b9c4de;background:#fff;color:#1d3466;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.ontong-save[aria-pressed="true"]{background:#fff6d8;border-color:#e3c35a}

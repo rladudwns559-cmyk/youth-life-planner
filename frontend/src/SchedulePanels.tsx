@@ -3,29 +3,50 @@ import {deadlineOf,daysLeft} from './SupportPlanner';
 import {readRegionalDecision,intakeLabels,locationText,type SupportProgram} from './support-status';
 import {programLink} from './portal-routing';
 import {CALENDAR_FEEDS,calendarUrl} from './static-site';
+import type {SavedPolicy} from './ontong-saved';
 import './schedule-panels.css';
 
 const md=(iso:string)=>{const [,m,d]=iso.split('-').map(Number);return `${m}월 ${d}일`;};
 
-/** Saved programs on one timeline: dated deadlines by month, then the ones without a date. */
-export function FavoriteSchedule({programs,asOf}:{programs:SupportProgram[];asOf:string}){
-  if(!programs.length)return null;
-  const rows=programs.map(p=>({p,end:deadlineOf(p,asOf),status:intakeLabels[readRegionalDecision(p.program_id,'*',asOf).intake]}));
-  const dated=rows.filter(r=>r.end).sort((a,b)=>a.end!.localeCompare(b.end!)||a.p.title.localeCompare(b.p.title,'ko'));
-  const undated=rows.filter(r=>!r.end);
+type Row={key:string;title:string;href:string;external:boolean;note:string;end:string|null;start?:string|null;past?:boolean};
+function RowLink({r}:{r:Row}){
+  return r.external?<a href={r.href} target="_blank" rel="noopener noreferrer">{r.title} ↗</a>:<a href={r.href}>{r.title}</a>;
+}
+
+/**
+ * Saved programs and saved 온통청년 policies on one timeline: dated deadlines by month, then
+ * the ones without a date, then saved policies whose application period has passed.
+ */
+export function FavoriteSchedule({programs,policies=[],asOf,onRemovePolicy}:{programs:SupportProgram[];policies?:SavedPolicy[];asOf:string;onRemovePolicy?:(id:string)=>void}){
+  if(!programs.length&&!policies.length)return null;
+  const rows:Row[]=[
+    ...programs.map(p=>({key:p.program_id,title:p.title,href:programLink(p.program_id),external:false,end:deadlineOf(p,asOf),start:p.starts_on,
+      note:`${locationText(p)} · ${intakeLabels[readRegionalDecision(p.program_id,'*',asOf).intake]}`})),
+    ...policies.map(s=>({key:'ontong-'+s.id,title:s.title,href:s.url,external:true,end:s.end&&s.end>=asOf?s.end:null,start:s.start,past:!!s.end&&s.end<asOf,
+      note:`${s.place} · 온통청년 등록 정책${s.always?' · 상시 신청':''}`})),
+  ];
+  const dated=rows.filter(r=>r.end).sort((a,b)=>a.end!.localeCompare(b.end!)||a.title.localeCompare(b.title,'ko'));
+  const undated=rows.filter(r=>!r.end&&!r.past);
+  const past=rows.filter(r=>r.past);
   const months=[...new Set(dated.map(r=>r.end!.slice(0,7)))];
+  const counted=[programs.length&&`관심 저장한 사업 ${programs.length}개`,policies.length&&`온통청년 정책 ${policies.length}개`].filter(Boolean).join('와 ');
+  const remove=(r:Row)=>onRemovePolicy&&r.key.startsWith('ontong-')?<button type="button" className="schedule-remove" aria-label={r.title+' 관심 정책 지우기'} onClick={()=>onRemovePolicy(r.key.slice(7))}>지우기</button>:null;
   return <section className="favorite-schedule" aria-labelledby="favorite-schedule-title">
     <h3 id="favorite-schedule-title">내 관심 사업 일정</h3>
-    <p className="schedule-lead">관심 저장한 사업 {programs.length}개를 공고 마감일 순서로 모았어요. 접수 여부와 잔여 예산은 공식 안내에서 확인하세요.</p>
+    <p className="schedule-lead">{counted}를 공고 마감일 순서로 모았어요. 접수 여부와 잔여 예산은 공식 안내에서 확인하세요.</p>
     {months.map(m=><div key={m} className="schedule-month"><h4>{Number(m.slice(5))}월 마감</h4><ol>
-      {dated.filter(r=>r.end!.startsWith(m)).map(({p,end,status})=>{const n=daysLeft(end!,asOf);return <li key={p.program_id} className={n<=7?'soon':undefined}>
-        <span className="schedule-day" aria-hidden="true"><b>{md(end!)}</b><small>{n===0?'오늘':'D-'+n}</small></span>
-        <div><a href={programLink(p.program_id)}>{p.title}</a><small>{locationText(p)} · {status}{p.starts_on?` · 신청 시작 ${md(p.starts_on)}`:''}</small><span className="sr-only">{md(end!)} 마감, {n===0?'오늘 마감':`${n}일 남음`}</span></div>
+      {dated.filter(r=>r.end!.startsWith(m)).map(r=>{const n=daysLeft(r.end!,asOf);return <li key={r.key} className={n<=7?'soon':undefined}>
+        <span className="schedule-day" aria-hidden="true"><b>{md(r.end!)}</b><small>{n===0?'오늘':'D-'+n}</small></span>
+        <div><RowLink r={r}/><small>{r.note}{r.start&&(!r.external||r.start>asOf)?` · 신청 시작 ${md(r.start)}`:''}</small><span className="sr-only">{md(r.end!)} 마감, {n===0?'오늘 마감':`${n}일 남음`}</span>{remove(r)}</div>
       </li>;})}
     </ol></div>)}
     {undated.length>0&&<div className="schedule-month"><h4>마감일이 정해지지 않은 사업</h4><ol>
-      {undated.map(({p,status})=><li key={p.program_id}><span className="schedule-day" aria-hidden="true"><b>상시·미정</b></span>
-        <div><a href={programLink(p.program_id)}>{p.title}</a><small>{locationText(p)} · {status}</small></div></li>)}
+      {undated.map(r=><li key={r.key}><span className="schedule-day" aria-hidden="true"><b>상시·미정</b></span>
+        <div><RowLink r={r}/><small>{r.note}</small>{remove(r)}</div></li>)}
+    </ol></div>}
+    {past.length>0&&<div className="schedule-month schedule-past"><h4>신청 기간이 지난 관심 정책</h4><ol>
+      {past.map(r=><li key={r.key}><span className="schedule-day" aria-hidden="true"><b>기간 종료</b></span>
+        <div><RowLink r={r}/><small>{r.note} · 다음 공고는 온통청년에서 확인하세요</small>{remove(r)}</div></li>)}
     </ol></div>}
   </section>;
 }

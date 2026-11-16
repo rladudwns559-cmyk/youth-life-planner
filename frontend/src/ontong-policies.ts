@@ -44,6 +44,19 @@ export function jobFit(p:OntongPolicy,employment:string):Fit{
   return p.jobs.other?'UNKNOWN':'FAIL';
 }
 
+/** The five 온통청년 fields; old names and repeated values in the data are folded together. */
+export const POLICY_GROUPS=['일자리','주거','교육','복지·문화','참여'] as const;
+export type PolicyGroup=typeof POLICY_GROUPS[number];
+const groupOf=(name:string):PolicyGroup|null=>name.startsWith('일자리')?'일자리':name.startsWith('주거')?'주거':name.startsWith('교육')?'교육':/복지|문화|금융/.test(name)?'복지·문화':name.startsWith('참여')?'참여':null;
+const parts=(s:string)=>[...new Set(s.split(',').map(x=>x.replace('…','').trim()).filter(Boolean))];
+export function policyGroups(p:Pick<OntongPolicy,'category'>):PolicyGroup[]{
+  const names=parts(p.category);
+  return POLICY_GROUPS.filter(g=>names.some(n=>groupOf(n)===g));
+}
+export const categoryText=(p:Pick<OntongPolicy,'category'|'subcategory'>)=>[parts(p.category).join(' · '),parts(p.subcategory).join(' · ')].filter(Boolean).join(' · ');
+export const SOON_DAYS=14;
+export const closesSoon=(p:OntongPolicy,asOf:string)=>p.apply.mode==='PERIOD'&&p.apply.end>=asOf&&Math.round((Date.parse(p.apply.end+'T00:00:00Z')-Date.parse(asOf+'T00:00:00Z'))/86_400_000)<=SOON_DAYS;
+
 export const ageText=(p:OntongPolicy)=>!p.age?'나이 제한 없음':p.age[0]!==null&&p.age[1]!==null?`만 ${p.age[0]}~${p.age[1]}세`:p.age[0]!==null?`만 ${p.age[0]}세 이상`:`만 ${p.age[1]}세 이하`;
 const jobWords:Record<string,string>={employed:'근로 중',unemployed:'일하지 않음',self_employed:'자영업·프리랜서·창업'};
 export const jobText=(p:OntongPolicy)=>!p.jobs?'취업 상태 제한 없음':[...p.jobs.groups.map(g=>jobWords[g]??g),...(p.jobs.other?['기타']:[])].join(' · ');
