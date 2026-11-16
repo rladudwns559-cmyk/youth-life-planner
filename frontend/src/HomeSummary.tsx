@@ -10,7 +10,7 @@ import {routeLinks,programLink} from './portal-routing';
 import './home-summary.css';
 
 const jobNames:Record<string,string>={employed:'근로 중',unemployed:'현재 일하지 않음',self_employed:'자영업·프리랜서'};
-const knownTitles=prepared.programs.map(p=>p.title);
+const knownTitles=prepared.programs.map(p=>({title:p.title,provinces:p.provinces as string[],city:p.city??null}));
 const md=(iso:string)=>{const [,m,d]=iso.split('-').map(Number);return `${m}월 ${d}일`;};
 
 type Closing={key:string;title:string;end:string;href:string;external:boolean};

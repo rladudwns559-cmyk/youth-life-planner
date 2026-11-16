@@ -1,4 +1,4 @@
-import {rankPolicies,SCHOOL_NAMES,type OntongPolicy,type OntongProfile} from './ontong-policies';
+import {rankPolicies,SCHOOL_NAMES,type OntongPolicy,type OntongProfile,type KnownProgram} from './ontong-policies';
 
 /**
  * How the 온통청년 list changes as the person gets older: each year ahead, which policies
@@ -16,7 +16,7 @@ export function schoolAfter(school:string|undefined,years:number):string|undefin
 }
 export const assumesGraduation=(school?:string)=>school==='univ_student'||school==='univ_expected';
 
-export function futureStages(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[]=[],maxYears=20,maxAge=40):Stage[]|null{
+export function futureStages(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:KnownProgram[]=[],maxYears=20,maxAge=40):Stage[]|null{
   const now=Number(profile.age);
   if(profile.age.trim()===''||!Number.isFinite(now))return null;
   const fitting=(p:OntongProfile)=>rankPolicies(list,p,asOf,known);

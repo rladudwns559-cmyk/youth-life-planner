@@ -89,21 +89,39 @@ export function regionText(p:OntongPolicy,province=''){
 }
 
 const squash=(s:string)=>s.replace(/\d{4}\s*년도?|\(.*?\)|[\s·ㆍ・･「」『』<>《》"'“”‘’\-_.,:]/g,'');
-/** True when a title looks like one of our hand-checked programs, so it is not listed twice. */
-// The same known list is checked against thousands of titles many times (each timeline year
+/** A hand-checked program, with where it applies. */
+export type KnownProgram={title:string;provinces:string[];city:string|null};
+
+/**
+ * Whether the hand-checked program reaches everyone the policy is for. A same-named program in
+ * another region does not: 의왕시's 전세보증금 반환보증 support must not hide 경기도's own.
+ */
+function covers(k:KnownProgram,p:OntongPolicy){
+  if(!k.provinces.length)return true;
+  if(p.regions.includes('*'))return false;
+  return p.regions.every(r=>{
+    const [prov,city]=r.split('|');
+    if(!k.provinces.includes(prov))return false;
+    if(!k.city)return true;
+    return !!city&&(city===k.city||parentOf(prov,city)===k.city);
+  });
+}
+
+/** True when a policy is one of our hand-checked programs for the same area, so it is not listed twice. */
+// The same known list is checked against thousands of policies many times (each timeline year
 // ranks the whole list), so the squashed titles and each answer are kept per known list.
-const squashedKnown=new WeakMap<string[],string[]>();
-const answers=new WeakMap<string[],Map<string,boolean>>();
-export function looksKnown(title:string,known:string[]){
+const squashedKnown=new WeakMap<KnownProgram[],string[]>();
+const answers=new WeakMap<KnownProgram[],Map<string,boolean>>();
+export function looksKnown(p:OntongPolicy,known:KnownProgram[]){
   let memo=answers.get(known);
   if(!memo){memo=new Map();answers.set(known,memo);}
-  const cached=memo.get(title);
+  const cached=memo.get(p.id);
   if(cached!==undefined)return cached;
   let list=squashedKnown.get(known);
-  if(!list){list=known.map(squash);squashedKnown.set(known,list);}
-  const t=squash(title);
-  const found=t.length>=4&&list.some(s=>s===t||(Math.min(s.length,t.length)>=8&&(s.includes(t)||t.includes(s))));
-  memo.set(title,found);
+  if(!list){list=known.map(k=>squash(k.title));squashedKnown.set(known,list);}
+  const t=squash(p.title);
+  const found=t.length>=4&&list.some((s,i)=>(s===t||(Math.min(s.length,t.length)>=8&&(s.includes(t)||t.includes(s))))&&covers(known[i],p));
+  memo.set(p.id,found);
   return found;
 }
 
@@ -115,18 +133,18 @@ type Condition=typeof CONDITIONS[number];
 const fails=(r:RankedPolicy)=>CONDITIONS.filter(c=>r[c]==='FAIL');
 
 /** Open policies in the chosen area (or nationwide), with how each condition compares. */
-function inArea(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[],query:string):RankedPolicy[]{
+function inArea(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:KnownProgram[],query:string):RankedPolicy[]{
   const q=query.trim().toLowerCase();
   return list
     .filter(p=>p.apply.mode!=='PERIOD'||p.apply.end>=asOf)
     .filter(p=>!q||(p.title+' '+p.summary+' '+p.subcategory).toLowerCase().includes(q))
     .map(p=>({p,region:regionFit(p,profile.province,profile.city),age:ageFit(p,profile.age),job:jobFit(p,profile.employment),school:schoolFit(p,profile.school),marriage:marriageFit(p,profile.marriage)}))
-    .filter(r=>r.region!=='FAIL'&&!looksKnown(r.p.title,known));
+    .filter(r=>r.region!=='FAIL'&&!looksKnown(r.p,known));
 }
 const order=(province:string)=>(a:RankedPolicy,b:RankedPolicy)=>specificity(a.p,province)-specificity(b.p,province)||endOf(a.p).localeCompare(endOf(b.p))||a.p.title.localeCompare(b.p.title,'ko');
 
 /** Policies that do not clash with the chosen conditions: local first, then by closing date. */
-export function rankPolicies(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[]=[],query=''):RankedPolicy[]{
+export function rankPolicies(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:KnownProgram[]=[],query=''):RankedPolicy[]{
   return inArea(list,profile,asOf,known,query).filter(r=>!fails(r).length).sort(order(profile.province));
 }
 
@@ -160,7 +178,7 @@ export type Opening={key:string;label:string;policies:OntongPolicy[]};
  * married, or getting older (a younger age limit never reopens, so only policies the person is
  * too young for are counted for age).
  */
-export function leftOut(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[]=[],query=''){
+export function leftOut(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:KnownProgram[]=[],query=''){
   const area=inArea(list,profile,asOf,known,query);
   const excluded=area.filter(r=>fails(r).length>0).sort(order(profile.province));
   const onlyBy=(c:Condition)=>excluded.filter(r=>{const f=fails(r);return f.length===1&&f[0]===c;});

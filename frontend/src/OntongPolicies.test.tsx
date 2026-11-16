@@ -39,8 +39,17 @@ describe('matching',()=>{
     expect(regionText(P({regions:['광주','전남']}),'전남')).toBe('전남 외 1곳');
   });
   it('skips titles that match hand-checked programs',()=>{
-    expect(looksKnown('2026년 안산시 청년 월세 지원사업',['안산시 청년 월세 지원사업'])).toBe(true);
-    expect(looksKnown('부산 청년 면접수당',['안산시 청년 월세 지원사업'])).toBe(false);
+    const ansan={title:'안산시 청년 월세 지원사업',provinces:['경기'],city:'안산시'};
+    expect(looksKnown(P({id:'K1',title:'2026년 안산시 청년 월세 지원사업',regions:['경기|안산시']}),[ansan])).toBe(true);
+    expect(looksKnown(P({id:'K2',title:'부산 청년 면접수당',regions:['부산']}),[ansan])).toBe(false);
+  });
+  it('keeps a policy when the same-named hand-checked program is for another area',()=>{
+    const uiwang=[{title:'의왕시 전세보증금반환보증 보증료 지원',provinces:['경기'],city:'의왕시'}];
+    expect(looksKnown(P({id:'G1',title:'전세보증금반환보증 보증료 지원',regions:['경기']}),uiwang)).toBe(false);
+    expect(looksKnown(P({id:'G2',title:'의왕시 전세보증금반환보증 보증료 지원',regions:['경기|의왕시']}),uiwang)).toBe(true);
+    const national=[{title:'국민내일배움카드',provinces:[],city:null}];
+    expect(looksKnown(P({id:'N1',title:'국민내일배움카드',regions:['*']}),national)).toBe(true);
+    expect(looksKnown(P({id:'N2',title:'청년도전지원사업',regions:['*']}),[{title:'2026 계양구 청년도전지원사업',provinces:['인천'],city:'계양구'}])).toBe(false);
   });
   it('ranks local first, then by closing date, and drops clashes and closed periods',()=>{
     const rows=rankPolicies([

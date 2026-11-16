@@ -1,6 +1,6 @@
 import {useEffect,useMemo,useState} from 'react';
 import {usePolicyList} from './ontong-list';
-import {rankPolicies,leftOut,gapText,gapCounts,schoolText,marriageText,ageText,jobText,regionText,categoryText,policyGroups,closesSoon,POLICY_GROUPS,SOON_DAYS,type OntongPolicy,type OntongPolicyList,type OntongProfile,type Fit,type PolicyGroup} from './ontong-policies';
+import {rankPolicies,leftOut,gapText,gapCounts,schoolText,marriageText,ageText,jobText,regionText,categoryText,policyGroups,closesSoon,POLICY_GROUPS,SOON_DAYS,type OntongPolicy,type OntongPolicyList,type OntongProfile,type Fit,type PolicyGroup,type KnownProgram} from './ontong-policies';
 import {useOntongSaved,type SavedPolicy} from './ontong-saved';
 import {useSeenPolicies} from './ontong-seen';
 import FutureTimeline from './FutureTimeline';
@@ -27,7 +27,7 @@ function SavedClosing({saved,asOf}:{saved:SavedPolicy[];asOf:string}){
 }
 
 /** Policies in the area left out because of age or employment, and what would open them. */
-function LeftOut({list,profile,asOf,known,query}:{list:OntongPolicy[];profile:OntongProfile;asOf:string;known:string[];query:string}){
+function LeftOut({list,profile,asOf,known,query}:{list:OntongPolicy[];profile:OntongProfile;asOf:string;known:KnownProgram[];query:string}){
   const {excluded,openings}=useMemo(()=>leftOut(list,profile,asOf,known,query),[list,profile.province,profile.city,profile.age,profile.employment,profile.school,profile.marriage,asOf,known,query]); // eslint-disable-line react-hooks/exhaustive-deps
   if(!excluded.length)return null;
   return <details className="ontong-leftout">
@@ -40,7 +40,7 @@ function LeftOut({list,profile,asOf,known,query}:{list:OntongPolicy[];profile:On
   </details>;
 }
 
-export default function OntongPolicies({profile,asOf,known=[],query='',data,remember=false}:{profile:OntongProfile;asOf:string;known?:string[];query?:string;data?:OntongPolicyList;remember?:boolean}){
+export default function OntongPolicies({profile,asOf,known=[],query='',data,remember=false}:{profile:OntongProfile;asOf:string;known?:KnownProgram[];query?:string;data?:OntongPolicyList;remember?:boolean}){
   const {list,failed}=usePolicyList(data);
   const [shown,setShown]=useState(STEP);
   const [group,setGroup]=useState<PolicyGroup|'ALL'>('ALL');

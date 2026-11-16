@@ -28,7 +28,7 @@ type Program=typeof prepared.programs[number];
 export const categories:Record<string,string>={ALL:'전체 분야',HOUSING:'월세·주거',EMPLOYMENT:'취업·면접',EDUCATION:'교육·응시료',LIVING:'생활·복지',CULTURE:'문화',ASSET:'청년통장·자산형성'};
 const labels=intakeLabels;
 // Titles of hand-checked programs, so the 온통청년 list does not repeat them.
-const knownTitles=prepared.programs.map(p=>p.title);
+const knownTitles=prepared.programs.map(p=>({title:p.title,provinces:p.provinces as string[],city:p.city??null}));
 const knownProgramIds=new Set(prepared.programs.map(p=>p.program_id));
 /** Drops ?saved=… from the address once the shared list was handled, so a reload does not ask again. */
 function clearSavedParam(){const [path,query]=window.location.hash.split('?');if(!query)return;const q=new URLSearchParams(query);q.delete('saved');const rest=q.toString();window.history.replaceState(null,'',window.location.pathname+window.location.search+path+(rest?'?'+rest:''));}

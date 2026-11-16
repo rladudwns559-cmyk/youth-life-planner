@@ -1,6 +1,6 @@
 import {useId,useMemo,useState} from 'react';
 import {futureStages,stageLabel,assumesGraduation,type Stage} from './ontong-timeline';
-import type {OntongPolicy,OntongProfile} from './ontong-policies';
+import type {OntongPolicy,OntongProfile,KnownProgram} from './ontong-policies';
 import './future-timeline.css';
 
 const SHOW=3;
@@ -27,7 +27,7 @@ function Stages({stages,profile}:{stages:Stage[];profile:OntongProfile}){
  * The years ahead on one line: how many 온통청년 policies fit each year, and what opens or
  * closes. It ranks the whole list once per year, so it is worked out only when opened.
  */
-export default function FutureTimeline({list,profile,asOf,known,defaultOpen=false}:{list:OntongPolicy[];profile:OntongProfile;asOf:string;known:string[];defaultOpen?:boolean}){
+export default function FutureTimeline({list,profile,asOf,known,defaultOpen=false}:{list:OntongPolicy[];profile:OntongProfile;asOf:string;known:KnownProgram[];defaultOpen?:boolean}){
   const [open,setOpen]=useState(defaultOpen);
   const id=useId();
   const stages=useMemo(()=>open?futureStages(list,profile,asOf,known):undefined,[open,list,profile.province,profile.city,profile.age,profile.employment,profile.school,profile.marriage,asOf,known]); // eslint-disable-line react-hooks/exhaustive-deps
