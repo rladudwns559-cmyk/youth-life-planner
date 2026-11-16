@@ -25,6 +25,26 @@ def load_municipal_batches():
     }
 
 
+STRUCTURED=ROOT/'data/support-programs/structured-conditions-20261116.json'
+
+def apply_structured_conditions(rules,records,structured):
+    """Fill only conditions still left as 추가 확인 with the ones read from the notice wording
+    (tools/structure_conditions.py); a condition set by hand is never replaced."""
+    by_id={r.program_id:r.model_dump(mode='json') for r in rules.rules}
+    for c in structured['conditions']:
+        pid=c['program_id']
+        if pid not in records:raise ValueError('STRUCTURED_PROGRAM_NOT_FOUND')
+        p=records[pid]
+        rule=by_id.get(pid) or dict(program_id=pid,sources=p['sources'],age=dict(kind='UNKNOWN',note=p['age_note']),
+            employment_note='취업 상태 조건을 구조화하지 않았습니다. 공고를 확인하세요.',rent_note='월세 거주 필수 여부를 확인하지 않았습니다.')
+        if 'age' in c and rule['age']['kind']=='UNKNOWN':
+            rule['age']={**c['age'],'note':rule['age'].get('note') or c['age']['note']}
+        if 'employment' in c and all(rule.get(k,'UNKNOWN')=='UNKNOWN' for k in ('employed','unemployed','self_employed')):
+            rule.update(c['employment'])
+            rule['employment_note']='공고 문구의 미취업 대상 표시를 따릅니다. 단기근로 등 예외는 공고를 확인하세요.'
+        by_id[pid]=rule
+    return Rules.model_validate({**rules.model_dump(mode='json'),'rules':list(by_id.values())})
+
 def latest_rechecks():
     """Per program, the newest RENEWED result from tools/support_recheck.py.
     A later page that merely failed to open or match (NOT_MATCHED) is not evidence that
@@ -106,6 +126,7 @@ def current_inputs(use_rechecks=True):
             employment_note='현재 고용 상태만으로 사업의 추가 자격을 확정할 수 없습니다.',
             rent_note='월세 거주 여부만으로 공고의 주거 조건을 확정할 수 없습니다.')))
     rules=Rules.model_validate({**rules.model_dump(mode='json'),'rules':[*rules.rules,*additional_rules]})
+    rules=apply_structured_conditions(rules,records,read_json(STRUCTURED))
     if use_rechecks:apply_recheck_results(records,latest_rechecks())
     from urllib.parse import urlsplit
     data=catalog.model_dump(mode='json')

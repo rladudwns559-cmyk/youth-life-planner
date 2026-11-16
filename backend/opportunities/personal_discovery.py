@@ -36,6 +36,9 @@ class AgeRule(Strict):
     # Only when the notice states how far the military-service extension reaches (e.g. 서울청년문화패스
     # "최대 27세", 3 years over 24). Without it the extension is open-ended and stays "추가 확인".
     older_exception_years: int | None = Field(default=None, ge=1, le=10)
+    # Years just outside the range that stay "추가 확인" instead of a mismatch, for rules read from
+    # notice wording whose reference date (application day, 1 January, notice day) is not fixed.
+    age_margin: int = Field(default=0, ge=0, le=3)
     note: str
 
     @field_validator('birth_start', 'birth_end')
@@ -150,6 +153,8 @@ def age_match(rule, age, as_of):
     if rule.kind == 'CURRENT':
         if rule.minimum <= age <= rule.maximum:
             return 'PASS'
+        if rule.minimum - rule.age_margin <= age <= rule.maximum + rule.age_margin:
+            return 'UNKNOWN'
         reach = rule.maximum + rule.older_exception_years if rule.older_exception_years else None
         return 'UNKNOWN' if age > rule.maximum and rule.older_exception and (reach is None or age <= reach) else 'FAIL'
     low, high = possible_births(age, as_of)
@@ -157,8 +162,10 @@ def age_match(rule, age, as_of):
     if low >= start and high <= end:
         return 'PASS'
     if low > end:
-        return 'FAIL'
+        return 'UNKNOWN' if rule.age_margin and low <= shift_year(end, rule.age_margin) else 'FAIL'
     if high < start:
+        if rule.age_margin and high >= shift_year(start, -rule.age_margin):
+            return 'UNKNOWN'
         if not rule.older_exception:
             return 'FAIL'
         # With a stated limit, only people born within that many years before the range can reach it.
