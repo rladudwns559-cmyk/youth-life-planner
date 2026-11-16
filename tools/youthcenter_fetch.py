@@ -130,13 +130,25 @@ def normalise(records: list[dict], cities: dict[str, list[str]]) -> list[dict]:
     return centers
 
 
+def get_json(url: str, tries: int = 3) -> dict:
+    """The API sometimes answers 400/500 to a call that works a moment later; retry a few times."""
+    for attempt in range(tries):
+        try:
+            request = urllib.request.Request(url, headers={'User-Agent': 'youth-life-planner/1.0', 'Accept': 'application/json'})
+            with urllib.request.urlopen(request, timeout=60) as response:
+                return json.loads(response.read().decode('utf-8', errors='replace'))
+        except urllib.error.HTTPError:
+            if attempt == tries - 1:
+                raise
+            time.sleep(10 * (attempt + 1))
+    raise RuntimeError('unreachable')
+
+
 def fetch_pass(key: str, size: int) -> list[dict]:
     records: list[dict] = []
     for page in range(1, 120):
         query = urllib.parse.urlencode({'apiKeyNm': key, 'rtnType': 'json', 'pageNum': page, 'pageSize': size})
-        request = urllib.request.Request(f'{URL}?{query}', headers={'User-Agent': 'youth-life-planner/1.0', 'Accept': 'application/json'})
-        with urllib.request.urlopen(request, timeout=60) as response:
-            data = json.loads(response.read().decode('utf-8', errors='replace'))
+        data = get_json(f'{URL}?{query}')
         rows = (data.get('result') or {}).get('youthPolicyList') or []
         if not rows:
             break

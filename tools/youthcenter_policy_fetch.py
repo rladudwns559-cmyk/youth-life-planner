@@ -150,7 +150,12 @@ def regions(r: dict, codes: dict, cities: dict) -> tuple[list[str], list[str]]:
             wards = [o for o in options if o.startswith(top + ' ')]
             return top in covered or (bool(wards) and all(w in covered for w in wards))
 
-        if prov not in whole and tops and all(has(o) for o in tops):
+        missing = [o for o in tops if not has(o)]
+        # Lists entered before a district change can leave out a new district (인천 서해구·영종구,
+        # 2026) or drop one city by mistake; on 2026-11-16 about 350 province-wide policies did.
+        # A province with at least 8 cities that misses at most 2 of them (20%) counts as whole.
+        near_whole = len(tops) >= 8 and len(missing) <= 2 and len(missing) <= 0.2 * len(tops)
+        if prov not in whole and tops and (not missing or near_whole):
             whole.add(prov)
     if cities and all(p in whole for p in cities):
         return ['*'], unknown

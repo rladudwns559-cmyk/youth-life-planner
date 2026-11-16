@@ -81,3 +81,12 @@ def test_department_names_get_their_body_and_empty_notes_are_dropped():
     assert organisation(policy(sprvsnInstCdNm='안산시', rgtrUpInstCdNm='경기도')) == '안산시'
     assert optional('해당없음', 50) is None and optional('-', 50) is None
     assert optional('관내 거주 6개월 이상', 50) == '관내 거주 6개월 이상'
+
+
+def test_province_missing_a_new_district_counts_as_whole():
+    incheon_old = '28710,28290,28245,28200,28177,28237,28185,28720,28125'  # no 서해구 28275, 영종구 28155
+    assert regions(policy(zipCd=incheon_old), CODES, CITIES)[0] == ['인천']
+    # Small provinces stay strict: 울산 without 울주군 is not the whole of 울산.
+    assert regions(policy(zipCd='31110,31140,31170,31200'), CODES, CITIES)[0] == ['울산|남구', '울산|동구', '울산|북구', '울산|중구']
+    # Missing three of 인천's cities is a partial list.
+    assert regions(policy(zipCd='28710,28290,28245,28200,28177,28237,28185,28720'), CODES, CITIES)[0][0].startswith('인천|')
