@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "verified_on": "2026-11-13",
-  "scope_note": "센터 정보는 각 지자체 공식 누리집에서 직접 확인한 곳만 싣습니다. 온통청년의 전국 목록은 이용약관상 복제·제3자 제공이 제한되어 싣지 않고 검색 화면으로 연결합니다.",
+  "scope_note": "이 파일에는 각 지자체 공식 누리집에서 직접 확인한 센터만 싣습니다. 전국 목록은 승인받은 온통청년 Open API 키로 매일 받아 youth-centers-api.json에 화면에 필요한 항목만 출처와 함께 싣습니다(tools/youthcenter_fetch.py).",
   "national": {
     "name": "온통청년 청년센터 찾기",
     "url": "https://www.youthcenter.go.kr/youthApply/ythCenter/ythCenterMain",
