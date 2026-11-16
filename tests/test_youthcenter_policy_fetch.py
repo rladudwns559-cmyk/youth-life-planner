@@ -14,7 +14,7 @@ JEONNAM = '12110,12130,12150,12170,12190,12710,12720,12730,12740,12750,12760,127
 def policy(**kw):
     base = dict(plcyNo='P1', plcyNm='2026년 테스트 청년 월세 지원', plcyAprvSttsCd='0044002', lclsfNm='주거', mclsfNm='주거비 지원',
                 sprvsnInstCdNm='안산시', plcySprtCn='월 20만원\n최대 12개월', plcyExplnCn='설명', zipCd='41271,41273',
-                sprtTrgtMinAge='19', sprtTrgtMaxAge='34', sprtTrgtAgeLmtYn='Y', jobCd='0013010', earnCndSeCd='0043001',
+                sprtTrgtMinAge='19', sprtTrgtMaxAge='34', sprtTrgtAgeLmtYn='N', jobCd='0013010', earnCndSeCd='0043001',
                 aplyPrdSeCd='0057001', aplyYmd='20261102 ~ 20261211', bizPrdSeCd='0056002', bizPrdEndYmd='        ',
                 aplyUrlAddr='', refUrlAddr1='https://www.ansan.go.kr/x', addAplyQlfcCndCn='', lastMdfcnDt='2026-11-13 09:30:29')
     base.update(kw)
@@ -41,7 +41,8 @@ def test_regions_compact_to_province_or_nationwide():
 def test_age_jobs_income_and_period():
     assert age_range(policy()) == [19, 34]
     assert age_range(policy(sprtTrgtMinAge='0', sprtTrgtMaxAge='0')) is None
-    assert age_range(policy(sprtTrgtAgeLmtYn='N')) is None
+    # 아산시 청년정장 대여사업: 18/39 are filled in but the flag says 제한없음.
+    assert age_range(policy(sprtTrgtAgeLmtYn='Y', sprtTrgtMinAge='18', sprtTrgtMaxAge='39')) is None
     assert age_range(policy(sprtTrgtMinAge='19', sprtTrgtMaxAge='0')) == [19, None]
     assert jobs(policy()) is None
     assert jobs(policy(jobCd='0013003')) == {'groups': ['unemployed'], 'other': False}

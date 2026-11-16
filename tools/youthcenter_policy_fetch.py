@@ -88,7 +88,8 @@ def age_range(r: dict) -> list[int | None] | None:
         low, high = int(r.get('sprtTrgtMinAge') or 0), int(r.get('sprtTrgtMaxAge') or 0)
     except ValueError:
         return None
-    if (r.get('sprtTrgtAgeLmtYn') or '').strip() == 'N' or (low == 0 and high == 0):
+    # 'Y' means 제한없음 (no age limit): that is how 온통청년's own detail page reads this field.
+    if (r.get('sprtTrgtAgeLmtYn') or '').strip() == 'Y' or (low == 0 and high == 0):
         return None
     return [low or None, high or None]
 
