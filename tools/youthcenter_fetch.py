@@ -121,6 +121,7 @@ def fetch_all(key: str) -> list[dict]:
         rows = result.get('youthPolicyList') or []
         total = (result.get('pagging') or {}).get('totCount', total)
         records.extend(rows)
+        print(f'page {page}: {len(rows)} rows, totCount {total}, resultCode {data.get("resultCode")}')
         if not rows or (total is not None and len(records) >= int(total)):
             break
     return records
