@@ -16,6 +16,8 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -139,13 +141,22 @@ def fetch_pass(key: str, size: int) -> list[dict]:
         if not rows:
             break
         records.extend(rows)
+        time.sleep(1)  # the API refuses bursts of calls
     return records
 
 
 def fetch_all(key: str) -> list[dict]:
     records: list[dict] = []
-    for size in PAGE_SIZES:
-        rows = fetch_pass(key, size)
+    for i, size in enumerate(PAGE_SIZES):
+        if i:
+            time.sleep(5)
+        try:
+            rows = fetch_pass(key, size)
+        except urllib.error.HTTPError as error:
+            if not records:
+                raise
+            print(f'pageSize {size}: HTTP {error.code}; keeping the passes that already succeeded')
+            continue
         records.extend(rows)
         print(f'pageSize {size}: {len(rows)} rows, {len({str(r.get("cntrSn")) for r in rows})} distinct; merged so far {len({str(r.get("cntrSn")) for r in records})}')
     return records
