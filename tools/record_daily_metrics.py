@@ -71,9 +71,13 @@ def record_ontong(before: Path, after: Path, centers: Path | None, date: str, ou
     old, new = policy_ids(before), policy_ids(after)
     if new is None:
         raise SystemExit('The policy list after the fetch could not be read.')
+    fresh_day = not any(d['date'] == date for d in data['days'])
     row = upsert(data, date)
     row['policies'] = len(new)
-    if old:
+    # A day that started without anything to compare stays unknown for the rest of that day.
+    if not fresh_day and row.get('new', 0) is None:
+        pass
+    elif old:
         row['new'] = (row.get('new') or 0) + len(new - old)
         row['removed'] = (row.get('removed') or 0) + len(old - new)
     else:

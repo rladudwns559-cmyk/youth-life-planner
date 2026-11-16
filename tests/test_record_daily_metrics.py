@@ -35,3 +35,12 @@ def test_support_reads_counts_and_replaces_a_rerun(tmp_path):
     recheck.write_text(json.dumps({'checked_on': '2026-11-16', 'counts': {'RENEWED': 95}, 'results': [{}] * 116}), encoding='utf-8')
     assert record_support(recheck, out)['renewed'] == 95
     assert len(json.loads(out.read_text(encoding='utf-8'))['days']) == 1
+
+
+def test_first_day_stays_unknown_after_a_rerun(tmp_path):
+    out = tmp_path / 'm.json'
+    record_ontong(tmp_path / 'missing.json', policies(tmp_path / 'a.json', ['A']), None, '2026-11-16', out)
+    again = record_ontong(tmp_path / 'a.json', policies(tmp_path / 'b.json', ['A', 'B']), None, '2026-11-16', out)
+    assert again['new'] is None and again['removed'] is None and again['policies'] == 2
+    nextday = record_ontong(tmp_path / 'b.json', policies(tmp_path / 'c.json', ['B', 'C']), None, '2026-11-17', out)
+    assert nextday['new'] == 1 and nextday['removed'] == 1
