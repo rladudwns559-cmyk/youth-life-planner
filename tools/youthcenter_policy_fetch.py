@@ -8,7 +8,9 @@ Long texts are cut short and every record links back to its 온통청년 page, w
 Code meanings were read from the 온통청년 policy search page (2026-11-16):
 jobCd 0013001 재직자, 0013002 자영업자, 0013003 미취업자, 0013004 프리랜서, 0013005 일용근로자,
 0013006 (예비)창업자, 0013007 단기근로자, 0013008 영농종사자, 0013009 기타, 0013010 제한없음;
-earnCndSeCd 0043001 무관, 0043002 연소득 범위, other 기타(text); aplyPrdSeCd 0057001 일정별,
+schoolCd 0049001 고졸 미만, 0049002 고교 재학, 0049003 고졸 예정, 0049004 고교 졸업,
+0049005 대학 재학, 0049006 대졸 예정, 0049007 대학 졸업, 0049008 석·박사, 0049009 기타, 0049010 제한없음;
+mrgSttsCd 0055001 기혼, 0055002 미혼, 0055003 제한없음; earnCndSeCd 0043001 무관, 0043002 연소득 범위, other 기타(text); aplyPrdSeCd 0057001 일정별,
 0057002 상시; bizPrdSeCd 0056001 시작~종료, 0056002 기타; plcyAprvSttsCd 0044002 승인.
 
 The key comes from YOUTHCENTER_POLICY_KEY and is never printed or written. The output is left
@@ -55,6 +57,13 @@ JOBS = {
     '0013003': ['unemployed'], '0013006': ['self_employed', 'unemployed'],
 }
 NO_LIMIT_JOB = '0013010'
+# Schooling stages the app asks about, from the 온통청년 schoolCd values.
+SCHOOLS = {
+    '0049001': 'below_hs', '0049002': 'hs_student', '0049003': 'hs_student', '0049004': 'hs_grad',
+    '0049005': 'univ_student', '0049006': 'univ_expected', '0049007': 'univ_grad', '0049008': 'grad_school',
+}
+NO_LIMIT_SCHOOL, OTHER_SCHOOL = '0049010', '0049009'
+MARRIAGE = {'0055001': 'married', '0055002': 'single'}
 OTHER_JOB = '0013009'
 
 
@@ -91,6 +100,21 @@ def jobs(r: dict) -> dict | None:
         return None
     groups = sorted({g for c in codes for g in JOBS.get(c, [])})
     return {'groups': groups, 'other': OTHER_JOB in codes or any(c not in JOBS and c != OTHER_JOB for c in codes)}
+
+
+def schools(r: dict) -> dict | None:
+    """Schooling stages the policy names, or None when it says 제한없음 or nothing."""
+    codes = [c.strip() for c in (r.get('schoolCd') or '').split(',') if c.strip()]
+    if not codes or NO_LIMIT_SCHOOL in codes:
+        return None
+    groups = sorted({SCHOOLS[c] for c in codes if c in SCHOOLS})
+    return {'groups': groups, 'other': any(c not in SCHOOLS for c in codes)}
+
+
+def marriage(r: dict) -> str | None:
+    codes = {c.strip() for c in (r.get('mrgSttsCd') or '').split(',') if c.strip()}
+    found = {MARRIAGE[c] for c in codes if c in MARRIAGE}
+    return found.pop() if len(found) == 1 and codes <= set(MARRIAGE) else None
 
 
 def income(r: dict) -> str | None:
@@ -200,6 +224,8 @@ def normalise(records: list[dict], codes: dict, cities: dict, today: str) -> tup
             'regions': keys,
             'age': age_range(r),
             'jobs': jobs(r),
+            'school': schools(r),
+            'marriage': marriage(r),
             'income': income(r),
             'extra': optional(r.get('addAplyQlfcCndCn'), 140),
             'apply': period,

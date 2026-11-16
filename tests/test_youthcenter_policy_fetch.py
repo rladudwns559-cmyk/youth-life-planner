@@ -4,7 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
-from youthcenter_policy_fetch import organisation, optional, age_range, apply_period, income, jobs, normalise, regions, write_if_changed  # noqa: E402
+from youthcenter_policy_fetch import schools, marriage, organisation, optional, age_range, apply_period, income, jobs, normalise, regions, write_if_changed  # noqa: E402
 
 CODES = json.loads((ROOT / 'data/region-codes/sigungu.json').read_text(encoding='utf-8'))['codes']
 CITIES = json.loads((ROOT / 'frontend/src/public-data/nationwide-districts.json').read_text(encoding='utf-8'))['cities']
@@ -94,3 +94,16 @@ def test_province_missing_a_new_district_counts_as_whole():
 
 def test_department_name_that_already_names_its_body_is_not_doubled():
     assert organisation(policy(sprvsnInstCdNm='전남광주통합특별시 화순군 인구청년정책과', rgtrUpInstCdNm='전남광주통합특별시 화순군')) == '전남광주통합특별시 화순군 인구청년정책과'
+
+
+def test_schooling_and_marriage_codes():
+    assert schools(policy()) is None
+    assert schools(policy(schoolCd='0049010')) is None
+    assert schools(policy(schoolCd='0049005,0049006')) == {'groups': ['univ_expected', 'univ_student'], 'other': False}
+    assert schools(policy(schoolCd='0049002,0049003,0049009')) == {'groups': ['hs_student'], 'other': True}
+    assert marriage(policy()) is None
+    assert marriage(policy(mrgSttsCd='0055003')) is None
+    assert marriage(policy(mrgSttsCd='0055001')) == 'married'
+    assert marriage(policy(mrgSttsCd='0055002')) == 'single'
+    out, _ = normalise([policy(schoolCd='0049007', mrgSttsCd='0055001')], CODES, CITIES, '2026-11-16')
+    assert out[0]['school'] == {'groups': ['univ_grad'], 'other': False} and out[0]['marriage'] == 'married'

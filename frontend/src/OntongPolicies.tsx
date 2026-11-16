@@ -1,6 +1,6 @@
 import {useEffect,useMemo,useState} from 'react';
 import {usePolicyList} from './ontong-list';
-import {rankPolicies,leftOut,gapText,ageText,jobText,regionText,categoryText,policyGroups,closesSoon,POLICY_GROUPS,SOON_DAYS,type OntongPolicy,type OntongPolicyList,type OntongProfile,type Fit,type PolicyGroup} from './ontong-policies';
+import {rankPolicies,leftOut,gapText,gapCounts,schoolText,marriageText,ageText,jobText,regionText,categoryText,policyGroups,closesSoon,POLICY_GROUPS,SOON_DAYS,type OntongPolicy,type OntongPolicyList,type OntongProfile,type Fit,type PolicyGroup} from './ontong-policies';
 import {useOntongSaved,type SavedPolicy} from './ontong-saved';
 import {useSeenPolicies} from './ontong-seen';
 import {deadlineLabel,daysLeft} from './SupportPlanner';
@@ -27,12 +27,11 @@ function SavedClosing({saved,asOf}:{saved:SavedPolicy[];asOf:string}){
 
 /** Policies in the area left out because of age or employment, and what would open them. */
 function LeftOut({list,profile,asOf,known,query}:{list:OntongPolicy[];profile:OntongProfile;asOf:string;known:string[];query:string}){
-  const {excluded,openings}=useMemo(()=>leftOut(list,profile,asOf,known,query),[list,profile.province,profile.city,profile.age,profile.employment,asOf,known,query]); // eslint-disable-line react-hooks/exhaustive-deps
+  const {excluded,openings}=useMemo(()=>leftOut(list,profile,asOf,known,query),[list,profile.province,profile.city,profile.age,profile.employment,profile.school,profile.marriage,asOf,known,query]); // eslint-disable-line react-hooks/exhaustive-deps
   if(!excluded.length)return null;
-  const byAge=excluded.filter(r=>r.age==='FAIL').length,byJob=excluded.filter(r=>r.job==='FAIL').length;
   return <details className="ontong-leftout">
     <summary>조건이 달라 뺀 정책 {excluded.length}건 · 왜 빠졌는지 보기</summary>
-    <p>{[byAge&&`나이 때문에 ${byAge}건`,byJob&&`취업 상태 때문에 ${byJob}건`].filter(Boolean).join(', ')} 뺐어요. 입력한 조건과 공고 조건만 비교했어요.</p>
+    <p>{gapCounts(excluded).map(g=>`${g.label} 때문에 ${g.count}건`).join(', ')} 뺐어요. 입력한 조건과 공고 조건만 비교했어요.</p>
     {openings.length>0&&<div className="ontong-openings"><h4>조건이 바뀌면 열리는 정책</h4><ul>{openings.map(o=><li key={o.key}><b>{o.label}</b> {o.policies.length}건 · {o.policies.slice(0,3).map(p=>p.title).join(', ')}{o.policies.length>3?' 외':''}</li>)}</ul>
       {openings.some(o=>o.key.startsWith('age-'))&&<small>나이로 열리는 정책은 지금 공고 기준이에요. 그때도 같은 공고가 있는지는 다시 확인하세요.</small>}</div>}
     <ul className="ontong-leftout-list">{excluded.slice(0,30).map(r=><li key={r.p.id}><a href={r.p.url} target="_blank" rel="noopener noreferrer">{r.p.title} ↗</a><span>{gapText(r,profile).join(' · ')}</span></li>)}</ul>
@@ -50,7 +49,7 @@ export default function OntongPolicies({profile,asOf,known=[],query='',data,reme
   const ids=useMemo(()=>list?list.policies.map(p=>p.id):null,[list]);
   // Policy numbers are kept only for people who chose to keep their conditions on this device.
   const seen=useSeenPolicies(remember?ids:null,asOf);
-  const key=[profile.province,profile.city,profile.age,profile.employment,query].join('|');
+  const key=[profile.province,profile.city,profile.age,profile.employment,profile.school,profile.marriage,query].join('|');
   useEffect(()=>setShown(STEP),[key,group,soon,onlyNew]);
   const ranked=useMemo(()=>list?rankPolicies(list.policies,profile,asOf,known,query):[],[list,key,asOf,known]); // eslint-disable-line react-hooks/exhaustive-deps
   const counts=useMemo(()=>{const c=new Map<PolicyGroup,number>();for(const r of ranked)for(const g of policyGroups(r.p))c.set(g,(c.get(g)??0)+1);return c;},[ranked]);
@@ -81,7 +80,7 @@ export default function OntongPolicies({profile,asOf,known=[],query='',data,reme
     {saved.error&&<p role="status">{saved.error}</p>}
     {ranked.length===0?<p className="ontong-empty">입력한 조건과 맞지 않는 정책을 빼고 나니 남은 정책이 없어요. 조건을 바꾸거나 온통청년에서 직접 찾아보세요.</p>:
     visible.length===0?<p className="ontong-empty">고른 분야·마감 조건에 맞는 정책이 없어요. 분야를 ‘전체’로 바꾸거나 마감 조건을 풀어 보세요.</p>:
-    <ul className="ontong-list">{visible.slice(0,shown).map(({p,region,age,job})=><li key={p.id} className={closesSoon(p,asOf)?'ontong-soon-item':undefined}>
+    <ul className="ontong-list">{visible.slice(0,shown).map(({p,region,age,job,school,marriage})=><li key={p.id} className={closesSoon(p,asOf)?'ontong-soon-item':undefined}>
       <div className="ontong-meta"><span>{categoryText(p)}</span><span>{regionText(p,profile.province)}</span></div>
       <h4>{seen.fresh.has(p.id)&&<span className="ontong-new-badge">새 정책</span>}{p.title}</h4>
       <p className="ontong-org">{p.org}</p>
@@ -90,10 +89,12 @@ export default function OntongPolicies({profile,asOf,known=[],query='',data,reme
         <div><dt>신청</dt><dd>{p.apply.mode==='PERIOD'?(p.apply.start>asOf?`${p.apply.start.slice(5).replace('-','월 ')}일부터 · `:'')+deadlineLabel(p.apply.end,asOf):p.apply.mode==='ALWAYS'?'상시 신청':'공고에서 일정 확인'}</dd></div>
         <div><dt>나이</dt><dd>{ageText(p)}</dd></div>
         <div><dt>취업 상태</dt><dd>{jobText(p)}</dd></div>
+        {p.school&&<div><dt>학력</dt><dd>{schoolText(p)}</dd></div>}
+        {p.marriage&&<div><dt>혼인</dt><dd>{marriageText(p)}</dd></div>}
         <div><dt>소득</dt><dd>{p.income??'소득 조건 없음'}</dd></div>
         {p.extra&&<div><dt>추가 자격</dt><dd>{p.extra}</dd></div>}
       </dl>
-      <p className="ontong-fit">지역 {fitWords[region]} · 나이 {fitWords[age]} · 취업 {fitWords[job]}</p>
+      <p className="ontong-fit">지역 {fitWords[region]} · 나이 {fitWords[age]} · 취업 {fitWords[job]}{p.school?` · 학력 ${fitWords[school]}`:''}{p.marriage?` · 혼인 ${fitWords[marriage]}`:''}</p>
       <div className="ontong-links"><Star p={p} on={saved.has(p.id)} onToggle={()=>saved.toggle(p)}/><a href={p.url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 온통청년에서 보기'}>온통청년에서 보기 ↗</a>{p.apply_url&&<a href={p.apply_url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 신청·안내 페이지'}>신청·안내 페이지 ↗</a>}</div>
     </li>)}</ul>}
     {visible.length>shown&&<button type="button" className="ontong-more" onClick={()=>setShown(s=>s+STEP)}>정책 {Math.min(STEP,visible.length-shown)}건 더 보기</button>}

@@ -3,7 +3,7 @@ import prepared from './public-data/current-support-web.json';
 import {readProfile} from './support-profile';
 import {readPlanner,deadlineOf,daysLeft,useKoreaDay} from './SupportPlanner';
 import {usePolicyList} from './ontong-list';
-import {rankPolicies} from './ontong-policies';
+import {rankPolicies,SCHOOL_NAMES,MARRIAGE_NAMES} from './ontong-policies';
 import {useOntongSaved} from './ontong-saved';
 import {useSeenPolicies} from './ontong-seen';
 import {routeLinks,programLink} from './portal-routing';
@@ -28,14 +28,14 @@ export default function HomeSummary(){
   const {list}=usePolicyList(undefined,!!profile);
   const ids=useMemo(()=>list?list.policies.map(p=>p.id):null,[list]);
   const seen=useSeenPolicies(profile?ids:null,asOf);
-  const p=profile?{province:profile.province,city:profile.city,age:profile.age,employment:profile.employment}:null;
+  const p=profile?{province:profile.province,city:profile.city,age:profile.age,employment:profile.employment,school:profile.school,marriage:profile.marriage}:null;
   const fitting=useMemo(()=>list&&p?rankPolicies(list.policies,p,asOf,knownTitles):null,[list,asOf]); // eslint-disable-line react-hooks/exhaustive-deps
   const closing:Closing[]=[
     ...prepared.programs.filter(x=>favorites.includes(x.program_id)).flatMap(x=>{const end=deadlineOf(x,asOf);return end&&daysLeft(end,asOf)<=7?[{key:x.program_id,title:x.title,end,href:programLink(x.program_id),external:false}]:[];}),
     ...saved.saved.filter(s=>s.end&&s.end>=asOf&&daysLeft(s.end,asOf)<=7).map(s=>({key:'ontong-'+s.id,title:s.title,end:s.end!,href:s.url,external:true})),
   ].sort((a,b)=>a.end.localeCompare(b.end)||a.title.localeCompare(b.title,'ko'));
   if(!profile&&!closing.length)return null;
-  const who=profile?[profile.province||'전국',profile.city&&profile.city!=='__OTHER__'?profile.city:'',profile.age&&'만 '+profile.age+'세',jobNames[profile.employment]??''].filter(Boolean).join(' · '):'';
+  const who=profile?[profile.province||'전국',profile.city&&profile.city!=='__OTHER__'?profile.city:'',profile.age&&'만 '+profile.age+'세',jobNames[profile.employment]??'',SCHOOL_NAMES[profile.school]??'',MARRIAGE_NAMES[profile.marriage]??''].filter(Boolean).join(' · '):'';
   const fresh=fitting?fitting.filter(r=>seen.fresh.has(r.p.id)).length:0;
   return <section className="home-summary" aria-labelledby="home-summary-title">
     <h2 id="home-summary-title">오늘 확인할 것</h2>

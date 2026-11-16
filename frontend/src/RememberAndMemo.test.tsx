@@ -23,7 +23,7 @@ describe('remember my conditions',()=>{
     change('관심·거주 광역지역','경기');change('시·군·구','안산시 단원구');change('현재 만 나이','25');
     change('현재 취업 상태','unemployed');change('현재 월세 거주 여부','yes');
     change('사업·지원내용 검색','월세');
-    expect(JSON.parse(localStorage.getItem(PROFILE_KEY)!)).toEqual({province:'경기',city:'안산시 단원구',age:'25',employment:'unemployed',rent:'yes'});
+    expect(JSON.parse(localStorage.getItem(PROFILE_KEY)!)).toEqual({province:'경기',city:'안산시 단원구',age:'25',employment:'unemployed',rent:'yes',school:'unknown',marriage:'unknown'});
     cleanup();
     render(<RegionalPrograms browse={false}/>);
     expect(screen.getByLabelText('이 기기에 내 조건 기억하기')).toBeChecked();
@@ -37,7 +37,7 @@ describe('remember my conditions',()=>{
 
   it('ignores tampered or invalid stored values',()=>{
     localStorage.setItem(PROFILE_KEY,JSON.stringify({province:'없는도',city:'x',age:'999',employment:'ceo',rent:'maybe',income:5000000}));
-    expect(readProfile()).toEqual({province:'',city:'',age:'',employment:'unknown',rent:'unknown'});
+    expect(readProfile()).toEqual({province:'',city:'',age:'',employment:'unknown',rent:'unknown',school:'unknown',marriage:'unknown'});
     localStorage.setItem(PROFILE_KEY,'not json');
     expect(readProfile()).toBeNull();
   });

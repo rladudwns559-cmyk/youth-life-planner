@@ -5,12 +5,14 @@ export type OntongPolicy={
   id:string; title:string; category:string; subcategory:string; org:string; summary:string;
   regions:string[]; age:[number|null,number|null]|null; jobs:{groups:string[];other:boolean}|null;
   income:string|null; extra:string|null;
+  /** Missing in lists fetched before 2026-11-17; treated as no limit. */
+  school?:{groups:string[];other:boolean}|null; marriage?:'married'|'single'|null;
   apply:{mode:'ALWAYS'|'OTHER'}|{mode:'PERIOD';start:string;end:string};
   url:string; apply_url:string|null; updated:string|null;
 };
 export type OntongPolicyList={fetched_on:string|null;source:{title:string;institution:string;attribution:string;url:string};total:number;policies:OntongPolicy[]};
 export type Fit='PASS'|'FAIL'|'UNKNOWN';
-export type OntongProfile={province:string;city:string;age:string;employment:string};
+export type OntongProfile={province:string;city:string;age:string;employment:string;school?:string;marriage?:string};
 
 const parents=directory.parent as Record<string,string>;
 const parentOf=(province:string,city:string)=>parents[province+'|'+city]??city;
@@ -44,6 +46,24 @@ export function jobFit(p:OntongPolicy,employment:string):Fit{
   return p.jobs.other?'UNKNOWN':'FAIL';
 }
 
+export function schoolFit(p:OntongPolicy,school=''):Fit{
+  if(!p.school)return 'PASS';
+  if(!school||school==='unknown')return 'UNKNOWN';
+  if(p.school.groups.includes(school))return 'PASS';
+  return p.school.other?'UNKNOWN':'FAIL';
+}
+
+export function marriageFit(p:OntongPolicy,marriage=''):Fit{
+  if(!p.marriage)return 'PASS';
+  if(!marriage||marriage==='unknown')return 'UNKNOWN';
+  return p.marriage===marriage?'PASS':'FAIL';
+}
+
+export const SCHOOL_NAMES:Record<string,string>={below_hs:'고등학교 졸업 전(재학 아님)',hs_student:'고등학생·졸업 예정',hs_grad:'고등학교 졸업',univ_student:'대학 재학',univ_expected:'대학 졸업 예정',univ_grad:'대학 졸업',grad_school:'대학원(석·박사)'};
+export const MARRIAGE_NAMES:Record<string,string>={single:'미혼',married:'기혼'};
+export const schoolText=(p:OntongPolicy)=>!p.school?'학력 제한 없음':[...p.school.groups.map(g=>SCHOOL_NAMES[g]??g),...(p.school.other?['기타']:[])].join(' · ');
+export const marriageText=(p:OntongPolicy)=>p.marriage?MARRIAGE_NAMES[p.marriage]+' 대상':'혼인 여부 제한 없음';
+
 /** The five 온통청년 fields; old names and repeated values in the data are folded together. */
 export const POLICY_GROUPS=['일자리','주거','교육','복지·문화','참여'] as const;
 export type PolicyGroup=typeof POLICY_GROUPS[number];
@@ -76,9 +96,12 @@ export function looksKnown(title:string,known:string[]){
   return known.some(k=>{const s=squash(k);return s===t||(Math.min(s.length,t.length)>=8&&(s.includes(t)||t.includes(s)));});
 }
 
-export type RankedPolicy={p:OntongPolicy;region:Fit;age:Fit;job:Fit};
+export type RankedPolicy={p:OntongPolicy;region:Fit;age:Fit;job:Fit;school:Fit;marriage:Fit};
 const specificity=(p:OntongPolicy,province:string)=>p.regions.includes('*')?2:p.regions.includes(province)?1:0;
 const endOf=(p:OntongPolicy)=>p.apply.mode==='PERIOD'?p.apply.end:p.apply.mode==='ALWAYS'?'9999-12-30':'9999-12-31';
+const CONDITIONS=['age','job','school','marriage'] as const;
+type Condition=typeof CONDITIONS[number];
+const fails=(r:RankedPolicy)=>CONDITIONS.filter(c=>r[c]==='FAIL');
 
 /** Open policies in the chosen area (or nationwide), with how each condition compares. */
 function inArea(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[],query:string):RankedPolicy[]{
@@ -86,14 +109,14 @@ function inArea(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:stri
   return list
     .filter(p=>p.apply.mode!=='PERIOD'||p.apply.end>=asOf)
     .filter(p=>!q||(p.title+' '+p.summary+' '+p.subcategory).toLowerCase().includes(q))
-    .map(p=>({p,region:regionFit(p,profile.province,profile.city),age:ageFit(p,profile.age),job:jobFit(p,profile.employment)}))
+    .map(p=>({p,region:regionFit(p,profile.province,profile.city),age:ageFit(p,profile.age),job:jobFit(p,profile.employment),school:schoolFit(p,profile.school),marriage:marriageFit(p,profile.marriage)}))
     .filter(r=>r.region!=='FAIL'&&!looksKnown(r.p.title,known));
 }
 const order=(province:string)=>(a:RankedPolicy,b:RankedPolicy)=>specificity(a.p,province)-specificity(b.p,province)||endOf(a.p).localeCompare(endOf(b.p))||a.p.title.localeCompare(b.p.title,'ko');
 
 /** Policies that do not clash with the chosen conditions: local first, then by closing date. */
 export function rankPolicies(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[]=[],query=''):RankedPolicy[]{
-  return inArea(list,profile,asOf,known,query).filter(r=>r.age!=='FAIL'&&r.job!=='FAIL').sort(order(profile.province));
+  return inArea(list,profile,asOf,known,query).filter(r=>!fails(r).length).sort(order(profile.province));
 }
 
 const jobNames:Record<string,string>={employed:'근로 중',unemployed:'현재 일하지 않음',self_employed:'자영업·프리랜서'};
@@ -102,29 +125,55 @@ export function gapText(r:RankedPolicy,profile:OntongProfile):string[]{
   const out:string[]=[];
   if(r.age==='FAIL')out.push(`${ageText(r.p)} 대상 · 지금 만 ${profile.age}세`);
   if(r.job==='FAIL')out.push(`${jobText(r.p)} 대상 · 지금 ${jobNames[profile.employment]??profile.employment}`);
+  if(r.school==='FAIL')out.push(`${schoolText(r.p)} 대상 · 지금 ${SCHOOL_NAMES[profile.school??'']??profile.school}`);
+  if(r.marriage==='FAIL')out.push(`${marriageText(r.p)} · 지금 ${MARRIAGE_NAMES[profile.marriage??'']??profile.marriage}`);
   return out;
 }
 
+export const GAP_LABELS:Record<Condition,string>={age:'나이',job:'취업 상태',school:'학력',marriage:'혼인 여부'};
+export function gapCounts(excluded:RankedPolicy[]){return CONDITIONS.map(c=>({key:c,label:GAP_LABELS[c],count:excluded.filter(r=>r[c]==='FAIL').length})).filter(x=>x.count>0);}
+
+// The usual next schooling steps, so "when I graduate" can be shown.
+const NEXT_SCHOOL:Record<string,{to:string;label:string}[]>={
+  hs_student:[{to:'hs_grad',label:'고등학교를 졸업하면'},{to:'univ_student',label:'대학에 진학하면'}],
+  hs_grad:[{to:'univ_student',label:'대학에 진학하면'}],
+  univ_student:[{to:'univ_expected',label:'졸업 예정이 되면'},{to:'univ_grad',label:'대학을 졸업하면'}],
+  univ_expected:[{to:'univ_grad',label:'대학을 졸업하면'}],
+  univ_grad:[{to:'grad_school',label:'대학원에 진학하면'}],
+};
+
 export type Opening={key:string;label:string;policies:OntongPolicy[]};
 /**
- * Policies in the area left out only because of age or employment, and the ones that would
- * open with a different employment status or when the person gets older (a younger age limit
- * never reopens, so only policies the person is too young for are counted for age).
+ * Policies in the area left out only because of the person's conditions, and the ones that
+ * would open with one change: a different employment status, the next schooling step, getting
+ * married, or getting older (a younger age limit never reopens, so only policies the person is
+ * too young for are counted for age).
  */
 export function leftOut(list:OntongPolicy[],profile:OntongProfile,asOf:string,known:string[]=[],query=''){
   const area=inArea(list,profile,asOf,known,query);
-  const excluded=area.filter(r=>r.age==='FAIL'||r.job==='FAIL').sort(order(profile.province));
+  const excluded=area.filter(r=>fails(r).length>0).sort(order(profile.province));
+  const onlyBy=(c:Condition)=>excluded.filter(r=>{const f=fails(r);return f.length===1&&f[0]===c;});
   const openings:Opening[]=[];
-  for(const e of ['employed','unemployed','self_employed']){
-    if(e===profile.employment||profile.employment==='unknown'||!profile.employment)continue;
-    const opened=excluded.filter(r=>r.job==='FAIL'&&r.age!=='FAIL'&&jobFit(r.p,e)!=='FAIL').map(r=>r.p);
-    if(opened.length)openings.push({key:'job-'+e,label:`${jobNames[e]}이면`,policies:opened});
+  if(profile.employment&&profile.employment!=='unknown'){
+    for(const e of ['employed','unemployed','self_employed']){
+      if(e===profile.employment)continue;
+      const opened=onlyBy('job').filter(r=>jobFit(r.p,e)!=='FAIL').map(r=>r.p);
+      if(opened.length)openings.push({key:'job-'+e,label:`${jobNames[e]}이면`,policies:opened});
+    }
+  }
+  for(const step of NEXT_SCHOOL[profile.school??'']??[]){
+    const opened=onlyBy('school').filter(r=>schoolFit(r.p,step.to)!=='FAIL').map(r=>r.p);
+    if(opened.length)openings.push({key:'school-'+step.to,label:step.label,policies:opened});
+  }
+  if(profile.marriage==='single'){
+    const opened=onlyBy('marriage').filter(r=>marriageFit(r.p,'married')!=='FAIL').map(r=>r.p);
+    if(opened.length)openings.push({key:'marriage',label:'결혼하면',policies:opened});
   }
   if(profile.age.trim()!==''){
     const now=Number(profile.age);
     for(const later of [1,2,3]){
       // Opens in exactly this year: the lower age limit is reached now+later.
-      const opened=excluded.filter(r=>r.age==='FAIL'&&r.job!=='FAIL'&&r.p.age?.[0]===now+later).map(r=>r.p);
+      const opened=onlyBy('age').filter(r=>r.p.age?.[0]===now+later).map(r=>r.p);
       if(opened.length)openings.push({key:'age-'+later,label:`${later}년 뒤 만 ${now+later}세가 되면`,policies:opened});
     }
   }

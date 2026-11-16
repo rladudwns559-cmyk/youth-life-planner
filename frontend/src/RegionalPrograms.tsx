@@ -126,6 +126,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const [saved]=useState(readProfile);
  const [province,setProvince]=useState(saved?.province??''),[city,setCity]=useState(saved?.city??''),[category,setCategory]=useState('ALL'),[query,setQuery]=useState(''),[intake,setIntake]=useState('CURRENT'),[otherRegions,setOtherRegions]=useState(false),[visible,setVisible]=useState(12);
  const [age,setAge]=useState(saved?.age??''),[employment,setEmployment]=useState(saved?.employment??'unknown'),[rent,setRent]=useState(saved?.rent??'unknown'),[different,setDifferent]=useState(false);
+ const [school,setSchool]=useState(saved?.school??'unknown'),[marriage,setMarriage]=useState(saved?.marriage??'unknown');
  const [sort,setSort]=useState('MATCH');
  const asOf=useKoreaDay();const planner=usePlanner(prepared.programs);const ontongSaved=useOntongSaved();const [savedOnly,setSavedOnly]=useState(false),[comparison,setComparison]=useState<string[]>([]);
  const profile={age,employment,rent};const hasProfile=age!==''||employment!=='unknown'||rent!=='unknown';
@@ -133,10 +134,10 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  const [remember,setRemember]=useState(saved!==null),[rememberError,setRememberError]=useState(false);
  const [incoming,setIncoming]=useState<SavedIds|null>(()=>listPage?savedFromHash(window.location.hash):null);
  useEffect(()=>{if(!listPage)return;const on=()=>{const next=savedFromHash(window.location.hash);if(next)setIncoming(next);};window.addEventListener('hashchange',on);return()=>window.removeEventListener('hashchange',on);},[listPage]);
- const ontong=<OntongPolicies profile={{province,city,age,employment}} asOf={asOf} known={knownTitles} query={query} remember={remember}/>;
+ const ontong=<OntongPolicies profile={{province,city,age,employment,school,marriage}} asOf={asOf} known={knownTitles} query={query} remember={remember}/>;
  const [example,setExample]=useState<string|null>(null);
  // Example people are a demo: never written over the visitor's remembered conditions.
- useEffect(()=>{if(remember&&!example)setRememberError(!writeProfile({province,city,age:validAge(age)?age:'',employment,rent}));},[remember,example,province,city,age,employment,rent]);
+ useEffect(()=>{if(remember&&!example)setRememberError(!writeProfile({province,city,age:validAge(age)?age:'',employment,rent,school,marriage}));},[remember,example,province,city,age,employment,rent,school,marriage]);
  const beforeExample=useRef<{province:string;city:string;age:string;employment:string;rent:string}|null>(null);
  function applyExample(e:SupportExample){if(!example)beforeExample.current={province,city,age,employment,rent};setExample(e.id);setProvince(e.province);setCity(e.city);setAge(e.age);setEmployment(e.employment);setRent(e.rent);setOtherRegions(false);setVisible(12);setSort('MATCH');setFinder('programs');}
  function endExample(){const own=beforeExample.current??(remember?readProfile():null);beforeExample.current=null;setExample(null);setProvince(own?.province??'');setCity(own?.city??'');setAge(own?.age??'');setEmployment(own?.employment??'unknown');setRent(own?.rent??'unknown');setVisible(12);}
@@ -207,7 +208,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
    ? {city,total:localRows.length,open:localOpen} : null;
  const scoped=useMemo(()=>prepared.programs.filter(p=>readRegionalDecision(p.program_id,regionKey,asOf).region!=='FAIL'),[regionKey,asOf]);
  const regionalProvinces=new Set(prepared.programs.flatMap(p=>p.provinces));
- function reset(){setProvince('');setCity('');setCategory('ALL');setQuery('');setIntake('CURRENT');setOtherRegions(false);setAge('');setEmployment('unknown');setRent('unknown');setDifferent(false);setSavedOnly(false);setVisible(12);setSort('MATCH');}
+ function reset(){setProvince('');setCity('');setCategory('ALL');setQuery('');setIntake('CURRENT');setOtherRegions(false);setAge('');setEmployment('unknown');setRent('unknown');setSchool('unknown');setMarriage('unknown');setDifferent(false);setSavedOnly(false);setVisible(12);setSort('MATCH');}
  const memoFromFavorites=planner.favorites.length>0||ontongSaved.saved.length>0;
  const memoItems:MemoItem[]=[...prepared.programs.filter(p=>(memoFromFavorites?planner.favorites:comparison).includes(p.program_id)).map(p=>{
   const m=readPersonalDecision(p.program_id,regionKey,profile,asOf);const end=deadlineOf(p,asOf);
@@ -240,10 +241,13 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
    <div><label htmlFor="support-age">현재 만 나이</label><input id="support-age" type="number" inputMode="numeric" min="0" max="120" step="1" value={age} aria-invalid={!validAge(age)} aria-describedby="support-profile-help" placeholder="예: 25 · 미입력 가능" onChange={e=>{setAge(e.target.value);setVisible(12);}}/></div>
    <div><label htmlFor="support-employment">현재 취업 상태</label><select id="support-employment" value={employment} onChange={e=>{setEmployment(e.target.value);setVisible(12);}}><option value="unknown">모름·선택하지 않음</option><option value="employed">근로 중 · 정규/단기/아르바이트</option><option value="unemployed">현재 일하지 않음</option><option value="self_employed">자영업·프리랜서</option></select></div>
    <div><label htmlFor="support-rent">현재 월세 거주 여부</label><select id="support-rent" value={rent} onChange={e=>{setRent(e.target.value);setVisible(12);}}><option value="unknown">모름·선택하지 않음</option><option value="yes">월세에 거주해요</option><option value="no">월세가 아니에요 · 전세/자가 등</option></select></div>
+   <div><label htmlFor="support-school">학력</label><select id="support-school" value={school} aria-describedby="support-extra-help" onChange={e=>setSchool(e.target.value)}><option value="unknown">모름·선택하지 않음</option><option value="hs_student">고등학생·졸업 예정</option><option value="hs_grad">고등학교 졸업</option><option value="univ_student">대학 재학(휴학 포함)</option><option value="univ_expected">대학 졸업 예정</option><option value="univ_grad">대학 졸업</option><option value="grad_school">대학원(석·박사)</option><option value="below_hs">고등학교 졸업 전(재학 아님)</option></select></div>
+   <div><label htmlFor="support-marriage">혼인 여부</label><select id="support-marriage" value={marriage} aria-describedby="support-extra-help" onChange={e=>setMarriage(e.target.value)}><option value="unknown">모름·선택하지 않음</option><option value="single">미혼</option><option value="married">기혼</option></select></div>
+   <p id="support-extra-help" className="support-extra-help">학력과 혼인 여부는 아래 ‘온통청년 청년정책’을 좁힐 때만 써요. 직접 확인한 지원사업 목록은 바뀌지 않아요.</p>
    {!validAge(age)&&<p role="alert">만 나이는0~120의 정수로 입력해 주세요. 올바르게 입력할 때까지 나이는 추가 확인으로 남깁니다.</p>}
    <p id="support-profile-help">학생이어도 일한다면 ‘근로 중’을 선택하세요. 현재 상태와 과거 공고 기준일의 상태는 다를 수 있습니다. 소득·재산은 추정하지 않아요.</p>
    <div className="support-search"><label htmlFor="support-query">사업·지원내용 검색</label><GroupedInput id="support-query" type="search" mode="search" value={query} placeholder="월세, 면접, 응시료, 이사비…" onChange={e=>{setQuery(e.target.value);setVisible(12);}}/></div>
-   <div className="support-remember"><label><input type="checkbox" checked={remember} onChange={e=>toggleRemember(e.target.checked)}/>이 기기에 내 조건 기억하기</label><p>{remember?'지역·나이·취업 상태·월세 여부만 이 브라우저에 저장해 다음에 들어와도 그대로 보여 드려요. 끄면 바로 지워집니다. 외부로 보내지 않아요.':'켜면 지역·나이·취업 상태·월세 여부를 이 브라우저에만 저장해, 다음에 다시 넣지 않아도 돼요.'}</p>{rememberError&&<p role="status">이 브라우저에서는 저장할 수 없어 현재 화면에서만 유지합니다.</p>}</div>
+   <div className="support-remember"><label><input type="checkbox" checked={remember} onChange={e=>toggleRemember(e.target.checked)}/>이 기기에 내 조건 기억하기</label><p>{remember?'지역·나이·취업 상태·월세·학력·혼인 여부만 이 브라우저에 저장해 다음에 들어와도 그대로 보여 드려요. 끄면 바로 지워집니다. 외부로 보내지 않아요.':'켜면 지역·나이·취업 상태·월세·학력·혼인 여부를 이 브라우저에만 저장해, 다음에 다시 넣지 않아도 돼요.'}</p>{rememberError&&<p role="status">이 브라우저에서는 저장할 수 없어 현재 화면에서만 유지합니다.</p>}</div>
    <p>상세 주소·소득·계좌정보를 받지 않습니다. {remember?'선택한 조건만 이 기기에 저장하며 외부로 보내지 않습니다.':'선택값은 이 화면의 메모리에서만 사용하며 외부 전송·영구 저장하지 않습니다.'}</p>
    <div className="finder-actions">
     <button type="button" className="finder-primary" disabled={!validAge(age)} onClick={openResults}>내 조건으로 찾기 →</button>
