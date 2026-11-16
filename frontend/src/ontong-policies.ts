@@ -90,10 +90,21 @@ export function regionText(p:OntongPolicy,province=''){
 
 const squash=(s:string)=>s.replace(/\d{4}\s*년도?|\(.*?\)|[\s·ㆍ・･「」『』<>《》"'“”‘’\-_.,:]/g,'');
 /** True when a title looks like one of our hand-checked programs, so it is not listed twice. */
+// The same known list is checked against thousands of titles many times (each timeline year
+// ranks the whole list), so the squashed titles and each answer are kept per known list.
+const squashedKnown=new WeakMap<string[],string[]>();
+const answers=new WeakMap<string[],Map<string,boolean>>();
 export function looksKnown(title:string,known:string[]){
+  let memo=answers.get(known);
+  if(!memo){memo=new Map();answers.set(known,memo);}
+  const cached=memo.get(title);
+  if(cached!==undefined)return cached;
+  let list=squashedKnown.get(known);
+  if(!list){list=known.map(squash);squashedKnown.set(known,list);}
   const t=squash(title);
-  if(t.length<4)return false;
-  return known.some(k=>{const s=squash(k);return s===t||(Math.min(s.length,t.length)>=8&&(s.includes(t)||t.includes(s)));});
+  const found=t.length>=4&&list.some(s=>s===t||(Math.min(s.length,t.length)>=8&&(s.includes(t)||t.includes(s))));
+  memo.set(title,found);
+  return found;
 }
 
 export type RankedPolicy={p:OntongPolicy;region:Fit;age:Fit;job:Fit;school:Fit;marriage:Fit};

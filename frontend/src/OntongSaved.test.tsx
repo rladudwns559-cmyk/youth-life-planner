@@ -44,11 +44,11 @@ describe('filters in the policy section',()=>{
     const groups=screen.getByRole('group',{name:'정책 분야'});
     expect(within(groups).getAllByRole('button').map(b=>b.textContent)).toEqual(['전체 4','일자리 1','주거 1','교육 1','복지·문화 1']);
     fireEvent.click(within(groups).getByRole('button',{name:'주거 1'}));
-    expect(screen.getAllByRole('heading',{level:4}).map(h=>h.textContent)).toEqual(['월세 지원']);
+    expect(within(document.querySelector('.ontong-list') as HTMLElement).getAllByRole('heading',{level:4}).map(h=>h.textContent)).toEqual(['월세 지원']);
     expect(screen.getByRole('status')).toHaveTextContent('주거 분야 1건');
     fireEvent.click(within(groups).getByRole('button',{name:'전체 4'}));
     fireEvent.click(screen.getByLabelText('마감 14일 이내만 보기'));
-    expect(screen.getAllByRole('heading',{level:4}).map(h=>h.textContent)).toEqual(['면접 정장 대여']);
+    expect(within(document.querySelector('.ontong-list') as HTMLElement).getAllByRole('heading',{level:4}).map(h=>h.textContent)).toEqual(['면접 정장 대여']);
     fireEvent.click(within(groups).getByRole('button',{name:'주거 1'}));
     expect(screen.getByText(/고른 분야·마감 조건에 맞는 정책이 없어요/)).toBeVisible();
   });

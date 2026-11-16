@@ -1,0 +1,13 @@
+.condition-sentence{margin:0 0 16px;padding:14px 16px;border-radius:14px;background:#f3f5fb;border:1px solid #d9dfee;color:#0e1a2b}
+.condition-sentence h3{margin:0 0 8px;font-size:16px;color:#1d3466}
+.condition-sentence-row{display:flex;flex-wrap:wrap;gap:8px}
+.condition-sentence-row input{flex:1 1 240px;min-height:44px;padding:8px 12px;border:1px solid #b9c4de;border-radius:10px;font:inherit;font-size:15px;background:#fff}
+.condition-sentence-row input:focus-visible{outline:3px solid #1f57d8;outline-offset:1px}
+.condition-sentence-row button{min-height:44px}
+.condition-sentence p{margin:8px 0 0;font-size:13px;color:#5b6676}
+.condition-sentence-result{margin-top:10px;padding:10px 12px;border-radius:10px;background:#fff;border:1px solid #e1e6f2}
+.condition-sentence-result p{margin:0 0 6px;font-size:14px;color:#0e1a2b}
+.condition-sentence-result ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.condition-sentence-result li{padding:4px 10px;border-radius:999px;background:#eef2fb;font-size:14px;font-weight:600;color:#1d3466}
+.condition-sentence-result li span{margin-right:6px;font-weight:500;color:#5b6676}
+.condition-sentence-note{color:#7a3e00!important}

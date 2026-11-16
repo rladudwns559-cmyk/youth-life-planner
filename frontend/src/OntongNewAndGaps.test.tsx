@@ -36,7 +36,7 @@ describe('new since the last visit',()=>{
     expect(screen.getByText(/지난 방문\(11월 16일\) 이후 새로 올라온 정책이/)).toHaveTextContent('1건 있어요');
     expect(screen.getByRole('heading',{level:4,name:'새 정책새로 생긴 정책'})).toBeVisible();
     fireEvent.click(screen.getByLabelText('새로 올라온 정책만 보기'));
-    expect(screen.getAllByRole('heading',{level:4}).map(h=>h.textContent)).toEqual(['새 정책새로 생긴 정책']);
+    expect(within(document.querySelector('.ontong-list') as HTMLElement).getAllByRole('heading',{level:4}).map(h=>h.textContent)).toEqual(['새 정책새로 생긴 정책']);
     expect(JSON.parse(localStorage.getItem(ONTONG_SEEN_KEY)!).baseline.date).toBe('2026-11-16');
   });
   it('says nothing about new policies on the very first visit',async()=>{

@@ -9,6 +9,8 @@ import FinderDialog from './FinderDialog';
 import ConditionPrompt from './ConditionPrompt';
 import YouthCenterHelp from './YouthCenterHelp';
 import OntongPolicies from './OntongPolicies';
+import ConditionSentence from './ConditionSentence';
+import type {ParsedConditions} from './condition-parser';
 import {useOntongSaved,asPlannerProgram,type SavedPolicy} from './ontong-saved';
 import {forgetSeen} from './ontong-seen';
 import {SavedLinkTools,SavedImport,savedFromHash,type SavedIds} from './SavedLink';
@@ -140,6 +142,8 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
  useEffect(()=>{if(remember&&!example)setRememberError(!writeProfile({province,city,age:validAge(age)?age:'',employment,rent,school,marriage}));},[remember,example,province,city,age,employment,rent,school,marriage]);
  const beforeExample=useRef<{province:string;city:string;age:string;employment:string;rent:string}|null>(null);
  function applyExample(e:SupportExample){if(!example)beforeExample.current={province,city,age,employment,rent};setExample(e.id);setProvince(e.province);setCity(e.city);setAge(e.age);setEmployment(e.employment);setRent(e.rent);setOtherRegions(false);setVisible(12);setSort('MATCH');setFinder('programs');}
+ /** Fills the form from a sentence; conditions it did not mention are left as they are. */
+ function applySentence(c:ParsedConditions){beforeExample.current=null;setExample(null);if(c.province!==undefined){setProvince(c.province);setCity(c.city??'');setOtherRegions(false);}if(c.age!==undefined)setAge(c.age);if(c.employment)setEmployment(c.employment);if(c.rent)setRent(c.rent);if(c.school)setSchool(c.school);if(c.marriage)setMarriage(c.marriage);setVisible(12);}
  function endExample(){const own=beforeExample.current??(remember?readProfile():null);beforeExample.current=null;setExample(null);setProvince(own?.province??'');setCity(own?.city??'');setAge(own?.age??'');setEmployment(own?.employment??'unknown');setRent(own?.rent??'unknown');setVisible(12);}
  useEffect(()=>{
   // "#/programs?example=ansan" from the home page opens that example once, then drops the query.
@@ -234,6 +238,7 @@ export default function RegionalPrograms({browse=true,listPage=false}:{browse?:b
    <div>{SUPPORT_EXAMPLES.map(e=><button type="button" key={e.id} aria-pressed={example===e.id} onClick={()=>applyExample(e)}>{e.label}</button>)}</div>
    {example&&<p className="support-example-active" role="status">예시 조건으로 보는 중이에요 · {exampleById(example)?.detail}. 예시는 저장되지 않고, 아래 조건을 직접 바꾸면 예시가 끝나요. <button type="button" onClick={endExample}>예시 끝내기</button></p>}
   </div>
+  <ConditionSentence onApply={applySentence}/>
   <div className="support-filters" onChangeCapture={()=>{beforeExample.current=null;setExample(null);}}>
    <div><label htmlFor="support-province">관심·거주 광역지역</label><select id="support-province" value={province} onChange={e=>{setProvince(e.target.value);setOtherRegions(false);setCity('');setVisible(12);}}><option value="">전체 지역에서 살펴보기</option>{prepared.provinces.map(r=><option key={r} value={r}>{displayProvince(r)}</option>)}</select></div>
    <div><label htmlFor="support-city">시·군·구</label><select id="support-city" value={city} disabled={!province||districtOptions.length===0} onChange={e=>{setCity(e.target.value);setOtherRegions(false);setVisible(12);}}><option value="">{province==='세종'?'세종시 전체':'미선택 · 세부지역 추가 확인'}</option>{districtOptions.map(c=><option key={c}>{c}</option>)}<option value="__OTHER__">목록에 없는 시·군·구</option></select></div>

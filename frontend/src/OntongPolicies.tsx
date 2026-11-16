@@ -3,6 +3,7 @@ import {usePolicyList} from './ontong-list';
 import {rankPolicies,leftOut,gapText,gapCounts,schoolText,marriageText,ageText,jobText,regionText,categoryText,policyGroups,closesSoon,POLICY_GROUPS,SOON_DAYS,type OntongPolicy,type OntongPolicyList,type OntongProfile,type Fit,type PolicyGroup} from './ontong-policies';
 import {useOntongSaved,type SavedPolicy} from './ontong-saved';
 import {useSeenPolicies} from './ontong-seen';
+import FutureTimeline from './FutureTimeline';
 import {deadlineLabel,daysLeft} from './SupportPlanner';
 import './ontong-policies.css';
 
@@ -98,6 +99,7 @@ export default function OntongPolicies({profile,asOf,known=[],query='',data,reme
       <div className="ontong-links"><Star p={p} on={saved.has(p.id)} onToggle={()=>saved.toggle(p)}/><a href={p.url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 온통청년에서 보기'}>온통청년에서 보기 ↗</a>{p.apply_url&&<a href={p.apply_url} target="_blank" rel="noopener noreferrer" aria-label={p.title+' 신청·안내 페이지'}>신청·안내 페이지 ↗</a>}</div>
     </li>)}</ul>}
     {visible.length>shown&&<button type="button" className="ontong-more" onClick={()=>setShown(s=>s+STEP)}>정책 {Math.min(STEP,visible.length-shown)}건 더 보기</button>}
+    <FutureTimeline list={list.policies} profile={profile} asOf={asOf} known={known}/>
     <LeftOut list={list.policies} profile={profile} asOf={asOf} known={known} query={query}/>
     <small className="ontong-source">{list.source.attribution} · <a href={list.source.url} target="_blank" rel="noopener noreferrer">{list.source.title}</a>{list.fetched_on&&<> · {list.fetched_on} 수집</>} · 관심 저장은 정책 제목·마감일·링크만, 새 정책 표시는 이미 본 정책 번호만 이 기기에 보관해요.</small>
   </section>;

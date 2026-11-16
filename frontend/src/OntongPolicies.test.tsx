@@ -78,9 +78,9 @@ describe('the policy section',()=>{
   });
   it('shows eight first and more on request',()=>{
     render(<OntongPolicies profile={{province:'경기',city:'안산시',age:'',employment:'unknown'}} asOf={AS_OF} data={data}/>);
-    expect(screen.getAllByRole('heading',{level:4})).toHaveLength(8);
+    expect(within(document.querySelector('.ontong-list') as HTMLElement).getAllByRole('heading',{level:4})).toHaveLength(8);
     fireEvent.click(screen.getByRole('button',{name:'정책 2건 더 보기'}));
-    expect(screen.getAllByRole('heading',{level:4})).toHaveLength(10);
+    expect(within(document.querySelector('.ontong-list') as HTMLElement).getAllByRole('heading',{level:4})).toHaveLength(10);
   });
   it('drops policies that clash and says so when none are left',()=>{
     render(<OntongPolicies profile={{province:'경기',city:'안산시',age:'25',employment:'employed'}} asOf={AS_OF} data={list([data.policies[0]])}/>);
