@@ -19,6 +19,7 @@ import './launch-design.css';
 import './polish.css';
 import './theme-pro.css';
 import ProgramDetail from './ProgramDetail';
+import RegionInsights from './RegionInsights';
 
 const money = (amount: number) => `${amount.toLocaleString('ko-KR')}원`;
 const fieldNames: Record<string, string> = { age: '만 나이', region: '거주 지역', employment_status: '취업 상태', student_status: '재학 상태', household_income: '정책 기준의 가구소득' };
@@ -148,6 +149,10 @@ export default function App() {
       </div>}
       {visited.has('detail')&&<div data-portal-page="detail" hidden={route!=='detail'} className="portal-page">
         <ProgramDetail active={route==='detail'}/><PortalFooter/>
+      </div>}
+      {visited.has('insights')&&<div data-portal-page="insights" hidden={route!=='insights'} className="portal-page">
+        <PageHeading page="insights" backTo="programs" eyebrow="데이터로 보는 청년정책" title="지역별 청년정책 한눈에 보기" description="온통청년에 올라온 정책을 광역지역·분야·시군구별로 세어 내 지역이 어디쯤인지 비교해요."/>
+        <RegionInsights/><PortalFooter/>
       </div>}
       {visited.has('survey')&&<div data-portal-page="survey" hidden={route!=='survey'} className="portal-page">
         <PageHeading page="survey" eyebrow="사용자 평가" title="써 보니 어땠나요?" description="9개 문항에 답하면 구글 폼이 답이 채워진 채로 열려요. 제출은 구글 폼에서 합니다."/>

@@ -1,0 +1,29 @@
+# Manual, read-only trial call of the 온통청년 Open APIs to see real response shapes.
+# Saves at most 5 sample records per API as a run artifact. Changes no data in the repository.
+name: Probe 온통청년 Open API
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Call the APIs (5 records each)
+        env:
+          YOUTHCENTER_POLICY_KEY: ${{ secrets.YOUTHCENTER_POLICY_KEY }}
+          YOUTHCENTER_CENTER_KEY: ${{ secrets.YOUTHCENTER_CENTER_KEY }}
+        run: python tools/youthcenter_probe.py probe-out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: youthcenter-probe
+          path: probe-out
+          retention-days: 3

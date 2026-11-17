@@ -15,3 +15,8 @@
 .center-help-national{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;padding-top:10px;border-top:1px solid #d5e3cc}
 .center-help-national p{flex-basis:100%;margin:0;color:#3d4a5c}
 .center-help-national span{color:#3d4a5c}
+.center-help-api{margin:0 0 12px;display:grid;gap:8px}
+.center-help-api .center-help-list{margin:0}
+.center-help-more{justify-self:start;min-height:40px;padding:6px 14px;border-radius:10px;border:1px solid #b9cfae;background:#fff;color:#234a2c;font:inherit;font-weight:600;cursor:pointer}
+.center-help-more:focus-visible{outline:3px solid #1f57d8;outline-offset:2px}
+.center-help-hint{margin:0 0 12px;color:#3d4a5c}

@@ -1,0 +1,2373 @@
+{
+ "schema_version": 1,
+ "fetched_on": "2026-11-16",
+ "source": {
+  "title": "온통청년 청년센터 정보 Open API",
+  "institution": "한국고용정보원",
+  "attribution": "출처: 온통청년(한국고용정보원)",
+  "url": "https://www.youthcenter.go.kr/youthApply/ythCenter/ythCenterMain"
+ },
+ "total": 236,
+ "centers": [
+  {
+   "id": "YC-10163",
+   "province": "강원",
+   "city": "동해시",
+   "district_label": "동해시",
+   "name": "열림",
+   "address": "강원특별자치도 동해시 동굴로 2 3층",
+   "phone": "033-531-2020",
+   "url": "http://www.청년공간열림.com"
+  },
+  {
+   "id": "YC-802",
+   "province": "강원",
+   "city": "영월군",
+   "district_label": "영월군",
+   "name": "청정지대",
+   "address": "강원특별자치도 영월군 영월읍 봉래산로 5",
+   "phone": "033-370-2731",
+   "url": "https://www.instagram.com/beyond_2021_/"
+  },
+  {
+   "id": "YC-10166",
+   "province": "강원",
+   "city": "원주시",
+   "district_label": "원주시",
+   "name": "원주시 청년라운지 이스트, 웨스트",
+   "address": "강원특별자치도 원주시 미래로 1 (반곡동) 2층",
+   "phone": "033-737-2305",
+   "url": "https://www.wonju.go.kr/wjyouth/contents.do?key=6518&"
+  },
+  {
+   "id": "YC-10314",
+   "province": "강원",
+   "city": "인제군",
+   "district_label": "인제군",
+   "name": "인제군 청년커뮤니티센터",
+   "address": "인제군 북면 월학리1849-6번지",
+   "phone": "033-461-0116",
+   "url": "https://blog.naver.com/injeyouth)"
+  },
+  {
+   "id": "YC-10162",
+   "province": "강원",
+   "city": "춘천시",
+   "district_label": "춘천시",
+   "name": "강원청년센터",
+   "address": "강원특별자치도 춘천시 금강로 45, 4/5층",
+   "phone": "033-256-9575",
+   "url": "https://job.gwd.go.kr/youth"
+  },
+  {
+   "id": "YC-10167",
+   "province": "강원",
+   "city": "홍천군",
+   "district_label": "홍천군",
+   "name": "홍천군 청년창업지원센터",
+   "address": "강원도 홍천군 홍천읍 홍천로 8길 4",
+   "phone": "033-436-9864",
+   "url": "https://www.hongcheon.go.kr/hcbic/index.php"
+  },
+  {
+   "id": "YC-10325",
+   "province": "강원",
+   "city": "횡성군",
+   "district_label": "횡성군",
+   "name": "횡성군 청년센터",
+   "address": "강원 횡성군 횡성읍 태기로 85",
+   "phone": "033-340-4715",
+   "url": "https://hsyouthcenter.hsg.go.kr/"
+  },
+  {
+   "id": "YC-10121",
+   "province": "경기",
+   "city": "고양시 덕양구",
+   "district_label": "고양시 덕양구",
+   "name": "28청춘창업소",
+   "address": "경기도 고양시 덕양구 화중로 104번길 33",
+   "phone": "031-968-7061",
+   "url": "https://www.gipa.or.kr/business/02_4.php"
+  },
+  {
+   "id": "YC-10120",
+   "province": "경기",
+   "city": "고양시 덕양구",
+   "district_label": "고양시 덕양구",
+   "name": "내일꿈제작소",
+   "address": "경기도 고양시 덕양구 은빛로 72",
+   "phone": "031-8075-2874",
+   "url": "http://goyangjobcafe.kr/"
+  },
+  {
+   "id": "YC-10122",
+   "province": "경기",
+   "city": "과천시",
+   "district_label": "과천시",
+   "name": "과천시 청년공간 비행지구",
+   "address": "경기도 과천시 중앙로 129 501호",
+   "phone": "02-3418-1245",
+   "url": "https://www.instagram.com/gc_fly_earth/"
+  },
+  {
+   "id": "YC-10123",
+   "province": "경기",
+   "city": "광명시",
+   "district_label": "광명시",
+   "name": "청년동",
+   "address": "경기도 광명시 오리로 854번길 10 열린시민청 4층",
+   "phone": "02-2066-8134",
+   "url": "https://gmyouthzone.org"
+  },
+  {
+   "id": "YC-10124",
+   "province": "경기",
+   "city": "광명시",
+   "district_label": "광명시",
+   "name": "청춘곳간",
+   "address": "경기도 광명시 광명로928번길 42-16 어울리기행복센터 3~5층",
+   "phone": "02-2689-7451",
+   "url": "https://www.gmyouthstorage.org"
+  },
+  {
+   "id": "YC-10125",
+   "province": "경기",
+   "city": "광주시",
+   "district_label": "광주시",
+   "name": "더 누림 플랫폼",
+   "address": "경기도 광주시 광주대로55번길 21 2층",
+   "phone": "031-8027-0372",
+   "url": "https://www.gj-youth.or.kr"
+  },
+  {
+   "id": "YC-10126",
+   "province": "경기",
+   "city": "구리시",
+   "district_label": "구리시",
+   "name": "구리시 청년내일센터",
+   "address": "경기도 구리시 건원대로 67 한진빌딩 3,4,5층",
+   "phone": "031-557-9980",
+   "url": "http://www.guristartup.or.kr"
+  },
+  {
+   "id": "YC-10127",
+   "province": "경기",
+   "city": "군포시",
+   "district_label": "군포시",
+   "name": "군포시 청년공간 플라잉",
+   "address": "경기도 군포시 번영로 314",
+   "phone": "031-399-8724",
+   "url": "https://blog.naver.com/gp_youthflying"
+  },
+  {
+   "id": "YC-677",
+   "province": "경기",
+   "city": "김포시",
+   "district_label": "김포시",
+   "name": "김포시청년지원센터",
+   "address": "(10110) 경기도 김포시 김포대로 841 제우스프라자 504호",
+   "phone": "031-980-5894",
+   "url": "https://gimpo.gseek.kr/"
+  },
+  {
+   "id": "YC-10293",
+   "province": "경기",
+   "city": "남양주시",
+   "district_label": "남양주시",
+   "name": "남양주시 청년창업센터",
+   "address": "경기도 남양주시 늘을2로14번길 12",
+   "phone": "031-590-4338",
+   "url": "https://www.nyj.go.kr/www/contents.do?key=2917"
+  },
+  {
+   "id": "YC-10129",
+   "province": "경기",
+   "city": "동두천시",
+   "district_label": "동두천시",
+   "name": "동두천시 청년창업지원센터",
+   "address": "경기도 동두천시 동두천로 314",
+   "phone": "031-868-9131",
+   "url": "https://www.ddcstartup.co.kr/"
+  },
+  {
+   "id": "YC-10267",
+   "province": "경기",
+   "city": "부천시 소사구",
+   "district_label": "부천시 소사구",
+   "name": "소사청년공간(소사로움)",
+   "address": "경기도 부천시 소사구 성무로 24 심곡도서관 4층",
+   "phone": "032-625-4581",
+   "url": "https://www.bcl.go.kr/site/homepage/menu/viewMenu?menuid=019002003001006"
+  },
+  {
+   "id": "YC-10131",
+   "province": "경기",
+   "city": "부천시 오정구",
+   "district_label": "부천시 오정구",
+   "name": "오정청년공간",
+   "address": "경기도 부천시 오정구 소사로 772 5층",
+   "phone": "032-625-8871",
+   "url": "https://www.bucheon.go.kr/site/homepage/menu/viewMenu?menuid=148006003020004"
+  },
+  {
+   "id": "YC-10130",
+   "province": "경기",
+   "city": "부천시 원미구",
+   "district_label": "부천시 원미구",
+   "name": "원미청정구역",
+   "address": "경기도 부천시 소사로 456 원미도서관 3층",
+   "phone": "032-625-4733",
+   "url": "https://www.bcl.go.kr/site/homepage/menu/viewMenu?menuid=019002003001005"
+  },
+  {
+   "id": "YC-10132",
+   "province": "경기",
+   "city": "성남시 수정구",
+   "district_label": "성남시 수정구",
+   "name": "성남시 청년지원센터(청년이봄)",
+   "address": "경기도 성남시 수정구 산성대로 267",
+   "phone": "070-4908-2094",
+   "url": "https://www.snspring.or.kr/"
+  },
+  {
+   "id": "YC-10133",
+   "province": "경기",
+   "city": "수원시 팔달구",
+   "district_label": "수원시 팔달구",
+   "name": "경기도미래세대재단",
+   "address": "경기도 수원시 팔달구 효원로 1",
+   "phone": "031-247-7346",
+   "url": "https://www.gfgf.kr/"
+  },
+  {
+   "id": "YC-10134",
+   "province": "경기",
+   "city": "수원시 팔달구",
+   "district_label": "수원시 팔달구",
+   "name": "수원시청년지원센터 청년바람지대",
+   "address": "경기도 수원시 팔달구 효원로 249번길 38",
+   "phone": "031-267-3628",
+   "url": "https://www.swyouth.kr/space/baramjidae"
+  },
+  {
+   "id": "YC-10137",
+   "province": "경기",
+   "city": "시흥시",
+   "district_label": "시흥시",
+   "name": "청년스테이션",
+   "address": "경기도 시흥시 정왕대로233번길 19-1",
+   "phone": "070-7788-3816",
+   "url": "https://blog.naver.com/0siheung21"
+  },
+  {
+   "id": "YC-10138",
+   "province": "경기",
+   "city": "시흥시",
+   "district_label": "시흥시",
+   "name": "청년협업마을",
+   "address": "경기도 시흥시 소래산길11",
+   "phone": "031-310-3532",
+   "url": "https://www.instagram.com/gyctown/"
+  },
+  {
+   "id": "YC-10139",
+   "province": "경기",
+   "city": "안산시 단원구",
+   "district_label": "안산시 단원구",
+   "name": "안산시 청년센터 상상대로",
+   "address": "경기도 안산시 단원구 선부로 312",
+   "phone": "031-492-2030",
+   "url": "http://www.asyouthspace.kr"
+  },
+  {
+   "id": "YC-10140",
+   "province": "경기",
+   "city": "안산시 단원구",
+   "district_label": "안산시 단원구",
+   "name": "안산시 청년센터 상상스테이션",
+   "address": "경기도 안산시 단원구 적금로93",
+   "phone": "031-410-0311",
+   "url": "https://asyouthstation.kr/"
+  },
+  {
+   "id": "YC-815",
+   "province": "경기",
+   "city": "안성시",
+   "district_label": "안성시",
+   "name": "안성시 청년문화공간 청년톡톡",
+   "address": "(17583) 경기도 안성시 인지2길 16-8 -",
+   "phone": "031-678-6848",
+   "url": "https://www.anseong.go.kr/youth/main.do"
+  },
+  {
+   "id": "YC-10141",
+   "province": "경기",
+   "city": "안양시 동안구",
+   "district_label": "안양시 동안구",
+   "name": "범계역 청년출구",
+   "address": "경기도 안양시 동안구 동안로 130 범계역광장 내",
+   "phone": "031-476-9371",
+   "url": "https://blog.naver.com/youthexit_beomgye"
+  },
+  {
+   "id": "YC-10142",
+   "province": "경기",
+   "city": "안양시 만안구",
+   "district_label": "안양시 만안구",
+   "name": "안양청년1번가",
+   "address": "안양시 만안구 장내로143번길 16",
+   "phone": "070-4131-5282",
+   "url": "https://www.instagram.com/any_1st/"
+  },
+  {
+   "id": "YC-10143",
+   "province": "경기",
+   "city": "양주시",
+   "district_label": "양주시",
+   "name": "양주시청년센터",
+   "address": "경기도 양주시 부흥로 1533 별동 3층 청년센터",
+   "phone": "031-8082-6076",
+   "url": "https://www.yangju.go.kr/youth/index.do"
+  },
+  {
+   "id": "YC-10144",
+   "province": "경기",
+   "city": "양평군",
+   "district_label": "양평군",
+   "name": "경기청년공간 내일스퀘어 양평",
+   "address": "경기도 양평군 양평읍 양근로 196 G타워 2,3층",
+   "phone": "031-773-3920",
+   "url": "https://www.yp21.go.kr/work/contents.do?key=3260"
+  },
+  {
+   "id": "YC-10145",
+   "province": "경기",
+   "city": "양평군",
+   "district_label": "양평군",
+   "name": "딴딴회관",
+   "address": "경기도 양평군 양서면 두물머리길20번길 8 딴딴회관",
+   "phone": "031-770-2625",
+   "url": "https://www.yp21.go.kr/work/contents.do?key=3260"
+  },
+  {
+   "id": "YC-10146",
+   "province": "경기",
+   "city": "양평군",
+   "district_label": "양평군",
+   "name": "오름",
+   "address": "경기도 양평군 용문면 용문로 391 1, 2층 오름",
+   "phone": "031-772-1018",
+   "url": "https://www.yp21.go.kr/work/contents.do?key=3260"
+  },
+  {
+   "id": "YC-10147",
+   "province": "경기",
+   "city": "여주시",
+   "district_label": "여주시",
+   "name": "청년활동지원센터 푸릇",
+   "address": "경기도 여주시 세종로14번길 18 중앙 프라자 3층",
+   "phone": "031-884-2055",
+   "url": "https://blog.naver.com/yjyouthcenter"
+  },
+  {
+   "id": "YC-10148",
+   "province": "경기",
+   "city": "연천군",
+   "district_label": "연천군",
+   "name": "연천군 일자리 통합 지원센터",
+   "address": "경기도 연천군 전곡읍 전곡로 193",
+   "phone": "031-839-4141",
+   "url": "https://cafe.naver.com/yctheyoung"
+  },
+  {
+   "id": "YC-10149",
+   "province": "경기",
+   "city": "오산시",
+   "district_label": "오산시",
+   "name": "오산청년일자리지원센터 이루잡",
+   "address": "경기도 오산시 운천로 62 3층",
+   "phone": "031-8036-8046",
+   "url": "https://blog.naver.com/irujob"
+  },
+  {
+   "id": "YC-10150",
+   "province": "경기",
+   "city": "용인시 기흥구",
+   "district_label": "용인시 기흥구",
+   "name": "용인 청년 LAB 기흥",
+   "address": "경기도 용인시 기흥구 구갈로60번길 15 경영빌딩 2층",
+   "phone": "031-693-8332",
+   "url": "https://youth.yongin.go.kr/web/main/main"
+  },
+  {
+   "id": "YC-10151",
+   "province": "경기",
+   "city": "용인시 수지구",
+   "district_label": "용인시 수지구",
+   "name": "용인 청년 LAB 수지",
+   "address": "경기도 수지구 포은대로 499 아르피아타워 2~3층",
+   "phone": "031-324-4852",
+   "url": "https://youth.yongin.go.kr/web/main/main"
+  },
+  {
+   "id": "YC-10152",
+   "province": "경기",
+   "city": "용인시 처인구",
+   "district_label": "용인시 처인구",
+   "name": "용인 청년 LAB 처인",
+   "address": "경기도 용인시 처인구 명지로 40번길 8 삼가프라자 5층",
+   "phone": "031-337-4012",
+   "url": "https://youth.yongin.go.kr/web/main/main"
+  },
+  {
+   "id": "YC-10153",
+   "province": "경기",
+   "city": "의왕시",
+   "district_label": "의왕시",
+   "name": "의왕청년발전소 포일센터",
+   "address": "경기도 의왕시 안양판교로 82 4층",
+   "phone": "031-345-2720",
+   "url": "https://www.uiwang.go.kr/UWKORWEL1601"
+  },
+  {
+   "id": "YC-10154",
+   "province": "경기",
+   "city": "의정부시",
+   "district_label": "의정부시",
+   "name": "의정부시 청년센터 청년공감터",
+   "address": "경기도 의정부시 둔야로 9 3,4층",
+   "phone": "031-828-2434",
+   "url": "https://www.ui4u.go.kr/youthcenter/"
+  },
+  {
+   "id": "YC-10324",
+   "province": "경기",
+   "city": "의정부시",
+   "district_label": "의정부시",
+   "name": "청년다락방",
+   "address": "의정부시 호국로 1314",
+   "phone": "031-846-2436",
+   "url": "https://blog.naver.com/ujbyoung/224331753684"
+  },
+  {
+   "id": "YC-10155",
+   "province": "경기",
+   "city": "이천시",
+   "district_label": "이천시",
+   "name": "이천시 청년일자리카페 e-room",
+   "address": "이천시 경충대로 2701-32 관고동",
+   "phone": "031-644-4183",
+   "url": "https://www.icheon.go.kr/portal/index.do"
+  },
+  {
+   "id": "YC-10156",
+   "province": "경기",
+   "city": "파주시",
+   "district_label": "파주시",
+   "name": "파주시 청년공간 GP1939",
+   "address": "경기도 파주시 금릉역로 84 청원센트럴타워 6층",
+   "phone": "031-940-5100",
+   "url": "https://www.paju.go.kr/youth/index.do"
+  },
+  {
+   "id": "YC-10157",
+   "province": "경기",
+   "city": "평택시",
+   "district_label": "평택시",
+   "name": "청년쉼표",
+   "address": "평택시 평택동 60-5 (평택1로 9번길 23)",
+   "phone": "031-691-9917",
+   "url": "https://www.pyeongtaek.go.kr/ptyc/main.do"
+  },
+  {
+   "id": "YC-10014",
+   "province": "경기",
+   "city": "포천시",
+   "district_label": "포천시",
+   "name": "포천시 청년센터",
+   "address": "경기도 포천시 호국로 1423 포천청년비전센터 2층",
+   "phone": "031-538-2563",
+   "url": "https://www.pocheon.go.kr/newsvision/index.do"
+  },
+  {
+   "id": "YC-10159",
+   "province": "경기",
+   "city": "하남시",
+   "district_label": "하남시",
+   "name": "하남시 청년지원센터",
+   "address": "경기도 하남시 미사강변대로 52 (풍산동) 미사탑프라자 5층 1층",
+   "phone": "031-5182-1595",
+   "url": "https://www.hanam.go.kr/www/contents.do?key=12486"
+  },
+  {
+   "id": "YC-10160",
+   "province": "경기",
+   "city": "화성시 병점구",
+   "district_label": "화성시 병점구",
+   "name": "화성시청년지원센터 H.E.Y",
+   "address": "화정시 병점동 383-1 화성시 떡전골로 98, 5층",
+   "phone": "031-5189-1375",
+   "url": "http://hey.hscity.go.kr/base/main/view"
+  },
+  {
+   "id": "YC-10237",
+   "province": "경남",
+   "city": "거제시",
+   "district_label": "거제시",
+   "name": "거제청년센터 이룸",
+   "address": "거제시 계룡로11길 21 1층",
+   "phone": "055-736-6010",
+   "url": "https://www.geoje.go.kr/youth/index.geoje"
+  },
+  {
+   "id": "YC-10238",
+   "province": "경남",
+   "city": "거제시",
+   "district_label": "거제시",
+   "name": "청년다온",
+   "address": "거제시 탑곡로 75 2층",
+   "phone": "055-639-7455",
+   "url": "https://www.geoje.go.kr/youth/index.geoje"
+  },
+  {
+   "id": "YC-10239",
+   "province": "경남",
+   "city": "거제시",
+   "district_label": "거제시",
+   "name": "청춘다락",
+   "address": "거제시 거제중앙로 1641 행복누림문화센터 4층",
+   "phone": "055-633-7705",
+   "url": "https://www.instagram.com/cheongchun_darak/"
+  },
+  {
+   "id": "YC-10240",
+   "province": "경남",
+   "city": "거창군",
+   "district_label": "거창군",
+   "name": "거창청년사이",
+   "address": "거창군 거창읍 정장길 42",
+   "phone": "055-940-8818",
+   "url": "https://www.geochang.go.kr/cccg/Index.do?"
+  },
+  {
+   "id": "YC-10241",
+   "province": "경남",
+   "city": "고성군",
+   "district_label": "고성군",
+   "name": "고성청년센터",
+   "address": "고성읍 교사4길 13",
+   "phone": "055-670-2715",
+   "url": "https://blog.naver.com/goseong_youth"
+  },
+  {
+   "id": "YC-10242",
+   "province": "경남",
+   "city": "김해시",
+   "district_label": "김해시",
+   "name": "김해청년센터 Station-G 청년다옴",
+   "address": "김해시 분성로 365",
+   "phone": "055-321-7889",
+   "url": "https://gimhaeyouth.com"
+  },
+  {
+   "id": "YC-10263",
+   "province": "경남",
+   "city": "김해시",
+   "district_label": "김해시",
+   "name": "청년어울림센터(Station-G 삼방)",
+   "address": "김해시 삼안로291번길 47-15",
+   "phone": "055-313-6687",
+   "url": "https://www.instagram.com/ghyouth_oulimcenter/"
+  },
+  {
+   "id": "YC-10264",
+   "province": "경남",
+   "city": "김해시",
+   "district_label": "김해시",
+   "name": "청년어울림센터(Station-G 장유)",
+   "address": "김해시 부곡로 57",
+   "phone": "055-339-7785",
+   "url": "https://www.gimhaeyouth.com/station-G/"
+  },
+  {
+   "id": "YC-10244",
+   "province": "경남",
+   "city": "남해군",
+   "district_label": "남해군",
+   "name": "남해청년센터 바라",
+   "address": "남해읍 망운로 1-16",
+   "phone": "055-863-1990",
+   "url": "https://www.namhae.go.kr/youthcenter/main.web?smonth=2023-05"
+  },
+  {
+   "id": "YC-10245",
+   "province": "경남",
+   "city": "사천시",
+   "district_label": "사천시",
+   "name": "사천청년센터 \"청춘도화지\"",
+   "address": "사천시 정동면 반룡1길 193 사천시 중앙로 220",
+   "phone": "070-4500-4099",
+   "url": "https://blog.naver.com/4000youth"
+  },
+  {
+   "id": "YC-10246",
+   "province": "경남",
+   "city": "양산시",
+   "district_label": "양산시",
+   "name": "양산청년센터 청담",
+   "address": "양산시 동면 남양산1길 14",
+   "phone": "055-785-5124",
+   "url": "https://blog.naver.com/yangsan_youthcenter"
+  },
+  {
+   "id": "YC-10323",
+   "province": "경남",
+   "city": "창녕군",
+   "district_label": "창녕군",
+   "name": "창녕청년센터",
+   "address": "창녕군 창녕읍 명덕로 113",
+   "phone": "070-4252-2075",
+   "url": "https://www.cng.go.kr/youth.web"
+  },
+  {
+   "id": "YC-10248",
+   "province": "경남",
+   "city": "창원시 성산구",
+   "district_label": "창원시 성산구",
+   "name": "청년일자리 위드유",
+   "address": "창원시 성산구 창원대로 524 4층 청년일자리위드유(401, 402호)",
+   "phone": "055-230-2912",
+   "url": "https://gnfriends.kr"
+  },
+  {
+   "id": "YC-10276",
+   "province": "경남",
+   "city": "창원시 의창구",
+   "district_label": "창원시 의창구",
+   "name": "경상남도미래세대재단",
+   "address": "경남 경상남도 창원시 의창구 사림로 번길 45 59",
+   "phone": "055-711-1306",
+   "url": "https://gnysf.co.kr/"
+  },
+  {
+   "id": "YC-10247",
+   "province": "경남",
+   "city": "창원시 의창구",
+   "district_label": "창원시 의창구",
+   "name": "창원청년비전센터",
+   "address": "창원시 의창구 차룡로48번길 62 2~3층",
+   "phone": "055-213-9075",
+   "url": "https://www.instagram.com/cwyouthcenter/"
+  },
+  {
+   "id": "YC-10249",
+   "province": "경남",
+   "city": "통영시",
+   "district_label": "통영시",
+   "name": "통영시청년센터(통영청년세움)",
+   "address": "통영시 충렬로 31",
+   "phone": "055-645-1838",
+   "url": "http://www.tyseum.or.kr/main/main.php"
+  },
+  {
+   "id": "YC-10250",
+   "province": "경남",
+   "city": "하동군",
+   "district_label": "하동군",
+   "name": "하동청년센터",
+   "address": "하동군 하동읍 중앙2길 6-5",
+   "phone": "055-883-9361",
+   "url": "https://www.hadong.go.kr/youth.web"
+  },
+  {
+   "id": "YC-10251",
+   "province": "경남",
+   "city": "함안군",
+   "district_label": "함안군",
+   "name": "함안청년센터",
+   "address": "함안군 가야읍 중앙북길 86 다옴나눔센터 3F",
+   "phone": "055-585-8311",
+   "url": "https://youthhaman.kr/"
+  },
+  {
+   "id": "YC-10265",
+   "province": "경북",
+   "city": "경산시",
+   "district_label": "경산시",
+   "name": "경산시 청년센터",
+   "address": "경상북도 경산시 중앙로2길 8",
+   "phone": "053-811-9502",
+   "url": "https://www.kyceo.or.kr"
+  },
+  {
+   "id": "YC-10223",
+   "province": "경북",
+   "city": "경산시",
+   "district_label": "경산시",
+   "name": "경상북도청년센터",
+   "address": "경상북도 경산시 진량읍 봉황길 34 2층",
+   "phone": "053-850-9730",
+   "url": "https://www.instagram.com/gbcnct_?igsh=MTZmN243M29yaTN6MQ=="
+  },
+  {
+   "id": "YC-10225",
+   "province": "경북",
+   "city": "경주시",
+   "district_label": "경주시",
+   "name": "청년고도",
+   "address": "경주시 원효로 142",
+   "phone": "054-742-1539",
+   "url": "https://www.godo1539.com/"
+  },
+  {
+   "id": "YC-10322",
+   "province": "경북",
+   "city": "구미시",
+   "district_label": "구미시",
+   "name": "구미영스퀘어",
+   "address": "경북 구미시 구미중앙로76, 구미역 상업동 1~2층 구미영스퀘어",
+   "phone": "054-480-2518",
+   "url": "https://www.gumi.go.kr/young/"
+  },
+  {
+   "id": "YC-10321",
+   "province": "경북",
+   "city": "구미시",
+   "district_label": "구미시",
+   "name": "구미청년창업LAB",
+   "address": "경북 구미시 산동읍 첨단기업1로 17",
+   "phone": "054-479-2073",
+   "url": "https://gstartup.geri.re.kr/"
+  },
+  {
+   "id": "YC-10227",
+   "province": "경북",
+   "city": "김천시",
+   "district_label": "김천시",
+   "name": "김천시 청년센터",
+   "address": "김천시 지좌동 726-4 (황산로 67)",
+   "phone": "054-432-0070",
+   "url": "https://gcyouth.or.kr/"
+  },
+  {
+   "id": "YC-10228",
+   "province": "경북",
+   "city": "문경시",
+   "district_label": "문경시",
+   "name": "문경시청년센터 (꿈틀)",
+   "address": "경상북도 문경시 점촌1길 5, 3~4층",
+   "phone": "054-556-3350",
+   "url": "https://mgyc.co.kr/"
+  },
+  {
+   "id": "YC-10229",
+   "province": "경북",
+   "city": "상주시",
+   "district_label": "상주시",
+   "name": "들락날락",
+   "address": "상주시 동수2길 22",
+   "phone": "054-532-7779",
+   "url": "https://www.sangju.go.kr/opencenter/main.tc"
+  },
+  {
+   "id": "YC-10230",
+   "province": "경북",
+   "city": "영주시",
+   "district_label": "영주시",
+   "name": "영주청년정주지원센터",
+   "address": "영주시 풍기읍 동양대로 145, DYU타워 1층",
+   "phone": "054-630-1316",
+   "url": "https://yjyouth.dyu.ac.kr/"
+  },
+  {
+   "id": "YC-10231",
+   "province": "경북",
+   "city": "영천시",
+   "district_label": "영천시",
+   "name": "영천청년센터",
+   "address": "영천시 충효로 60, 4층",
+   "phone": "054-337-1079",
+   "url": "https://ycyouth.kr/"
+  },
+  {
+   "id": "YC-10232",
+   "province": "경북",
+   "city": "예천군",
+   "district_label": "예천군",
+   "name": "예천군 청년센터",
+   "address": "예천읍 효자로 89",
+   "phone": "054-650-8287",
+   "url": "https://www.ycg.kr/open.content/youngman/"
+  },
+  {
+   "id": "YC-10233",
+   "province": "경북",
+   "city": "의성군",
+   "district_label": "의성군",
+   "name": "의성군 청년센터 \"영글터\"",
+   "address": "의성군 의성읍 경북대로 5690, 1층",
+   "phone": "054-833-4520",
+   "url": "https://www.usc.go.kr/youth/main.do"
+  },
+  {
+   "id": "YC-10234",
+   "province": "경북",
+   "city": "칠곡군",
+   "district_label": "칠곡군",
+   "name": "칠곡군 청년센터",
+   "address": "경상북도 칠곡군 왜관읍 중앙로10길 12, 2층",
+   "phone": "054-977-3877",
+   "url": "https://www.instagram.com/chilgokyc/"
+  },
+  {
+   "id": "YC-10236",
+   "province": "경북",
+   "city": "포항시 북구",
+   "district_label": "포항시 북구",
+   "name": "포항청춘센터&청년창업플랫폼",
+   "address": "경상북도 포항시 북구 중앙로 325",
+   "phone": "054-252-2833",
+   "url": "http://www.pohang.go.kr/youthph/"
+  },
+  {
+   "id": "YC-10093",
+   "province": "광주",
+   "city": "광산구",
+   "district_label": "광산구",
+   "name": "청청플랫폼",
+   "address": "광주광역시 광산구 첨단중앙로 160 4층",
+   "phone": "062-971-9500",
+   "url": "https://cdswc.com/busniess/youth"
+  },
+  {
+   "id": "YC-10094",
+   "province": "광주",
+   "city": "남구",
+   "district_label": "남구",
+   "name": "청년와락",
+   "address": "광주광역시 남구 독립로 2, 2층",
+   "phone": "062-607-2682",
+   "url": "https://www.namgu.gwangju.kr/index.es?sid=a1"
+  },
+  {
+   "id": "YC-10290",
+   "province": "광주",
+   "city": "동구",
+   "district_label": "동구",
+   "name": "광주광역시 동구 청년센터 아지트(D.GIT)",
+   "address": "광주광역시 동구 중앙로 246번길 7-9",
+   "phone": "0507-1476-6116",
+   "url": "https://gjdgit.kr/"
+  },
+  {
+   "id": "YC-10291",
+   "province": "광주",
+   "city": "동구",
+   "district_label": "동구",
+   "name": "동명청년창작소",
+   "address": "광주광역시 동구 중앙로246번길 5(동명동)",
+   "phone": "062-417-7700",
+   "url": "https://dmyouthlab.kr"
+  },
+  {
+   "id": "YC-10096",
+   "province": "광주",
+   "city": "북구",
+   "district_label": "북구",
+   "name": "(북구청년센터) 청춘이랑/본관",
+   "address": "광주광역시 북구 자미로66번길 55",
+   "phone": "062-410-8262",
+   "url": "http://bukgu.gwangju.kr/youth/"
+  },
+  {
+   "id": "YC-10099",
+   "province": "광주",
+   "city": "서구",
+   "district_label": "서구",
+   "name": "광주청년센터 토닥토닥 상무점",
+   "address": "광주광역시 서구 상무중앙로 34, 2층",
+   "phone": "062-372-5990",
+   "url": null
+  },
+  {
+   "id": "YC-10100",
+   "province": "광주",
+   "city": "서구",
+   "district_label": "서구",
+   "name": "서구청년센터플러스",
+   "address": "광주광역시 서구 상무대로 1240번길 21",
+   "phone": "062-360-7753",
+   "url": "https://www.seogu.gwangju.kr/menu.es?mid=b71001000000"
+  },
+  {
+   "id": "YC-10072",
+   "province": "대구",
+   "city": "군위군",
+   "district_label": "군위군",
+   "name": "청년공유 문화금고",
+   "address": "대구 군위군 우보면 이화3길 15",
+   "phone": "054-380-3913",
+   "url": "https://gunwi3964.org/gunwi3964/page.do?mnu_uid=355&"
+  },
+  {
+   "id": "YC-10082",
+   "province": "대구",
+   "city": "남구",
+   "district_label": "남구",
+   "name": "남구청년센터 나우",
+   "address": "대구광역시 남구 봉덕남로 99 1층",
+   "phone": "053-473-2023",
+   "url": "https://youthnamgu.com/"
+  },
+  {
+   "id": "YC-10073",
+   "province": "대구",
+   "city": "달서구",
+   "district_label": "달서구",
+   "name": "달서구청년센터",
+   "address": "대구광역시 달서구 중흥로3",
+   "phone": "053-628-1008",
+   "url": "https://d-youth.or.kr/"
+  },
+  {
+   "id": "YC-10074",
+   "province": "대구",
+   "city": "달성군",
+   "district_label": "달성군",
+   "name": "달성청년혁신센터",
+   "address": "대구 달성군 화원읍 성천로 5 여성문화복지센터 별관 3,4층",
+   "phone": "053-643-2031",
+   "url": "https://www.dsyouth.or.kr/"
+  },
+  {
+   "id": "YC-10075",
+   "province": "대구",
+   "city": "동구",
+   "district_label": "동구",
+   "name": "동구청년센터 the꿈",
+   "address": "대구광역시 동구 효목로7",
+   "phone": "053-261-3355",
+   "url": "https://blog.naver.com/donggudarak"
+  },
+  {
+   "id": "YC-10289",
+   "province": "대구",
+   "city": "북구",
+   "district_label": "북구",
+   "name": "북구 청년꿈드림지원센터",
+   "address": "대구 북구 경대로17길 76 4층(복현동)",
+   "phone": "050-939-1934",
+   "url": "https://www.instagram.com/bgyouth1939"
+  },
+  {
+   "id": "YC-10271",
+   "province": "대구",
+   "city": "서구",
+   "district_label": "서구",
+   "name": "서구청년센터 청년마당",
+   "address": "대구광역시 서구 와룡로90길 61 (이현동) 2층",
+   "phone": "053-561-2051",
+   "url": "https://blog.naver.com/seogu_youth"
+  },
+  {
+   "id": "YC-10077",
+   "province": "대구",
+   "city": "수성구",
+   "district_label": "수성구",
+   "name": "수성구청년센터(모잇다)",
+   "address": "대구광역시 수성구 달구벌대로528길 15(만촌동)",
+   "phone": "053-719-4571",
+   "url": "http://www.suseongyouth.or.kr"
+  },
+  {
+   "id": "YC-10078",
+   "province": "대구",
+   "city": "중구",
+   "district_label": "중구",
+   "name": "2030청년창업지원센터",
+   "address": "대구광역시 중구 경상감영길 176 2층(패션주얼리전문타운 2층)",
+   "phone": "053-255-2301",
+   "url": "http://www.jung2030.or.kr"
+  },
+  {
+   "id": "YC-10259",
+   "province": "대구",
+   "city": "중구",
+   "district_label": "중구",
+   "name": "중구청년지원센터 잇플",
+   "address": "대구 중구 국채보상로 580 대현프리몰대구 내 I열 3호",
+   "phone": "053-253-5252",
+   "url": "https://blog.naver.com/itplace_junggu"
+  },
+  {
+   "id": "YC-10101",
+   "province": "대전",
+   "city": "대덕구",
+   "district_label": "대덕구",
+   "name": "청년벙커",
+   "address": "대전광역시 대덕구 대전로1033번길 20 대덕구청 지하(오정동)",
+   "phone": "042-710-7997",
+   "url": "http://www.ddyouth.net/"
+  },
+  {
+   "id": "YC-10103",
+   "province": "대전",
+   "city": "동구",
+   "district_label": "동구",
+   "name": "동구동락",
+   "address": "대전광약시 동구 백룡료 20",
+   "phone": "070-4252-0909",
+   "url": "http://www.dongguyouth.or.kr/kor"
+  },
+  {
+   "id": "YC-10102",
+   "province": "대전",
+   "city": "서구",
+   "district_label": "서구",
+   "name": "대전청년내일재단",
+   "address": "대전광역시 서구 갈마중로30번길 67 4층(갈마동)",
+   "phone": "042-719-8470",
+   "url": "https://www.daejeonyouthportal.kr/"
+  },
+  {
+   "id": "YC-10107",
+   "province": "대전",
+   "city": "서구",
+   "district_label": "서구",
+   "name": "청춘스럽",
+   "address": "대전광역시 서구 계룡로 314 1층(갈마동, 대전일보사)",
+   "phone": "042-523-7736",
+   "url": "https://seoguyouth.kr/"
+  },
+  {
+   "id": "YC-10108",
+   "province": "대전",
+   "city": "서구",
+   "district_label": "서구",
+   "name": "청춘정거장",
+   "address": "대전광역시 서구 대덕대로 198 프뢰벨빌딩 7층",
+   "phone": "042-471-0069",
+   "url": "https://seoguyouth.kr/"
+  },
+  {
+   "id": "YC-10109",
+   "province": "대전",
+   "city": "서구",
+   "district_label": "서구",
+   "name": "청춘포털",
+   "address": "대전광역시 서구 사마7길 33 2층(도마동, 도솔마을어울림플랫폼)",
+   "phone": "070-4833-0442",
+   "url": "https://seoguyouth.kr/"
+  },
+  {
+   "id": "YC-10292",
+   "province": "대전",
+   "city": "유성구",
+   "district_label": "유성구",
+   "name": "유성구 청년지원센터",
+   "address": "대전광역시 유성구 농대로15번길 20, 3~4층(궁동)",
+   "phone": "042-611-6018",
+   "url": null
+  },
+  {
+   "id": "YC-10110",
+   "province": "대전",
+   "city": "중구",
+   "district_label": "중구",
+   "name": "청년모아",
+   "address": "대전광역시 중구 목중로 70번길 15 2층",
+   "phone": "042-369-7942",
+   "url": "http://www.xn--660b31p2yizuh.com/main"
+  },
+  {
+   "id": "YC-10054",
+   "province": "부산",
+   "city": "금정구",
+   "district_label": "금정구",
+   "name": "청년창조발전소 꿈터+",
+   "address": "부산광역시 금정구 금정로 63-1 꿈터플러스",
+   "phone": "051-710-4920",
+   "url": "http://www.꿈터.kr/"
+  },
+  {
+   "id": "YC-10056",
+   "province": "부산",
+   "city": "남구",
+   "district_label": "남구",
+   "name": "공간숲",
+   "address": "부산광역시 남구 용소로 14번길 10 2층",
+   "phone": "051-607-3665",
+   "url": "https://www.instagram.com/sai42_forest/"
+  },
+  {
+   "id": "YC-10055",
+   "province": "부산",
+   "city": "남구",
+   "district_label": "남구",
+   "name": "청년창조발전소 고고씽JOB",
+   "address": "부산광역시 남구 용소로46번길 7 청년창조발전소 고고씽 JOB",
+   "phone": "051-607-3666",
+   "url": "https://www.bsnamgu.go.kr/namgu_youth/index.do"
+  },
+  {
+   "id": "YC-10326",
+   "province": "부산",
+   "city": "동래구",
+   "district_label": "동래구",
+   "name": "동래구청년어울림센터",
+   "address": "부산광역시동래구금강로 129",
+   "phone": "051-997-5003",
+   "url": null
+  },
+  {
+   "id": "YC-10057",
+   "province": "부산",
+   "city": "부산진구",
+   "district_label": "부산진구",
+   "name": "부산진구 동네 청년공간 청년마루",
+   "address": "부산광역시 부산진구 백양대로 78번길 15",
+   "phone": "051-893-9155",
+   "url": "https://blog.naver.com/youngwithjingu"
+  },
+  {
+   "id": "YC-10058",
+   "province": "부산",
+   "city": "부산진구",
+   "district_label": "부산진구",
+   "name": "부산진구청년플랫폼 청년 FLEX",
+   "address": "부산 부산진구 전포대로 181 청년 FLEX",
+   "phone": "051-605-6344",
+   "url": "https://blog.naver.com/youngwithjingu"
+  },
+  {
+   "id": "YC-10059",
+   "province": "부산",
+   "city": "부산진구",
+   "district_label": "부산진구",
+   "name": "청년두드림센터",
+   "address": "부산광역시 부산진구 가야대로 772 롯데백화점 2층 청년두드림",
+   "phone": "051-816-4600",
+   "url": "https://www.busanjob.net/08_wyou/wyou10.asp"
+  },
+  {
+   "id": "YC-10060",
+   "province": "부산",
+   "city": "부산진구",
+   "district_label": "부산진구",
+   "name": "청년창조발전소 디자인스프링",
+   "address": "부산광역시 부산진구 대학로36번길 10 디자인스프링",
+   "phone": "051-893-0944",
+   "url": "https://blog.naver.com/design_spring"
+  },
+  {
+   "id": "YC-10061",
+   "province": "부산",
+   "city": "북구",
+   "district_label": "북구",
+   "name": "청년문화예술창업센터(청년아트스테이션)",
+   "address": "부산광역시 북구 학사로 135",
+   "phone": "583-880-2535",
+   "url": "https://www.groobuk.com/31"
+  },
+  {
+   "id": "YC-10062",
+   "province": "부산",
+   "city": "북구",
+   "district_label": "북구",
+   "name": "청년센터 감동",
+   "address": "부산 북구 낙동대로 1694번길 4",
+   "phone": "010-4668-5802",
+   "url": "https://blog.naver.com/gupoyouth"
+  },
+  {
+   "id": "YC-10063",
+   "province": "부산",
+   "city": "사하구",
+   "district_label": "사하구",
+   "name": "사하 청년창업지원센터",
+   "address": "부산광역시 사하구 하신중앙로 324 보해이브빌 2층 (하단동)",
+   "phone": "051-201-0191",
+   "url": "https://www.saha.go.kr/startup/main.do"
+  },
+  {
+   "id": "YC-10286",
+   "province": "부산",
+   "city": "사하구",
+   "district_label": "사하구",
+   "name": "사하청년공간 청신호",
+   "address": "부산사하구 사하구 낙동대로 413, 2층(하단동, 하단롯데캐슬)",
+   "phone": "051-271-0191",
+   "url": "https://www.saha.go.kr/startup/main.do"
+  },
+  {
+   "id": "YC-10064",
+   "province": "부산",
+   "city": "서구",
+   "district_label": "서구",
+   "name": "무튼304",
+   "address": "부산광역시 서구 구덕로 304",
+   "phone": "070-7812-0150",
+   "url": "https://www.instagram.com/muten_304/"
+  },
+  {
+   "id": "YC-10287",
+   "province": "부산",
+   "city": "수영구",
+   "district_label": "수영구",
+   "name": "광안 엑스투지 청년커뮤니티센터",
+   "address": "부산광역시 수영구 수영로 607번길 17",
+   "phone": "051-610-4376",
+   "url": null
+  },
+  {
+   "id": "YC-10288",
+   "province": "부산",
+   "city": "수영구",
+   "district_label": "수영구",
+   "name": "망미크리에이터센터",
+   "address": "부산수영구 연수로296번길 7",
+   "phone": "051-756-4371",
+   "url": null
+  },
+  {
+   "id": "YC-10285",
+   "province": "부산",
+   "city": "수영구",
+   "district_label": "수영구",
+   "name": "민락인디트레이닝센터",
+   "address": "부산 수영구 수영로 769 도시철도 민락역사 내",
+   "phone": "051-754-7661",
+   "url": "https://www.instagram.com/millakindie/?hl=ko"
+  },
+  {
+   "id": "YC-10065",
+   "province": "부산",
+   "city": "연제구",
+   "district_label": "연제구",
+   "name": "연제청년창업나래센터",
+   "address": "부산광역시 연제구 법원남로9번길 17 동해선거제역 2층",
+   "phone": "051-862-3732",
+   "url": "https://xn--910btmz0nc6k1uflh22lwvk02ag44a.kr/"
+  },
+  {
+   "id": "YC-10066",
+   "province": "부산",
+   "city": "영도구",
+   "district_label": "영도구",
+   "name": "청년희망 플랫폼 다:이룸",
+   "address": "부산광역시 영도구 번영길 8, 3층",
+   "phone": "051-413-4661",
+   "url": "https://www.instagram.com/youngdo_youngman4661"
+  },
+  {
+   "id": "YC-10068",
+   "province": "부산",
+   "city": "중구",
+   "district_label": "중구",
+   "name": "부산청년센터",
+   "address": "부산광역시 중구 자갈치해안로 52 3,4층",
+   "phone": "051-241-7865",
+   "url": "https://young.busan.go.kr/bycenter/index.nm"
+  },
+  {
+   "id": "YC-10284",
+   "province": "부산",
+   "city": "중구",
+   "district_label": "중구",
+   "name": "오름라운지",
+   "address": "부산광역시  중구 광복지하상가 A-66-1~5, A-67,C-73-2, C-74",
+   "phone": "051-600-1817",
+   "url": "https://blog.naver.com/ylab2021"
+  },
+  {
+   "id": "YC-10069",
+   "province": "부산",
+   "city": "중구",
+   "district_label": "중구",
+   "name": "중구 청년 센터, 청년마루",
+   "address": "부산광역시 중구 법수길 61",
+   "phone": "051-600-4491",
+   "url": "https://blog.naver.com/bsjunggu/222998959695"
+  },
+  {
+   "id": "YC-10070",
+   "province": "부산",
+   "city": "중구",
+   "district_label": "중구",
+   "name": "청년작당소",
+   "address": "부산광역시 중구 광복중앙로 13 BNK아트시네마 3층",
+   "phone": "051-711-2980",
+   "url": "https://www.jakdangso.kr/"
+  },
+  {
+   "id": "YC-10071",
+   "province": "부산",
+   "city": "해운대구",
+   "district_label": "해운대구",
+   "name": "해운대 청년채움공간",
+   "address": "부산광역시 해운대구 센텀동로 200",
+   "phone": "051-647-0915",
+   "url": "http://xn--s39awrm7hz2bt67becw33c7xaz19c.kr/index.do"
+  },
+  {
+   "id": "YC-10025",
+   "province": "서울",
+   "city": "강동구",
+   "district_label": "강동구",
+   "name": "서울청년센터 강동",
+   "address": "서울특별시 강동구 올림픽로 610 효성해링턴타워 2층",
+   "phone": "02-4419-9380",
+   "url": null
+  },
+  {
+   "id": "YC-10028",
+   "province": "서울",
+   "city": "강서구",
+   "district_label": "강서구",
+   "name": "서울청년센터 강서",
+   "address": "서울특별시 강서구 강서로 231 상가 1동 2층 우장산 해링턴타워",
+   "phone": "02-2600-5280",
+   "url": "https://blog.naver.com/youthgangseo"
+  },
+  {
+   "id": "YC-10029",
+   "province": "서울",
+   "city": "관악구",
+   "district_label": "관악구",
+   "name": "관악청년청",
+   "address": "서울특별시 관악구 남부순환로 1759 2~7층",
+   "phone": "02-883-8116",
+   "url": "https://www.checkin-gwanak.or.kr/main/"
+  },
+  {
+   "id": "YC-10030",
+   "province": "서울",
+   "city": "관악구",
+   "district_label": "관악구",
+   "name": "서울청년센터 관악 청년문화공간 신림동쓰리룸",
+   "address": "서울특별시 관악구 신림로 99 센터스퀘어 청년활력공간 1-2층",
+   "phone": "02-878-0823",
+   "url": "https://blog.naver.com/sillim3room/223322772615"
+  },
+  {
+   "id": "YC-10282",
+   "province": "서울",
+   "city": "광진구",
+   "district_label": "광진구",
+   "name": "광진 청년아지트",
+   "address": "서울광진구 광진구 동일로 100, 별관 2~4층",
+   "phone": "02-6238-2030",
+   "url": "https://www.gwangzit.org"
+  },
+  {
+   "id": "YC-10031",
+   "province": "서울",
+   "city": "광진구",
+   "district_label": "광진구",
+   "name": "서울청년센터 광진",
+   "address": "서울특별시 광진구 능동로 245 DH빌딩 2층~3층",
+   "phone": "02-3409-3890",
+   "url": "https://www.instagram.com/jingu_orang/"
+  },
+  {
+   "id": "YC-10032",
+   "province": "서울",
+   "city": "구로구",
+   "district_label": "구로구",
+   "name": "구로청년공간 청년이룸",
+   "address": "서울특별시 구로구 오리로 1130 지하 1층",
+   "phone": "070-4913-4137",
+   "url": "http://www.youtheroom.kr"
+  },
+  {
+   "id": "YC-10033",
+   "province": "서울",
+   "city": "금천구",
+   "district_label": "금천구",
+   "name": "서울청년센터 금천 청춘삘딩",
+   "address": "(서울청년센터 금천) 금천구 가산디지털1로 120 G밸리창업복지센터 1~2층",
+   "phone": "070-7777-3745",
+   "url": "http://www.youthblg.org/"
+  },
+  {
+   "id": "YC-10038",
+   "province": "서울",
+   "city": "노원구",
+   "district_label": "노원구",
+   "name": "노원 청년공유센터 청년공감",
+   "address": "서울시 노원구 동일로 1676 3층",
+   "phone": "02-2116-7103",
+   "url": "https://www.nowonshare.kr/main/index.php"
+  },
+  {
+   "id": "YC-10034",
+   "province": "서울",
+   "city": "노원구",
+   "district_label": "노원구",
+   "name": "노원 청년일삶센터",
+   "address": "서울특별시 노원구 동일로192길 74 (공릉동) 우은빌딩 801호",
+   "phone": "02-972-1312",
+   "url": "http://www.13center.kr/"
+  },
+  {
+   "id": "YC-10035",
+   "province": "서울",
+   "city": "노원구",
+   "district_label": "노원구",
+   "name": "노원구 청년일자리센터 <청년내일>",
+   "address": "서울시 노원구 동일로 1405, 9층 KB금융노원Plaza, 9층",
+   "phone": "02-932-2500",
+   "url": "http://nwjob.kr/"
+  },
+  {
+   "id": "YC-10037",
+   "province": "서울",
+   "city": "노원구",
+   "district_label": "노원구",
+   "name": "노원청년정책거버넌스센터",
+   "address": "서울시 노원구 노해로 455 인산빌딩4층",
+   "phone": "02-2116-7107",
+   "url": "https://www.instagram.com/no1_gov/"
+  },
+  {
+   "id": "YC-10277",
+   "province": "서울",
+   "city": "노원구",
+   "district_label": "노원구",
+   "name": "문화살롱 5120",
+   "address": "서울시 노원구 공릉로 51길 20, 지하1층",
+   "phone": "02-948-1217",
+   "url": "https://salon5120.com/"
+  },
+  {
+   "id": "YC-10036",
+   "province": "서울",
+   "city": "노원구",
+   "district_label": "노원구",
+   "name": "서울청년센터 노원",
+   "address": "서울특별시 노원구 동일로 1405 9층 서울청년센터 노원 오랑",
+   "phone": "02-937-5550",
+   "url": "https://map.naver.com/p/entry/place/1820507934?placePath=%252Fhome%253Fentry%253Dplt&searchType=place&lng=127.0601785&lat=37.6538298&c=15.00,0,0,0,dh"
+  },
+  {
+   "id": "YC-10279",
+   "province": "서울",
+   "city": "도봉구",
+   "district_label": "도봉구",
+   "name": "도봉구 청년취업지원센터",
+   "address": "서울도봉구 서울특별시 도봉구 마들로 656 도봉구청 1층",
+   "phone": "02-2091-3848",
+   "url": "https://blog.naver.com/dbyouthjob"
+  },
+  {
+   "id": "YC-10278",
+   "province": "서울",
+   "city": "도봉구",
+   "district_label": "도봉구",
+   "name": "도봉구청년창업센터",
+   "address": "서울시 도봉구 마들로13길 61 씨드큐브 창동 오피스C동 4층",
+   "phone": "02-6315-9900",
+   "url": "https://dobongstartup.com/"
+  },
+  {
+   "id": "YC-10039",
+   "province": "서울",
+   "city": "도봉구",
+   "district_label": "도봉구",
+   "name": "서울청년센터 도봉",
+   "address": "서울 도봉구 마들로11길 75 서울청년센터 도봉",
+   "phone": "070-8853-6553",
+   "url": "https://blog.naver.com/dborang"
+  },
+  {
+   "id": "YC-10040",
+   "province": "서울",
+   "city": "동대문구",
+   "district_label": "동대문구",
+   "name": "서울청년센터 동대문",
+   "address": "서울특별시 동대문구 왕산로 210 서울청년센터 동대문",
+   "phone": "077-4112-1750",
+   "url": "https://blog.naver.com/ddmorang"
+  },
+  {
+   "id": "YC-10041",
+   "province": "서울",
+   "city": "동작구",
+   "district_label": "동작구",
+   "name": "노량진 청년일자리센터",
+   "address": "서울특별시 동작구 노량진로 140 메가스터디타워 2층 노량진 청년일자리센터",
+   "phone": "02-812-1114",
+   "url": "http://youthjob.dongjak.go.kr/"
+  },
+  {
+   "id": "YC-10042",
+   "province": "서울",
+   "city": "마포구",
+   "district_label": "마포구",
+   "name": "마포청년창업취업지원센터 나루",
+   "address": "서울특별시 마포구 양화로 13 스퀘어리버뷰 3~4층 마포청년나루",
+   "phone": "02-6261-1939",
+   "url": "https://www.naroo.or.kr/"
+  },
+  {
+   "id": "YC-10043",
+   "province": "서울",
+   "city": "마포구",
+   "district_label": "마포구",
+   "name": "서울청년센터 마포",
+   "address": "서울특별시 마포구 월드컵로1길 14 P101호",
+   "phone": "02-336-3690",
+   "url": "https://blog.naver.com/youth_mapo"
+  },
+  {
+   "id": "YC-10044",
+   "province": "서울",
+   "city": "서초구",
+   "district_label": "서초구",
+   "name": "서초청년센터 (서울청년센터 서초)",
+   "address": "서울 서초구 남부순환로 2567",
+   "phone": "02-6235-3330",
+   "url": "https://www.seochoyc.org/main/main.php"
+  },
+  {
+   "id": "YC-10045",
+   "province": "서울",
+   "city": "성동구",
+   "district_label": "성동구",
+   "name": "서울청년센터 성동",
+   "address": "서울특별시 성동구 마조로 66 (마장동, 라봄 성동) 라봄 성동 2층 210호",
+   "phone": "02-2294-6487",
+   "url": "https://blog.naver.com/syc_seongdong"
+  },
+  {
+   "id": "YC-10047",
+   "province": "서울",
+   "city": "성동구",
+   "district_label": "성동구",
+   "name": "성동구 청년지원센터",
+   "address": "서울특별시 성동구 마조로66 라봄성동 2층  211호 성동구 청년지원센터",
+   "phone": "02-2281-4772",
+   "url": "https://sdyv.org/"
+  },
+  {
+   "id": "YC-10258",
+   "province": "서울",
+   "city": "성북구",
+   "district_label": "성북구",
+   "name": "서울청년센터 성북",
+   "address": "서울특별시 성북구 종암로 5길 7 서울청년센터 성북(단독건물)",
+   "phone": "02-921-5330",
+   "url": "https://blog.naver.com/syc_sbyouth"
+  },
+  {
+   "id": "YC-10280",
+   "province": "서울",
+   "city": "성북구",
+   "district_label": "성북구",
+   "name": "청년공간 길이음",
+   "address": "서울 성북구 삼양로 42-1, 2층",
+   "phone": "02-2241-4950",
+   "url": null
+  },
+  {
+   "id": "YC-10048",
+   "province": "서울",
+   "city": "양천구",
+   "district_label": "양천구",
+   "name": "서울청년센터 양천",
+   "address": "서울특별시 양천구 오목로 359 서울청년센터 양천",
+   "phone": "02-2062-8826",
+   "url": "https://blog.naver.com/yc_orang"
+  },
+  {
+   "id": "YC-10049",
+   "province": "서울",
+   "city": "영등포구",
+   "district_label": "영등포구",
+   "name": "서울청년센터 영등포",
+   "address": "서울특별시 영등포구 당산로 83 2층 서울청년센터 영등포",
+   "phone": "02-2069-0246",
+   "url": "https://m.blog.naver.com/ydporang?tab=1"
+  },
+  {
+   "id": "YC-10050",
+   "province": "서울",
+   "city": "용산구",
+   "district_label": "용산구",
+   "name": "서울광역청년센터",
+   "address": "서울특별시 용산구 원효로97길 15 2층 서울광역청년센터",
+   "phone": "02-6358-0607",
+   "url": "https://www.smyc.kr/"
+  },
+  {
+   "id": "YC-10051",
+   "province": "서울",
+   "city": "용산구",
+   "district_label": "용산구",
+   "name": "용산 청년지음",
+   "address": "서울특별시 용산구 서빙고로 17 용산센트럴파크 해링턴스퀘어 공공시설동 3층",
+   "phone": "02-6261-1934",
+   "url": "https://blog.naver.com/yongsanyouthspace"
+  },
+  {
+   "id": "YC-10052",
+   "province": "서울",
+   "city": "은평구",
+   "district_label": "은평구",
+   "name": "서울청년센터 은평",
+   "address": "서울특별시 은평구 통일로67길 9 주주베 A동 2층 서울청년센터 은평",
+   "phone": "02-351-3711",
+   "url": "https://blog.naver.com/sycep"
+  },
+  {
+   "id": "YC-10281",
+   "province": "서울",
+   "city": "종로구",
+   "district_label": "종로구",
+   "name": "종로청년창업센터",
+   "address": "서울특별시 종로구 새문안로 41, 2~3층",
+   "phone": "02-2148-2319",
+   "url": "https://www.jongno.go.kr/Main.do?menuId=401034&menuNo=401034"
+  },
+  {
+   "id": "YC-10283",
+   "province": "서울",
+   "city": "중구",
+   "district_label": "중구",
+   "name": "서울청년센터 중구",
+   "address": "서울특별시 중구 서소문로 12길 36 소공누리센터 8층",
+   "phone": "070-4125-2208",
+   "url": "https://youth.seoul.go.kr/orang/cntr/intro.do?key=2309210001&cntrId=CT00162"
+  },
+  {
+   "id": "YC-10119",
+   "province": "세종",
+   "city": "",
+   "district_label": "세종특별자치시",
+   "name": "세종특별자치시 청년센터",
+   "address": "세종특별자치시 다정중앙로 20 가온마을7단지 상가동 2층 세종청년센터",
+   "phone": "044-251-3272",
+   "url": "https://www.4242.or.kr/"
+  },
+  {
+   "id": "YC-10111",
+   "province": "울산",
+   "city": "남구",
+   "district_label": "남구",
+   "name": "남구 청년일자리카페",
+   "address": "울산광역시 남구 대학로 130 2층",
+   "phone": "052-260-2700",
+   "url": "https://www.ulsannamgu.go.kr/namgujob/contents/space/space_cafe.do"
+  },
+  {
+   "id": "YC-10275",
+   "province": "울산",
+   "city": "남구",
+   "district_label": "남구",
+   "name": "울산청년지원센터",
+   "address": "울산광역시 남구 봉월로38번길 32, 종하이노베이션센터 3층",
+   "phone": "052-230-3437",
+   "url": "https://www.ulsan.go.kr/s/ulsanyouth/main.ulsan"
+  },
+  {
+   "id": "YC-10113",
+   "province": "울산",
+   "city": "동구",
+   "district_label": "동구",
+   "name": "동구청년센터",
+   "address": "울산광역시 동구 명덕5길 6 3층",
+   "phone": "052-209-3486",
+   "url": "https://blog.naver.com/ulsanyouth_dong9"
+  },
+  {
+   "id": "YC-10116",
+   "province": "울산",
+   "city": "동구",
+   "district_label": "동구",
+   "name": "청년스테이지ON",
+   "address": "울산광역시 동구 해수욕장10길 34 5층",
+   "phone": "052-209-3481",
+   "url": "https://www.instagram.com/us_stageon/"
+  },
+  {
+   "id": "YC-10117",
+   "province": "울산",
+   "city": "북구",
+   "district_label": "북구",
+   "name": "청년공간 와락(樂)",
+   "address": "울산 북구 진장유통로 16",
+   "phone": "052-289-7719",
+   "url": "https://blog.naver.com/ybwarak0201"
+  },
+  {
+   "id": "YC-10118",
+   "province": "울산",
+   "city": "북구",
+   "district_label": "북구",
+   "name": "청년창업지원센터",
+   "address": "울산 북구 농공단지1길 32-8",
+   "phone": "052-296-3255",
+   "url": "https://bgbiz.or.kr"
+  },
+  {
+   "id": "YC-10114",
+   "province": "울산",
+   "city": "울주군",
+   "district_label": "울주군",
+   "name": "울주군청년센터",
+   "address": "울산 울주군 범서읍 대리로 15-20",
+   "phone": "052-204-1329",
+   "url": "https://www.ulju.ulsan.kr/dreamwings/"
+  },
+  {
+   "id": "YC-10115",
+   "province": "울산",
+   "city": "중구",
+   "district_label": "중구",
+   "name": "청년디딤터",
+   "address": "울산광역시 중구 학성로 95-6",
+   "phone": "052-211-1030",
+   "url": "https://www.didimter.or.kr/"
+  },
+  {
+   "id": "YC-10092",
+   "province": "인천",
+   "city": "강화군",
+   "district_label": "강화군",
+   "name": "청년공간 유유기지 강화",
+   "address": "인천시 강화군 강화읍 강화대로430 2층",
+   "phone": "032-933-1016",
+   "url": "https://www.instagram.com/inuu_ganghwa/"
+  },
+  {
+   "id": "YC-10083",
+   "province": "인천",
+   "city": "계양구",
+   "district_label": "계양구",
+   "name": "계양청년마당",
+   "address": "인천광역시 계양구 계산새로 88",
+   "phone": "032-450-8356",
+   "url": "https://youth.incheon.go.kr/space/gyeyang/"
+  },
+  {
+   "id": "YC-10084",
+   "province": "인천",
+   "city": "남동구",
+   "district_label": "남동구",
+   "name": "남동구 청년꿈터",
+   "address": "인천광역시 남동구 은봉로 297 지하1층 청년꿈터",
+   "phone": "032-710-9551",
+   "url": "https://youth.incheon.go.kr/space/namdong/"
+  },
+  {
+   "id": "YC-10085",
+   "province": "인천",
+   "city": "남동구",
+   "district_label": "남동구",
+   "name": "남동구 청년창업지원센터",
+   "address": "인천광역시 남동구 은봉로 297 별동 2,3층",
+   "phone": "032-710-0501",
+   "url": "http://www.dreamtown.or.kr"
+  },
+  {
+   "id": "YC-10087",
+   "province": "인천",
+   "city": "미추홀구",
+   "district_label": "미추홀구",
+   "name": "인천광역시 청년지원센터 유유기지",
+   "address": "인천광역시 미추홀구 석정로 229 제물포스마트타운 15층,14층",
+   "phone": "032-725-3061",
+   "url": "https://youth.incheon.go.kr/space/inuu/"
+  },
+  {
+   "id": "YC-10088",
+   "province": "인천",
+   "city": "부평구",
+   "district_label": "부평구",
+   "name": "청년공간 유유기지 부평",
+   "address": "인천광역시 부평구 부평대로 301 남광센트렉스 116호",
+   "phone": "032-363-3141",
+   "url": "https://youth.incheon.go.kr/space/bupyeong/"
+  },
+  {
+   "id": "YC-10089",
+   "province": "인천",
+   "city": "서해구",
+   "district_label": "서해구",
+   "name": "청년센터 서해구1939",
+   "address": "인천광역시 서해구 봉오재3로94번길 19 에이스타워 6층",
+   "phone": "032-560-0939",
+   "url": "https://youth.incheon.go.kr/space/seogu/"
+  },
+  {
+   "id": "YC-10090",
+   "province": "인천",
+   "city": "연수구",
+   "district_label": "연수구",
+   "name": "인천 청년공간 연수청년자리",
+   "address": "인천광역시 연수구 원인재로 115 연수구청 별관 2층",
+   "phone": "032-749-8987",
+   "url": "https://youth.incheon.go.kr/space/yeonsu/"
+  },
+  {
+   "id": "YC-10091",
+   "province": "인천",
+   "city": "영종구",
+   "district_label": "영종구",
+   "name": "영종구 청년내일기지",
+   "address": "인천광역시 중구 영종대로 94 404호",
+   "phone": "032-746-6951",
+   "url": "https://youth.incheon.go.kr/space/junggu/"
+  },
+  {
+   "id": "YC-10086",
+   "province": "인천",
+   "city": "제물포구",
+   "district_label": "제물포구",
+   "name": "유유기지 제물포구",
+   "address": "인천광역시 동구 송림로 14",
+   "phone": "032-766-6077",
+   "url": "https://youth.incheon.go.kr/space/donggu/"
+  },
+  {
+   "id": "YC-10203",
+   "province": "전남",
+   "city": "강진군",
+   "district_label": "강진군",
+   "name": "강진 청년지원센터",
+   "address": "강진군 강진읍 중앙로 150 2층(어울림센터)",
+   "phone": "061-432-3878",
+   "url": "https://blog.naver.com/onbutcp"
+  },
+  {
+   "id": "YC-10204",
+   "province": "전남",
+   "city": "고흥군",
+   "district_label": "고흥군",
+   "name": "고흥청춘누리",
+   "address": "고흥군 고흥읍 고흥로 1846",
+   "phone": "061-830-5095",
+   "url": "https://www.instagram.com/goheung_youthcenter/?igshid=YmMyMTA2M2Y%3D"
+  },
+  {
+   "id": "YC-10205",
+   "province": "전남",
+   "city": "곡성군",
+   "district_label": "곡성군",
+   "name": "곡성군 청년센터",
+   "address": "전라남도 곡성군 곡성읍 읍내25길 2-1",
+   "phone": "061-360-2912",
+   "url": "https://www.gokseong.go.kr/youth/main.do"
+  },
+  {
+   "id": "YC-10206",
+   "province": "전남",
+   "city": "광양시",
+   "district_label": "광양시",
+   "name": "광양청년꿈터",
+   "address": "전라남도 광양시 오류5길 8",
+   "phone": "061-818-2020",
+   "url": "https://www.gwangyang.go.kr/youth"
+  },
+  {
+   "id": "YC-10207",
+   "province": "전남",
+   "city": "구례군",
+   "district_label": "구례군",
+   "name": "구례군 청년센터",
+   "address": "구례군 구례읍 5일시장작은길 20",
+   "phone": "070-4265-1460",
+   "url": "https://www.instagram.com/gurye_young/"
+  },
+  {
+   "id": "YC-10208",
+   "province": "전남",
+   "city": "나주시",
+   "district_label": "나주시",
+   "name": "나주시 청년센터(청년가온마당)",
+   "address": "전남 나주시 토계길 61",
+   "phone": "061-332-7987",
+   "url": "https://www.naju.go.kr/najuyouth"
+  },
+  {
+   "id": "YC-10211",
+   "province": "전남",
+   "city": "무안군",
+   "district_label": "무안군",
+   "name": "무안군 청년 플랫폼",
+   "address": "삼향읍 오룡1길 37, 2층",
+   "phone": "061-454-5732",
+   "url": "https://blog.naver.com/muan2030"
+  },
+  {
+   "id": "YC-10212",
+   "province": "전남",
+   "city": "무안군",
+   "district_label": "무안군",
+   "name": "전라남도청년센터",
+   "address": "무안군 삼향읍 오룡3길 2",
+   "phone": "061-288-3880",
+   "url": "https://www.jnyouthcenter.kr/bbs/board.php?bo_table=bbs02_05&wr_id=1"
+  },
+  {
+   "id": "YC-10210",
+   "province": "전남",
+   "city": "보성군",
+   "district_label": "보성군",
+   "name": "보성군 청년센터",
+   "address": "전남 보성군 새싹길 23, 2층 2층",
+   "phone": "061-853-0969",
+   "url": "http://blog.naver.com/boseongyouth"
+  },
+  {
+   "id": "YC-10214",
+   "province": "전남",
+   "city": "순천시",
+   "district_label": "순천시",
+   "name": "순천시청년센터 \"꿈꾸는 청춘\"",
+   "address": "순천시 중앙로95, 2층",
+   "phone": "061-753-4640",
+   "url": "https://blog.naver.com/suncheonyouth"
+  },
+  {
+   "id": "YC-10216",
+   "province": "전남",
+   "city": "여수시",
+   "district_label": "여수시",
+   "name": "여수시청년지원센터",
+   "address": "여수시 문수로117",
+   "phone": "061-664-2113",
+   "url": "https://www.yeosu.go.kr/youthcenter"
+  },
+  {
+   "id": "YC-10262",
+   "province": "전남",
+   "city": "영광군",
+   "district_label": "영광군",
+   "name": "영광군 청년센터",
+   "address": "영광읍 중앙로5길 16-2 (영광청년육아나눔터 내)",
+   "phone": "061-351-2112",
+   "url": "http://ygyoungman.or.kr"
+  },
+  {
+   "id": "YC-10217",
+   "province": "전남",
+   "city": "영암군",
+   "district_label": "영암군",
+   "name": "달빛청춘마루",
+   "address": "영암군 영암읍 동문안1길 15",
+   "phone": "061-470-1021",
+   "url": "https://www.yeongam.go.kr/home/moonlight"
+  },
+  {
+   "id": "YC-10220",
+   "province": "전남",
+   "city": "완도군",
+   "district_label": "완도군",
+   "name": "완도청년센터 완생",
+   "address": "완도군 완도읍 군내길 7",
+   "phone": "061-555-6003",
+   "url": "https://www.instagram.com/wando.ingu/"
+  },
+  {
+   "id": "YC-10273",
+   "province": "전남",
+   "city": "장성군",
+   "district_label": "장성군",
+   "name": "장성군 청년센터 아우름",
+   "address": "전남 장성군 장성읍 영천로 231-1",
+   "phone": "061-390-7702",
+   "url": "https://www.jangseong.go.kr/home/ingu-youth/youth02"
+  },
+  {
+   "id": "YC-10219",
+   "province": "전남",
+   "city": "진도군",
+   "district_label": "진도군",
+   "name": "진도군 청년센터",
+   "address": "진도군 진도읍 진도대로 7197",
+   "phone": "061-542-8622",
+   "url": "https://www.jindo.go.kr/youth/main.cs"
+  },
+  {
+   "id": "YC-10320",
+   "province": "전남",
+   "city": "함평군",
+   "district_label": "함평군",
+   "name": "함평군 청년센터",
+   "address": "함평군 함평읍 중앙길 164, 3층",
+   "phone": "061-320-1726",
+   "url": "https://www.hampyeong.go.kr"
+  },
+  {
+   "id": "YC-10221",
+   "province": "전남",
+   "city": "화순군",
+   "district_label": "화순군",
+   "name": "화순군 청년센터 청춘들락",
+   "address": "화순군 화순읍 자치샘로 49-4",
+   "phone": "061-372-3000",
+   "url": "https://www.instagram.com/hwasunyouthcenter"
+  },
+  {
+   "id": "YC-10191",
+   "province": "전북",
+   "city": "군산시",
+   "district_label": "군산시",
+   "name": "군산시 청년뜰 청년센터·창업센터",
+   "address": "전라북도 군산시 내항1길 4",
+   "phone": "063-471-1546",
+   "url": "http://www.gsyouth.or.kr"
+  },
+  {
+   "id": "YC-10192",
+   "province": "전북",
+   "city": "김제시",
+   "district_label": "김제시",
+   "name": "김제청년공간 E :DA(이다)",
+   "address": "전라북도 김제시 남북10길 44",
+   "phone": "063-545-2030",
+   "url": "http://www.ieda.or.kr"
+  },
+  {
+   "id": "YC-10193",
+   "province": "전북",
+   "city": "남원시",
+   "district_label": "남원시",
+   "name": "남원시 청년·창업센터 「청년마루」",
+   "address": "남원시 동문로 50-7",
+   "phone": "063-632-2030",
+   "url": "https://www.namwon2030.or.kr/"
+  },
+  {
+   "id": "YC-10194",
+   "province": "전북",
+   "city": "부안군",
+   "district_label": "부안군",
+   "name": "부안청년UP센터",
+   "address": "부안군 부안읍 군청길7",
+   "phone": "063-584-2662",
+   "url": "https://www.buan.go.kr/youthup/index.buan?menuCd=DOM_000001901000000000"
+  },
+  {
+   "id": "YC-10317",
+   "province": "전북",
+   "city": "순창군",
+   "district_label": "순창군",
+   "name": "순창청년문화센터",
+   "address": "순창군 순창읍 교성2길 25",
+   "phone": "063-650-1587",
+   "url": "https://www.sunchang.go.kr/index.do?menuUid=ff8080819a2f0e3b019ac9447b0c4968"
+  },
+  {
+   "id": "YC-10318",
+   "province": "전북",
+   "city": "완주군",
+   "district_label": "완주군",
+   "name": "완주청년종합지원센터",
+   "address": "봉동읍 장기리 212-5, 2층",
+   "phone": "063-262-1480",
+   "url": "https://youth.wanju.go.kr/index.wanju"
+  },
+  {
+   "id": "YC-10319",
+   "province": "전북",
+   "city": "완주군",
+   "district_label": "완주군",
+   "name": "이서나루",
+   "address": "완주군 이서면 갈산로 40, 5층",
+   "phone": "063-229-3230",
+   "url": "https://www.instagram.com/planetwanju._3"
+  },
+  {
+   "id": "YC-10195",
+   "province": "전북",
+   "city": "완주군",
+   "district_label": "완주군",
+   "name": "플래닛 완주2호 청촌방앗간",
+   "address": "완주군 고산면 고산로 100, 2층",
+   "phone": "063-290-3237",
+   "url": "https://www.instagram.com/cheongchon_mill/"
+  },
+  {
+   "id": "YC-10196",
+   "province": "전북",
+   "city": "완주군",
+   "district_label": "완주군",
+   "name": "플래닛완주1호 완충지대",
+   "address": "전라북도 완주군 삼례읍 삼례로 382, 4층",
+   "phone": "070-4113-7770",
+   "url": "https://www.instagram.com/wanchungjidae/"
+  },
+  {
+   "id": "YC-10197",
+   "province": "전북",
+   "city": "익산시",
+   "district_label": "익산시",
+   "name": "익산 청년시청",
+   "address": "익산시 중앙로 22-202",
+   "phone": "063-859-7384",
+   "url": "https://youthforest.iksan.go.kr/index.iksan"
+  },
+  {
+   "id": "YC-10198",
+   "province": "전북",
+   "city": "장수군",
+   "district_label": "장수군",
+   "name": "청년소통공간",
+   "address": "장수군 장수읍 방촌길 10, 2층",
+   "phone": "063-350-2192",
+   "url": "https://www.jangsu.go.kr/index.jangsu"
+  },
+  {
+   "id": "YC-10199",
+   "province": "전북",
+   "city": "전주시 덕진구",
+   "district_label": "전주시 덕진구",
+   "name": "전북청년허브센터",
+   "address": "전라북도 전주시 덕진구 오공로 123 테크비즈센터 4층",
+   "phone": "063-227-2030",
+   "url": "http://www.jb2030.or.kr"
+  },
+  {
+   "id": "YC-10201",
+   "province": "전북",
+   "city": "전주시 완산구",
+   "district_label": "전주시 완산구",
+   "name": "청년이음전주",
+   "address": "전주시 완산구 현무1길 31-5",
+   "phone": "063-281-5318",
+   "url": "https://youth.jeonju.go.kr/"
+  },
+  {
+   "id": "YC-10200",
+   "province": "전북",
+   "city": "정읍시",
+   "district_label": "정읍시",
+   "name": "청년지원센터 청정지대",
+   "address": "정읍시 서성길 6",
+   "phone": "063-536-0333",
+   "url": "http://청정지대.kr"
+  },
+  {
+   "id": "YC-10202",
+   "province": "전북",
+   "city": "진안군",
+   "district_label": "진안군",
+   "name": "진안군청년센터 (월랑)",
+   "address": "전라북도 진안군 진안읍 우화1길 7",
+   "phone": "010-3253-2501",
+   "url": "https://www.instagram.com/jincheong2025"
+  },
+  {
+   "id": "YC-10254",
+   "province": "제주",
+   "city": "제주시",
+   "district_label": "제주시",
+   "name": "제주청년센터",
+   "address": "제주특별자치도 제주시 중앙로 53 5-7층",
+   "phone": "064-757-9400",
+   "url": "https://jejuyouth.com/index.php"
+  },
+  {
+   "id": "YC-10268",
+   "province": "충남",
+   "city": "계룡시",
+   "district_label": "계룡시",
+   "name": "계룡청년공간 소소마루",
+   "address": "충남 계룡시 서금암로 17 은혜로빌딩 5층",
+   "phone": "042-840-2521",
+   "url": "https://blog.naver.com/soso_maru"
+  },
+  {
+   "id": "YC-10315",
+   "province": "충남",
+   "city": "논산시",
+   "district_label": "논산시",
+   "name": "논산시청년센터(논산청년꿈키움광장)",
+   "address": "충남 논산시 대학로 61(미래광장 5층)",
+   "phone": "041-730-6060",
+   "url": "https://www.nsyouth.or.kr/youthdream/"
+  },
+  {
+   "id": "YC-10180",
+   "province": "충남",
+   "city": "보령시",
+   "district_label": "보령시",
+   "name": "보령청년 커뮤니티센터",
+   "address": "충청남도 보령시 명천로4길 21 3층",
+   "phone": "041-933-8655",
+   "url": "https://cafe.naver.com/bryc8655"
+  },
+  {
+   "id": "YC-10182",
+   "province": "충남",
+   "city": "부여군",
+   "district_label": "부여군",
+   "name": "부여청년센터",
+   "address": "충청남도 부여군 부여읍 사비로 100번길 10",
+   "phone": "041-830-2479",
+   "url": "https://www.buyeo.go.kr/html/bycc/sub01/sub01_0101.html"
+  },
+  {
+   "id": "YC-10181",
+   "province": "충남",
+   "city": "서산시",
+   "district_label": "서산시",
+   "name": "(젊은우리) 서산청년마당",
+   "address": "충청남도 서산시 번화1로 19",
+   "phone": "041-429-0351",
+   "url": "https://www.seosan.go.kr/welfare/contents.do?key=7631"
+  },
+  {
+   "id": "YC-10183",
+   "province": "충남",
+   "city": "서천군",
+   "district_label": "서천군",
+   "name": "한산 디지털 노마드 센터 (임시)서천군 청년센터",
+   "address": "서천군 한산면 충절로1173번길 20-16",
+   "phone": "041-950-4541",
+   "url": "https://www.seocheon.go.kr/scyouth/"
+  },
+  {
+   "id": "YC-10184",
+   "province": "충남",
+   "city": "아산시",
+   "district_label": "아산시",
+   "name": "청년아지트 나와유 배방점",
+   "address": "충청남도 아산시 배방읍 월천2길 8-14 LS빌딩 3층 4층",
+   "phone": "041-530-6115",
+   "url": "https://www.asan.go.kr/naeil/"
+  },
+  {
+   "id": "YC-10185",
+   "province": "충남",
+   "city": "아산시",
+   "district_label": "아산시",
+   "name": "청년아지트 나와유 온양점",
+   "address": "충청남도 아산시 번영로86번길 27-4",
+   "phone": "041-530-6275",
+   "url": "https://www.asan.go.kr/naeil/"
+  },
+  {
+   "id": "YC-10316",
+   "province": "충남",
+   "city": "예산군",
+   "district_label": "예산군",
+   "name": "예산청년온담",
+   "address": "충남 예산군 예산읍 역전로 46번길 25",
+   "phone": "041-339-8395",
+   "url": "https://blog.naver.com/yesan-youth"
+  },
+  {
+   "id": "YC-10186",
+   "province": "충남",
+   "city": "천안시 동남구",
+   "district_label": "천안시 동남구",
+   "name": "천안청년센터 대흥이음",
+   "address": "충청남도 천안시 동남구 은행길 15-1 5층",
+   "phone": "041-900-2030",
+   "url": "http://www.ch2030youth.kr"
+  },
+  {
+   "id": "YC-10188",
+   "province": "충남",
+   "city": "천안시 동남구",
+   "district_label": "천안시 동남구",
+   "name": "천안청년센터 안서이음",
+   "address": "충청남도 천안시 동남구 상명대길 58 3층",
+   "phone": "041-900-2030",
+   "url": "https://www.ch2030youth.kr"
+  },
+  {
+   "id": "YC-10187",
+   "province": "충남",
+   "city": "천안시 서북구",
+   "district_label": "천안시 서북구",
+   "name": "천안청년센터 불당이음",
+   "address": "충청남도 천안시 서북구 검은들3길 38 8층",
+   "phone": "041-417-2032",
+   "url": "https://www.ch2030youth.kr"
+  },
+  {
+   "id": "YC-10266",
+   "province": "충남",
+   "city": "청양군",
+   "district_label": "청양군",
+   "name": "청년활력공간 (LAB)",
+   "address": "충청남도 청양군 청양읍 중앙로열길 22-1",
+   "phone": "041-942-3306",
+   "url": "https://www.xn--og5bwgv8pq6k.org/"
+  },
+  {
+   "id": "YC-10189",
+   "province": "충남",
+   "city": "태안군",
+   "district_label": "태안군",
+   "name": "태안청년창업비즈니스센터",
+   "address": "충청남도 태안군 태안읍 군청로 24 2층",
+   "phone": "041-670-2065",
+   "url": "https://www.taean.go.kr/area/sub01_12_01_01.do"
+  },
+  {
+   "id": "YC-10190",
+   "province": "충남",
+   "city": "홍성군",
+   "district_label": "홍성군",
+   "name": "충청남도 청년센터",
+   "address": "충청남도 홍성군 홍북읍 상하천로 58 102호",
+   "phone": "041-635-1370",
+   "url": "https://blog.naver.com/cn_youth"
+  },
+  {
+   "id": "YC-10171",
+   "province": "충북",
+   "city": "옥천군",
+   "district_label": "옥천군",
+   "name": "청년이랑",
+   "address": "충청북도 옥천군 옥천읍 중앙로73",
+   "phone": "043-730-3786",
+   "url": "https://www.oc.go.kr/young/index.do"
+  },
+  {
+   "id": "YC-10175",
+   "province": "충북",
+   "city": "제천시",
+   "district_label": "제천시",
+   "name": "제천시 청년센터",
+   "address": "충북 제천시 독순로 65 중앙로2가",
+   "phone": "043-642-6501",
+   "url": "https://www.jcyc.kr/"
+  },
+  {
+   "id": "YC-10261",
+   "province": "충북",
+   "city": "진천군",
+   "district_label": "진천군",
+   "name": "진천군청년센터",
+   "address": "충북 진천군 진천읍 원덕로 400 4층(농업혁신성장센터)",
+   "phone": "043-532-2273",
+   "url": "https://www.jcy.kr/"
+  },
+  {
+   "id": "YC-10173",
+   "province": "충북",
+   "city": "청주시 상당구",
+   "district_label": "청주시 상당구",
+   "name": "청춘잡담",
+   "address": "충청북도 청주시 상당구 사직대로 361번길 158-10 6층",
+   "phone": "043-221-0621",
+   "url": "http://ccjobdam.com/www/main"
+  },
+  {
+   "id": "YC-10269",
+   "province": "충북",
+   "city": "충주시",
+   "district_label": "충주시",
+   "name": "충주시청년센터",
+   "address": "충주시 관아 1길 20 문화창업재생허브, 2층",
+   "phone": "043-853-2030",
+   "url": "https://cjyouth.kr/"
+  }
+ ]
+}

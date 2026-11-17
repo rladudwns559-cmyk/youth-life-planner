@@ -1,0 +1,965 @@
+{
+ "schema_version": 1,
+ "built_on": "2026-11-16",
+ "method": "모집 중 사업 중 나이·취업 조건이 비어 있던 사업의 공고 요약 문구(age_note·required_checks)에서 하나의 범위만 명시된 경우에만 구조화. 범위가 여러 개이거나 기준일이 불분명하면 추가 확인으로 둠.",
+ "conditions": [
+  {
+   "program_id": "KR-NATIONAL-EMPLOYMENT-YOUTH-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 15,
+    "maximum": 34,
+    "older_exception": true,
+    "age_margin": 1,
+    "older_exception_years": 3,
+    "note": "추가모집 안내의 청년은15~34세,병역 이행기간 최대3년 가산.유형별 연령·요건은 별도 확인."
+   }
+  },
+  {
+   "program_id": "ANSAN-INTERVIEW-SUIT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "안산 주민등록 18~39세 면접 예정 청년이라는 공식 문구만 유지. 출생범위 미기재. 취업 면접을 앞둔 청년. 재직 여부에 따른 세부 제외조건은 원문 신청 안내 확인. 신청일 주민등록상 안산 거주 여부 확인."
+   }
+  },
+  {
+   "program_id": "ANSAN-YOUTH-EXAM-FEE-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2007-12-31",
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "공식 2026년 기준 19~39세(1986~2007년생). 시험 응시일 기준 미취업. 1년 미만 단기노동자 예외는 공식 보도에서 안내. 신청일 주민등록상 안산시 거주."
+   }
+  },
+  {
+   "program_id": "BUSAN-YOUTH-DIDIMDOL-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2008-12-31",
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "공고일2026.03.03. 기준18~39세, 1986.01.01.~2008.12.31.; 생애1회. 미취업·미창업, 주30시간 미만 근로 예외. 최종학력 졸업/중퇴/제적 원칙, 재학생 제외·교육형태 예외 존재. 공고일 주민등록상 부산."
+   }
+  },
+  {
+   "program_id": "INCHEON-WORKING-YOUTH-POINTS-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-02",
+    "birth_end": "2008-01-01",
+    "older_exception": true,
+    "age_margin": 1,
+    "older_exception_years": 3,
+    "note": "2026.01.01. 기준18~39세, 1986.01.02.~2008.01.01.; 병역 상한 최대3년 연장. 인천 중소기업 동일사업장3개월 이상, 2026.1.1. 이전 취업, 4대보험·주36시간 이상. 신청일부터 지원기간까지 인천 주민등록 유지."
+   }
+  },
+  {
+   "program_id": "INCHEON-DREAM-NARAE-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": true,
+    "age_margin": 2,
+    "older_exception_years": 3,
+    "note": "공식 페이지:18~39세(2026 출생연도1986~2007), 고교졸업예정자 포함; 제대군인 최대3세 연장. 면접 예정 또는 컨설팅 대상 구직활동 중인 청년; 이직 면접도 FAQ에서 허용. 인천 주민등록 또는 인천 소재 대학 재/휴학 중."
+   }
+  },
+  {
+   "program_id": "DAEJEON-YOUTH-RENT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "신청일 기준 19~39세 청년 / 신청일 대전 거주 / 공고 첨부의 세부 배제조건 추가 확인 / 무주택 청년가구, 본인 명의 임대차계약"
+   }
+  },
+  {
+   "program_id": "DAEGU-DALSEO-EXAM-FEE-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2007-12-31",
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "2026년 기준 18~39세, 1986~2007년 출생자 / 신청일 기준 달서구에 1년 이상 계속 주민등록. 재전입 시 재전입일 기준 / 신청일 미취업 및 사업자등록 사실 없음. 정부직접일자리, 주 30시간 이하 또는 3개월 이하 단기근로자는 예외적으로 지원 가능 / "
+   }
+  },
+  {
+   "program_id": "GWANGJU-GWANGSAN-CERTIFICATION-COST-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "19~39세 / 광산구 주민등록 / 지원내용 본문에는 미취업 청년으로 명시. 같은 페이지 구조화 요약에는 취업상태 제한없음으로 표시되어 충돌 / "
+   }
+  },
+  {
+   "program_id": "ULSAN-YOUTH-SPORTS-CULTURE-PASS-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2007-12-31",
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "19~39세, 1986~2007년 출생 / 공고일부터 신청일까지 울산 주민등록 / 열람 보도에 취업 제한 미기재 / "
+   }
+  },
+  {
+   "program_id": "SEJONG-YOUTH-RENT-2026-H1",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "19~39세 / 세종시 거주 / 열람 공지에 미기재 / 무주택 청년 1인 가구"
+   }
+  },
+  {
+   "program_id": "GANGWON-JOB-PREPARATION-COUPON-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 45,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "신청일 만 18~45세 / 신청일 강원 주민등록 / 미취업 청년 / "
+   },
+   "employment": {
+    "employed": "FAIL",
+    "unemployed": "PASS",
+    "self_employed": "UNKNOWN"
+   }
+  },
+  {
+   "program_id": "CHUNGNAM-CHEONGYANG-EMPLOYMENT-ALLOWANCE-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 45,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "신청일 만 18~45세 / 신청일 청양군 주민등록 / 공식 구직망을 통해 청양군 소재 사업장 면접 후 현재 재직. 성공·근속수당은 면접수당 사업장과 동일해야 함 / "
+   }
+  },
+  {
+   "program_id": "JEONBUK-YOUTH-SETTLEMENT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "18~39세(전주시 공식 보도) / 공고일 기준 주민등록상 전북 1년 이상 거주(전주시 보도) / 농·임·어업 경영주, 중소기업 정규직, 예술활동증명 청년, 연구소기업 정규직 등 분야 요건 및 종사기간 확인 / "
+   }
+  },
+  {
+   "program_id": "GB-POHANG-YOUTH-JOB-PACKAGE-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 34,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "신청일 포항1개월 이상 주민등록,19~34세 미취업 청년 안내."
+   },
+   "employment": {
+    "employed": "FAIL",
+    "unemployed": "PASS",
+    "self_employed": "UNKNOWN"
+   }
+  },
+  {
+   "program_id": "GN-YOUTH-INTERVIEW-SUIT-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2008-12-31",
+    "older_exception": false,
+    "age_margin": 2,
+    "note": "공식 지원대상은 경남 주소18~39세, 1986~2008년생(고교졸업예정자 포함). 현재 만 나이로 변환하지 않고 출생연도·고교졸업예정 예외와 신청 기준일을 확인합니다."
+   }
+  },
+  {
+   "program_id": "JB-GUNSAN-YOUTH-INTERVIEW-FEE-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2008-12-31",
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "18~39세·1986~2008년생.1986년생은 신청일 생일이 지나지 않은 경우라는 별도 조건이 있어 단순 연나이로 대체하지 않습니다."
+   }
+  },
+  {
+   "program_id": "JB-GUNSAN-JOB-SUCCESS-GIFT-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2008-12-31",
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "18~39세·1986~2008년생.1986년생은 신청일 생일 경계 조건. 거주지역 무관."
+   }
+  },
+  {
+   "program_id": "INCHEON-YEONGJONG-EXAM-FEE-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2008-12-31",
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "공식1986.1.1~2008.12.31 출생,18~39세. 신청일 영종구 주소·응시일 고용상태를 확인합니다."
+   }
+  },
+  {
+   "program_id": "SEOUL-ISOLATED-YOUTH-SUPPORT-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2007-12-31",
+    "older_exception": true,
+    "age_margin": 1,
+    "older_exception_years": 3,
+    "note": "서울 거주 청년1986.1.1~2007.12.31 및 가족. 의무복무 제대군인은 최대3년 연장 안내로 일반출생범위 밖도 추가확인합니다."
+   }
+  },
+  {
+   "program_id": "SEOUL-YOUNGTECH-COUNSELING-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": true,
+    "age_margin": 1,
+    "older_exception_years": 3,
+    "note": "서울 거주 만19~39세, 제대군인은 최대42세까지 가능. 구체적 복무기간별 가산은 추가확인."
+   }
+  },
+  {
+   "program_id": "SEOUL-YONGSAN-YOUTH-LIFE-COOKIE-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "19~39세, 용산 거주 또는 용산 기반 직장·학교·활동 청년. 고정 생년월일 기준은 미표시."
+   }
+  },
+  {
+   "program_id": "SEOUL-YANGCHEON-LEATHER-WORKSHOP-2026-11",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": true,
+    "age_margin": 1,
+    "note": "서울시 생활권 만19~39세. 의무복무 제대군인은 복무기간만큼 연령상한 연장 가능. 신규참여자 우대."
+   }
+  },
+  {
+   "program_id": "BUSAN-HAEUNDAE-AI-MARKETING-2026-R2",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 15,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "만15~39세졸업예정/졸업자및재직자.재학생은사이버대·방송통신대·야간대등만가능."
+   }
+  },
+  {
+   "program_id": "BUSAN-JINGU-MOCK-INTERVIEW-2026-11",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 15,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "구조화대상15~39세이하,상세만39세이하청년.정확한연령기준일·거주제한미표시."
+   }
+  },
+  {
+   "program_id": "METRO-YONGIN-YOUTH-DEPOSIT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "용인 거주 18~39세 정책적금 만기자입니다."
+   }
+  },
+  {
+   "program_id": "METRO-YONGIN-BROKER-DISCOUNT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 34,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "18~34세 청년입니다."
+   }
+  },
+  {
+   "program_id": "METRO-YONGIN-AI-JOB-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "용인 거주 또는 지정 관내 대학 재학·휴학 중인 18~39세 청년 구직자입니다."
+   }
+  },
+  {
+   "program_id": "METRO-SUWON-SUIT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "취업 면접을 앞둔 19~39세 수원시 청년입니다."
+   }
+  },
+  {
+   "program_id": "METRO-GIMPO-SUIT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 15,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "김포 거주 15~39세 청년 구직자입니다."
+   }
+  },
+  {
+   "program_id": "METRO-SEONGNAM-ALLPASS-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "신청 시 성남에 1년 이상 주민등록한 19~39세 미취업 청년입니다. 대학생과 1년 미만 비정규직 예외가 있습니다."
+   }
+  },
+  {
+   "program_id": "METRO-ANYANG-INTERVIEW-STYLE-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "안양 거주 만 19~39세 청년 구직자입니다."
+   }
+  },
+  {
+   "program_id": "METRO-GANGNAM-EXAM-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "강남구 거주 만 19~39세 미취업 청년입니다."
+   },
+   "employment": {
+    "employed": "FAIL",
+    "unemployed": "PASS",
+    "self_employed": "UNKNOWN"
+   }
+  },
+  {
+   "program_id": "GW-WONJU-COMMUTE-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "신청일 기준 18~39세이며 2023년 1월 1일 이후 원주시로 전입하여 현재 거주하고, 관외 직장에 출퇴근하는 청년"
+   }
+  },
+  {
+   "program_id": "CN-CHEONAN-EXAM-H2-2026",
+   "employment": {
+    "employed": "FAIL",
+    "unemployed": "PASS",
+    "self_employed": "UNKNOWN"
+   }
+  },
+  {
+   "program_id": "CN-CHEONAN-GROWTH-NOV-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 15,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "천안 청년 15~39세. 미취업자, 졸업예정자, 이직예정자 순으로 선정 우선순위가 있습니다."
+   }
+  },
+  {
+   "program_id": "CN-CHEONAN-LOCAL-BRAND-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "공고 대상은 천안시 거주 청년 및 대학생 만 18~39세입니다. 대학생의 거주·재학 요건은 공고에서 확인해야 합니다."
+   }
+  },
+  {
+   "program_id": "JN-GWANGYANG-YOUTH-SUIT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 45,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "광양시 거주 18~45세 청년"
+   }
+  },
+  {
+   "program_id": "GB-GUMI-JOB-PASS-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "구미 주소를 둔 18~39세 미취업 청년. 주 30시간 이하 또는 3개월 이하의 생계형 아르바이트는 증빙으로 예외 심사합니다."
+   }
+  },
+  {
+   "program_id": "DJ-YOUTH-SUIT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "대전 거주 18~39세 미취업자. 고용보험 미가입 또는 주 30시간 미만 근로자 등 세부 기준이 있습니다."
+   }
+  },
+  {
+   "program_id": "JEJU-HOPE-SAVINGS-R2-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 15,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "만 15~39세 정규직 청년 근로자와 참여 중소기업 요건을 함께 심사합니다."
+   }
+  },
+  {
+   "program_id": "JB-JEONJU-INTERVIEW-SUIT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "전주시에 거주하는 18~39세 구직 청년"
+   }
+  },
+  {
+   "program_id": "GAP-MICHUHOL-INTERVIEW-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "18~39세 미추홀구 주민등록 미취업 청년이 대상입니다."
+   }
+  },
+  {
+   "program_id": "GAP-NOWON-GROWTH-NOV-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "만 19~39세 청년으로 관외 거주자도 신청할 수 있습니다."
+   }
+  },
+  {
+   "program_id": "GAP-GOYANG-INTERVIEW-SUIT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "고양 거주 만 18~39세 청년 외에도 관내 대학 재학·휴학생이나 원흥동 대학생연합생활관 입주생 경로가 있습니다."
+   }
+  },
+  {
+   "program_id": "CN-ASAN-YOUTH-JOB-FAIR-NOV-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "공식 행사 대상은 만 18~39세 아산시 청년입니다. 세부 연령 기준일은 기관에 확인하세요."
+   }
+  },
+  {
+   "program_id": "JB-JINAN-YOUTH-STUDY-VISIT-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 45,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "진안군에 거주하는 18~45세 청년 대상입니다. 행사 장소는 공주시입니다."
+   }
+  },
+  {
+   "program_id": "CB-CHUNGJU-STUDY-COST-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "충주 거주 19~39세 미취업 청년 대상입니다. 고용 상태는 수강 시작일부터 완료일까지 별도로 확인합니다."
+   },
+   "employment": {
+    "employed": "FAIL",
+    "unemployed": "PASS",
+    "self_employed": "UNKNOWN"
+   }
+  },
+  {
+   "program_id": "GW-SOKCHO-MOVE-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 45,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "속초에 전입한 18~45세 무주택 청년 가구가 대상입니다."
+   }
+  },
+  {
+   "program_id": "FILL-GEOC-HANG-EXAM-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 45,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "대상은 19~45세 미취업 청년이며 거주·응시 기준일은 군 공고의 세부 요건을 확인하세요."
+   }
+  },
+  {
+   "program_id": "FILL-UIRYEONG-EXAM-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 49,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "의령군에 주소를 둔 18~49세 미취업 청년입니다."
+   }
+  },
+  {
+   "program_id": "OPEN-PYEONGTAEK-TAX-CLASS-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "평택시 생활권의 19~39세 청년이 대상입니다. 강좌 이름의 ‘직장인’은 재직 필수 조건으로 적혀 있지 않습니다."
+   }
+  },
+  {
+   "program_id": "OPEN-SIHEUNG-ENGINEER-RESIDENCE-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 15,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "시흥시 조례상 15~39세 청년 대상입니다. 해당 지역 기업 재직·주민등록·학적 요건을 모두 확인합니다."
+   }
+  },
+  {
+   "program_id": "OPEN-BUPYEONG-SINGLE-YOUTH-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1987-01-01",
+    "birth_end": "2007-12-31",
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "공식 페이지는 20~39세와 1987~2007년생을 함께 표기해 경계 연령은 운영기관에 확인해야 합니다."
+   }
+  },
+  {
+   "program_id": "OPEN-GANGDONG-HOUSING-COUNSEL-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": true,
+    "age_margin": 1,
+    "older_exception_years": 3,
+    "note": "10월 14일 공고일 기준 만 19~39세. 의무복무 제대군인은 복무기간에 따라 상한을 최대 3세 연장합니다."
+   }
+  },
+  {
+   "program_id": "NOV-GG-2442-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "19~39세 청년가구 계약자입니다. 공고일 연령과 계약자를 확인하세요."
+   }
+  },
+  {
+   "program_id": "NOV-GG-2475-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 2,
+    "note": "이천 거주 구직자는 19~39세입니다. 관내 고교 졸업예정자·대학생·휴학생에게 별도 참여 경로가 있습니다."
+   }
+  },
+  {
+   "program_id": "NOV-GG-3011-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 2,
+    "note": "부천 거주 19~39세 또는 부천 소재 고3·대학생 면접예정자 등을 받습니다."
+   }
+  },
+  {
+   "program_id": "NOV-GG-3061-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1986-01-01",
+    "birth_end": "2007-12-31",
+    "older_exception": false,
+    "age_margin": 2,
+    "note": "가평군에 주민등록을 둔 구직 청년으로 안내 범위는 1986~2007년 출생이며 고교 졸업예정자를 포함합니다."
+   }
+  },
+  {
+   "program_id": "NOV-SEOUL-75368-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": true,
+    "age_margin": 1,
+    "note": "공고일 기준 만 19~39세입니다. 강북구 거주·생활권 청년 우대, 제대군인 복무기간 가산을 확인합니다."
+   }
+  },
+  {
+   "program_id": "NOV-SEOUL-GANGSEO-DAY-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": true,
+    "age_margin": 1,
+    "note": "공고일 기준 만 19~39세 서울 거점 청년이며 의무복무 시 상한 연장이 가능합니다."
+   }
+  },
+  {
+   "program_id": "OPEN-DONGNAE-COUNCIL-2026",
+   "age": {
+    "kind": "BIRTH_RANGE",
+    "birth_start": "1987-01-01",
+    "birth_end": "2009-12-31",
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "청년위원은 동래구에 생활기반을 둔 18~39세로 공고하며 1987~2009년생을 함께 표기합니다. 출생일·기준일은 신청처에서 확인하세요."
+   }
+  },
+  {
+   "program_id": "G116-GB-841",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "2026년 1월 1일 기준 18~39세가 대상입니다. 현재 만 나이만으로 기준일 나이를 확정하지 않습니다."
+   }
+  },
+  {
+   "program_id": "RECOMMEND-JB-IKSAN-FINANCE-CLASS-2026",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "익산 거주 18~39세 청년 및 관내 재학생 대상입니다. 관내 재학 예외와 연령 적용은 기관 확인이 필요합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12405",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "부천시에 생활 기반을 둔 19~39세 청년 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12404",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "성남시 거주 청년(19~39세) · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12403",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "19~39세 수원 청년 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12402",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "18~39세 용인시 거주·재학·재직 청년 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12401",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "파주시 청년 구직자(19~39세) 또는 관내 소재 고등학교 및 대학교 졸업예정자 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12400",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "평택시에서 활동 중인 청년(19세~39세) · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12398",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "하남시 거주 또는 재직중인 만19세~39세 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12394",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "성남시 만19세 ~ 39세 청년(거주, 재직, 재학, 활동) · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12391",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 34,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "광주시 거주 청년 만 19세-34세(06년-91년생) · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12390",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "시흥시에 거주하거나 생활기반을 둔 19세 ~ 39세 청년 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12389",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "시흥시에 거주하거나 생활기반을 둔 19세 ~ 39세 청년 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12387",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "성남시 거주·재직·재학·활동 청년(19~39세) 3~6명으로 구성된 팀 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12381",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "임신·출산·육아에 관심 있는 미혼·기혼 청년(19~39세) · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12379",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 35,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "19~35세 청년 누구나 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12376",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "19~39세 예비 또는 초기 청년창업자 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12367",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "18~39세의 양평군 청년 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12363",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "(19~39세 이하)의 평택시 생활권 청년 누구나 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12361",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "화성시 거주 혹은 재직중인 19~39세 청년 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12353",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 18,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "18세 ~ 39세 여주시 청년 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12344",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "광주시 청년(거주·재직·재학·활동) 19세~39세 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  },
+  {
+   "program_id": "EXT3-GG-12343",
+   "age": {
+    "kind": "CURRENT",
+    "minimum": 19,
+    "maximum": 39,
+    "older_exception": false,
+    "age_margin": 1,
+    "note": "남양주 거주 19~39세 청년 중 고립감을 느끼는 청년 · 연령기준일/예외·다른 사람의 연령은 추가 확인합니다."
+   }
+  }
+ ]
+}

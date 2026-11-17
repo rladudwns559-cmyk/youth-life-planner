@@ -1,0 +1,66 @@
+# Daily refresh of 온통청년 Open API data: the nationwide youth-center list (getSpace) and
+# the youth policy list (getPlcy). Needs the repository secrets YOUTHCENTER_CENTER_KEY and
+# YOUTHCENTER_POLICY_KEY; a missing key skips that list. Only the fields the app shows are
+# stored, with the 온통청년 attribution. When a list changes it commits the new JSON and starts
+# the Pages deployment. One list failing does not hold back the other.
+name: Refresh 온통청년 data
+
+on:
+  schedule:
+    - cron: '30 21 * * *'  # 06:30 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: youthcenter-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      YOUTHCENTER_CENTER_KEY: ${{ secrets.YOUTHCENTER_CENTER_KEY }}
+      YOUTHCENTER_POLICY_KEY: ${{ secrets.YOUTHCENTER_POLICY_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Youth centers
+        id: centers
+        continue-on-error: true
+        run: python tools/youthcenter_fetch.py frontend/src/public-data/youth-centers-api.json
+      - name: Keep the policy list from before the fetch
+        run: cp frontend/src/public-data/youth-policies.json "$RUNNER_TEMP/policies-before.json"
+      - name: Youth policies
+        id: policies
+        continue-on-error: true
+        run: python tools/youthcenter_policy_fetch.py frontend/src/public-data/youth-policies.json
+      - name: Record today's counts
+        if: steps.policies.outcome == 'success'
+        run: python tools/record_daily_metrics.py ontong "$RUNNER_TEMP/policies-before.json" frontend/src/public-data/youth-policies.json --centers frontend/src/public-data/youth-centers-api.json
+      - name: Commit when changed and redeploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          files="frontend/src/public-data/youth-centers-api.json frontend/src/public-data/youth-policies.json frontend/src/public-data/metrics-ontong.json"
+          if git diff --quiet -- $files; then
+            echo "No change in the 온통청년 lists."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add $files
+            git commit -m "Data: 온통청년 refresh $(date -u +%F)"
+            git pull --rebase origin main
+            git push
+            gh workflow run pages.yml --ref main
+          fi
+      - name: Report a failed list
+        if: steps.centers.outcome == 'failure' || steps.policies.outcome == 'failure'
+        run: |
+          echo "centers: ${{ steps.centers.outcome }}, policies: ${{ steps.policies.outcome }}"
+          exit 1

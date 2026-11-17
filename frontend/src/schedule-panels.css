@@ -22,3 +22,6 @@
 .calendar-subscribe-status{margin:4px 0;color:#26745f;font-weight:600}
 .calendar-subscribe small{display:block;margin-top:6px;font-size:13px;color:#5b6676}
 @media (max-width:560px){.schedule-month li{grid-template-columns:72px 1fr}}
+.schedule-remove{margin-top:4px;justify-self:start;min-height:28px;padding:0 10px;border-radius:8px;border:1px solid #d5dbe6;background:#fff;color:#3d4a5c;font:inherit;font-size:12px;cursor:pointer}
+.schedule-remove:focus-visible{outline:3px solid #1f57d8;outline-offset:2px}
+.schedule-past li{opacity:.85}

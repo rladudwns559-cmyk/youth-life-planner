@@ -1,6 +1,6 @@
 import {useEffect,useRef,useState} from 'react';
 import centers from './public-data/youth-centers.json';
-import {centersFor} from './YouthCenterHelp';
+import {centersFor,apiCentersFor} from './YouthCenterHelp';
 import './consult-memo.css';
 
 export type MemoItem={
@@ -13,6 +13,7 @@ export type MemoProfile={region:string;age:string;employment:string;rent:string}
 /** One printable page: my conditions, chosen programs with what is still unknown, and where to ask. */
 export function ConsultMemoSheet({items,profile,province,city,asOf}:{items:MemoItem[];profile:MemoProfile;province:string;city:string;asOf:string}){
   const local=centersFor(province,city);
+  const listed=apiCentersFor(province,city);
   return <article className="consult-memo" aria-label="상담 준비 메모">
     <header><h2>청년 지원사업 상담 준비 메모</h2><p>작성 {asOf} · 청년 경제생활 시뮬레이터</p></header>
     <section><h3>내 조건</h3><dl className="memo-profile">
@@ -32,6 +33,7 @@ export function ConsultMemoSheet({items,profile,province,city,asOf}:{items:MemoI
     </section>
     <section><h3>물어볼 곳</h3><ul className="memo-centers">
       {local.map(c=><li key={c.id}><b>{c.name}</b> {c.phone} · {c.address} · {c.hours}</li>)}
+      {listed.slice(0,4).map(c=><li key={c.id}><b>{c.name}</b> {c.phone??'전화 자료 없음'} · {c.address} (출처: 온통청년)</li>)}
       <li><b>온통청년 전화상담</b> {centers.national.phone} ({centers.national.phone_hours}) · 전국 청년센터 찾기 {centers.national.url}</li>
     </ul></section>
     <section className="memo-blank"><h3>상담 메모</h3><div aria-hidden="true"/><div aria-hidden="true"/><div aria-hidden="true"/></section>

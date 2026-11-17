@@ -17,7 +17,10 @@ export function usePlanner(programs:PlannerProgram[]){
  const [saved,setSaved]=useState(()=>readPlanner(programs)),[error,setError]=useState('');
  function write(next:Saved){setSaved(next);try{if(next.favorites.length||next.checks.length)localStorage.setItem(SUPPORT_SAVE_KEY,JSON.stringify(next));else localStorage.removeItem(SUPPORT_SAVE_KEY);setError('');}catch{setError('이 브라우저에서는 저장할 수 없어 현재 화면에서만 유지합니다.');}}
  const toggle=(key:'favorites'|'checks',id:string)=>write({...saved,[key]:saved[key].includes(id)?saved[key].filter(v=>v!==id):[...saved[key],id]});
- return {...saved,error,toggleFavorite:(id:string)=>toggle('favorites',id),toggleCheck:(id:string)=>toggle('checks',id),clear:()=>write({favorites:[],checks:[]})};
+ const known=new Set(programs.map(p=>p.program_id));
+ return {...saved,error,toggleFavorite:(id:string)=>toggle('favorites',id),toggleCheck:(id:string)=>toggle('checks',id),clear:()=>write({favorites:[],checks:[]}),
+  /** Adds favorites from a shared link; unknown ids are ignored. */
+  mergeFavorites:(ids:string[])=>write({...saved,favorites:[...new Set([...saved.favorites,...ids.filter(id=>known.has(id))])]})};
 }
 const escapeICS=(s:string)=>s.replace(/\\/g,'\\\\').replace(/\r?\n/g,'\\n').replace(/;/g,'\\;').replace(/,/g,'\\,');
 // RFC 5545 content lines fold at <=75 octets without splitting a UTF-8 character.

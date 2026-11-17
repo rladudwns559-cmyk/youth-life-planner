@@ -33,6 +33,12 @@ class AgeRule(Strict):
     minimum: int | None = Field(default=None, ge=0, le=120)
     maximum: int | None = Field(default=None, ge=0, le=120)
     older_exception: bool = False
+    # Only when the notice states how far the military-service extension reaches (e.g. 서울청년문화패스
+    # "최대 27세", 3 years over 24). Without it the extension is open-ended and stays "추가 확인".
+    older_exception_years: int | None = Field(default=None, ge=1, le=10)
+    # Years just outside the range that stay "추가 확인" instead of a mismatch, for rules read from
+    # notice wording whose reference date (application day, 1 January, notice day) is not fixed.
+    age_margin: int = Field(default=0, ge=0, le=3)
     note: str
 
     @field_validator('birth_start', 'birth_end')
@@ -44,6 +50,8 @@ class AgeRule(Strict):
     def coherent(self):
         if not self.note.strip():
             raise ValueError('AGE_NOTE_REQUIRED')
+        if self.older_exception_years is not None and not self.older_exception:
+            raise ValueError('EXCEPTION_YEARS_WITHOUT_EXCEPTION')
         if self.kind == 'BIRTH_RANGE':
             if not self.birth_start or not self.birth_end or self.birth_start > self.birth_end:
                 raise ValueError('BIRTH_RANGE_REQUIRED')
@@ -145,15 +153,25 @@ def age_match(rule, age, as_of):
     if rule.kind == 'CURRENT':
         if rule.minimum <= age <= rule.maximum:
             return 'PASS'
-        return 'UNKNOWN' if age > rule.maximum and rule.older_exception else 'FAIL'
+        if rule.minimum - rule.age_margin <= age <= rule.maximum + rule.age_margin:
+            return 'UNKNOWN'
+        reach = rule.maximum + rule.older_exception_years if rule.older_exception_years else None
+        return 'UNKNOWN' if age > rule.maximum and rule.older_exception and (reach is None or age <= reach) else 'FAIL'
     low, high = possible_births(age, as_of)
     start, end = date.fromisoformat(rule.birth_start), date.fromisoformat(rule.birth_end)
     if low >= start and high <= end:
         return 'PASS'
     if low > end:
-        return 'FAIL'
+        return 'UNKNOWN' if rule.age_margin and low <= shift_year(end, rule.age_margin) else 'FAIL'
     if high < start:
-        return 'UNKNOWN' if rule.older_exception else 'FAIL'
+        if rule.age_margin and high >= shift_year(start, -rule.age_margin):
+            return 'UNKNOWN'
+        if not rule.older_exception:
+            return 'FAIL'
+        # With a stated limit, only people born within that many years before the range can reach it.
+        if rule.older_exception_years and high < shift_year(start, -rule.older_exception_years):
+            return 'FAIL'
+        return 'UNKNOWN'
     return 'UNKNOWN'
 
 
