@@ -74,3 +74,12 @@ def test_the_stored_file_only_names_known_open_style_programs():
         if 'age' in c:
             AgeRule.model_validate(c['age'])
             assert c['age']['age_margin'] >= 1
+
+
+def test_conditions_read_on_official_pages_keep_the_quote():
+    from backend.opportunities.current_discovery import VERIFIED_CONDITIONS
+    data = json.loads(VERIFIED_CONDITIONS.read_text(encoding='utf-8'))
+    assert data['checked_on'] == '2026-11-17'
+    for c in data['conditions']:
+        AgeRule.model_validate(c['age'])
+        assert '공식 상세(2026-11-17 확인)' in c['age']['note'] and '"' in c['age']['note']

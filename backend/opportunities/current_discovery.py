@@ -26,6 +26,8 @@ def load_municipal_batches():
 
 
 STRUCTURED=ROOT/'data/support-programs/structured-conditions-20261116.json'
+# Conditions read on the official page itself (quote and check date kept per program).
+VERIFIED_CONDITIONS=ROOT/'data/support-programs/verified-conditions-20261117.json'
 
 def apply_structured_conditions(rules,records,structured):
     """Fill only conditions still left as 추가 확인 with the ones read from the notice wording
@@ -127,6 +129,7 @@ def current_inputs(use_rechecks=True):
             rent_note='월세 거주 여부만으로 공고의 주거 조건을 확정할 수 없습니다.')))
     rules=Rules.model_validate({**rules.model_dump(mode='json'),'rules':[*rules.rules,*additional_rules]})
     rules=apply_structured_conditions(rules,records,read_json(STRUCTURED))
+    if VERIFIED_CONDITIONS.exists():rules=apply_structured_conditions(rules,records,read_json(VERIFIED_CONDITIONS))
     if use_rechecks:apply_recheck_results(records,latest_rechecks())
     from urllib.parse import urlsplit
     data=catalog.model_dump(mode='json')
