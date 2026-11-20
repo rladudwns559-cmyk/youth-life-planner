@@ -5,5 +5,6 @@
   {"date":"2026-11-16","checked":244,"renewed":94,"closed_signal":3,"not_matched":147},
   {"date":"2026-11-17","checked":236,"renewed":93,"closed_signal":3,"not_matched":140},
   {"date":"2026-11-18","checked":231,"renewed":91,"closed_signal":2,"not_matched":138},
-  {"date":"2026-11-19","checked":225,"renewed":90,"closed_signal":3,"not_matched":132}
+  {"date":"2026-11-19","checked":225,"renewed":90,"closed_signal":3,"not_matched":132},
+  {"date":"2026-11-20","checked":220,"renewed":87,"closed_signal":3,"not_matched":130}
 ]}
